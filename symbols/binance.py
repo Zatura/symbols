@@ -40,17 +40,6 @@ class ONEINCHBTC(Symbol):
 
 
 ONEINCHBTC = ONEINCHBTC(*ONEINCHBTC._fields)
-"""
-    name: 1INCHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONEINCHBUSD(Symbol):
@@ -92,17 +81,6 @@ class ONEINCHBUSD(Symbol):
 
 
 ONEINCHBUSD = ONEINCHBUSD(*ONEINCHBUSD._fields)
-"""
-    name: 1INCHBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEINCHDOWNUSDT(Symbol):
@@ -144,17 +122,6 @@ class ONEINCHDOWNUSDT(Symbol):
 
 
 ONEINCHDOWNUSDT = ONEINCHDOWNUSDT(*ONEINCHDOWNUSDT._fields)
-"""
-    name: 1INCHDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEINCHUPUSDT(Symbol):
@@ -196,17 +163,6 @@ class ONEINCHUPUSDT(Symbol):
 
 
 ONEINCHUPUSDT = ONEINCHUPUSDT(*ONEINCHUPUSDT._fields)
-"""
-    name: 1INCHUPUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEINCHUSDT(Symbol):
@@ -248,17 +204,6 @@ class ONEINCHUSDT(Symbol):
 
 
 ONEINCHUSDT = ONEINCHUSDT(*ONEINCHUSDT._fields)
-"""
-    name: 1INCHUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AAVEBKRW(Symbol):
@@ -300,17 +245,6 @@ class AAVEBKRW(Symbol):
 
 
 AAVEBKRW = AAVEBKRW(*AAVEBKRW._fields)
-"""
-    name: AAVEBKRW
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEBNB(Symbol):
@@ -352,17 +286,6 @@ class AAVEBNB(Symbol):
 
 
 AAVEBNB = AAVEBNB(*AAVEBNB._fields)
-"""
-    name: AAVEBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEBRL(Symbol):
@@ -404,17 +327,6 @@ class AAVEBRL(Symbol):
 
 
 AAVEBRL = AAVEBRL(*AAVEBRL._fields)
-"""
-    name: AAVEBRL
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEBTC(Symbol):
@@ -456,17 +368,6 @@ class AAVEBTC(Symbol):
 
 
 AAVEBTC = AAVEBTC(*AAVEBTC._fields)
-"""
-    name: AAVEBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AAVEBUSD(Symbol):
@@ -508,17 +409,6 @@ class AAVEBUSD(Symbol):
 
 
 AAVEBUSD = AAVEBUSD(*AAVEBUSD._fields)
-"""
-    name: AAVEBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEDOWNUSDT(Symbol):
@@ -560,17 +450,6 @@ class AAVEDOWNUSDT(Symbol):
 
 
 AAVEDOWNUSDT = AAVEDOWNUSDT(*AAVEDOWNUSDT._fields)
-"""
-    name: AAVEDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEETH(Symbol):
@@ -612,17 +491,6 @@ class AAVEETH(Symbol):
 
 
 AAVEETH = AAVEETH(*AAVEETH._fields)
-"""
-    name: AAVEETH
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEUPUSDT(Symbol):
@@ -664,17 +532,6 @@ class AAVEUPUSDT(Symbol):
 
 
 AAVEUPUSDT = AAVEUPUSDT(*AAVEUPUSDT._fields)
-"""
-    name: AAVEUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AAVEUSDT(Symbol):
@@ -716,17 +573,6 @@ class AAVEUSDT(Symbol):
 
 
 AAVEUSDT = AAVEUSDT(*AAVEUSDT._fields)
-"""
-    name: AAVEUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ACABTC(Symbol):
@@ -768,17 +614,6 @@ class ACABTC(Symbol):
 
 
 ACABTC = ACABTC(*ACABTC._fields)
-"""
-    name: ACABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACABUSD(Symbol):
@@ -820,17 +655,6 @@ class ACABUSD(Symbol):
 
 
 ACABUSD = ACABUSD(*ACABUSD._fields)
-"""
-    name: ACABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACAUSDT(Symbol):
@@ -872,17 +696,6 @@ class ACAUSDT(Symbol):
 
 
 ACAUSDT = ACAUSDT(*ACAUSDT._fields)
-"""
-    name: ACAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACHBTC(Symbol):
@@ -924,17 +737,6 @@ class ACHBTC(Symbol):
 
 
 ACHBTC = ACHBTC(*ACHBTC._fields)
-"""
-    name: ACHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACHBUSD(Symbol):
@@ -976,17 +778,6 @@ class ACHBUSD(Symbol):
 
 
 ACHBUSD = ACHBUSD(*ACHBUSD._fields)
-"""
-    name: ACHBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ACHTRY(Symbol):
@@ -1028,17 +819,6 @@ class ACHTRY(Symbol):
 
 
 ACHTRY = ACHTRY(*ACHTRY._fields)
-"""
-    name: ACHTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACHUSDT(Symbol):
@@ -1080,17 +860,6 @@ class ACHUSDT(Symbol):
 
 
 ACHUSDT = ACHUSDT(*ACHUSDT._fields)
-"""
-    name: ACHUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ACMBTC(Symbol):
@@ -1132,17 +901,6 @@ class ACMBTC(Symbol):
 
 
 ACMBTC = ACMBTC(*ACMBTC._fields)
-"""
-    name: ACMBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACMBUSD(Symbol):
@@ -1184,17 +942,6 @@ class ACMBUSD(Symbol):
 
 
 ACMBUSD = ACMBUSD(*ACMBUSD._fields)
-"""
-    name: ACMBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ACMUSDT(Symbol):
@@ -1236,17 +983,6 @@ class ACMUSDT(Symbol):
 
 
 ACMUSDT = ACMUSDT(*ACMUSDT._fields)
-"""
-    name: ACMUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAAUD(Symbol):
@@ -1288,17 +1024,6 @@ class ADAAUD(Symbol):
 
 
 ADAAUD = ADAAUD(*ADAAUD._fields)
-"""
-    name: ADAAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADABIDR(Symbol):
@@ -1340,17 +1065,6 @@ class ADABIDR(Symbol):
 
 
 ADABIDR = ADABIDR(*ADABIDR._fields)
-"""
-    name: ADABIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADABKRW(Symbol):
@@ -1392,17 +1106,6 @@ class ADABKRW(Symbol):
 
 
 ADABKRW = ADABKRW(*ADABKRW._fields)
-"""
-    name: ADABKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADABNB(Symbol):
@@ -1444,17 +1147,6 @@ class ADABNB(Symbol):
 
 
 ADABNB = ADABNB(*ADABNB._fields)
-"""
-    name: ADABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADABRL(Symbol):
@@ -1496,17 +1188,6 @@ class ADABRL(Symbol):
 
 
 ADABRL = ADABRL(*ADABRL._fields)
-"""
-    name: ADABRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADABTC(Symbol):
@@ -1548,17 +1229,6 @@ class ADABTC(Symbol):
 
 
 ADABTC = ADABTC(*ADABTC._fields)
-"""
-    name: ADABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ADABUSD(Symbol):
@@ -1600,17 +1270,6 @@ class ADABUSD(Symbol):
 
 
 ADABUSD = ADABUSD(*ADABUSD._fields)
-"""
-    name: ADABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ADADOWNUSDT(Symbol):
@@ -1652,17 +1311,6 @@ class ADADOWNUSDT(Symbol):
 
 
 ADADOWNUSDT = ADADOWNUSDT(*ADADOWNUSDT._fields)
-"""
-    name: ADADOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAETH(Symbol):
@@ -1704,17 +1352,6 @@ class ADAETH(Symbol):
 
 
 ADAETH = ADAETH(*ADAETH._fields)
-"""
-    name: ADAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ADAEUR(Symbol):
@@ -1756,17 +1393,6 @@ class ADAEUR(Symbol):
 
 
 ADAEUR = ADAEUR(*ADAEUR._fields)
-"""
-    name: ADAEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAGBP(Symbol):
@@ -1808,17 +1434,6 @@ class ADAGBP(Symbol):
 
 
 ADAGBP = ADAGBP(*ADAGBP._fields)
-"""
-    name: ADAGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAPAX(Symbol):
@@ -1860,17 +1475,6 @@ class ADAPAX(Symbol):
 
 
 ADAPAX = ADAPAX(*ADAPAX._fields)
-"""
-    name: ADAPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADARUB(Symbol):
@@ -1912,17 +1516,6 @@ class ADARUB(Symbol):
 
 
 ADARUB = ADARUB(*ADARUB._fields)
-"""
-    name: ADARUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADATRY(Symbol):
@@ -1964,17 +1557,6 @@ class ADATRY(Symbol):
 
 
 ADATRY = ADATRY(*ADATRY._fields)
-"""
-    name: ADATRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADATUSD(Symbol):
@@ -2016,17 +1598,6 @@ class ADATUSD(Symbol):
 
 
 ADATUSD = ADATUSD(*ADATUSD._fields)
-"""
-    name: ADATUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAUPUSDT(Symbol):
@@ -2068,17 +1639,6 @@ class ADAUPUSDT(Symbol):
 
 
 ADAUPUSDT = ADAUPUSDT(*ADAUPUSDT._fields)
-"""
-    name: ADAUPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAUSDC(Symbol):
@@ -2120,17 +1680,6 @@ class ADAUSDC(Symbol):
 
 
 ADAUSDC = ADAUSDC(*ADAUSDC._fields)
-"""
-    name: ADAUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADAUSDT(Symbol):
@@ -2172,17 +1721,6 @@ class ADAUSDT(Symbol):
 
 
 ADAUSDT = ADAUSDT(*ADAUSDT._fields)
-"""
-    name: ADAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ADXBNB(Symbol):
@@ -2224,17 +1762,6 @@ class ADXBNB(Symbol):
 
 
 ADXBNB = ADXBNB(*ADXBNB._fields)
-"""
-    name: ADXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADXBTC(Symbol):
@@ -2276,17 +1803,6 @@ class ADXBTC(Symbol):
 
 
 ADXBTC = ADXBTC(*ADXBTC._fields)
-"""
-    name: ADXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADXBUSD(Symbol):
@@ -2328,17 +1844,6 @@ class ADXBUSD(Symbol):
 
 
 ADXBUSD = ADXBUSD(*ADXBUSD._fields)
-"""
-    name: ADXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADXETH(Symbol):
@@ -2380,17 +1885,6 @@ class ADXETH(Symbol):
 
 
 ADXETH = ADXETH(*ADXETH._fields)
-"""
-    name: ADXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ADXUSDT(Symbol):
@@ -2432,17 +1926,6 @@ class ADXUSDT(Symbol):
 
 
 ADXUSDT = ADXUSDT(*ADXUSDT._fields)
-"""
-    name: ADXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AEBNB(Symbol):
@@ -2484,17 +1967,6 @@ class AEBNB(Symbol):
 
 
 AEBNB = AEBNB(*AEBNB._fields)
-"""
-    name: AEBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AEBTC(Symbol):
@@ -2536,17 +2008,6 @@ class AEBTC(Symbol):
 
 
 AEBTC = AEBTC(*AEBTC._fields)
-"""
-    name: AEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AEETH(Symbol):
@@ -2588,17 +2049,6 @@ class AEETH(Symbol):
 
 
 AEETH = AEETH(*AEETH._fields)
-"""
-    name: AEETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AERGOBTC(Symbol):
@@ -2640,17 +2090,6 @@ class AERGOBTC(Symbol):
 
 
 AERGOBTC = AERGOBTC(*AERGOBTC._fields)
-"""
-    name: AERGOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AERGOBUSD(Symbol):
@@ -2692,17 +2131,6 @@ class AERGOBUSD(Symbol):
 
 
 AERGOBUSD = AERGOBUSD(*AERGOBUSD._fields)
-"""
-    name: AERGOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AERGOUSDT(Symbol):
@@ -2744,17 +2172,6 @@ class AERGOUSDT(Symbol):
 
 
 AERGOUSDT = AERGOUSDT(*AERGOUSDT._fields)
-"""
-    name: AERGOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGIBNB(Symbol):
@@ -2796,17 +2213,6 @@ class AGIBNB(Symbol):
 
 
 AGIBNB = AGIBNB(*AGIBNB._fields)
-"""
-    name: AGIBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGIBTC(Symbol):
@@ -2848,17 +2254,6 @@ class AGIBTC(Symbol):
 
 
 AGIBTC = AGIBTC(*AGIBTC._fields)
-"""
-    name: AGIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGIETH(Symbol):
@@ -2900,17 +2295,6 @@ class AGIETH(Symbol):
 
 
 AGIETH = AGIETH(*AGIETH._fields)
-"""
-    name: AGIETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGIXBTC(Symbol):
@@ -2952,17 +2336,6 @@ class AGIXBTC(Symbol):
 
 
 AGIXBTC = AGIXBTC(*AGIXBTC._fields)
-"""
-    name: AGIXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AGIXBUSD(Symbol):
@@ -3004,17 +2377,6 @@ class AGIXBUSD(Symbol):
 
 
 AGIXBUSD = AGIXBUSD(*AGIXBUSD._fields)
-"""
-    name: AGIXBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AGIXTRY(Symbol):
@@ -3056,17 +2418,6 @@ class AGIXTRY(Symbol):
 
 
 AGIXTRY = AGIXTRY(*AGIXTRY._fields)
-"""
-    name: AGIXTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGIXUSDT(Symbol):
@@ -3108,17 +2459,6 @@ class AGIXUSDT(Symbol):
 
 
 AGIXUSDT = AGIXUSDT(*AGIXUSDT._fields)
-"""
-    name: AGIXUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AGLDBNB(Symbol):
@@ -3160,17 +2500,6 @@ class AGLDBNB(Symbol):
 
 
 AGLDBNB = AGLDBNB(*AGLDBNB._fields)
-"""
-    name: AGLDBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGLDBTC(Symbol):
@@ -3212,17 +2541,6 @@ class AGLDBTC(Symbol):
 
 
 AGLDBTC = AGLDBTC(*AGLDBTC._fields)
-"""
-    name: AGLDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGLDBUSD(Symbol):
@@ -3264,17 +2582,6 @@ class AGLDBUSD(Symbol):
 
 
 AGLDBUSD = AGLDBUSD(*AGLDBUSD._fields)
-"""
-    name: AGLDBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AGLDUSDT(Symbol):
@@ -3316,17 +2623,6 @@ class AGLDUSDT(Symbol):
 
 
 AGLDUSDT = AGLDUSDT(*AGLDUSDT._fields)
-"""
-    name: AGLDUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AIONBNB(Symbol):
@@ -3368,17 +2664,6 @@ class AIONBNB(Symbol):
 
 
 AIONBNB = AIONBNB(*AIONBNB._fields)
-"""
-    name: AIONBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AIONBTC(Symbol):
@@ -3420,17 +2705,6 @@ class AIONBTC(Symbol):
 
 
 AIONBTC = AIONBTC(*AIONBTC._fields)
-"""
-    name: AIONBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AIONBUSD(Symbol):
@@ -3472,17 +2746,6 @@ class AIONBUSD(Symbol):
 
 
 AIONBUSD = AIONBUSD(*AIONBUSD._fields)
-"""
-    name: AIONBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AIONETH(Symbol):
@@ -3524,17 +2787,6 @@ class AIONETH(Symbol):
 
 
 AIONETH = AIONETH(*AIONETH._fields)
-"""
-    name: AIONETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AIONUSDT(Symbol):
@@ -3576,17 +2828,6 @@ class AIONUSDT(Symbol):
 
 
 AIONUSDT = AIONUSDT(*AIONUSDT._fields)
-"""
-    name: AIONUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AKROBTC(Symbol):
@@ -3628,17 +2869,6 @@ class AKROBTC(Symbol):
 
 
 AKROBTC = AKROBTC(*AKROBTC._fields)
-"""
-    name: AKROBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AKROBUSD(Symbol):
@@ -3680,17 +2910,6 @@ class AKROBUSD(Symbol):
 
 
 AKROBUSD = AKROBUSD(*AKROBUSD._fields)
-"""
-    name: AKROBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AKROUSDT(Symbol):
@@ -3732,17 +2951,6 @@ class AKROUSDT(Symbol):
 
 
 AKROUSDT = AKROUSDT(*AKROUSDT._fields)
-"""
-    name: AKROUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALCXBTC(Symbol):
@@ -3784,17 +2992,6 @@ class ALCXBTC(Symbol):
 
 
 ALCXBTC = ALCXBTC(*ALCXBTC._fields)
-"""
-    name: ALCXBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALCXBUSD(Symbol):
@@ -3836,17 +3033,6 @@ class ALCXBUSD(Symbol):
 
 
 ALCXBUSD = ALCXBUSD(*ALCXBUSD._fields)
-"""
-    name: ALCXBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALCXUSDT(Symbol):
@@ -3888,17 +3074,6 @@ class ALCXUSDT(Symbol):
 
 
 ALCXUSDT = ALCXUSDT(*ALCXUSDT._fields)
-"""
-    name: ALCXUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALGOBIDR(Symbol):
@@ -3940,17 +3115,6 @@ class ALGOBIDR(Symbol):
 
 
 ALGOBIDR = ALGOBIDR(*ALGOBIDR._fields)
-"""
-    name: ALGOBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOBNB(Symbol):
@@ -3992,17 +3156,6 @@ class ALGOBNB(Symbol):
 
 
 ALGOBNB = ALGOBNB(*ALGOBNB._fields)
-"""
-    name: ALGOBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOBTC(Symbol):
@@ -4044,17 +3197,6 @@ class ALGOBTC(Symbol):
 
 
 ALGOBTC = ALGOBTC(*ALGOBTC._fields)
-"""
-    name: ALGOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALGOBUSD(Symbol):
@@ -4096,17 +3238,6 @@ class ALGOBUSD(Symbol):
 
 
 ALGOBUSD = ALGOBUSD(*ALGOBUSD._fields)
-"""
-    name: ALGOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALGOETH(Symbol):
@@ -4148,17 +3279,6 @@ class ALGOETH(Symbol):
 
 
 ALGOETH = ALGOETH(*ALGOETH._fields)
-"""
-    name: ALGOETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOPAX(Symbol):
@@ -4200,17 +3320,6 @@ class ALGOPAX(Symbol):
 
 
 ALGOPAX = ALGOPAX(*ALGOPAX._fields)
-"""
-    name: ALGOPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGORUB(Symbol):
@@ -4252,17 +3361,6 @@ class ALGORUB(Symbol):
 
 
 ALGORUB = ALGORUB(*ALGORUB._fields)
-"""
-    name: ALGORUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOTRY(Symbol):
@@ -4304,17 +3402,6 @@ class ALGOTRY(Symbol):
 
 
 ALGOTRY = ALGOTRY(*ALGOTRY._fields)
-"""
-    name: ALGOTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOTUSD(Symbol):
@@ -4356,17 +3443,6 @@ class ALGOTUSD(Symbol):
 
 
 ALGOTUSD = ALGOTUSD(*ALGOTUSD._fields)
-"""
-    name: ALGOTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOUSDC(Symbol):
@@ -4408,17 +3484,6 @@ class ALGOUSDC(Symbol):
 
 
 ALGOUSDC = ALGOUSDC(*ALGOUSDC._fields)
-"""
-    name: ALGOUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALGOUSDT(Symbol):
@@ -4460,17 +3525,6 @@ class ALGOUSDT(Symbol):
 
 
 ALGOUSDT = ALGOUSDT(*ALGOUSDT._fields)
-"""
-    name: ALGOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALICEBIDR(Symbol):
@@ -4512,17 +3566,6 @@ class ALICEBIDR(Symbol):
 
 
 ALICEBIDR = ALICEBIDR(*ALICEBIDR._fields)
-"""
-    name: ALICEBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALICEBNB(Symbol):
@@ -4564,17 +3607,6 @@ class ALICEBNB(Symbol):
 
 
 ALICEBNB = ALICEBNB(*ALICEBNB._fields)
-"""
-    name: ALICEBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALICEBTC(Symbol):
@@ -4616,17 +3648,6 @@ class ALICEBTC(Symbol):
 
 
 ALICEBTC = ALICEBTC(*ALICEBTC._fields)
-"""
-    name: ALICEBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALICEBUSD(Symbol):
@@ -4668,17 +3689,6 @@ class ALICEBUSD(Symbol):
 
 
 ALICEBUSD = ALICEBUSD(*ALICEBUSD._fields)
-"""
-    name: ALICEBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALICETRY(Symbol):
@@ -4720,17 +3730,6 @@ class ALICETRY(Symbol):
 
 
 ALICETRY = ALICETRY(*ALICETRY._fields)
-"""
-    name: ALICETRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALICEUSDT(Symbol):
@@ -4772,17 +3771,6 @@ class ALICEUSDT(Symbol):
 
 
 ALICEUSDT = ALICEUSDT(*ALICEUSDT._fields)
-"""
-    name: ALICEUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALPACABNB(Symbol):
@@ -4824,17 +3812,6 @@ class ALPACABNB(Symbol):
 
 
 ALPACABNB = ALPACABNB(*ALPACABNB._fields)
-"""
-    name: ALPACABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPACABTC(Symbol):
@@ -4876,17 +3853,6 @@ class ALPACABTC(Symbol):
 
 
 ALPACABTC = ALPACABTC(*ALPACABTC._fields)
-"""
-    name: ALPACABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPACABUSD(Symbol):
@@ -4928,17 +3894,6 @@ class ALPACABUSD(Symbol):
 
 
 ALPACABUSD = ALPACABUSD(*ALPACABUSD._fields)
-"""
-    name: ALPACABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPACAUSDT(Symbol):
@@ -4980,17 +3935,6 @@ class ALPACAUSDT(Symbol):
 
 
 ALPACAUSDT = ALPACAUSDT(*ALPACAUSDT._fields)
-"""
-    name: ALPACAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPHABNB(Symbol):
@@ -5032,17 +3976,6 @@ class ALPHABNB(Symbol):
 
 
 ALPHABNB = ALPHABNB(*ALPHABNB._fields)
-"""
-    name: ALPHABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPHABTC(Symbol):
@@ -5084,17 +4017,6 @@ class ALPHABTC(Symbol):
 
 
 ALPHABTC = ALPHABTC(*ALPHABTC._fields)
-"""
-    name: ALPHABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALPHABUSD(Symbol):
@@ -5136,17 +4058,6 @@ class ALPHABUSD(Symbol):
 
 
 ALPHABUSD = ALPHABUSD(*ALPHABUSD._fields)
-"""
-    name: ALPHABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPHAUSDT(Symbol):
@@ -5188,17 +4099,6 @@ class ALPHAUSDT(Symbol):
 
 
 ALPHAUSDT = ALPHAUSDT(*ALPHAUSDT._fields)
-"""
-    name: ALPHAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ALPINEBTC(Symbol):
@@ -5240,17 +4140,6 @@ class ALPINEBTC(Symbol):
 
 
 ALPINEBTC = ALPINEBTC(*ALPINEBTC._fields)
-"""
-    name: ALPINEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPINEBUSD(Symbol):
@@ -5292,17 +4181,6 @@ class ALPINEBUSD(Symbol):
 
 
 ALPINEBUSD = ALPINEBUSD(*ALPINEBUSD._fields)
-"""
-    name: ALPINEBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPINEEUR(Symbol):
@@ -5344,17 +4222,6 @@ class ALPINEEUR(Symbol):
 
 
 ALPINEEUR = ALPINEEUR(*ALPINEEUR._fields)
-"""
-    name: ALPINEEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPINETRY(Symbol):
@@ -5396,17 +4263,6 @@ class ALPINETRY(Symbol):
 
 
 ALPINETRY = ALPINETRY(*ALPINETRY._fields)
-"""
-    name: ALPINETRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ALPINEUSDT(Symbol):
@@ -5448,17 +4304,6 @@ class ALPINEUSDT(Symbol):
 
 
 ALPINEUSDT = ALPINEUSDT(*ALPINEUSDT._fields)
-"""
-    name: ALPINEUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMBBNB(Symbol):
@@ -5500,17 +4345,6 @@ class AMBBNB(Symbol):
 
 
 AMBBNB = AMBBNB(*AMBBNB._fields)
-"""
-    name: AMBBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMBBTC(Symbol):
@@ -5552,17 +4386,6 @@ class AMBBTC(Symbol):
 
 
 AMBBTC = AMBBTC(*AMBBTC._fields)
-"""
-    name: AMBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMBBUSD(Symbol):
@@ -5604,17 +4427,6 @@ class AMBBUSD(Symbol):
 
 
 AMBBUSD = AMBBUSD(*AMBBUSD._fields)
-"""
-    name: AMBBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AMBETH(Symbol):
@@ -5656,17 +4468,6 @@ class AMBETH(Symbol):
 
 
 AMBETH = AMBETH(*AMBETH._fields)
-"""
-    name: AMBETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMBUSDT(Symbol):
@@ -5708,17 +4509,6 @@ class AMBUSDT(Symbol):
 
 
 AMBUSDT = AMBUSDT(*AMBUSDT._fields)
-"""
-    name: AMBUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AMPBNB(Symbol):
@@ -5760,17 +4550,6 @@ class AMPBNB(Symbol):
 
 
 AMPBNB = AMPBNB(*AMPBNB._fields)
-"""
-    name: AMPBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMPBTC(Symbol):
@@ -5812,17 +4591,6 @@ class AMPBTC(Symbol):
 
 
 AMPBTC = AMPBTC(*AMPBTC._fields)
-"""
-    name: AMPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMPBUSD(Symbol):
@@ -5864,17 +4632,6 @@ class AMPBUSD(Symbol):
 
 
 AMPBUSD = AMPBUSD(*AMPBUSD._fields)
-"""
-    name: AMPBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AMPUSDT(Symbol):
@@ -5916,17 +4673,6 @@ class AMPUSDT(Symbol):
 
 
 AMPUSDT = AMPUSDT(*AMPUSDT._fields)
-"""
-    name: AMPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANCBNB(Symbol):
@@ -5968,17 +4714,6 @@ class ANCBNB(Symbol):
 
 
 ANCBNB = ANCBNB(*ANCBNB._fields)
-"""
-    name: ANCBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANCBTC(Symbol):
@@ -6020,17 +4755,6 @@ class ANCBTC(Symbol):
 
 
 ANCBTC = ANCBTC(*ANCBTC._fields)
-"""
-    name: ANCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANCBUSD(Symbol):
@@ -6072,17 +4796,6 @@ class ANCBUSD(Symbol):
 
 
 ANCBUSD = ANCBUSD(*ANCBUSD._fields)
-"""
-    name: ANCBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANCUSDT(Symbol):
@@ -6124,17 +4837,6 @@ class ANCUSDT(Symbol):
 
 
 ANCUSDT = ANCUSDT(*ANCUSDT._fields)
-"""
-    name: ANCUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRBNB(Symbol):
@@ -6176,17 +4878,6 @@ class ANKRBNB(Symbol):
 
 
 ANKRBNB = ANKRBNB(*ANKRBNB._fields)
-"""
-    name: ANKRBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRBTC(Symbol):
@@ -6228,17 +4919,6 @@ class ANKRBTC(Symbol):
 
 
 ANKRBTC = ANKRBTC(*ANKRBTC._fields)
-"""
-    name: ANKRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ANKRBUSD(Symbol):
@@ -6280,17 +4960,6 @@ class ANKRBUSD(Symbol):
 
 
 ANKRBUSD = ANKRBUSD(*ANKRBUSD._fields)
-"""
-    name: ANKRBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ANKRPAX(Symbol):
@@ -6332,17 +5001,6 @@ class ANKRPAX(Symbol):
 
 
 ANKRPAX = ANKRPAX(*ANKRPAX._fields)
-"""
-    name: ANKRPAX
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRTRY(Symbol):
@@ -6384,17 +5042,6 @@ class ANKRTRY(Symbol):
 
 
 ANKRTRY = ANKRTRY(*ANKRTRY._fields)
-"""
-    name: ANKRTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRTUSD(Symbol):
@@ -6436,17 +5083,6 @@ class ANKRTUSD(Symbol):
 
 
 ANKRTUSD = ANKRTUSD(*ANKRTUSD._fields)
-"""
-    name: ANKRTUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRUSDC(Symbol):
@@ -6488,17 +5124,6 @@ class ANKRUSDC(Symbol):
 
 
 ANKRUSDC = ANKRUSDC(*ANKRUSDC._fields)
-"""
-    name: ANKRUSDC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANKRUSDT(Symbol):
@@ -6540,17 +5165,6 @@ class ANKRUSDT(Symbol):
 
 
 ANKRUSDT = ANKRUSDT(*ANKRUSDT._fields)
-"""
-    name: ANKRUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ANTBNB(Symbol):
@@ -6592,17 +5206,6 @@ class ANTBNB(Symbol):
 
 
 ANTBNB = ANTBNB(*ANTBNB._fields)
-"""
-    name: ANTBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANTBTC(Symbol):
@@ -6644,17 +5247,6 @@ class ANTBTC(Symbol):
 
 
 ANTBTC = ANTBTC(*ANTBTC._fields)
-"""
-    name: ANTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ANTBUSD(Symbol):
@@ -6696,17 +5288,6 @@ class ANTBUSD(Symbol):
 
 
 ANTBUSD = ANTBUSD(*ANTBUSD._fields)
-"""
-    name: ANTBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANTUSDT(Symbol):
@@ -6748,17 +5329,6 @@ class ANTUSDT(Symbol):
 
 
 ANTUSDT = ANTUSDT(*ANTUSDT._fields)
-"""
-    name: ANTUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ANYBTC(Symbol):
@@ -6800,17 +5370,6 @@ class ANYBTC(Symbol):
 
 
 ANYBTC = ANYBTC(*ANYBTC._fields)
-"""
-    name: ANYBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANYBUSD(Symbol):
@@ -6852,17 +5411,6 @@ class ANYBUSD(Symbol):
 
 
 ANYBUSD = ANYBUSD(*ANYBUSD._fields)
-"""
-    name: ANYBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ANYUSDT(Symbol):
@@ -6904,17 +5452,6 @@ class ANYUSDT(Symbol):
 
 
 ANYUSDT = ANYUSDT(*ANYUSDT._fields)
-"""
-    name: ANYUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEAUD(Symbol):
@@ -6956,17 +5493,6 @@ class APEAUD(Symbol):
 
 
 APEAUD = APEAUD(*APEAUD._fields)
-"""
-    name: APEAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEBNB(Symbol):
@@ -7008,17 +5534,6 @@ class APEBNB(Symbol):
 
 
 APEBNB = APEBNB(*APEBNB._fields)
-"""
-    name: APEBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEBRL(Symbol):
@@ -7060,17 +5575,6 @@ class APEBRL(Symbol):
 
 
 APEBRL = APEBRL(*APEBRL._fields)
-"""
-    name: APEBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEBTC(Symbol):
@@ -7112,17 +5616,6 @@ class APEBTC(Symbol):
 
 
 APEBTC = APEBTC(*APEBTC._fields)
-"""
-    name: APEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class APEBUSD(Symbol):
@@ -7164,17 +5657,6 @@ class APEBUSD(Symbol):
 
 
 APEBUSD = APEBUSD(*APEBUSD._fields)
-"""
-    name: APEBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class APEETH(Symbol):
@@ -7216,17 +5698,6 @@ class APEETH(Symbol):
 
 
 APEETH = APEETH(*APEETH._fields)
-"""
-    name: APEETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class APEEUR(Symbol):
@@ -7268,17 +5739,6 @@ class APEEUR(Symbol):
 
 
 APEEUR = APEEUR(*APEEUR._fields)
-"""
-    name: APEEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEGBP(Symbol):
@@ -7320,17 +5780,6 @@ class APEGBP(Symbol):
 
 
 APEGBP = APEGBP(*APEGBP._fields)
-"""
-    name: APEGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APETRY(Symbol):
@@ -7372,17 +5821,6 @@ class APETRY(Symbol):
 
 
 APETRY = APETRY(*APETRY._fields)
-"""
-    name: APETRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APEUSDT(Symbol):
@@ -7424,17 +5862,6 @@ class APEUSDT(Symbol):
 
 
 APEUSDT = APEUSDT(*APEUSDT._fields)
-"""
-    name: APEUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class API3BNB(Symbol):
@@ -7476,17 +5903,6 @@ class API3BNB(Symbol):
 
 
 API3BNB = API3BNB(*API3BNB._fields)
-"""
-    name: API3BNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class API3BTC(Symbol):
@@ -7528,17 +5944,6 @@ class API3BTC(Symbol):
 
 
 API3BTC = API3BTC(*API3BTC._fields)
-"""
-    name: API3BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class API3BUSD(Symbol):
@@ -7580,17 +5985,6 @@ class API3BUSD(Symbol):
 
 
 API3BUSD = API3BUSD(*API3BUSD._fields)
-"""
-    name: API3BUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class API3TRY(Symbol):
@@ -7632,17 +6026,6 @@ class API3TRY(Symbol):
 
 
 API3TRY = API3TRY(*API3TRY._fields)
-"""
-    name: API3TRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class API3USDT(Symbol):
@@ -7684,17 +6067,6 @@ class API3USDT(Symbol):
 
 
 API3USDT = API3USDT(*API3USDT._fields)
-"""
-    name: API3USDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class APPCBNB(Symbol):
@@ -7736,17 +6108,6 @@ class APPCBNB(Symbol):
 
 
 APPCBNB = APPCBNB(*APPCBNB._fields)
-"""
-    name: APPCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APPCBTC(Symbol):
@@ -7788,17 +6149,6 @@ class APPCBTC(Symbol):
 
 
 APPCBTC = APPCBTC(*APPCBTC._fields)
-"""
-    name: APPCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APPCETH(Symbol):
@@ -7840,17 +6190,6 @@ class APPCETH(Symbol):
 
 
 APPCETH = APPCETH(*APPCETH._fields)
-"""
-    name: APPCETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTBRL(Symbol):
@@ -7892,17 +6231,6 @@ class APTBRL(Symbol):
 
 
 APTBRL = APTBRL(*APTBRL._fields)
-"""
-    name: APTBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTBTC(Symbol):
@@ -7944,17 +6272,6 @@ class APTBTC(Symbol):
 
 
 APTBTC = APTBTC(*APTBTC._fields)
-"""
-    name: APTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTBUSD(Symbol):
@@ -7996,17 +6313,6 @@ class APTBUSD(Symbol):
 
 
 APTBUSD = APTBUSD(*APTBUSD._fields)
-"""
-    name: APTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class APTETH(Symbol):
@@ -8048,17 +6354,6 @@ class APTETH(Symbol):
 
 
 APTETH = APTETH(*APTETH._fields)
-"""
-    name: APTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTEUR(Symbol):
@@ -8100,17 +6395,6 @@ class APTEUR(Symbol):
 
 
 APTEUR = APTEUR(*APTEUR._fields)
-"""
-    name: APTEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTTRY(Symbol):
@@ -8152,17 +6436,6 @@ class APTTRY(Symbol):
 
 
 APTTRY = APTTRY(*APTTRY._fields)
-"""
-    name: APTTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class APTUSDT(Symbol):
@@ -8204,17 +6477,6 @@ class APTUSDT(Symbol):
 
 
 APTUSDT = APTUSDT(*APTUSDT._fields)
-"""
-    name: APTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARBBTC(Symbol):
@@ -8256,17 +6518,6 @@ class ARBBTC(Symbol):
 
 
 ARBBTC = ARBBTC(*ARBBTC._fields)
-"""
-    name: ARBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARBEUR(Symbol):
@@ -8308,17 +6559,6 @@ class ARBEUR(Symbol):
 
 
 ARBEUR = ARBEUR(*ARBEUR._fields)
-"""
-    name: ARBEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBNB(Symbol):
@@ -8360,17 +6600,6 @@ class ARBNB(Symbol):
 
 
 ARBNB = ARBNB(*ARBNB._fields)
-"""
-    name: ARBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBRUB(Symbol):
@@ -8412,17 +6641,6 @@ class ARBRUB(Symbol):
 
 
 ARBRUB = ARBRUB(*ARBRUB._fields)
-"""
-    name: ARBRUB
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBTC(Symbol):
@@ -8464,17 +6682,6 @@ class ARBTC(Symbol):
 
 
 ARBTC = ARBTC(*ARBTC._fields)
-"""
-    name: ARBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBTRY(Symbol):
@@ -8516,17 +6723,6 @@ class ARBTRY(Symbol):
 
 
 ARBTRY = ARBTRY(*ARBTRY._fields)
-"""
-    name: ARBTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBTUSD(Symbol):
@@ -8568,17 +6764,6 @@ class ARBTUSD(Symbol):
 
 
 ARBTUSD = ARBTUSD(*ARBTUSD._fields)
-"""
-    name: ARBTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARBUSD(Symbol):
@@ -8620,17 +6805,6 @@ class ARBUSD(Symbol):
 
 
 ARBUSD = ARBUSD(*ARBUSD._fields)
-"""
-    name: ARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARBUSDT(Symbol):
@@ -8672,17 +6846,6 @@ class ARBUSDT(Symbol):
 
 
 ARBUSDT = ARBUSDT(*ARBUSDT._fields)
-"""
-    name: ARBUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARDRBNB(Symbol):
@@ -8724,17 +6887,6 @@ class ARDRBNB(Symbol):
 
 
 ARDRBNB = ARDRBNB(*ARDRBNB._fields)
-"""
-    name: ARDRBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARDRBTC(Symbol):
@@ -8776,17 +6928,6 @@ class ARDRBTC(Symbol):
 
 
 ARDRBTC = ARDRBTC(*ARDRBTC._fields)
-"""
-    name: ARDRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARDRETH(Symbol):
@@ -8828,17 +6969,6 @@ class ARDRETH(Symbol):
 
 
 ARDRETH = ARDRETH(*ARDRETH._fields)
-"""
-    name: ARDRETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARDRUSDT(Symbol):
@@ -8880,17 +7010,6 @@ class ARDRUSDT(Symbol):
 
 
 ARDRUSDT = ARDRUSDT(*ARDRUSDT._fields)
-"""
-    name: ARDRUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARKBTC(Symbol):
@@ -8932,17 +7051,6 @@ class ARKBTC(Symbol):
 
 
 ARKBTC = ARKBTC(*ARKBTC._fields)
-"""
-    name: ARKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARKBUSD(Symbol):
@@ -8984,17 +7092,6 @@ class ARKBUSD(Symbol):
 
 
 ARKBUSD = ARKBUSD(*ARKBUSD._fields)
-"""
-    name: ARKBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARKETH(Symbol):
@@ -9036,17 +7133,6 @@ class ARKETH(Symbol):
 
 
 ARKETH = ARKETH(*ARKETH._fields)
-"""
-    name: ARKETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARNBTC(Symbol):
@@ -9088,17 +7174,6 @@ class ARNBTC(Symbol):
 
 
 ARNBTC = ARNBTC(*ARNBTC._fields)
-"""
-    name: ARNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARNETH(Symbol):
@@ -9140,17 +7215,6 @@ class ARNETH(Symbol):
 
 
 ARNETH = ARNETH(*ARNETH._fields)
-"""
-    name: ARNETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARPABNB(Symbol):
@@ -9192,17 +7256,6 @@ class ARPABNB(Symbol):
 
 
 ARPABNB = ARPABNB(*ARPABNB._fields)
-"""
-    name: ARPABNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARPABTC(Symbol):
@@ -9244,17 +7297,6 @@ class ARPABTC(Symbol):
 
 
 ARPABTC = ARPABTC(*ARPABTC._fields)
-"""
-    name: ARPABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARPABUSD(Symbol):
@@ -9296,17 +7338,6 @@ class ARPABUSD(Symbol):
 
 
 ARPABUSD = ARPABUSD(*ARPABUSD._fields)
-"""
-    name: ARPABUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARPAETH(Symbol):
@@ -9348,17 +7379,6 @@ class ARPAETH(Symbol):
 
 
 ARPAETH = ARPAETH(*ARPAETH._fields)
-"""
-    name: ARPAETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARPARUB(Symbol):
@@ -9400,17 +7420,6 @@ class ARPARUB(Symbol):
 
 
 ARPARUB = ARPARUB(*ARPARUB._fields)
-"""
-    name: ARPARUB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARPATRY(Symbol):
@@ -9452,17 +7461,6 @@ class ARPATRY(Symbol):
 
 
 ARPATRY = ARPATRY(*ARPATRY._fields)
-"""
-    name: ARPATRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ARPAUSDT(Symbol):
@@ -9504,17 +7502,6 @@ class ARPAUSDT(Symbol):
 
 
 ARPAUSDT = ARPAUSDT(*ARPAUSDT._fields)
-"""
-    name: ARPAUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ARUSDT(Symbol):
@@ -9556,17 +7543,6 @@ class ARUSDT(Symbol):
 
 
 ARUSDT = ARUSDT(*ARUSDT._fields)
-"""
-    name: ARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ASRBTC(Symbol):
@@ -9608,17 +7584,6 @@ class ASRBTC(Symbol):
 
 
 ASRBTC = ASRBTC(*ASRBTC._fields)
-"""
-    name: ASRBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASRBUSD(Symbol):
@@ -9660,17 +7625,6 @@ class ASRBUSD(Symbol):
 
 
 ASRBUSD = ASRBUSD(*ASRBUSD._fields)
-"""
-    name: ASRBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASRUSDT(Symbol):
@@ -9712,17 +7666,6 @@ class ASRUSDT(Symbol):
 
 
 ASRUSDT = ASRUSDT(*ASRUSDT._fields)
-"""
-    name: ASRUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASTBTC(Symbol):
@@ -9764,17 +7707,6 @@ class ASTBTC(Symbol):
 
 
 ASTBTC = ASTBTC(*ASTBTC._fields)
-"""
-    name: ASTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASTETH(Symbol):
@@ -9816,17 +7748,6 @@ class ASTETH(Symbol):
 
 
 ASTETH = ASTETH(*ASTETH._fields)
-"""
-    name: ASTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASTRBTC(Symbol):
@@ -9868,17 +7789,6 @@ class ASTRBTC(Symbol):
 
 
 ASTRBTC = ASTRBTC(*ASTRBTC._fields)
-"""
-    name: ASTRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASTRBUSD(Symbol):
@@ -9920,17 +7830,6 @@ class ASTRBUSD(Symbol):
 
 
 ASTRBUSD = ASTRBUSD(*ASTRBUSD._fields)
-"""
-    name: ASTRBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ASTRETH(Symbol):
@@ -9972,17 +7871,6 @@ class ASTRETH(Symbol):
 
 
 ASTRETH = ASTRETH(*ASTRETH._fields)
-"""
-    name: ASTRETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ASTRUSDT(Symbol):
@@ -10024,17 +7912,6 @@ class ASTRUSDT(Symbol):
 
 
 ASTRUSDT = ASTRUSDT(*ASTRUSDT._fields)
-"""
-    name: ASTRUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ATABNB(Symbol):
@@ -10076,17 +7953,6 @@ class ATABNB(Symbol):
 
 
 ATABNB = ATABNB(*ATABNB._fields)
-"""
-    name: ATABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATABTC(Symbol):
@@ -10128,17 +7994,6 @@ class ATABTC(Symbol):
 
 
 ATABTC = ATABTC(*ATABTC._fields)
-"""
-    name: ATABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATABUSD(Symbol):
@@ -10180,17 +8035,6 @@ class ATABUSD(Symbol):
 
 
 ATABUSD = ATABUSD(*ATABUSD._fields)
-"""
-    name: ATABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATAUSDT(Symbol):
@@ -10232,17 +8076,6 @@ class ATAUSDT(Symbol):
 
 
 ATAUSDT = ATAUSDT(*ATAUSDT._fields)
-"""
-    name: ATAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATMBTC(Symbol):
@@ -10284,17 +8117,6 @@ class ATMBTC(Symbol):
 
 
 ATMBTC = ATMBTC(*ATMBTC._fields)
-"""
-    name: ATMBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATMBUSD(Symbol):
@@ -10336,17 +8158,6 @@ class ATMBUSD(Symbol):
 
 
 ATMBUSD = ATMBUSD(*ATMBUSD._fields)
-"""
-    name: ATMBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATMUSDT(Symbol):
@@ -10388,17 +8199,6 @@ class ATMUSDT(Symbol):
 
 
 ATMUSDT = ATMUSDT(*ATMUSDT._fields)
-"""
-    name: ATMUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMBIDR(Symbol):
@@ -10440,17 +8240,6 @@ class ATOMBIDR(Symbol):
 
 
 ATOMBIDR = ATOMBIDR(*ATOMBIDR._fields)
-"""
-    name: ATOMBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMBNB(Symbol):
@@ -10492,17 +8281,6 @@ class ATOMBNB(Symbol):
 
 
 ATOMBNB = ATOMBNB(*ATOMBNB._fields)
-"""
-    name: ATOMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMBRL(Symbol):
@@ -10544,17 +8322,6 @@ class ATOMBRL(Symbol):
 
 
 ATOMBRL = ATOMBRL(*ATOMBRL._fields)
-"""
-    name: ATOMBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMBTC(Symbol):
@@ -10596,17 +8363,6 @@ class ATOMBTC(Symbol):
 
 
 ATOMBTC = ATOMBTC(*ATOMBTC._fields)
-"""
-    name: ATOMBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ATOMBUSD(Symbol):
@@ -10648,17 +8404,6 @@ class ATOMBUSD(Symbol):
 
 
 ATOMBUSD = ATOMBUSD(*ATOMBUSD._fields)
-"""
-    name: ATOMBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ATOMETH(Symbol):
@@ -10700,17 +8445,6 @@ class ATOMETH(Symbol):
 
 
 ATOMETH = ATOMETH(*ATOMETH._fields)
-"""
-    name: ATOMETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMEUR(Symbol):
@@ -10752,17 +8486,6 @@ class ATOMEUR(Symbol):
 
 
 ATOMEUR = ATOMEUR(*ATOMEUR._fields)
-"""
-    name: ATOMEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMPAX(Symbol):
@@ -10804,17 +8527,6 @@ class ATOMPAX(Symbol):
 
 
 ATOMPAX = ATOMPAX(*ATOMPAX._fields)
-"""
-    name: ATOMPAX
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMTRY(Symbol):
@@ -10856,17 +8568,6 @@ class ATOMTRY(Symbol):
 
 
 ATOMTRY = ATOMTRY(*ATOMTRY._fields)
-"""
-    name: ATOMTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMTUSD(Symbol):
@@ -10908,17 +8609,6 @@ class ATOMTUSD(Symbol):
 
 
 ATOMTUSD = ATOMTUSD(*ATOMTUSD._fields)
-"""
-    name: ATOMTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMUSDC(Symbol):
@@ -10960,17 +8650,6 @@ class ATOMUSDC(Symbol):
 
 
 ATOMUSDC = ATOMUSDC(*ATOMUSDC._fields)
-"""
-    name: ATOMUSDC
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ATOMUSDT(Symbol):
@@ -11012,17 +8691,6 @@ class ATOMUSDT(Symbol):
 
 
 ATOMUSDT = ATOMUSDT(*ATOMUSDT._fields)
-"""
-    name: ATOMUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUCTIONBTC(Symbol):
@@ -11064,17 +8732,6 @@ class AUCTIONBTC(Symbol):
 
 
 AUCTIONBTC = AUCTIONBTC(*AUCTIONBTC._fields)
-"""
-    name: AUCTIONBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUCTIONBUSD(Symbol):
@@ -11116,17 +8773,6 @@ class AUCTIONBUSD(Symbol):
 
 
 AUCTIONBUSD = AUCTIONBUSD(*AUCTIONBUSD._fields)
-"""
-    name: AUCTIONBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUCTIONUSDT(Symbol):
@@ -11168,17 +8814,6 @@ class AUCTIONUSDT(Symbol):
 
 
 AUCTIONUSDT = AUCTIONUSDT(*AUCTIONUSDT._fields)
-"""
-    name: AUCTIONUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUDBUSD(Symbol):
@@ -11220,17 +8855,6 @@ class AUDBUSD(Symbol):
 
 
 AUDBUSD = AUDBUSD(*AUDBUSD._fields)
-"""
-    name: AUDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUDIOBTC(Symbol):
@@ -11272,17 +8896,6 @@ class AUDIOBTC(Symbol):
 
 
 AUDIOBTC = AUDIOBTC(*AUDIOBTC._fields)
-"""
-    name: AUDIOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUDIOBUSD(Symbol):
@@ -11324,17 +8937,6 @@ class AUDIOBUSD(Symbol):
 
 
 AUDIOBUSD = AUDIOBUSD(*AUDIOBUSD._fields)
-"""
-    name: AUDIOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUDIOTRY(Symbol):
@@ -11376,17 +8978,6 @@ class AUDIOTRY(Symbol):
 
 
 AUDIOTRY = AUDIOTRY(*AUDIOTRY._fields)
-"""
-    name: AUDIOTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUDIOUSDT(Symbol):
@@ -11428,17 +9019,6 @@ class AUDIOUSDT(Symbol):
 
 
 AUDIOUSDT = AUDIOUSDT(*AUDIOUSDT._fields)
-"""
-    name: AUDIOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AUDUSDC(Symbol):
@@ -11480,17 +9060,6 @@ class AUDUSDC(Symbol):
 
 
 AUDUSDC = AUDUSDC(*AUDUSDC._fields)
-"""
-    name: AUDUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUDUSDT(Symbol):
@@ -11532,17 +9101,6 @@ class AUDUSDT(Symbol):
 
 
 AUDUSDT = AUDUSDT(*AUDUSDT._fields)
-"""
-    name: AUDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUTOBTC(Symbol):
@@ -11584,17 +9142,6 @@ class AUTOBTC(Symbol):
 
 
 AUTOBTC = AUTOBTC(*AUTOBTC._fields)
-"""
-    name: AUTOBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUTOBUSD(Symbol):
@@ -11636,17 +9183,6 @@ class AUTOBUSD(Symbol):
 
 
 AUTOBUSD = AUTOBUSD(*AUTOBUSD._fields)
-"""
-    name: AUTOBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AUTOUSDT(Symbol):
@@ -11688,17 +9224,6 @@ class AUTOUSDT(Symbol):
 
 
 AUTOUSDT = AUTOUSDT(*AUTOUSDT._fields)
-"""
-    name: AUTOUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVABNB(Symbol):
@@ -11740,17 +9265,6 @@ class AVABNB(Symbol):
 
 
 AVABNB = AVABNB(*AVABNB._fields)
-"""
-    name: AVABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVABTC(Symbol):
@@ -11792,17 +9306,6 @@ class AVABTC(Symbol):
 
 
 AVABTC = AVABTC(*AVABTC._fields)
-"""
-    name: AVABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVABUSD(Symbol):
@@ -11844,17 +9347,6 @@ class AVABUSD(Symbol):
 
 
 AVABUSD = AVABUSD(*AVABUSD._fields)
-"""
-    name: AVABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AVAUSDT(Symbol):
@@ -11896,17 +9388,6 @@ class AVAUSDT(Symbol):
 
 
 AVAUSDT = AVAUSDT(*AVAUSDT._fields)
-"""
-    name: AVAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AVAXAUD(Symbol):
@@ -11948,17 +9429,6 @@ class AVAXAUD(Symbol):
 
 
 AVAXAUD = AVAXAUD(*AVAXAUD._fields)
-"""
-    name: AVAXAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXBIDR(Symbol):
@@ -12000,17 +9470,6 @@ class AVAXBIDR(Symbol):
 
 
 AVAXBIDR = AVAXBIDR(*AVAXBIDR._fields)
-"""
-    name: AVAXBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXBNB(Symbol):
@@ -12052,17 +9511,6 @@ class AVAXBNB(Symbol):
 
 
 AVAXBNB = AVAXBNB(*AVAXBNB._fields)
-"""
-    name: AVAXBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXBRL(Symbol):
@@ -12104,17 +9552,6 @@ class AVAXBRL(Symbol):
 
 
 AVAXBRL = AVAXBRL(*AVAXBRL._fields)
-"""
-    name: AVAXBRL
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXBTC(Symbol):
@@ -12156,17 +9593,6 @@ class AVAXBTC(Symbol):
 
 
 AVAXBTC = AVAXBTC(*AVAXBTC._fields)
-"""
-    name: AVAXBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AVAXBUSD(Symbol):
@@ -12208,17 +9634,6 @@ class AVAXBUSD(Symbol):
 
 
 AVAXBUSD = AVAXBUSD(*AVAXBUSD._fields)
-"""
-    name: AVAXBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AVAXETH(Symbol):
@@ -12260,17 +9675,6 @@ class AVAXETH(Symbol):
 
 
 AVAXETH = AVAXETH(*AVAXETH._fields)
-"""
-    name: AVAXETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXEUR(Symbol):
@@ -12312,17 +9716,6 @@ class AVAXEUR(Symbol):
 
 
 AVAXEUR = AVAXEUR(*AVAXEUR._fields)
-"""
-    name: AVAXEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXGBP(Symbol):
@@ -12364,17 +9757,6 @@ class AVAXGBP(Symbol):
 
 
 AVAXGBP = AVAXGBP(*AVAXGBP._fields)
-"""
-    name: AVAXGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXTRY(Symbol):
@@ -12416,17 +9798,6 @@ class AVAXTRY(Symbol):
 
 
 AVAXTRY = AVAXTRY(*AVAXTRY._fields)
-"""
-    name: AVAXTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AVAXUSDT(Symbol):
@@ -12468,17 +9839,6 @@ class AVAXUSDT(Symbol):
 
 
 AVAXUSDT = AVAXUSDT(*AVAXUSDT._fields)
-"""
-    name: AVAXUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AXSAUD(Symbol):
@@ -12520,17 +9880,6 @@ class AXSAUD(Symbol):
 
 
 AXSAUD = AXSAUD(*AXSAUD._fields)
-"""
-    name: AXSAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AXSBNB(Symbol):
@@ -12572,17 +9921,6 @@ class AXSBNB(Symbol):
 
 
 AXSBNB = AXSBNB(*AXSBNB._fields)
-"""
-    name: AXSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AXSBRL(Symbol):
@@ -12624,17 +9962,6 @@ class AXSBRL(Symbol):
 
 
 AXSBRL = AXSBRL(*AXSBRL._fields)
-"""
-    name: AXSBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AXSBTC(Symbol):
@@ -12676,17 +10003,6 @@ class AXSBTC(Symbol):
 
 
 AXSBTC = AXSBTC(*AXSBTC._fields)
-"""
-    name: AXSBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AXSBUSD(Symbol):
@@ -12728,17 +10044,6 @@ class AXSBUSD(Symbol):
 
 
 AXSBUSD = AXSBUSD(*AXSBUSD._fields)
-"""
-    name: AXSBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class AXSETH(Symbol):
@@ -12780,17 +10085,6 @@ class AXSETH(Symbol):
 
 
 AXSETH = AXSETH(*AXSETH._fields)
-"""
-    name: AXSETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AXSTRY(Symbol):
@@ -12832,17 +10126,6 @@ class AXSTRY(Symbol):
 
 
 AXSTRY = AXSTRY(*AXSTRY._fields)
-"""
-    name: AXSTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class AXSUSDT(Symbol):
@@ -12884,17 +10167,6 @@ class AXSUSDT(Symbol):
 
 
 AXSUSDT = AXSUSDT(*AXSUSDT._fields)
-"""
-    name: AXSUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BADGERBTC(Symbol):
@@ -12936,17 +10208,6 @@ class BADGERBTC(Symbol):
 
 
 BADGERBTC = BADGERBTC(*BADGERBTC._fields)
-"""
-    name: BADGERBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BADGERBUSD(Symbol):
@@ -12988,17 +10249,6 @@ class BADGERBUSD(Symbol):
 
 
 BADGERBUSD = BADGERBUSD(*BADGERBUSD._fields)
-"""
-    name: BADGERBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BADGERUSDT(Symbol):
@@ -13040,17 +10290,6 @@ class BADGERUSDT(Symbol):
 
 
 BADGERUSDT = BADGERUSDT(*BADGERUSDT._fields)
-"""
-    name: BADGERUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BAKEBNB(Symbol):
@@ -13092,17 +10331,6 @@ class BAKEBNB(Symbol):
 
 
 BAKEBNB = BAKEBNB(*BAKEBNB._fields)
-"""
-    name: BAKEBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BAKEBTC(Symbol):
@@ -13144,17 +10372,6 @@ class BAKEBTC(Symbol):
 
 
 BAKEBTC = BAKEBTC(*BAKEBTC._fields)
-"""
-    name: BAKEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BAKEBUSD(Symbol):
@@ -13196,17 +10413,6 @@ class BAKEBUSD(Symbol):
 
 
 BAKEBUSD = BAKEBUSD(*BAKEBUSD._fields)
-"""
-    name: BAKEBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BAKEUSDT(Symbol):
@@ -13248,17 +10454,6 @@ class BAKEUSDT(Symbol):
 
 
 BAKEUSDT = BAKEUSDT(*BAKEUSDT._fields)
-"""
-    name: BAKEUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BALBNB(Symbol):
@@ -13300,17 +10495,6 @@ class BALBNB(Symbol):
 
 
 BALBNB = BALBNB(*BALBNB._fields)
-"""
-    name: BALBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BALBTC(Symbol):
@@ -13352,17 +10536,6 @@ class BALBTC(Symbol):
 
 
 BALBTC = BALBTC(*BALBTC._fields)
-"""
-    name: BALBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BALBUSD(Symbol):
@@ -13404,17 +10577,6 @@ class BALBUSD(Symbol):
 
 
 BALBUSD = BALBUSD(*BALBUSD._fields)
-"""
-    name: BALBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BALUSDT(Symbol):
@@ -13456,17 +10618,6 @@ class BALUSDT(Symbol):
 
 
 BALUSDT = BALUSDT(*BALUSDT._fields)
-"""
-    name: BALUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BANDBNB(Symbol):
@@ -13508,17 +10659,6 @@ class BANDBNB(Symbol):
 
 
 BANDBNB = BANDBNB(*BANDBNB._fields)
-"""
-    name: BANDBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BANDBTC(Symbol):
@@ -13560,17 +10700,6 @@ class BANDBTC(Symbol):
 
 
 BANDBTC = BANDBTC(*BANDBTC._fields)
-"""
-    name: BANDBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BANDBUSD(Symbol):
@@ -13612,17 +10741,6 @@ class BANDBUSD(Symbol):
 
 
 BANDBUSD = BANDBUSD(*BANDBUSD._fields)
-"""
-    name: BANDBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BANDUSDT(Symbol):
@@ -13664,17 +10782,6 @@ class BANDUSDT(Symbol):
 
 
 BANDUSDT = BANDUSDT(*BANDUSDT._fields)
-"""
-    name: BANDUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BARBTC(Symbol):
@@ -13716,17 +10823,6 @@ class BARBTC(Symbol):
 
 
 BARBTC = BARBTC(*BARBTC._fields)
-"""
-    name: BARBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BARBUSD(Symbol):
@@ -13768,17 +10864,6 @@ class BARBUSD(Symbol):
 
 
 BARBUSD = BARBUSD(*BARBUSD._fields)
-"""
-    name: BARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BARUSDT(Symbol):
@@ -13820,17 +10905,6 @@ class BARUSDT(Symbol):
 
 
 BARUSDT = BARUSDT(*BARUSDT._fields)
-"""
-    name: BARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATBNB(Symbol):
@@ -13872,17 +10946,6 @@ class BATBNB(Symbol):
 
 
 BATBNB = BATBNB(*BATBNB._fields)
-"""
-    name: BATBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATBTC(Symbol):
@@ -13924,17 +10987,6 @@ class BATBTC(Symbol):
 
 
 BATBTC = BATBTC(*BATBTC._fields)
-"""
-    name: BATBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BATBUSD(Symbol):
@@ -13976,17 +11028,6 @@ class BATBUSD(Symbol):
 
 
 BATBUSD = BATBUSD(*BATBUSD._fields)
-"""
-    name: BATBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BATETH(Symbol):
@@ -14028,17 +11069,6 @@ class BATETH(Symbol):
 
 
 BATETH = BATETH(*BATETH._fields)
-"""
-    name: BATETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATPAX(Symbol):
@@ -14080,17 +11110,6 @@ class BATPAX(Symbol):
 
 
 BATPAX = BATPAX(*BATPAX._fields)
-"""
-    name: BATPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATTUSD(Symbol):
@@ -14132,17 +11151,6 @@ class BATTUSD(Symbol):
 
 
 BATTUSD = BATTUSD(*BATTUSD._fields)
-"""
-    name: BATTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATUSDC(Symbol):
@@ -14184,17 +11192,6 @@ class BATUSDC(Symbol):
 
 
 BATUSDC = BATUSDC(*BATUSDC._fields)
-"""
-    name: BATUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BATUSDT(Symbol):
@@ -14236,17 +11233,6 @@ class BATUSDT(Symbol):
 
 
 BATUSDT = BATUSDT(*BATUSDT._fields)
-"""
-    name: BATUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BCCBNB(Symbol):
@@ -14288,17 +11274,6 @@ class BCCBNB(Symbol):
 
 
 BCCBNB = BCCBNB(*BCCBNB._fields)
-"""
-    name: BCCBNB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCCBTC(Symbol):
@@ -14340,17 +11315,6 @@ class BCCBTC(Symbol):
 
 
 BCCBTC = BCCBTC(*BCCBTC._fields)
-"""
-    name: BCCBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCCETH(Symbol):
@@ -14392,17 +11356,6 @@ class BCCETH(Symbol):
 
 
 BCCETH = BCCETH(*BCCETH._fields)
-"""
-    name: BCCETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCCUSDT(Symbol):
@@ -14444,17 +11397,6 @@ class BCCUSDT(Symbol):
 
 
 BCCUSDT = BCCUSDT(*BCCUSDT._fields)
-"""
-    name: BCCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCDBTC(Symbol):
@@ -14496,17 +11438,6 @@ class BCDBTC(Symbol):
 
 
 BCDBTC = BCDBTC(*BCDBTC._fields)
-"""
-    name: BCDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCDETH(Symbol):
@@ -14548,17 +11479,6 @@ class BCDETH(Symbol):
 
 
 BCDETH = BCDETH(*BCDETH._fields)
-"""
-    name: BCDETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCBTC(Symbol):
@@ -14600,17 +11520,6 @@ class BCHABCBTC(Symbol):
 
 
 BCHABCBTC = BCHABCBTC(*BCHABCBTC._fields)
-"""
-    name: BCHABCBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCBUSD(Symbol):
@@ -14652,17 +11561,6 @@ class BCHABCBUSD(Symbol):
 
 
 BCHABCBUSD = BCHABCBUSD(*BCHABCBUSD._fields)
-"""
-    name: BCHABCBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCPAX(Symbol):
@@ -14704,17 +11602,6 @@ class BCHABCPAX(Symbol):
 
 
 BCHABCPAX = BCHABCPAX(*BCHABCPAX._fields)
-"""
-    name: BCHABCPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCTUSD(Symbol):
@@ -14756,17 +11643,6 @@ class BCHABCTUSD(Symbol):
 
 
 BCHABCTUSD = BCHABCTUSD(*BCHABCTUSD._fields)
-"""
-    name: BCHABCTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCUSDC(Symbol):
@@ -14808,17 +11684,6 @@ class BCHABCUSDC(Symbol):
 
 
 BCHABCUSDC = BCHABCUSDC(*BCHABCUSDC._fields)
-"""
-    name: BCHABCUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABCUSDT(Symbol):
@@ -14860,17 +11725,6 @@ class BCHABCUSDT(Symbol):
 
 
 BCHABCUSDT = BCHABCUSDT(*BCHABCUSDT._fields)
-"""
-    name: BCHABCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHABUSD(Symbol):
@@ -14912,17 +11766,6 @@ class BCHABUSD(Symbol):
 
 
 BCHABUSD = BCHABUSD(*BCHABUSD._fields)
-"""
-    name: BCHABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHBNB(Symbol):
@@ -14964,17 +11807,6 @@ class BCHBNB(Symbol):
 
 
 BCHBNB = BCHBNB(*BCHBNB._fields)
-"""
-    name: BCHBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHBTC(Symbol):
@@ -15016,17 +11848,6 @@ class BCHBTC(Symbol):
 
 
 BCHBTC = BCHBTC(*BCHBTC._fields)
-"""
-    name: BCHBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BCHBUSD(Symbol):
@@ -15068,17 +11889,6 @@ class BCHBUSD(Symbol):
 
 
 BCHBUSD = BCHBUSD(*BCHBUSD._fields)
-"""
-    name: BCHBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BCHDOWNUSDT(Symbol):
@@ -15120,17 +11930,6 @@ class BCHDOWNUSDT(Symbol):
 
 
 BCHDOWNUSDT = BCHDOWNUSDT(*BCHDOWNUSDT._fields)
-"""
-    name: BCHDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHEUR(Symbol):
@@ -15172,17 +11971,6 @@ class BCHEUR(Symbol):
 
 
 BCHEUR = BCHEUR(*BCHEUR._fields)
-"""
-    name: BCHEUR
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHPAX(Symbol):
@@ -15224,17 +12012,6 @@ class BCHPAX(Symbol):
 
 
 BCHPAX = BCHPAX(*BCHPAX._fields)
-"""
-    name: BCHPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHSVBTC(Symbol):
@@ -15276,17 +12053,6 @@ class BCHSVBTC(Symbol):
 
 
 BCHSVBTC = BCHSVBTC(*BCHSVBTC._fields)
-"""
-    name: BCHSVBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHSVPAX(Symbol):
@@ -15328,17 +12094,6 @@ class BCHSVPAX(Symbol):
 
 
 BCHSVPAX = BCHSVPAX(*BCHSVPAX._fields)
-"""
-    name: BCHSVPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHSVTUSD(Symbol):
@@ -15380,17 +12135,6 @@ class BCHSVTUSD(Symbol):
 
 
 BCHSVTUSD = BCHSVTUSD(*BCHSVTUSD._fields)
-"""
-    name: BCHSVTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHSVUSDC(Symbol):
@@ -15432,17 +12176,6 @@ class BCHSVUSDC(Symbol):
 
 
 BCHSVUSDC = BCHSVUSDC(*BCHSVUSDC._fields)
-"""
-    name: BCHSVUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHSVUSDT(Symbol):
@@ -15484,17 +12217,6 @@ class BCHSVUSDT(Symbol):
 
 
 BCHSVUSDT = BCHSVUSDT(*BCHSVUSDT._fields)
-"""
-    name: BCHSVUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHTUSD(Symbol):
@@ -15536,17 +12258,6 @@ class BCHTUSD(Symbol):
 
 
 BCHTUSD = BCHTUSD(*BCHTUSD._fields)
-"""
-    name: BCHTUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHUPUSDT(Symbol):
@@ -15588,17 +12299,6 @@ class BCHUPUSDT(Symbol):
 
 
 BCHUPUSDT = BCHUPUSDT(*BCHUPUSDT._fields)
-"""
-    name: BCHUPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHUSDC(Symbol):
@@ -15640,17 +12340,6 @@ class BCHUSDC(Symbol):
 
 
 BCHUSDC = BCHUSDC(*BCHUSDC._fields)
-"""
-    name: BCHUSDC
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCHUSDT(Symbol):
@@ -15692,17 +12381,6 @@ class BCHUSDT(Symbol):
 
 
 BCHUSDT = BCHUSDT(*BCHUSDT._fields)
-"""
-    name: BCHUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BCNBNB(Symbol):
@@ -15744,17 +12422,6 @@ class BCNBNB(Symbol):
 
 
 BCNBNB = BCNBNB(*BCNBNB._fields)
-"""
-    name: BCNBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCNBTC(Symbol):
@@ -15796,17 +12463,6 @@ class BCNBTC(Symbol):
 
 
 BCNBTC = BCNBTC(*BCNBTC._fields)
-"""
-    name: BCNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCNETH(Symbol):
@@ -15848,17 +12504,6 @@ class BCNETH(Symbol):
 
 
 BCNETH = BCNETH(*BCNETH._fields)
-"""
-    name: BCNETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTBNB(Symbol):
@@ -15900,17 +12545,6 @@ class BCPTBNB(Symbol):
 
 
 BCPTBNB = BCPTBNB(*BCPTBNB._fields)
-"""
-    name: BCPTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTBTC(Symbol):
@@ -15952,17 +12586,6 @@ class BCPTBTC(Symbol):
 
 
 BCPTBTC = BCPTBTC(*BCPTBTC._fields)
-"""
-    name: BCPTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTETH(Symbol):
@@ -16004,17 +12627,6 @@ class BCPTETH(Symbol):
 
 
 BCPTETH = BCPTETH(*BCPTETH._fields)
-"""
-    name: BCPTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTPAX(Symbol):
@@ -16056,17 +12668,6 @@ class BCPTPAX(Symbol):
 
 
 BCPTPAX = BCPTPAX(*BCPTPAX._fields)
-"""
-    name: BCPTPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTTUSD(Symbol):
@@ -16108,17 +12709,6 @@ class BCPTTUSD(Symbol):
 
 
 BCPTTUSD = BCPTTUSD(*BCPTTUSD._fields)
-"""
-    name: BCPTTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BCPTUSDC(Symbol):
@@ -16160,17 +12750,6 @@ class BCPTUSDC(Symbol):
 
 
 BCPTUSDC = BCPTUSDC(*BCPTUSDC._fields)
-"""
-    name: BCPTUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BDOTDOT(Symbol):
@@ -16212,17 +12791,6 @@ class BDOTDOT(Symbol):
 
 
 BDOTDOT = BDOTDOT(*BDOTDOT._fields)
-"""
-    name: BDOTDOT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.30000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BEAMBNB(Symbol):
@@ -16264,17 +12832,6 @@ class BEAMBNB(Symbol):
 
 
 BEAMBNB = BEAMBNB(*BEAMBNB._fields)
-"""
-    name: BEAMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BEAMBTC(Symbol):
@@ -16316,17 +12873,6 @@ class BEAMBTC(Symbol):
 
 
 BEAMBTC = BEAMBTC(*BEAMBTC._fields)
-"""
-    name: BEAMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BEAMUSDT(Symbol):
@@ -16368,17 +12914,6 @@ class BEAMUSDT(Symbol):
 
 
 BEAMUSDT = BEAMUSDT(*BEAMUSDT._fields)
-"""
-    name: BEAMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BEARBUSD(Symbol):
@@ -16420,17 +12955,6 @@ class BEARBUSD(Symbol):
 
 
 BEARBUSD = BEARBUSD(*BEARBUSD._fields)
-"""
-    name: BEARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BEARUSDT(Symbol):
@@ -16472,17 +12996,6 @@ class BEARUSDT(Symbol):
 
 
 BEARUSDT = BEARUSDT(*BEARUSDT._fields)
-"""
-    name: BEARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BELBNB(Symbol):
@@ -16524,17 +13037,6 @@ class BELBNB(Symbol):
 
 
 BELBNB = BELBNB(*BELBNB._fields)
-"""
-    name: BELBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BELBTC(Symbol):
@@ -16576,17 +13078,6 @@ class BELBTC(Symbol):
 
 
 BELBTC = BELBTC(*BELBTC._fields)
-"""
-    name: BELBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BELBUSD(Symbol):
@@ -16628,17 +13119,6 @@ class BELBUSD(Symbol):
 
 
 BELBUSD = BELBUSD(*BELBUSD._fields)
-"""
-    name: BELBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BELETH(Symbol):
@@ -16680,17 +13160,6 @@ class BELETH(Symbol):
 
 
 BELETH = BELETH(*BELETH._fields)
-"""
-    name: BELETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BELTRY(Symbol):
@@ -16732,17 +13201,6 @@ class BELTRY(Symbol):
 
 
 BELTRY = BELTRY(*BELTRY._fields)
-"""
-    name: BELTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BELUSDT(Symbol):
@@ -16784,17 +13242,6 @@ class BELUSDT(Symbol):
 
 
 BELUSDT = BELUSDT(*BELUSDT._fields)
-"""
-    name: BELUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BETABNB(Symbol):
@@ -16836,17 +13283,6 @@ class BETABNB(Symbol):
 
 
 BETABNB = BETABNB(*BETABNB._fields)
-"""
-    name: BETABNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETABTC(Symbol):
@@ -16888,17 +13324,6 @@ class BETABTC(Symbol):
 
 
 BETABTC = BETABTC(*BETABTC._fields)
-"""
-    name: BETABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETABUSD(Symbol):
@@ -16940,17 +13365,6 @@ class BETABUSD(Symbol):
 
 
 BETABUSD = BETABUSD(*BETABUSD._fields)
-"""
-    name: BETABUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETAETH(Symbol):
@@ -16992,17 +13406,6 @@ class BETAETH(Symbol):
 
 
 BETAETH = BETAETH(*BETAETH._fields)
-"""
-    name: BETAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETAUSDT(Symbol):
@@ -17044,17 +13447,6 @@ class BETAUSDT(Symbol):
 
 
 BETAUSDT = BETAUSDT(*BETAUSDT._fields)
-"""
-    name: BETAUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BETHBUSD(Symbol):
@@ -17096,17 +13488,6 @@ class BETHBUSD(Symbol):
 
 
 BETHBUSD = BETHBUSD(*BETHBUSD._fields)
-"""
-    name: BETHBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETHETH(Symbol):
@@ -17148,17 +13529,6 @@ class BETHETH(Symbol):
 
 
 BETHETH = BETHETH(*BETHETH._fields)
-"""
-    name: BETHETH
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BETHUSDT(Symbol):
@@ -17200,17 +13570,6 @@ class BETHUSDT(Symbol):
 
 
 BETHUSDT = BETHUSDT(*BETHUSDT._fields)
-"""
-    name: BETHUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BGBPUSDC(Symbol):
@@ -17252,17 +13611,6 @@ class BGBPUSDC(Symbol):
 
 
 BGBPUSDC = BGBPUSDC(*BGBPUSDC._fields)
-"""
-    name: BGBPUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BICOBTC(Symbol):
@@ -17304,17 +13652,6 @@ class BICOBTC(Symbol):
 
 
 BICOBTC = BICOBTC(*BICOBTC._fields)
-"""
-    name: BICOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BICOBUSD(Symbol):
@@ -17356,17 +13693,6 @@ class BICOBUSD(Symbol):
 
 
 BICOBUSD = BICOBUSD(*BICOBUSD._fields)
-"""
-    name: BICOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BICOUSDT(Symbol):
@@ -17408,17 +13734,6 @@ class BICOUSDT(Symbol):
 
 
 BICOUSDT = BICOUSDT(*BICOUSDT._fields)
-"""
-    name: BICOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BIFIBNB(Symbol):
@@ -17460,17 +13775,6 @@ class BIFIBNB(Symbol):
 
 
 BIFIBNB = BIFIBNB(*BIFIBNB._fields)
-"""
-    name: BIFIBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BIFIBUSD(Symbol):
@@ -17512,17 +13816,6 @@ class BIFIBUSD(Symbol):
 
 
 BIFIBUSD = BIFIBUSD(*BIFIBUSD._fields)
-"""
-    name: BIFIBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BIFIUSDT(Symbol):
@@ -17564,17 +13857,6 @@ class BIFIUSDT(Symbol):
 
 
 BIFIUSDT = BIFIUSDT(*BIFIUSDT._fields)
-"""
-    name: BIFIUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BKRWBUSD(Symbol):
@@ -17616,17 +13898,6 @@ class BKRWBUSD(Symbol):
 
 
 BKRWBUSD = BKRWBUSD(*BKRWBUSD._fields)
-"""
-    name: BKRWBUSD
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BKRWUSDT(Symbol):
@@ -17668,17 +13939,6 @@ class BKRWUSDT(Symbol):
 
 
 BKRWUSDT = BKRWUSDT(*BKRWUSDT._fields)
-"""
-    name: BKRWUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BLZBNB(Symbol):
@@ -17720,17 +13980,6 @@ class BLZBNB(Symbol):
 
 
 BLZBNB = BLZBNB(*BLZBNB._fields)
-"""
-    name: BLZBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BLZBTC(Symbol):
@@ -17772,17 +14021,6 @@ class BLZBTC(Symbol):
 
 
 BLZBTC = BLZBTC(*BLZBTC._fields)
-"""
-    name: BLZBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BLZBUSD(Symbol):
@@ -17824,17 +14062,6 @@ class BLZBUSD(Symbol):
 
 
 BLZBUSD = BLZBUSD(*BLZBUSD._fields)
-"""
-    name: BLZBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BLZETH(Symbol):
@@ -17876,17 +14103,6 @@ class BLZETH(Symbol):
 
 
 BLZETH = BLZETH(*BLZETH._fields)
-"""
-    name: BLZETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BLZUSDT(Symbol):
@@ -17928,17 +14144,6 @@ class BLZUSDT(Symbol):
 
 
 BLZUSDT = BLZUSDT(*BLZUSDT._fields)
-"""
-    name: BLZUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBAUD(Symbol):
@@ -17980,17 +14185,6 @@ class BNBAUD(Symbol):
 
 
 BNBAUD = BNBAUD(*BNBAUD._fields)
-"""
-    name: BNBAUD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBEARBUSD(Symbol):
@@ -18032,17 +14226,6 @@ class BNBBEARBUSD(Symbol):
 
 
 BNBBEARBUSD = BNBBEARBUSD(*BNBBEARBUSD._fields)
-"""
-    name: BNBBEARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBEARUSDT(Symbol):
@@ -18084,17 +14267,6 @@ class BNBBEARUSDT(Symbol):
 
 
 BNBBEARUSDT = BNBBEARUSDT(*BNBBEARUSDT._fields)
-"""
-    name: BNBBEARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBIDR(Symbol):
@@ -18136,17 +14308,6 @@ class BNBBIDR(Symbol):
 
 
 BNBBIDR = BNBBIDR(*BNBBIDR._fields)
-"""
-    name: BNBBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBKRW(Symbol):
@@ -18188,17 +14349,6 @@ class BNBBKRW(Symbol):
 
 
 BNBBKRW = BNBBKRW(*BNBBKRW._fields)
-"""
-    name: BNBBKRW
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBRL(Symbol):
@@ -18240,17 +14390,6 @@ class BNBBRL(Symbol):
 
 
 BNBBRL = BNBBRL(*BNBBRL._fields)
-"""
-    name: BNBBRL
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBTC(Symbol):
@@ -18292,17 +14431,6 @@ class BNBBTC(Symbol):
 
 
 BNBBTC = BNBBTC(*BNBBTC._fields)
-"""
-    name: BNBBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBBULLBUSD(Symbol):
@@ -18344,17 +14472,6 @@ class BNBBULLBUSD(Symbol):
 
 
 BNBBULLBUSD = BNBBULLBUSD(*BNBBULLBUSD._fields)
-"""
-    name: BNBBULLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBULLUSDT(Symbol):
@@ -18396,17 +14513,6 @@ class BNBBULLUSDT(Symbol):
 
 
 BNBBULLUSDT = BNBBULLUSDT(*BNBBULLUSDT._fields)
-"""
-    name: BNBBULLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBBUSD(Symbol):
@@ -18448,17 +14554,6 @@ class BNBBUSD(Symbol):
 
 
 BNBBUSD = BNBBUSD(*BNBBUSD._fields)
-"""
-    name: BNBBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBDAI(Symbol):
@@ -18500,17 +14595,6 @@ class BNBDAI(Symbol):
 
 
 BNBDAI = BNBDAI(*BNBDAI._fields)
-"""
-    name: BNBDAI
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBDOWNUSDT(Symbol):
@@ -18552,17 +14636,6 @@ class BNBDOWNUSDT(Symbol):
 
 
 BNBDOWNUSDT = BNBDOWNUSDT(*BNBDOWNUSDT._fields)
-"""
-    name: BNBDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBETH(Symbol):
@@ -18604,17 +14677,6 @@ class BNBETH(Symbol):
 
 
 BNBETH = BNBETH(*BNBETH._fields)
-"""
-    name: BNBETH
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBEUR(Symbol):
@@ -18656,17 +14718,6 @@ class BNBEUR(Symbol):
 
 
 BNBEUR = BNBEUR(*BNBEUR._fields)
-"""
-    name: BNBEUR
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBGBP(Symbol):
@@ -18708,17 +14759,6 @@ class BNBGBP(Symbol):
 
 
 BNBGBP = BNBGBP(*BNBGBP._fields)
-"""
-    name: BNBGBP
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBIDRT(Symbol):
@@ -18760,17 +14800,6 @@ class BNBIDRT(Symbol):
 
 
 BNBIDRT = BNBIDRT(*BNBIDRT._fields)
-"""
-    name: BNBIDRT
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBNGN(Symbol):
@@ -18812,17 +14841,6 @@ class BNBNGN(Symbol):
 
 
 BNBNGN = BNBNGN(*BNBNGN._fields)
-"""
-    name: BNBNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBPAX(Symbol):
@@ -18864,17 +14882,6 @@ class BNBPAX(Symbol):
 
 
 BNBPAX = BNBPAX(*BNBPAX._fields)
-"""
-    name: BNBPAX
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBRUB(Symbol):
@@ -18916,17 +14923,6 @@ class BNBRUB(Symbol):
 
 
 BNBRUB = BNBRUB(*BNBRUB._fields)
-"""
-    name: BNBRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBTRY(Symbol):
@@ -18968,17 +14964,6 @@ class BNBTRY(Symbol):
 
 
 BNBTRY = BNBTRY(*BNBTRY._fields)
-"""
-    name: BNBTRY
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBTUSD(Symbol):
@@ -19020,17 +15005,6 @@ class BNBTUSD(Symbol):
 
 
 BNBTUSD = BNBTUSD(*BNBTUSD._fields)
-"""
-    name: BNBTUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBUAH(Symbol):
@@ -19072,17 +15046,6 @@ class BNBUAH(Symbol):
 
 
 BNBUAH = BNBUAH(*BNBUAH._fields)
-"""
-    name: BNBUAH
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBUPUSDT(Symbol):
@@ -19124,17 +15087,6 @@ class BNBUPUSDT(Symbol):
 
 
 BNBUPUSDT = BNBUPUSDT(*BNBUPUSDT._fields)
-"""
-    name: BNBUPUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBUSDC(Symbol):
@@ -19176,17 +15128,6 @@ class BNBUSDC(Symbol):
 
 
 BNBUSDC = BNBUSDC(*BNBUSDC._fields)
-"""
-    name: BNBUSDC
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBUSDP(Symbol):
@@ -19228,17 +15169,6 @@ class BNBUSDP(Symbol):
 
 
 BNBUSDP = BNBUSDP(*BNBUSDP._fields)
-"""
-    name: BNBUSDP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBUSDS(Symbol):
@@ -19280,17 +15210,6 @@ class BNBUSDS(Symbol):
 
 
 BNBUSDS = BNBUSDS(*BNBUSDS._fields)
-"""
-    name: BNBUSDS
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBUSDT(Symbol):
@@ -19332,17 +15251,6 @@ class BNBUSDT(Symbol):
 
 
 BNBUSDT = BNBUSDT(*BNBUSDT._fields)
-"""
-    name: BNBUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNBUST(Symbol):
@@ -19384,17 +15292,6 @@ class BNBUST(Symbol):
 
 
 BNBUST = BNBUST(*BNBUST._fields)
-"""
-    name: BNBUST
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNBZAR(Symbol):
@@ -19436,17 +15333,6 @@ class BNBZAR(Symbol):
 
 
 BNBZAR = BNBZAR(*BNBZAR._fields)
-"""
-    name: BNBZAR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNTBTC(Symbol):
@@ -19488,17 +15374,6 @@ class BNTBTC(Symbol):
 
 
 BNTBTC = BNTBTC(*BNTBTC._fields)
-"""
-    name: BNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNTBUSD(Symbol):
@@ -19540,17 +15415,6 @@ class BNTBUSD(Symbol):
 
 
 BNTBUSD = BNTBUSD(*BNTBUSD._fields)
-"""
-    name: BNTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNTETH(Symbol):
@@ -19592,17 +15456,6 @@ class BNTETH(Symbol):
 
 
 BNTETH = BNTETH(*BNTETH._fields)
-"""
-    name: BNTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNTUSDT(Symbol):
@@ -19644,17 +15497,6 @@ class BNTUSDT(Symbol):
 
 
 BNTUSDT = BNTUSDT(*BNTUSDT._fields)
-"""
-    name: BNTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BNXBNB(Symbol):
@@ -19696,17 +15538,6 @@ class BNXBNB(Symbol):
 
 
 BNXBNB = BNXBNB(*BNXBNB._fields)
-"""
-    name: BNXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNXBTC(Symbol):
@@ -19748,17 +15579,6 @@ class BNXBTC(Symbol):
 
 
 BNXBTC = BNXBTC(*BNXBTC._fields)
-"""
-    name: BNXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNXBUSD(Symbol):
@@ -19800,17 +15620,6 @@ class BNXBUSD(Symbol):
 
 
 BNXBUSD = BNXBUSD(*BNXBUSD._fields)
-"""
-    name: BNXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BNXUSDT(Symbol):
@@ -19852,17 +15661,6 @@ class BNXUSDT(Symbol):
 
 
 BNXUSDT = BNXUSDT(*BNXUSDT._fields)
-"""
-    name: BNXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BONDBNB(Symbol):
@@ -19904,17 +15702,6 @@ class BONDBNB(Symbol):
 
 
 BONDBNB = BONDBNB(*BONDBNB._fields)
-"""
-    name: BONDBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BONDBTC(Symbol):
@@ -19956,17 +15743,6 @@ class BONDBTC(Symbol):
 
 
 BONDBTC = BONDBTC(*BONDBTC._fields)
-"""
-    name: BONDBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BONDBUSD(Symbol):
@@ -20008,17 +15784,6 @@ class BONDBUSD(Symbol):
 
 
 BONDBUSD = BONDBUSD(*BONDBUSD._fields)
-"""
-    name: BONDBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BONDETH(Symbol):
@@ -20060,17 +15825,6 @@ class BONDETH(Symbol):
 
 
 BONDETH = BONDETH(*BONDETH._fields)
-"""
-    name: BONDETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BONDUSDT(Symbol):
@@ -20112,17 +15866,6 @@ class BONDUSDT(Symbol):
 
 
 BONDUSDT = BONDUSDT(*BONDUSDT._fields)
-"""
-    name: BONDUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BOTBTC(Symbol):
@@ -20164,17 +15907,6 @@ class BOTBTC(Symbol):
 
 
 BOTBTC = BOTBTC(*BOTBTC._fields)
-"""
-    name: BOTBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BOTBUSD(Symbol):
@@ -20216,17 +15948,6 @@ class BOTBUSD(Symbol):
 
 
 BOTBUSD = BOTBUSD(*BOTBUSD._fields)
-"""
-    name: BOTBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BQXBTC(Symbol):
@@ -20268,17 +15989,6 @@ class BQXBTC(Symbol):
 
 
 BQXBTC = BQXBTC(*BQXBTC._fields)
-"""
-    name: BQXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BQXETH(Symbol):
@@ -20320,17 +16030,6 @@ class BQXETH(Symbol):
 
 
 BQXETH = BQXETH(*BQXETH._fields)
-"""
-    name: BQXETH
-    significant_digits: None
-    tick_size: 10.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BRDBNB(Symbol):
@@ -20372,17 +16071,6 @@ class BRDBNB(Symbol):
 
 
 BRDBNB = BRDBNB(*BRDBNB._fields)
-"""
-    name: BRDBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BRDBTC(Symbol):
@@ -20424,17 +16112,6 @@ class BRDBTC(Symbol):
 
 
 BRDBTC = BRDBTC(*BRDBTC._fields)
-"""
-    name: BRDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BRDETH(Symbol):
@@ -20476,17 +16153,6 @@ class BRDETH(Symbol):
 
 
 BRDETH = BRDETH(*BRDETH._fields)
-"""
-    name: BRDETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BSWBNB(Symbol):
@@ -20528,17 +16194,6 @@ class BSWBNB(Symbol):
 
 
 BSWBNB = BSWBNB(*BSWBNB._fields)
-"""
-    name: BSWBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BSWBUSD(Symbol):
@@ -20580,17 +16235,6 @@ class BSWBUSD(Symbol):
 
 
 BSWBUSD = BSWBUSD(*BSWBUSD._fields)
-"""
-    name: BSWBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BSWETH(Symbol):
@@ -20632,17 +16276,6 @@ class BSWETH(Symbol):
 
 
 BSWETH = BSWETH(*BSWETH._fields)
-"""
-    name: BSWETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BSWTRY(Symbol):
@@ -20684,17 +16317,6 @@ class BSWTRY(Symbol):
 
 
 BSWTRY = BSWTRY(*BSWTRY._fields)
-"""
-    name: BSWTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BSWUSDT(Symbol):
@@ -20736,17 +16358,6 @@ class BSWUSDT(Symbol):
 
 
 BSWUSDT = BSWUSDT(*BSWUSDT._fields)
-"""
-    name: BSWUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTCAUD(Symbol):
@@ -20788,17 +16399,6 @@ class BTCAUD(Symbol):
 
 
 BTCAUD = BTCAUD(*BTCAUD._fields)
-"""
-    name: BTCAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCBBTC(Symbol):
@@ -20840,17 +16440,6 @@ class BTCBBTC(Symbol):
 
 
 BTCBBTC = BTCBBTC(*BTCBBTC._fields)
-"""
-    name: BTCBBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCBIDR(Symbol):
@@ -20892,17 +16481,6 @@ class BTCBIDR(Symbol):
 
 
 BTCBIDR = BTCBIDR(*BTCBIDR._fields)
-"""
-    name: BTCBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCBKRW(Symbol):
@@ -20944,17 +16522,6 @@ class BTCBKRW(Symbol):
 
 
 BTCBKRW = BTCBKRW(*BTCBKRW._fields)
-"""
-    name: BTCBKRW
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCBRL(Symbol):
@@ -20996,17 +16563,6 @@ class BTCBRL(Symbol):
 
 
 BTCBRL = BTCBRL(*BTCBRL._fields)
-"""
-    name: BTCBRL
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCBUSD(Symbol):
@@ -21048,17 +16604,6 @@ class BTCBUSD(Symbol):
 
 
 BTCBUSD = BTCBUSD(*BTCBUSD._fields)
-"""
-    name: BTCBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTCDAI(Symbol):
@@ -21100,17 +16645,6 @@ class BTCDAI(Symbol):
 
 
 BTCDAI = BTCDAI(*BTCDAI._fields)
-"""
-    name: BTCDAI
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCDOWNUSDT(Symbol):
@@ -21152,17 +16686,6 @@ class BTCDOWNUSDT(Symbol):
 
 
 BTCDOWNUSDT = BTCDOWNUSDT(*BTCDOWNUSDT._fields)
-"""
-    name: BTCDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCEUR(Symbol):
@@ -21204,17 +16727,6 @@ class BTCEUR(Symbol):
 
 
 BTCEUR = BTCEUR(*BTCEUR._fields)
-"""
-    name: BTCEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCGBP(Symbol):
@@ -21256,17 +16768,6 @@ class BTCGBP(Symbol):
 
 
 BTCGBP = BTCGBP(*BTCGBP._fields)
-"""
-    name: BTCGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCIDRT(Symbol):
@@ -21308,17 +16809,6 @@ class BTCIDRT(Symbol):
 
 
 BTCIDRT = BTCIDRT(*BTCIDRT._fields)
-"""
-    name: BTCIDRT
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCNGN(Symbol):
@@ -21360,17 +16850,6 @@ class BTCNGN(Symbol):
 
 
 BTCNGN = BTCNGN(*BTCNGN._fields)
-"""
-    name: BTCNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCPAX(Symbol):
@@ -21412,17 +16891,6 @@ class BTCPAX(Symbol):
 
 
 BTCPAX = BTCPAX(*BTCPAX._fields)
-"""
-    name: BTCPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCPLN(Symbol):
@@ -21464,17 +16932,6 @@ class BTCPLN(Symbol):
 
 
 BTCPLN = BTCPLN(*BTCPLN._fields)
-"""
-    name: BTCPLN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCRON(Symbol):
@@ -21516,17 +16973,6 @@ class BTCRON(Symbol):
 
 
 BTCRON = BTCRON(*BTCRON._fields)
-"""
-    name: BTCRON
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCRUB(Symbol):
@@ -21568,17 +17014,6 @@ class BTCRUB(Symbol):
 
 
 BTCRUB = BTCRUB(*BTCRUB._fields)
-"""
-    name: BTCRUB
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCSTBTC(Symbol):
@@ -21620,17 +17055,6 @@ class BTCSTBTC(Symbol):
 
 
 BTCSTBTC = BTCSTBTC(*BTCSTBTC._fields)
-"""
-    name: BTCSTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCSTBUSD(Symbol):
@@ -21672,17 +17096,6 @@ class BTCSTBUSD(Symbol):
 
 
 BTCSTBUSD = BTCSTBUSD(*BTCSTBUSD._fields)
-"""
-    name: BTCSTBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCSTUSDT(Symbol):
@@ -21724,17 +17137,6 @@ class BTCSTUSDT(Symbol):
 
 
 BTCSTUSDT = BTCSTUSDT(*BTCSTUSDT._fields)
-"""
-    name: BTCSTUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCTRY(Symbol):
@@ -21776,17 +17178,6 @@ class BTCTRY(Symbol):
 
 
 BTCTRY = BTCTRY(*BTCTRY._fields)
-"""
-    name: BTCTRY
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCTUSD(Symbol):
@@ -21828,17 +17219,6 @@ class BTCTUSD(Symbol):
 
 
 BTCTUSD = BTCTUSD(*BTCTUSD._fields)
-"""
-    name: BTCTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTCUAH(Symbol):
@@ -21880,17 +17260,6 @@ class BTCUAH(Symbol):
 
 
 BTCUAH = BTCUAH(*BTCUAH._fields)
-"""
-    name: BTCUAH
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCUPUSDT(Symbol):
@@ -21932,17 +17301,6 @@ class BTCUPUSDT(Symbol):
 
 
 BTCUPUSDT = BTCUPUSDT(*BTCUPUSDT._fields)
-"""
-    name: BTCUPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCUSDC(Symbol):
@@ -21984,17 +17342,6 @@ class BTCUSDC(Symbol):
 
 
 BTCUSDC = BTCUSDC(*BTCUSDC._fields)
-"""
-    name: BTCUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTCUSDP(Symbol):
@@ -22036,17 +17383,6 @@ class BTCUSDP(Symbol):
 
 
 BTCUSDP = BTCUSDP(*BTCUSDP._fields)
-"""
-    name: BTCUSDP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCUSDS(Symbol):
@@ -22088,17 +17424,6 @@ class BTCUSDS(Symbol):
 
 
 BTCUSDS = BTCUSDS(*BTCUSDS._fields)
-"""
-    name: BTCUSDS
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCUSDT(Symbol):
@@ -22140,17 +17465,6 @@ class BTCUSDT(Symbol):
 
 
 BTCUSDT = BTCUSDT(*BTCUSDT._fields)
-"""
-    name: BTCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTCUST(Symbol):
@@ -22192,17 +17506,6 @@ class BTCUST(Symbol):
 
 
 BTCUST = BTCUST(*BTCUST._fields)
-"""
-    name: BTCUST
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCVAI(Symbol):
@@ -22244,17 +17547,6 @@ class BTCVAI(Symbol):
 
 
 BTCVAI = BTCVAI(*BTCVAI._fields)
-"""
-    name: BTCVAI
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTCZAR(Symbol):
@@ -22296,17 +17588,6 @@ class BTCZAR(Symbol):
 
 
 BTCZAR = BTCZAR(*BTCZAR._fields)
-"""
-    name: BTCZAR
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTGBTC(Symbol):
@@ -22348,17 +17629,6 @@ class BTGBTC(Symbol):
 
 
 BTGBTC = BTGBTC(*BTGBTC._fields)
-"""
-    name: BTGBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTGBUSD(Symbol):
@@ -22400,17 +17670,6 @@ class BTGBUSD(Symbol):
 
 
 BTGBUSD = BTGBUSD(*BTGBUSD._fields)
-"""
-    name: BTGBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTGETH(Symbol):
@@ -22452,17 +17711,6 @@ class BTGETH(Symbol):
 
 
 BTGETH = BTGETH(*BTGETH._fields)
-"""
-    name: BTGETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTGUSDT(Symbol):
@@ -22504,17 +17752,6 @@ class BTGUSDT(Symbol):
 
 
 BTGUSDT = BTGUSDT(*BTGUSDT._fields)
-"""
-    name: BTGUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTSBNB(Symbol):
@@ -22556,17 +17793,6 @@ class BTSBNB(Symbol):
 
 
 BTSBNB = BTSBNB(*BTSBNB._fields)
-"""
-    name: BTSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTSBTC(Symbol):
@@ -22608,17 +17834,6 @@ class BTSBTC(Symbol):
 
 
 BTSBTC = BTSBTC(*BTSBTC._fields)
-"""
-    name: BTSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTSBUSD(Symbol):
@@ -22660,17 +17875,6 @@ class BTSBUSD(Symbol):
 
 
 BTSBUSD = BTSBUSD(*BTSBUSD._fields)
-"""
-    name: BTSBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTSETH(Symbol):
@@ -22712,17 +17916,6 @@ class BTSETH(Symbol):
 
 
 BTSETH = BTSETH(*BTSETH._fields)
-"""
-    name: BTSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTSUSDT(Symbol):
@@ -22764,17 +17957,6 @@ class BTSUSDT(Symbol):
 
 
 BTSUSDT = BTSUSDT(*BTSUSDT._fields)
-"""
-    name: BTSUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BTTBNB(Symbol):
@@ -22816,17 +17998,6 @@ class BTTBNB(Symbol):
 
 
 BTTBNB = BTTBNB(*BTTBNB._fields)
-"""
-    name: BTTBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTBRL(Symbol):
@@ -22868,17 +18039,6 @@ class BTTBRL(Symbol):
 
 
 BTTBRL = BTTBRL(*BTTBRL._fields)
-"""
-    name: BTTBRL
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTBTC(Symbol):
@@ -22920,17 +18080,6 @@ class BTTBTC(Symbol):
 
 
 BTTBTC = BTTBTC(*BTTBTC._fields)
-"""
-    name: BTTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTBUSD(Symbol):
@@ -22972,17 +18121,6 @@ class BTTBUSD(Symbol):
 
 
 BTTBUSD = BTTBUSD(*BTTBUSD._fields)
-"""
-    name: BTTBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTCBUSD(Symbol):
@@ -23024,17 +18162,6 @@ class BTTCBUSD(Symbol):
 
 
 BTTCBUSD = BTTCBUSD(*BTTCBUSD._fields)
-"""
-    name: BTTCBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTCTRY(Symbol):
@@ -23076,17 +18203,6 @@ class BTTCTRY(Symbol):
 
 
 BTTCTRY = BTTCTRY(*BTTCTRY._fields)
-"""
-    name: BTTCTRY
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTCUSDC(Symbol):
@@ -23128,17 +18244,6 @@ class BTTCUSDC(Symbol):
 
 
 BTTCUSDC = BTTCUSDC(*BTTCUSDC._fields)
-"""
-    name: BTTCUSDC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTCUSDT(Symbol):
@@ -23180,17 +18285,6 @@ class BTTCUSDT(Symbol):
 
 
 BTTCUSDT = BTTCUSDT(*BTTCUSDT._fields)
-"""
-    name: BTTCUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTEUR(Symbol):
@@ -23232,17 +18326,6 @@ class BTTEUR(Symbol):
 
 
 BTTEUR = BTTEUR(*BTTEUR._fields)
-"""
-    name: BTTEUR
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTPAX(Symbol):
@@ -23284,17 +18367,6 @@ class BTTPAX(Symbol):
 
 
 BTTPAX = BTTPAX(*BTTPAX._fields)
-"""
-    name: BTTPAX
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTTRX(Symbol):
@@ -23336,17 +18408,6 @@ class BTTTRX(Symbol):
 
 
 BTTTRX = BTTTRX(*BTTTRX._fields)
-"""
-    name: BTTTRX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTTRY(Symbol):
@@ -23388,17 +18449,6 @@ class BTTTRY(Symbol):
 
 
 BTTTRY = BTTTRY(*BTTTRY._fields)
-"""
-    name: BTTTRY
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTTUSD(Symbol):
@@ -23440,17 +18490,6 @@ class BTTTUSD(Symbol):
 
 
 BTTTUSD = BTTTUSD(*BTTTUSD._fields)
-"""
-    name: BTTTUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTUSDC(Symbol):
@@ -23492,17 +18531,6 @@ class BTTUSDC(Symbol):
 
 
 BTTUSDC = BTTUSDC(*BTTUSDC._fields)
-"""
-    name: BTTUSDC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BTTUSDT(Symbol):
@@ -23544,17 +18572,6 @@ class BTTUSDT(Symbol):
 
 
 BTTUSDT = BTTUSDT(*BTTUSDT._fields)
-"""
-    name: BTTUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BULLBUSD(Symbol):
@@ -23596,17 +18613,6 @@ class BULLBUSD(Symbol):
 
 
 BULLBUSD = BULLBUSD(*BULLBUSD._fields)
-"""
-    name: BULLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BULLUSDT(Symbol):
@@ -23648,17 +18654,6 @@ class BULLUSDT(Symbol):
 
 
 BULLUSDT = BULLUSDT(*BULLUSDT._fields)
-"""
-    name: BULLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BURGERBNB(Symbol):
@@ -23700,17 +18695,6 @@ class BURGERBNB(Symbol):
 
 
 BURGERBNB = BURGERBNB(*BURGERBNB._fields)
-"""
-    name: BURGERBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BURGERBUSD(Symbol):
@@ -23752,17 +18736,6 @@ class BURGERBUSD(Symbol):
 
 
 BURGERBUSD = BURGERBUSD(*BURGERBUSD._fields)
-"""
-    name: BURGERBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BURGERETH(Symbol):
@@ -23804,17 +18777,6 @@ class BURGERETH(Symbol):
 
 
 BURGERETH = BURGERETH(*BURGERETH._fields)
-"""
-    name: BURGERETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BURGERUSDT(Symbol):
@@ -23856,17 +18818,6 @@ class BURGERUSDT(Symbol):
 
 
 BURGERUSDT = BURGERUSDT(*BURGERUSDT._fields)
-"""
-    name: BURGERUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BUSDBIDR(Symbol):
@@ -23908,17 +18859,6 @@ class BUSDBIDR(Symbol):
 
 
 BUSDBIDR = BUSDBIDR(*BUSDBIDR._fields)
-"""
-    name: BUSDBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDBKRW(Symbol):
@@ -23960,17 +18900,6 @@ class BUSDBKRW(Symbol):
 
 
 BUSDBKRW = BUSDBKRW(*BUSDBKRW._fields)
-"""
-    name: BUSDBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDBRL(Symbol):
@@ -24012,17 +18941,6 @@ class BUSDBRL(Symbol):
 
 
 BUSDBRL = BUSDBRL(*BUSDBRL._fields)
-"""
-    name: BUSDBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDBVND(Symbol):
@@ -24064,17 +18982,6 @@ class BUSDBVND(Symbol):
 
 
 BUSDBVND = BUSDBVND(*BUSDBVND._fields)
-"""
-    name: BUSDBVND
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30000.00
-    max_order_size: 9000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDDAI(Symbol):
@@ -24116,17 +19023,6 @@ class BUSDDAI(Symbol):
 
 
 BUSDDAI = BUSDDAI(*BUSDDAI._fields)
-"""
-    name: BUSDDAI
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDIDRT(Symbol):
@@ -24168,17 +19064,6 @@ class BUSDIDRT(Symbol):
 
 
 BUSDIDRT = BUSDIDRT(*BUSDIDRT._fields)
-"""
-    name: BUSDIDRT
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDNGN(Symbol):
@@ -24220,17 +19105,6 @@ class BUSDNGN(Symbol):
 
 
 BUSDNGN = BUSDNGN(*BUSDNGN._fields)
-"""
-    name: BUSDNGN
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDPLN(Symbol):
@@ -24272,17 +19146,6 @@ class BUSDPLN(Symbol):
 
 
 BUSDPLN = BUSDPLN(*BUSDPLN._fields)
-"""
-    name: BUSDPLN
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDRON(Symbol):
@@ -24324,17 +19187,6 @@ class BUSDRON(Symbol):
 
 
 BUSDRON = BUSDRON(*BUSDRON._fields)
-"""
-    name: BUSDRON
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDRUB(Symbol):
@@ -24376,17 +19228,6 @@ class BUSDRUB(Symbol):
 
 
 BUSDRUB = BUSDRUB(*BUSDRUB._fields)
-"""
-    name: BUSDRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDTRY(Symbol):
@@ -24428,17 +19269,6 @@ class BUSDTRY(Symbol):
 
 
 BUSDTRY = BUSDTRY(*BUSDTRY._fields)
-"""
-    name: BUSDTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDUAH(Symbol):
@@ -24480,17 +19310,6 @@ class BUSDUAH(Symbol):
 
 
 BUSDUAH = BUSDUAH(*BUSDUAH._fields)
-"""
-    name: BUSDUAH
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDUSDT(Symbol):
@@ -24532,17 +19351,6 @@ class BUSDUSDT(Symbol):
 
 
 BUSDUSDT = BUSDUSDT(*BUSDUSDT._fields)
-"""
-    name: BUSDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class BUSDVAI(Symbol):
@@ -24584,17 +19392,6 @@ class BUSDVAI(Symbol):
 
 
 BUSDVAI = BUSDVAI(*BUSDVAI._fields)
-"""
-    name: BUSDVAI
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BUSDZAR(Symbol):
@@ -24636,17 +19433,6 @@ class BUSDZAR(Symbol):
 
 
 BUSDZAR = BUSDZAR(*BUSDZAR._fields)
-"""
-    name: BUSDZAR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BZRXBNB(Symbol):
@@ -24688,17 +19474,6 @@ class BZRXBNB(Symbol):
 
 
 BZRXBNB = BZRXBNB(*BZRXBNB._fields)
-"""
-    name: BZRXBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BZRXBTC(Symbol):
@@ -24740,17 +19515,6 @@ class BZRXBTC(Symbol):
 
 
 BZRXBTC = BZRXBTC(*BZRXBTC._fields)
-"""
-    name: BZRXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BZRXBUSD(Symbol):
@@ -24792,17 +19556,6 @@ class BZRXBUSD(Symbol):
 
 
 BZRXBUSD = BZRXBUSD(*BZRXBUSD._fields)
-"""
-    name: BZRXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class BZRXUSDT(Symbol):
@@ -24844,17 +19597,6 @@ class BZRXUSDT(Symbol):
 
 
 BZRXUSDT = BZRXUSDT(*BZRXUSDT._fields)
-"""
-    name: BZRXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class C98BNB(Symbol):
@@ -24896,17 +19638,6 @@ class C98BNB(Symbol):
 
 
 C98BNB = C98BNB(*C98BNB._fields)
-"""
-    name: C98BNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class C98BRL(Symbol):
@@ -24948,17 +19679,6 @@ class C98BRL(Symbol):
 
 
 C98BRL = C98BRL(*C98BRL._fields)
-"""
-    name: C98BRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class C98BTC(Symbol):
@@ -25000,17 +19720,6 @@ class C98BTC(Symbol):
 
 
 C98BTC = C98BTC(*C98BTC._fields)
-"""
-    name: C98BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class C98BUSD(Symbol):
@@ -25052,17 +19761,6 @@ class C98BUSD(Symbol):
 
 
 C98BUSD = C98BUSD(*C98BUSD._fields)
-"""
-    name: C98BUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class C98USDT(Symbol):
@@ -25104,17 +19802,6 @@ class C98USDT(Symbol):
 
 
 C98USDT = C98USDT(*C98USDT._fields)
-"""
-    name: C98USDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CAKEAUD(Symbol):
@@ -25156,17 +19843,6 @@ class CAKEAUD(Symbol):
 
 
 CAKEAUD = CAKEAUD(*CAKEAUD._fields)
-"""
-    name: CAKEAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CAKEBNB(Symbol):
@@ -25208,17 +19884,6 @@ class CAKEBNB(Symbol):
 
 
 CAKEBNB = CAKEBNB(*CAKEBNB._fields)
-"""
-    name: CAKEBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CAKEBRL(Symbol):
@@ -25260,17 +19925,6 @@ class CAKEBRL(Symbol):
 
 
 CAKEBRL = CAKEBRL(*CAKEBRL._fields)
-"""
-    name: CAKEBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CAKEBTC(Symbol):
@@ -25312,17 +19966,6 @@ class CAKEBTC(Symbol):
 
 
 CAKEBTC = CAKEBTC(*CAKEBTC._fields)
-"""
-    name: CAKEBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CAKEBUSD(Symbol):
@@ -25364,17 +20007,6 @@ class CAKEBUSD(Symbol):
 
 
 CAKEBUSD = CAKEBUSD(*CAKEBUSD._fields)
-"""
-    name: CAKEBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CAKEGBP(Symbol):
@@ -25416,17 +20048,6 @@ class CAKEGBP(Symbol):
 
 
 CAKEGBP = CAKEGBP(*CAKEGBP._fields)
-"""
-    name: CAKEGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CAKEUSDT(Symbol):
@@ -25468,17 +20089,6 @@ class CAKEUSDT(Symbol):
 
 
 CAKEUSDT = CAKEUSDT(*CAKEUSDT._fields)
-"""
-    name: CAKEUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CDTBTC(Symbol):
@@ -25520,17 +20130,6 @@ class CDTBTC(Symbol):
 
 
 CDTBTC = CDTBTC(*CDTBTC._fields)
-"""
-    name: CDTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CDTETH(Symbol):
@@ -25572,17 +20171,6 @@ class CDTETH(Symbol):
 
 
 CDTETH = CDTETH(*CDTETH._fields)
-"""
-    name: CDTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELOBTC(Symbol):
@@ -25624,17 +20212,6 @@ class CELOBTC(Symbol):
 
 
 CELOBTC = CELOBTC(*CELOBTC._fields)
-"""
-    name: CELOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELOBUSD(Symbol):
@@ -25676,17 +20253,6 @@ class CELOBUSD(Symbol):
 
 
 CELOBUSD = CELOBUSD(*CELOBUSD._fields)
-"""
-    name: CELOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CELOUSDT(Symbol):
@@ -25728,17 +20294,6 @@ class CELOUSDT(Symbol):
 
 
 CELOUSDT = CELOUSDT(*CELOUSDT._fields)
-"""
-    name: CELOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CELRBNB(Symbol):
@@ -25780,17 +20335,6 @@ class CELRBNB(Symbol):
 
 
 CELRBNB = CELRBNB(*CELRBNB._fields)
-"""
-    name: CELRBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELRBTC(Symbol):
@@ -25832,17 +20376,6 @@ class CELRBTC(Symbol):
 
 
 CELRBTC = CELRBTC(*CELRBTC._fields)
-"""
-    name: CELRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELRBUSD(Symbol):
@@ -25884,17 +20417,6 @@ class CELRBUSD(Symbol):
 
 
 CELRBUSD = CELRBUSD(*CELRBUSD._fields)
-"""
-    name: CELRBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELRETH(Symbol):
@@ -25936,17 +20458,6 @@ class CELRETH(Symbol):
 
 
 CELRETH = CELRETH(*CELRETH._fields)
-"""
-    name: CELRETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CELRUSDT(Symbol):
@@ -25988,17 +20499,6 @@ class CELRUSDT(Symbol):
 
 
 CELRUSDT = CELRUSDT(*CELRUSDT._fields)
-"""
-    name: CELRUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CFXBTC(Symbol):
@@ -26040,17 +20540,6 @@ class CFXBTC(Symbol):
 
 
 CFXBTC = CFXBTC(*CFXBTC._fields)
-"""
-    name: CFXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CFXBUSD(Symbol):
@@ -26092,17 +20581,6 @@ class CFXBUSD(Symbol):
 
 
 CFXBUSD = CFXBUSD(*CFXBUSD._fields)
-"""
-    name: CFXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CFXTRY(Symbol):
@@ -26144,17 +20622,6 @@ class CFXTRY(Symbol):
 
 
 CFXTRY = CFXTRY(*CFXTRY._fields)
-"""
-    name: CFXTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CFXUSDT(Symbol):
@@ -26196,17 +20663,6 @@ class CFXUSDT(Symbol):
 
 
 CFXUSDT = CFXUSDT(*CFXUSDT._fields)
-"""
-    name: CFXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CHATBTC(Symbol):
@@ -26248,17 +20704,6 @@ class CHATBTC(Symbol):
 
 
 CHATBTC = CHATBTC(*CHATBTC._fields)
-"""
-    name: CHATBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHATETH(Symbol):
@@ -26300,17 +20745,6 @@ class CHATETH(Symbol):
 
 
 CHATETH = CHATETH(*CHATETH._fields)
-"""
-    name: CHATETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHESSBNB(Symbol):
@@ -26352,17 +20786,6 @@ class CHESSBNB(Symbol):
 
 
 CHESSBNB = CHESSBNB(*CHESSBNB._fields)
-"""
-    name: CHESSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHESSBTC(Symbol):
@@ -26404,17 +20827,6 @@ class CHESSBTC(Symbol):
 
 
 CHESSBTC = CHESSBTC(*CHESSBTC._fields)
-"""
-    name: CHESSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHESSBUSD(Symbol):
@@ -26456,17 +20868,6 @@ class CHESSBUSD(Symbol):
 
 
 CHESSBUSD = CHESSBUSD(*CHESSBUSD._fields)
-"""
-    name: CHESSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHESSUSDT(Symbol):
@@ -26508,17 +20909,6 @@ class CHESSUSDT(Symbol):
 
 
 CHESSUSDT = CHESSUSDT(*CHESSUSDT._fields)
-"""
-    name: CHESSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHRBNB(Symbol):
@@ -26560,17 +20950,6 @@ class CHRBNB(Symbol):
 
 
 CHRBNB = CHRBNB(*CHRBNB._fields)
-"""
-    name: CHRBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHRBTC(Symbol):
@@ -26612,17 +20991,6 @@ class CHRBTC(Symbol):
 
 
 CHRBTC = CHRBTC(*CHRBTC._fields)
-"""
-    name: CHRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CHRBUSD(Symbol):
@@ -26664,17 +21032,6 @@ class CHRBUSD(Symbol):
 
 
 CHRBUSD = CHRBUSD(*CHRBUSD._fields)
-"""
-    name: CHRBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CHRETH(Symbol):
@@ -26716,17 +21073,6 @@ class CHRETH(Symbol):
 
 
 CHRETH = CHRETH(*CHRETH._fields)
-"""
-    name: CHRETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHRUSDT(Symbol):
@@ -26768,17 +21114,6 @@ class CHRUSDT(Symbol):
 
 
 CHRUSDT = CHRUSDT(*CHRUSDT._fields)
-"""
-    name: CHRUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CHZBNB(Symbol):
@@ -26820,17 +21155,6 @@ class CHZBNB(Symbol):
 
 
 CHZBNB = CHZBNB(*CHZBNB._fields)
-"""
-    name: CHZBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZBRL(Symbol):
@@ -26872,17 +21196,6 @@ class CHZBRL(Symbol):
 
 
 CHZBRL = CHZBRL(*CHZBRL._fields)
-"""
-    name: CHZBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZBTC(Symbol):
@@ -26924,17 +21237,6 @@ class CHZBTC(Symbol):
 
 
 CHZBTC = CHZBTC(*CHZBTC._fields)
-"""
-    name: CHZBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CHZBUSD(Symbol):
@@ -26976,17 +21278,6 @@ class CHZBUSD(Symbol):
 
 
 CHZBUSD = CHZBUSD(*CHZBUSD._fields)
-"""
-    name: CHZBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZEUR(Symbol):
@@ -27028,17 +21319,6 @@ class CHZEUR(Symbol):
 
 
 CHZEUR = CHZEUR(*CHZEUR._fields)
-"""
-    name: CHZEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZGBP(Symbol):
@@ -27080,17 +21360,6 @@ class CHZGBP(Symbol):
 
 
 CHZGBP = CHZGBP(*CHZGBP._fields)
-"""
-    name: CHZGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZTRY(Symbol):
@@ -27132,17 +21401,6 @@ class CHZTRY(Symbol):
 
 
 CHZTRY = CHZTRY(*CHZTRY._fields)
-"""
-    name: CHZTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CHZUSDT(Symbol):
@@ -27184,17 +21442,6 @@ class CHZUSDT(Symbol):
 
 
 CHZUSDT = CHZUSDT(*CHZUSDT._fields)
-"""
-    name: CHZUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CITYBNB(Symbol):
@@ -27236,17 +21483,6 @@ class CITYBNB(Symbol):
 
 
 CITYBNB = CITYBNB(*CITYBNB._fields)
-"""
-    name: CITYBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CITYBTC(Symbol):
@@ -27288,17 +21524,6 @@ class CITYBTC(Symbol):
 
 
 CITYBTC = CITYBTC(*CITYBTC._fields)
-"""
-    name: CITYBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CITYBUSD(Symbol):
@@ -27340,17 +21565,6 @@ class CITYBUSD(Symbol):
 
 
 CITYBUSD = CITYBUSD(*CITYBUSD._fields)
-"""
-    name: CITYBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CITYUSDT(Symbol):
@@ -27392,17 +21606,6 @@ class CITYUSDT(Symbol):
 
 
 CITYUSDT = CITYUSDT(*CITYUSDT._fields)
-"""
-    name: CITYUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CKBBTC(Symbol):
@@ -27444,17 +21647,6 @@ class CKBBTC(Symbol):
 
 
 CKBBTC = CKBBTC(*CKBBTC._fields)
-"""
-    name: CKBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CKBBUSD(Symbol):
@@ -27496,17 +21688,6 @@ class CKBBUSD(Symbol):
 
 
 CKBBUSD = CKBBUSD(*CKBBUSD._fields)
-"""
-    name: CKBBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CKBUSDT(Symbol):
@@ -27548,17 +21729,6 @@ class CKBUSDT(Symbol):
 
 
 CKBUSDT = CKBUSDT(*CKBUSDT._fields)
-"""
-    name: CKBUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CLOAKBTC(Symbol):
@@ -27600,17 +21770,6 @@ class CLOAKBTC(Symbol):
 
 
 CLOAKBTC = CLOAKBTC(*CLOAKBTC._fields)
-"""
-    name: CLOAKBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CLOAKETH(Symbol):
@@ -27652,17 +21811,6 @@ class CLOAKETH(Symbol):
 
 
 CLOAKETH = CLOAKETH(*CLOAKETH._fields)
-"""
-    name: CLOAKETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CLVBNB(Symbol):
@@ -27704,17 +21852,6 @@ class CLVBNB(Symbol):
 
 
 CLVBNB = CLVBNB(*CLVBNB._fields)
-"""
-    name: CLVBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CLVBTC(Symbol):
@@ -27756,17 +21893,6 @@ class CLVBTC(Symbol):
 
 
 CLVBTC = CLVBTC(*CLVBTC._fields)
-"""
-    name: CLVBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CLVBUSD(Symbol):
@@ -27808,17 +21934,6 @@ class CLVBUSD(Symbol):
 
 
 CLVBUSD = CLVBUSD(*CLVBUSD._fields)
-"""
-    name: CLVBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CLVUSDT(Symbol):
@@ -27860,17 +21975,6 @@ class CLVUSDT(Symbol):
 
 
 CLVUSDT = CLVUSDT(*CLVUSDT._fields)
-"""
-    name: CLVUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CMTBNB(Symbol):
@@ -27912,17 +22016,6 @@ class CMTBNB(Symbol):
 
 
 CMTBNB = CMTBNB(*CMTBNB._fields)
-"""
-    name: CMTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CMTBTC(Symbol):
@@ -27964,17 +22057,6 @@ class CMTBTC(Symbol):
 
 
 CMTBTC = CMTBTC(*CMTBTC._fields)
-"""
-    name: CMTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CMTETH(Symbol):
@@ -28016,17 +22098,6 @@ class CMTETH(Symbol):
 
 
 CMTETH = CMTETH(*CMTETH._fields)
-"""
-    name: CMTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CNDBNB(Symbol):
@@ -28068,17 +22139,6 @@ class CNDBNB(Symbol):
 
 
 CNDBNB = CNDBNB(*CNDBNB._fields)
-"""
-    name: CNDBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CNDBTC(Symbol):
@@ -28120,17 +22180,6 @@ class CNDBTC(Symbol):
 
 
 CNDBTC = CNDBTC(*CNDBTC._fields)
-"""
-    name: CNDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CNDETH(Symbol):
@@ -28172,17 +22221,6 @@ class CNDETH(Symbol):
 
 
 CNDETH = CNDETH(*CNDETH._fields)
-"""
-    name: CNDETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COCOSBNB(Symbol):
@@ -28224,17 +22262,6 @@ class COCOSBNB(Symbol):
 
 
 COCOSBNB = COCOSBNB(*COCOSBNB._fields)
-"""
-    name: COCOSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COCOSBTC(Symbol):
@@ -28276,17 +22303,6 @@ class COCOSBTC(Symbol):
 
 
 COCOSBTC = COCOSBTC(*COCOSBTC._fields)
-"""
-    name: COCOSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COCOSBUSD(Symbol):
@@ -28328,17 +22344,6 @@ class COCOSBUSD(Symbol):
 
 
 COCOSBUSD = COCOSBUSD(*COCOSBUSD._fields)
-"""
-    name: COCOSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COCOSTRY(Symbol):
@@ -28380,17 +22385,6 @@ class COCOSTRY(Symbol):
 
 
 COCOSTRY = COCOSTRY(*COCOSTRY._fields)
-"""
-    name: COCOSTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COCOSUSDT(Symbol):
@@ -28432,17 +22426,6 @@ class COCOSUSDT(Symbol):
 
 
 COCOSUSDT = COCOSUSDT(*COCOSUSDT._fields)
-"""
-    name: COCOSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COMPBNB(Symbol):
@@ -28484,17 +22467,6 @@ class COMPBNB(Symbol):
 
 
 COMPBNB = COMPBNB(*COMPBNB._fields)
-"""
-    name: COMPBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COMPBTC(Symbol):
@@ -28536,17 +22508,6 @@ class COMPBTC(Symbol):
 
 
 COMPBTC = COMPBTC(*COMPBTC._fields)
-"""
-    name: COMPBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COMPBUSD(Symbol):
@@ -28588,17 +22549,6 @@ class COMPBUSD(Symbol):
 
 
 COMPBUSD = COMPBUSD(*COMPBUSD._fields)
-"""
-    name: COMPBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COMPUSDT(Symbol):
@@ -28640,17 +22590,6 @@ class COMPUSDT(Symbol):
 
 
 COMPUSDT = COMPUSDT(*COMPUSDT._fields)
-"""
-    name: COMPUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COSBNB(Symbol):
@@ -28692,17 +22631,6 @@ class COSBNB(Symbol):
 
 
 COSBNB = COSBNB(*COSBNB._fields)
-"""
-    name: COSBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COSBTC(Symbol):
@@ -28744,17 +22672,6 @@ class COSBTC(Symbol):
 
 
 COSBTC = COSBTC(*COSBTC._fields)
-"""
-    name: COSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COSBUSD(Symbol):
@@ -28796,17 +22713,6 @@ class COSBUSD(Symbol):
 
 
 COSBUSD = COSBUSD(*COSBUSD._fields)
-"""
-    name: COSBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COSTRY(Symbol):
@@ -28848,17 +22754,6 @@ class COSTRY(Symbol):
 
 
 COSTRY = COSTRY(*COSTRY._fields)
-"""
-    name: COSTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COSUSDT(Symbol):
@@ -28900,17 +22795,6 @@ class COSUSDT(Symbol):
 
 
 COSUSDT = COSUSDT(*COSUSDT._fields)
-"""
-    name: COSUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COTIBNB(Symbol):
@@ -28952,17 +22836,6 @@ class COTIBNB(Symbol):
 
 
 COTIBNB = COTIBNB(*COTIBNB._fields)
-"""
-    name: COTIBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COTIBTC(Symbol):
@@ -29004,17 +22877,6 @@ class COTIBTC(Symbol):
 
 
 COTIBTC = COTIBTC(*COTIBTC._fields)
-"""
-    name: COTIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COTIBUSD(Symbol):
@@ -29056,17 +22918,6 @@ class COTIBUSD(Symbol):
 
 
 COTIBUSD = COTIBUSD(*COTIBUSD._fields)
-"""
-    name: COTIBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COTIUSDT(Symbol):
@@ -29108,17 +22959,6 @@ class COTIUSDT(Symbol):
 
 
 COTIUSDT = COTIUSDT(*COTIUSDT._fields)
-"""
-    name: COTIUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class COVERBUSD(Symbol):
@@ -29160,17 +23000,6 @@ class COVERBUSD(Symbol):
 
 
 COVERBUSD = COVERBUSD(*COVERBUSD._fields)
-"""
-    name: COVERBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class COVERETH(Symbol):
@@ -29212,17 +23041,6 @@ class COVERETH(Symbol):
 
 
 COVERETH = COVERETH(*COVERETH._fields)
-"""
-    name: COVERETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CREAMBNB(Symbol):
@@ -29264,17 +23082,6 @@ class CREAMBNB(Symbol):
 
 
 CREAMBNB = CREAMBNB(*CREAMBNB._fields)
-"""
-    name: CREAMBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CREAMBUSD(Symbol):
@@ -29316,17 +23123,6 @@ class CREAMBUSD(Symbol):
 
 
 CREAMBUSD = CREAMBUSD(*CREAMBUSD._fields)
-"""
-    name: CREAMBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CRVBNB(Symbol):
@@ -29368,17 +23164,6 @@ class CRVBNB(Symbol):
 
 
 CRVBNB = CRVBNB(*CRVBNB._fields)
-"""
-    name: CRVBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CRVBTC(Symbol):
@@ -29420,17 +23205,6 @@ class CRVBTC(Symbol):
 
 
 CRVBTC = CRVBTC(*CRVBTC._fields)
-"""
-    name: CRVBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CRVBUSD(Symbol):
@@ -29472,17 +23246,6 @@ class CRVBUSD(Symbol):
 
 
 CRVBUSD = CRVBUSD(*CRVBUSD._fields)
-"""
-    name: CRVBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CRVETH(Symbol):
@@ -29524,17 +23287,6 @@ class CRVETH(Symbol):
 
 
 CRVETH = CRVETH(*CRVETH._fields)
-"""
-    name: CRVETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CRVUSDT(Symbol):
@@ -29576,17 +23328,6 @@ class CRVUSDT(Symbol):
 
 
 CRVUSDT = CRVUSDT(*CRVUSDT._fields)
-"""
-    name: CRVUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CTKBNB(Symbol):
@@ -29628,17 +23369,6 @@ class CTKBNB(Symbol):
 
 
 CTKBNB = CTKBNB(*CTKBNB._fields)
-"""
-    name: CTKBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTKBTC(Symbol):
@@ -29680,17 +23410,6 @@ class CTKBTC(Symbol):
 
 
 CTKBTC = CTKBTC(*CTKBTC._fields)
-"""
-    name: CTKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTKBUSD(Symbol):
@@ -29732,17 +23451,6 @@ class CTKBUSD(Symbol):
 
 
 CTKBUSD = CTKBUSD(*CTKBUSD._fields)
-"""
-    name: CTKBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTKUSDT(Symbol):
@@ -29784,17 +23492,6 @@ class CTKUSDT(Symbol):
 
 
 CTKUSDT = CTKUSDT(*CTKUSDT._fields)
-"""
-    name: CTKUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CTSIBNB(Symbol):
@@ -29836,17 +23533,6 @@ class CTSIBNB(Symbol):
 
 
 CTSIBNB = CTSIBNB(*CTSIBNB._fields)
-"""
-    name: CTSIBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTSIBTC(Symbol):
@@ -29888,17 +23574,6 @@ class CTSIBTC(Symbol):
 
 
 CTSIBTC = CTSIBTC(*CTSIBTC._fields)
-"""
-    name: CTSIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTSIBUSD(Symbol):
@@ -29940,17 +23615,6 @@ class CTSIBUSD(Symbol):
 
 
 CTSIBUSD = CTSIBUSD(*CTSIBUSD._fields)
-"""
-    name: CTSIBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTSIUSDT(Symbol):
@@ -29992,17 +23656,6 @@ class CTSIUSDT(Symbol):
 
 
 CTSIUSDT = CTSIUSDT(*CTSIUSDT._fields)
-"""
-    name: CTSIUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CTXCBNB(Symbol):
@@ -30044,17 +23697,6 @@ class CTXCBNB(Symbol):
 
 
 CTXCBNB = CTXCBNB(*CTXCBNB._fields)
-"""
-    name: CTXCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CTXCBTC(Symbol):
@@ -30096,17 +23738,6 @@ class CTXCBTC(Symbol):
 
 
 CTXCBTC = CTXCBTC(*CTXCBTC._fields)
-"""
-    name: CTXCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CTXCBUSD(Symbol):
@@ -30148,17 +23779,6 @@ class CTXCBUSD(Symbol):
 
 
 CTXCBUSD = CTXCBUSD(*CTXCBUSD._fields)
-"""
-    name: CTXCBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CTXCUSDT(Symbol):
@@ -30200,17 +23820,6 @@ class CTXCUSDT(Symbol):
 
 
 CTXCUSDT = CTXCUSDT(*CTXCUSDT._fields)
-"""
-    name: CTXCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class CVCBNB(Symbol):
@@ -30252,17 +23861,6 @@ class CVCBNB(Symbol):
 
 
 CVCBNB = CVCBNB(*CVCBNB._fields)
-"""
-    name: CVCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVCBTC(Symbol):
@@ -30304,17 +23902,6 @@ class CVCBTC(Symbol):
 
 
 CVCBTC = CVCBTC(*CVCBTC._fields)
-"""
-    name: CVCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVCBUSD(Symbol):
@@ -30356,17 +23943,6 @@ class CVCBUSD(Symbol):
 
 
 CVCBUSD = CVCBUSD(*CVCBUSD._fields)
-"""
-    name: CVCBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVCETH(Symbol):
@@ -30408,17 +23984,6 @@ class CVCETH(Symbol):
 
 
 CVCETH = CVCETH(*CVCETH._fields)
-"""
-    name: CVCETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVCUSDT(Symbol):
@@ -30460,17 +24025,6 @@ class CVCUSDT(Symbol):
 
 
 CVCUSDT = CVCUSDT(*CVCUSDT._fields)
-"""
-    name: CVCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVPBUSD(Symbol):
@@ -30512,17 +24066,6 @@ class CVPBUSD(Symbol):
 
 
 CVPBUSD = CVPBUSD(*CVPBUSD._fields)
-"""
-    name: CVPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVPETH(Symbol):
@@ -30564,17 +24107,6 @@ class CVPETH(Symbol):
 
 
 CVPETH = CVPETH(*CVPETH._fields)
-"""
-    name: CVPETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVPUSDT(Symbol):
@@ -30616,17 +24148,6 @@ class CVPUSDT(Symbol):
 
 
 CVPUSDT = CVPUSDT(*CVPUSDT._fields)
-"""
-    name: CVPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVXBTC(Symbol):
@@ -30668,17 +24189,6 @@ class CVXBTC(Symbol):
 
 
 CVXBTC = CVXBTC(*CVXBTC._fields)
-"""
-    name: CVXBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVXBUSD(Symbol):
@@ -30720,17 +24230,6 @@ class CVXBUSD(Symbol):
 
 
 CVXBUSD = CVXBUSD(*CVXBUSD._fields)
-"""
-    name: CVXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class CVXUSDT(Symbol):
@@ -30772,17 +24271,6 @@ class CVXUSDT(Symbol):
 
 
 CVXUSDT = CVXUSDT(*CVXUSDT._fields)
-"""
-    name: CVXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DAIBNB(Symbol):
@@ -30824,17 +24312,6 @@ class DAIBNB(Symbol):
 
 
 DAIBNB = DAIBNB(*DAIBNB._fields)
-"""
-    name: DAIBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DAIBTC(Symbol):
@@ -30876,17 +24353,6 @@ class DAIBTC(Symbol):
 
 
 DAIBTC = DAIBTC(*DAIBTC._fields)
-"""
-    name: DAIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DAIBUSD(Symbol):
@@ -30928,17 +24394,6 @@ class DAIBUSD(Symbol):
 
 
 DAIBUSD = DAIBUSD(*DAIBUSD._fields)
-"""
-    name: DAIBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DAIUSDT(Symbol):
@@ -30980,17 +24435,6 @@ class DAIUSDT(Symbol):
 
 
 DAIUSDT = DAIUSDT(*DAIUSDT._fields)
-"""
-    name: DAIUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DARBNB(Symbol):
@@ -31032,17 +24476,6 @@ class DARBNB(Symbol):
 
 
 DARBNB = DARBNB(*DARBNB._fields)
-"""
-    name: DARBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DARBTC(Symbol):
@@ -31084,17 +24517,6 @@ class DARBTC(Symbol):
 
 
 DARBTC = DARBTC(*DARBTC._fields)
-"""
-    name: DARBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DARBUSD(Symbol):
@@ -31136,17 +24558,6 @@ class DARBUSD(Symbol):
 
 
 DARBUSD = DARBUSD(*DARBUSD._fields)
-"""
-    name: DARBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DARETH(Symbol):
@@ -31188,17 +24599,6 @@ class DARETH(Symbol):
 
 
 DARETH = DARETH(*DARETH._fields)
-"""
-    name: DARETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DAREUR(Symbol):
@@ -31240,17 +24640,6 @@ class DAREUR(Symbol):
 
 
 DAREUR = DAREUR(*DAREUR._fields)
-"""
-    name: DAREUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DARTRY(Symbol):
@@ -31292,17 +24681,6 @@ class DARTRY(Symbol):
 
 
 DARTRY = DARTRY(*DARTRY._fields)
-"""
-    name: DARTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DARUSDT(Symbol):
@@ -31344,17 +24722,6 @@ class DARUSDT(Symbol):
 
 
 DARUSDT = DARUSDT(*DARUSDT._fields)
-"""
-    name: DARUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DASHBNB(Symbol):
@@ -31396,17 +24763,6 @@ class DASHBNB(Symbol):
 
 
 DASHBNB = DASHBNB(*DASHBNB._fields)
-"""
-    name: DASHBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DASHBTC(Symbol):
@@ -31448,17 +24804,6 @@ class DASHBTC(Symbol):
 
 
 DASHBTC = DASHBTC(*DASHBTC._fields)
-"""
-    name: DASHBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DASHBUSD(Symbol):
@@ -31500,17 +24845,6 @@ class DASHBUSD(Symbol):
 
 
 DASHBUSD = DASHBUSD(*DASHBUSD._fields)
-"""
-    name: DASHBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DASHETH(Symbol):
@@ -31552,17 +24886,6 @@ class DASHETH(Symbol):
 
 
 DASHETH = DASHETH(*DASHETH._fields)
-"""
-    name: DASHETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DASHUSDT(Symbol):
@@ -31604,17 +24927,6 @@ class DASHUSDT(Symbol):
 
 
 DASHUSDT = DASHUSDT(*DASHUSDT._fields)
-"""
-    name: DASHUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DATABTC(Symbol):
@@ -31656,17 +24968,6 @@ class DATABTC(Symbol):
 
 
 DATABTC = DATABTC(*DATABTC._fields)
-"""
-    name: DATABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DATABUSD(Symbol):
@@ -31708,17 +25009,6 @@ class DATABUSD(Symbol):
 
 
 DATABUSD = DATABUSD(*DATABUSD._fields)
-"""
-    name: DATABUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DATAETH(Symbol):
@@ -31760,17 +25050,6 @@ class DATAETH(Symbol):
 
 
 DATAETH = DATAETH(*DATAETH._fields)
-"""
-    name: DATAETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DATAUSDT(Symbol):
@@ -31812,17 +25091,6 @@ class DATAUSDT(Symbol):
 
 
 DATAUSDT = DATAUSDT(*DATAUSDT._fields)
-"""
-    name: DATAUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DCRBNB(Symbol):
@@ -31864,17 +25132,6 @@ class DCRBNB(Symbol):
 
 
 DCRBNB = DCRBNB(*DCRBNB._fields)
-"""
-    name: DCRBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DCRBTC(Symbol):
@@ -31916,17 +25173,6 @@ class DCRBTC(Symbol):
 
 
 DCRBTC = DCRBTC(*DCRBTC._fields)
-"""
-    name: DCRBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DCRBUSD(Symbol):
@@ -31968,17 +25214,6 @@ class DCRBUSD(Symbol):
 
 
 DCRBUSD = DCRBUSD(*DCRBUSD._fields)
-"""
-    name: DCRBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DCRUSDT(Symbol):
@@ -32020,17 +25255,6 @@ class DCRUSDT(Symbol):
 
 
 DCRUSDT = DCRUSDT(*DCRUSDT._fields)
-"""
-    name: DCRUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DEGOBTC(Symbol):
@@ -32072,17 +25296,6 @@ class DEGOBTC(Symbol):
 
 
 DEGOBTC = DEGOBTC(*DEGOBTC._fields)
-"""
-    name: DEGOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DEGOBUSD(Symbol):
@@ -32124,17 +25337,6 @@ class DEGOBUSD(Symbol):
 
 
 DEGOBUSD = DEGOBUSD(*DEGOBUSD._fields)
-"""
-    name: DEGOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DEGOUSDT(Symbol):
@@ -32176,17 +25378,6 @@ class DEGOUSDT(Symbol):
 
 
 DEGOUSDT = DEGOUSDT(*DEGOUSDT._fields)
-"""
-    name: DEGOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DENTBTC(Symbol):
@@ -32228,17 +25419,6 @@ class DENTBTC(Symbol):
 
 
 DENTBTC = DENTBTC(*DENTBTC._fields)
-"""
-    name: DENTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DENTBUSD(Symbol):
@@ -32280,17 +25460,6 @@ class DENTBUSD(Symbol):
 
 
 DENTBUSD = DENTBUSD(*DENTBUSD._fields)
-"""
-    name: DENTBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DENTETH(Symbol):
@@ -32332,17 +25501,6 @@ class DENTETH(Symbol):
 
 
 DENTETH = DENTETH(*DENTETH._fields)
-"""
-    name: DENTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DENTTRY(Symbol):
@@ -32384,17 +25542,6 @@ class DENTTRY(Symbol):
 
 
 DENTTRY = DENTTRY(*DENTTRY._fields)
-"""
-    name: DENTTRY
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DENTUSDT(Symbol):
@@ -32436,17 +25583,6 @@ class DENTUSDT(Symbol):
 
 
 DENTUSDT = DENTUSDT(*DENTUSDT._fields)
-"""
-    name: DENTUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DEXEBUSD(Symbol):
@@ -32488,17 +25624,6 @@ class DEXEBUSD(Symbol):
 
 
 DEXEBUSD = DEXEBUSD(*DEXEBUSD._fields)
-"""
-    name: DEXEBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DEXEETH(Symbol):
@@ -32540,17 +25665,6 @@ class DEXEETH(Symbol):
 
 
 DEXEETH = DEXEETH(*DEXEETH._fields)
-"""
-    name: DEXEETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DEXEUSDT(Symbol):
@@ -32592,17 +25706,6 @@ class DEXEUSDT(Symbol):
 
 
 DEXEUSDT = DEXEUSDT(*DEXEUSDT._fields)
-"""
-    name: DEXEUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DFBUSD(Symbol):
@@ -32644,17 +25747,6 @@ class DFBUSD(Symbol):
 
 
 DFBUSD = DFBUSD(*DFBUSD._fields)
-"""
-    name: DFBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DFETH(Symbol):
@@ -32696,17 +25788,6 @@ class DFETH(Symbol):
 
 
 DFETH = DFETH(*DFETH._fields)
-"""
-    name: DFETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DFUSDT(Symbol):
@@ -32748,17 +25829,6 @@ class DFUSDT(Symbol):
 
 
 DFUSDT = DFUSDT(*DFUSDT._fields)
-"""
-    name: DFUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DGBBTC(Symbol):
@@ -32800,17 +25870,6 @@ class DGBBTC(Symbol):
 
 
 DGBBTC = DGBBTC(*DGBBTC._fields)
-"""
-    name: DGBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DGBBUSD(Symbol):
@@ -32852,17 +25911,6 @@ class DGBBUSD(Symbol):
 
 
 DGBBUSD = DGBBUSD(*DGBBUSD._fields)
-"""
-    name: DGBBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DGBUSDT(Symbol):
@@ -32904,17 +25952,6 @@ class DGBUSDT(Symbol):
 
 
 DGBUSDT = DGBUSDT(*DGBUSDT._fields)
-"""
-    name: DGBUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DGDBTC(Symbol):
@@ -32956,17 +25993,6 @@ class DGDBTC(Symbol):
 
 
 DGDBTC = DGDBTC(*DGDBTC._fields)
-"""
-    name: DGDBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DGDETH(Symbol):
@@ -33008,17 +26034,6 @@ class DGDETH(Symbol):
 
 
 DGDETH = DGDETH(*DGDETH._fields)
-"""
-    name: DGDETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DIABNB(Symbol):
@@ -33060,17 +26075,6 @@ class DIABNB(Symbol):
 
 
 DIABNB = DIABNB(*DIABNB._fields)
-"""
-    name: DIABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DIABTC(Symbol):
@@ -33112,17 +26116,6 @@ class DIABTC(Symbol):
 
 
 DIABTC = DIABTC(*DIABTC._fields)
-"""
-    name: DIABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DIABUSD(Symbol):
@@ -33164,17 +26157,6 @@ class DIABUSD(Symbol):
 
 
 DIABUSD = DIABUSD(*DIABUSD._fields)
-"""
-    name: DIABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DIAUSDT(Symbol):
@@ -33216,17 +26198,6 @@ class DIAUSDT(Symbol):
 
 
 DIAUSDT = DIAUSDT(*DIAUSDT._fields)
-"""
-    name: DIAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DLTBNB(Symbol):
@@ -33268,17 +26239,6 @@ class DLTBNB(Symbol):
 
 
 DLTBNB = DLTBNB(*DLTBNB._fields)
-"""
-    name: DLTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DLTBTC(Symbol):
@@ -33320,17 +26280,6 @@ class DLTBTC(Symbol):
 
 
 DLTBTC = DLTBTC(*DLTBTC._fields)
-"""
-    name: DLTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DLTETH(Symbol):
@@ -33372,17 +26321,6 @@ class DLTETH(Symbol):
 
 
 DLTETH = DLTETH(*DLTETH._fields)
-"""
-    name: DLTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DNTBTC(Symbol):
@@ -33424,17 +26362,6 @@ class DNTBTC(Symbol):
 
 
 DNTBTC = DNTBTC(*DNTBTC._fields)
-"""
-    name: DNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DNTBUSD(Symbol):
@@ -33476,17 +26403,6 @@ class DNTBUSD(Symbol):
 
 
 DNTBUSD = DNTBUSD(*DNTBUSD._fields)
-"""
-    name: DNTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DNTETH(Symbol):
@@ -33528,17 +26444,6 @@ class DNTETH(Symbol):
 
 
 DNTETH = DNTETH(*DNTETH._fields)
-"""
-    name: DNTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DNTUSDT(Symbol):
@@ -33580,17 +26485,6 @@ class DNTUSDT(Symbol):
 
 
 DNTUSDT = DNTUSDT(*DNTUSDT._fields)
-"""
-    name: DNTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOCKBTC(Symbol):
@@ -33632,17 +26526,6 @@ class DOCKBTC(Symbol):
 
 
 DOCKBTC = DOCKBTC(*DOCKBTC._fields)
-"""
-    name: DOCKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOCKBUSD(Symbol):
@@ -33684,17 +26567,6 @@ class DOCKBUSD(Symbol):
 
 
 DOCKBUSD = DOCKBUSD(*DOCKBUSD._fields)
-"""
-    name: DOCKBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOCKETH(Symbol):
@@ -33736,17 +26608,6 @@ class DOCKETH(Symbol):
 
 
 DOCKETH = DOCKETH(*DOCKETH._fields)
-"""
-    name: DOCKETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOCKUSDT(Symbol):
@@ -33788,17 +26649,6 @@ class DOCKUSDT(Symbol):
 
 
 DOCKUSDT = DOCKUSDT(*DOCKUSDT._fields)
-"""
-    name: DOCKUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DODOBTC(Symbol):
@@ -33840,17 +26690,6 @@ class DODOBTC(Symbol):
 
 
 DODOBTC = DODOBTC(*DODOBTC._fields)
-"""
-    name: DODOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DODOBUSD(Symbol):
@@ -33892,17 +26731,6 @@ class DODOBUSD(Symbol):
 
 
 DODOBUSD = DODOBUSD(*DODOBUSD._fields)
-"""
-    name: DODOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DODOUSDT(Symbol):
@@ -33944,17 +26772,6 @@ class DODOUSDT(Symbol):
 
 
 DODOUSDT = DODOUSDT(*DODOUSDT._fields)
-"""
-    name: DODOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOGEAUD(Symbol):
@@ -33996,17 +26813,6 @@ class DOGEAUD(Symbol):
 
 
 DOGEAUD = DOGEAUD(*DOGEAUD._fields)
-"""
-    name: DOGEAUD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEBIDR(Symbol):
@@ -34048,17 +26854,6 @@ class DOGEBIDR(Symbol):
 
 
 DOGEBIDR = DOGEBIDR(*DOGEBIDR._fields)
-"""
-    name: DOGEBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEBNB(Symbol):
@@ -34100,17 +26895,6 @@ class DOGEBNB(Symbol):
 
 
 DOGEBNB = DOGEBNB(*DOGEBNB._fields)
-"""
-    name: DOGEBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEBRL(Symbol):
@@ -34152,17 +26936,6 @@ class DOGEBRL(Symbol):
 
 
 DOGEBRL = DOGEBRL(*DOGEBRL._fields)
-"""
-    name: DOGEBRL
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEBTC(Symbol):
@@ -34204,17 +26977,6 @@ class DOGEBTC(Symbol):
 
 
 DOGEBTC = DOGEBTC(*DOGEBTC._fields)
-"""
-    name: DOGEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOGEBUSD(Symbol):
@@ -34256,17 +27018,6 @@ class DOGEBUSD(Symbol):
 
 
 DOGEBUSD = DOGEBUSD(*DOGEBUSD._fields)
-"""
-    name: DOGEBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOGEEUR(Symbol):
@@ -34308,17 +27059,6 @@ class DOGEEUR(Symbol):
 
 
 DOGEEUR = DOGEEUR(*DOGEEUR._fields)
-"""
-    name: DOGEEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEGBP(Symbol):
@@ -34360,17 +27100,6 @@ class DOGEGBP(Symbol):
 
 
 DOGEGBP = DOGEGBP(*DOGEGBP._fields)
-"""
-    name: DOGEGBP
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEPAX(Symbol):
@@ -34412,17 +27141,6 @@ class DOGEPAX(Symbol):
 
 
 DOGEPAX = DOGEPAX(*DOGEPAX._fields)
-"""
-    name: DOGEPAX
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGERUB(Symbol):
@@ -34464,17 +27182,6 @@ class DOGERUB(Symbol):
 
 
 DOGERUB = DOGERUB(*DOGERUB._fields)
-"""
-    name: DOGERUB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGETRY(Symbol):
@@ -34516,17 +27223,6 @@ class DOGETRY(Symbol):
 
 
 DOGETRY = DOGETRY(*DOGETRY._fields)
-"""
-    name: DOGETRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGETUSD(Symbol):
@@ -34568,17 +27264,6 @@ class DOGETUSD(Symbol):
 
 
 DOGETUSD = DOGETUSD(*DOGETUSD._fields)
-"""
-    name: DOGETUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEUSDC(Symbol):
@@ -34620,17 +27305,6 @@ class DOGEUSDC(Symbol):
 
 
 DOGEUSDC = DOGEUSDC(*DOGEUSDC._fields)
-"""
-    name: DOGEUSDC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOGEUSDT(Symbol):
@@ -34672,17 +27346,6 @@ class DOGEUSDT(Symbol):
 
 
 DOGEUSDT = DOGEUSDT(*DOGEUSDT._fields)
-"""
-    name: DOGEUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOTAUD(Symbol):
@@ -34724,17 +27387,6 @@ class DOTAUD(Symbol):
 
 
 DOTAUD = DOTAUD(*DOTAUD._fields)
-"""
-    name: DOTAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTBIDR(Symbol):
@@ -34776,17 +27428,6 @@ class DOTBIDR(Symbol):
 
 
 DOTBIDR = DOTBIDR(*DOTBIDR._fields)
-"""
-    name: DOTBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTBKRW(Symbol):
@@ -34828,17 +27469,6 @@ class DOTBKRW(Symbol):
 
 
 DOTBKRW = DOTBKRW(*DOTBKRW._fields)
-"""
-    name: DOTBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTBNB(Symbol):
@@ -34880,17 +27510,6 @@ class DOTBNB(Symbol):
 
 
 DOTBNB = DOTBNB(*DOTBNB._fields)
-"""
-    name: DOTBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTBRL(Symbol):
@@ -34932,17 +27551,6 @@ class DOTBRL(Symbol):
 
 
 DOTBRL = DOTBRL(*DOTBRL._fields)
-"""
-    name: DOTBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTBTC(Symbol):
@@ -34984,17 +27592,6 @@ class DOTBTC(Symbol):
 
 
 DOTBTC = DOTBTC(*DOTBTC._fields)
-"""
-    name: DOTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOTBUSD(Symbol):
@@ -35036,17 +27633,6 @@ class DOTBUSD(Symbol):
 
 
 DOTBUSD = DOTBUSD(*DOTBUSD._fields)
-"""
-    name: DOTBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DOTDOWNUSDT(Symbol):
@@ -35088,17 +27674,6 @@ class DOTDOWNUSDT(Symbol):
 
 
 DOTDOWNUSDT = DOTDOWNUSDT(*DOTDOWNUSDT._fields)
-"""
-    name: DOTDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTETH(Symbol):
@@ -35140,17 +27715,6 @@ class DOTETH(Symbol):
 
 
 DOTETH = DOTETH(*DOTETH._fields)
-"""
-    name: DOTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTEUR(Symbol):
@@ -35192,17 +27756,6 @@ class DOTEUR(Symbol):
 
 
 DOTEUR = DOTEUR(*DOTEUR._fields)
-"""
-    name: DOTEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTGBP(Symbol):
@@ -35244,17 +27797,6 @@ class DOTGBP(Symbol):
 
 
 DOTGBP = DOTGBP(*DOTGBP._fields)
-"""
-    name: DOTGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTNGN(Symbol):
@@ -35296,17 +27838,6 @@ class DOTNGN(Symbol):
 
 
 DOTNGN = DOTNGN(*DOTNGN._fields)
-"""
-    name: DOTNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTRUB(Symbol):
@@ -35348,17 +27879,6 @@ class DOTRUB(Symbol):
 
 
 DOTRUB = DOTRUB(*DOTRUB._fields)
-"""
-    name: DOTRUB
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTTRY(Symbol):
@@ -35400,17 +27920,6 @@ class DOTTRY(Symbol):
 
 
 DOTTRY = DOTTRY(*DOTTRY._fields)
-"""
-    name: DOTTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTUPUSDT(Symbol):
@@ -35452,17 +27961,6 @@ class DOTUPUSDT(Symbol):
 
 
 DOTUPUSDT = DOTUPUSDT(*DOTUPUSDT._fields)
-"""
-    name: DOTUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DOTUSDT(Symbol):
@@ -35504,17 +28002,6 @@ class DOTUSDT(Symbol):
 
 
 DOTUSDT = DOTUSDT(*DOTUSDT._fields)
-"""
-    name: DOTUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DREPBNB(Symbol):
@@ -35556,17 +28043,6 @@ class DREPBNB(Symbol):
 
 
 DREPBNB = DREPBNB(*DREPBNB._fields)
-"""
-    name: DREPBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DREPBTC(Symbol):
@@ -35608,17 +28084,6 @@ class DREPBTC(Symbol):
 
 
 DREPBTC = DREPBTC(*DREPBTC._fields)
-"""
-    name: DREPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DREPBUSD(Symbol):
@@ -35660,17 +28125,6 @@ class DREPBUSD(Symbol):
 
 
 DREPBUSD = DREPBUSD(*DREPBUSD._fields)
-"""
-    name: DREPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DREPUSDT(Symbol):
@@ -35712,17 +28166,6 @@ class DREPUSDT(Symbol):
 
 
 DREPUSDT = DREPUSDT(*DREPUSDT._fields)
-"""
-    name: DREPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DUSKBNB(Symbol):
@@ -35764,17 +28207,6 @@ class DUSKBNB(Symbol):
 
 
 DUSKBNB = DUSKBNB(*DUSKBNB._fields)
-"""
-    name: DUSKBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DUSKBTC(Symbol):
@@ -35816,17 +28248,6 @@ class DUSKBTC(Symbol):
 
 
 DUSKBTC = DUSKBTC(*DUSKBTC._fields)
-"""
-    name: DUSKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DUSKBUSD(Symbol):
@@ -35868,17 +28289,6 @@ class DUSKBUSD(Symbol):
 
 
 DUSKBUSD = DUSKBUSD(*DUSKBUSD._fields)
-"""
-    name: DUSKBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DUSKPAX(Symbol):
@@ -35920,17 +28330,6 @@ class DUSKPAX(Symbol):
 
 
 DUSKPAX = DUSKPAX(*DUSKPAX._fields)
-"""
-    name: DUSKPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DUSKUSDC(Symbol):
@@ -35972,17 +28371,6 @@ class DUSKUSDC(Symbol):
 
 
 DUSKUSDC = DUSKUSDC(*DUSKUSDC._fields)
-"""
-    name: DUSKUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DUSKUSDT(Symbol):
@@ -36024,17 +28412,6 @@ class DUSKUSDT(Symbol):
 
 
 DUSKUSDT = DUSKUSDT(*DUSKUSDT._fields)
-"""
-    name: DUSKUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DYDXBNB(Symbol):
@@ -36076,17 +28453,6 @@ class DYDXBNB(Symbol):
 
 
 DYDXBNB = DYDXBNB(*DYDXBNB._fields)
-"""
-    name: DYDXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DYDXBTC(Symbol):
@@ -36128,17 +28494,6 @@ class DYDXBTC(Symbol):
 
 
 DYDXBTC = DYDXBTC(*DYDXBTC._fields)
-"""
-    name: DYDXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DYDXBUSD(Symbol):
@@ -36180,17 +28535,6 @@ class DYDXBUSD(Symbol):
 
 
 DYDXBUSD = DYDXBUSD(*DYDXBUSD._fields)
-"""
-    name: DYDXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class DYDXETH(Symbol):
@@ -36232,17 +28576,6 @@ class DYDXETH(Symbol):
 
 
 DYDXETH = DYDXETH(*DYDXETH._fields)
-"""
-    name: DYDXETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class DYDXUSDT(Symbol):
@@ -36284,17 +28617,6 @@ class DYDXUSDT(Symbol):
 
 
 DYDXUSDT = DYDXUSDT(*DYDXUSDT._fields)
-"""
-    name: DYDXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EASYBTC(Symbol):
@@ -36336,17 +28658,6 @@ class EASYBTC(Symbol):
 
 
 EASYBTC = EASYBTC(*EASYBTC._fields)
-"""
-    name: EASYBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EASYETH(Symbol):
@@ -36388,17 +28699,6 @@ class EASYETH(Symbol):
 
 
 EASYETH = EASYETH(*EASYETH._fields)
-"""
-    name: EASYETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDOBTC(Symbol):
@@ -36440,17 +28740,6 @@ class EDOBTC(Symbol):
 
 
 EDOBTC = EDOBTC(*EDOBTC._fields)
-"""
-    name: EDOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDOETH(Symbol):
@@ -36492,17 +28781,6 @@ class EDOETH(Symbol):
 
 
 EDOETH = EDOETH(*EDOETH._fields)
-"""
-    name: EDOETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUBNB(Symbol):
@@ -36544,17 +28822,6 @@ class EDUBNB(Symbol):
 
 
 EDUBNB = EDUBNB(*EDUBNB._fields)
-"""
-    name: EDUBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUBTC(Symbol):
@@ -36596,17 +28863,6 @@ class EDUBTC(Symbol):
 
 
 EDUBTC = EDUBTC(*EDUBTC._fields)
-"""
-    name: EDUBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUEUR(Symbol):
@@ -36648,17 +28904,6 @@ class EDUEUR(Symbol):
 
 
 EDUEUR = EDUEUR(*EDUEUR._fields)
-"""
-    name: EDUEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUTRY(Symbol):
@@ -36700,17 +28945,6 @@ class EDUTRY(Symbol):
 
 
 EDUTRY = EDUTRY(*EDUTRY._fields)
-"""
-    name: EDUTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUTUSD(Symbol):
@@ -36752,17 +28986,6 @@ class EDUTUSD(Symbol):
 
 
 EDUTUSD = EDUTUSD(*EDUTUSD._fields)
-"""
-    name: EDUTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EDUUSDT(Symbol):
@@ -36804,17 +29027,6 @@ class EDUUSDT(Symbol):
 
 
 EDUUSDT = EDUUSDT(*EDUUSDT._fields)
-"""
-    name: EDUUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EGLDBNB(Symbol):
@@ -36856,17 +29068,6 @@ class EGLDBNB(Symbol):
 
 
 EGLDBNB = EGLDBNB(*EGLDBNB._fields)
-"""
-    name: EGLDBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EGLDBTC(Symbol):
@@ -36908,17 +29109,6 @@ class EGLDBTC(Symbol):
 
 
 EGLDBTC = EGLDBTC(*EGLDBTC._fields)
-"""
-    name: EGLDBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EGLDBUSD(Symbol):
@@ -36960,17 +29150,6 @@ class EGLDBUSD(Symbol):
 
 
 EGLDBUSD = EGLDBUSD(*EGLDBUSD._fields)
-"""
-    name: EGLDBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EGLDETH(Symbol):
@@ -37012,17 +29191,6 @@ class EGLDETH(Symbol):
 
 
 EGLDETH = EGLDETH(*EGLDETH._fields)
-"""
-    name: EGLDETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EGLDEUR(Symbol):
@@ -37064,17 +29232,6 @@ class EGLDEUR(Symbol):
 
 
 EGLDEUR = EGLDEUR(*EGLDEUR._fields)
-"""
-    name: EGLDEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EGLDRON(Symbol):
@@ -37116,17 +29273,6 @@ class EGLDRON(Symbol):
 
 
 EGLDRON = EGLDRON(*EGLDRON._fields)
-"""
-    name: EGLDRON
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EGLDUSDT(Symbol):
@@ -37168,17 +29314,6 @@ class EGLDUSDT(Symbol):
 
 
 EGLDUSDT = EGLDUSDT(*EGLDUSDT._fields)
-"""
-    name: EGLDUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ELFBTC(Symbol):
@@ -37220,17 +29355,6 @@ class ELFBTC(Symbol):
 
 
 ELFBTC = ELFBTC(*ELFBTC._fields)
-"""
-    name: ELFBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ELFBUSD(Symbol):
@@ -37272,17 +29396,6 @@ class ELFBUSD(Symbol):
 
 
 ELFBUSD = ELFBUSD(*ELFBUSD._fields)
-"""
-    name: ELFBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ELFETH(Symbol):
@@ -37324,17 +29437,6 @@ class ELFETH(Symbol):
 
 
 ELFETH = ELFETH(*ELFETH._fields)
-"""
-    name: ELFETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ELFUSDT(Symbol):
@@ -37376,17 +29478,6 @@ class ELFUSDT(Symbol):
 
 
 ELFUSDT = ELFUSDT(*ELFUSDT._fields)
-"""
-    name: ELFUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENGBTC(Symbol):
@@ -37428,17 +29519,6 @@ class ENGBTC(Symbol):
 
 
 ENGBTC = ENGBTC(*ENGBTC._fields)
-"""
-    name: ENGBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENGETH(Symbol):
@@ -37480,17 +29560,6 @@ class ENGETH(Symbol):
 
 
 ENGETH = ENGETH(*ENGETH._fields)
-"""
-    name: ENGETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJBNB(Symbol):
@@ -37532,17 +29601,6 @@ class ENJBNB(Symbol):
 
 
 ENJBNB = ENJBNB(*ENJBNB._fields)
-"""
-    name: ENJBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJBRL(Symbol):
@@ -37584,17 +29642,6 @@ class ENJBRL(Symbol):
 
 
 ENJBRL = ENJBRL(*ENJBRL._fields)
-"""
-    name: ENJBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJBTC(Symbol):
@@ -37636,17 +29683,6 @@ class ENJBTC(Symbol):
 
 
 ENJBTC = ENJBTC(*ENJBTC._fields)
-"""
-    name: ENJBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ENJBUSD(Symbol):
@@ -37688,17 +29724,6 @@ class ENJBUSD(Symbol):
 
 
 ENJBUSD = ENJBUSD(*ENJBUSD._fields)
-"""
-    name: ENJBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ENJETH(Symbol):
@@ -37740,17 +29765,6 @@ class ENJETH(Symbol):
 
 
 ENJETH = ENJETH(*ENJETH._fields)
-"""
-    name: ENJETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJEUR(Symbol):
@@ -37792,17 +29806,6 @@ class ENJEUR(Symbol):
 
 
 ENJEUR = ENJEUR(*ENJEUR._fields)
-"""
-    name: ENJEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJGBP(Symbol):
@@ -37844,17 +29847,6 @@ class ENJGBP(Symbol):
 
 
 ENJGBP = ENJGBP(*ENJGBP._fields)
-"""
-    name: ENJGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJTRY(Symbol):
@@ -37896,17 +29888,6 @@ class ENJTRY(Symbol):
 
 
 ENJTRY = ENJTRY(*ENJTRY._fields)
-"""
-    name: ENJTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENJUSDT(Symbol):
@@ -37948,17 +29929,6 @@ class ENJUSDT(Symbol):
 
 
 ENJUSDT = ENJUSDT(*ENJUSDT._fields)
-"""
-    name: ENJUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ENSBNB(Symbol):
@@ -38000,17 +29970,6 @@ class ENSBNB(Symbol):
 
 
 ENSBNB = ENSBNB(*ENSBNB._fields)
-"""
-    name: ENSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENSBTC(Symbol):
@@ -38052,17 +30011,6 @@ class ENSBTC(Symbol):
 
 
 ENSBTC = ENSBTC(*ENSBTC._fields)
-"""
-    name: ENSBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ENSBUSD(Symbol):
@@ -38104,17 +30052,6 @@ class ENSBUSD(Symbol):
 
 
 ENSBUSD = ENSBUSD(*ENSBUSD._fields)
-"""
-    name: ENSBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ENSTRY(Symbol):
@@ -38156,17 +30093,6 @@ class ENSTRY(Symbol):
 
 
 ENSTRY = ENSTRY(*ENSTRY._fields)
-"""
-    name: ENSTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ENSUSDT(Symbol):
@@ -38208,17 +30134,6 @@ class ENSUSDT(Symbol):
 
 
 ENSUSDT = ENSUSDT(*ENSUSDT._fields)
-"""
-    name: ENSUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EOSAUD(Symbol):
@@ -38260,17 +30175,6 @@ class EOSAUD(Symbol):
 
 
 EOSAUD = EOSAUD(*EOSAUD._fields)
-"""
-    name: EOSAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBEARBUSD(Symbol):
@@ -38312,17 +30216,6 @@ class EOSBEARBUSD(Symbol):
 
 
 EOSBEARBUSD = EOSBEARBUSD(*EOSBEARBUSD._fields)
-"""
-    name: EOSBEARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBEARUSDT(Symbol):
@@ -38364,17 +30257,6 @@ class EOSBEARUSDT(Symbol):
 
 
 EOSBEARUSDT = EOSBEARUSDT(*EOSBEARUSDT._fields)
-"""
-    name: EOSBEARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBNB(Symbol):
@@ -38416,17 +30298,6 @@ class EOSBNB(Symbol):
 
 
 EOSBNB = EOSBNB(*EOSBNB._fields)
-"""
-    name: EOSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBTC(Symbol):
@@ -38468,17 +30339,6 @@ class EOSBTC(Symbol):
 
 
 EOSBTC = EOSBTC(*EOSBTC._fields)
-"""
-    name: EOSBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EOSBULLBUSD(Symbol):
@@ -38520,17 +30380,6 @@ class EOSBULLBUSD(Symbol):
 
 
 EOSBULLBUSD = EOSBULLBUSD(*EOSBULLBUSD._fields)
-"""
-    name: EOSBULLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBULLUSDT(Symbol):
@@ -38572,17 +30421,6 @@ class EOSBULLUSDT(Symbol):
 
 
 EOSBULLUSDT = EOSBULLUSDT(*EOSBULLUSDT._fields)
-"""
-    name: EOSBULLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSBUSD(Symbol):
@@ -38624,17 +30462,6 @@ class EOSBUSD(Symbol):
 
 
 EOSBUSD = EOSBUSD(*EOSBUSD._fields)
-"""
-    name: EOSBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EOSDOWNUSDT(Symbol):
@@ -38676,17 +30503,6 @@ class EOSDOWNUSDT(Symbol):
 
 
 EOSDOWNUSDT = EOSDOWNUSDT(*EOSDOWNUSDT._fields)
-"""
-    name: EOSDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSETH(Symbol):
@@ -38728,17 +30544,6 @@ class EOSETH(Symbol):
 
 
 EOSETH = EOSETH(*EOSETH._fields)
-"""
-    name: EOSETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EOSEUR(Symbol):
@@ -38780,17 +30585,6 @@ class EOSEUR(Symbol):
 
 
 EOSEUR = EOSEUR(*EOSEUR._fields)
-"""
-    name: EOSEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSPAX(Symbol):
@@ -38832,17 +30626,6 @@ class EOSPAX(Symbol):
 
 
 EOSPAX = EOSPAX(*EOSPAX._fields)
-"""
-    name: EOSPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSTRY(Symbol):
@@ -38884,17 +30667,6 @@ class EOSTRY(Symbol):
 
 
 EOSTRY = EOSTRY(*EOSTRY._fields)
-"""
-    name: EOSTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSTUSD(Symbol):
@@ -38936,17 +30708,6 @@ class EOSTUSD(Symbol):
 
 
 EOSTUSD = EOSTUSD(*EOSTUSD._fields)
-"""
-    name: EOSTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSUPUSDT(Symbol):
@@ -38988,17 +30749,6 @@ class EOSUPUSDT(Symbol):
 
 
 EOSUPUSDT = EOSUPUSDT(*EOSUPUSDT._fields)
-"""
-    name: EOSUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSUSDC(Symbol):
@@ -39040,17 +30790,6 @@ class EOSUSDC(Symbol):
 
 
 EOSUSDC = EOSUSDC(*EOSUSDC._fields)
-"""
-    name: EOSUSDC
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EOSUSDT(Symbol):
@@ -39092,17 +30831,6 @@ class EOSUSDT(Symbol):
 
 
 EOSUSDT = EOSUSDT(*EOSUSDT._fields)
-"""
-    name: EOSUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EPSBTC(Symbol):
@@ -39144,17 +30872,6 @@ class EPSBTC(Symbol):
 
 
 EPSBTC = EPSBTC(*EPSBTC._fields)
-"""
-    name: EPSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EPSBUSD(Symbol):
@@ -39196,17 +30913,6 @@ class EPSBUSD(Symbol):
 
 
 EPSBUSD = EPSBUSD(*EPSBUSD._fields)
-"""
-    name: EPSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EPSUSDT(Symbol):
@@ -39248,17 +30954,6 @@ class EPSUSDT(Symbol):
 
 
 EPSUSDT = EPSUSDT(*EPSUSDT._fields)
-"""
-    name: EPSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EPXBUSD(Symbol):
@@ -39300,17 +30995,6 @@ class EPXBUSD(Symbol):
 
 
 EPXBUSD = EPXBUSD(*EPXBUSD._fields)
-"""
-    name: EPXBUSD
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class EPXUSDT(Symbol):
@@ -39352,17 +31036,6 @@ class EPXUSDT(Symbol):
 
 
 EPXUSDT = EPXUSDT(*EPXUSDT._fields)
-"""
-    name: EPXUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ERDBNB(Symbol):
@@ -39404,17 +31077,6 @@ class ERDBNB(Symbol):
 
 
 ERDBNB = ERDBNB(*ERDBNB._fields)
-"""
-    name: ERDBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERDBTC(Symbol):
@@ -39456,17 +31118,6 @@ class ERDBTC(Symbol):
 
 
 ERDBTC = ERDBTC(*ERDBTC._fields)
-"""
-    name: ERDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERDBUSD(Symbol):
@@ -39508,17 +31159,6 @@ class ERDBUSD(Symbol):
 
 
 ERDBUSD = ERDBUSD(*ERDBUSD._fields)
-"""
-    name: ERDBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERDPAX(Symbol):
@@ -39560,17 +31200,6 @@ class ERDPAX(Symbol):
 
 
 ERDPAX = ERDPAX(*ERDPAX._fields)
-"""
-    name: ERDPAX
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERDUSDC(Symbol):
@@ -39612,17 +31241,6 @@ class ERDUSDC(Symbol):
 
 
 ERDUSDC = ERDUSDC(*ERDUSDC._fields)
-"""
-    name: ERDUSDC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERDUSDT(Symbol):
@@ -39664,17 +31282,6 @@ class ERDUSDT(Symbol):
 
 
 ERDUSDT = ERDUSDT(*ERDUSDT._fields)
-"""
-    name: ERDUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERNBNB(Symbol):
@@ -39716,17 +31323,6 @@ class ERNBNB(Symbol):
 
 
 ERNBNB = ERNBNB(*ERNBNB._fields)
-"""
-    name: ERNBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERNBUSD(Symbol):
@@ -39768,17 +31364,6 @@ class ERNBUSD(Symbol):
 
 
 ERNBUSD = ERNBUSD(*ERNBUSD._fields)
-"""
-    name: ERNBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ERNUSDT(Symbol):
@@ -39820,17 +31405,6 @@ class ERNUSDT(Symbol):
 
 
 ERNUSDT = ERNUSDT(*ERNUSDT._fields)
-"""
-    name: ERNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETCBNB(Symbol):
@@ -39872,17 +31446,6 @@ class ETCBNB(Symbol):
 
 
 ETCBNB = ETCBNB(*ETCBNB._fields)
-"""
-    name: ETCBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCBRL(Symbol):
@@ -39924,17 +31487,6 @@ class ETCBRL(Symbol):
 
 
 ETCBRL = ETCBRL(*ETCBRL._fields)
-"""
-    name: ETCBRL
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCBTC(Symbol):
@@ -39976,17 +31528,6 @@ class ETCBTC(Symbol):
 
 
 ETCBTC = ETCBTC(*ETCBTC._fields)
-"""
-    name: ETCBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETCBUSD(Symbol):
@@ -40028,17 +31569,6 @@ class ETCBUSD(Symbol):
 
 
 ETCBUSD = ETCBUSD(*ETCBUSD._fields)
-"""
-    name: ETCBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETCETH(Symbol):
@@ -40080,17 +31610,6 @@ class ETCETH(Symbol):
 
 
 ETCETH = ETCETH(*ETCETH._fields)
-"""
-    name: ETCETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCEUR(Symbol):
@@ -40132,17 +31651,6 @@ class ETCEUR(Symbol):
 
 
 ETCEUR = ETCEUR(*ETCEUR._fields)
-"""
-    name: ETCEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCGBP(Symbol):
@@ -40184,17 +31692,6 @@ class ETCGBP(Symbol):
 
 
 ETCGBP = ETCGBP(*ETCGBP._fields)
-"""
-    name: ETCGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCPAX(Symbol):
@@ -40236,17 +31733,6 @@ class ETCPAX(Symbol):
 
 
 ETCPAX = ETCPAX(*ETCPAX._fields)
-"""
-    name: ETCPAX
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCTRY(Symbol):
@@ -40288,17 +31774,6 @@ class ETCTRY(Symbol):
 
 
 ETCTRY = ETCTRY(*ETCTRY._fields)
-"""
-    name: ETCTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCTUSD(Symbol):
@@ -40340,17 +31815,6 @@ class ETCTUSD(Symbol):
 
 
 ETCTUSD = ETCTUSD(*ETCTUSD._fields)
-"""
-    name: ETCTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCUSDC(Symbol):
@@ -40392,17 +31856,6 @@ class ETCUSDC(Symbol):
 
 
 ETCUSDC = ETCUSDC(*ETCUSDC._fields)
-"""
-    name: ETCUSDC
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETCUSDT(Symbol):
@@ -40444,17 +31897,6 @@ class ETCUSDT(Symbol):
 
 
 ETCUSDT = ETCUSDT(*ETCUSDT._fields)
-"""
-    name: ETCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHAUD(Symbol):
@@ -40496,17 +31938,6 @@ class ETHAUD(Symbol):
 
 
 ETHAUD = ETHAUD(*ETHAUD._fields)
-"""
-    name: ETHAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBEARBUSD(Symbol):
@@ -40548,17 +31979,6 @@ class ETHBEARBUSD(Symbol):
 
 
 ETHBEARBUSD = ETHBEARBUSD(*ETHBEARBUSD._fields)
-"""
-    name: ETHBEARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBEARUSDT(Symbol):
@@ -40600,17 +32020,6 @@ class ETHBEARUSDT(Symbol):
 
 
 ETHBEARUSDT = ETHBEARUSDT(*ETHBEARUSDT._fields)
-"""
-    name: ETHBEARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBIDR(Symbol):
@@ -40652,17 +32061,6 @@ class ETHBIDR(Symbol):
 
 
 ETHBIDR = ETHBIDR(*ETHBIDR._fields)
-"""
-    name: ETHBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBKRW(Symbol):
@@ -40704,17 +32102,6 @@ class ETHBKRW(Symbol):
 
 
 ETHBKRW = ETHBKRW(*ETHBKRW._fields)
-"""
-    name: ETHBKRW
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBRL(Symbol):
@@ -40756,17 +32143,6 @@ class ETHBRL(Symbol):
 
 
 ETHBRL = ETHBRL(*ETHBRL._fields)
-"""
-    name: ETHBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBTC(Symbol):
@@ -40808,17 +32184,6 @@ class ETHBTC(Symbol):
 
 
 ETHBTC = ETHBTC(*ETHBTC._fields)
-"""
-    name: ETHBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHBULLBUSD(Symbol):
@@ -40860,17 +32225,6 @@ class ETHBULLBUSD(Symbol):
 
 
 ETHBULLBUSD = ETHBULLBUSD(*ETHBULLBUSD._fields)
-"""
-    name: ETHBULLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBULLUSDT(Symbol):
@@ -40912,17 +32266,6 @@ class ETHBULLUSDT(Symbol):
 
 
 ETHBULLUSDT = ETHBULLUSDT(*ETHBULLUSDT._fields)
-"""
-    name: ETHBULLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHBUSD(Symbol):
@@ -40964,17 +32307,6 @@ class ETHBUSD(Symbol):
 
 
 ETHBUSD = ETHBUSD(*ETHBUSD._fields)
-"""
-    name: ETHBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHDAI(Symbol):
@@ -41016,17 +32348,6 @@ class ETHDAI(Symbol):
 
 
 ETHDAI = ETHDAI(*ETHDAI._fields)
-"""
-    name: ETHDAI
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHDOWNUSDT(Symbol):
@@ -41068,17 +32389,6 @@ class ETHDOWNUSDT(Symbol):
 
 
 ETHDOWNUSDT = ETHDOWNUSDT(*ETHDOWNUSDT._fields)
-"""
-    name: ETHDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHEUR(Symbol):
@@ -41120,17 +32430,6 @@ class ETHEUR(Symbol):
 
 
 ETHEUR = ETHEUR(*ETHEUR._fields)
-"""
-    name: ETHEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHGBP(Symbol):
@@ -41172,17 +32471,6 @@ class ETHGBP(Symbol):
 
 
 ETHGBP = ETHGBP(*ETHGBP._fields)
-"""
-    name: ETHGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHNGN(Symbol):
@@ -41224,17 +32512,6 @@ class ETHNGN(Symbol):
 
 
 ETHNGN = ETHNGN(*ETHNGN._fields)
-"""
-    name: ETHNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHPAX(Symbol):
@@ -41276,17 +32553,6 @@ class ETHPAX(Symbol):
 
 
 ETHPAX = ETHPAX(*ETHPAX._fields)
-"""
-    name: ETHPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHPLN(Symbol):
@@ -41328,17 +32594,6 @@ class ETHPLN(Symbol):
 
 
 ETHPLN = ETHPLN(*ETHPLN._fields)
-"""
-    name: ETHPLN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHRUB(Symbol):
@@ -41380,17 +32635,6 @@ class ETHRUB(Symbol):
 
 
 ETHRUB = ETHRUB(*ETHRUB._fields)
-"""
-    name: ETHRUB
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHTRY(Symbol):
@@ -41432,17 +32676,6 @@ class ETHTRY(Symbol):
 
 
 ETHTRY = ETHTRY(*ETHTRY._fields)
-"""
-    name: ETHTRY
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHTUSD(Symbol):
@@ -41484,17 +32717,6 @@ class ETHTUSD(Symbol):
 
 
 ETHTUSD = ETHTUSD(*ETHTUSD._fields)
-"""
-    name: ETHTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHUAH(Symbol):
@@ -41536,17 +32758,6 @@ class ETHUAH(Symbol):
 
 
 ETHUAH = ETHUAH(*ETHUAH._fields)
-"""
-    name: ETHUAH
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHUPUSDT(Symbol):
@@ -41588,17 +32799,6 @@ class ETHUPUSDT(Symbol):
 
 
 ETHUPUSDT = ETHUPUSDT(*ETHUPUSDT._fields)
-"""
-    name: ETHUPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHUSDC(Symbol):
@@ -41640,17 +32840,6 @@ class ETHUSDC(Symbol):
 
 
 ETHUSDC = ETHUSDC(*ETHUSDC._fields)
-"""
-    name: ETHUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHUSDP(Symbol):
@@ -41692,17 +32881,6 @@ class ETHUSDP(Symbol):
 
 
 ETHUSDP = ETHUSDP(*ETHUSDP._fields)
-"""
-    name: ETHUSDP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHUSDT(Symbol):
@@ -41744,17 +32922,6 @@ class ETHUSDT(Symbol):
 
 
 ETHUSDT = ETHUSDT(*ETHUSDT._fields)
-"""
-    name: ETHUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ETHUST(Symbol):
@@ -41796,17 +32963,6 @@ class ETHUST(Symbol):
 
 
 ETHUST = ETHUST(*ETHUST._fields)
-"""
-    name: ETHUST
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ETHZAR(Symbol):
@@ -41848,17 +33004,6 @@ class ETHZAR(Symbol):
 
 
 ETHZAR = ETHZAR(*ETHZAR._fields)
-"""
-    name: ETHZAR
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EURBUSD(Symbol):
@@ -41900,17 +33045,6 @@ class EURBUSD(Symbol):
 
 
 EURBUSD = EURBUSD(*EURBUSD._fields)
-"""
-    name: EURBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EURUSDT(Symbol):
@@ -41952,17 +33086,6 @@ class EURUSDT(Symbol):
 
 
 EURUSDT = EURUSDT(*EURUSDT._fields)
-"""
-    name: EURUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EVXBTC(Symbol):
@@ -42004,17 +33127,6 @@ class EVXBTC(Symbol):
 
 
 EVXBTC = EVXBTC(*EVXBTC._fields)
-"""
-    name: EVXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class EVXETH(Symbol):
@@ -42056,17 +33168,6 @@ class EVXETH(Symbol):
 
 
 EVXETH = EVXETH(*EVXETH._fields)
-"""
-    name: EVXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FARMBNB(Symbol):
@@ -42108,17 +33209,6 @@ class FARMBNB(Symbol):
 
 
 FARMBNB = FARMBNB(*FARMBNB._fields)
-"""
-    name: FARMBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FARMBTC(Symbol):
@@ -42160,17 +33250,6 @@ class FARMBTC(Symbol):
 
 
 FARMBTC = FARMBTC(*FARMBTC._fields)
-"""
-    name: FARMBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FARMBUSD(Symbol):
@@ -42212,17 +33291,6 @@ class FARMBUSD(Symbol):
 
 
 FARMBUSD = FARMBUSD(*FARMBUSD._fields)
-"""
-    name: FARMBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FARMETH(Symbol):
@@ -42264,17 +33332,6 @@ class FARMETH(Symbol):
 
 
 FARMETH = FARMETH(*FARMETH._fields)
-"""
-    name: FARMETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FARMUSDT(Symbol):
@@ -42316,17 +33373,6 @@ class FARMUSDT(Symbol):
 
 
 FARMUSDT = FARMUSDT(*FARMUSDT._fields)
-"""
-    name: FARMUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FETBNB(Symbol):
@@ -42368,17 +33414,6 @@ class FETBNB(Symbol):
 
 
 FETBNB = FETBNB(*FETBNB._fields)
-"""
-    name: FETBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FETBTC(Symbol):
@@ -42420,17 +33455,6 @@ class FETBTC(Symbol):
 
 
 FETBTC = FETBTC(*FETBTC._fields)
-"""
-    name: FETBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FETBUSD(Symbol):
@@ -42472,17 +33496,6 @@ class FETBUSD(Symbol):
 
 
 FETBUSD = FETBUSD(*FETBUSD._fields)
-"""
-    name: FETBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FETTRY(Symbol):
@@ -42524,17 +33537,6 @@ class FETTRY(Symbol):
 
 
 FETTRY = FETTRY(*FETTRY._fields)
-"""
-    name: FETTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FETUSDT(Symbol):
@@ -42576,17 +33578,6 @@ class FETUSDT(Symbol):
 
 
 FETUSDT = FETUSDT(*FETUSDT._fields)
-"""
-    name: FETUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FIDABNB(Symbol):
@@ -42628,17 +33619,6 @@ class FIDABNB(Symbol):
 
 
 FIDABNB = FIDABNB(*FIDABNB._fields)
-"""
-    name: FIDABNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIDABTC(Symbol):
@@ -42680,17 +33660,6 @@ class FIDABTC(Symbol):
 
 
 FIDABTC = FIDABTC(*FIDABTC._fields)
-"""
-    name: FIDABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIDABUSD(Symbol):
@@ -42732,17 +33701,6 @@ class FIDABUSD(Symbol):
 
 
 FIDABUSD = FIDABUSD(*FIDABUSD._fields)
-"""
-    name: FIDABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FIDAUSDT(Symbol):
@@ -42784,17 +33742,6 @@ class FIDAUSDT(Symbol):
 
 
 FIDAUSDT = FIDAUSDT(*FIDAUSDT._fields)
-"""
-    name: FIDAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FILBNB(Symbol):
@@ -42836,17 +33783,6 @@ class FILBNB(Symbol):
 
 
 FILBNB = FILBNB(*FILBNB._fields)
-"""
-    name: FILBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FILBTC(Symbol):
@@ -42888,17 +33824,6 @@ class FILBTC(Symbol):
 
 
 FILBTC = FILBTC(*FILBTC._fields)
-"""
-    name: FILBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FILBUSD(Symbol):
@@ -42940,17 +33865,6 @@ class FILBUSD(Symbol):
 
 
 FILBUSD = FILBUSD(*FILBUSD._fields)
-"""
-    name: FILBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FILDOWNUSDT(Symbol):
@@ -42992,17 +33906,6 @@ class FILDOWNUSDT(Symbol):
 
 
 FILDOWNUSDT = FILDOWNUSDT(*FILDOWNUSDT._fields)
-"""
-    name: FILDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FILETH(Symbol):
@@ -43044,17 +33947,6 @@ class FILETH(Symbol):
 
 
 FILETH = FILETH(*FILETH._fields)
-"""
-    name: FILETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FILTRY(Symbol):
@@ -43096,17 +33988,6 @@ class FILTRY(Symbol):
 
 
 FILTRY = FILTRY(*FILTRY._fields)
-"""
-    name: FILTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FILUPUSDT(Symbol):
@@ -43148,17 +34029,6 @@ class FILUPUSDT(Symbol):
 
 
 FILUPUSDT = FILUPUSDT(*FILUPUSDT._fields)
-"""
-    name: FILUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FILUSDT(Symbol):
@@ -43200,17 +34070,6 @@ class FILUSDT(Symbol):
 
 
 FILUSDT = FILUSDT(*FILUSDT._fields)
-"""
-    name: FILUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FIOBNB(Symbol):
@@ -43252,17 +34111,6 @@ class FIOBNB(Symbol):
 
 
 FIOBNB = FIOBNB(*FIOBNB._fields)
-"""
-    name: FIOBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIOBTC(Symbol):
@@ -43304,17 +34152,6 @@ class FIOBTC(Symbol):
 
 
 FIOBTC = FIOBTC(*FIOBTC._fields)
-"""
-    name: FIOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIOBUSD(Symbol):
@@ -43356,17 +34193,6 @@ class FIOBUSD(Symbol):
 
 
 FIOBUSD = FIOBUSD(*FIOBUSD._fields)
-"""
-    name: FIOBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIOUSDT(Symbol):
@@ -43408,17 +34234,6 @@ class FIOUSDT(Symbol):
 
 
 FIOUSDT = FIOUSDT(*FIOUSDT._fields)
-"""
-    name: FIOUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIROBTC(Symbol):
@@ -43460,17 +34275,6 @@ class FIROBTC(Symbol):
 
 
 FIROBTC = FIROBTC(*FIROBTC._fields)
-"""
-    name: FIROBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIROBUSD(Symbol):
@@ -43512,17 +34316,6 @@ class FIROBUSD(Symbol):
 
 
 FIROBUSD = FIROBUSD(*FIROBUSD._fields)
-"""
-    name: FIROBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIROETH(Symbol):
@@ -43564,17 +34357,6 @@ class FIROETH(Symbol):
 
 
 FIROETH = FIROETH(*FIROETH._fields)
-"""
-    name: FIROETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FIROUSDT(Symbol):
@@ -43616,17 +34398,6 @@ class FIROUSDT(Symbol):
 
 
 FIROUSDT = FIROUSDT(*FIROUSDT._fields)
-"""
-    name: FIROUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISBIDR(Symbol):
@@ -43668,17 +34439,6 @@ class FISBIDR(Symbol):
 
 
 FISBIDR = FISBIDR(*FISBIDR._fields)
-"""
-    name: FISBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISBRL(Symbol):
@@ -43720,17 +34480,6 @@ class FISBRL(Symbol):
 
 
 FISBRL = FISBRL(*FISBRL._fields)
-"""
-    name: FISBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISBTC(Symbol):
@@ -43772,17 +34521,6 @@ class FISBTC(Symbol):
 
 
 FISBTC = FISBTC(*FISBTC._fields)
-"""
-    name: FISBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISBUSD(Symbol):
@@ -43824,17 +34562,6 @@ class FISBUSD(Symbol):
 
 
 FISBUSD = FISBUSD(*FISBUSD._fields)
-"""
-    name: FISBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISTRY(Symbol):
@@ -43876,17 +34603,6 @@ class FISTRY(Symbol):
 
 
 FISTRY = FISTRY(*FISTRY._fields)
-"""
-    name: FISTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FISUSDT(Symbol):
@@ -43928,17 +34644,6 @@ class FISUSDT(Symbol):
 
 
 FISUSDT = FISUSDT(*FISUSDT._fields)
-"""
-    name: FISUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLMBNB(Symbol):
@@ -43980,17 +34685,6 @@ class FLMBNB(Symbol):
 
 
 FLMBNB = FLMBNB(*FLMBNB._fields)
-"""
-    name: FLMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLMBTC(Symbol):
@@ -44032,17 +34726,6 @@ class FLMBTC(Symbol):
 
 
 FLMBTC = FLMBTC(*FLMBTC._fields)
-"""
-    name: FLMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLMBUSD(Symbol):
@@ -44084,17 +34767,6 @@ class FLMBUSD(Symbol):
 
 
 FLMBUSD = FLMBUSD(*FLMBUSD._fields)
-"""
-    name: FLMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLMUSDT(Symbol):
@@ -44136,17 +34808,88 @@ class FLMUSDT(Symbol):
 
 
 FLMUSDT = FLMUSDT(*FLMUSDT._fields)
-"""
-    name: FLMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
+
+
+class FLOKITUSD(Symbol):
+    """
+        name: FLOKITUSD
+        significant_digits: None
+        tick_size: 0.00000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 10.00000000
+        max_order_size: 9000000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "FLOKITUSD"
+    significant_digits: int = None
+    tick_size: int = 0.00000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 10.00000000
+    max_order_size: float = 9000000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FLOKITUSD"
+
+    def __str__(self):
+        return "FLOKITUSD"
+
+    def __call__(self):
+        return "FLOKITUSD"
+
+
+FLOKITUSD = FLOKITUSD(*FLOKITUSD._fields)
+
+
+class FLOKIUSDT(Symbol):
+    """
+        name: FLOKIUSDT
+        significant_digits: None
+        tick_size: 0.00000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 10.00000000
+        max_order_size: 9000000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "FLOKIUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.00000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 10.00000000
+    max_order_size: float = 9000000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FLOKIUSDT"
+
+    def __str__(self):
+        return "FLOKIUSDT"
+
+    def __call__(self):
+        return "FLOKIUSDT"
+
+
+FLOKIUSDT = FLOKIUSDT(*FLOKIUSDT._fields)
 
 
 class FLOWBNB(Symbol):
@@ -44188,17 +34931,6 @@ class FLOWBNB(Symbol):
 
 
 FLOWBNB = FLOWBNB(*FLOWBNB._fields)
-"""
-    name: FLOWBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLOWBTC(Symbol):
@@ -44240,17 +34972,6 @@ class FLOWBTC(Symbol):
 
 
 FLOWBTC = FLOWBTC(*FLOWBTC._fields)
-"""
-    name: FLOWBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FLOWBUSD(Symbol):
@@ -44292,17 +35013,6 @@ class FLOWBUSD(Symbol):
 
 
 FLOWBUSD = FLOWBUSD(*FLOWBUSD._fields)
-"""
-    name: FLOWBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FLOWUSDT(Symbol):
@@ -44344,17 +35054,6 @@ class FLOWUSDT(Symbol):
 
 
 FLOWUSDT = FLOWUSDT(*FLOWUSDT._fields)
-"""
-    name: FLOWUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FLUXBTC(Symbol):
@@ -44396,17 +35095,6 @@ class FLUXBTC(Symbol):
 
 
 FLUXBTC = FLUXBTC(*FLUXBTC._fields)
-"""
-    name: FLUXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FLUXBUSD(Symbol):
@@ -44448,17 +35136,6 @@ class FLUXBUSD(Symbol):
 
 
 FLUXBUSD = FLUXBUSD(*FLUXBUSD._fields)
-"""
-    name: FLUXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FLUXUSDT(Symbol):
@@ -44500,17 +35177,6 @@ class FLUXUSDT(Symbol):
 
 
 FLUXUSDT = FLUXUSDT(*FLUXUSDT._fields)
-"""
-    name: FLUXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FORBNB(Symbol):
@@ -44552,17 +35218,6 @@ class FORBNB(Symbol):
 
 
 FORBNB = FORBNB(*FORBNB._fields)
-"""
-    name: FORBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORBTC(Symbol):
@@ -44604,17 +35259,6 @@ class FORBTC(Symbol):
 
 
 FORBTC = FORBTC(*FORBTC._fields)
-"""
-    name: FORBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORBUSD(Symbol):
@@ -44656,17 +35300,6 @@ class FORBUSD(Symbol):
 
 
 FORBUSD = FORBUSD(*FORBUSD._fields)
-"""
-    name: FORBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORTHBTC(Symbol):
@@ -44708,17 +35341,6 @@ class FORTHBTC(Symbol):
 
 
 FORTHBTC = FORTHBTC(*FORTHBTC._fields)
-"""
-    name: FORTHBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORTHBUSD(Symbol):
@@ -44760,17 +35382,6 @@ class FORTHBUSD(Symbol):
 
 
 FORTHBUSD = FORTHBUSD(*FORTHBUSD._fields)
-"""
-    name: FORTHBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORTHUSDT(Symbol):
@@ -44812,17 +35423,6 @@ class FORTHUSDT(Symbol):
 
 
 FORTHUSDT = FORTHUSDT(*FORTHUSDT._fields)
-"""
-    name: FORTHUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FORUSDT(Symbol):
@@ -44864,17 +35464,6 @@ class FORUSDT(Symbol):
 
 
 FORUSDT = FORUSDT(*FORUSDT._fields)
-"""
-    name: FORUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FRONTBTC(Symbol):
@@ -44916,17 +35505,6 @@ class FRONTBTC(Symbol):
 
 
 FRONTBTC = FRONTBTC(*FRONTBTC._fields)
-"""
-    name: FRONTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FRONTBUSD(Symbol):
@@ -44968,17 +35546,6 @@ class FRONTBUSD(Symbol):
 
 
 FRONTBUSD = FRONTBUSD(*FRONTBUSD._fields)
-"""
-    name: FRONTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FRONTETH(Symbol):
@@ -45020,17 +35587,6 @@ class FRONTETH(Symbol):
 
 
 FRONTETH = FRONTETH(*FRONTETH._fields)
-"""
-    name: FRONTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FRONTUSDT(Symbol):
@@ -45072,17 +35628,6 @@ class FRONTUSDT(Symbol):
 
 
 FRONTUSDT = FRONTUSDT(*FRONTUSDT._fields)
-"""
-    name: FRONTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMAUD(Symbol):
@@ -45124,17 +35669,6 @@ class FTMAUD(Symbol):
 
 
 FTMAUD = FTMAUD(*FTMAUD._fields)
-"""
-    name: FTMAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMBIDR(Symbol):
@@ -45176,17 +35710,6 @@ class FTMBIDR(Symbol):
 
 
 FTMBIDR = FTMBIDR(*FTMBIDR._fields)
-"""
-    name: FTMBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMBNB(Symbol):
@@ -45228,17 +35751,6 @@ class FTMBNB(Symbol):
 
 
 FTMBNB = FTMBNB(*FTMBNB._fields)
-"""
-    name: FTMBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMBRL(Symbol):
@@ -45280,17 +35792,6 @@ class FTMBRL(Symbol):
 
 
 FTMBRL = FTMBRL(*FTMBRL._fields)
-"""
-    name: FTMBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMBTC(Symbol):
@@ -45332,17 +35833,6 @@ class FTMBTC(Symbol):
 
 
 FTMBTC = FTMBTC(*FTMBTC._fields)
-"""
-    name: FTMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FTMBUSD(Symbol):
@@ -45384,17 +35874,6 @@ class FTMBUSD(Symbol):
 
 
 FTMBUSD = FTMBUSD(*FTMBUSD._fields)
-"""
-    name: FTMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FTMETH(Symbol):
@@ -45436,17 +35915,6 @@ class FTMETH(Symbol):
 
 
 FTMETH = FTMETH(*FTMETH._fields)
-"""
-    name: FTMETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMEUR(Symbol):
@@ -45488,17 +35956,6 @@ class FTMEUR(Symbol):
 
 
 FTMEUR = FTMEUR(*FTMEUR._fields)
-"""
-    name: FTMEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMPAX(Symbol):
@@ -45540,17 +35997,6 @@ class FTMPAX(Symbol):
 
 
 FTMPAX = FTMPAX(*FTMPAX._fields)
-"""
-    name: FTMPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMRUB(Symbol):
@@ -45592,17 +36038,6 @@ class FTMRUB(Symbol):
 
 
 FTMRUB = FTMRUB(*FTMRUB._fields)
-"""
-    name: FTMRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMTRY(Symbol):
@@ -45644,17 +36079,6 @@ class FTMTRY(Symbol):
 
 
 FTMTRY = FTMTRY(*FTMTRY._fields)
-"""
-    name: FTMTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMTUSD(Symbol):
@@ -45696,17 +36120,6 @@ class FTMTUSD(Symbol):
 
 
 FTMTUSD = FTMTUSD(*FTMTUSD._fields)
-"""
-    name: FTMTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMUSDC(Symbol):
@@ -45748,17 +36161,6 @@ class FTMUSDC(Symbol):
 
 
 FTMUSDC = FTMUSDC(*FTMUSDC._fields)
-"""
-    name: FTMUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTMUSDT(Symbol):
@@ -45800,17 +36202,6 @@ class FTMUSDT(Symbol):
 
 
 FTMUSDT = FTMUSDT(*FTMUSDT._fields)
-"""
-    name: FTMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class FTTBNB(Symbol):
@@ -45852,17 +36243,6 @@ class FTTBNB(Symbol):
 
 
 FTTBNB = FTTBNB(*FTTBNB._fields)
-"""
-    name: FTTBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTTBTC(Symbol):
@@ -45904,17 +36284,6 @@ class FTTBTC(Symbol):
 
 
 FTTBTC = FTTBTC(*FTTBTC._fields)
-"""
-    name: FTTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTTBUSD(Symbol):
@@ -45956,17 +36325,6 @@ class FTTBUSD(Symbol):
 
 
 FTTBUSD = FTTBUSD(*FTTBUSD._fields)
-"""
-    name: FTTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTTETH(Symbol):
@@ -46008,17 +36366,6 @@ class FTTETH(Symbol):
 
 
 FTTETH = FTTETH(*FTTETH._fields)
-"""
-    name: FTTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FTTUSDT(Symbol):
@@ -46060,17 +36407,6 @@ class FTTUSDT(Symbol):
 
 
 FTTUSDT = FTTUSDT(*FTTUSDT._fields)
-"""
-    name: FTTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUELBTC(Symbol):
@@ -46112,17 +36448,6 @@ class FUELBTC(Symbol):
 
 
 FUELBTC = FUELBTC(*FUELBTC._fields)
-"""
-    name: FUELBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUELETH(Symbol):
@@ -46164,17 +36489,6 @@ class FUELETH(Symbol):
 
 
 FUELETH = FUELETH(*FUELETH._fields)
-"""
-    name: FUELETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUNBNB(Symbol):
@@ -46216,17 +36530,6 @@ class FUNBNB(Symbol):
 
 
 FUNBNB = FUNBNB(*FUNBNB._fields)
-"""
-    name: FUNBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUNBTC(Symbol):
@@ -46268,17 +36571,6 @@ class FUNBTC(Symbol):
 
 
 FUNBTC = FUNBTC(*FUNBTC._fields)
-"""
-    name: FUNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUNETH(Symbol):
@@ -46320,17 +36612,6 @@ class FUNETH(Symbol):
 
 
 FUNETH = FUNETH(*FUNETH._fields)
-"""
-    name: FUNETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FUNUSDT(Symbol):
@@ -46372,17 +36653,6 @@ class FUNUSDT(Symbol):
 
 
 FUNUSDT = FUNUSDT(*FUNUSDT._fields)
-"""
-    name: FUNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FXSBTC(Symbol):
@@ -46424,17 +36694,6 @@ class FXSBTC(Symbol):
 
 
 FXSBTC = FXSBTC(*FXSBTC._fields)
-"""
-    name: FXSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FXSBUSD(Symbol):
@@ -46476,17 +36735,6 @@ class FXSBUSD(Symbol):
 
 
 FXSBUSD = FXSBUSD(*FXSBUSD._fields)
-"""
-    name: FXSBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class FXSUSDT(Symbol):
@@ -46528,17 +36776,6 @@ class FXSUSDT(Symbol):
 
 
 FXSUSDT = FXSUSDT(*FXSUSDT._fields)
-"""
-    name: FXSUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GALAAUD(Symbol):
@@ -46580,17 +36817,6 @@ class GALAAUD(Symbol):
 
 
 GALAAUD = GALAAUD(*GALAAUD._fields)
-"""
-    name: GALAAUD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALABNB(Symbol):
@@ -46632,17 +36858,6 @@ class GALABNB(Symbol):
 
 
 GALABNB = GALABNB(*GALABNB._fields)
-"""
-    name: GALABNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALABRL(Symbol):
@@ -46684,17 +36899,6 @@ class GALABRL(Symbol):
 
 
 GALABRL = GALABRL(*GALABRL._fields)
-"""
-    name: GALABRL
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALABTC(Symbol):
@@ -46736,17 +36940,6 @@ class GALABTC(Symbol):
 
 
 GALABTC = GALABTC(*GALABTC._fields)
-"""
-    name: GALABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GALABUSD(Symbol):
@@ -46788,17 +36981,6 @@ class GALABUSD(Symbol):
 
 
 GALABUSD = GALABUSD(*GALABUSD._fields)
-"""
-    name: GALABUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GALAETH(Symbol):
@@ -46840,17 +37022,6 @@ class GALAETH(Symbol):
 
 
 GALAETH = GALAETH(*GALAETH._fields)
-"""
-    name: GALAETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALAEUR(Symbol):
@@ -46892,17 +37063,6 @@ class GALAEUR(Symbol):
 
 
 GALAEUR = GALAEUR(*GALAEUR._fields)
-"""
-    name: GALAEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALATRY(Symbol):
@@ -46944,17 +37104,6 @@ class GALATRY(Symbol):
 
 
 GALATRY = GALATRY(*GALATRY._fields)
-"""
-    name: GALATRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALAUSDT(Symbol):
@@ -46996,17 +37145,6 @@ class GALAUSDT(Symbol):
 
 
 GALAUSDT = GALAUSDT(*GALAUSDT._fields)
-"""
-    name: GALAUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GALBNB(Symbol):
@@ -47048,17 +37186,6 @@ class GALBNB(Symbol):
 
 
 GALBNB = GALBNB(*GALBNB._fields)
-"""
-    name: GALBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALBRL(Symbol):
@@ -47100,17 +37227,6 @@ class GALBRL(Symbol):
 
 
 GALBRL = GALBRL(*GALBRL._fields)
-"""
-    name: GALBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALBTC(Symbol):
@@ -47152,17 +37268,6 @@ class GALBTC(Symbol):
 
 
 GALBTC = GALBTC(*GALBTC._fields)
-"""
-    name: GALBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALBUSD(Symbol):
@@ -47204,17 +37309,6 @@ class GALBUSD(Symbol):
 
 
 GALBUSD = GALBUSD(*GALBUSD._fields)
-"""
-    name: GALBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GALETH(Symbol):
@@ -47256,17 +37350,6 @@ class GALETH(Symbol):
 
 
 GALETH = GALETH(*GALETH._fields)
-"""
-    name: GALETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALEUR(Symbol):
@@ -47308,17 +37391,6 @@ class GALEUR(Symbol):
 
 
 GALEUR = GALEUR(*GALEUR._fields)
-"""
-    name: GALEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALTRY(Symbol):
@@ -47360,17 +37432,6 @@ class GALTRY(Symbol):
 
 
 GALTRY = GALTRY(*GALTRY._fields)
-"""
-    name: GALTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GALUSDT(Symbol):
@@ -47412,17 +37473,6 @@ class GALUSDT(Symbol):
 
 
 GALUSDT = GALUSDT(*GALUSDT._fields)
-"""
-    name: GALUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GASBTC(Symbol):
@@ -47464,17 +37514,6 @@ class GASBTC(Symbol):
 
 
 GASBTC = GASBTC(*GASBTC._fields)
-"""
-    name: GASBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GASBUSD(Symbol):
@@ -47516,17 +37555,6 @@ class GASBUSD(Symbol):
 
 
 GASBUSD = GASBUSD(*GASBUSD._fields)
-"""
-    name: GASBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GASUSDT(Symbol):
@@ -47568,17 +37596,6 @@ class GASUSDT(Symbol):
 
 
 GASUSDT = GASUSDT(*GASUSDT._fields)
-"""
-    name: GASUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GBPBUSD(Symbol):
@@ -47620,17 +37637,6 @@ class GBPBUSD(Symbol):
 
 
 GBPBUSD = GBPBUSD(*GBPBUSD._fields)
-"""
-    name: GBPBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GBPUSDT(Symbol):
@@ -47672,17 +37678,6 @@ class GBPUSDT(Symbol):
 
 
 GBPUSDT = GBPUSDT(*GBPUSDT._fields)
-"""
-    name: GBPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GFTBUSD(Symbol):
@@ -47724,17 +37719,6 @@ class GFTBUSD(Symbol):
 
 
 GFTBUSD = GFTBUSD(*GFTBUSD._fields)
-"""
-    name: GFTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GHSTBUSD(Symbol):
@@ -47776,17 +37760,6 @@ class GHSTBUSD(Symbol):
 
 
 GHSTBUSD = GHSTBUSD(*GHSTBUSD._fields)
-"""
-    name: GHSTBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GHSTETH(Symbol):
@@ -47828,17 +37801,6 @@ class GHSTETH(Symbol):
 
 
 GHSTETH = GHSTETH(*GHSTETH._fields)
-"""
-    name: GHSTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GHSTUSDT(Symbol):
@@ -47880,17 +37842,6 @@ class GHSTUSDT(Symbol):
 
 
 GHSTUSDT = GHSTUSDT(*GHSTUSDT._fields)
-"""
-    name: GHSTUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GLMBTC(Symbol):
@@ -47932,17 +37883,6 @@ class GLMBTC(Symbol):
 
 
 GLMBTC = GLMBTC(*GLMBTC._fields)
-"""
-    name: GLMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GLMBUSD(Symbol):
@@ -47984,17 +37924,6 @@ class GLMBUSD(Symbol):
 
 
 GLMBUSD = GLMBUSD(*GLMBUSD._fields)
-"""
-    name: GLMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GLMETH(Symbol):
@@ -48036,17 +37965,6 @@ class GLMETH(Symbol):
 
 
 GLMETH = GLMETH(*GLMETH._fields)
-"""
-    name: GLMETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GLMRBNB(Symbol):
@@ -48088,17 +38006,6 @@ class GLMRBNB(Symbol):
 
 
 GLMRBNB = GLMRBNB(*GLMRBNB._fields)
-"""
-    name: GLMRBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GLMRBTC(Symbol):
@@ -48140,17 +38047,6 @@ class GLMRBTC(Symbol):
 
 
 GLMRBTC = GLMRBTC(*GLMRBTC._fields)
-"""
-    name: GLMRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GLMRBUSD(Symbol):
@@ -48192,17 +38088,6 @@ class GLMRBUSD(Symbol):
 
 
 GLMRBUSD = GLMRBUSD(*GLMRBUSD._fields)
-"""
-    name: GLMRBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GLMRUSDT(Symbol):
@@ -48244,17 +38129,6 @@ class GLMRUSDT(Symbol):
 
 
 GLMRUSDT = GLMRUSDT(*GLMRUSDT._fields)
-"""
-    name: GLMRUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GLMUSDT(Symbol):
@@ -48296,17 +38170,6 @@ class GLMUSDT(Symbol):
 
 
 GLMUSDT = GLMUSDT(*GLMUSDT._fields)
-"""
-    name: GLMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTAUD(Symbol):
@@ -48348,17 +38211,6 @@ class GMTAUD(Symbol):
 
 
 GMTAUD = GMTAUD(*GMTAUD._fields)
-"""
-    name: GMTAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTBNB(Symbol):
@@ -48400,17 +38252,6 @@ class GMTBNB(Symbol):
 
 
 GMTBNB = GMTBNB(*GMTBNB._fields)
-"""
-    name: GMTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTBRL(Symbol):
@@ -48452,17 +38293,6 @@ class GMTBRL(Symbol):
 
 
 GMTBRL = GMTBRL(*GMTBRL._fields)
-"""
-    name: GMTBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTBTC(Symbol):
@@ -48504,17 +38334,6 @@ class GMTBTC(Symbol):
 
 
 GMTBTC = GMTBTC(*GMTBTC._fields)
-"""
-    name: GMTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTBUSD(Symbol):
@@ -48556,17 +38375,6 @@ class GMTBUSD(Symbol):
 
 
 GMTBUSD = GMTBUSD(*GMTBUSD._fields)
-"""
-    name: GMTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GMTETH(Symbol):
@@ -48608,17 +38416,6 @@ class GMTETH(Symbol):
 
 
 GMTETH = GMTETH(*GMTETH._fields)
-"""
-    name: GMTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTEUR(Symbol):
@@ -48660,17 +38457,6 @@ class GMTEUR(Symbol):
 
 
 GMTEUR = GMTEUR(*GMTEUR._fields)
-"""
-    name: GMTEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTGBP(Symbol):
@@ -48712,17 +38498,6 @@ class GMTGBP(Symbol):
 
 
 GMTGBP = GMTGBP(*GMTGBP._fields)
-"""
-    name: GMTGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTTRY(Symbol):
@@ -48764,17 +38539,6 @@ class GMTTRY(Symbol):
 
 
 GMTTRY = GMTTRY(*GMTTRY._fields)
-"""
-    name: GMTTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMTUSDT(Symbol):
@@ -48816,17 +38580,6 @@ class GMTUSDT(Symbol):
 
 
 GMTUSDT = GMTUSDT(*GMTUSDT._fields)
-"""
-    name: GMTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GMXBTC(Symbol):
@@ -48868,17 +38621,6 @@ class GMXBTC(Symbol):
 
 
 GMXBTC = GMXBTC(*GMXBTC._fields)
-"""
-    name: GMXBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GMXBUSD(Symbol):
@@ -48920,17 +38662,6 @@ class GMXBUSD(Symbol):
 
 
 GMXBUSD = GMXBUSD(*GMXBUSD._fields)
-"""
-    name: GMXBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GMXUSDT(Symbol):
@@ -48972,17 +38703,6 @@ class GMXUSDT(Symbol):
 
 
 GMXUSDT = GMXUSDT(*GMXUSDT._fields)
-"""
-    name: GMXUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GNOBNB(Symbol):
@@ -49024,17 +38744,6 @@ class GNOBNB(Symbol):
 
 
 GNOBNB = GNOBNB(*GNOBNB._fields)
-"""
-    name: GNOBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNOBTC(Symbol):
@@ -49076,17 +38785,6 @@ class GNOBTC(Symbol):
 
 
 GNOBTC = GNOBTC(*GNOBTC._fields)
-"""
-    name: GNOBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNOBUSD(Symbol):
@@ -49128,17 +38826,6 @@ class GNOBUSD(Symbol):
 
 
 GNOBUSD = GNOBUSD(*GNOBUSD._fields)
-"""
-    name: GNOBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNOUSDT(Symbol):
@@ -49180,17 +38867,6 @@ class GNOUSDT(Symbol):
 
 
 GNOUSDT = GNOUSDT(*GNOUSDT._fields)
-"""
-    name: GNOUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNSBTC(Symbol):
@@ -49232,17 +38908,6 @@ class GNSBTC(Symbol):
 
 
 GNSBTC = GNSBTC(*GNSBTC._fields)
-"""
-    name: GNSBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GNSUSDT(Symbol):
@@ -49284,17 +38949,6 @@ class GNSUSDT(Symbol):
 
 
 GNSUSDT = GNSUSDT(*GNSUSDT._fields)
-"""
-    name: GNSUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GNTBNB(Symbol):
@@ -49336,17 +38990,6 @@ class GNTBNB(Symbol):
 
 
 GNTBNB = GNTBNB(*GNTBNB._fields)
-"""
-    name: GNTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNTBTC(Symbol):
@@ -49388,17 +39031,6 @@ class GNTBTC(Symbol):
 
 
 GNTBTC = GNTBTC(*GNTBTC._fields)
-"""
-    name: GNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GNTETH(Symbol):
@@ -49440,17 +39072,6 @@ class GNTETH(Symbol):
 
 
 GNTETH = GNTETH(*GNTETH._fields)
-"""
-    name: GNTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GOBNB(Symbol):
@@ -49492,17 +39113,6 @@ class GOBNB(Symbol):
 
 
 GOBNB = GOBNB(*GOBNB._fields)
-"""
-    name: GOBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GOBTC(Symbol):
@@ -49544,17 +39154,6 @@ class GOBTC(Symbol):
 
 
 GOBTC = GOBTC(*GOBTC._fields)
-"""
-    name: GOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GRSBTC(Symbol):
@@ -49596,17 +39195,6 @@ class GRSBTC(Symbol):
 
 
 GRSBTC = GRSBTC(*GRSBTC._fields)
-"""
-    name: GRSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GRSETH(Symbol):
@@ -49648,17 +39236,6 @@ class GRSETH(Symbol):
 
 
 GRSETH = GRSETH(*GRSETH._fields)
-"""
-    name: GRSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GRTBTC(Symbol):
@@ -49700,17 +39277,6 @@ class GRTBTC(Symbol):
 
 
 GRTBTC = GRTBTC(*GRTBTC._fields)
-"""
-    name: GRTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GRTBUSD(Symbol):
@@ -49752,17 +39318,6 @@ class GRTBUSD(Symbol):
 
 
 GRTBUSD = GRTBUSD(*GRTBUSD._fields)
-"""
-    name: GRTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GRTETH(Symbol):
@@ -49804,17 +39359,6 @@ class GRTETH(Symbol):
 
 
 GRTETH = GRTETH(*GRTETH._fields)
-"""
-    name: GRTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GRTEUR(Symbol):
@@ -49856,17 +39400,6 @@ class GRTEUR(Symbol):
 
 
 GRTEUR = GRTEUR(*GRTEUR._fields)
-"""
-    name: GRTEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GRTTRY(Symbol):
@@ -49908,17 +39441,6 @@ class GRTTRY(Symbol):
 
 
 GRTTRY = GRTTRY(*GRTTRY._fields)
-"""
-    name: GRTTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GRTUSDT(Symbol):
@@ -49960,17 +39482,6 @@ class GRTUSDT(Symbol):
 
 
 GRTUSDT = GRTUSDT(*GRTUSDT._fields)
-"""
-    name: GRTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GTCBNB(Symbol):
@@ -50012,17 +39523,6 @@ class GTCBNB(Symbol):
 
 
 GTCBNB = GTCBNB(*GTCBNB._fields)
-"""
-    name: GTCBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTCBTC(Symbol):
@@ -50064,17 +39564,6 @@ class GTCBTC(Symbol):
 
 
 GTCBTC = GTCBTC(*GTCBTC._fields)
-"""
-    name: GTCBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GTCBUSD(Symbol):
@@ -50116,17 +39605,6 @@ class GTCBUSD(Symbol):
 
 
 GTCBUSD = GTCBUSD(*GTCBUSD._fields)
-"""
-    name: GTCBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GTCUSDT(Symbol):
@@ -50168,17 +39646,6 @@ class GTCUSDT(Symbol):
 
 
 GTCUSDT = GTCUSDT(*GTCUSDT._fields)
-"""
-    name: GTCUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class GTOBNB(Symbol):
@@ -50220,17 +39687,6 @@ class GTOBNB(Symbol):
 
 
 GTOBNB = GTOBNB(*GTOBNB._fields)
-"""
-    name: GTOBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOBTC(Symbol):
@@ -50272,17 +39728,6 @@ class GTOBTC(Symbol):
 
 
 GTOBTC = GTOBTC(*GTOBTC._fields)
-"""
-    name: GTOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOBUSD(Symbol):
@@ -50324,17 +39769,6 @@ class GTOBUSD(Symbol):
 
 
 GTOBUSD = GTOBUSD(*GTOBUSD._fields)
-"""
-    name: GTOBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOETH(Symbol):
@@ -50376,17 +39810,6 @@ class GTOETH(Symbol):
 
 
 GTOETH = GTOETH(*GTOETH._fields)
-"""
-    name: GTOETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOPAX(Symbol):
@@ -50428,17 +39851,6 @@ class GTOPAX(Symbol):
 
 
 GTOPAX = GTOPAX(*GTOPAX._fields)
-"""
-    name: GTOPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOTUSD(Symbol):
@@ -50480,17 +39892,6 @@ class GTOTUSD(Symbol):
 
 
 GTOTUSD = GTOTUSD(*GTOTUSD._fields)
-"""
-    name: GTOTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOUSDC(Symbol):
@@ -50532,17 +39933,6 @@ class GTOUSDC(Symbol):
 
 
 GTOUSDC = GTOUSDC(*GTOUSDC._fields)
-"""
-    name: GTOUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GTOUSDT(Symbol):
@@ -50584,17 +39974,6 @@ class GTOUSDT(Symbol):
 
 
 GTOUSDT = GTOUSDT(*GTOUSDT._fields)
-"""
-    name: GTOUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GVTBTC(Symbol):
@@ -50636,17 +40015,6 @@ class GVTBTC(Symbol):
 
 
 GVTBTC = GVTBTC(*GVTBTC._fields)
-"""
-    name: GVTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GVTETH(Symbol):
@@ -50688,17 +40056,6 @@ class GVTETH(Symbol):
 
 
 GVTETH = GVTETH(*GVTETH._fields)
-"""
-    name: GVTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GXSBNB(Symbol):
@@ -50740,17 +40097,6 @@ class GXSBNB(Symbol):
 
 
 GXSBNB = GXSBNB(*GXSBNB._fields)
-"""
-    name: GXSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GXSBTC(Symbol):
@@ -50792,17 +40138,6 @@ class GXSBTC(Symbol):
 
 
 GXSBTC = GXSBTC(*GXSBTC._fields)
-"""
-    name: GXSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GXSETH(Symbol):
@@ -50844,17 +40179,6 @@ class GXSETH(Symbol):
 
 
 GXSETH = GXSETH(*GXSETH._fields)
-"""
-    name: GXSETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class GXSUSDT(Symbol):
@@ -50896,17 +40220,6 @@ class GXSUSDT(Symbol):
 
 
 GXSUSDT = GXSUSDT(*GXSUSDT._fields)
-"""
-    name: GXSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HARDBNB(Symbol):
@@ -50948,17 +40261,6 @@ class HARDBNB(Symbol):
 
 
 HARDBNB = HARDBNB(*HARDBNB._fields)
-"""
-    name: HARDBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HARDBTC(Symbol):
@@ -51000,17 +40302,6 @@ class HARDBTC(Symbol):
 
 
 HARDBTC = HARDBTC(*HARDBTC._fields)
-"""
-    name: HARDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HARDBUSD(Symbol):
@@ -51052,17 +40343,6 @@ class HARDBUSD(Symbol):
 
 
 HARDBUSD = HARDBUSD(*HARDBUSD._fields)
-"""
-    name: HARDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HARDUSDT(Symbol):
@@ -51104,17 +40384,6 @@ class HARDUSDT(Symbol):
 
 
 HARDUSDT = HARDUSDT(*HARDUSDT._fields)
-"""
-    name: HARDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HBARBNB(Symbol):
@@ -51156,17 +40425,6 @@ class HBARBNB(Symbol):
 
 
 HBARBNB = HBARBNB(*HBARBNB._fields)
-"""
-    name: HBARBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HBARBTC(Symbol):
@@ -51208,17 +40466,6 @@ class HBARBTC(Symbol):
 
 
 HBARBTC = HBARBTC(*HBARBTC._fields)
-"""
-    name: HBARBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HBARBUSD(Symbol):
@@ -51260,17 +40507,6 @@ class HBARBUSD(Symbol):
 
 
 HBARBUSD = HBARBUSD(*HBARBUSD._fields)
-"""
-    name: HBARBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HBARUSDT(Symbol):
@@ -51312,17 +40548,6 @@ class HBARUSDT(Symbol):
 
 
 HBARUSDT = HBARUSDT(*HBARUSDT._fields)
-"""
-    name: HBARUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HCBTC(Symbol):
@@ -51364,17 +40589,6 @@ class HCBTC(Symbol):
 
 
 HCBTC = HCBTC(*HCBTC._fields)
-"""
-    name: HCBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HCETH(Symbol):
@@ -51416,17 +40630,6 @@ class HCETH(Symbol):
 
 
 HCETH = HCETH(*HCETH._fields)
-"""
-    name: HCETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HCUSDT(Symbol):
@@ -51468,17 +40671,6 @@ class HCUSDT(Symbol):
 
 
 HCUSDT = HCUSDT(*HCUSDT._fields)
-"""
-    name: HCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HEGICBUSD(Symbol):
@@ -51520,17 +40712,6 @@ class HEGICBUSD(Symbol):
 
 
 HEGICBUSD = HEGICBUSD(*HEGICBUSD._fields)
-"""
-    name: HEGICBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HEGICETH(Symbol):
@@ -51572,17 +40753,6 @@ class HEGICETH(Symbol):
 
 
 HEGICETH = HEGICETH(*HEGICETH._fields)
-"""
-    name: HEGICETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HFTBTC(Symbol):
@@ -51624,17 +40794,6 @@ class HFTBTC(Symbol):
 
 
 HFTBTC = HFTBTC(*HFTBTC._fields)
-"""
-    name: HFTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HFTBUSD(Symbol):
@@ -51676,17 +40835,6 @@ class HFTBUSD(Symbol):
 
 
 HFTBUSD = HFTBUSD(*HFTBUSD._fields)
-"""
-    name: HFTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HFTUSDT(Symbol):
@@ -51728,17 +40876,6 @@ class HFTUSDT(Symbol):
 
 
 HFTUSDT = HFTUSDT(*HFTUSDT._fields)
-"""
-    name: HFTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HIFIETH(Symbol):
@@ -51780,17 +40917,6 @@ class HIFIETH(Symbol):
 
 
 HIFIETH = HIFIETH(*HIFIETH._fields)
-"""
-    name: HIFIETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIFIUSDT(Symbol):
@@ -51832,17 +40958,6 @@ class HIFIUSDT(Symbol):
 
 
 HIFIUSDT = HIFIUSDT(*HIFIUSDT._fields)
-"""
-    name: HIFIUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIGHBNB(Symbol):
@@ -51884,17 +40999,6 @@ class HIGHBNB(Symbol):
 
 
 HIGHBNB = HIGHBNB(*HIGHBNB._fields)
-"""
-    name: HIGHBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIGHBTC(Symbol):
@@ -51936,17 +41040,6 @@ class HIGHBTC(Symbol):
 
 
 HIGHBTC = HIGHBTC(*HIGHBTC._fields)
-"""
-    name: HIGHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIGHBUSD(Symbol):
@@ -51988,17 +41081,6 @@ class HIGHBUSD(Symbol):
 
 
 HIGHBUSD = HIGHBUSD(*HIGHBUSD._fields)
-"""
-    name: HIGHBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIGHUSDT(Symbol):
@@ -52040,17 +41122,6 @@ class HIGHUSDT(Symbol):
 
 
 HIGHUSDT = HIGHUSDT(*HIGHUSDT._fields)
-"""
-    name: HIGHUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HIVEBNB(Symbol):
@@ -52092,17 +41163,6 @@ class HIVEBNB(Symbol):
 
 
 HIVEBNB = HIVEBNB(*HIVEBNB._fields)
-"""
-    name: HIVEBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HIVEBTC(Symbol):
@@ -52144,17 +41204,6 @@ class HIVEBTC(Symbol):
 
 
 HIVEBTC = HIVEBTC(*HIVEBTC._fields)
-"""
-    name: HIVEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HIVEBUSD(Symbol):
@@ -52196,17 +41245,6 @@ class HIVEBUSD(Symbol):
 
 
 HIVEBUSD = HIVEBUSD(*HIVEBUSD._fields)
-"""
-    name: HIVEBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HIVEUSDT(Symbol):
@@ -52248,17 +41286,6 @@ class HIVEUSDT(Symbol):
 
 
 HIVEUSDT = HIVEUSDT(*HIVEUSDT._fields)
-"""
-    name: HIVEUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HNTBTC(Symbol):
@@ -52300,17 +41327,6 @@ class HNTBTC(Symbol):
 
 
 HNTBTC = HNTBTC(*HNTBTC._fields)
-"""
-    name: HNTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HNTBUSD(Symbol):
@@ -52352,17 +41368,6 @@ class HNTBUSD(Symbol):
 
 
 HNTBUSD = HNTBUSD(*HNTBUSD._fields)
-"""
-    name: HNTBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HNTUSDT(Symbol):
@@ -52404,17 +41409,6 @@ class HNTUSDT(Symbol):
 
 
 HNTUSDT = HNTUSDT(*HNTUSDT._fields)
-"""
-    name: HNTUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOOKBNB(Symbol):
@@ -52456,17 +41450,6 @@ class HOOKBNB(Symbol):
 
 
 HOOKBNB = HOOKBNB(*HOOKBNB._fields)
-"""
-    name: HOOKBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOOKBTC(Symbol):
@@ -52508,17 +41491,6 @@ class HOOKBTC(Symbol):
 
 
 HOOKBTC = HOOKBTC(*HOOKBTC._fields)
-"""
-    name: HOOKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOOKBUSD(Symbol):
@@ -52560,17 +41532,6 @@ class HOOKBUSD(Symbol):
 
 
 HOOKBUSD = HOOKBUSD(*HOOKBUSD._fields)
-"""
-    name: HOOKBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HOOKUSDT(Symbol):
@@ -52612,17 +41573,6 @@ class HOOKUSDT(Symbol):
 
 
 HOOKUSDT = HOOKUSDT(*HOOKUSDT._fields)
-"""
-    name: HOOKUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HOTBNB(Symbol):
@@ -52664,17 +41614,6 @@ class HOTBNB(Symbol):
 
 
 HOTBNB = HOTBNB(*HOTBNB._fields)
-"""
-    name: HOTBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTBRL(Symbol):
@@ -52716,17 +41655,6 @@ class HOTBRL(Symbol):
 
 
 HOTBRL = HOTBRL(*HOTBRL._fields)
-"""
-    name: HOTBRL
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTBTC(Symbol):
@@ -52768,17 +41696,6 @@ class HOTBTC(Symbol):
 
 
 HOTBTC = HOTBTC(*HOTBTC._fields)
-"""
-    name: HOTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTBUSD(Symbol):
@@ -52820,17 +41737,6 @@ class HOTBUSD(Symbol):
 
 
 HOTBUSD = HOTBUSD(*HOTBUSD._fields)
-"""
-    name: HOTBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HOTETH(Symbol):
@@ -52872,17 +41778,6 @@ class HOTETH(Symbol):
 
 
 HOTETH = HOTETH(*HOTETH._fields)
-"""
-    name: HOTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTEUR(Symbol):
@@ -52924,17 +41819,6 @@ class HOTEUR(Symbol):
 
 
 HOTEUR = HOTEUR(*HOTEUR._fields)
-"""
-    name: HOTEUR
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTTRY(Symbol):
@@ -52976,17 +41860,6 @@ class HOTTRY(Symbol):
 
 
 HOTTRY = HOTTRY(*HOTTRY._fields)
-"""
-    name: HOTTRY
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HOTUSDT(Symbol):
@@ -53028,17 +41901,6 @@ class HOTUSDT(Symbol):
 
 
 HOTUSDT = HOTUSDT(*HOTUSDT._fields)
-"""
-    name: HOTUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class HSRBTC(Symbol):
@@ -53080,17 +41942,6 @@ class HSRBTC(Symbol):
 
 
 HSRBTC = HSRBTC(*HSRBTC._fields)
-"""
-    name: HSRBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class HSRETH(Symbol):
@@ -53132,17 +41983,6 @@ class HSRETH(Symbol):
 
 
 HSRETH = HSRETH(*HSRETH._fields)
-"""
-    name: HSRETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICNBTC(Symbol):
@@ -53184,17 +42024,6 @@ class ICNBTC(Symbol):
 
 
 ICNBTC = ICNBTC(*ICNBTC._fields)
-"""
-    name: ICNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICNETH(Symbol):
@@ -53236,17 +42065,6 @@ class ICNETH(Symbol):
 
 
 ICNETH = ICNETH(*ICNETH._fields)
-"""
-    name: ICNETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPBNB(Symbol):
@@ -53288,17 +42106,6 @@ class ICPBNB(Symbol):
 
 
 ICPBNB = ICPBNB(*ICPBNB._fields)
-"""
-    name: ICPBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPBTC(Symbol):
@@ -53340,17 +42147,6 @@ class ICPBTC(Symbol):
 
 
 ICPBTC = ICPBTC(*ICPBTC._fields)
-"""
-    name: ICPBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ICPBUSD(Symbol):
@@ -53392,17 +42188,6 @@ class ICPBUSD(Symbol):
 
 
 ICPBUSD = ICPBUSD(*ICPBUSD._fields)
-"""
-    name: ICPBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ICPETH(Symbol):
@@ -53444,17 +42229,6 @@ class ICPETH(Symbol):
 
 
 ICPETH = ICPETH(*ICPETH._fields)
-"""
-    name: ICPETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPEUR(Symbol):
@@ -53496,17 +42270,6 @@ class ICPEUR(Symbol):
 
 
 ICPEUR = ICPEUR(*ICPEUR._fields)
-"""
-    name: ICPEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPRUB(Symbol):
@@ -53548,17 +42311,6 @@ class ICPRUB(Symbol):
 
 
 ICPRUB = ICPRUB(*ICPRUB._fields)
-"""
-    name: ICPRUB
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPTRY(Symbol):
@@ -53600,17 +42352,6 @@ class ICPTRY(Symbol):
 
 
 ICPTRY = ICPTRY(*ICPTRY._fields)
-"""
-    name: ICPTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICPUSDT(Symbol):
@@ -53652,17 +42393,6 @@ class ICPUSDT(Symbol):
 
 
 ICPUSDT = ICPUSDT(*ICPUSDT._fields)
-"""
-    name: ICPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ICXBNB(Symbol):
@@ -53704,17 +42434,6 @@ class ICXBNB(Symbol):
 
 
 ICXBNB = ICXBNB(*ICXBNB._fields)
-"""
-    name: ICXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICXBTC(Symbol):
@@ -53756,17 +42475,6 @@ class ICXBTC(Symbol):
 
 
 ICXBTC = ICXBTC(*ICXBTC._fields)
-"""
-    name: ICXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ICXBUSD(Symbol):
@@ -53808,17 +42516,6 @@ class ICXBUSD(Symbol):
 
 
 ICXBUSD = ICXBUSD(*ICXBUSD._fields)
-"""
-    name: ICXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ICXETH(Symbol):
@@ -53860,17 +42557,6 @@ class ICXETH(Symbol):
 
 
 ICXETH = ICXETH(*ICXETH._fields)
-"""
-    name: ICXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ICXUSDT(Symbol):
@@ -53912,17 +42598,6 @@ class ICXUSDT(Symbol):
 
 
 ICXUSDT = ICXUSDT(*ICXUSDT._fields)
-"""
-    name: ICXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IDBNB(Symbol):
@@ -53964,17 +42639,6 @@ class IDBNB(Symbol):
 
 
 IDBNB = IDBNB(*IDBNB._fields)
-"""
-    name: IDBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IDBTC(Symbol):
@@ -54016,17 +42680,6 @@ class IDBTC(Symbol):
 
 
 IDBTC = IDBTC(*IDBTC._fields)
-"""
-    name: IDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IDEUR(Symbol):
@@ -54068,17 +42721,6 @@ class IDEUR(Symbol):
 
 
 IDEUR = IDEUR(*IDEUR._fields)
-"""
-    name: IDEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IDEXBNB(Symbol):
@@ -54120,17 +42762,6 @@ class IDEXBNB(Symbol):
 
 
 IDEXBNB = IDEXBNB(*IDEXBNB._fields)
-"""
-    name: IDEXBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IDEXBTC(Symbol):
@@ -54172,17 +42803,6 @@ class IDEXBTC(Symbol):
 
 
 IDEXBTC = IDEXBTC(*IDEXBTC._fields)
-"""
-    name: IDEXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IDEXBUSD(Symbol):
@@ -54224,17 +42844,6 @@ class IDEXBUSD(Symbol):
 
 
 IDEXBUSD = IDEXBUSD(*IDEXBUSD._fields)
-"""
-    name: IDEXBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IDEXUSDT(Symbol):
@@ -54276,17 +42885,6 @@ class IDEXUSDT(Symbol):
 
 
 IDEXUSDT = IDEXUSDT(*IDEXUSDT._fields)
-"""
-    name: IDEXUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IDTRY(Symbol):
@@ -54328,17 +42926,6 @@ class IDTRY(Symbol):
 
 
 IDTRY = IDTRY(*IDTRY._fields)
-"""
-    name: IDTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IDTUSD(Symbol):
@@ -54380,17 +42967,6 @@ class IDTUSD(Symbol):
 
 
 IDTUSD = IDTUSD(*IDTUSD._fields)
-"""
-    name: IDTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IDUSDT(Symbol):
@@ -54432,17 +43008,6 @@ class IDUSDT(Symbol):
 
 
 IDUSDT = IDUSDT(*IDUSDT._fields)
-"""
-    name: IDUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ILVBNB(Symbol):
@@ -54484,17 +43049,6 @@ class ILVBNB(Symbol):
 
 
 ILVBNB = ILVBNB(*ILVBNB._fields)
-"""
-    name: ILVBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ILVBTC(Symbol):
@@ -54536,17 +43090,6 @@ class ILVBTC(Symbol):
 
 
 ILVBTC = ILVBTC(*ILVBTC._fields)
-"""
-    name: ILVBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ILVBUSD(Symbol):
@@ -54588,17 +43131,6 @@ class ILVBUSD(Symbol):
 
 
 ILVBUSD = ILVBUSD(*ILVBUSD._fields)
-"""
-    name: ILVBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ILVUSDT(Symbol):
@@ -54640,17 +43172,6 @@ class ILVUSDT(Symbol):
 
 
 ILVUSDT = ILVUSDT(*ILVUSDT._fields)
-"""
-    name: ILVUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IMXBNB(Symbol):
@@ -54692,17 +43213,6 @@ class IMXBNB(Symbol):
 
 
 IMXBNB = IMXBNB(*IMXBNB._fields)
-"""
-    name: IMXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IMXBTC(Symbol):
@@ -54744,17 +43254,6 @@ class IMXBTC(Symbol):
 
 
 IMXBTC = IMXBTC(*IMXBTC._fields)
-"""
-    name: IMXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IMXBUSD(Symbol):
@@ -54796,17 +43295,6 @@ class IMXBUSD(Symbol):
 
 
 IMXBUSD = IMXBUSD(*IMXBUSD._fields)
-"""
-    name: IMXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IMXUSDT(Symbol):
@@ -54848,17 +43336,6 @@ class IMXUSDT(Symbol):
 
 
 IMXUSDT = IMXUSDT(*IMXUSDT._fields)
-"""
-    name: IMXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class INJBNB(Symbol):
@@ -54900,17 +43377,6 @@ class INJBNB(Symbol):
 
 
 INJBNB = INJBNB(*INJBNB._fields)
-"""
-    name: INJBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class INJBTC(Symbol):
@@ -54952,17 +43418,6 @@ class INJBTC(Symbol):
 
 
 INJBTC = INJBTC(*INJBTC._fields)
-"""
-    name: INJBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class INJBUSD(Symbol):
@@ -55004,17 +43459,6 @@ class INJBUSD(Symbol):
 
 
 INJBUSD = INJBUSD(*INJBUSD._fields)
-"""
-    name: INJBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class INJTRY(Symbol):
@@ -55056,17 +43500,6 @@ class INJTRY(Symbol):
 
 
 INJTRY = INJTRY(*INJTRY._fields)
-"""
-    name: INJTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class INJUSDT(Symbol):
@@ -55108,17 +43541,6 @@ class INJUSDT(Symbol):
 
 
 INJUSDT = INJUSDT(*INJUSDT._fields)
-"""
-    name: INJUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class INSBTC(Symbol):
@@ -55160,17 +43582,6 @@ class INSBTC(Symbol):
 
 
 INSBTC = INSBTC(*INSBTC._fields)
-"""
-    name: INSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class INSETH(Symbol):
@@ -55212,17 +43623,6 @@ class INSETH(Symbol):
 
 
 INSETH = INSETH(*INSETH._fields)
-"""
-    name: INSETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOSTBTC(Symbol):
@@ -55264,17 +43664,6 @@ class IOSTBTC(Symbol):
 
 
 IOSTBTC = IOSTBTC(*IOSTBTC._fields)
-"""
-    name: IOSTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOSTBUSD(Symbol):
@@ -55316,17 +43705,6 @@ class IOSTBUSD(Symbol):
 
 
 IOSTBUSD = IOSTBUSD(*IOSTBUSD._fields)
-"""
-    name: IOSTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOSTETH(Symbol):
@@ -55368,17 +43746,6 @@ class IOSTETH(Symbol):
 
 
 IOSTETH = IOSTETH(*IOSTETH._fields)
-"""
-    name: IOSTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOSTUSDT(Symbol):
@@ -55420,17 +43787,6 @@ class IOSTUSDT(Symbol):
 
 
 IOSTUSDT = IOSTUSDT(*IOSTUSDT._fields)
-"""
-    name: IOSTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOTABNB(Symbol):
@@ -55472,17 +43828,6 @@ class IOTABNB(Symbol):
 
 
 IOTABNB = IOTABNB(*IOTABNB._fields)
-"""
-    name: IOTABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOTABTC(Symbol):
@@ -55524,17 +43869,6 @@ class IOTABTC(Symbol):
 
 
 IOTABTC = IOTABTC(*IOTABTC._fields)
-"""
-    name: IOTABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOTABUSD(Symbol):
@@ -55576,17 +43910,6 @@ class IOTABUSD(Symbol):
 
 
 IOTABUSD = IOTABUSD(*IOTABUSD._fields)
-"""
-    name: IOTABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOTAETH(Symbol):
@@ -55628,17 +43951,6 @@ class IOTAETH(Symbol):
 
 
 IOTAETH = IOTAETH(*IOTAETH._fields)
-"""
-    name: IOTAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOTAUSDT(Symbol):
@@ -55680,17 +43992,6 @@ class IOTAUSDT(Symbol):
 
 
 IOTAUSDT = IOTAUSDT(*IOTAUSDT._fields)
-"""
-    name: IOTAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOTXBTC(Symbol):
@@ -55732,17 +44033,6 @@ class IOTXBTC(Symbol):
 
 
 IOTXBTC = IOTXBTC(*IOTXBTC._fields)
-"""
-    name: IOTXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOTXBUSD(Symbol):
@@ -55784,17 +44074,6 @@ class IOTXBUSD(Symbol):
 
 
 IOTXBUSD = IOTXBUSD(*IOTXBUSD._fields)
-"""
-    name: IOTXBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IOTXETH(Symbol):
@@ -55836,17 +44115,6 @@ class IOTXETH(Symbol):
 
 
 IOTXETH = IOTXETH(*IOTXETH._fields)
-"""
-    name: IOTXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IOTXUSDT(Symbol):
@@ -55888,17 +44156,6 @@ class IOTXUSDT(Symbol):
 
 
 IOTXUSDT = IOTXUSDT(*IOTXUSDT._fields)
-"""
-    name: IOTXUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class IQBNB(Symbol):
@@ -55940,17 +44197,6 @@ class IQBNB(Symbol):
 
 
 IQBNB = IQBNB(*IQBNB._fields)
-"""
-    name: IQBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IQBUSD(Symbol):
@@ -55992,17 +44238,6 @@ class IQBUSD(Symbol):
 
 
 IQBUSD = IQBUSD(*IQBUSD._fields)
-"""
-    name: IQBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IRISBNB(Symbol):
@@ -56044,17 +44279,6 @@ class IRISBNB(Symbol):
 
 
 IRISBNB = IRISBNB(*IRISBNB._fields)
-"""
-    name: IRISBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IRISBTC(Symbol):
@@ -56096,17 +44320,6 @@ class IRISBTC(Symbol):
 
 
 IRISBTC = IRISBTC(*IRISBTC._fields)
-"""
-    name: IRISBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IRISBUSD(Symbol):
@@ -56148,17 +44361,6 @@ class IRISBUSD(Symbol):
 
 
 IRISBUSD = IRISBUSD(*IRISBUSD._fields)
-"""
-    name: IRISBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class IRISUSDT(Symbol):
@@ -56200,17 +44402,6 @@ class IRISUSDT(Symbol):
 
 
 IRISUSDT = IRISUSDT(*IRISUSDT._fields)
-"""
-    name: IRISUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JASMYBNB(Symbol):
@@ -56252,17 +44443,6 @@ class JASMYBNB(Symbol):
 
 
 JASMYBNB = JASMYBNB(*JASMYBNB._fields)
-"""
-    name: JASMYBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JASMYBTC(Symbol):
@@ -56304,17 +44484,6 @@ class JASMYBTC(Symbol):
 
 
 JASMYBTC = JASMYBTC(*JASMYBTC._fields)
-"""
-    name: JASMYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class JASMYBUSD(Symbol):
@@ -56356,17 +44525,6 @@ class JASMYBUSD(Symbol):
 
 
 JASMYBUSD = JASMYBUSD(*JASMYBUSD._fields)
-"""
-    name: JASMYBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class JASMYETH(Symbol):
@@ -56408,17 +44566,6 @@ class JASMYETH(Symbol):
 
 
 JASMYETH = JASMYETH(*JASMYETH._fields)
-"""
-    name: JASMYETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JASMYEUR(Symbol):
@@ -56460,17 +44607,6 @@ class JASMYEUR(Symbol):
 
 
 JASMYEUR = JASMYEUR(*JASMYEUR._fields)
-"""
-    name: JASMYEUR
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JASMYTRY(Symbol):
@@ -56512,17 +44648,6 @@ class JASMYTRY(Symbol):
 
 
 JASMYTRY = JASMYTRY(*JASMYTRY._fields)
-"""
-    name: JASMYTRY
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JASMYUSDT(Symbol):
@@ -56564,17 +44689,6 @@ class JASMYUSDT(Symbol):
 
 
 JASMYUSDT = JASMYUSDT(*JASMYUSDT._fields)
-"""
-    name: JASMYUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class JOEBTC(Symbol):
@@ -56616,17 +44730,6 @@ class JOEBTC(Symbol):
 
 
 JOEBTC = JOEBTC(*JOEBTC._fields)
-"""
-    name: JOEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class JOEBUSD(Symbol):
@@ -56668,17 +44771,6 @@ class JOEBUSD(Symbol):
 
 
 JOEBUSD = JOEBUSD(*JOEBUSD._fields)
-"""
-    name: JOEBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JOETRY(Symbol):
@@ -56720,17 +44812,6 @@ class JOETRY(Symbol):
 
 
 JOETRY = JOETRY(*JOETRY._fields)
-"""
-    name: JOETRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JOEUSDT(Symbol):
@@ -56772,17 +44853,6 @@ class JOEUSDT(Symbol):
 
 
 JOEUSDT = JOEUSDT(*JOEUSDT._fields)
-"""
-    name: JOEUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class JSTBNB(Symbol):
@@ -56824,17 +44894,6 @@ class JSTBNB(Symbol):
 
 
 JSTBNB = JSTBNB(*JSTBNB._fields)
-"""
-    name: JSTBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JSTBTC(Symbol):
@@ -56876,17 +44935,6 @@ class JSTBTC(Symbol):
 
 
 JSTBTC = JSTBTC(*JSTBTC._fields)
-"""
-    name: JSTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JSTBUSD(Symbol):
@@ -56928,17 +44976,6 @@ class JSTBUSD(Symbol):
 
 
 JSTBUSD = JSTBUSD(*JSTBUSD._fields)
-"""
-    name: JSTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JSTUSDT(Symbol):
@@ -56980,17 +45017,6 @@ class JSTUSDT(Symbol):
 
 
 JSTUSDT = JSTUSDT(*JSTUSDT._fields)
-"""
-    name: JSTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JUVBTC(Symbol):
@@ -57032,17 +45058,6 @@ class JUVBTC(Symbol):
 
 
 JUVBTC = JUVBTC(*JUVBTC._fields)
-"""
-    name: JUVBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JUVBUSD(Symbol):
@@ -57084,17 +45099,6 @@ class JUVBUSD(Symbol):
 
 
 JUVBUSD = JUVBUSD(*JUVBUSD._fields)
-"""
-    name: JUVBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class JUVUSDT(Symbol):
@@ -57136,17 +45140,6 @@ class JUVUSDT(Symbol):
 
 
 JUVUSDT = JUVUSDT(*JUVUSDT._fields)
-"""
-    name: JUVUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KAVABNB(Symbol):
@@ -57188,17 +45181,6 @@ class KAVABNB(Symbol):
 
 
 KAVABNB = KAVABNB(*KAVABNB._fields)
-"""
-    name: KAVABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KAVABTC(Symbol):
@@ -57240,17 +45222,6 @@ class KAVABTC(Symbol):
 
 
 KAVABTC = KAVABTC(*KAVABTC._fields)
-"""
-    name: KAVABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KAVABUSD(Symbol):
@@ -57292,17 +45263,6 @@ class KAVABUSD(Symbol):
 
 
 KAVABUSD = KAVABUSD(*KAVABUSD._fields)
-"""
-    name: KAVABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KAVAETH(Symbol):
@@ -57344,17 +45304,6 @@ class KAVAETH(Symbol):
 
 
 KAVAETH = KAVAETH(*KAVAETH._fields)
-"""
-    name: KAVAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KAVAUSDT(Symbol):
@@ -57396,17 +45345,6 @@ class KAVAUSDT(Symbol):
 
 
 KAVAUSDT = KAVAUSDT(*KAVAUSDT._fields)
-"""
-    name: KAVAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KDABTC(Symbol):
@@ -57448,17 +45386,6 @@ class KDABTC(Symbol):
 
 
 KDABTC = KDABTC(*KDABTC._fields)
-"""
-    name: KDABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KDABUSD(Symbol):
@@ -57500,17 +45427,6 @@ class KDABUSD(Symbol):
 
 
 KDABUSD = KDABUSD(*KDABUSD._fields)
-"""
-    name: KDABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KDAUSDT(Symbol):
@@ -57552,17 +45468,6 @@ class KDAUSDT(Symbol):
 
 
 KDAUSDT = KDAUSDT(*KDAUSDT._fields)
-"""
-    name: KDAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KEEPBNB(Symbol):
@@ -57604,17 +45509,6 @@ class KEEPBNB(Symbol):
 
 
 KEEPBNB = KEEPBNB(*KEEPBNB._fields)
-"""
-    name: KEEPBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEEPBTC(Symbol):
@@ -57656,17 +45550,6 @@ class KEEPBTC(Symbol):
 
 
 KEEPBTC = KEEPBTC(*KEEPBTC._fields)
-"""
-    name: KEEPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEEPBUSD(Symbol):
@@ -57708,17 +45591,6 @@ class KEEPBUSD(Symbol):
 
 
 KEEPBUSD = KEEPBUSD(*KEEPBUSD._fields)
-"""
-    name: KEEPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEEPUSDT(Symbol):
@@ -57760,17 +45632,6 @@ class KEEPUSDT(Symbol):
 
 
 KEEPUSDT = KEEPUSDT(*KEEPUSDT._fields)
-"""
-    name: KEEPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEYBTC(Symbol):
@@ -57812,17 +45673,6 @@ class KEYBTC(Symbol):
 
 
 KEYBTC = KEYBTC(*KEYBTC._fields)
-"""
-    name: KEYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEYBUSD(Symbol):
@@ -57864,17 +45714,6 @@ class KEYBUSD(Symbol):
 
 
 KEYBUSD = KEYBUSD(*KEYBUSD._fields)
-"""
-    name: KEYBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KEYETH(Symbol):
@@ -57916,17 +45755,6 @@ class KEYETH(Symbol):
 
 
 KEYETH = KEYETH(*KEYETH._fields)
-"""
-    name: KEYETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KEYUSDT(Symbol):
@@ -57968,17 +45796,6 @@ class KEYUSDT(Symbol):
 
 
 KEYUSDT = KEYUSDT(*KEYUSDT._fields)
-"""
-    name: KEYUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KLAYBNB(Symbol):
@@ -58020,17 +45837,6 @@ class KLAYBNB(Symbol):
 
 
 KLAYBNB = KLAYBNB(*KLAYBNB._fields)
-"""
-    name: KLAYBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KLAYBTC(Symbol):
@@ -58072,17 +45878,6 @@ class KLAYBTC(Symbol):
 
 
 KLAYBTC = KLAYBTC(*KLAYBTC._fields)
-"""
-    name: KLAYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KLAYBUSD(Symbol):
@@ -58124,17 +45919,6 @@ class KLAYBUSD(Symbol):
 
 
 KLAYBUSD = KLAYBUSD(*KLAYBUSD._fields)
-"""
-    name: KLAYBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KLAYUSDT(Symbol):
@@ -58176,17 +45960,6 @@ class KLAYUSDT(Symbol):
 
 
 KLAYUSDT = KLAYUSDT(*KLAYUSDT._fields)
-"""
-    name: KLAYUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KMDBTC(Symbol):
@@ -58228,17 +46001,6 @@ class KMDBTC(Symbol):
 
 
 KMDBTC = KMDBTC(*KMDBTC._fields)
-"""
-    name: KMDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KMDBUSD(Symbol):
@@ -58280,17 +46042,6 @@ class KMDBUSD(Symbol):
 
 
 KMDBUSD = KMDBUSD(*KMDBUSD._fields)
-"""
-    name: KMDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KMDETH(Symbol):
@@ -58332,17 +46083,6 @@ class KMDETH(Symbol):
 
 
 KMDETH = KMDETH(*KMDETH._fields)
-"""
-    name: KMDETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KMDUSDT(Symbol):
@@ -58384,17 +46124,6 @@ class KMDUSDT(Symbol):
 
 
 KMDUSDT = KMDUSDT(*KMDUSDT._fields)
-"""
-    name: KMDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KNCBNB(Symbol):
@@ -58436,17 +46165,6 @@ class KNCBNB(Symbol):
 
 
 KNCBNB = KNCBNB(*KNCBNB._fields)
-"""
-    name: KNCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KNCBTC(Symbol):
@@ -58488,17 +46206,6 @@ class KNCBTC(Symbol):
 
 
 KNCBTC = KNCBTC(*KNCBTC._fields)
-"""
-    name: KNCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KNCBUSD(Symbol):
@@ -58540,17 +46247,6 @@ class KNCBUSD(Symbol):
 
 
 KNCBUSD = KNCBUSD(*KNCBUSD._fields)
-"""
-    name: KNCBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KNCETH(Symbol):
@@ -58592,17 +46288,6 @@ class KNCETH(Symbol):
 
 
 KNCETH = KNCETH(*KNCETH._fields)
-"""
-    name: KNCETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KNCUSDT(Symbol):
@@ -58644,17 +46329,6 @@ class KNCUSDT(Symbol):
 
 
 KNCUSDT = KNCUSDT(*KNCUSDT._fields)
-"""
-    name: KNCUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KP3RBNB(Symbol):
@@ -58696,17 +46370,6 @@ class KP3RBNB(Symbol):
 
 
 KP3RBNB = KP3RBNB(*KP3RBNB._fields)
-"""
-    name: KP3RBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KP3RBUSD(Symbol):
@@ -58748,17 +46411,6 @@ class KP3RBUSD(Symbol):
 
 
 KP3RBUSD = KP3RBUSD(*KP3RBUSD._fields)
-"""
-    name: KP3RBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KP3RUSDT(Symbol):
@@ -58800,17 +46452,6 @@ class KP3RUSDT(Symbol):
 
 
 KP3RUSDT = KP3RUSDT(*KP3RUSDT._fields)
-"""
-    name: KP3RUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KSMAUD(Symbol):
@@ -58852,17 +46493,6 @@ class KSMAUD(Symbol):
 
 
 KSMAUD = KSMAUD(*KSMAUD._fields)
-"""
-    name: KSMAUD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KSMBNB(Symbol):
@@ -58904,17 +46534,6 @@ class KSMBNB(Symbol):
 
 
 KSMBNB = KSMBNB(*KSMBNB._fields)
-"""
-    name: KSMBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KSMBTC(Symbol):
@@ -58956,17 +46575,6 @@ class KSMBTC(Symbol):
 
 
 KSMBTC = KSMBTC(*KSMBTC._fields)
-"""
-    name: KSMBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KSMBUSD(Symbol):
@@ -59008,17 +46616,6 @@ class KSMBUSD(Symbol):
 
 
 KSMBUSD = KSMBUSD(*KSMBUSD._fields)
-"""
-    name: KSMBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class KSMETH(Symbol):
@@ -59060,17 +46657,6 @@ class KSMETH(Symbol):
 
 
 KSMETH = KSMETH(*KSMETH._fields)
-"""
-    name: KSMETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class KSMUSDT(Symbol):
@@ -59112,17 +46698,6 @@ class KSMUSDT(Symbol):
 
 
 KSMUSDT = KSMUSDT(*KSMUSDT._fields)
-"""
-    name: KSMUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LAZIOBTC(Symbol):
@@ -59164,17 +46739,6 @@ class LAZIOBTC(Symbol):
 
 
 LAZIOBTC = LAZIOBTC(*LAZIOBTC._fields)
-"""
-    name: LAZIOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LAZIOBUSD(Symbol):
@@ -59216,17 +46780,6 @@ class LAZIOBUSD(Symbol):
 
 
 LAZIOBUSD = LAZIOBUSD(*LAZIOBUSD._fields)
-"""
-    name: LAZIOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LAZIOEUR(Symbol):
@@ -59268,17 +46821,6 @@ class LAZIOEUR(Symbol):
 
 
 LAZIOEUR = LAZIOEUR(*LAZIOEUR._fields)
-"""
-    name: LAZIOEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LAZIOTRY(Symbol):
@@ -59320,17 +46862,6 @@ class LAZIOTRY(Symbol):
 
 
 LAZIOTRY = LAZIOTRY(*LAZIOTRY._fields)
-"""
-    name: LAZIOTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LAZIOUSDT(Symbol):
@@ -59372,17 +46903,6 @@ class LAZIOUSDT(Symbol):
 
 
 LAZIOUSDT = LAZIOUSDT(*LAZIOUSDT._fields)
-"""
-    name: LAZIOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LDOBTC(Symbol):
@@ -59424,17 +46944,6 @@ class LDOBTC(Symbol):
 
 
 LDOBTC = LDOBTC(*LDOBTC._fields)
-"""
-    name: LDOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LDOBUSD(Symbol):
@@ -59476,17 +46985,6 @@ class LDOBUSD(Symbol):
 
 
 LDOBUSD = LDOBUSD(*LDOBUSD._fields)
-"""
-    name: LDOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LDOTUSD(Symbol):
@@ -59528,17 +47026,6 @@ class LDOTUSD(Symbol):
 
 
 LDOTUSD = LDOTUSD(*LDOTUSD._fields)
-"""
-    name: LDOTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LDOUSDT(Symbol):
@@ -59580,17 +47067,6 @@ class LDOUSDT(Symbol):
 
 
 LDOUSDT = LDOUSDT(*LDOUSDT._fields)
-"""
-    name: LDOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LENDBKRW(Symbol):
@@ -59632,17 +47108,6 @@ class LENDBKRW(Symbol):
 
 
 LENDBKRW = LENDBKRW(*LENDBKRW._fields)
-"""
-    name: LENDBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LENDBTC(Symbol):
@@ -59684,17 +47149,6 @@ class LENDBTC(Symbol):
 
 
 LENDBTC = LENDBTC(*LENDBTC._fields)
-"""
-    name: LENDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LENDBUSD(Symbol):
@@ -59736,17 +47190,6 @@ class LENDBUSD(Symbol):
 
 
 LENDBUSD = LENDBUSD(*LENDBUSD._fields)
-"""
-    name: LENDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LENDETH(Symbol):
@@ -59788,17 +47231,6 @@ class LENDETH(Symbol):
 
 
 LENDETH = LENDETH(*LENDETH._fields)
-"""
-    name: LENDETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LENDUSDT(Symbol):
@@ -59840,17 +47272,6 @@ class LENDUSDT(Symbol):
 
 
 LENDUSDT = LENDUSDT(*LENDUSDT._fields)
-"""
-    name: LENDUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LEVERBUSD(Symbol):
@@ -59892,17 +47313,6 @@ class LEVERBUSD(Symbol):
 
 
 LEVERBUSD = LEVERBUSD(*LEVERBUSD._fields)
-"""
-    name: LEVERBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LEVERUSDT(Symbol):
@@ -59944,17 +47354,6 @@ class LEVERUSDT(Symbol):
 
 
 LEVERUSDT = LEVERUSDT(*LEVERUSDT._fields)
-"""
-    name: LEVERUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINABNB(Symbol):
@@ -59996,17 +47395,6 @@ class LINABNB(Symbol):
 
 
 LINABNB = LINABNB(*LINABNB._fields)
-"""
-    name: LINABNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINABTC(Symbol):
@@ -60048,17 +47436,6 @@ class LINABTC(Symbol):
 
 
 LINABTC = LINABTC(*LINABTC._fields)
-"""
-    name: LINABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINABUSD(Symbol):
@@ -60100,17 +47477,6 @@ class LINABUSD(Symbol):
 
 
 LINABUSD = LINABUSD(*LINABUSD._fields)
-"""
-    name: LINABUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINAUSDT(Symbol):
@@ -60152,17 +47518,6 @@ class LINAUSDT(Symbol):
 
 
 LINAUSDT = LINAUSDT(*LINAUSDT._fields)
-"""
-    name: LINAUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINKAUD(Symbol):
@@ -60204,17 +47559,6 @@ class LINKAUD(Symbol):
 
 
 LINKAUD = LINKAUD(*LINKAUD._fields)
-"""
-    name: LINKAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKBKRW(Symbol):
@@ -60256,17 +47600,6 @@ class LINKBKRW(Symbol):
 
 
 LINKBKRW = LINKBKRW(*LINKBKRW._fields)
-"""
-    name: LINKBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKBNB(Symbol):
@@ -60308,17 +47641,6 @@ class LINKBNB(Symbol):
 
 
 LINKBNB = LINKBNB(*LINKBNB._fields)
-"""
-    name: LINKBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKBRL(Symbol):
@@ -60360,17 +47682,6 @@ class LINKBRL(Symbol):
 
 
 LINKBRL = LINKBRL(*LINKBRL._fields)
-"""
-    name: LINKBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKBTC(Symbol):
@@ -60412,17 +47723,6 @@ class LINKBTC(Symbol):
 
 
 LINKBTC = LINKBTC(*LINKBTC._fields)
-"""
-    name: LINKBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINKBUSD(Symbol):
@@ -60464,17 +47764,6 @@ class LINKBUSD(Symbol):
 
 
 LINKBUSD = LINKBUSD(*LINKBUSD._fields)
-"""
-    name: LINKBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINKDOWNUSDT(Symbol):
@@ -60516,17 +47805,6 @@ class LINKDOWNUSDT(Symbol):
 
 
 LINKDOWNUSDT = LINKDOWNUSDT(*LINKDOWNUSDT._fields)
-"""
-    name: LINKDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKETH(Symbol):
@@ -60568,17 +47846,6 @@ class LINKETH(Symbol):
 
 
 LINKETH = LINKETH(*LINKETH._fields)
-"""
-    name: LINKETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LINKEUR(Symbol):
@@ -60620,17 +47887,6 @@ class LINKEUR(Symbol):
 
 
 LINKEUR = LINKEUR(*LINKEUR._fields)
-"""
-    name: LINKEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKGBP(Symbol):
@@ -60672,17 +47928,6 @@ class LINKGBP(Symbol):
 
 
 LINKGBP = LINKGBP(*LINKGBP._fields)
-"""
-    name: LINKGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKNGN(Symbol):
@@ -60724,17 +47969,6 @@ class LINKNGN(Symbol):
 
 
 LINKNGN = LINKNGN(*LINKNGN._fields)
-"""
-    name: LINKNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKPAX(Symbol):
@@ -60776,17 +48010,6 @@ class LINKPAX(Symbol):
 
 
 LINKPAX = LINKPAX(*LINKPAX._fields)
-"""
-    name: LINKPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKTRY(Symbol):
@@ -60828,17 +48051,6 @@ class LINKTRY(Symbol):
 
 
 LINKTRY = LINKTRY(*LINKTRY._fields)
-"""
-    name: LINKTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKTUSD(Symbol):
@@ -60880,17 +48092,6 @@ class LINKTUSD(Symbol):
 
 
 LINKTUSD = LINKTUSD(*LINKTUSD._fields)
-"""
-    name: LINKTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKUPUSDT(Symbol):
@@ -60932,17 +48133,6 @@ class LINKUPUSDT(Symbol):
 
 
 LINKUPUSDT = LINKUPUSDT(*LINKUPUSDT._fields)
-"""
-    name: LINKUPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKUSDC(Symbol):
@@ -60984,17 +48174,6 @@ class LINKUSDC(Symbol):
 
 
 LINKUSDC = LINKUSDC(*LINKUSDC._fields)
-"""
-    name: LINKUSDC
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LINKUSDT(Symbol):
@@ -61036,17 +48215,6 @@ class LINKUSDT(Symbol):
 
 
 LINKUSDT = LINKUSDT(*LINKUSDT._fields)
-"""
-    name: LINKUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LITBTC(Symbol):
@@ -61088,17 +48256,6 @@ class LITBTC(Symbol):
 
 
 LITBTC = LITBTC(*LITBTC._fields)
-"""
-    name: LITBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LITBUSD(Symbol):
@@ -61140,17 +48297,6 @@ class LITBUSD(Symbol):
 
 
 LITBUSD = LITBUSD(*LITBUSD._fields)
-"""
-    name: LITBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LITETH(Symbol):
@@ -61192,17 +48338,6 @@ class LITETH(Symbol):
 
 
 LITETH = LITETH(*LITETH._fields)
-"""
-    name: LITETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LITUSDT(Symbol):
@@ -61244,17 +48379,6 @@ class LITUSDT(Symbol):
 
 
 LITUSDT = LITUSDT(*LITUSDT._fields)
-"""
-    name: LITUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LOKABNB(Symbol):
@@ -61296,17 +48420,6 @@ class LOKABNB(Symbol):
 
 
 LOKABNB = LOKABNB(*LOKABNB._fields)
-"""
-    name: LOKABNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOKABTC(Symbol):
@@ -61348,17 +48461,6 @@ class LOKABTC(Symbol):
 
 
 LOKABTC = LOKABTC(*LOKABTC._fields)
-"""
-    name: LOKABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOKABUSD(Symbol):
@@ -61400,17 +48502,6 @@ class LOKABUSD(Symbol):
 
 
 LOKABUSD = LOKABUSD(*LOKABUSD._fields)
-"""
-    name: LOKABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOKAUSDT(Symbol):
@@ -61452,17 +48543,6 @@ class LOKAUSDT(Symbol):
 
 
 LOKAUSDT = LOKAUSDT(*LOKAUSDT._fields)
-"""
-    name: LOKAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOOMBNB(Symbol):
@@ -61504,17 +48584,6 @@ class LOOMBNB(Symbol):
 
 
 LOOMBNB = LOOMBNB(*LOOMBNB._fields)
-"""
-    name: LOOMBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOOMBTC(Symbol):
@@ -61556,17 +48625,6 @@ class LOOMBTC(Symbol):
 
 
 LOOMBTC = LOOMBTC(*LOOMBTC._fields)
-"""
-    name: LOOMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOOMBUSD(Symbol):
@@ -61608,17 +48666,6 @@ class LOOMBUSD(Symbol):
 
 
 LOOMBUSD = LOOMBUSD(*LOOMBUSD._fields)
-"""
-    name: LOOMBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOOMETH(Symbol):
@@ -61660,17 +48707,6 @@ class LOOMETH(Symbol):
 
 
 LOOMETH = LOOMETH(*LOOMETH._fields)
-"""
-    name: LOOMETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LOOMUSDT(Symbol):
@@ -61712,17 +48748,6 @@ class LOOMUSDT(Symbol):
 
 
 LOOMUSDT = LOOMUSDT(*LOOMUSDT._fields)
-"""
-    name: LOOMUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LPTBNB(Symbol):
@@ -61764,17 +48789,6 @@ class LPTBNB(Symbol):
 
 
 LPTBNB = LPTBNB(*LPTBNB._fields)
-"""
-    name: LPTBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LPTBTC(Symbol):
@@ -61816,17 +48830,6 @@ class LPTBTC(Symbol):
 
 
 LPTBTC = LPTBTC(*LPTBTC._fields)
-"""
-    name: LPTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LPTBUSD(Symbol):
@@ -61868,17 +48871,6 @@ class LPTBUSD(Symbol):
 
 
 LPTBUSD = LPTBUSD(*LPTBUSD._fields)
-"""
-    name: LPTBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LPTUSDT(Symbol):
@@ -61920,17 +48912,6 @@ class LPTUSDT(Symbol):
 
 
 LPTUSDT = LPTUSDT(*LPTUSDT._fields)
-"""
-    name: LPTUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LQTYBTC(Symbol):
@@ -61972,17 +48953,6 @@ class LQTYBTC(Symbol):
 
 
 LQTYBTC = LQTYBTC(*LQTYBTC._fields)
-"""
-    name: LQTYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LQTYUSDT(Symbol):
@@ -62024,17 +48994,6 @@ class LQTYUSDT(Symbol):
 
 
 LQTYUSDT = LQTYUSDT(*LQTYUSDT._fields)
-"""
-    name: LQTYUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LRCBNB(Symbol):
@@ -62076,17 +49035,6 @@ class LRCBNB(Symbol):
 
 
 LRCBNB = LRCBNB(*LRCBNB._fields)
-"""
-    name: LRCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LRCBTC(Symbol):
@@ -62128,17 +49076,6 @@ class LRCBTC(Symbol):
 
 
 LRCBTC = LRCBTC(*LRCBTC._fields)
-"""
-    name: LRCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LRCBUSD(Symbol):
@@ -62180,17 +49117,6 @@ class LRCBUSD(Symbol):
 
 
 LRCBUSD = LRCBUSD(*LRCBUSD._fields)
-"""
-    name: LRCBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LRCETH(Symbol):
@@ -62232,17 +49158,6 @@ class LRCETH(Symbol):
 
 
 LRCETH = LRCETH(*LRCETH._fields)
-"""
-    name: LRCETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LRCTRY(Symbol):
@@ -62284,17 +49199,6 @@ class LRCTRY(Symbol):
 
 
 LRCTRY = LRCTRY(*LRCTRY._fields)
-"""
-    name: LRCTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LRCUSDT(Symbol):
@@ -62336,17 +49240,6 @@ class LRCUSDT(Symbol):
 
 
 LRCUSDT = LRCUSDT(*LRCUSDT._fields)
-"""
-    name: LRCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LSKBNB(Symbol):
@@ -62388,17 +49281,6 @@ class LSKBNB(Symbol):
 
 
 LSKBNB = LSKBNB(*LSKBNB._fields)
-"""
-    name: LSKBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LSKBTC(Symbol):
@@ -62440,17 +49322,6 @@ class LSKBTC(Symbol):
 
 
 LSKBTC = LSKBTC(*LSKBTC._fields)
-"""
-    name: LSKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LSKBUSD(Symbol):
@@ -62492,17 +49363,6 @@ class LSKBUSD(Symbol):
 
 
 LSKBUSD = LSKBUSD(*LSKBUSD._fields)
-"""
-    name: LSKBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LSKETH(Symbol):
@@ -62544,17 +49404,6 @@ class LSKETH(Symbol):
 
 
 LSKETH = LSKETH(*LSKETH._fields)
-"""
-    name: LSKETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LSKUSDT(Symbol):
@@ -62596,17 +49445,6 @@ class LSKUSDT(Symbol):
 
 
 LSKUSDT = LSKUSDT(*LSKUSDT._fields)
-"""
-    name: LSKUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCBNB(Symbol):
@@ -62648,17 +49486,6 @@ class LTCBNB(Symbol):
 
 
 LTCBNB = LTCBNB(*LTCBNB._fields)
-"""
-    name: LTCBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCBRL(Symbol):
@@ -62700,17 +49527,6 @@ class LTCBRL(Symbol):
 
 
 LTCBRL = LTCBRL(*LTCBRL._fields)
-"""
-    name: LTCBRL
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCBTC(Symbol):
@@ -62752,17 +49568,6 @@ class LTCBTC(Symbol):
 
 
 LTCBTC = LTCBTC(*LTCBTC._fields)
-"""
-    name: LTCBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LTCBUSD(Symbol):
@@ -62804,17 +49609,6 @@ class LTCBUSD(Symbol):
 
 
 LTCBUSD = LTCBUSD(*LTCBUSD._fields)
-"""
-    name: LTCBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LTCDOWNUSDT(Symbol):
@@ -62856,17 +49650,6 @@ class LTCDOWNUSDT(Symbol):
 
 
 LTCDOWNUSDT = LTCDOWNUSDT(*LTCDOWNUSDT._fields)
-"""
-    name: LTCDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCETH(Symbol):
@@ -62908,17 +49691,6 @@ class LTCETH(Symbol):
 
 
 LTCETH = LTCETH(*LTCETH._fields)
-"""
-    name: LTCETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LTCEUR(Symbol):
@@ -62960,17 +49732,6 @@ class LTCEUR(Symbol):
 
 
 LTCEUR = LTCEUR(*LTCEUR._fields)
-"""
-    name: LTCEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCGBP(Symbol):
@@ -63012,17 +49773,6 @@ class LTCGBP(Symbol):
 
 
 LTCGBP = LTCGBP(*LTCGBP._fields)
-"""
-    name: LTCGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCNGN(Symbol):
@@ -63064,17 +49814,6 @@ class LTCNGN(Symbol):
 
 
 LTCNGN = LTCNGN(*LTCNGN._fields)
-"""
-    name: LTCNGN
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCPAX(Symbol):
@@ -63116,17 +49855,6 @@ class LTCPAX(Symbol):
 
 
 LTCPAX = LTCPAX(*LTCPAX._fields)
-"""
-    name: LTCPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCRUB(Symbol):
@@ -63168,17 +49896,6 @@ class LTCRUB(Symbol):
 
 
 LTCRUB = LTCRUB(*LTCRUB._fields)
-"""
-    name: LTCRUB
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCTUSD(Symbol):
@@ -63220,17 +49937,6 @@ class LTCTUSD(Symbol):
 
 
 LTCTUSD = LTCTUSD(*LTCTUSD._fields)
-"""
-    name: LTCTUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCUAH(Symbol):
@@ -63272,17 +49978,6 @@ class LTCUAH(Symbol):
 
 
 LTCUAH = LTCUAH(*LTCUAH._fields)
-"""
-    name: LTCUAH
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCUPUSDT(Symbol):
@@ -63324,17 +50019,6 @@ class LTCUPUSDT(Symbol):
 
 
 LTCUPUSDT = LTCUPUSDT(*LTCUPUSDT._fields)
-"""
-    name: LTCUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCUSDC(Symbol):
@@ -63376,17 +50060,6 @@ class LTCUSDC(Symbol):
 
 
 LTCUSDC = LTCUSDC(*LTCUSDC._fields)
-"""
-    name: LTCUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTCUSDT(Symbol):
@@ -63428,17 +50101,6 @@ class LTCUSDT(Symbol):
 
 
 LTCUSDT = LTCUSDT(*LTCUSDT._fields)
-"""
-    name: LTCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LTOBNB(Symbol):
@@ -63480,17 +50142,6 @@ class LTOBNB(Symbol):
 
 
 LTOBNB = LTOBNB(*LTOBNB._fields)
-"""
-    name: LTOBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTOBTC(Symbol):
@@ -63532,17 +50183,6 @@ class LTOBTC(Symbol):
 
 
 LTOBTC = LTOBTC(*LTOBTC._fields)
-"""
-    name: LTOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LTOBUSD(Symbol):
@@ -63584,17 +50224,6 @@ class LTOBUSD(Symbol):
 
 
 LTOBUSD = LTOBUSD(*LTOBUSD._fields)
-"""
-    name: LTOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LTOUSDT(Symbol):
@@ -63636,17 +50265,6 @@ class LTOUSDT(Symbol):
 
 
 LTOUSDT = LTOUSDT(*LTOUSDT._fields)
-"""
-    name: LTOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNAAUD(Symbol):
@@ -63688,17 +50306,6 @@ class LUNAAUD(Symbol):
 
 
 LUNAAUD = LUNAAUD(*LUNAAUD._fields)
-"""
-    name: LUNAAUD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNABIDR(Symbol):
@@ -63740,17 +50347,6 @@ class LUNABIDR(Symbol):
 
 
 LUNABIDR = LUNABIDR(*LUNABIDR._fields)
-"""
-    name: LUNABIDR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNABNB(Symbol):
@@ -63792,17 +50388,6 @@ class LUNABNB(Symbol):
 
 
 LUNABNB = LUNABNB(*LUNABNB._fields)
-"""
-    name: LUNABNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNABRL(Symbol):
@@ -63844,17 +50429,6 @@ class LUNABRL(Symbol):
 
 
 LUNABRL = LUNABRL(*LUNABRL._fields)
-"""
-    name: LUNABRL
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNABTC(Symbol):
@@ -63896,17 +50470,6 @@ class LUNABTC(Symbol):
 
 
 LUNABTC = LUNABTC(*LUNABTC._fields)
-"""
-    name: LUNABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNABUSD(Symbol):
@@ -63948,17 +50511,6 @@ class LUNABUSD(Symbol):
 
 
 LUNABUSD = LUNABUSD(*LUNABUSD._fields)
-"""
-    name: LUNABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNAETH(Symbol):
@@ -64000,17 +50552,6 @@ class LUNAETH(Symbol):
 
 
 LUNAETH = LUNAETH(*LUNAETH._fields)
-"""
-    name: LUNAETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNAEUR(Symbol):
@@ -64052,17 +50593,6 @@ class LUNAEUR(Symbol):
 
 
 LUNAEUR = LUNAEUR(*LUNAEUR._fields)
-"""
-    name: LUNAEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNAGBP(Symbol):
@@ -64104,17 +50634,6 @@ class LUNAGBP(Symbol):
 
 
 LUNAGBP = LUNAGBP(*LUNAGBP._fields)
-"""
-    name: LUNAGBP
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNATRY(Symbol):
@@ -64156,17 +50675,6 @@ class LUNATRY(Symbol):
 
 
 LUNATRY = LUNATRY(*LUNATRY._fields)
-"""
-    name: LUNATRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNAUSDT(Symbol):
@@ -64208,17 +50716,6 @@ class LUNAUSDT(Symbol):
 
 
 LUNAUSDT = LUNAUSDT(*LUNAUSDT._fields)
-"""
-    name: LUNAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNAUST(Symbol):
@@ -64260,17 +50757,6 @@ class LUNAUST(Symbol):
 
 
 LUNAUST = LUNAUST(*LUNAUST._fields)
-"""
-    name: LUNAUST
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNBTC(Symbol):
@@ -64312,17 +50798,6 @@ class LUNBTC(Symbol):
 
 
 LUNBTC = LUNBTC(*LUNBTC._fields)
-"""
-    name: LUNBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class LUNCBUSD(Symbol):
@@ -64364,17 +50839,6 @@ class LUNCBUSD(Symbol):
 
 
 LUNCBUSD = LUNCBUSD(*LUNCBUSD._fields)
-"""
-    name: LUNCBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNCUSDT(Symbol):
@@ -64416,17 +50880,6 @@ class LUNCUSDT(Symbol):
 
 
 LUNCUSDT = LUNCUSDT(*LUNCUSDT._fields)
-"""
-    name: LUNCUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class LUNETH(Symbol):
@@ -64468,17 +50921,6 @@ class LUNETH(Symbol):
 
 
 LUNETH = LUNETH(*LUNETH._fields)
-"""
-    name: LUNETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MAGICBTC(Symbol):
@@ -64520,17 +50962,6 @@ class MAGICBTC(Symbol):
 
 
 MAGICBTC = MAGICBTC(*MAGICBTC._fields)
-"""
-    name: MAGICBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MAGICBUSD(Symbol):
@@ -64572,17 +51003,6 @@ class MAGICBUSD(Symbol):
 
 
 MAGICBUSD = MAGICBUSD(*MAGICBUSD._fields)
-"""
-    name: MAGICBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MAGICTRY(Symbol):
@@ -64624,17 +51044,6 @@ class MAGICTRY(Symbol):
 
 
 MAGICTRY = MAGICTRY(*MAGICTRY._fields)
-"""
-    name: MAGICTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MAGICUSDT(Symbol):
@@ -64676,17 +51085,6 @@ class MAGICUSDT(Symbol):
 
 
 MAGICUSDT = MAGICUSDT(*MAGICUSDT._fields)
-"""
-    name: MAGICUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MANABIDR(Symbol):
@@ -64728,17 +51126,6 @@ class MANABIDR(Symbol):
 
 
 MANABIDR = MANABIDR(*MANABIDR._fields)
-"""
-    name: MANABIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MANABNB(Symbol):
@@ -64780,17 +51167,6 @@ class MANABNB(Symbol):
 
 
 MANABNB = MANABNB(*MANABNB._fields)
-"""
-    name: MANABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MANABRL(Symbol):
@@ -64832,17 +51208,6 @@ class MANABRL(Symbol):
 
 
 MANABRL = MANABRL(*MANABRL._fields)
-"""
-    name: MANABRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MANABTC(Symbol):
@@ -64884,17 +51249,6 @@ class MANABTC(Symbol):
 
 
 MANABTC = MANABTC(*MANABTC._fields)
-"""
-    name: MANABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MANABUSD(Symbol):
@@ -64936,17 +51290,6 @@ class MANABUSD(Symbol):
 
 
 MANABUSD = MANABUSD(*MANABUSD._fields)
-"""
-    name: MANABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MANAETH(Symbol):
@@ -64988,17 +51331,6 @@ class MANAETH(Symbol):
 
 
 MANAETH = MANAETH(*MANAETH._fields)
-"""
-    name: MANAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MANATRY(Symbol):
@@ -65040,17 +51372,6 @@ class MANATRY(Symbol):
 
 
 MANATRY = MANATRY(*MANATRY._fields)
-"""
-    name: MANATRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MANAUSDT(Symbol):
@@ -65092,17 +51413,6 @@ class MANAUSDT(Symbol):
 
 
 MANAUSDT = MANAUSDT(*MANAUSDT._fields)
-"""
-    name: MANAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MASKBNB(Symbol):
@@ -65144,17 +51454,6 @@ class MASKBNB(Symbol):
 
 
 MASKBNB = MASKBNB(*MASKBNB._fields)
-"""
-    name: MASKBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MASKBUSD(Symbol):
@@ -65196,17 +51495,6 @@ class MASKBUSD(Symbol):
 
 
 MASKBUSD = MASKBUSD(*MASKBUSD._fields)
-"""
-    name: MASKBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MASKUSDT(Symbol):
@@ -65248,17 +51536,6 @@ class MASKUSDT(Symbol):
 
 
 MASKUSDT = MASKUSDT(*MASKUSDT._fields)
-"""
-    name: MASKUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MATICAUD(Symbol):
@@ -65300,17 +51577,6 @@ class MATICAUD(Symbol):
 
 
 MATICAUD = MATICAUD(*MATICAUD._fields)
-"""
-    name: MATICAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICBIDR(Symbol):
@@ -65352,17 +51618,6 @@ class MATICBIDR(Symbol):
 
 
 MATICBIDR = MATICBIDR(*MATICBIDR._fields)
-"""
-    name: MATICBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICBNB(Symbol):
@@ -65404,17 +51659,6 @@ class MATICBNB(Symbol):
 
 
 MATICBNB = MATICBNB(*MATICBNB._fields)
-"""
-    name: MATICBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICBRL(Symbol):
@@ -65456,17 +51700,6 @@ class MATICBRL(Symbol):
 
 
 MATICBRL = MATICBRL(*MATICBRL._fields)
-"""
-    name: MATICBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICBTC(Symbol):
@@ -65508,17 +51741,6 @@ class MATICBTC(Symbol):
 
 
 MATICBTC = MATICBTC(*MATICBTC._fields)
-"""
-    name: MATICBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MATICBUSD(Symbol):
@@ -65560,17 +51782,6 @@ class MATICBUSD(Symbol):
 
 
 MATICBUSD = MATICBUSD(*MATICBUSD._fields)
-"""
-    name: MATICBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MATICETH(Symbol):
@@ -65612,17 +51823,6 @@ class MATICETH(Symbol):
 
 
 MATICETH = MATICETH(*MATICETH._fields)
-"""
-    name: MATICETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICEUR(Symbol):
@@ -65664,17 +51864,6 @@ class MATICEUR(Symbol):
 
 
 MATICEUR = MATICEUR(*MATICEUR._fields)
-"""
-    name: MATICEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICGBP(Symbol):
@@ -65716,17 +51905,6 @@ class MATICGBP(Symbol):
 
 
 MATICGBP = MATICGBP(*MATICGBP._fields)
-"""
-    name: MATICGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICRUB(Symbol):
@@ -65768,17 +51946,6 @@ class MATICRUB(Symbol):
 
 
 MATICRUB = MATICRUB(*MATICRUB._fields)
-"""
-    name: MATICRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICTRY(Symbol):
@@ -65820,17 +51987,6 @@ class MATICTRY(Symbol):
 
 
 MATICTRY = MATICTRY(*MATICTRY._fields)
-"""
-    name: MATICTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICTUSD(Symbol):
@@ -65872,17 +52028,6 @@ class MATICTUSD(Symbol):
 
 
 MATICTUSD = MATICTUSD(*MATICTUSD._fields)
-"""
-    name: MATICTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MATICUSDT(Symbol):
@@ -65924,17 +52069,6 @@ class MATICUSDT(Symbol):
 
 
 MATICUSDT = MATICUSDT(*MATICUSDT._fields)
-"""
-    name: MATICUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MBLBNB(Symbol):
@@ -65976,17 +52110,6 @@ class MBLBNB(Symbol):
 
 
 MBLBNB = MBLBNB(*MBLBNB._fields)
-"""
-    name: MBLBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBLBTC(Symbol):
@@ -66028,17 +52151,6 @@ class MBLBTC(Symbol):
 
 
 MBLBTC = MBLBTC(*MBLBTC._fields)
-"""
-    name: MBLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBLBUSD(Symbol):
@@ -66080,17 +52192,6 @@ class MBLBUSD(Symbol):
 
 
 MBLBUSD = MBLBUSD(*MBLBUSD._fields)
-"""
-    name: MBLBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MBLUSDT(Symbol):
@@ -66132,17 +52233,6 @@ class MBLUSDT(Symbol):
 
 
 MBLUSDT = MBLUSDT(*MBLUSDT._fields)
-"""
-    name: MBLUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MBOXBNB(Symbol):
@@ -66184,17 +52274,6 @@ class MBOXBNB(Symbol):
 
 
 MBOXBNB = MBOXBNB(*MBOXBNB._fields)
-"""
-    name: MBOXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBOXBTC(Symbol):
@@ -66236,17 +52315,6 @@ class MBOXBTC(Symbol):
 
 
 MBOXBTC = MBOXBTC(*MBOXBTC._fields)
-"""
-    name: MBOXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBOXBUSD(Symbol):
@@ -66288,17 +52356,6 @@ class MBOXBUSD(Symbol):
 
 
 MBOXBUSD = MBOXBUSD(*MBOXBUSD._fields)
-"""
-    name: MBOXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBOXTRY(Symbol):
@@ -66340,17 +52397,6 @@ class MBOXTRY(Symbol):
 
 
 MBOXTRY = MBOXTRY(*MBOXTRY._fields)
-"""
-    name: MBOXTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MBOXUSDT(Symbol):
@@ -66392,17 +52438,6 @@ class MBOXUSDT(Symbol):
 
 
 MBOXUSDT = MBOXUSDT(*MBOXUSDT._fields)
-"""
-    name: MBOXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCBNB(Symbol):
@@ -66444,17 +52479,6 @@ class MCBNB(Symbol):
 
 
 MCBNB = MCBNB(*MCBNB._fields)
-"""
-    name: MCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCBTC(Symbol):
@@ -66496,17 +52520,6 @@ class MCBTC(Symbol):
 
 
 MCBTC = MCBTC(*MCBTC._fields)
-"""
-    name: MCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCBUSD(Symbol):
@@ -66548,17 +52561,6 @@ class MCBUSD(Symbol):
 
 
 MCBUSD = MCBUSD(*MCBUSD._fields)
-"""
-    name: MCBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCOBNB(Symbol):
@@ -66600,17 +52602,6 @@ class MCOBNB(Symbol):
 
 
 MCOBNB = MCOBNB(*MCOBNB._fields)
-"""
-    name: MCOBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCOBTC(Symbol):
@@ -66652,17 +52643,6 @@ class MCOBTC(Symbol):
 
 
 MCOBTC = MCOBTC(*MCOBTC._fields)
-"""
-    name: MCOBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCOETH(Symbol):
@@ -66704,17 +52684,6 @@ class MCOETH(Symbol):
 
 
 MCOETH = MCOETH(*MCOETH._fields)
-"""
-    name: MCOETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCOUSDT(Symbol):
@@ -66756,17 +52725,6 @@ class MCOUSDT(Symbol):
 
 
 MCOUSDT = MCOUSDT(*MCOUSDT._fields)
-"""
-    name: MCOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MCUSDT(Symbol):
@@ -66808,17 +52766,6 @@ class MCUSDT(Symbol):
 
 
 MCUSDT = MCUSDT(*MCUSDT._fields)
-"""
-    name: MCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MDABTC(Symbol):
@@ -66860,17 +52807,6 @@ class MDABTC(Symbol):
 
 
 MDABTC = MDABTC(*MDABTC._fields)
-"""
-    name: MDABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDAETH(Symbol):
@@ -66912,17 +52848,6 @@ class MDAETH(Symbol):
 
 
 MDAETH = MDAETH(*MDAETH._fields)
-"""
-    name: MDAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDTBNB(Symbol):
@@ -66964,17 +52889,6 @@ class MDTBNB(Symbol):
 
 
 MDTBNB = MDTBNB(*MDTBNB._fields)
-"""
-    name: MDTBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDTBTC(Symbol):
@@ -67016,17 +52930,6 @@ class MDTBTC(Symbol):
 
 
 MDTBTC = MDTBTC(*MDTBTC._fields)
-"""
-    name: MDTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDTBUSD(Symbol):
@@ -67068,17 +52971,6 @@ class MDTBUSD(Symbol):
 
 
 MDTBUSD = MDTBUSD(*MDTBUSD._fields)
-"""
-    name: MDTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDTUSDT(Symbol):
@@ -67120,17 +53012,6 @@ class MDTUSDT(Symbol):
 
 
 MDTUSDT = MDTUSDT(*MDTUSDT._fields)
-"""
-    name: MDTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MDXBNB(Symbol):
@@ -67172,17 +53053,6 @@ class MDXBNB(Symbol):
 
 
 MDXBNB = MDXBNB(*MDXBNB._fields)
-"""
-    name: MDXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MDXBTC(Symbol):
@@ -67224,17 +53094,6 @@ class MDXBTC(Symbol):
 
 
 MDXBTC = MDXBTC(*MDXBTC._fields)
-"""
-    name: MDXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MDXBUSD(Symbol):
@@ -67276,17 +53135,6 @@ class MDXBUSD(Symbol):
 
 
 MDXBUSD = MDXBUSD(*MDXBUSD._fields)
-"""
-    name: MDXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MDXUSDT(Symbol):
@@ -67328,17 +53176,6 @@ class MDXUSDT(Symbol):
 
 
 MDXUSDT = MDXUSDT(*MDXUSDT._fields)
-"""
-    name: MDXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MFTBNB(Symbol):
@@ -67380,17 +53217,6 @@ class MFTBNB(Symbol):
 
 
 MFTBNB = MFTBNB(*MFTBNB._fields)
-"""
-    name: MFTBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MFTBTC(Symbol):
@@ -67432,17 +53258,6 @@ class MFTBTC(Symbol):
 
 
 MFTBTC = MFTBTC(*MFTBTC._fields)
-"""
-    name: MFTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MFTETH(Symbol):
@@ -67484,17 +53299,6 @@ class MFTETH(Symbol):
 
 
 MFTETH = MFTETH(*MFTETH._fields)
-"""
-    name: MFTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MFTUSDT(Symbol):
@@ -67536,17 +53340,6 @@ class MFTUSDT(Symbol):
 
 
 MFTUSDT = MFTUSDT(*MFTUSDT._fields)
-"""
-    name: MFTUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MINABNB(Symbol):
@@ -67588,17 +53381,6 @@ class MINABNB(Symbol):
 
 
 MINABNB = MINABNB(*MINABNB._fields)
-"""
-    name: MINABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MINABTC(Symbol):
@@ -67640,17 +53422,6 @@ class MINABTC(Symbol):
 
 
 MINABTC = MINABTC(*MINABTC._fields)
-"""
-    name: MINABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MINABUSD(Symbol):
@@ -67692,17 +53463,6 @@ class MINABUSD(Symbol):
 
 
 MINABUSD = MINABUSD(*MINABUSD._fields)
-"""
-    name: MINABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MINATRY(Symbol):
@@ -67744,17 +53504,6 @@ class MINATRY(Symbol):
 
 
 MINATRY = MINATRY(*MINATRY._fields)
-"""
-    name: MINATRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MINAUSDT(Symbol):
@@ -67796,17 +53545,6 @@ class MINAUSDT(Symbol):
 
 
 MINAUSDT = MINAUSDT(*MINAUSDT._fields)
-"""
-    name: MINAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MIRBTC(Symbol):
@@ -67848,17 +53586,6 @@ class MIRBTC(Symbol):
 
 
 MIRBTC = MIRBTC(*MIRBTC._fields)
-"""
-    name: MIRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MIRBUSD(Symbol):
@@ -67900,17 +53627,6 @@ class MIRBUSD(Symbol):
 
 
 MIRBUSD = MIRBUSD(*MIRBUSD._fields)
-"""
-    name: MIRBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MIRUSDT(Symbol):
@@ -67952,17 +53668,6 @@ class MIRUSDT(Symbol):
 
 
 MIRUSDT = MIRUSDT(*MIRUSDT._fields)
-"""
-    name: MIRUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MITHBNB(Symbol):
@@ -68004,17 +53709,6 @@ class MITHBNB(Symbol):
 
 
 MITHBNB = MITHBNB(*MITHBNB._fields)
-"""
-    name: MITHBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MITHBTC(Symbol):
@@ -68056,17 +53750,6 @@ class MITHBTC(Symbol):
 
 
 MITHBTC = MITHBTC(*MITHBTC._fields)
-"""
-    name: MITHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MITHUSDT(Symbol):
@@ -68108,17 +53791,6 @@ class MITHUSDT(Symbol):
 
 
 MITHUSDT = MITHUSDT(*MITHUSDT._fields)
-"""
-    name: MITHUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MKRBNB(Symbol):
@@ -68160,17 +53832,6 @@ class MKRBNB(Symbol):
 
 
 MKRBNB = MKRBNB(*MKRBNB._fields)
-"""
-    name: MKRBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MKRBTC(Symbol):
@@ -68212,17 +53873,6 @@ class MKRBTC(Symbol):
 
 
 MKRBTC = MKRBTC(*MKRBTC._fields)
-"""
-    name: MKRBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MKRBUSD(Symbol):
@@ -68264,17 +53914,6 @@ class MKRBUSD(Symbol):
 
 
 MKRBUSD = MKRBUSD(*MKRBUSD._fields)
-"""
-    name: MKRBUSD
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MKRUSDT(Symbol):
@@ -68316,17 +53955,6 @@ class MKRUSDT(Symbol):
 
 
 MKRUSDT = MKRUSDT(*MKRUSDT._fields)
-"""
-    name: MKRUSDT
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MLNBNB(Symbol):
@@ -68368,17 +53996,6 @@ class MLNBNB(Symbol):
 
 
 MLNBNB = MLNBNB(*MLNBNB._fields)
-"""
-    name: MLNBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MLNBTC(Symbol):
@@ -68420,17 +54037,6 @@ class MLNBTC(Symbol):
 
 
 MLNBTC = MLNBTC(*MLNBTC._fields)
-"""
-    name: MLNBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MLNBUSD(Symbol):
@@ -68472,17 +54078,6 @@ class MLNBUSD(Symbol):
 
 
 MLNBUSD = MLNBUSD(*MLNBUSD._fields)
-"""
-    name: MLNBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MLNUSDT(Symbol):
@@ -68524,17 +54119,6 @@ class MLNUSDT(Symbol):
 
 
 MLNUSDT = MLNUSDT(*MLNUSDT._fields)
-"""
-    name: MLNUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOBBTC(Symbol):
@@ -68576,17 +54160,6 @@ class MOBBTC(Symbol):
 
 
 MOBBTC = MOBBTC(*MOBBTC._fields)
-"""
-    name: MOBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOBBUSD(Symbol):
@@ -68628,17 +54201,6 @@ class MOBBUSD(Symbol):
 
 
 MOBBUSD = MOBBUSD(*MOBBUSD._fields)
-"""
-    name: MOBBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOBUSDT(Symbol):
@@ -68680,17 +54242,6 @@ class MOBUSDT(Symbol):
 
 
 MOBUSDT = MOBUSDT(*MOBUSDT._fields)
-"""
-    name: MOBUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MODBTC(Symbol):
@@ -68732,17 +54283,6 @@ class MODBTC(Symbol):
 
 
 MODBTC = MODBTC(*MODBTC._fields)
-"""
-    name: MODBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MODETH(Symbol):
@@ -68784,17 +54324,6 @@ class MODETH(Symbol):
 
 
 MODETH = MODETH(*MODETH._fields)
-"""
-    name: MODETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOVRBNB(Symbol):
@@ -68836,17 +54365,6 @@ class MOVRBNB(Symbol):
 
 
 MOVRBNB = MOVRBNB(*MOVRBNB._fields)
-"""
-    name: MOVRBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOVRBTC(Symbol):
@@ -68888,17 +54406,6 @@ class MOVRBTC(Symbol):
 
 
 MOVRBTC = MOVRBTC(*MOVRBTC._fields)
-"""
-    name: MOVRBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOVRBUSD(Symbol):
@@ -68940,17 +54447,6 @@ class MOVRBUSD(Symbol):
 
 
 MOVRBUSD = MOVRBUSD(*MOVRBUSD._fields)
-"""
-    name: MOVRBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MOVRUSDT(Symbol):
@@ -68992,17 +54488,6 @@ class MOVRUSDT(Symbol):
 
 
 MOVRUSDT = MOVRUSDT(*MOVRUSDT._fields)
-"""
-    name: MOVRUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MTHBTC(Symbol):
@@ -69044,17 +54529,6 @@ class MTHBTC(Symbol):
 
 
 MTHBTC = MTHBTC(*MTHBTC._fields)
-"""
-    name: MTHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MTHETH(Symbol):
@@ -69096,17 +54570,6 @@ class MTHETH(Symbol):
 
 
 MTHETH = MTHETH(*MTHETH._fields)
-"""
-    name: MTHETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MTLBTC(Symbol):
@@ -69148,17 +54611,6 @@ class MTLBTC(Symbol):
 
 
 MTLBTC = MTLBTC(*MTLBTC._fields)
-"""
-    name: MTLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MTLBUSD(Symbol):
@@ -69200,17 +54652,6 @@ class MTLBUSD(Symbol):
 
 
 MTLBUSD = MTLBUSD(*MTLBUSD._fields)
-"""
-    name: MTLBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MTLETH(Symbol):
@@ -69252,17 +54693,6 @@ class MTLETH(Symbol):
 
 
 MTLETH = MTLETH(*MTLETH._fields)
-"""
-    name: MTLETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MTLUSDT(Symbol):
@@ -69304,17 +54734,6 @@ class MTLUSDT(Symbol):
 
 
 MTLUSDT = MTLUSDT(*MTLUSDT._fields)
-"""
-    name: MTLUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class MULTIBTC(Symbol):
@@ -69356,17 +54775,6 @@ class MULTIBTC(Symbol):
 
 
 MULTIBTC = MULTIBTC(*MULTIBTC._fields)
-"""
-    name: MULTIBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MULTIBUSD(Symbol):
@@ -69408,17 +54816,6 @@ class MULTIBUSD(Symbol):
 
 
 MULTIBUSD = MULTIBUSD(*MULTIBUSD._fields)
-"""
-    name: MULTIBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class MULTIUSDT(Symbol):
@@ -69460,17 +54857,6 @@ class MULTIUSDT(Symbol):
 
 
 MULTIUSDT = MULTIUSDT(*MULTIUSDT._fields)
-"""
-    name: MULTIUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NANOBNB(Symbol):
@@ -69512,17 +54898,6 @@ class NANOBNB(Symbol):
 
 
 NANOBNB = NANOBNB(*NANOBNB._fields)
-"""
-    name: NANOBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NANOBTC(Symbol):
@@ -69564,17 +54939,6 @@ class NANOBTC(Symbol):
 
 
 NANOBTC = NANOBTC(*NANOBTC._fields)
-"""
-    name: NANOBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NANOBUSD(Symbol):
@@ -69616,17 +54980,6 @@ class NANOBUSD(Symbol):
 
 
 NANOBUSD = NANOBUSD(*NANOBUSD._fields)
-"""
-    name: NANOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NANOETH(Symbol):
@@ -69668,17 +55021,6 @@ class NANOETH(Symbol):
 
 
 NANOETH = NANOETH(*NANOETH._fields)
-"""
-    name: NANOETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NANOUSDT(Symbol):
@@ -69720,17 +55062,6 @@ class NANOUSDT(Symbol):
 
 
 NANOUSDT = NANOUSDT(*NANOUSDT._fields)
-"""
-    name: NANOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NASBNB(Symbol):
@@ -69772,17 +55103,6 @@ class NASBNB(Symbol):
 
 
 NASBNB = NASBNB(*NASBNB._fields)
-"""
-    name: NASBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NASBTC(Symbol):
@@ -69824,17 +55144,6 @@ class NASBTC(Symbol):
 
 
 NASBTC = NASBTC(*NASBTC._fields)
-"""
-    name: NASBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NASETH(Symbol):
@@ -69876,17 +55185,6 @@ class NASETH(Symbol):
 
 
 NASETH = NASETH(*NASETH._fields)
-"""
-    name: NASETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NAVBNB(Symbol):
@@ -69928,17 +55226,6 @@ class NAVBNB(Symbol):
 
 
 NAVBNB = NAVBNB(*NAVBNB._fields)
-"""
-    name: NAVBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NAVBTC(Symbol):
@@ -69980,17 +55267,6 @@ class NAVBTC(Symbol):
 
 
 NAVBTC = NAVBTC(*NAVBTC._fields)
-"""
-    name: NAVBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NAVETH(Symbol):
@@ -70032,17 +55308,6 @@ class NAVETH(Symbol):
 
 
 NAVETH = NAVETH(*NAVETH._fields)
-"""
-    name: NAVETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NBSBTC(Symbol):
@@ -70084,17 +55349,6 @@ class NBSBTC(Symbol):
 
 
 NBSBTC = NBSBTC(*NBSBTC._fields)
-"""
-    name: NBSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NBSUSDT(Symbol):
@@ -70136,17 +55390,6 @@ class NBSUSDT(Symbol):
 
 
 NBSUSDT = NBSUSDT(*NBSUSDT._fields)
-"""
-    name: NBSUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NCASHBNB(Symbol):
@@ -70188,17 +55431,6 @@ class NCASHBNB(Symbol):
 
 
 NCASHBNB = NCASHBNB(*NCASHBNB._fields)
-"""
-    name: NCASHBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NCASHBTC(Symbol):
@@ -70240,17 +55472,6 @@ class NCASHBTC(Symbol):
 
 
 NCASHBTC = NCASHBTC(*NCASHBTC._fields)
-"""
-    name: NCASHBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NCASHETH(Symbol):
@@ -70292,17 +55513,6 @@ class NCASHETH(Symbol):
 
 
 NCASHETH = NCASHETH(*NCASHETH._fields)
-"""
-    name: NCASHETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEARBNB(Symbol):
@@ -70344,17 +55554,6 @@ class NEARBNB(Symbol):
 
 
 NEARBNB = NEARBNB(*NEARBNB._fields)
-"""
-    name: NEARBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEARBTC(Symbol):
@@ -70396,17 +55595,6 @@ class NEARBTC(Symbol):
 
 
 NEARBTC = NEARBTC(*NEARBTC._fields)
-"""
-    name: NEARBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEARBUSD(Symbol):
@@ -70448,17 +55636,6 @@ class NEARBUSD(Symbol):
 
 
 NEARBUSD = NEARBUSD(*NEARBUSD._fields)
-"""
-    name: NEARBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEARETH(Symbol):
@@ -70500,17 +55677,6 @@ class NEARETH(Symbol):
 
 
 NEARETH = NEARETH(*NEARETH._fields)
-"""
-    name: NEARETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEAREUR(Symbol):
@@ -70552,17 +55718,6 @@ class NEAREUR(Symbol):
 
 
 NEAREUR = NEAREUR(*NEAREUR._fields)
-"""
-    name: NEAREUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEARRUB(Symbol):
@@ -70604,17 +55759,6 @@ class NEARRUB(Symbol):
 
 
 NEARRUB = NEARRUB(*NEARRUB._fields)
-"""
-    name: NEARRUB
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEARTRY(Symbol):
@@ -70656,17 +55800,6 @@ class NEARTRY(Symbol):
 
 
 NEARTRY = NEARTRY(*NEARTRY._fields)
-"""
-    name: NEARTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEARUSDT(Symbol):
@@ -70708,17 +55841,6 @@ class NEARUSDT(Symbol):
 
 
 NEARUSDT = NEARUSDT(*NEARUSDT._fields)
-"""
-    name: NEARUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEBLBNB(Symbol):
@@ -70760,17 +55882,6 @@ class NEBLBNB(Symbol):
 
 
 NEBLBNB = NEBLBNB(*NEBLBNB._fields)
-"""
-    name: NEBLBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEBLBTC(Symbol):
@@ -70812,17 +55923,6 @@ class NEBLBTC(Symbol):
 
 
 NEBLBTC = NEBLBTC(*NEBLBTC._fields)
-"""
-    name: NEBLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEBLBUSD(Symbol):
@@ -70864,17 +55964,6 @@ class NEBLBUSD(Symbol):
 
 
 NEBLBUSD = NEBLBUSD(*NEBLBUSD._fields)
-"""
-    name: NEBLBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEBLUSDT(Symbol):
@@ -70916,17 +56005,6 @@ class NEBLUSDT(Symbol):
 
 
 NEBLUSDT = NEBLUSDT(*NEBLUSDT._fields)
-"""
-    name: NEBLUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOBNB(Symbol):
@@ -70968,17 +56046,6 @@ class NEOBNB(Symbol):
 
 
 NEOBNB = NEOBNB(*NEOBNB._fields)
-"""
-    name: NEOBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOBTC(Symbol):
@@ -71020,17 +56087,6 @@ class NEOBTC(Symbol):
 
 
 NEOBTC = NEOBTC(*NEOBTC._fields)
-"""
-    name: NEOBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEOBUSD(Symbol):
@@ -71072,17 +56128,6 @@ class NEOBUSD(Symbol):
 
 
 NEOBUSD = NEOBUSD(*NEOBUSD._fields)
-"""
-    name: NEOBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEOETH(Symbol):
@@ -71124,17 +56169,6 @@ class NEOETH(Symbol):
 
 
 NEOETH = NEOETH(*NEOETH._fields)
-"""
-    name: NEOETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOPAX(Symbol):
@@ -71176,17 +56210,6 @@ class NEOPAX(Symbol):
 
 
 NEOPAX = NEOPAX(*NEOPAX._fields)
-"""
-    name: NEOPAX
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEORUB(Symbol):
@@ -71228,17 +56251,6 @@ class NEORUB(Symbol):
 
 
 NEORUB = NEORUB(*NEORUB._fields)
-"""
-    name: NEORUB
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOTRY(Symbol):
@@ -71280,17 +56292,6 @@ class NEOTRY(Symbol):
 
 
 NEOTRY = NEOTRY(*NEOTRY._fields)
-"""
-    name: NEOTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOTUSD(Symbol):
@@ -71332,17 +56333,6 @@ class NEOTUSD(Symbol):
 
 
 NEOTUSD = NEOTUSD(*NEOTUSD._fields)
-"""
-    name: NEOTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOUSDC(Symbol):
@@ -71384,17 +56374,6 @@ class NEOUSDC(Symbol):
 
 
 NEOUSDC = NEOUSDC(*NEOUSDC._fields)
-"""
-    name: NEOUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEOUSDT(Symbol):
@@ -71436,17 +56415,6 @@ class NEOUSDT(Symbol):
 
 
 NEOUSDT = NEOUSDT(*NEOUSDT._fields)
-"""
-    name: NEOUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NEXOBTC(Symbol):
@@ -71488,17 +56456,6 @@ class NEXOBTC(Symbol):
 
 
 NEXOBTC = NEXOBTC(*NEXOBTC._fields)
-"""
-    name: NEXOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEXOBUSD(Symbol):
@@ -71540,17 +56497,6 @@ class NEXOBUSD(Symbol):
 
 
 NEXOBUSD = NEXOBUSD(*NEXOBUSD._fields)
-"""
-    name: NEXOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NEXOUSDT(Symbol):
@@ -71592,17 +56538,6 @@ class NEXOUSDT(Symbol):
 
 
 NEXOUSDT = NEXOUSDT(*NEXOUSDT._fields)
-"""
-    name: NEXOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NKNBNB(Symbol):
@@ -71644,17 +56579,6 @@ class NKNBNB(Symbol):
 
 
 NKNBNB = NKNBNB(*NKNBNB._fields)
-"""
-    name: NKNBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NKNBTC(Symbol):
@@ -71696,17 +56620,6 @@ class NKNBTC(Symbol):
 
 
 NKNBTC = NKNBTC(*NKNBTC._fields)
-"""
-    name: NKNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NKNBUSD(Symbol):
@@ -71748,17 +56661,6 @@ class NKNBUSD(Symbol):
 
 
 NKNBUSD = NKNBUSD(*NKNBUSD._fields)
-"""
-    name: NKNBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NKNUSDT(Symbol):
@@ -71800,17 +56702,6 @@ class NKNUSDT(Symbol):
 
 
 NKNUSDT = NKNUSDT(*NKNUSDT._fields)
-"""
-    name: NKNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NMRBTC(Symbol):
@@ -71852,17 +56743,6 @@ class NMRBTC(Symbol):
 
 
 NMRBTC = NMRBTC(*NMRBTC._fields)
-"""
-    name: NMRBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NMRBUSD(Symbol):
@@ -71904,17 +56784,6 @@ class NMRBUSD(Symbol):
 
 
 NMRBUSD = NMRBUSD(*NMRBUSD._fields)
-"""
-    name: NMRBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NMRUSDT(Symbol):
@@ -71956,17 +56825,6 @@ class NMRUSDT(Symbol):
 
 
 NMRUSDT = NMRUSDT(*NMRUSDT._fields)
-"""
-    name: NMRUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NPXSBTC(Symbol):
@@ -72008,17 +56866,6 @@ class NPXSBTC(Symbol):
 
 
 NPXSBTC = NPXSBTC(*NPXSBTC._fields)
-"""
-    name: NPXSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NPXSETH(Symbol):
@@ -72060,17 +56907,6 @@ class NPXSETH(Symbol):
 
 
 NPXSETH = NPXSETH(*NPXSETH._fields)
-"""
-    name: NPXSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NPXSUSDC(Symbol):
@@ -72112,17 +56948,6 @@ class NPXSUSDC(Symbol):
 
 
 NPXSUSDC = NPXSUSDC(*NPXSUSDC._fields)
-"""
-    name: NPXSUSDC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NPXSUSDT(Symbol):
@@ -72164,17 +56989,6 @@ class NPXSUSDT(Symbol):
 
 
 NPXSUSDT = NPXSUSDT(*NPXSUSDT._fields)
-"""
-    name: NPXSUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NUAUD(Symbol):
@@ -72216,17 +57030,6 @@ class NUAUD(Symbol):
 
 
 NUAUD = NUAUD(*NUAUD._fields)
-"""
-    name: NUAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NUBNB(Symbol):
@@ -72268,17 +57071,6 @@ class NUBNB(Symbol):
 
 
 NUBNB = NUBNB(*NUBNB._fields)
-"""
-    name: NUBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NUBTC(Symbol):
@@ -72320,17 +57112,6 @@ class NUBTC(Symbol):
 
 
 NUBTC = NUBTC(*NUBTC._fields)
-"""
-    name: NUBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NUBUSD(Symbol):
@@ -72372,17 +57153,6 @@ class NUBUSD(Symbol):
 
 
 NUBUSD = NUBUSD(*NUBUSD._fields)
-"""
-    name: NUBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NULSBNB(Symbol):
@@ -72424,17 +57194,6 @@ class NULSBNB(Symbol):
 
 
 NULSBNB = NULSBNB(*NULSBNB._fields)
-"""
-    name: NULSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NULSBTC(Symbol):
@@ -72476,17 +57235,6 @@ class NULSBTC(Symbol):
 
 
 NULSBTC = NULSBTC(*NULSBTC._fields)
-"""
-    name: NULSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NULSBUSD(Symbol):
@@ -72528,17 +57276,6 @@ class NULSBUSD(Symbol):
 
 
 NULSBUSD = NULSBUSD(*NULSBUSD._fields)
-"""
-    name: NULSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NULSETH(Symbol):
@@ -72580,17 +57317,6 @@ class NULSETH(Symbol):
 
 
 NULSETH = NULSETH(*NULSETH._fields)
-"""
-    name: NULSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NULSUSDT(Symbol):
@@ -72632,17 +57358,6 @@ class NULSUSDT(Symbol):
 
 
 NULSUSDT = NULSUSDT(*NULSUSDT._fields)
-"""
-    name: NULSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class NURUB(Symbol):
@@ -72684,17 +57399,6 @@ class NURUB(Symbol):
 
 
 NURUB = NURUB(*NURUB._fields)
-"""
-    name: NURUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NUUSDT(Symbol):
@@ -72736,17 +57440,6 @@ class NUUSDT(Symbol):
 
 
 NUUSDT = NUUSDT(*NUUSDT._fields)
-"""
-    name: NUUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NXSBNB(Symbol):
@@ -72788,17 +57481,6 @@ class NXSBNB(Symbol):
 
 
 NXSBNB = NXSBNB(*NXSBNB._fields)
-"""
-    name: NXSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NXSBTC(Symbol):
@@ -72840,17 +57522,6 @@ class NXSBTC(Symbol):
 
 
 NXSBTC = NXSBTC(*NXSBTC._fields)
-"""
-    name: NXSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class NXSETH(Symbol):
@@ -72892,17 +57563,6 @@ class NXSETH(Symbol):
 
 
 NXSETH = NXSETH(*NXSETH._fields)
-"""
-    name: NXSETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OAXBTC(Symbol):
@@ -72944,17 +57604,6 @@ class OAXBTC(Symbol):
 
 
 OAXBTC = OAXBTC(*OAXBTC._fields)
-"""
-    name: OAXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OAXETH(Symbol):
@@ -72996,17 +57645,6 @@ class OAXETH(Symbol):
 
 
 OAXETH = OAXETH(*OAXETH._fields)
-"""
-    name: OAXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OAXUSDT(Symbol):
@@ -73048,17 +57686,6 @@ class OAXUSDT(Symbol):
 
 
 OAXUSDT = OAXUSDT(*OAXUSDT._fields)
-"""
-    name: OAXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OCEANBNB(Symbol):
@@ -73100,17 +57727,6 @@ class OCEANBNB(Symbol):
 
 
 OCEANBNB = OCEANBNB(*OCEANBNB._fields)
-"""
-    name: OCEANBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OCEANBTC(Symbol):
@@ -73152,17 +57768,6 @@ class OCEANBTC(Symbol):
 
 
 OCEANBTC = OCEANBTC(*OCEANBTC._fields)
-"""
-    name: OCEANBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OCEANBUSD(Symbol):
@@ -73204,17 +57809,6 @@ class OCEANBUSD(Symbol):
 
 
 OCEANBUSD = OCEANBUSD(*OCEANBUSD._fields)
-"""
-    name: OCEANBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OCEANUSDT(Symbol):
@@ -73256,17 +57850,6 @@ class OCEANUSDT(Symbol):
 
 
 OCEANUSDT = OCEANUSDT(*OCEANUSDT._fields)
-"""
-    name: OCEANUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OGBTC(Symbol):
@@ -73308,17 +57891,6 @@ class OGBTC(Symbol):
 
 
 OGBTC = OGBTC(*OGBTC._fields)
-"""
-    name: OGBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OGBUSD(Symbol):
@@ -73360,17 +57932,6 @@ class OGBUSD(Symbol):
 
 
 OGBUSD = OGBUSD(*OGBUSD._fields)
-"""
-    name: OGBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OGNBNB(Symbol):
@@ -73412,17 +57973,6 @@ class OGNBNB(Symbol):
 
 
 OGNBNB = OGNBNB(*OGNBNB._fields)
-"""
-    name: OGNBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OGNBTC(Symbol):
@@ -73464,17 +58014,6 @@ class OGNBTC(Symbol):
 
 
 OGNBTC = OGNBTC(*OGNBTC._fields)
-"""
-    name: OGNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OGNBUSD(Symbol):
@@ -73516,17 +58055,6 @@ class OGNBUSD(Symbol):
 
 
 OGNBUSD = OGNBUSD(*OGNBUSD._fields)
-"""
-    name: OGNBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OGNUSDT(Symbol):
@@ -73568,17 +58096,6 @@ class OGNUSDT(Symbol):
 
 
 OGNUSDT = OGNUSDT(*OGNUSDT._fields)
-"""
-    name: OGNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OGUSDT(Symbol):
@@ -73620,17 +58137,6 @@ class OGUSDT(Symbol):
 
 
 OGUSDT = OGUSDT(*OGUSDT._fields)
-"""
-    name: OGUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMBTC(Symbol):
@@ -73672,17 +58178,6 @@ class OMBTC(Symbol):
 
 
 OMBTC = OMBTC(*OMBTC._fields)
-"""
-    name: OMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OMBUSD(Symbol):
@@ -73724,17 +58219,6 @@ class OMBUSD(Symbol):
 
 
 OMBUSD = OMBUSD(*OMBUSD._fields)
-"""
-    name: OMBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OMGBNB(Symbol):
@@ -73776,17 +58260,6 @@ class OMGBNB(Symbol):
 
 
 OMGBNB = OMGBNB(*OMGBNB._fields)
-"""
-    name: OMGBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMGBTC(Symbol):
@@ -73828,17 +58301,6 @@ class OMGBTC(Symbol):
 
 
 OMGBTC = OMGBTC(*OMGBTC._fields)
-"""
-    name: OMGBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMGBUSD(Symbol):
@@ -73880,17 +58342,6 @@ class OMGBUSD(Symbol):
 
 
 OMGBUSD = OMGBUSD(*OMGBUSD._fields)
-"""
-    name: OMGBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMGETH(Symbol):
@@ -73932,17 +58383,6 @@ class OMGETH(Symbol):
 
 
 OMGETH = OMGETH(*OMGETH._fields)
-"""
-    name: OMGETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMGUSDT(Symbol):
@@ -73984,17 +58424,6 @@ class OMGUSDT(Symbol):
 
 
 OMGUSDT = OMGUSDT(*OMGUSDT._fields)
-"""
-    name: OMGUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OMUSDT(Symbol):
@@ -74036,17 +58465,6 @@ class OMUSDT(Symbol):
 
 
 OMUSDT = OMUSDT(*OMUSDT._fields)
-"""
-    name: OMUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONEBIDR(Symbol):
@@ -74088,17 +58506,6 @@ class ONEBIDR(Symbol):
 
 
 ONEBIDR = ONEBIDR(*ONEBIDR._fields)
-"""
-    name: ONEBIDR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEBNB(Symbol):
@@ -74140,17 +58547,6 @@ class ONEBNB(Symbol):
 
 
 ONEBNB = ONEBNB(*ONEBNB._fields)
-"""
-    name: ONEBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEBTC(Symbol):
@@ -74192,17 +58588,6 @@ class ONEBTC(Symbol):
 
 
 ONEBTC = ONEBTC(*ONEBTC._fields)
-"""
-    name: ONEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONEBUSD(Symbol):
@@ -74244,17 +58629,6 @@ class ONEBUSD(Symbol):
 
 
 ONEBUSD = ONEBUSD(*ONEBUSD._fields)
-"""
-    name: ONEBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONEETH(Symbol):
@@ -74296,17 +58670,6 @@ class ONEETH(Symbol):
 
 
 ONEETH = ONEETH(*ONEETH._fields)
-"""
-    name: ONEETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEPAX(Symbol):
@@ -74348,17 +58711,6 @@ class ONEPAX(Symbol):
 
 
 ONEPAX = ONEPAX(*ONEPAX._fields)
-"""
-    name: ONEPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONETRY(Symbol):
@@ -74400,17 +58752,6 @@ class ONETRY(Symbol):
 
 
 ONETRY = ONETRY(*ONETRY._fields)
-"""
-    name: ONETRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONETUSD(Symbol):
@@ -74452,17 +58793,6 @@ class ONETUSD(Symbol):
 
 
 ONETUSD = ONETUSD(*ONETUSD._fields)
-"""
-    name: ONETUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEUSDC(Symbol):
@@ -74504,17 +58834,6 @@ class ONEUSDC(Symbol):
 
 
 ONEUSDC = ONEUSDC(*ONEUSDC._fields)
-"""
-    name: ONEUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONEUSDT(Symbol):
@@ -74556,17 +58875,6 @@ class ONEUSDT(Symbol):
 
 
 ONEUSDT = ONEUSDT(*ONEUSDT._fields)
-"""
-    name: ONEUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONGBNB(Symbol):
@@ -74608,17 +58916,6 @@ class ONGBNB(Symbol):
 
 
 ONGBNB = ONGBNB(*ONGBNB._fields)
-"""
-    name: ONGBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONGBTC(Symbol):
@@ -74660,17 +58957,6 @@ class ONGBTC(Symbol):
 
 
 ONGBTC = ONGBTC(*ONGBTC._fields)
-"""
-    name: ONGBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONGUSDT(Symbol):
@@ -74712,17 +58998,6 @@ class ONGUSDT(Symbol):
 
 
 ONGUSDT = ONGUSDT(*ONGUSDT._fields)
-"""
-    name: ONGUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTBNB(Symbol):
@@ -74764,17 +59039,6 @@ class ONTBNB(Symbol):
 
 
 ONTBNB = ONTBNB(*ONTBNB._fields)
-"""
-    name: ONTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTBTC(Symbol):
@@ -74816,17 +59080,6 @@ class ONTBTC(Symbol):
 
 
 ONTBTC = ONTBTC(*ONTBTC._fields)
-"""
-    name: ONTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONTBUSD(Symbol):
@@ -74868,17 +59121,6 @@ class ONTBUSD(Symbol):
 
 
 ONTBUSD = ONTBUSD(*ONTBUSD._fields)
-"""
-    name: ONTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ONTETH(Symbol):
@@ -74920,17 +59162,6 @@ class ONTETH(Symbol):
 
 
 ONTETH = ONTETH(*ONTETH._fields)
-"""
-    name: ONTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTPAX(Symbol):
@@ -74972,17 +59203,6 @@ class ONTPAX(Symbol):
 
 
 ONTPAX = ONTPAX(*ONTPAX._fields)
-"""
-    name: ONTPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTTRY(Symbol):
@@ -75024,17 +59244,6 @@ class ONTTRY(Symbol):
 
 
 ONTTRY = ONTTRY(*ONTTRY._fields)
-"""
-    name: ONTTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTUSDC(Symbol):
@@ -75076,17 +59285,6 @@ class ONTUSDC(Symbol):
 
 
 ONTUSDC = ONTUSDC(*ONTUSDC._fields)
-"""
-    name: ONTUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ONTUSDT(Symbol):
@@ -75128,17 +59326,6 @@ class ONTUSDT(Symbol):
 
 
 ONTUSDT = ONTUSDT(*ONTUSDT._fields)
-"""
-    name: ONTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OOKIBNB(Symbol):
@@ -75180,17 +59367,6 @@ class OOKIBNB(Symbol):
 
 
 OOKIBNB = OOKIBNB(*OOKIBNB._fields)
-"""
-    name: OOKIBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OOKIBUSD(Symbol):
@@ -75232,17 +59408,6 @@ class OOKIBUSD(Symbol):
 
 
 OOKIBUSD = OOKIBUSD(*OOKIBUSD._fields)
-"""
-    name: OOKIBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OOKIETH(Symbol):
@@ -75284,17 +59449,6 @@ class OOKIETH(Symbol):
 
 
 OOKIETH = OOKIETH(*OOKIETH._fields)
-"""
-    name: OOKIETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OOKIUSDT(Symbol):
@@ -75336,17 +59490,6 @@ class OOKIUSDT(Symbol):
 
 
 OOKIUSDT = OOKIUSDT(*OOKIUSDT._fields)
-"""
-    name: OOKIUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPBNB(Symbol):
@@ -75388,17 +59531,6 @@ class OPBNB(Symbol):
 
 
 OPBNB = OPBNB(*OPBNB._fields)
-"""
-    name: OPBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPBTC(Symbol):
@@ -75440,17 +59572,6 @@ class OPBTC(Symbol):
 
 
 OPBTC = OPBTC(*OPBTC._fields)
-"""
-    name: OPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPBUSD(Symbol):
@@ -75492,17 +59613,6 @@ class OPBUSD(Symbol):
 
 
 OPBUSD = OPBUSD(*OPBUSD._fields)
-"""
-    name: OPBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OPETH(Symbol):
@@ -75544,17 +59654,6 @@ class OPETH(Symbol):
 
 
 OPETH = OPETH(*OPETH._fields)
-"""
-    name: OPETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPEUR(Symbol):
@@ -75596,17 +59695,6 @@ class OPEUR(Symbol):
 
 
 OPEUR = OPEUR(*OPEUR._fields)
-"""
-    name: OPEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPTUSD(Symbol):
@@ -75648,17 +59736,6 @@ class OPTUSD(Symbol):
 
 
 OPTUSD = OPTUSD(*OPTUSD._fields)
-"""
-    name: OPTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OPUSDT(Symbol):
@@ -75700,17 +59777,6 @@ class OPUSDT(Symbol):
 
 
 OPUSDT = OPUSDT(*OPUSDT._fields)
-"""
-    name: OPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ORNBTC(Symbol):
@@ -75752,17 +59818,6 @@ class ORNBTC(Symbol):
 
 
 ORNBTC = ORNBTC(*ORNBTC._fields)
-"""
-    name: ORNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ORNBUSD(Symbol):
@@ -75804,17 +59859,6 @@ class ORNBUSD(Symbol):
 
 
 ORNBUSD = ORNBUSD(*ORNBUSD._fields)
-"""
-    name: ORNBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ORNUSDT(Symbol):
@@ -75856,17 +59900,6 @@ class ORNUSDT(Symbol):
 
 
 ORNUSDT = ORNUSDT(*ORNUSDT._fields)
-"""
-    name: ORNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OSMOBTC(Symbol):
@@ -75908,17 +59941,6 @@ class OSMOBTC(Symbol):
 
 
 OSMOBTC = OSMOBTC(*OSMOBTC._fields)
-"""
-    name: OSMOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OSMOBUSD(Symbol):
@@ -75960,17 +59982,6 @@ class OSMOBUSD(Symbol):
 
 
 OSMOBUSD = OSMOBUSD(*OSMOBUSD._fields)
-"""
-    name: OSMOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OSMOUSDT(Symbol):
@@ -76012,17 +60023,6 @@ class OSMOUSDT(Symbol):
 
 
 OSMOUSDT = OSMOUSDT(*OSMOUSDT._fields)
-"""
-    name: OSMOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OSTBNB(Symbol):
@@ -76064,17 +60064,6 @@ class OSTBNB(Symbol):
 
 
 OSTBNB = OSTBNB(*OSTBNB._fields)
-"""
-    name: OSTBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OSTBTC(Symbol):
@@ -76116,17 +60105,6 @@ class OSTBTC(Symbol):
 
 
 OSTBTC = OSTBTC(*OSTBTC._fields)
-"""
-    name: OSTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OSTETH(Symbol):
@@ -76168,17 +60146,6 @@ class OSTETH(Symbol):
 
 
 OSTETH = OSTETH(*OSTETH._fields)
-"""
-    name: OSTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OXTBTC(Symbol):
@@ -76220,17 +60187,6 @@ class OXTBTC(Symbol):
 
 
 OXTBTC = OXTBTC(*OXTBTC._fields)
-"""
-    name: OXTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class OXTBUSD(Symbol):
@@ -76272,17 +60228,6 @@ class OXTBUSD(Symbol):
 
 
 OXTBUSD = OXTBUSD(*OXTBUSD._fields)
-"""
-    name: OXTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class OXTUSDT(Symbol):
@@ -76324,17 +60269,6 @@ class OXTUSDT(Symbol):
 
 
 OXTUSDT = OXTUSDT(*OXTUSDT._fields)
-"""
-    name: OXTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PAXBNB(Symbol):
@@ -76376,17 +60310,6 @@ class PAXBNB(Symbol):
 
 
 PAXBNB = PAXBNB(*PAXBNB._fields)
-"""
-    name: PAXBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXBTC(Symbol):
@@ -76428,17 +60351,6 @@ class PAXBTC(Symbol):
 
 
 PAXBTC = PAXBTC(*PAXBTC._fields)
-"""
-    name: PAXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXBUSD(Symbol):
@@ -76480,17 +60392,6 @@ class PAXBUSD(Symbol):
 
 
 PAXBUSD = PAXBUSD(*PAXBUSD._fields)
-"""
-    name: PAXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXETH(Symbol):
@@ -76532,17 +60433,6 @@ class PAXETH(Symbol):
 
 
 PAXETH = PAXETH(*PAXETH._fields)
-"""
-    name: PAXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXGBNB(Symbol):
@@ -76584,17 +60474,6 @@ class PAXGBNB(Symbol):
 
 
 PAXGBNB = PAXGBNB(*PAXGBNB._fields)
-"""
-    name: PAXGBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXGBTC(Symbol):
@@ -76636,17 +60515,6 @@ class PAXGBTC(Symbol):
 
 
 PAXGBTC = PAXGBTC(*PAXGBTC._fields)
-"""
-    name: PAXGBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXGBUSD(Symbol):
@@ -76688,17 +60556,6 @@ class PAXGBUSD(Symbol):
 
 
 PAXGBUSD = PAXGBUSD(*PAXGBUSD._fields)
-"""
-    name: PAXGBUSD
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PAXGUSDT(Symbol):
@@ -76740,17 +60597,6 @@ class PAXGUSDT(Symbol):
 
 
 PAXGUSDT = PAXGUSDT(*PAXGUSDT._fields)
-"""
-    name: PAXGUSDT
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PAXTUSD(Symbol):
@@ -76792,17 +60638,6 @@ class PAXTUSD(Symbol):
 
 
 PAXTUSD = PAXTUSD(*PAXTUSD._fields)
-"""
-    name: PAXTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PAXUSDT(Symbol):
@@ -76844,17 +60679,6 @@ class PAXUSDT(Symbol):
 
 
 PAXUSDT = PAXUSDT(*PAXUSDT._fields)
-"""
-    name: PAXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PEOPLEBNB(Symbol):
@@ -76896,17 +60720,6 @@ class PEOPLEBNB(Symbol):
 
 
 PEOPLEBNB = PEOPLEBNB(*PEOPLEBNB._fields)
-"""
-    name: PEOPLEBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PEOPLEBTC(Symbol):
@@ -76948,17 +60761,6 @@ class PEOPLEBTC(Symbol):
 
 
 PEOPLEBTC = PEOPLEBTC(*PEOPLEBTC._fields)
-"""
-    name: PEOPLEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PEOPLEBUSD(Symbol):
@@ -77000,17 +60802,6 @@ class PEOPLEBUSD(Symbol):
 
 
 PEOPLEBUSD = PEOPLEBUSD(*PEOPLEBUSD._fields)
-"""
-    name: PEOPLEBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PEOPLEETH(Symbol):
@@ -77052,17 +60843,6 @@ class PEOPLEETH(Symbol):
 
 
 PEOPLEETH = PEOPLEETH(*PEOPLEETH._fields)
-"""
-    name: PEOPLEETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PEOPLEUSDT(Symbol):
@@ -77104,17 +60884,88 @@ class PEOPLEUSDT(Symbol):
 
 
 PEOPLEUSDT = PEOPLEUSDT(*PEOPLEUSDT._fields)
-"""
-    name: PEOPLEUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
+
+
+class PEPETUSD(Symbol):
+    """
+        name: PEPETUSD
+        significant_digits: None
+        tick_size: 0.00000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 10.00000000
+        max_order_size: 9000000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "PEPETUSD"
+    significant_digits: int = None
+    tick_size: int = 0.00000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 10.00000000
+    max_order_size: float = 9000000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PEPETUSD"
+
+    def __str__(self):
+        return "PEPETUSD"
+
+    def __call__(self):
+        return "PEPETUSD"
+
+
+PEPETUSD = PEPETUSD(*PEPETUSD._fields)
+
+
+class PEPEUSDT(Symbol):
+    """
+        name: PEPEUSDT
+        significant_digits: None
+        tick_size: 0.00000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 10.00000000
+        max_order_size: 9000000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "PEPEUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.00000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 10.00000000
+    max_order_size: float = 9000000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PEPEUSDT"
+
+    def __str__(self):
+        return "PEPEUSDT"
+
+    def __call__(self):
+        return "PEPEUSDT"
+
+
+PEPEUSDT = PEPEUSDT(*PEPEUSDT._fields)
 
 
 class PERLBNB(Symbol):
@@ -77156,17 +61007,6 @@ class PERLBNB(Symbol):
 
 
 PERLBNB = PERLBNB(*PERLBNB._fields)
-"""
-    name: PERLBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERLBTC(Symbol):
@@ -77208,17 +61048,6 @@ class PERLBTC(Symbol):
 
 
 PERLBTC = PERLBTC(*PERLBTC._fields)
-"""
-    name: PERLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERLUSDC(Symbol):
@@ -77260,17 +61089,6 @@ class PERLUSDC(Symbol):
 
 
 PERLUSDC = PERLUSDC(*PERLUSDC._fields)
-"""
-    name: PERLUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERLUSDT(Symbol):
@@ -77312,17 +61130,6 @@ class PERLUSDT(Symbol):
 
 
 PERLUSDT = PERLUSDT(*PERLUSDT._fields)
-"""
-    name: PERLUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERPBTC(Symbol):
@@ -77364,17 +61171,6 @@ class PERPBTC(Symbol):
 
 
 PERPBTC = PERPBTC(*PERPBTC._fields)
-"""
-    name: PERPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERPBUSD(Symbol):
@@ -77416,17 +61212,6 @@ class PERPBUSD(Symbol):
 
 
 PERPBUSD = PERPBUSD(*PERPBUSD._fields)
-"""
-    name: PERPBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PERPUSDT(Symbol):
@@ -77468,17 +61253,6 @@ class PERPUSDT(Symbol):
 
 
 PERPUSDT = PERPUSDT(*PERPUSDT._fields)
-"""
-    name: PERPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PHABTC(Symbol):
@@ -77520,17 +61294,6 @@ class PHABTC(Symbol):
 
 
 PHABTC = PHABTC(*PHABTC._fields)
-"""
-    name: PHABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHABUSD(Symbol):
@@ -77572,17 +61335,6 @@ class PHABUSD(Symbol):
 
 
 PHABUSD = PHABUSD(*PHABUSD._fields)
-"""
-    name: PHABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PHAUSDT(Symbol):
@@ -77624,17 +61376,6 @@ class PHAUSDT(Symbol):
 
 
 PHAUSDT = PHAUSDT(*PHAUSDT._fields)
-"""
-    name: PHAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PHBBNB(Symbol):
@@ -77676,17 +61417,6 @@ class PHBBNB(Symbol):
 
 
 PHBBNB = PHBBNB(*PHBBNB._fields)
-"""
-    name: PHBBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHBBTC(Symbol):
@@ -77728,17 +61458,6 @@ class PHBBTC(Symbol):
 
 
 PHBBTC = PHBBTC(*PHBBTC._fields)
-"""
-    name: PHBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHBBUSD(Symbol):
@@ -77780,17 +61499,6 @@ class PHBBUSD(Symbol):
 
 
 PHBBUSD = PHBBUSD(*PHBBUSD._fields)
-"""
-    name: PHBBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PHBPAX(Symbol):
@@ -77832,17 +61540,6 @@ class PHBPAX(Symbol):
 
 
 PHBPAX = PHBPAX(*PHBPAX._fields)
-"""
-    name: PHBPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHBTUSD(Symbol):
@@ -77884,17 +61581,6 @@ class PHBTUSD(Symbol):
 
 
 PHBTUSD = PHBTUSD(*PHBTUSD._fields)
-"""
-    name: PHBTUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHBUSDC(Symbol):
@@ -77936,17 +61622,6 @@ class PHBUSDC(Symbol):
 
 
 PHBUSDC = PHBUSDC(*PHBUSDC._fields)
-"""
-    name: PHBUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHBUSDT(Symbol):
@@ -77988,17 +61663,6 @@ class PHBUSDT(Symbol):
 
 
 PHBUSDT = PHBUSDT(*PHBUSDT._fields)
-"""
-    name: PHBUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PHXBNB(Symbol):
@@ -78040,17 +61704,6 @@ class PHXBNB(Symbol):
 
 
 PHXBNB = PHXBNB(*PHXBNB._fields)
-"""
-    name: PHXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHXBTC(Symbol):
@@ -78092,17 +61745,6 @@ class PHXBTC(Symbol):
 
 
 PHXBTC = PHXBTC(*PHXBTC._fields)
-"""
-    name: PHXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PHXETH(Symbol):
@@ -78144,17 +61786,6 @@ class PHXETH(Symbol):
 
 
 PHXETH = PHXETH(*PHXETH._fields)
-"""
-    name: PHXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PIVXBNB(Symbol):
@@ -78196,17 +61827,6 @@ class PIVXBNB(Symbol):
 
 
 PIVXBNB = PIVXBNB(*PIVXBNB._fields)
-"""
-    name: PIVXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PIVXBTC(Symbol):
@@ -78248,17 +61868,6 @@ class PIVXBTC(Symbol):
 
 
 PIVXBTC = PIVXBTC(*PIVXBTC._fields)
-"""
-    name: PIVXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PLABNB(Symbol):
@@ -78300,17 +61909,6 @@ class PLABNB(Symbol):
 
 
 PLABNB = PLABNB(*PLABNB._fields)
-"""
-    name: PLABNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PLABTC(Symbol):
@@ -78352,17 +61950,6 @@ class PLABTC(Symbol):
 
 
 PLABTC = PLABTC(*PLABTC._fields)
-"""
-    name: PLABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PLABUSD(Symbol):
@@ -78404,17 +61991,6 @@ class PLABUSD(Symbol):
 
 
 PLABUSD = PLABUSD(*PLABUSD._fields)
-"""
-    name: PLABUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PLAUSDT(Symbol):
@@ -78456,17 +62032,6 @@ class PLAUSDT(Symbol):
 
 
 PLAUSDT = PLAUSDT(*PLAUSDT._fields)
-"""
-    name: PLAUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PNTBTC(Symbol):
@@ -78508,17 +62073,6 @@ class PNTBTC(Symbol):
 
 
 PNTBTC = PNTBTC(*PNTBTC._fields)
-"""
-    name: PNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PNTUSDT(Symbol):
@@ -78560,17 +62114,6 @@ class PNTUSDT(Symbol):
 
 
 PNTUSDT = PNTUSDT(*PNTUSDT._fields)
-"""
-    name: PNTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POABNB(Symbol):
@@ -78612,17 +62155,6 @@ class POABNB(Symbol):
 
 
 POABNB = POABNB(*POABNB._fields)
-"""
-    name: POABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POABTC(Symbol):
@@ -78664,17 +62196,6 @@ class POABTC(Symbol):
 
 
 POABTC = POABTC(*POABTC._fields)
-"""
-    name: POABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POAETH(Symbol):
@@ -78716,17 +62237,6 @@ class POAETH(Symbol):
 
 
 POAETH = POAETH(*POAETH._fields)
-"""
-    name: POAETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POEBTC(Symbol):
@@ -78768,17 +62278,6 @@ class POEBTC(Symbol):
 
 
 POEBTC = POEBTC(*POEBTC._fields)
-"""
-    name: POEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POEETH(Symbol):
@@ -78820,17 +62319,6 @@ class POEETH(Symbol):
 
 
 POEETH = POEETH(*POEETH._fields)
-"""
-    name: POEETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLSBNB(Symbol):
@@ -78872,17 +62360,6 @@ class POLSBNB(Symbol):
 
 
 POLSBNB = POLSBNB(*POLSBNB._fields)
-"""
-    name: POLSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLSBTC(Symbol):
@@ -78924,17 +62401,6 @@ class POLSBTC(Symbol):
 
 
 POLSBTC = POLSBTC(*POLSBTC._fields)
-"""
-    name: POLSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLSBUSD(Symbol):
@@ -78976,17 +62442,6 @@ class POLSBUSD(Symbol):
 
 
 POLSBUSD = POLSBUSD(*POLSBUSD._fields)
-"""
-    name: POLSBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLSUSDT(Symbol):
@@ -79028,17 +62483,6 @@ class POLSUSDT(Symbol):
 
 
 POLSUSDT = POLSUSDT(*POLSUSDT._fields)
-"""
-    name: POLSUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYBNB(Symbol):
@@ -79080,17 +62524,6 @@ class POLYBNB(Symbol):
 
 
 POLYBNB = POLYBNB(*POLYBNB._fields)
-"""
-    name: POLYBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYBTC(Symbol):
@@ -79132,17 +62565,6 @@ class POLYBTC(Symbol):
 
 
 POLYBTC = POLYBTC(*POLYBTC._fields)
-"""
-    name: POLYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYBUSD(Symbol):
@@ -79184,17 +62606,6 @@ class POLYBUSD(Symbol):
 
 
 POLYBUSD = POLYBUSD(*POLYBUSD._fields)
-"""
-    name: POLYBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYUSDT(Symbol):
@@ -79236,17 +62647,6 @@ class POLYUSDT(Symbol):
 
 
 POLYUSDT = POLYUSDT(*POLYUSDT._fields)
-"""
-    name: POLYUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYXBTC(Symbol):
@@ -79288,17 +62688,6 @@ class POLYXBTC(Symbol):
 
 
 POLYXBTC = POLYXBTC(*POLYXBTC._fields)
-"""
-    name: POLYXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POLYXBUSD(Symbol):
@@ -79340,17 +62729,6 @@ class POLYXBUSD(Symbol):
 
 
 POLYXBUSD = POLYXBUSD(*POLYXBUSD._fields)
-"""
-    name: POLYXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class POLYXUSDT(Symbol):
@@ -79392,17 +62770,6 @@ class POLYXUSDT(Symbol):
 
 
 POLYXUSDT = POLYXUSDT(*POLYXUSDT._fields)
-"""
-    name: POLYXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PONDBTC(Symbol):
@@ -79444,17 +62811,6 @@ class PONDBTC(Symbol):
 
 
 PONDBTC = PONDBTC(*PONDBTC._fields)
-"""
-    name: PONDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PONDBUSD(Symbol):
@@ -79496,17 +62852,6 @@ class PONDBUSD(Symbol):
 
 
 PONDBUSD = PONDBUSD(*PONDBUSD._fields)
-"""
-    name: PONDBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PONDUSDT(Symbol):
@@ -79548,17 +62893,6 @@ class PONDUSDT(Symbol):
 
 
 PONDUSDT = PONDUSDT(*PONDUSDT._fields)
-"""
-    name: PONDUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PORTOBTC(Symbol):
@@ -79600,17 +62934,6 @@ class PORTOBTC(Symbol):
 
 
 PORTOBTC = PORTOBTC(*PORTOBTC._fields)
-"""
-    name: PORTOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PORTOBUSD(Symbol):
@@ -79652,17 +62975,6 @@ class PORTOBUSD(Symbol):
 
 
 PORTOBUSD = PORTOBUSD(*PORTOBUSD._fields)
-"""
-    name: PORTOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PORTOEUR(Symbol):
@@ -79704,17 +63016,6 @@ class PORTOEUR(Symbol):
 
 
 PORTOEUR = PORTOEUR(*PORTOEUR._fields)
-"""
-    name: PORTOEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PORTOTRY(Symbol):
@@ -79756,17 +63057,6 @@ class PORTOTRY(Symbol):
 
 
 PORTOTRY = PORTOTRY(*PORTOTRY._fields)
-"""
-    name: PORTOTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PORTOUSDT(Symbol):
@@ -79808,17 +63098,6 @@ class PORTOUSDT(Symbol):
 
 
 PORTOUSDT = PORTOUSDT(*PORTOUSDT._fields)
-"""
-    name: PORTOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class POWRBNB(Symbol):
@@ -79860,17 +63139,6 @@ class POWRBNB(Symbol):
 
 
 POWRBNB = POWRBNB(*POWRBNB._fields)
-"""
-    name: POWRBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POWRBTC(Symbol):
@@ -79912,17 +63180,6 @@ class POWRBTC(Symbol):
 
 
 POWRBTC = POWRBTC(*POWRBTC._fields)
-"""
-    name: POWRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POWRBUSD(Symbol):
@@ -79964,17 +63221,6 @@ class POWRBUSD(Symbol):
 
 
 POWRBUSD = POWRBUSD(*POWRBUSD._fields)
-"""
-    name: POWRBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POWRETH(Symbol):
@@ -80016,17 +63262,6 @@ class POWRETH(Symbol):
 
 
 POWRETH = POWRETH(*POWRETH._fields)
-"""
-    name: POWRETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class POWRUSDT(Symbol):
@@ -80068,17 +63303,6 @@ class POWRUSDT(Symbol):
 
 
 POWRUSDT = POWRUSDT(*POWRUSDT._fields)
-"""
-    name: POWRUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PPTBTC(Symbol):
@@ -80120,17 +63344,6 @@ class PPTBTC(Symbol):
 
 
 PPTBTC = PPTBTC(*PPTBTC._fields)
-"""
-    name: PPTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PPTETH(Symbol):
@@ -80172,17 +63385,6 @@ class PPTETH(Symbol):
 
 
 PPTETH = PPTETH(*PPTETH._fields)
-"""
-    name: PPTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROMBNB(Symbol):
@@ -80224,17 +63426,6 @@ class PROMBNB(Symbol):
 
 
 PROMBNB = PROMBNB(*PROMBNB._fields)
-"""
-    name: PROMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROMBTC(Symbol):
@@ -80276,17 +63467,6 @@ class PROMBTC(Symbol):
 
 
 PROMBTC = PROMBTC(*PROMBTC._fields)
-"""
-    name: PROMBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROMBUSD(Symbol):
@@ -80328,17 +63508,6 @@ class PROMBUSD(Symbol):
 
 
 PROMBUSD = PROMBUSD(*PROMBUSD._fields)
-"""
-    name: PROMBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROMUSDT(Symbol):
@@ -80380,17 +63549,6 @@ class PROMUSDT(Symbol):
 
 
 PROMUSDT = PROMUSDT(*PROMUSDT._fields)
-"""
-    name: PROMUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROSBUSD(Symbol):
@@ -80432,17 +63590,6 @@ class PROSBUSD(Symbol):
 
 
 PROSBUSD = PROSBUSD(*PROSBUSD._fields)
-"""
-    name: PROSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROSETH(Symbol):
@@ -80484,17 +63631,6 @@ class PROSETH(Symbol):
 
 
 PROSETH = PROSETH(*PROSETH._fields)
-"""
-    name: PROSETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PROSUSDT(Symbol):
@@ -80536,17 +63672,6 @@ class PROSUSDT(Symbol):
 
 
 PROSUSDT = PROSUSDT(*PROSUSDT._fields)
-"""
-    name: PROSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PSGBTC(Symbol):
@@ -80588,17 +63713,6 @@ class PSGBTC(Symbol):
 
 
 PSGBTC = PSGBTC(*PSGBTC._fields)
-"""
-    name: PSGBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PSGBUSD(Symbol):
@@ -80640,17 +63754,6 @@ class PSGBUSD(Symbol):
 
 
 PSGBUSD = PSGBUSD(*PSGBUSD._fields)
-"""
-    name: PSGBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PSGUSDT(Symbol):
@@ -80692,17 +63795,6 @@ class PSGUSDT(Symbol):
 
 
 PSGUSDT = PSGUSDT(*PSGUSDT._fields)
-"""
-    name: PSGUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PUNDIXBUSD(Symbol):
@@ -80744,17 +63836,6 @@ class PUNDIXBUSD(Symbol):
 
 
 PUNDIXBUSD = PUNDIXBUSD(*PUNDIXBUSD._fields)
-"""
-    name: PUNDIXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PUNDIXETH(Symbol):
@@ -80796,17 +63877,6 @@ class PUNDIXETH(Symbol):
 
 
 PUNDIXETH = PUNDIXETH(*PUNDIXETH._fields)
-"""
-    name: PUNDIXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class PUNDIXUSDT(Symbol):
@@ -80848,17 +63918,6 @@ class PUNDIXUSDT(Symbol):
 
 
 PUNDIXUSDT = PUNDIXUSDT(*PUNDIXUSDT._fields)
-"""
-    name: PUNDIXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PYRBTC(Symbol):
@@ -80900,17 +63959,6 @@ class PYRBTC(Symbol):
 
 
 PYRBTC = PYRBTC(*PYRBTC._fields)
-"""
-    name: PYRBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PYRBUSD(Symbol):
@@ -80952,17 +64000,6 @@ class PYRBUSD(Symbol):
 
 
 PYRBUSD = PYRBUSD(*PYRBUSD._fields)
-"""
-    name: PYRBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class PYRUSDT(Symbol):
@@ -81004,17 +64041,6 @@ class PYRUSDT(Symbol):
 
 
 PYRUSDT = PYRUSDT(*PYRUSDT._fields)
-"""
-    name: PYRUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QIBNB(Symbol):
@@ -81056,17 +64082,6 @@ class QIBNB(Symbol):
 
 
 QIBNB = QIBNB(*QIBNB._fields)
-"""
-    name: QIBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QIBTC(Symbol):
@@ -81108,17 +64123,6 @@ class QIBTC(Symbol):
 
 
 QIBTC = QIBTC(*QIBTC._fields)
-"""
-    name: QIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QIBUSD(Symbol):
@@ -81160,17 +64164,6 @@ class QIBUSD(Symbol):
 
 
 QIBUSD = QIBUSD(*QIBUSD._fields)
-"""
-    name: QIBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QIUSDT(Symbol):
@@ -81212,17 +64205,6 @@ class QIUSDT(Symbol):
 
 
 QIUSDT = QIUSDT(*QIUSDT._fields)
-"""
-    name: QIUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QKCBTC(Symbol):
@@ -81264,17 +64246,6 @@ class QKCBTC(Symbol):
 
 
 QKCBTC = QKCBTC(*QKCBTC._fields)
-"""
-    name: QKCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QKCBUSD(Symbol):
@@ -81316,17 +64287,6 @@ class QKCBUSD(Symbol):
 
 
 QKCBUSD = QKCBUSD(*QKCBUSD._fields)
-"""
-    name: QKCBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QKCETH(Symbol):
@@ -81368,17 +64328,6 @@ class QKCETH(Symbol):
 
 
 QKCETH = QKCETH(*QKCETH._fields)
-"""
-    name: QKCETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QKCUSDT(Symbol):
@@ -81420,17 +64369,6 @@ class QKCUSDT(Symbol):
 
 
 QKCUSDT = QKCUSDT(*QKCUSDT._fields)
-"""
-    name: QKCUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QLCBNB(Symbol):
@@ -81472,17 +64410,6 @@ class QLCBNB(Symbol):
 
 
 QLCBNB = QLCBNB(*QLCBNB._fields)
-"""
-    name: QLCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QLCBTC(Symbol):
@@ -81524,17 +64451,6 @@ class QLCBTC(Symbol):
 
 
 QLCBTC = QLCBTC(*QLCBTC._fields)
-"""
-    name: QLCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QLCETH(Symbol):
@@ -81576,17 +64492,6 @@ class QLCETH(Symbol):
 
 
 QLCETH = QLCETH(*QLCETH._fields)
-"""
-    name: QLCETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QNTBNB(Symbol):
@@ -81628,17 +64533,6 @@ class QNTBNB(Symbol):
 
 
 QNTBNB = QNTBNB(*QNTBNB._fields)
-"""
-    name: QNTBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QNTBTC(Symbol):
@@ -81680,17 +64574,6 @@ class QNTBTC(Symbol):
 
 
 QNTBTC = QNTBTC(*QNTBTC._fields)
-"""
-    name: QNTBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QNTBUSD(Symbol):
@@ -81732,17 +64615,6 @@ class QNTBUSD(Symbol):
 
 
 QNTBUSD = QNTBUSD(*QNTBUSD._fields)
-"""
-    name: QNTBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QNTUSDT(Symbol):
@@ -81784,17 +64656,6 @@ class QNTUSDT(Symbol):
 
 
 QNTUSDT = QNTUSDT(*QNTUSDT._fields)
-"""
-    name: QNTUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QSPBNB(Symbol):
@@ -81836,17 +64697,6 @@ class QSPBNB(Symbol):
 
 
 QSPBNB = QSPBNB(*QSPBNB._fields)
-"""
-    name: QSPBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QSPBTC(Symbol):
@@ -81888,17 +64738,6 @@ class QSPBTC(Symbol):
 
 
 QSPBTC = QSPBTC(*QSPBTC._fields)
-"""
-    name: QSPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QSPETH(Symbol):
@@ -81940,17 +64779,6 @@ class QSPETH(Symbol):
 
 
 QSPETH = QSPETH(*QSPETH._fields)
-"""
-    name: QSPETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QTUMBNB(Symbol):
@@ -81992,17 +64820,6 @@ class QTUMBNB(Symbol):
 
 
 QTUMBNB = QTUMBNB(*QTUMBNB._fields)
-"""
-    name: QTUMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QTUMBTC(Symbol):
@@ -82044,17 +64861,6 @@ class QTUMBTC(Symbol):
 
 
 QTUMBTC = QTUMBTC(*QTUMBTC._fields)
-"""
-    name: QTUMBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QTUMBUSD(Symbol):
@@ -82096,17 +64902,6 @@ class QTUMBUSD(Symbol):
 
 
 QTUMBUSD = QTUMBUSD(*QTUMBUSD._fields)
-"""
-    name: QTUMBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QTUMETH(Symbol):
@@ -82148,17 +64943,6 @@ class QTUMETH(Symbol):
 
 
 QTUMETH = QTUMETH(*QTUMETH._fields)
-"""
-    name: QTUMETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QTUMUSDT(Symbol):
@@ -82200,17 +64984,6 @@ class QTUMUSDT(Symbol):
 
 
 QTUMUSDT = QTUMUSDT(*QTUMUSDT._fields)
-"""
-    name: QTUMUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class QUICKBNB(Symbol):
@@ -82252,17 +65025,6 @@ class QUICKBNB(Symbol):
 
 
 QUICKBNB = QUICKBNB(*QUICKBNB._fields)
-"""
-    name: QUICKBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QUICKBTC(Symbol):
@@ -82304,17 +65066,6 @@ class QUICKBTC(Symbol):
 
 
 QUICKBTC = QUICKBTC(*QUICKBTC._fields)
-"""
-    name: QUICKBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QUICKBUSD(Symbol):
@@ -82356,17 +65107,6 @@ class QUICKBUSD(Symbol):
 
 
 QUICKBUSD = QUICKBUSD(*QUICKBUSD._fields)
-"""
-    name: QUICKBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class QUICKUSDT(Symbol):
@@ -82408,17 +65148,6 @@ class QUICKUSDT(Symbol):
 
 
 QUICKUSDT = QUICKUSDT(*QUICKUSDT._fields)
-"""
-    name: QUICKUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RADBNB(Symbol):
@@ -82460,17 +65189,6 @@ class RADBNB(Symbol):
 
 
 RADBNB = RADBNB(*RADBNB._fields)
-"""
-    name: RADBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RADBTC(Symbol):
@@ -82512,17 +65230,6 @@ class RADBTC(Symbol):
 
 
 RADBTC = RADBTC(*RADBTC._fields)
-"""
-    name: RADBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RADBUSD(Symbol):
@@ -82564,17 +65271,6 @@ class RADBUSD(Symbol):
 
 
 RADBUSD = RADBUSD(*RADBUSD._fields)
-"""
-    name: RADBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RADUSDT(Symbol):
@@ -82616,17 +65312,6 @@ class RADUSDT(Symbol):
 
 
 RADUSDT = RADUSDT(*RADUSDT._fields)
-"""
-    name: RADUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RAMPBTC(Symbol):
@@ -82668,17 +65353,6 @@ class RAMPBTC(Symbol):
 
 
 RAMPBTC = RAMPBTC(*RAMPBTC._fields)
-"""
-    name: RAMPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAMPBUSD(Symbol):
@@ -82720,17 +65394,6 @@ class RAMPBUSD(Symbol):
 
 
 RAMPBUSD = RAMPBUSD(*RAMPBUSD._fields)
-"""
-    name: RAMPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAMPUSDT(Symbol):
@@ -82772,17 +65435,6 @@ class RAMPUSDT(Symbol):
 
 
 RAMPUSDT = RAMPUSDT(*RAMPUSDT._fields)
-"""
-    name: RAMPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAREBNB(Symbol):
@@ -82824,17 +65476,6 @@ class RAREBNB(Symbol):
 
 
 RAREBNB = RAREBNB(*RAREBNB._fields)
-"""
-    name: RAREBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAREBTC(Symbol):
@@ -82876,17 +65517,6 @@ class RAREBTC(Symbol):
 
 
 RAREBTC = RAREBTC(*RAREBTC._fields)
-"""
-    name: RAREBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAREBUSD(Symbol):
@@ -82928,17 +65558,6 @@ class RAREBUSD(Symbol):
 
 
 RAREBUSD = RAREBUSD(*RAREBUSD._fields)
-"""
-    name: RAREBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAREUSDT(Symbol):
@@ -82980,17 +65599,6 @@ class RAREUSDT(Symbol):
 
 
 RAREUSDT = RAREUSDT(*RAREUSDT._fields)
-"""
-    name: RAREUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAYBNB(Symbol):
@@ -83032,17 +65640,6 @@ class RAYBNB(Symbol):
 
 
 RAYBNB = RAYBNB(*RAYBNB._fields)
-"""
-    name: RAYBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAYBUSD(Symbol):
@@ -83084,17 +65681,6 @@ class RAYBUSD(Symbol):
 
 
 RAYBUSD = RAYBUSD(*RAYBUSD._fields)
-"""
-    name: RAYBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RAYUSDT(Symbol):
@@ -83136,17 +65722,6 @@ class RAYUSDT(Symbol):
 
 
 RAYUSDT = RAYUSDT(*RAYUSDT._fields)
-"""
-    name: RAYUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RCNBNB(Symbol):
@@ -83188,17 +65763,6 @@ class RCNBNB(Symbol):
 
 
 RCNBNB = RCNBNB(*RCNBNB._fields)
-"""
-    name: RCNBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RCNBTC(Symbol):
@@ -83240,17 +65804,6 @@ class RCNBTC(Symbol):
 
 
 RCNBTC = RCNBTC(*RCNBTC._fields)
-"""
-    name: RCNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RCNETH(Symbol):
@@ -83292,17 +65845,6 @@ class RCNETH(Symbol):
 
 
 RCNETH = RCNETH(*RCNETH._fields)
-"""
-    name: RCNETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNBNB(Symbol):
@@ -83344,17 +65886,6 @@ class RDNBNB(Symbol):
 
 
 RDNBNB = RDNBNB(*RDNBNB._fields)
-"""
-    name: RDNBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNBTC(Symbol):
@@ -83396,17 +65927,6 @@ class RDNBTC(Symbol):
 
 
 RDNBTC = RDNBTC(*RDNBTC._fields)
-"""
-    name: RDNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNETH(Symbol):
@@ -83448,17 +65968,6 @@ class RDNETH(Symbol):
 
 
 RDNETH = RDNETH(*RDNETH._fields)
-"""
-    name: RDNETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNTBTC(Symbol):
@@ -83500,17 +66009,6 @@ class RDNTBTC(Symbol):
 
 
 RDNTBTC = RDNTBTC(*RDNTBTC._fields)
-"""
-    name: RDNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNTTUSD(Symbol):
@@ -83552,17 +66050,6 @@ class RDNTTUSD(Symbol):
 
 
 RDNTTUSD = RDNTTUSD(*RDNTTUSD._fields)
-"""
-    name: RDNTTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RDNTUSDT(Symbol):
@@ -83604,17 +66091,6 @@ class RDNTUSDT(Symbol):
 
 
 RDNTUSDT = RDNTUSDT(*RDNTUSDT._fields)
-"""
-    name: RDNTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class REEFBIDR(Symbol):
@@ -83656,17 +66132,6 @@ class REEFBIDR(Symbol):
 
 
 REEFBIDR = REEFBIDR(*REEFBIDR._fields)
-"""
-    name: REEFBIDR
-    significant_digits: None
-    tick_size: 0.10
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REEFBTC(Symbol):
@@ -83708,17 +66173,6 @@ class REEFBTC(Symbol):
 
 
 REEFBTC = REEFBTC(*REEFBTC._fields)
-"""
-    name: REEFBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REEFBUSD(Symbol):
@@ -83760,17 +66214,6 @@ class REEFBUSD(Symbol):
 
 
 REEFBUSD = REEFBUSD(*REEFBUSD._fields)
-"""
-    name: REEFBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class REEFTRY(Symbol):
@@ -83812,17 +66255,6 @@ class REEFTRY(Symbol):
 
 
 REEFTRY = REEFTRY(*REEFTRY._fields)
-"""
-    name: REEFTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REEFUSDT(Symbol):
@@ -83864,17 +66296,6 @@ class REEFUSDT(Symbol):
 
 
 REEFUSDT = REEFUSDT(*REEFUSDT._fields)
-"""
-    name: REEFUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class REIBNB(Symbol):
@@ -83916,17 +66337,6 @@ class REIBNB(Symbol):
 
 
 REIBNB = REIBNB(*REIBNB._fields)
-"""
-    name: REIBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REIBUSD(Symbol):
@@ -83968,17 +66378,6 @@ class REIBUSD(Symbol):
 
 
 REIBUSD = REIBUSD(*REIBUSD._fields)
-"""
-    name: REIBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class REIETH(Symbol):
@@ -84020,17 +66419,6 @@ class REIETH(Symbol):
 
 
 REIETH = REIETH(*REIETH._fields)
-"""
-    name: REIETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REIUSDT(Symbol):
@@ -84072,17 +66460,6 @@ class REIUSDT(Symbol):
 
 
 REIUSDT = REIUSDT(*REIUSDT._fields)
-"""
-    name: REIUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RENBNB(Symbol):
@@ -84124,17 +66501,6 @@ class RENBNB(Symbol):
 
 
 RENBNB = RENBNB(*RENBNB._fields)
-"""
-    name: RENBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RENBTC(Symbol):
@@ -84176,17 +66542,6 @@ class RENBTC(Symbol):
 
 
 RENBTC = RENBTC(*RENBTC._fields)
-"""
-    name: RENBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RENBTCBTC(Symbol):
@@ -84228,17 +66583,6 @@ class RENBTCBTC(Symbol):
 
 
 RENBTCBTC = RENBTCBTC(*RENBTCBTC._fields)
-"""
-    name: RENBTCBTC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RENBTCETH(Symbol):
@@ -84280,17 +66624,6 @@ class RENBTCETH(Symbol):
 
 
 RENBTCETH = RENBTCETH(*RENBTCETH._fields)
-"""
-    name: RENBTCETH
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RENBUSD(Symbol):
@@ -84332,17 +66665,6 @@ class RENBUSD(Symbol):
 
 
 RENBUSD = RENBUSD(*RENBUSD._fields)
-"""
-    name: RENBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RENUSDT(Symbol):
@@ -84384,17 +66706,6 @@ class RENUSDT(Symbol):
 
 
 RENUSDT = RENUSDT(*RENUSDT._fields)
-"""
-    name: RENUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REPBNB(Symbol):
@@ -84436,17 +66747,6 @@ class REPBNB(Symbol):
 
 
 REPBNB = REPBNB(*REPBNB._fields)
-"""
-    name: REPBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REPBTC(Symbol):
@@ -84488,17 +66788,6 @@ class REPBTC(Symbol):
 
 
 REPBTC = REPBTC(*REPBTC._fields)
-"""
-    name: REPBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REPBUSD(Symbol):
@@ -84540,17 +66829,6 @@ class REPBUSD(Symbol):
 
 
 REPBUSD = REPBUSD(*REPBUSD._fields)
-"""
-    name: REPBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REPUSDT(Symbol):
@@ -84592,17 +66870,6 @@ class REPUSDT(Symbol):
 
 
 REPUSDT = REPUSDT(*REPUSDT._fields)
-"""
-    name: REPUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REQBTC(Symbol):
@@ -84644,17 +66911,6 @@ class REQBTC(Symbol):
 
 
 REQBTC = REQBTC(*REQBTC._fields)
-"""
-    name: REQBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REQBUSD(Symbol):
@@ -84696,17 +66952,6 @@ class REQBUSD(Symbol):
 
 
 REQBUSD = REQBUSD(*REQBUSD._fields)
-"""
-    name: REQBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class REQETH(Symbol):
@@ -84748,17 +66993,6 @@ class REQETH(Symbol):
 
 
 REQETH = REQETH(*REQETH._fields)
-"""
-    name: REQETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class REQUSDT(Symbol):
@@ -84800,17 +67034,6 @@ class REQUSDT(Symbol):
 
 
 REQUSDT = REQUSDT(*REQUSDT._fields)
-"""
-    name: REQUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RGTBNB(Symbol):
@@ -84852,17 +67075,6 @@ class RGTBNB(Symbol):
 
 
 RGTBNB = RGTBNB(*RGTBNB._fields)
-"""
-    name: RGTBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RGTBTC(Symbol):
@@ -84904,17 +67116,6 @@ class RGTBTC(Symbol):
 
 
 RGTBTC = RGTBTC(*RGTBTC._fields)
-"""
-    name: RGTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RGTBUSD(Symbol):
@@ -84956,17 +67157,6 @@ class RGTBUSD(Symbol):
 
 
 RGTBUSD = RGTBUSD(*RGTBUSD._fields)
-"""
-    name: RGTBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RGTUSDT(Symbol):
@@ -85008,17 +67198,6 @@ class RGTUSDT(Symbol):
 
 
 RGTUSDT = RGTUSDT(*RGTUSDT._fields)
-"""
-    name: RGTUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RIFBTC(Symbol):
@@ -85060,17 +67239,6 @@ class RIFBTC(Symbol):
 
 
 RIFBTC = RIFBTC(*RIFBTC._fields)
-"""
-    name: RIFBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RIFUSDT(Symbol):
@@ -85112,17 +67280,6 @@ class RIFUSDT(Symbol):
 
 
 RIFUSDT = RIFUSDT(*RIFUSDT._fields)
-"""
-    name: RIFUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RLCBNB(Symbol):
@@ -85164,17 +67321,6 @@ class RLCBNB(Symbol):
 
 
 RLCBNB = RLCBNB(*RLCBNB._fields)
-"""
-    name: RLCBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RLCBTC(Symbol):
@@ -85216,17 +67362,6 @@ class RLCBTC(Symbol):
 
 
 RLCBTC = RLCBTC(*RLCBTC._fields)
-"""
-    name: RLCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RLCBUSD(Symbol):
@@ -85268,17 +67403,6 @@ class RLCBUSD(Symbol):
 
 
 RLCBUSD = RLCBUSD(*RLCBUSD._fields)
-"""
-    name: RLCBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RLCETH(Symbol):
@@ -85320,17 +67444,6 @@ class RLCETH(Symbol):
 
 
 RLCETH = RLCETH(*RLCETH._fields)
-"""
-    name: RLCETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RLCUSDT(Symbol):
@@ -85372,17 +67485,6 @@ class RLCUSDT(Symbol):
 
 
 RLCUSDT = RLCUSDT(*RLCUSDT._fields)
-"""
-    name: RLCUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RNDRBTC(Symbol):
@@ -85424,17 +67526,6 @@ class RNDRBTC(Symbol):
 
 
 RNDRBTC = RNDRBTC(*RNDRBTC._fields)
-"""
-    name: RNDRBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RNDRBUSD(Symbol):
@@ -85476,17 +67567,6 @@ class RNDRBUSD(Symbol):
 
 
 RNDRBUSD = RNDRBUSD(*RNDRBUSD._fields)
-"""
-    name: RNDRBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RNDRTRY(Symbol):
@@ -85528,17 +67608,6 @@ class RNDRTRY(Symbol):
 
 
 RNDRTRY = RNDRTRY(*RNDRTRY._fields)
-"""
-    name: RNDRTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RNDRUSDT(Symbol):
@@ -85580,17 +67649,6 @@ class RNDRUSDT(Symbol):
 
 
 RNDRUSDT = RNDRUSDT(*RNDRUSDT._fields)
-"""
-    name: RNDRUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ROSEBNB(Symbol):
@@ -85632,17 +67690,6 @@ class ROSEBNB(Symbol):
 
 
 ROSEBNB = ROSEBNB(*ROSEBNB._fields)
-"""
-    name: ROSEBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ROSEBTC(Symbol):
@@ -85684,17 +67731,6 @@ class ROSEBTC(Symbol):
 
 
 ROSEBTC = ROSEBTC(*ROSEBTC._fields)
-"""
-    name: ROSEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ROSEBUSD(Symbol):
@@ -85736,17 +67772,6 @@ class ROSEBUSD(Symbol):
 
 
 ROSEBUSD = ROSEBUSD(*ROSEBUSD._fields)
-"""
-    name: ROSEBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ROSEETH(Symbol):
@@ -85788,17 +67813,6 @@ class ROSEETH(Symbol):
 
 
 ROSEETH = ROSEETH(*ROSEETH._fields)
-"""
-    name: ROSEETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ROSETRY(Symbol):
@@ -85840,17 +67854,6 @@ class ROSETRY(Symbol):
 
 
 ROSETRY = ROSETRY(*ROSETRY._fields)
-"""
-    name: ROSETRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ROSEUSDT(Symbol):
@@ -85892,17 +67895,6 @@ class ROSEUSDT(Symbol):
 
 
 ROSEUSDT = ROSEUSDT(*ROSEUSDT._fields)
-"""
-    name: ROSEUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RPLBTC(Symbol):
@@ -85944,17 +67936,6 @@ class RPLBTC(Symbol):
 
 
 RPLBTC = RPLBTC(*RPLBTC._fields)
-"""
-    name: RPLBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RPLBUSD(Symbol):
@@ -85996,17 +67977,6 @@ class RPLBUSD(Symbol):
 
 
 RPLBUSD = RPLBUSD(*RPLBUSD._fields)
-"""
-    name: RPLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RPLUSDT(Symbol):
@@ -86048,17 +68018,6 @@ class RPLUSDT(Symbol):
 
 
 RPLUSDT = RPLUSDT(*RPLUSDT._fields)
-"""
-    name: RPLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RPXBNB(Symbol):
@@ -86100,17 +68059,6 @@ class RPXBNB(Symbol):
 
 
 RPXBNB = RPXBNB(*RPXBNB._fields)
-"""
-    name: RPXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RPXBTC(Symbol):
@@ -86152,17 +68100,6 @@ class RPXBTC(Symbol):
 
 
 RPXBTC = RPXBTC(*RPXBTC._fields)
-"""
-    name: RPXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RPXETH(Symbol):
@@ -86204,17 +68141,6 @@ class RPXETH(Symbol):
 
 
 RPXETH = RPXETH(*RPXETH._fields)
-"""
-    name: RPXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RSRBNB(Symbol):
@@ -86256,17 +68182,6 @@ class RSRBNB(Symbol):
 
 
 RSRBNB = RSRBNB(*RSRBNB._fields)
-"""
-    name: RSRBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RSRBTC(Symbol):
@@ -86308,17 +68223,6 @@ class RSRBTC(Symbol):
 
 
 RSRBTC = RSRBTC(*RSRBTC._fields)
-"""
-    name: RSRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RSRBUSD(Symbol):
@@ -86360,17 +68264,6 @@ class RSRBUSD(Symbol):
 
 
 RSRBUSD = RSRBUSD(*RSRBUSD._fields)
-"""
-    name: RSRBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RSRUSDT(Symbol):
@@ -86412,17 +68305,6 @@ class RSRUSDT(Symbol):
 
 
 RSRUSDT = RSRUSDT(*RSRUSDT._fields)
-"""
-    name: RSRUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RUNEAUD(Symbol):
@@ -86464,17 +68346,6 @@ class RUNEAUD(Symbol):
 
 
 RUNEAUD = RUNEAUD(*RUNEAUD._fields)
-"""
-    name: RUNEAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNEBNB(Symbol):
@@ -86516,17 +68387,6 @@ class RUNEBNB(Symbol):
 
 
 RUNEBNB = RUNEBNB(*RUNEBNB._fields)
-"""
-    name: RUNEBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNEBTC(Symbol):
@@ -86568,17 +68428,6 @@ class RUNEBTC(Symbol):
 
 
 RUNEBTC = RUNEBTC(*RUNEBTC._fields)
-"""
-    name: RUNEBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RUNEBUSD(Symbol):
@@ -86620,17 +68469,6 @@ class RUNEBUSD(Symbol):
 
 
 RUNEBUSD = RUNEBUSD(*RUNEBUSD._fields)
-"""
-    name: RUNEBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RUNEETH(Symbol):
@@ -86672,17 +68510,6 @@ class RUNEETH(Symbol):
 
 
 RUNEETH = RUNEETH(*RUNEETH._fields)
-"""
-    name: RUNEETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNEEUR(Symbol):
@@ -86724,17 +68551,6 @@ class RUNEEUR(Symbol):
 
 
 RUNEEUR = RUNEEUR(*RUNEEUR._fields)
-"""
-    name: RUNEEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNEGBP(Symbol):
@@ -86776,17 +68592,6 @@ class RUNEGBP(Symbol):
 
 
 RUNEGBP = RUNEGBP(*RUNEGBP._fields)
-"""
-    name: RUNEGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNETRY(Symbol):
@@ -86828,17 +68633,6 @@ class RUNETRY(Symbol):
 
 
 RUNETRY = RUNETRY(*RUNETRY._fields)
-"""
-    name: RUNETRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RUNEUSDT(Symbol):
@@ -86880,17 +68674,6 @@ class RUNEUSDT(Symbol):
 
 
 RUNEUSDT = RUNEUSDT(*RUNEUSDT._fields)
-"""
-    name: RUNEUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RVNBTC(Symbol):
@@ -86932,17 +68715,6 @@ class RVNBTC(Symbol):
 
 
 RVNBTC = RVNBTC(*RVNBTC._fields)
-"""
-    name: RVNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class RVNBUSD(Symbol):
@@ -86984,17 +68756,6 @@ class RVNBUSD(Symbol):
 
 
 RVNBUSD = RVNBUSD(*RVNBUSD._fields)
-"""
-    name: RVNBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RVNTRY(Symbol):
@@ -87036,17 +68797,6 @@ class RVNTRY(Symbol):
 
 
 RVNTRY = RVNTRY(*RVNTRY._fields)
-"""
-    name: RVNTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class RVNUSDT(Symbol):
@@ -87088,17 +68838,6 @@ class RVNUSDT(Symbol):
 
 
 RVNUSDT = RVNUSDT(*RVNUSDT._fields)
-"""
-    name: RVNUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SALTBTC(Symbol):
@@ -87140,17 +68879,6 @@ class SALTBTC(Symbol):
 
 
 SALTBTC = SALTBTC(*SALTBTC._fields)
-"""
-    name: SALTBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SALTETH(Symbol):
@@ -87192,17 +68920,6 @@ class SALTETH(Symbol):
 
 
 SALTETH = SALTETH(*SALTETH._fields)
-"""
-    name: SALTETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDAUD(Symbol):
@@ -87244,17 +68961,6 @@ class SANDAUD(Symbol):
 
 
 SANDAUD = SANDAUD(*SANDAUD._fields)
-"""
-    name: SANDAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDBIDR(Symbol):
@@ -87296,17 +69002,6 @@ class SANDBIDR(Symbol):
 
 
 SANDBIDR = SANDBIDR(*SANDBIDR._fields)
-"""
-    name: SANDBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDBNB(Symbol):
@@ -87348,17 +69043,6 @@ class SANDBNB(Symbol):
 
 
 SANDBNB = SANDBNB(*SANDBNB._fields)
-"""
-    name: SANDBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDBRL(Symbol):
@@ -87400,17 +69084,6 @@ class SANDBRL(Symbol):
 
 
 SANDBRL = SANDBRL(*SANDBRL._fields)
-"""
-    name: SANDBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDBTC(Symbol):
@@ -87452,17 +69125,6 @@ class SANDBTC(Symbol):
 
 
 SANDBTC = SANDBTC(*SANDBTC._fields)
-"""
-    name: SANDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SANDBUSD(Symbol):
@@ -87504,17 +69166,6 @@ class SANDBUSD(Symbol):
 
 
 SANDBUSD = SANDBUSD(*SANDBUSD._fields)
-"""
-    name: SANDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SANDETH(Symbol):
@@ -87556,17 +69207,6 @@ class SANDETH(Symbol):
 
 
 SANDETH = SANDETH(*SANDETH._fields)
-"""
-    name: SANDETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDTRY(Symbol):
@@ -87608,17 +69248,6 @@ class SANDTRY(Symbol):
 
 
 SANDTRY = SANDTRY(*SANDTRY._fields)
-"""
-    name: SANDTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANDUSDT(Symbol):
@@ -87660,17 +69289,6 @@ class SANDUSDT(Symbol):
 
 
 SANDUSDT = SANDUSDT(*SANDUSDT._fields)
-"""
-    name: SANDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SANTOSBRL(Symbol):
@@ -87712,17 +69330,6 @@ class SANTOSBRL(Symbol):
 
 
 SANTOSBRL = SANTOSBRL(*SANTOSBRL._fields)
-"""
-    name: SANTOSBRL
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANTOSBTC(Symbol):
@@ -87764,17 +69371,6 @@ class SANTOSBTC(Symbol):
 
 
 SANTOSBTC = SANTOSBTC(*SANTOSBTC._fields)
-"""
-    name: SANTOSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANTOSBUSD(Symbol):
@@ -87816,17 +69412,6 @@ class SANTOSBUSD(Symbol):
 
 
 SANTOSBUSD = SANTOSBUSD(*SANTOSBUSD._fields)
-"""
-    name: SANTOSBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SANTOSTRY(Symbol):
@@ -87868,17 +69453,6 @@ class SANTOSTRY(Symbol):
 
 
 SANTOSTRY = SANTOSTRY(*SANTOSTRY._fields)
-"""
-    name: SANTOSTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SANTOSUSDT(Symbol):
@@ -87920,17 +69494,6 @@ class SANTOSUSDT(Symbol):
 
 
 SANTOSUSDT = SANTOSUSDT(*SANTOSUSDT._fields)
-"""
-    name: SANTOSUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SCBTC(Symbol):
@@ -87972,17 +69535,6 @@ class SCBTC(Symbol):
 
 
 SCBTC = SCBTC(*SCBTC._fields)
-"""
-    name: SCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCBUSD(Symbol):
@@ -88024,17 +69576,6 @@ class SCBUSD(Symbol):
 
 
 SCBUSD = SCBUSD(*SCBUSD._fields)
-"""
-    name: SCBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SCETH(Symbol):
@@ -88076,17 +69617,6 @@ class SCETH(Symbol):
 
 
 SCETH = SCETH(*SCETH._fields)
-"""
-    name: SCETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCRTBTC(Symbol):
@@ -88128,17 +69658,6 @@ class SCRTBTC(Symbol):
 
 
 SCRTBTC = SCRTBTC(*SCRTBTC._fields)
-"""
-    name: SCRTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCRTBUSD(Symbol):
@@ -88180,17 +69699,6 @@ class SCRTBUSD(Symbol):
 
 
 SCRTBUSD = SCRTBUSD(*SCRTBUSD._fields)
-"""
-    name: SCRTBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCRTETH(Symbol):
@@ -88232,17 +69740,6 @@ class SCRTETH(Symbol):
 
 
 SCRTETH = SCRTETH(*SCRTETH._fields)
-"""
-    name: SCRTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCRTUSDT(Symbol):
@@ -88284,17 +69781,6 @@ class SCRTUSDT(Symbol):
 
 
 SCRTUSDT = SCRTUSDT(*SCRTUSDT._fields)
-"""
-    name: SCRTUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SCUSDT(Symbol):
@@ -88336,17 +69822,6 @@ class SCUSDT(Symbol):
 
 
 SCUSDT = SCUSDT(*SCUSDT._fields)
-"""
-    name: SCUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SFPBTC(Symbol):
@@ -88388,17 +69863,6 @@ class SFPBTC(Symbol):
 
 
 SFPBTC = SFPBTC(*SFPBTC._fields)
-"""
-    name: SFPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SFPBUSD(Symbol):
@@ -88440,17 +69904,6 @@ class SFPBUSD(Symbol):
 
 
 SFPBUSD = SFPBUSD(*SFPBUSD._fields)
-"""
-    name: SFPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SFPUSDT(Symbol):
@@ -88492,17 +69945,6 @@ class SFPUSDT(Symbol):
 
 
 SFPUSDT = SFPUSDT(*SFPUSDT._fields)
-"""
-    name: SFPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SHIBAUD(Symbol):
@@ -88544,17 +69986,6 @@ class SHIBAUD(Symbol):
 
 
 SHIBAUD = SHIBAUD(*SHIBAUD._fields)
-"""
-    name: SHIBAUD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBBRL(Symbol):
@@ -88596,17 +70027,6 @@ class SHIBBRL(Symbol):
 
 
 SHIBBRL = SHIBBRL(*SHIBBRL._fields)
-"""
-    name: SHIBBRL
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBBUSD(Symbol):
@@ -88648,17 +70068,6 @@ class SHIBBUSD(Symbol):
 
 
 SHIBBUSD = SHIBBUSD(*SHIBBUSD._fields)
-"""
-    name: SHIBBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SHIBDOGE(Symbol):
@@ -88700,17 +70109,6 @@ class SHIBDOGE(Symbol):
 
 
 SHIBDOGE = SHIBDOGE(*SHIBDOGE._fields)
-"""
-    name: SHIBDOGE
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SHIBEUR(Symbol):
@@ -88752,17 +70150,6 @@ class SHIBEUR(Symbol):
 
 
 SHIBEUR = SHIBEUR(*SHIBEUR._fields)
-"""
-    name: SHIBEUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBGBP(Symbol):
@@ -88804,17 +70191,6 @@ class SHIBGBP(Symbol):
 
 
 SHIBGBP = SHIBGBP(*SHIBGBP._fields)
-"""
-    name: SHIBGBP
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBRUB(Symbol):
@@ -88856,17 +70232,6 @@ class SHIBRUB(Symbol):
 
 
 SHIBRUB = SHIBRUB(*SHIBRUB._fields)
-"""
-    name: SHIBRUB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBTRY(Symbol):
@@ -88908,17 +70273,6 @@ class SHIBTRY(Symbol):
 
 
 SHIBTRY = SHIBTRY(*SHIBTRY._fields)
-"""
-    name: SHIBTRY
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBUAH(Symbol):
@@ -88960,17 +70314,6 @@ class SHIBUAH(Symbol):
 
 
 SHIBUAH = SHIBUAH(*SHIBUAH._fields)
-"""
-    name: SHIBUAH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SHIBUSDT(Symbol):
@@ -89012,17 +70355,6 @@ class SHIBUSDT(Symbol):
 
 
 SHIBUSDT = SHIBUSDT(*SHIBUSDT._fields)
-"""
-    name: SHIBUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SKLBTC(Symbol):
@@ -89064,17 +70396,6 @@ class SKLBTC(Symbol):
 
 
 SKLBTC = SKLBTC(*SKLBTC._fields)
-"""
-    name: SKLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SKLBUSD(Symbol):
@@ -89116,17 +70437,6 @@ class SKLBUSD(Symbol):
 
 
 SKLBUSD = SKLBUSD(*SKLBUSD._fields)
-"""
-    name: SKLBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SKLUSDT(Symbol):
@@ -89168,17 +70478,6 @@ class SKLUSDT(Symbol):
 
 
 SKLUSDT = SKLUSDT(*SKLUSDT._fields)
-"""
-    name: SKLUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SKYBNB(Symbol):
@@ -89220,17 +70519,6 @@ class SKYBNB(Symbol):
 
 
 SKYBNB = SKYBNB(*SKYBNB._fields)
-"""
-    name: SKYBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SKYBTC(Symbol):
@@ -89272,17 +70560,6 @@ class SKYBTC(Symbol):
 
 
 SKYBTC = SKYBTC(*SKYBTC._fields)
-"""
-    name: SKYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SKYETH(Symbol):
@@ -89324,17 +70601,6 @@ class SKYETH(Symbol):
 
 
 SKYETH = SKYETH(*SKYETH._fields)
-"""
-    name: SKYETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SLPBIDR(Symbol):
@@ -89376,17 +70642,6 @@ class SLPBIDR(Symbol):
 
 
 SLPBIDR = SLPBIDR(*SLPBIDR._fields)
-"""
-    name: SLPBIDR
-    significant_digits: None
-    tick_size: 0.10
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SLPBNB(Symbol):
@@ -89428,17 +70683,6 @@ class SLPBNB(Symbol):
 
 
 SLPBNB = SLPBNB(*SLPBNB._fields)
-"""
-    name: SLPBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SLPBUSD(Symbol):
@@ -89480,17 +70724,6 @@ class SLPBUSD(Symbol):
 
 
 SLPBUSD = SLPBUSD(*SLPBUSD._fields)
-"""
-    name: SLPBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SLPETH(Symbol):
@@ -89532,17 +70765,6 @@ class SLPETH(Symbol):
 
 
 SLPETH = SLPETH(*SLPETH._fields)
-"""
-    name: SLPETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SLPTRY(Symbol):
@@ -89584,17 +70806,6 @@ class SLPTRY(Symbol):
 
 
 SLPTRY = SLPTRY(*SLPTRY._fields)
-"""
-    name: SLPTRY
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SLPUSDT(Symbol):
@@ -89636,17 +70847,6 @@ class SLPUSDT(Symbol):
 
 
 SLPUSDT = SLPUSDT(*SLPUSDT._fields)
-"""
-    name: SLPUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SNGLSBTC(Symbol):
@@ -89688,17 +70888,6 @@ class SNGLSBTC(Symbol):
 
 
 SNGLSBTC = SNGLSBTC(*SNGLSBTC._fields)
-"""
-    name: SNGLSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNGLSETH(Symbol):
@@ -89740,17 +70929,6 @@ class SNGLSETH(Symbol):
 
 
 SNGLSETH = SNGLSETH(*SNGLSETH._fields)
-"""
-    name: SNGLSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNMBTC(Symbol):
@@ -89792,17 +70970,6 @@ class SNMBTC(Symbol):
 
 
 SNMBTC = SNMBTC(*SNMBTC._fields)
-"""
-    name: SNMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNMBUSD(Symbol):
@@ -89844,17 +71011,6 @@ class SNMBUSD(Symbol):
 
 
 SNMBUSD = SNMBUSD(*SNMBUSD._fields)
-"""
-    name: SNMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNMETH(Symbol):
@@ -89896,17 +71052,6 @@ class SNMETH(Symbol):
 
 
 SNMETH = SNMETH(*SNMETH._fields)
-"""
-    name: SNMETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNTBTC(Symbol):
@@ -89948,17 +71093,6 @@ class SNTBTC(Symbol):
 
 
 SNTBTC = SNTBTC(*SNTBTC._fields)
-"""
-    name: SNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNTBUSD(Symbol):
@@ -90000,17 +71134,6 @@ class SNTBUSD(Symbol):
 
 
 SNTBUSD = SNTBUSD(*SNTBUSD._fields)
-"""
-    name: SNTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNTETH(Symbol):
@@ -90052,17 +71175,6 @@ class SNTETH(Symbol):
 
 
 SNTETH = SNTETH(*SNTETH._fields)
-"""
-    name: SNTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNXBNB(Symbol):
@@ -90104,17 +71216,6 @@ class SNXBNB(Symbol):
 
 
 SNXBNB = SNXBNB(*SNXBNB._fields)
-"""
-    name: SNXBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNXBTC(Symbol):
@@ -90156,17 +71257,6 @@ class SNXBTC(Symbol):
 
 
 SNXBTC = SNXBTC(*SNXBTC._fields)
-"""
-    name: SNXBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SNXBUSD(Symbol):
@@ -90208,17 +71298,6 @@ class SNXBUSD(Symbol):
 
 
 SNXBUSD = SNXBUSD(*SNXBUSD._fields)
-"""
-    name: SNXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNXETH(Symbol):
@@ -90260,17 +71339,6 @@ class SNXETH(Symbol):
 
 
 SNXETH = SNXETH(*SNXETH._fields)
-"""
-    name: SNXETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SNXUSDT(Symbol):
@@ -90312,17 +71380,6 @@ class SNXUSDT(Symbol):
 
 
 SNXUSDT = SNXUSDT(*SNXUSDT._fields)
-"""
-    name: SNXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SOLAUD(Symbol):
@@ -90364,17 +71421,6 @@ class SOLAUD(Symbol):
 
 
 SOLAUD = SOLAUD(*SOLAUD._fields)
-"""
-    name: SOLAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLBIDR(Symbol):
@@ -90416,17 +71462,6 @@ class SOLBIDR(Symbol):
 
 
 SOLBIDR = SOLBIDR(*SOLBIDR._fields)
-"""
-    name: SOLBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLBNB(Symbol):
@@ -90468,17 +71503,6 @@ class SOLBNB(Symbol):
 
 
 SOLBNB = SOLBNB(*SOLBNB._fields)
-"""
-    name: SOLBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLBRL(Symbol):
@@ -90520,17 +71544,6 @@ class SOLBRL(Symbol):
 
 
 SOLBRL = SOLBRL(*SOLBRL._fields)
-"""
-    name: SOLBRL
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLBTC(Symbol):
@@ -90572,17 +71585,6 @@ class SOLBTC(Symbol):
 
 
 SOLBTC = SOLBTC(*SOLBTC._fields)
-"""
-    name: SOLBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SOLBUSD(Symbol):
@@ -90624,17 +71626,6 @@ class SOLBUSD(Symbol):
 
 
 SOLBUSD = SOLBUSD(*SOLBUSD._fields)
-"""
-    name: SOLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SOLETH(Symbol):
@@ -90676,17 +71667,6 @@ class SOLETH(Symbol):
 
 
 SOLETH = SOLETH(*SOLETH._fields)
-"""
-    name: SOLETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLEUR(Symbol):
@@ -90728,17 +71708,6 @@ class SOLEUR(Symbol):
 
 
 SOLEUR = SOLEUR(*SOLEUR._fields)
-"""
-    name: SOLEUR
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLGBP(Symbol):
@@ -90780,17 +71749,6 @@ class SOLGBP(Symbol):
 
 
 SOLGBP = SOLGBP(*SOLGBP._fields)
-"""
-    name: SOLGBP
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLRUB(Symbol):
@@ -90832,17 +71790,6 @@ class SOLRUB(Symbol):
 
 
 SOLRUB = SOLRUB(*SOLRUB._fields)
-"""
-    name: SOLRUB
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLTRY(Symbol):
@@ -90884,17 +71831,6 @@ class SOLTRY(Symbol):
 
 
 SOLTRY = SOLTRY(*SOLTRY._fields)
-"""
-    name: SOLTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLTUSD(Symbol):
@@ -90936,17 +71872,6 @@ class SOLTUSD(Symbol):
 
 
 SOLTUSD = SOLTUSD(*SOLTUSD._fields)
-"""
-    name: SOLTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLUSDC(Symbol):
@@ -90988,17 +71913,6 @@ class SOLUSDC(Symbol):
 
 
 SOLUSDC = SOLUSDC(*SOLUSDC._fields)
-"""
-    name: SOLUSDC
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SOLUSDT(Symbol):
@@ -91040,17 +71954,6 @@ class SOLUSDT(Symbol):
 
 
 SOLUSDT = SOLUSDT(*SOLUSDT._fields)
-"""
-    name: SOLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SPARTABNB(Symbol):
@@ -91092,17 +71995,6 @@ class SPARTABNB(Symbol):
 
 
 SPARTABNB = SPARTABNB(*SPARTABNB._fields)
-"""
-    name: SPARTABNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SPELLBNB(Symbol):
@@ -91144,17 +72036,6 @@ class SPELLBNB(Symbol):
 
 
 SPELLBNB = SPELLBNB(*SPELLBNB._fields)
-"""
-    name: SPELLBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SPELLBTC(Symbol):
@@ -91196,17 +72077,6 @@ class SPELLBTC(Symbol):
 
 
 SPELLBTC = SPELLBTC(*SPELLBTC._fields)
-"""
-    name: SPELLBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SPELLBUSD(Symbol):
@@ -91248,17 +72118,6 @@ class SPELLBUSD(Symbol):
 
 
 SPELLBUSD = SPELLBUSD(*SPELLBUSD._fields)
-"""
-    name: SPELLBUSD
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SPELLTRY(Symbol):
@@ -91300,17 +72159,6 @@ class SPELLTRY(Symbol):
 
 
 SPELLTRY = SPELLTRY(*SPELLTRY._fields)
-"""
-    name: SPELLTRY
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SPELLUSDT(Symbol):
@@ -91352,17 +72200,6 @@ class SPELLUSDT(Symbol):
 
 
 SPELLUSDT = SPELLUSDT(*SPELLUSDT._fields)
-"""
-    name: SPELLUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SRMBIDR(Symbol):
@@ -91404,17 +72241,6 @@ class SRMBIDR(Symbol):
 
 
 SRMBIDR = SRMBIDR(*SRMBIDR._fields)
-"""
-    name: SRMBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SRMBNB(Symbol):
@@ -91456,17 +72282,6 @@ class SRMBNB(Symbol):
 
 
 SRMBNB = SRMBNB(*SRMBNB._fields)
-"""
-    name: SRMBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SRMBTC(Symbol):
@@ -91508,17 +72323,6 @@ class SRMBTC(Symbol):
 
 
 SRMBTC = SRMBTC(*SRMBTC._fields)
-"""
-    name: SRMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SRMBUSD(Symbol):
@@ -91560,17 +72364,6 @@ class SRMBUSD(Symbol):
 
 
 SRMBUSD = SRMBUSD(*SRMBUSD._fields)
-"""
-    name: SRMBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SRMUSDT(Symbol):
@@ -91612,17 +72405,6 @@ class SRMUSDT(Symbol):
 
 
 SRMUSDT = SRMUSDT(*SRMUSDT._fields)
-"""
-    name: SRMUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SSVBTC(Symbol):
@@ -91664,17 +72446,6 @@ class SSVBTC(Symbol):
 
 
 SSVBTC = SSVBTC(*SSVBTC._fields)
-"""
-    name: SSVBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SSVBUSD(Symbol):
@@ -91716,17 +72487,6 @@ class SSVBUSD(Symbol):
 
 
 SSVBUSD = SSVBUSD(*SSVBUSD._fields)
-"""
-    name: SSVBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SSVETH(Symbol):
@@ -91768,17 +72528,6 @@ class SSVETH(Symbol):
 
 
 SSVETH = SSVETH(*SSVETH._fields)
-"""
-    name: SSVETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SSVTUSD(Symbol):
@@ -91820,17 +72569,6 @@ class SSVTUSD(Symbol):
 
 
 SSVTUSD = SSVTUSD(*SSVTUSD._fields)
-"""
-    name: SSVTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SSVUSDT(Symbol):
@@ -91872,17 +72610,6 @@ class SSVUSDT(Symbol):
 
 
 SSVUSDT = SSVUSDT(*SSVUSDT._fields)
-"""
-    name: SSVUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STEEMBNB(Symbol):
@@ -91924,17 +72651,6 @@ class STEEMBNB(Symbol):
 
 
 STEEMBNB = STEEMBNB(*STEEMBNB._fields)
-"""
-    name: STEEMBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STEEMBTC(Symbol):
@@ -91976,17 +72692,6 @@ class STEEMBTC(Symbol):
 
 
 STEEMBTC = STEEMBTC(*STEEMBTC._fields)
-"""
-    name: STEEMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STEEMBUSD(Symbol):
@@ -92028,17 +72733,6 @@ class STEEMBUSD(Symbol):
 
 
 STEEMBUSD = STEEMBUSD(*STEEMBUSD._fields)
-"""
-    name: STEEMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STEEMETH(Symbol):
@@ -92080,17 +72774,6 @@ class STEEMETH(Symbol):
 
 
 STEEMETH = STEEMETH(*STEEMETH._fields)
-"""
-    name: STEEMETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STEEMUSDT(Symbol):
@@ -92132,17 +72815,6 @@ class STEEMUSDT(Symbol):
 
 
 STEEMUSDT = STEEMUSDT(*STEEMUSDT._fields)
-"""
-    name: STEEMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STGBTC(Symbol):
@@ -92184,17 +72856,6 @@ class STGBTC(Symbol):
 
 
 STGBTC = STGBTC(*STGBTC._fields)
-"""
-    name: STGBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STGBUSD(Symbol):
@@ -92236,17 +72897,6 @@ class STGBUSD(Symbol):
 
 
 STGBUSD = STGBUSD(*STGBUSD._fields)
-"""
-    name: STGBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STGUSDT(Symbol):
@@ -92288,17 +72938,6 @@ class STGUSDT(Symbol):
 
 
 STGUSDT = STGUSDT(*STGUSDT._fields)
-"""
-    name: STGUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STMXBTC(Symbol):
@@ -92340,17 +72979,6 @@ class STMXBTC(Symbol):
 
 
 STMXBTC = STMXBTC(*STMXBTC._fields)
-"""
-    name: STMXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STMXBUSD(Symbol):
@@ -92392,17 +73020,6 @@ class STMXBUSD(Symbol):
 
 
 STMXBUSD = STMXBUSD(*STMXBUSD._fields)
-"""
-    name: STMXBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STMXETH(Symbol):
@@ -92444,17 +73061,6 @@ class STMXETH(Symbol):
 
 
 STMXETH = STMXETH(*STMXETH._fields)
-"""
-    name: STMXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STMXUSDT(Symbol):
@@ -92496,17 +73102,6 @@ class STMXUSDT(Symbol):
 
 
 STMXUSDT = STMXUSDT(*STMXUSDT._fields)
-"""
-    name: STMXUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STORJBTC(Symbol):
@@ -92548,17 +73143,6 @@ class STORJBTC(Symbol):
 
 
 STORJBTC = STORJBTC(*STORJBTC._fields)
-"""
-    name: STORJBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STORJBUSD(Symbol):
@@ -92600,17 +73184,6 @@ class STORJBUSD(Symbol):
 
 
 STORJBUSD = STORJBUSD(*STORJBUSD._fields)
-"""
-    name: STORJBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORJETH(Symbol):
@@ -92652,17 +73225,6 @@ class STORJETH(Symbol):
 
 
 STORJETH = STORJETH(*STORJETH._fields)
-"""
-    name: STORJETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORJTRY(Symbol):
@@ -92704,17 +73266,6 @@ class STORJTRY(Symbol):
 
 
 STORJTRY = STORJTRY(*STORJTRY._fields)
-"""
-    name: STORJTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORJUSDT(Symbol):
@@ -92756,17 +73307,6 @@ class STORJUSDT(Symbol):
 
 
 STORJUSDT = STORJUSDT(*STORJUSDT._fields)
-"""
-    name: STORJUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STORMBNB(Symbol):
@@ -92808,17 +73348,6 @@ class STORMBNB(Symbol):
 
 
 STORMBNB = STORMBNB(*STORMBNB._fields)
-"""
-    name: STORMBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORMBTC(Symbol):
@@ -92860,17 +73389,6 @@ class STORMBTC(Symbol):
 
 
 STORMBTC = STORMBTC(*STORMBTC._fields)
-"""
-    name: STORMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORMETH(Symbol):
@@ -92912,17 +73430,6 @@ class STORMETH(Symbol):
 
 
 STORMETH = STORMETH(*STORMETH._fields)
-"""
-    name: STORMETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STORMUSDT(Symbol):
@@ -92964,17 +73471,6 @@ class STORMUSDT(Symbol):
 
 
 STORMUSDT = STORMUSDT(*STORMUSDT._fields)
-"""
-    name: STORMUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STPTBNB(Symbol):
@@ -93016,17 +73512,6 @@ class STPTBNB(Symbol):
 
 
 STPTBNB = STPTBNB(*STPTBNB._fields)
-"""
-    name: STPTBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STPTBTC(Symbol):
@@ -93068,17 +73553,6 @@ class STPTBTC(Symbol):
 
 
 STPTBTC = STPTBTC(*STPTBTC._fields)
-"""
-    name: STPTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STPTBUSD(Symbol):
@@ -93120,17 +73594,6 @@ class STPTBUSD(Symbol):
 
 
 STPTBUSD = STPTBUSD(*STPTBUSD._fields)
-"""
-    name: STPTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STPTUSDT(Symbol):
@@ -93172,17 +73635,6 @@ class STPTUSDT(Symbol):
 
 
 STPTUSDT = STPTUSDT(*STPTUSDT._fields)
-"""
-    name: STPTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STRATBNB(Symbol):
@@ -93224,17 +73676,6 @@ class STRATBNB(Symbol):
 
 
 STRATBNB = STRATBNB(*STRATBNB._fields)
-"""
-    name: STRATBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRATBTC(Symbol):
@@ -93276,17 +73717,6 @@ class STRATBTC(Symbol):
 
 
 STRATBTC = STRATBTC(*STRATBTC._fields)
-"""
-    name: STRATBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRATBUSD(Symbol):
@@ -93328,17 +73758,6 @@ class STRATBUSD(Symbol):
 
 
 STRATBUSD = STRATBUSD(*STRATBUSD._fields)
-"""
-    name: STRATBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRATETH(Symbol):
@@ -93380,17 +73799,6 @@ class STRATETH(Symbol):
 
 
 STRATETH = STRATETH(*STRATETH._fields)
-"""
-    name: STRATETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRATUSDT(Symbol):
@@ -93432,17 +73840,6 @@ class STRATUSDT(Symbol):
 
 
 STRATUSDT = STRATUSDT(*STRATUSDT._fields)
-"""
-    name: STRATUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRAXBTC(Symbol):
@@ -93484,17 +73881,6 @@ class STRAXBTC(Symbol):
 
 
 STRAXBTC = STRAXBTC(*STRAXBTC._fields)
-"""
-    name: STRAXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRAXBUSD(Symbol):
@@ -93536,17 +73922,6 @@ class STRAXBUSD(Symbol):
 
 
 STRAXBUSD = STRAXBUSD(*STRAXBUSD._fields)
-"""
-    name: STRAXBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRAXETH(Symbol):
@@ -93588,17 +73963,6 @@ class STRAXETH(Symbol):
 
 
 STRAXETH = STRAXETH(*STRAXETH._fields)
-"""
-    name: STRAXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STRAXUSDT(Symbol):
@@ -93640,17 +74004,6 @@ class STRAXUSDT(Symbol):
 
 
 STRAXUSDT = STRAXUSDT(*STRAXUSDT._fields)
-"""
-    name: STRAXUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STXBNB(Symbol):
@@ -93692,17 +74045,6 @@ class STXBNB(Symbol):
 
 
 STXBNB = STXBNB(*STXBNB._fields)
-"""
-    name: STXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STXBTC(Symbol):
@@ -93744,17 +74086,6 @@ class STXBTC(Symbol):
 
 
 STXBTC = STXBTC(*STXBTC._fields)
-"""
-    name: STXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STXBUSD(Symbol):
@@ -93796,17 +74127,6 @@ class STXBUSD(Symbol):
 
 
 STXBUSD = STXBUSD(*STXBUSD._fields)
-"""
-    name: STXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class STXTRY(Symbol):
@@ -93848,17 +74168,6 @@ class STXTRY(Symbol):
 
 
 STXTRY = STXTRY(*STXTRY._fields)
-"""
-    name: STXTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class STXUSDT(Symbol):
@@ -93900,17 +74209,6 @@ class STXUSDT(Symbol):
 
 
 STXUSDT = STXUSDT(*STXUSDT._fields)
-"""
-    name: STXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUBBTC(Symbol):
@@ -93952,17 +74250,6 @@ class SUBBTC(Symbol):
 
 
 SUBBTC = SUBBTC(*SUBBTC._fields)
-"""
-    name: SUBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUBETH(Symbol):
@@ -94004,17 +74291,6 @@ class SUBETH(Symbol):
 
 
 SUBETH = SUBETH(*SUBETH._fields)
-"""
-    name: SUBETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUIBNB(Symbol):
@@ -94056,17 +74332,6 @@ class SUIBNB(Symbol):
 
 
 SUIBNB = SUIBNB(*SUIBNB._fields)
-"""
-    name: SUIBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUIBTC(Symbol):
@@ -94108,17 +74373,6 @@ class SUIBTC(Symbol):
 
 
 SUIBTC = SUIBTC(*SUIBTC._fields)
-"""
-    name: SUIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUIEUR(Symbol):
@@ -94160,17 +74414,6 @@ class SUIEUR(Symbol):
 
 
 SUIEUR = SUIEUR(*SUIEUR._fields)
-"""
-    name: SUIEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUITRY(Symbol):
@@ -94212,17 +74455,6 @@ class SUITRY(Symbol):
 
 
 SUITRY = SUITRY(*SUITRY._fields)
-"""
-    name: SUITRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUITUSD(Symbol):
@@ -94264,17 +74496,6 @@ class SUITUSD(Symbol):
 
 
 SUITUSD = SUITUSD(*SUITUSD._fields)
-"""
-    name: SUITUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUIUSDT(Symbol):
@@ -94316,17 +74537,6 @@ class SUIUSDT(Symbol):
 
 
 SUIUSDT = SUIUSDT(*SUIUSDT._fields)
-"""
-    name: SUIUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUNBTC(Symbol):
@@ -94368,17 +74578,6 @@ class SUNBTC(Symbol):
 
 
 SUNBTC = SUNBTC(*SUNBTC._fields)
-"""
-    name: SUNBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUNBUSD(Symbol):
@@ -94420,17 +74619,6 @@ class SUNBUSD(Symbol):
 
 
 SUNBUSD = SUNBUSD(*SUNBUSD._fields)
-"""
-    name: SUNBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUNUSDT(Symbol):
@@ -94472,17 +74660,6 @@ class SUNUSDT(Symbol):
 
 
 SUNUSDT = SUNUSDT(*SUNUSDT._fields)
-"""
-    name: SUNUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUPERBTC(Symbol):
@@ -94524,17 +74701,6 @@ class SUPERBTC(Symbol):
 
 
 SUPERBTC = SUPERBTC(*SUPERBTC._fields)
-"""
-    name: SUPERBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUPERBUSD(Symbol):
@@ -94576,17 +74742,6 @@ class SUPERBUSD(Symbol):
 
 
 SUPERBUSD = SUPERBUSD(*SUPERBUSD._fields)
-"""
-    name: SUPERBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUPERUSDT(Symbol):
@@ -94628,17 +74783,6 @@ class SUPERUSDT(Symbol):
 
 
 SUPERUSDT = SUPERUSDT(*SUPERUSDT._fields)
-"""
-    name: SUPERUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUSDBTC(Symbol):
@@ -94680,17 +74824,6 @@ class SUSDBTC(Symbol):
 
 
 SUSDBTC = SUSDBTC(*SUSDBTC._fields)
-"""
-    name: SUSDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSDETH(Symbol):
@@ -94732,17 +74865,6 @@ class SUSDETH(Symbol):
 
 
 SUSDETH = SUSDETH(*SUSDETH._fields)
-"""
-    name: SUSDETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSDUSDT(Symbol):
@@ -94784,17 +74906,6 @@ class SUSDUSDT(Symbol):
 
 
 SUSDUSDT = SUSDUSDT(*SUSDUSDT._fields)
-"""
-    name: SUSDUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSHIBNB(Symbol):
@@ -94836,17 +74947,6 @@ class SUSHIBNB(Symbol):
 
 
 SUSHIBNB = SUSHIBNB(*SUSHIBNB._fields)
-"""
-    name: SUSHIBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSHIBTC(Symbol):
@@ -94888,17 +74988,6 @@ class SUSHIBTC(Symbol):
 
 
 SUSHIBTC = SUSHIBTC(*SUSHIBTC._fields)
-"""
-    name: SUSHIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SUSHIBUSD(Symbol):
@@ -94940,17 +75029,6 @@ class SUSHIBUSD(Symbol):
 
 
 SUSHIBUSD = SUSHIBUSD(*SUSHIBUSD._fields)
-"""
-    name: SUSHIBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSHIDOWNUSDT(Symbol):
@@ -94992,17 +75070,6 @@ class SUSHIDOWNUSDT(Symbol):
 
 
 SUSHIDOWNUSDT = SUSHIDOWNUSDT(*SUSHIDOWNUSDT._fields)
-"""
-    name: SUSHIDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSHIUPUSDT(Symbol):
@@ -95044,17 +75111,6 @@ class SUSHIUPUSDT(Symbol):
 
 
 SUSHIUPUSDT = SUSHIUPUSDT(*SUSHIUPUSDT._fields)
-"""
-    name: SUSHIUPUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SUSHIUSDT(Symbol):
@@ -95096,17 +75152,6 @@ class SUSHIUSDT(Symbol):
 
 
 SUSHIUSDT = SUSHIUSDT(*SUSHIUSDT._fields)
-"""
-    name: SUSHIUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SWRVBNB(Symbol):
@@ -95148,17 +75193,6 @@ class SWRVBNB(Symbol):
 
 
 SWRVBNB = SWRVBNB(*SWRVBNB._fields)
-"""
-    name: SWRVBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SWRVBUSD(Symbol):
@@ -95200,17 +75234,6 @@ class SWRVBUSD(Symbol):
 
 
 SWRVBUSD = SWRVBUSD(*SWRVBUSD._fields)
-"""
-    name: SWRVBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPAUD(Symbol):
@@ -95252,17 +75275,6 @@ class SXPAUD(Symbol):
 
 
 SXPAUD = SXPAUD(*SXPAUD._fields)
-"""
-    name: SXPAUD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPBIDR(Symbol):
@@ -95304,17 +75316,6 @@ class SXPBIDR(Symbol):
 
 
 SXPBIDR = SXPBIDR(*SXPBIDR._fields)
-"""
-    name: SXPBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPBNB(Symbol):
@@ -95356,17 +75357,6 @@ class SXPBNB(Symbol):
 
 
 SXPBNB = SXPBNB(*SXPBNB._fields)
-"""
-    name: SXPBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SXPBTC(Symbol):
@@ -95408,17 +75398,6 @@ class SXPBTC(Symbol):
 
 
 SXPBTC = SXPBTC(*SXPBTC._fields)
-"""
-    name: SXPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SXPBUSD(Symbol):
@@ -95460,17 +75439,6 @@ class SXPBUSD(Symbol):
 
 
 SXPBUSD = SXPBUSD(*SXPBUSD._fields)
-"""
-    name: SXPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPDOWNUSDT(Symbol):
@@ -95512,17 +75480,6 @@ class SXPDOWNUSDT(Symbol):
 
 
 SXPDOWNUSDT = SXPDOWNUSDT(*SXPDOWNUSDT._fields)
-"""
-    name: SXPDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPEUR(Symbol):
@@ -95564,17 +75521,6 @@ class SXPEUR(Symbol):
 
 
 SXPEUR = SXPEUR(*SXPEUR._fields)
-"""
-    name: SXPEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPGBP(Symbol):
@@ -95616,17 +75562,6 @@ class SXPGBP(Symbol):
 
 
 SXPGBP = SXPGBP(*SXPGBP._fields)
-"""
-    name: SXPGBP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPTRY(Symbol):
@@ -95668,17 +75603,6 @@ class SXPTRY(Symbol):
 
 
 SXPTRY = SXPTRY(*SXPTRY._fields)
-"""
-    name: SXPTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPUPUSDT(Symbol):
@@ -95720,17 +75644,6 @@ class SXPUPUSDT(Symbol):
 
 
 SXPUPUSDT = SXPUPUSDT(*SXPUPUSDT._fields)
-"""
-    name: SXPUPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SXPUSDT(Symbol):
@@ -95772,17 +75685,6 @@ class SXPUSDT(Symbol):
 
 
 SXPUSDT = SXPUSDT(*SXPUSDT._fields)
-"""
-    name: SXPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SYNBTC(Symbol):
@@ -95824,17 +75726,6 @@ class SYNBTC(Symbol):
 
 
 SYNBTC = SYNBTC(*SYNBTC._fields)
-"""
-    name: SYNBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SYNUSDT(Symbol):
@@ -95876,17 +75767,6 @@ class SYNUSDT(Symbol):
 
 
 SYNUSDT = SYNUSDT(*SYNUSDT._fields)
-"""
-    name: SYNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class SYSBNB(Symbol):
@@ -95928,17 +75808,6 @@ class SYSBNB(Symbol):
 
 
 SYSBNB = SYSBNB(*SYSBNB._fields)
-"""
-    name: SYSBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SYSBTC(Symbol):
@@ -95980,17 +75849,6 @@ class SYSBTC(Symbol):
 
 
 SYSBTC = SYSBTC(*SYSBTC._fields)
-"""
-    name: SYSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SYSBUSD(Symbol):
@@ -96032,17 +75890,6 @@ class SYSBUSD(Symbol):
 
 
 SYSBUSD = SYSBUSD(*SYSBUSD._fields)
-"""
-    name: SYSBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SYSETH(Symbol):
@@ -96084,17 +75931,6 @@ class SYSETH(Symbol):
 
 
 SYSETH = SYSETH(*SYSETH._fields)
-"""
-    name: SYSETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class SYSUSDT(Symbol):
@@ -96136,17 +75972,6 @@ class SYSUSDT(Symbol):
 
 
 SYSUSDT = SYSUSDT(*SYSUSDT._fields)
-"""
-    name: SYSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TBUSD(Symbol):
@@ -96188,17 +76013,6 @@ class TBUSD(Symbol):
 
 
 TBUSD = TBUSD(*TBUSD._fields)
-"""
-    name: TBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TCTBNB(Symbol):
@@ -96240,17 +76054,6 @@ class TCTBNB(Symbol):
 
 
 TCTBNB = TCTBNB(*TCTBNB._fields)
-"""
-    name: TCTBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TCTBTC(Symbol):
@@ -96292,17 +76095,6 @@ class TCTBTC(Symbol):
 
 
 TCTBTC = TCTBTC(*TCTBTC._fields)
-"""
-    name: TCTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TCTUSDT(Symbol):
@@ -96344,17 +76136,6 @@ class TCTUSDT(Symbol):
 
 
 TCTUSDT = TCTUSDT(*TCTUSDT._fields)
-"""
-    name: TCTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELBNB(Symbol):
@@ -96396,17 +76177,6 @@ class TFUELBNB(Symbol):
 
 
 TFUELBNB = TFUELBNB(*TFUELBNB._fields)
-"""
-    name: TFUELBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELBTC(Symbol):
@@ -96448,17 +76218,6 @@ class TFUELBTC(Symbol):
 
 
 TFUELBTC = TFUELBTC(*TFUELBTC._fields)
-"""
-    name: TFUELBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TFUELBUSD(Symbol):
@@ -96500,17 +76259,6 @@ class TFUELBUSD(Symbol):
 
 
 TFUELBUSD = TFUELBUSD(*TFUELBUSD._fields)
-"""
-    name: TFUELBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELPAX(Symbol):
@@ -96552,17 +76300,6 @@ class TFUELPAX(Symbol):
 
 
 TFUELPAX = TFUELPAX(*TFUELPAX._fields)
-"""
-    name: TFUELPAX
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELTUSD(Symbol):
@@ -96604,17 +76341,6 @@ class TFUELTUSD(Symbol):
 
 
 TFUELTUSD = TFUELTUSD(*TFUELTUSD._fields)
-"""
-    name: TFUELTUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELUSDC(Symbol):
@@ -96656,17 +76382,6 @@ class TFUELUSDC(Symbol):
 
 
 TFUELUSDC = TFUELUSDC(*TFUELUSDC._fields)
-"""
-    name: TFUELUSDC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TFUELUSDT(Symbol):
@@ -96708,17 +76423,6 @@ class TFUELUSDT(Symbol):
 
 
 TFUELUSDT = TFUELUSDT(*TFUELUSDT._fields)
-"""
-    name: TFUELUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class THETABNB(Symbol):
@@ -96760,17 +76464,6 @@ class THETABNB(Symbol):
 
 
 THETABNB = THETABNB(*THETABNB._fields)
-"""
-    name: THETABNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class THETABTC(Symbol):
@@ -96812,17 +76505,6 @@ class THETABTC(Symbol):
 
 
 THETABTC = THETABTC(*THETABTC._fields)
-"""
-    name: THETABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class THETABUSD(Symbol):
@@ -96864,17 +76546,6 @@ class THETABUSD(Symbol):
 
 
 THETABUSD = THETABUSD(*THETABUSD._fields)
-"""
-    name: THETABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class THETAETH(Symbol):
@@ -96916,17 +76587,6 @@ class THETAETH(Symbol):
 
 
 THETAETH = THETAETH(*THETAETH._fields)
-"""
-    name: THETAETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class THETAEUR(Symbol):
@@ -96968,17 +76628,6 @@ class THETAEUR(Symbol):
 
 
 THETAEUR = THETAEUR(*THETAEUR._fields)
-"""
-    name: THETAEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class THETAUSDT(Symbol):
@@ -97020,17 +76669,6 @@ class THETAUSDT(Symbol):
 
 
 THETAUSDT = THETAUSDT(*THETAUSDT._fields)
-"""
-    name: THETAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TKOBIDR(Symbol):
@@ -97072,17 +76710,6 @@ class TKOBIDR(Symbol):
 
 
 TKOBIDR = TKOBIDR(*TKOBIDR._fields)
-"""
-    name: TKOBIDR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TKOBTC(Symbol):
@@ -97124,17 +76751,6 @@ class TKOBTC(Symbol):
 
 
 TKOBTC = TKOBTC(*TKOBTC._fields)
-"""
-    name: TKOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TKOBUSD(Symbol):
@@ -97176,17 +76792,6 @@ class TKOBUSD(Symbol):
 
 
 TKOBUSD = TKOBUSD(*TKOBUSD._fields)
-"""
-    name: TKOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TKOUSDT(Symbol):
@@ -97228,17 +76833,6 @@ class TKOUSDT(Symbol):
 
 
 TKOUSDT = TKOUSDT(*TKOUSDT._fields)
-"""
-    name: TKOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TLMBNB(Symbol):
@@ -97280,17 +76874,6 @@ class TLMBNB(Symbol):
 
 
 TLMBNB = TLMBNB(*TLMBNB._fields)
-"""
-    name: TLMBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TLMBTC(Symbol):
@@ -97332,17 +76915,6 @@ class TLMBTC(Symbol):
 
 
 TLMBTC = TLMBTC(*TLMBTC._fields)
-"""
-    name: TLMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TLMBUSD(Symbol):
@@ -97384,17 +76956,6 @@ class TLMBUSD(Symbol):
 
 
 TLMBUSD = TLMBUSD(*TLMBUSD._fields)
-"""
-    name: TLMBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TLMTRY(Symbol):
@@ -97436,17 +76997,6 @@ class TLMTRY(Symbol):
 
 
 TLMTRY = TLMTRY(*TLMTRY._fields)
-"""
-    name: TLMTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TLMUSDT(Symbol):
@@ -97488,17 +77038,6 @@ class TLMUSDT(Symbol):
 
 
 TLMUSDT = TLMUSDT(*TLMUSDT._fields)
-"""
-    name: TLMUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TNBBTC(Symbol):
@@ -97540,17 +77079,6 @@ class TNBBTC(Symbol):
 
 
 TNBBTC = TNBBTC(*TNBBTC._fields)
-"""
-    name: TNBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TNBETH(Symbol):
@@ -97592,17 +77120,6 @@ class TNBETH(Symbol):
 
 
 TNBETH = TNBETH(*TNBETH._fields)
-"""
-    name: TNBETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TNTBTC(Symbol):
@@ -97644,17 +77161,6 @@ class TNTBTC(Symbol):
 
 
 TNTBTC = TNTBTC(*TNTBTC._fields)
-"""
-    name: TNTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TNTETH(Symbol):
@@ -97696,17 +77202,6 @@ class TNTETH(Symbol):
 
 
 TNTETH = TNTETH(*TNTETH._fields)
-"""
-    name: TNTETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TOMOBNB(Symbol):
@@ -97748,17 +77243,6 @@ class TOMOBNB(Symbol):
 
 
 TOMOBNB = TOMOBNB(*TOMOBNB._fields)
-"""
-    name: TOMOBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TOMOBTC(Symbol):
@@ -97800,17 +77284,6 @@ class TOMOBTC(Symbol):
 
 
 TOMOBTC = TOMOBTC(*TOMOBTC._fields)
-"""
-    name: TOMOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TOMOBUSD(Symbol):
@@ -97852,17 +77325,6 @@ class TOMOBUSD(Symbol):
 
 
 TOMOBUSD = TOMOBUSD(*TOMOBUSD._fields)
-"""
-    name: TOMOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TOMOUSDC(Symbol):
@@ -97904,17 +77366,6 @@ class TOMOUSDC(Symbol):
 
 
 TOMOUSDC = TOMOUSDC(*TOMOUSDC._fields)
-"""
-    name: TOMOUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TOMOUSDT(Symbol):
@@ -97956,17 +77407,6 @@ class TOMOUSDT(Symbol):
 
 
 TOMOUSDT = TOMOUSDT(*TOMOUSDT._fields)
-"""
-    name: TOMOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TORNBNB(Symbol):
@@ -98008,17 +77448,6 @@ class TORNBNB(Symbol):
 
 
 TORNBNB = TORNBNB(*TORNBNB._fields)
-"""
-    name: TORNBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TORNBTC(Symbol):
@@ -98060,17 +77489,6 @@ class TORNBTC(Symbol):
 
 
 TORNBTC = TORNBTC(*TORNBTC._fields)
-"""
-    name: TORNBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TORNBUSD(Symbol):
@@ -98112,17 +77530,6 @@ class TORNBUSD(Symbol):
 
 
 TORNBUSD = TORNBUSD(*TORNBUSD._fields)
-"""
-    name: TORNBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TORNUSDT(Symbol):
@@ -98164,17 +77571,6 @@ class TORNUSDT(Symbol):
 
 
 TORNUSDT = TORNUSDT(*TORNUSDT._fields)
-"""
-    name: TORNUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRBBNB(Symbol):
@@ -98216,17 +77612,6 @@ class TRBBNB(Symbol):
 
 
 TRBBNB = TRBBNB(*TRBBNB._fields)
-"""
-    name: TRBBNB
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRBBTC(Symbol):
@@ -98268,17 +77653,6 @@ class TRBBTC(Symbol):
 
 
 TRBBTC = TRBBTC(*TRBBTC._fields)
-"""
-    name: TRBBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRBBUSD(Symbol):
@@ -98320,17 +77694,6 @@ class TRBBUSD(Symbol):
 
 
 TRBBUSD = TRBBUSD(*TRBBUSD._fields)
-"""
-    name: TRBBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRBUSDT(Symbol):
@@ -98372,17 +77735,6 @@ class TRBUSDT(Symbol):
 
 
 TRBUSDT = TRBUSDT(*TRBUSDT._fields)
-"""
-    name: TRBUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRIBEBNB(Symbol):
@@ -98424,17 +77776,6 @@ class TRIBEBNB(Symbol):
 
 
 TRIBEBNB = TRIBEBNB(*TRIBEBNB._fields)
-"""
-    name: TRIBEBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIBEBTC(Symbol):
@@ -98476,17 +77817,6 @@ class TRIBEBTC(Symbol):
 
 
 TRIBEBTC = TRIBEBTC(*TRIBEBTC._fields)
-"""
-    name: TRIBEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIBEBUSD(Symbol):
@@ -98528,17 +77858,6 @@ class TRIBEBUSD(Symbol):
 
 
 TRIBEBUSD = TRIBEBUSD(*TRIBEBUSD._fields)
-"""
-    name: TRIBEBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIBEUSDT(Symbol):
@@ -98580,17 +77899,6 @@ class TRIBEUSDT(Symbol):
 
 
 TRIBEUSDT = TRIBEUSDT(*TRIBEUSDT._fields)
-"""
-    name: TRIBEUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIGBNB(Symbol):
@@ -98632,17 +77940,6 @@ class TRIGBNB(Symbol):
 
 
 TRIGBNB = TRIGBNB(*TRIGBNB._fields)
-"""
-    name: TRIGBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIGBTC(Symbol):
@@ -98684,17 +77981,6 @@ class TRIGBTC(Symbol):
 
 
 TRIGBTC = TRIGBTC(*TRIGBTC._fields)
-"""
-    name: TRIGBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRIGETH(Symbol):
@@ -98736,17 +78022,6 @@ class TRIGETH(Symbol):
 
 
 TRIGETH = TRIGETH(*TRIGETH._fields)
-"""
-    name: TRIGETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TROYBNB(Symbol):
@@ -98788,17 +78063,6 @@ class TROYBNB(Symbol):
 
 
 TROYBNB = TROYBNB(*TROYBNB._fields)
-"""
-    name: TROYBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TROYBTC(Symbol):
@@ -98840,17 +78104,6 @@ class TROYBTC(Symbol):
 
 
 TROYBTC = TROYBTC(*TROYBTC._fields)
-"""
-    name: TROYBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TROYBUSD(Symbol):
@@ -98892,17 +78145,6 @@ class TROYBUSD(Symbol):
 
 
 TROYBUSD = TROYBUSD(*TROYBUSD._fields)
-"""
-    name: TROYBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TROYUSDT(Symbol):
@@ -98944,17 +78186,6 @@ class TROYUSDT(Symbol):
 
 
 TROYUSDT = TROYUSDT(*TROYUSDT._fields)
-"""
-    name: TROYUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRUBTC(Symbol):
@@ -98996,17 +78227,6 @@ class TRUBTC(Symbol):
 
 
 TRUBTC = TRUBTC(*TRUBTC._fields)
-"""
-    name: TRUBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRUBUSD(Symbol):
@@ -99048,17 +78268,6 @@ class TRUBUSD(Symbol):
 
 
 TRUBUSD = TRUBUSD(*TRUBUSD._fields)
-"""
-    name: TRUBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRURUB(Symbol):
@@ -99100,17 +78309,6 @@ class TRURUB(Symbol):
 
 
 TRURUB = TRURUB(*TRURUB._fields)
-"""
-    name: TRURUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRUUSDT(Symbol):
@@ -99152,17 +78350,6 @@ class TRUUSDT(Symbol):
 
 
 TRUUSDT = TRUUSDT(*TRUUSDT._fields)
-"""
-    name: TRUUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRXAUD(Symbol):
@@ -99204,17 +78391,6 @@ class TRXAUD(Symbol):
 
 
 TRXAUD = TRXAUD(*TRXAUD._fields)
-"""
-    name: TRXAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXBNB(Symbol):
@@ -99256,17 +78432,6 @@ class TRXBNB(Symbol):
 
 
 TRXBNB = TRXBNB(*TRXBNB._fields)
-"""
-    name: TRXBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXBTC(Symbol):
@@ -99308,17 +78473,6 @@ class TRXBTC(Symbol):
 
 
 TRXBTC = TRXBTC(*TRXBTC._fields)
-"""
-    name: TRXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRXBUSD(Symbol):
@@ -99360,17 +78514,6 @@ class TRXBUSD(Symbol):
 
 
 TRXBUSD = TRXBUSD(*TRXBUSD._fields)
-"""
-    name: TRXBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRXDOWNUSDT(Symbol):
@@ -99412,17 +78555,6 @@ class TRXDOWNUSDT(Symbol):
 
 
 TRXDOWNUSDT = TRXDOWNUSDT(*TRXDOWNUSDT._fields)
-"""
-    name: TRXDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXETH(Symbol):
@@ -99464,17 +78596,6 @@ class TRXETH(Symbol):
 
 
 TRXETH = TRXETH(*TRXETH._fields)
-"""
-    name: TRXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRXEUR(Symbol):
@@ -99516,17 +78637,6 @@ class TRXEUR(Symbol):
 
 
 TRXEUR = TRXEUR(*TRXEUR._fields)
-"""
-    name: TRXEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXNGN(Symbol):
@@ -99568,17 +78678,6 @@ class TRXNGN(Symbol):
 
 
 TRXNGN = TRXNGN(*TRXNGN._fields)
-"""
-    name: TRXNGN
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXPAX(Symbol):
@@ -99620,17 +78719,6 @@ class TRXPAX(Symbol):
 
 
 TRXPAX = TRXPAX(*TRXPAX._fields)
-"""
-    name: TRXPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXTRY(Symbol):
@@ -99672,17 +78760,6 @@ class TRXTRY(Symbol):
 
 
 TRXTRY = TRXTRY(*TRXTRY._fields)
-"""
-    name: TRXTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXTUSD(Symbol):
@@ -99724,17 +78801,6 @@ class TRXTUSD(Symbol):
 
 
 TRXTUSD = TRXTUSD(*TRXTUSD._fields)
-"""
-    name: TRXTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXUPUSDT(Symbol):
@@ -99776,17 +78842,6 @@ class TRXUPUSDT(Symbol):
 
 
 TRXUPUSDT = TRXUPUSDT(*TRXUPUSDT._fields)
-"""
-    name: TRXUPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXUSDC(Symbol):
@@ -99828,17 +78883,6 @@ class TRXUSDC(Symbol):
 
 
 TRXUSDC = TRXUSDC(*TRXUSDC._fields)
-"""
-    name: TRXUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TRXUSDT(Symbol):
@@ -99880,17 +78924,6 @@ class TRXUSDT(Symbol):
 
 
 TRXUSDT = TRXUSDT(*TRXUSDT._fields)
-"""
-    name: TRXUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TRXXRP(Symbol):
@@ -99932,17 +78965,6 @@ class TRXXRP(Symbol):
 
 
 TRXXRP = TRXXRP(*TRXXRP._fields)
-"""
-    name: TRXXRP
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDBNB(Symbol):
@@ -99984,17 +79006,6 @@ class TUSDBNB(Symbol):
 
 
 TUSDBNB = TUSDBNB(*TUSDBNB._fields)
-"""
-    name: TUSDBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDBTC(Symbol):
@@ -100036,17 +79047,6 @@ class TUSDBTC(Symbol):
 
 
 TUSDBTC = TUSDBTC(*TUSDBTC._fields)
-"""
-    name: TUSDBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDBTUSD(Symbol):
@@ -100088,17 +79088,6 @@ class TUSDBTUSD(Symbol):
 
 
 TUSDBTUSD = TUSDBTUSD(*TUSDBTUSD._fields)
-"""
-    name: TUSDBTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDBUSD(Symbol):
@@ -100140,17 +79129,6 @@ class TUSDBUSD(Symbol):
 
 
 TUSDBUSD = TUSDBUSD(*TUSDBUSD._fields)
-"""
-    name: TUSDBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDETH(Symbol):
@@ -100192,17 +79170,6 @@ class TUSDETH(Symbol):
 
 
 TUSDETH = TUSDETH(*TUSDETH._fields)
-"""
-    name: TUSDETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDT(Symbol):
@@ -100244,17 +79211,6 @@ class TUSDT(Symbol):
 
 
 TUSDT = TUSDT(*TUSDT._fields)
-"""
-    name: TUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TUSDUSDT(Symbol):
@@ -100296,17 +79252,6 @@ class TUSDUSDT(Symbol):
 
 
 TUSDUSDT = TUSDUSDT(*TUSDUSDT._fields)
-"""
-    name: TUSDUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TVKBTC(Symbol):
@@ -100348,17 +79293,6 @@ class TVKBTC(Symbol):
 
 
 TVKBTC = TVKBTC(*TVKBTC._fields)
-"""
-    name: TVKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TVKBUSD(Symbol):
@@ -100400,17 +79334,6 @@ class TVKBUSD(Symbol):
 
 
 TVKBUSD = TVKBUSD(*TVKBUSD._fields)
-"""
-    name: TVKBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TVKUSDT(Symbol):
@@ -100452,17 +79375,6 @@ class TVKUSDT(Symbol):
 
 
 TVKUSDT = TVKUSDT(*TVKUSDT._fields)
-"""
-    name: TVKUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class TWTBTC(Symbol):
@@ -100504,17 +79416,6 @@ class TWTBTC(Symbol):
 
 
 TWTBTC = TWTBTC(*TWTBTC._fields)
-"""
-    name: TWTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TWTBUSD(Symbol):
@@ -100556,17 +79457,6 @@ class TWTBUSD(Symbol):
 
 
 TWTBUSD = TWTBUSD(*TWTBUSD._fields)
-"""
-    name: TWTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TWTTRY(Symbol):
@@ -100608,17 +79498,6 @@ class TWTTRY(Symbol):
 
 
 TWTTRY = TWTTRY(*TWTTRY._fields)
-"""
-    name: TWTTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class TWTUSDT(Symbol):
@@ -100660,17 +79539,6 @@ class TWTUSDT(Symbol):
 
 
 TWTUSDT = TWTUSDT(*TWTUSDT._fields)
-"""
-    name: TWTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UFTBUSD(Symbol):
@@ -100712,17 +79580,6 @@ class UFTBUSD(Symbol):
 
 
 UFTBUSD = UFTBUSD(*UFTBUSD._fields)
-"""
-    name: UFTBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UFTETH(Symbol):
@@ -100764,17 +79621,6 @@ class UFTETH(Symbol):
 
 
 UFTETH = UFTETH(*UFTETH._fields)
-"""
-    name: UFTETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UFTUSDT(Symbol):
@@ -100816,17 +79662,6 @@ class UFTUSDT(Symbol):
 
 
 UFTUSDT = UFTUSDT(*UFTUSDT._fields)
-"""
-    name: UFTUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UMABTC(Symbol):
@@ -100868,17 +79703,6 @@ class UMABTC(Symbol):
 
 
 UMABTC = UMABTC(*UMABTC._fields)
-"""
-    name: UMABTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UMABUSD(Symbol):
@@ -100920,17 +79744,6 @@ class UMABUSD(Symbol):
 
 
 UMABUSD = UMABUSD(*UMABUSD._fields)
-"""
-    name: UMABUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UMATRY(Symbol):
@@ -100972,17 +79785,6 @@ class UMATRY(Symbol):
 
 
 UMATRY = UMATRY(*UMATRY._fields)
-"""
-    name: UMATRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UMAUSDT(Symbol):
@@ -101024,17 +79826,6 @@ class UMAUSDT(Symbol):
 
 
 UMAUSDT = UMAUSDT(*UMAUSDT._fields)
-"""
-    name: UMAUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UNFIBNB(Symbol):
@@ -101076,17 +79867,6 @@ class UNFIBNB(Symbol):
 
 
 UNFIBNB = UNFIBNB(*UNFIBNB._fields)
-"""
-    name: UNFIBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNFIBTC(Symbol):
@@ -101128,17 +79908,6 @@ class UNFIBTC(Symbol):
 
 
 UNFIBTC = UNFIBTC(*UNFIBTC._fields)
-"""
-    name: UNFIBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNFIBUSD(Symbol):
@@ -101180,17 +79949,6 @@ class UNFIBUSD(Symbol):
 
 
 UNFIBUSD = UNFIBUSD(*UNFIBUSD._fields)
-"""
-    name: UNFIBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNFIETH(Symbol):
@@ -101232,17 +79990,6 @@ class UNFIETH(Symbol):
 
 
 UNFIETH = UNFIETH(*UNFIETH._fields)
-"""
-    name: UNFIETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNFIUSDT(Symbol):
@@ -101284,17 +80031,6 @@ class UNFIUSDT(Symbol):
 
 
 UNFIUSDT = UNFIUSDT(*UNFIUSDT._fields)
-"""
-    name: UNFIUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UNIAUD(Symbol):
@@ -101336,17 +80072,6 @@ class UNIAUD(Symbol):
 
 
 UNIAUD = UNIAUD(*UNIAUD._fields)
-"""
-    name: UNIAUD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIBNB(Symbol):
@@ -101388,17 +80113,6 @@ class UNIBNB(Symbol):
 
 
 UNIBNB = UNIBNB(*UNIBNB._fields)
-"""
-    name: UNIBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIBTC(Symbol):
@@ -101440,17 +80154,6 @@ class UNIBTC(Symbol):
 
 
 UNIBTC = UNIBTC(*UNIBTC._fields)
-"""
-    name: UNIBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UNIBUSD(Symbol):
@@ -101492,17 +80195,6 @@ class UNIBUSD(Symbol):
 
 
 UNIBUSD = UNIBUSD(*UNIBUSD._fields)
-"""
-    name: UNIBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UNIDOWNUSDT(Symbol):
@@ -101544,17 +80236,6 @@ class UNIDOWNUSDT(Symbol):
 
 
 UNIDOWNUSDT = UNIDOWNUSDT(*UNIDOWNUSDT._fields)
-"""
-    name: UNIDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIETH(Symbol):
@@ -101596,17 +80277,6 @@ class UNIETH(Symbol):
 
 
 UNIETH = UNIETH(*UNIETH._fields)
-"""
-    name: UNIETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIEUR(Symbol):
@@ -101648,17 +80318,6 @@ class UNIEUR(Symbol):
 
 
 UNIEUR = UNIEUR(*UNIEUR._fields)
-"""
-    name: UNIEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIUPUSDT(Symbol):
@@ -101700,17 +80359,6 @@ class UNIUPUSDT(Symbol):
 
 
 UNIUPUSDT = UNIUPUSDT(*UNIUPUSDT._fields)
-"""
-    name: UNIUPUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UNIUSDT(Symbol):
@@ -101752,17 +80400,6 @@ class UNIUSDT(Symbol):
 
 
 UNIUSDT = UNIUSDT(*UNIUSDT._fields)
-"""
-    name: UNIUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class USDCBNB(Symbol):
@@ -101804,17 +80441,6 @@ class USDCBNB(Symbol):
 
 
 USDCBNB = USDCBNB(*USDCBNB._fields)
-"""
-    name: USDCBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDCBUSD(Symbol):
@@ -101856,17 +80482,6 @@ class USDCBUSD(Symbol):
 
 
 USDCBUSD = USDCBUSD(*USDCBUSD._fields)
-"""
-    name: USDCBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDCPAX(Symbol):
@@ -101908,17 +80523,6 @@ class USDCPAX(Symbol):
 
 
 USDCPAX = USDCPAX(*USDCPAX._fields)
-"""
-    name: USDCPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDCTUSD(Symbol):
@@ -101960,17 +80564,6 @@ class USDCTUSD(Symbol):
 
 
 USDCTUSD = USDCTUSD(*USDCTUSD._fields)
-"""
-    name: USDCTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDCUSDT(Symbol):
@@ -102012,17 +80605,6 @@ class USDCUSDT(Symbol):
 
 
 USDCUSDT = USDCUSDT(*USDCUSDT._fields)
-"""
-    name: USDCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class USDPBUSD(Symbol):
@@ -102064,17 +80646,6 @@ class USDPBUSD(Symbol):
 
 
 USDPBUSD = USDPBUSD(*USDPBUSD._fields)
-"""
-    name: USDPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDPUSDT(Symbol):
@@ -102116,17 +80687,6 @@ class USDPUSDT(Symbol):
 
 
 USDPUSDT = USDPUSDT(*USDPUSDT._fields)
-"""
-    name: USDPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSBUSDS(Symbol):
@@ -102168,17 +80728,6 @@ class USDSBUSDS(Symbol):
 
 
 USDSBUSDS = USDSBUSDS(*USDSBUSDS._fields)
-"""
-    name: USDSBUSDS
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSBUSDT(Symbol):
@@ -102220,17 +80769,6 @@ class USDSBUSDT(Symbol):
 
 
 USDSBUSDT = USDSBUSDT(*USDSBUSDT._fields)
-"""
-    name: USDSBUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSPAX(Symbol):
@@ -102272,17 +80810,6 @@ class USDSPAX(Symbol):
 
 
 USDSPAX = USDSPAX(*USDSPAX._fields)
-"""
-    name: USDSPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSTUSD(Symbol):
@@ -102324,17 +80851,6 @@ class USDSTUSD(Symbol):
 
 
 USDSTUSD = USDSTUSD(*USDSTUSD._fields)
-"""
-    name: USDSTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSUSDC(Symbol):
@@ -102376,17 +80892,6 @@ class USDSUSDC(Symbol):
 
 
 USDSUSDC = USDSUSDC(*USDSUSDC._fields)
-"""
-    name: USDSUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDSUSDT(Symbol):
@@ -102428,17 +80933,6 @@ class USDSUSDT(Symbol):
 
 
 USDSUSDT = USDSUSDT(*USDSUSDT._fields)
-"""
-    name: USDSUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTARS(Symbol):
@@ -102480,17 +80974,6 @@ class USDTARS(Symbol):
 
 
 USDTARS = USDTARS(*USDTARS._fields)
-"""
-    name: USDTARS
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2000.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTBIDR(Symbol):
@@ -102532,17 +81015,6 @@ class USDTBIDR(Symbol):
 
 
 USDTBIDR = USDTBIDR(*USDTBIDR._fields)
-"""
-    name: USDTBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTBKRW(Symbol):
@@ -102584,17 +81056,6 @@ class USDTBKRW(Symbol):
 
 
 USDTBKRW = USDTBKRW(*USDTBKRW._fields)
-"""
-    name: USDTBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTBRL(Symbol):
@@ -102636,17 +81097,6 @@ class USDTBRL(Symbol):
 
 
 USDTBRL = USDTBRL(*USDTBRL._fields)
-"""
-    name: USDTBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTBVND(Symbol):
@@ -102688,17 +81138,6 @@ class USDTBVND(Symbol):
 
 
 USDTBVND = USDTBVND(*USDTBVND._fields)
-"""
-    name: USDTBVND
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30000.00
-    max_order_size: 9000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTDAI(Symbol):
@@ -102740,17 +81179,6 @@ class USDTDAI(Symbol):
 
 
 USDTDAI = USDTDAI(*USDTDAI._fields)
-"""
-    name: USDTDAI
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTIDRT(Symbol):
@@ -102792,17 +81220,6 @@ class USDTIDRT(Symbol):
 
 
 USDTIDRT = USDTIDRT(*USDTIDRT._fields)
-"""
-    name: USDTIDRT
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTNGN(Symbol):
@@ -102844,17 +81261,6 @@ class USDTNGN(Symbol):
 
 
 USDTNGN = USDTNGN(*USDTNGN._fields)
-"""
-    name: USDTNGN
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTPLN(Symbol):
@@ -102896,17 +81302,6 @@ class USDTPLN(Symbol):
 
 
 USDTPLN = USDTPLN(*USDTPLN._fields)
-"""
-    name: USDTPLN
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTRON(Symbol):
@@ -102948,17 +81343,6 @@ class USDTRON(Symbol):
 
 
 USDTRON = USDTRON(*USDTRON._fields)
-"""
-    name: USDTRON
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTRUB(Symbol):
@@ -103000,17 +81384,6 @@ class USDTRUB(Symbol):
 
 
 USDTRUB = USDTRUB(*USDTRUB._fields)
-"""
-    name: USDTRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTTRY(Symbol):
@@ -103052,17 +81425,6 @@ class USDTTRY(Symbol):
 
 
 USDTTRY = USDTTRY(*USDTTRY._fields)
-"""
-    name: USDTTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTUAH(Symbol):
@@ -103104,17 +81466,6 @@ class USDTUAH(Symbol):
 
 
 USDTUAH = USDTUAH(*USDTUAH._fields)
-"""
-    name: USDTUAH
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USDTZAR(Symbol):
@@ -103156,17 +81507,6 @@ class USDTZAR(Symbol):
 
 
 USDTZAR = USDTZAR(*USDTZAR._fields)
-"""
-    name: USDTZAR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USTBTC(Symbol):
@@ -103208,17 +81548,6 @@ class USTBTC(Symbol):
 
 
 USTBTC = USTBTC(*USTBTC._fields)
-"""
-    name: USTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USTBUSD(Symbol):
@@ -103260,17 +81589,6 @@ class USTBUSD(Symbol):
 
 
 USTBUSD = USTBUSD(*USTBUSD._fields)
-"""
-    name: USTBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class USTCBUSD(Symbol):
@@ -103312,17 +81630,6 @@ class USTCBUSD(Symbol):
 
 
 USTCBUSD = USTCBUSD(*USTCBUSD._fields)
-"""
-    name: USTCBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class USTCUSDT(Symbol):
@@ -103364,17 +81671,6 @@ class USTCUSDT(Symbol):
 
 
 USTCUSDT = USTCUSDT(*USTCUSDT._fields)
-"""
-    name: USTCUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class USTUSDT(Symbol):
@@ -103416,17 +81712,6 @@ class USTUSDT(Symbol):
 
 
 USTUSDT = USTUSDT(*USTUSDT._fields)
-"""
-    name: USTUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UTKBTC(Symbol):
@@ -103468,17 +81753,6 @@ class UTKBTC(Symbol):
 
 
 UTKBTC = UTKBTC(*UTKBTC._fields)
-"""
-    name: UTKBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class UTKBUSD(Symbol):
@@ -103520,17 +81794,6 @@ class UTKBUSD(Symbol):
 
 
 UTKBUSD = UTKBUSD(*UTKBUSD._fields)
-"""
-    name: UTKBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class UTKUSDT(Symbol):
@@ -103572,17 +81835,6 @@ class UTKUSDT(Symbol):
 
 
 UTKUSDT = UTKUSDT(*UTKUSDT._fields)
-"""
-    name: UTKUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VENBNB(Symbol):
@@ -103624,17 +81876,6 @@ class VENBNB(Symbol):
 
 
 VENBNB = VENBNB(*VENBNB._fields)
-"""
-    name: VENBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VENBTC(Symbol):
@@ -103676,17 +81917,6 @@ class VENBTC(Symbol):
 
 
 VENBTC = VENBTC(*VENBTC._fields)
-"""
-    name: VENBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VENETH(Symbol):
@@ -103728,17 +81958,6 @@ class VENETH(Symbol):
 
 
 VENETH = VENETH(*VENETH._fields)
-"""
-    name: VENETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VENUSDT(Symbol):
@@ -103780,17 +81999,6 @@ class VENUSDT(Symbol):
 
 
 VENUSDT = VENUSDT(*VENUSDT._fields)
-"""
-    name: VENUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETBNB(Symbol):
@@ -103832,17 +82040,6 @@ class VETBNB(Symbol):
 
 
 VETBNB = VETBNB(*VETBNB._fields)
-"""
-    name: VETBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETBTC(Symbol):
@@ -103884,17 +82081,6 @@ class VETBTC(Symbol):
 
 
 VETBTC = VETBTC(*VETBTC._fields)
-"""
-    name: VETBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VETBUSD(Symbol):
@@ -103936,17 +82122,6 @@ class VETBUSD(Symbol):
 
 
 VETBUSD = VETBUSD(*VETBUSD._fields)
-"""
-    name: VETBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VETETH(Symbol):
@@ -103988,17 +82163,6 @@ class VETETH(Symbol):
 
 
 VETETH = VETETH(*VETETH._fields)
-"""
-    name: VETETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETEUR(Symbol):
@@ -104040,17 +82204,6 @@ class VETEUR(Symbol):
 
 
 VETEUR = VETEUR(*VETEUR._fields)
-"""
-    name: VETEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETGBP(Symbol):
@@ -104092,17 +82245,6 @@ class VETGBP(Symbol):
 
 
 VETGBP = VETGBP(*VETGBP._fields)
-"""
-    name: VETGBP
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETTRY(Symbol):
@@ -104144,17 +82286,6 @@ class VETTRY(Symbol):
 
 
 VETTRY = VETTRY(*VETTRY._fields)
-"""
-    name: VETTRY
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VETUSDT(Symbol):
@@ -104196,17 +82327,6 @@ class VETUSDT(Symbol):
 
 
 VETUSDT = VETUSDT(*VETUSDT._fields)
-"""
-    name: VETUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VGXBTC(Symbol):
@@ -104248,17 +82368,6 @@ class VGXBTC(Symbol):
 
 
 VGXBTC = VGXBTC(*VGXBTC._fields)
-"""
-    name: VGXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VGXETH(Symbol):
@@ -104300,17 +82409,6 @@ class VGXETH(Symbol):
 
 
 VGXETH = VGXETH(*VGXETH._fields)
-"""
-    name: VGXETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VGXUSDT(Symbol):
@@ -104352,17 +82450,6 @@ class VGXUSDT(Symbol):
 
 
 VGXUSDT = VGXUSDT(*VGXUSDT._fields)
-"""
-    name: VGXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIABNB(Symbol):
@@ -104404,17 +82491,6 @@ class VIABNB(Symbol):
 
 
 VIABNB = VIABNB(*VIABNB._fields)
-"""
-    name: VIABNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIABTC(Symbol):
@@ -104456,17 +82532,6 @@ class VIABTC(Symbol):
 
 
 VIABTC = VIABTC(*VIABTC._fields)
-"""
-    name: VIABTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIAETH(Symbol):
@@ -104508,17 +82573,6 @@ class VIAETH(Symbol):
 
 
 VIAETH = VIAETH(*VIAETH._fields)
-"""
-    name: VIAETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIBBTC(Symbol):
@@ -104560,17 +82614,6 @@ class VIBBTC(Symbol):
 
 
 VIBBTC = VIBBTC(*VIBBTC._fields)
-"""
-    name: VIBBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIBBUSD(Symbol):
@@ -104612,17 +82655,6 @@ class VIBBUSD(Symbol):
 
 
 VIBBUSD = VIBBUSD(*VIBBUSD._fields)
-"""
-    name: VIBBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VIBEBTC(Symbol):
@@ -104664,17 +82696,6 @@ class VIBEBTC(Symbol):
 
 
 VIBEBTC = VIBEBTC(*VIBEBTC._fields)
-"""
-    name: VIBEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIBEETH(Symbol):
@@ -104716,17 +82737,6 @@ class VIBEETH(Symbol):
 
 
 VIBEETH = VIBEETH(*VIBEETH._fields)
-"""
-    name: VIBEETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIBETH(Symbol):
@@ -104768,17 +82778,6 @@ class VIBETH(Symbol):
 
 
 VIBETH = VIBETH(*VIBETH._fields)
-"""
-    name: VIBETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIBUSDT(Symbol):
@@ -104820,17 +82819,6 @@ class VIBUSDT(Symbol):
 
 
 VIBUSDT = VIBUSDT(*VIBUSDT._fields)
-"""
-    name: VIBUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class VIDTBTC(Symbol):
@@ -104872,17 +82860,6 @@ class VIDTBTC(Symbol):
 
 
 VIDTBTC = VIDTBTC(*VIDTBTC._fields)
-"""
-    name: VIDTBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIDTBUSD(Symbol):
@@ -104924,17 +82901,6 @@ class VIDTBUSD(Symbol):
 
 
 VIDTBUSD = VIDTBUSD(*VIDTBUSD._fields)
-"""
-    name: VIDTBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VIDTUSDT(Symbol):
@@ -104976,17 +82942,6 @@ class VIDTUSDT(Symbol):
 
 
 VIDTUSDT = VIDTUSDT(*VIDTUSDT._fields)
-"""
-    name: VIDTUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VITEBNB(Symbol):
@@ -105028,17 +82983,6 @@ class VITEBNB(Symbol):
 
 
 VITEBNB = VITEBNB(*VITEBNB._fields)
-"""
-    name: VITEBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VITEBTC(Symbol):
@@ -105080,17 +83024,6 @@ class VITEBTC(Symbol):
 
 
 VITEBTC = VITEBTC(*VITEBTC._fields)
-"""
-    name: VITEBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VITEBUSD(Symbol):
@@ -105132,17 +83065,6 @@ class VITEBUSD(Symbol):
 
 
 VITEBUSD = VITEBUSD(*VITEBUSD._fields)
-"""
-    name: VITEBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VITEUSDT(Symbol):
@@ -105184,17 +83106,6 @@ class VITEUSDT(Symbol):
 
 
 VITEUSDT = VITEUSDT(*VITEUSDT._fields)
-"""
-    name: VITEUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VOXELBNB(Symbol):
@@ -105236,17 +83147,6 @@ class VOXELBNB(Symbol):
 
 
 VOXELBNB = VOXELBNB(*VOXELBNB._fields)
-"""
-    name: VOXELBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VOXELBTC(Symbol):
@@ -105288,17 +83188,6 @@ class VOXELBTC(Symbol):
 
 
 VOXELBTC = VOXELBTC(*VOXELBTC._fields)
-"""
-    name: VOXELBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VOXELBUSD(Symbol):
@@ -105340,17 +83229,6 @@ class VOXELBUSD(Symbol):
 
 
 VOXELBUSD = VOXELBUSD(*VOXELBUSD._fields)
-"""
-    name: VOXELBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VOXELETH(Symbol):
@@ -105392,17 +83270,6 @@ class VOXELETH(Symbol):
 
 
 VOXELETH = VOXELETH(*VOXELETH._fields)
-"""
-    name: VOXELETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VOXELUSDT(Symbol):
@@ -105444,17 +83311,6 @@ class VOXELUSDT(Symbol):
 
 
 VOXELUSDT = VOXELUSDT(*VOXELUSDT._fields)
-"""
-    name: VOXELUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VTHOBNB(Symbol):
@@ -105496,17 +83352,6 @@ class VTHOBNB(Symbol):
 
 
 VTHOBNB = VTHOBNB(*VTHOBNB._fields)
-"""
-    name: VTHOBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VTHOBUSD(Symbol):
@@ -105548,17 +83393,6 @@ class VTHOBUSD(Symbol):
 
 
 VTHOBUSD = VTHOBUSD(*VTHOBUSD._fields)
-"""
-    name: VTHOBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class VTHOUSDT(Symbol):
@@ -105600,17 +83434,6 @@ class VTHOUSDT(Symbol):
 
 
 VTHOUSDT = VTHOUSDT(*VTHOUSDT._fields)
-"""
-    name: VTHOUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WABIBNB(Symbol):
@@ -105652,17 +83475,6 @@ class WABIBNB(Symbol):
 
 
 WABIBNB = WABIBNB(*WABIBNB._fields)
-"""
-    name: WABIBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WABIBTC(Symbol):
@@ -105704,17 +83516,6 @@ class WABIBTC(Symbol):
 
 
 WABIBTC = WABIBTC(*WABIBTC._fields)
-"""
-    name: WABIBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WABIETH(Symbol):
@@ -105756,17 +83557,6 @@ class WABIETH(Symbol):
 
 
 WABIETH = WABIETH(*WABIETH._fields)
-"""
-    name: WABIETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WANBNB(Symbol):
@@ -105808,17 +83598,6 @@ class WANBNB(Symbol):
 
 
 WANBNB = WANBNB(*WANBNB._fields)
-"""
-    name: WANBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WANBTC(Symbol):
@@ -105860,17 +83639,6 @@ class WANBTC(Symbol):
 
 
 WANBTC = WANBTC(*WANBTC._fields)
-"""
-    name: WANBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WANETH(Symbol):
@@ -105912,17 +83680,6 @@ class WANETH(Symbol):
 
 
 WANETH = WANETH(*WANETH._fields)
-"""
-    name: WANETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WANUSDT(Symbol):
@@ -105964,17 +83721,6 @@ class WANUSDT(Symbol):
 
 
 WANUSDT = WANUSDT(*WANUSDT._fields)
-"""
-    name: WANUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESBNB(Symbol):
@@ -106016,17 +83762,6 @@ class WAVESBNB(Symbol):
 
 
 WAVESBNB = WAVESBNB(*WAVESBNB._fields)
-"""
-    name: WAVESBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESBTC(Symbol):
@@ -106068,17 +83803,6 @@ class WAVESBTC(Symbol):
 
 
 WAVESBTC = WAVESBTC(*WAVESBTC._fields)
-"""
-    name: WAVESBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WAVESBUSD(Symbol):
@@ -106120,17 +83844,6 @@ class WAVESBUSD(Symbol):
 
 
 WAVESBUSD = WAVESBUSD(*WAVESBUSD._fields)
-"""
-    name: WAVESBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESETH(Symbol):
@@ -106172,17 +83885,6 @@ class WAVESETH(Symbol):
 
 
 WAVESETH = WAVESETH(*WAVESETH._fields)
-"""
-    name: WAVESETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESEUR(Symbol):
@@ -106224,17 +83926,6 @@ class WAVESEUR(Symbol):
 
 
 WAVESEUR = WAVESEUR(*WAVESEUR._fields)
-"""
-    name: WAVESEUR
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESPAX(Symbol):
@@ -106276,17 +83967,6 @@ class WAVESPAX(Symbol):
 
 
 WAVESPAX = WAVESPAX(*WAVESPAX._fields)
-"""
-    name: WAVESPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESRUB(Symbol):
@@ -106328,17 +84008,6 @@ class WAVESRUB(Symbol):
 
 
 WAVESRUB = WAVESRUB(*WAVESRUB._fields)
-"""
-    name: WAVESRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESTRY(Symbol):
@@ -106380,17 +84049,6 @@ class WAVESTRY(Symbol):
 
 
 WAVESTRY = WAVESTRY(*WAVESTRY._fields)
-"""
-    name: WAVESTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESTUSD(Symbol):
@@ -106432,17 +84090,6 @@ class WAVESTUSD(Symbol):
 
 
 WAVESTUSD = WAVESTUSD(*WAVESTUSD._fields)
-"""
-    name: WAVESTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESUSDC(Symbol):
@@ -106484,17 +84131,6 @@ class WAVESUSDC(Symbol):
 
 
 WAVESUSDC = WAVESUSDC(*WAVESUSDC._fields)
-"""
-    name: WAVESUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAVESUSDT(Symbol):
@@ -106536,17 +84172,6 @@ class WAVESUSDT(Symbol):
 
 
 WAVESUSDT = WAVESUSDT(*WAVESUSDT._fields)
-"""
-    name: WAVESUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WAXPBNB(Symbol):
@@ -106588,17 +84213,6 @@ class WAXPBNB(Symbol):
 
 
 WAXPBNB = WAXPBNB(*WAXPBNB._fields)
-"""
-    name: WAXPBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WAXPBTC(Symbol):
@@ -106640,17 +84254,6 @@ class WAXPBTC(Symbol):
 
 
 WAXPBTC = WAXPBTC(*WAXPBTC._fields)
-"""
-    name: WAXPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WAXPBUSD(Symbol):
@@ -106692,17 +84295,6 @@ class WAXPBUSD(Symbol):
 
 
 WAXPBUSD = WAXPBUSD(*WAXPBUSD._fields)
-"""
-    name: WAXPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WAXPUSDT(Symbol):
@@ -106744,17 +84336,6 @@ class WAXPUSDT(Symbol):
 
 
 WAXPUSDT = WAXPUSDT(*WAXPUSDT._fields)
-"""
-    name: WAXPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WBTCBTC(Symbol):
@@ -106796,17 +84377,6 @@ class WBTCBTC(Symbol):
 
 
 WBTCBTC = WBTCBTC(*WBTCBTC._fields)
-"""
-    name: WBTCBTC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WBTCBUSD(Symbol):
@@ -106848,17 +84418,6 @@ class WBTCBUSD(Symbol):
 
 
 WBTCBUSD = WBTCBUSD(*WBTCBUSD._fields)
-"""
-    name: WBTCBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WBTCETH(Symbol):
@@ -106900,17 +84459,6 @@ class WBTCETH(Symbol):
 
 
 WBTCETH = WBTCETH(*WBTCETH._fields)
-"""
-    name: WBTCETH
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WBTCUSDT(Symbol):
@@ -106952,17 +84500,6 @@ class WBTCUSDT(Symbol):
 
 
 WBTCUSDT = WBTCUSDT(*WBTCUSDT._fields)
-"""
-    name: WBTCUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINBNB(Symbol):
@@ -107004,17 +84541,6 @@ class WINBNB(Symbol):
 
 
 WINBNB = WINBNB(*WINBNB._fields)
-"""
-    name: WINBNB
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINBRL(Symbol):
@@ -107056,17 +84582,6 @@ class WINBRL(Symbol):
 
 
 WINBRL = WINBRL(*WINBRL._fields)
-"""
-    name: WINBRL
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINBTC(Symbol):
@@ -107108,17 +84623,6 @@ class WINBTC(Symbol):
 
 
 WINBTC = WINBTC(*WINBTC._fields)
-"""
-    name: WINBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINBUSD(Symbol):
@@ -107160,17 +84664,6 @@ class WINBUSD(Symbol):
 
 
 WINBUSD = WINBUSD(*WINBUSD._fields)
-"""
-    name: WINBUSD
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINEUR(Symbol):
@@ -107212,17 +84705,6 @@ class WINEUR(Symbol):
 
 
 WINEUR = WINEUR(*WINEUR._fields)
-"""
-    name: WINEUR
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGBNB(Symbol):
@@ -107264,17 +84746,6 @@ class WINGBNB(Symbol):
 
 
 WINGBNB = WINGBNB(*WINGBNB._fields)
-"""
-    name: WINGBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGBTC(Symbol):
@@ -107316,17 +84787,6 @@ class WINGBTC(Symbol):
 
 
 WINGBTC = WINGBTC(*WINGBTC._fields)
-"""
-    name: WINGBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGBUSD(Symbol):
@@ -107368,17 +84828,6 @@ class WINGBUSD(Symbol):
 
 
 WINGBUSD = WINGBUSD(*WINGBUSD._fields)
-"""
-    name: WINGBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WINGETH(Symbol):
@@ -107420,17 +84869,6 @@ class WINGETH(Symbol):
 
 
 WINGETH = WINGETH(*WINGETH._fields)
-"""
-    name: WINGETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGSBTC(Symbol):
@@ -107472,17 +84910,6 @@ class WINGSBTC(Symbol):
 
 
 WINGSBTC = WINGSBTC(*WINGSBTC._fields)
-"""
-    name: WINGSBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGSETH(Symbol):
@@ -107524,17 +84951,6 @@ class WINGSETH(Symbol):
 
 
 WINGSETH = WINGSETH(*WINGSETH._fields)
-"""
-    name: WINGSETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINGUSDT(Symbol):
@@ -107576,17 +84992,6 @@ class WINGUSDT(Symbol):
 
 
 WINGUSDT = WINGUSDT(*WINGUSDT._fields)
-"""
-    name: WINGUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WINTRX(Symbol):
@@ -107628,17 +85033,6 @@ class WINTRX(Symbol):
 
 
 WINTRX = WINTRX(*WINTRX._fields)
-"""
-    name: WINTRX
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINUSDC(Symbol):
@@ -107680,17 +85074,6 @@ class WINUSDC(Symbol):
 
 
 WINUSDC = WINUSDC(*WINUSDC._fields)
-"""
-    name: WINUSDC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WINUSDT(Symbol):
@@ -107732,17 +85115,6 @@ class WINUSDT(Symbol):
 
 
 WINUSDT = WINUSDT(*WINUSDT._fields)
-"""
-    name: WINUSDT
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WNXMBNB(Symbol):
@@ -107784,17 +85156,6 @@ class WNXMBNB(Symbol):
 
 
 WNXMBNB = WNXMBNB(*WNXMBNB._fields)
-"""
-    name: WNXMBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WNXMBTC(Symbol):
@@ -107836,17 +85197,6 @@ class WNXMBTC(Symbol):
 
 
 WNXMBTC = WNXMBTC(*WNXMBTC._fields)
-"""
-    name: WNXMBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WNXMBUSD(Symbol):
@@ -107888,17 +85238,6 @@ class WNXMBUSD(Symbol):
 
 
 WNXMBUSD = WNXMBUSD(*WNXMBUSD._fields)
-"""
-    name: WNXMBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WNXMUSDT(Symbol):
@@ -107940,17 +85279,6 @@ class WNXMUSDT(Symbol):
 
 
 WNXMUSDT = WNXMUSDT(*WNXMUSDT._fields)
-"""
-    name: WNXMUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WOOBNB(Symbol):
@@ -107992,17 +85320,6 @@ class WOOBNB(Symbol):
 
 
 WOOBNB = WOOBNB(*WOOBNB._fields)
-"""
-    name: WOOBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WOOBTC(Symbol):
@@ -108044,17 +85361,6 @@ class WOOBTC(Symbol):
 
 
 WOOBTC = WOOBTC(*WOOBTC._fields)
-"""
-    name: WOOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WOOBUSD(Symbol):
@@ -108096,17 +85402,6 @@ class WOOBUSD(Symbol):
 
 
 WOOBUSD = WOOBUSD(*WOOBUSD._fields)
-"""
-    name: WOOBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WOOUSDT(Symbol):
@@ -108148,17 +85443,6 @@ class WOOUSDT(Symbol):
 
 
 WOOUSDT = WOOUSDT(*WOOUSDT._fields)
-"""
-    name: WOOUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class WPRBTC(Symbol):
@@ -108200,17 +85484,6 @@ class WPRBTC(Symbol):
 
 
 WPRBTC = WPRBTC(*WPRBTC._fields)
-"""
-    name: WPRBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WPRETH(Symbol):
@@ -108252,17 +85525,6 @@ class WPRETH(Symbol):
 
 
 WPRETH = WPRETH(*WPRETH._fields)
-"""
-    name: WPRETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WRXBNB(Symbol):
@@ -108304,17 +85566,6 @@ class WRXBNB(Symbol):
 
 
 WRXBNB = WRXBNB(*WRXBNB._fields)
-"""
-    name: WRXBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WRXBTC(Symbol):
@@ -108356,17 +85607,6 @@ class WRXBTC(Symbol):
 
 
 WRXBTC = WRXBTC(*WRXBTC._fields)
-"""
-    name: WRXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WRXBUSD(Symbol):
@@ -108408,17 +85648,6 @@ class WRXBUSD(Symbol):
 
 
 WRXBUSD = WRXBUSD(*WRXBUSD._fields)
-"""
-    name: WRXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WRXEUR(Symbol):
@@ -108460,17 +85689,6 @@ class WRXEUR(Symbol):
 
 
 WRXEUR = WRXEUR(*WRXEUR._fields)
-"""
-    name: WRXEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WRXUSDT(Symbol):
@@ -108512,17 +85730,6 @@ class WRXUSDT(Symbol):
 
 
 WRXUSDT = WRXUSDT(*WRXUSDT._fields)
-"""
-    name: WRXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WTCBNB(Symbol):
@@ -108564,17 +85771,6 @@ class WTCBNB(Symbol):
 
 
 WTCBNB = WTCBNB(*WTCBNB._fields)
-"""
-    name: WTCBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WTCBTC(Symbol):
@@ -108616,17 +85812,6 @@ class WTCBTC(Symbol):
 
 
 WTCBTC = WTCBTC(*WTCBTC._fields)
-"""
-    name: WTCBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WTCETH(Symbol):
@@ -108668,17 +85853,6 @@ class WTCETH(Symbol):
 
 
 WTCETH = WTCETH(*WTCETH._fields)
-"""
-    name: WTCETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class WTCUSDT(Symbol):
@@ -108720,17 +85894,6 @@ class WTCUSDT(Symbol):
 
 
 WTCUSDT = WTCUSDT(*WTCUSDT._fields)
-"""
-    name: WTCUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XECBUSD(Symbol):
@@ -108772,17 +85935,6 @@ class XECBUSD(Symbol):
 
 
 XECBUSD = XECBUSD(*XECBUSD._fields)
-"""
-    name: XECBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XECUSDT(Symbol):
@@ -108824,17 +85976,6 @@ class XECUSDT(Symbol):
 
 
 XECUSDT = XECUSDT(*XECUSDT._fields)
-"""
-    name: XECUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XEMBNB(Symbol):
@@ -108876,17 +86017,6 @@ class XEMBNB(Symbol):
 
 
 XEMBNB = XEMBNB(*XEMBNB._fields)
-"""
-    name: XEMBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XEMBTC(Symbol):
@@ -108928,17 +86058,6 @@ class XEMBTC(Symbol):
 
 
 XEMBTC = XEMBTC(*XEMBTC._fields)
-"""
-    name: XEMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XEMBUSD(Symbol):
@@ -108980,17 +86099,6 @@ class XEMBUSD(Symbol):
 
 
 XEMBUSD = XEMBUSD(*XEMBUSD._fields)
-"""
-    name: XEMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XEMETH(Symbol):
@@ -109032,17 +86140,6 @@ class XEMETH(Symbol):
 
 
 XEMETH = XEMETH(*XEMETH._fields)
-"""
-    name: XEMETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XEMUSDT(Symbol):
@@ -109084,17 +86181,6 @@ class XEMUSDT(Symbol):
 
 
 XEMUSDT = XEMUSDT(*XEMUSDT._fields)
-"""
-    name: XEMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMBNB(Symbol):
@@ -109136,17 +86222,6 @@ class XLMBNB(Symbol):
 
 
 XLMBNB = XLMBNB(*XLMBNB._fields)
-"""
-    name: XLMBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMBTC(Symbol):
@@ -109188,17 +86263,6 @@ class XLMBTC(Symbol):
 
 
 XLMBTC = XLMBTC(*XLMBTC._fields)
-"""
-    name: XLMBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XLMBUSD(Symbol):
@@ -109240,17 +86304,6 @@ class XLMBUSD(Symbol):
 
 
 XLMBUSD = XLMBUSD(*XLMBUSD._fields)
-"""
-    name: XLMBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XLMDOWNUSDT(Symbol):
@@ -109292,17 +86345,6 @@ class XLMDOWNUSDT(Symbol):
 
 
 XLMDOWNUSDT = XLMDOWNUSDT(*XLMDOWNUSDT._fields)
-"""
-    name: XLMDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMETH(Symbol):
@@ -109344,17 +86386,6 @@ class XLMETH(Symbol):
 
 
 XLMETH = XLMETH(*XLMETH._fields)
-"""
-    name: XLMETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMEUR(Symbol):
@@ -109396,17 +86427,6 @@ class XLMEUR(Symbol):
 
 
 XLMEUR = XLMEUR(*XLMEUR._fields)
-"""
-    name: XLMEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMPAX(Symbol):
@@ -109448,17 +86468,6 @@ class XLMPAX(Symbol):
 
 
 XLMPAX = XLMPAX(*XLMPAX._fields)
-"""
-    name: XLMPAX
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMTRY(Symbol):
@@ -109500,17 +86509,6 @@ class XLMTRY(Symbol):
 
 
 XLMTRY = XLMTRY(*XLMTRY._fields)
-"""
-    name: XLMTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMTUSD(Symbol):
@@ -109552,17 +86550,6 @@ class XLMTUSD(Symbol):
 
 
 XLMTUSD = XLMTUSD(*XLMTUSD._fields)
-"""
-    name: XLMTUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMUPUSDT(Symbol):
@@ -109604,17 +86591,6 @@ class XLMUPUSDT(Symbol):
 
 
 XLMUPUSDT = XLMUPUSDT(*XLMUPUSDT._fields)
-"""
-    name: XLMUPUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMUSDC(Symbol):
@@ -109656,17 +86632,6 @@ class XLMUSDC(Symbol):
 
 
 XLMUSDC = XLMUSDC(*XLMUSDC._fields)
-"""
-    name: XLMUSDC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XLMUSDT(Symbol):
@@ -109708,17 +86673,6 @@ class XLMUSDT(Symbol):
 
 
 XLMUSDT = XLMUSDT(*XLMUSDT._fields)
-"""
-    name: XLMUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XMRBNB(Symbol):
@@ -109760,17 +86714,6 @@ class XMRBNB(Symbol):
 
 
 XMRBNB = XMRBNB(*XMRBNB._fields)
-"""
-    name: XMRBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XMRBTC(Symbol):
@@ -109812,17 +86755,6 @@ class XMRBTC(Symbol):
 
 
 XMRBTC = XMRBTC(*XMRBTC._fields)
-"""
-    name: XMRBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XMRBUSD(Symbol):
@@ -109864,17 +86796,6 @@ class XMRBUSD(Symbol):
 
 
 XMRBUSD = XMRBUSD(*XMRBUSD._fields)
-"""
-    name: XMRBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XMRETH(Symbol):
@@ -109916,17 +86837,6 @@ class XMRETH(Symbol):
 
 
 XMRETH = XMRETH(*XMRETH._fields)
-"""
-    name: XMRETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XMRUSDT(Symbol):
@@ -109968,17 +86878,6 @@ class XMRUSDT(Symbol):
 
 
 XMRUSDT = XMRUSDT(*XMRUSDT._fields)
-"""
-    name: XMRUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XNOBTC(Symbol):
@@ -110020,17 +86919,6 @@ class XNOBTC(Symbol):
 
 
 XNOBTC = XNOBTC(*XNOBTC._fields)
-"""
-    name: XNOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XNOBUSD(Symbol):
@@ -110072,17 +86960,6 @@ class XNOBUSD(Symbol):
 
 
 XNOBUSD = XNOBUSD(*XNOBUSD._fields)
-"""
-    name: XNOBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XNOETH(Symbol):
@@ -110124,17 +87001,6 @@ class XNOETH(Symbol):
 
 
 XNOETH = XNOETH(*XNOETH._fields)
-"""
-    name: XNOETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XNOUSDT(Symbol):
@@ -110176,17 +87042,6 @@ class XNOUSDT(Symbol):
 
 
 XNOUSDT = XNOUSDT(*XNOUSDT._fields)
-"""
-    name: XNOUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPAUD(Symbol):
@@ -110228,17 +87083,6 @@ class XRPAUD(Symbol):
 
 
 XRPAUD = XRPAUD(*XRPAUD._fields)
-"""
-    name: XRPAUD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBEARBUSD(Symbol):
@@ -110280,17 +87124,6 @@ class XRPBEARBUSD(Symbol):
 
 
 XRPBEARBUSD = XRPBEARBUSD(*XRPBEARBUSD._fields)
-"""
-    name: XRPBEARBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBEARUSDT(Symbol):
@@ -110332,17 +87165,6 @@ class XRPBEARUSDT(Symbol):
 
 
 XRPBEARUSDT = XRPBEARUSDT(*XRPBEARUSDT._fields)
-"""
-    name: XRPBEARUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBIDR(Symbol):
@@ -110384,17 +87206,6 @@ class XRPBIDR(Symbol):
 
 
 XRPBIDR = XRPBIDR(*XRPBIDR._fields)
-"""
-    name: XRPBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBKRW(Symbol):
@@ -110436,17 +87247,6 @@ class XRPBKRW(Symbol):
 
 
 XRPBKRW = XRPBKRW(*XRPBKRW._fields)
-"""
-    name: XRPBKRW
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1000.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBNB(Symbol):
@@ -110488,17 +87288,6 @@ class XRPBNB(Symbol):
 
 
 XRPBNB = XRPBNB(*XRPBNB._fields)
-"""
-    name: XRPBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBRL(Symbol):
@@ -110540,17 +87329,6 @@ class XRPBRL(Symbol):
 
 
 XRPBRL = XRPBRL(*XRPBRL._fields)
-"""
-    name: XRPBRL
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBTC(Symbol):
@@ -110592,17 +87370,6 @@ class XRPBTC(Symbol):
 
 
 XRPBTC = XRPBTC(*XRPBTC._fields)
-"""
-    name: XRPBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XRPBULLBUSD(Symbol):
@@ -110644,17 +87411,6 @@ class XRPBULLBUSD(Symbol):
 
 
 XRPBULLBUSD = XRPBULLBUSD(*XRPBULLBUSD._fields)
-"""
-    name: XRPBULLBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBULLUSDT(Symbol):
@@ -110696,17 +87452,6 @@ class XRPBULLUSDT(Symbol):
 
 
 XRPBULLUSDT = XRPBULLUSDT(*XRPBULLUSDT._fields)
-"""
-    name: XRPBULLUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPBUSD(Symbol):
@@ -110748,17 +87493,6 @@ class XRPBUSD(Symbol):
 
 
 XRPBUSD = XRPBUSD(*XRPBUSD._fields)
-"""
-    name: XRPBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XRPDOWNUSDT(Symbol):
@@ -110800,17 +87534,6 @@ class XRPDOWNUSDT(Symbol):
 
 
 XRPDOWNUSDT = XRPDOWNUSDT(*XRPDOWNUSDT._fields)
-"""
-    name: XRPDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPETH(Symbol):
@@ -110852,17 +87575,6 @@ class XRPETH(Symbol):
 
 
 XRPETH = XRPETH(*XRPETH._fields)
-"""
-    name: XRPETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XRPEUR(Symbol):
@@ -110904,17 +87616,6 @@ class XRPEUR(Symbol):
 
 
 XRPEUR = XRPEUR(*XRPEUR._fields)
-"""
-    name: XRPEUR
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPGBP(Symbol):
@@ -110956,17 +87657,6 @@ class XRPGBP(Symbol):
 
 
 XRPGBP = XRPGBP(*XRPGBP._fields)
-"""
-    name: XRPGBP
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPNGN(Symbol):
@@ -111008,17 +87698,6 @@ class XRPNGN(Symbol):
 
 
 XRPNGN = XRPNGN(*XRPNGN._fields)
-"""
-    name: XRPNGN
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500.00000000
-    max_order_size: 900000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPPAX(Symbol):
@@ -111060,17 +87739,6 @@ class XRPPAX(Symbol):
 
 
 XRPPAX = XRPPAX(*XRPPAX._fields)
-"""
-    name: XRPPAX
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPRUB(Symbol):
@@ -111112,17 +87780,6 @@ class XRPRUB(Symbol):
 
 
 XRPRUB = XRPRUB(*XRPRUB._fields)
-"""
-    name: XRPRUB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPTRY(Symbol):
@@ -111164,17 +87821,6 @@ class XRPTRY(Symbol):
 
 
 XRPTRY = XRPTRY(*XRPTRY._fields)
-"""
-    name: XRPTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPTUSD(Symbol):
@@ -111216,17 +87862,6 @@ class XRPTUSD(Symbol):
 
 
 XRPTUSD = XRPTUSD(*XRPTUSD._fields)
-"""
-    name: XRPTUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPUPUSDT(Symbol):
@@ -111268,17 +87903,6 @@ class XRPUPUSDT(Symbol):
 
 
 XRPUPUSDT = XRPUPUSDT(*XRPUPUSDT._fields)
-"""
-    name: XRPUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPUSDC(Symbol):
@@ -111320,17 +87944,6 @@ class XRPUSDC(Symbol):
 
 
 XRPUSDC = XRPUSDC(*XRPUSDC._fields)
-"""
-    name: XRPUSDC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XRPUSDT(Symbol):
@@ -111372,17 +87985,6 @@ class XRPUSDT(Symbol):
 
 
 XRPUSDT = XRPUSDT(*XRPUSDT._fields)
-"""
-    name: XRPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XTZBNB(Symbol):
@@ -111424,17 +88026,6 @@ class XTZBNB(Symbol):
 
 
 XTZBNB = XTZBNB(*XTZBNB._fields)
-"""
-    name: XTZBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XTZBTC(Symbol):
@@ -111476,17 +88067,6 @@ class XTZBTC(Symbol):
 
 
 XTZBTC = XTZBTC(*XTZBTC._fields)
-"""
-    name: XTZBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XTZBUSD(Symbol):
@@ -111528,17 +88108,6 @@ class XTZBUSD(Symbol):
 
 
 XTZBUSD = XTZBUSD(*XTZBUSD._fields)
-"""
-    name: XTZBUSD
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XTZDOWNUSDT(Symbol):
@@ -111580,17 +88149,6 @@ class XTZDOWNUSDT(Symbol):
 
 
 XTZDOWNUSDT = XTZDOWNUSDT(*XTZDOWNUSDT._fields)
-"""
-    name: XTZDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XTZETH(Symbol):
@@ -111632,17 +88190,6 @@ class XTZETH(Symbol):
 
 
 XTZETH = XTZETH(*XTZETH._fields)
-"""
-    name: XTZETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XTZTRY(Symbol):
@@ -111684,17 +88231,6 @@ class XTZTRY(Symbol):
 
 
 XTZTRY = XTZTRY(*XTZTRY._fields)
-"""
-    name: XTZTRY
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XTZUPUSDT(Symbol):
@@ -111736,17 +88272,6 @@ class XTZUPUSDT(Symbol):
 
 
 XTZUPUSDT = XTZUPUSDT(*XTZUPUSDT._fields)
-"""
-    name: XTZUPUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XTZUSDT(Symbol):
@@ -111788,17 +88313,6 @@ class XTZUSDT(Symbol):
 
 
 XTZUSDT = XTZUSDT(*XTZUSDT._fields)
-"""
-    name: XTZUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XVGBTC(Symbol):
@@ -111840,17 +88354,6 @@ class XVGBTC(Symbol):
 
 
 XVGBTC = XVGBTC(*XVGBTC._fields)
-"""
-    name: XVGBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVGBUSD(Symbol):
@@ -111892,17 +88395,6 @@ class XVGBUSD(Symbol):
 
 
 XVGBUSD = XVGBUSD(*XVGBUSD._fields)
-"""
-    name: XVGBUSD
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVGETH(Symbol):
@@ -111944,17 +88436,6 @@ class XVGETH(Symbol):
 
 
 XVGETH = XVGETH(*XVGETH._fields)
-"""
-    name: XVGETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVGUSDT(Symbol):
@@ -111996,17 +88477,6 @@ class XVGUSDT(Symbol):
 
 
 XVGUSDT = XVGUSDT(*XVGUSDT._fields)
-"""
-    name: XVGUSDT
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVSBNB(Symbol):
@@ -112048,17 +88518,6 @@ class XVSBNB(Symbol):
 
 
 XVSBNB = XVSBNB(*XVSBNB._fields)
-"""
-    name: XVSBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVSBTC(Symbol):
@@ -112100,17 +88559,6 @@ class XVSBTC(Symbol):
 
 
 XVSBTC = XVSBTC(*XVSBTC._fields)
-"""
-    name: XVSBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVSBUSD(Symbol):
@@ -112152,17 +88600,6 @@ class XVSBUSD(Symbol):
 
 
 XVSBUSD = XVSBUSD(*XVSBUSD._fields)
-"""
-    name: XVSBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVSTRY(Symbol):
@@ -112204,17 +88641,6 @@ class XVSTRY(Symbol):
 
 
 XVSTRY = XVSTRY(*XVSTRY._fields)
-"""
-    name: XVSTRY
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XVSUSDT(Symbol):
@@ -112256,17 +88682,6 @@ class XVSUSDT(Symbol):
 
 
 XVSUSDT = XVSUSDT(*XVSUSDT._fields)
-"""
-    name: XVSUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class XZCBNB(Symbol):
@@ -112308,17 +88723,6 @@ class XZCBNB(Symbol):
 
 
 XZCBNB = XZCBNB(*XZCBNB._fields)
-"""
-    name: XZCBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XZCBTC(Symbol):
@@ -112360,17 +88764,6 @@ class XZCBTC(Symbol):
 
 
 XZCBTC = XZCBTC(*XZCBTC._fields)
-"""
-    name: XZCBTC
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XZCETH(Symbol):
@@ -112412,17 +88805,6 @@ class XZCETH(Symbol):
 
 
 XZCETH = XZCETH(*XZCETH._fields)
-"""
-    name: XZCETH
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XZCUSDT(Symbol):
@@ -112464,17 +88846,6 @@ class XZCUSDT(Symbol):
 
 
 XZCUSDT = XZCUSDT(*XZCUSDT._fields)
-"""
-    name: XZCUSDT
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class XZCXRP(Symbol):
@@ -112516,17 +88887,6 @@ class XZCXRP(Symbol):
 
 
 XZCXRP = XZCXRP(*XZCXRP._fields)
-"""
-    name: XZCXRP
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIBNB(Symbol):
@@ -112568,17 +88928,6 @@ class YFIBNB(Symbol):
 
 
 YFIBNB = YFIBNB(*YFIBNB._fields)
-"""
-    name: YFIBNB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIBTC(Symbol):
@@ -112620,17 +88969,6 @@ class YFIBTC(Symbol):
 
 
 YFIBTC = YFIBTC(*YFIBTC._fields)
-"""
-    name: YFIBTC
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIBUSD(Symbol):
@@ -112672,17 +89010,6 @@ class YFIBUSD(Symbol):
 
 
 YFIBUSD = YFIBUSD(*YFIBUSD._fields)
-"""
-    name: YFIBUSD
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIDOWNUSDT(Symbol):
@@ -112724,17 +89051,6 @@ class YFIDOWNUSDT(Symbol):
 
 
 YFIDOWNUSDT = YFIDOWNUSDT(*YFIDOWNUSDT._fields)
-"""
-    name: YFIDOWNUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIEUR(Symbol):
@@ -112776,17 +89092,6 @@ class YFIEUR(Symbol):
 
 
 YFIEUR = YFIEUR(*YFIEUR._fields)
-"""
-    name: YFIEUR
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIIBNB(Symbol):
@@ -112828,17 +89133,6 @@ class YFIIBNB(Symbol):
 
 
 YFIIBNB = YFIIBNB(*YFIIBNB._fields)
-"""
-    name: YFIIBNB
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIIBTC(Symbol):
@@ -112880,17 +89174,6 @@ class YFIIBTC(Symbol):
 
 
 YFIIBTC = YFIIBTC(*YFIIBTC._fields)
-"""
-    name: YFIIBTC
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIIBUSD(Symbol):
@@ -112932,17 +89215,6 @@ class YFIIBUSD(Symbol):
 
 
 YFIIBUSD = YFIIBUSD(*YFIIBUSD._fields)
-"""
-    name: YFIIBUSD
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIIUSDT(Symbol):
@@ -112984,17 +89256,6 @@ class YFIIUSDT(Symbol):
 
 
 YFIIUSDT = YFIIUSDT(*YFIIUSDT._fields)
-"""
-    name: YFIIUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIUPUSDT(Symbol):
@@ -113036,17 +89297,6 @@ class YFIUPUSDT(Symbol):
 
 
 YFIUPUSDT = YFIUPUSDT(*YFIUPUSDT._fields)
-"""
-    name: YFIUPUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YFIUSDT(Symbol):
@@ -113088,17 +89338,6 @@ class YFIUSDT(Symbol):
 
 
 YFIUSDT = YFIUSDT(*YFIUSDT._fields)
-"""
-    name: YFIUSDT
-    significant_digits: None
-    tick_size: 1.00000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class YGGBNB(Symbol):
@@ -113140,17 +89379,6 @@ class YGGBNB(Symbol):
 
 
 YGGBNB = YGGBNB(*YGGBNB._fields)
-"""
-    name: YGGBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YGGBTC(Symbol):
@@ -113192,17 +89420,6 @@ class YGGBTC(Symbol):
 
 
 YGGBTC = YGGBTC(*YGGBTC._fields)
-"""
-    name: YGGBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YGGBUSD(Symbol):
@@ -113244,17 +89461,6 @@ class YGGBUSD(Symbol):
 
 
 YGGBUSD = YGGBUSD(*YGGBUSD._fields)
-"""
-    name: YGGBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class YGGUSDT(Symbol):
@@ -113296,17 +89502,6 @@ class YGGUSDT(Symbol):
 
 
 YGGUSDT = YGGUSDT(*YGGUSDT._fields)
-"""
-    name: YGGUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class YOYOBNB(Symbol):
@@ -113348,17 +89543,6 @@ class YOYOBNB(Symbol):
 
 
 YOYOBNB = YOYOBNB(*YOYOBNB._fields)
-"""
-    name: YOYOBNB
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YOYOBTC(Symbol):
@@ -113400,17 +89584,6 @@ class YOYOBTC(Symbol):
 
 
 YOYOBTC = YOYOBTC(*YOYOBTC._fields)
-"""
-    name: YOYOBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class YOYOETH(Symbol):
@@ -113452,17 +89625,6 @@ class YOYOETH(Symbol):
 
 
 YOYOETH = YOYOETH(*YOYOETH._fields)
-"""
-    name: YOYOETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECBNB(Symbol):
@@ -113504,17 +89666,6 @@ class ZECBNB(Symbol):
 
 
 ZECBNB = ZECBNB(*ZECBNB._fields)
-"""
-    name: ZECBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECBTC(Symbol):
@@ -113556,17 +89707,6 @@ class ZECBTC(Symbol):
 
 
 ZECBTC = ZECBTC(*ZECBTC._fields)
-"""
-    name: ZECBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZECBUSD(Symbol):
@@ -113608,17 +89748,6 @@ class ZECBUSD(Symbol):
 
 
 ZECBUSD = ZECBUSD(*ZECBUSD._fields)
-"""
-    name: ZECBUSD
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECETH(Symbol):
@@ -113660,17 +89789,6 @@ class ZECETH(Symbol):
 
 
 ZECETH = ZECETH(*ZECETH._fields)
-"""
-    name: ZECETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECPAX(Symbol):
@@ -113712,17 +89830,6 @@ class ZECPAX(Symbol):
 
 
 ZECPAX = ZECPAX(*ZECPAX._fields)
-"""
-    name: ZECPAX
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECTUSD(Symbol):
@@ -113764,17 +89871,6 @@ class ZECTUSD(Symbol):
 
 
 ZECTUSD = ZECTUSD(*ZECTUSD._fields)
-"""
-    name: ZECTUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECUSDC(Symbol):
@@ -113816,17 +89912,6 @@ class ZECUSDC(Symbol):
 
 
 ZECUSDC = ZECUSDC(*ZECUSDC._fields)
-"""
-    name: ZECUSDC
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZECUSDT(Symbol):
@@ -113868,17 +89953,6 @@ class ZECUSDT(Symbol):
 
 
 ZECUSDT = ZECUSDT(*ZECUSDT._fields)
-"""
-    name: ZECUSDT
-    significant_digits: None
-    tick_size: 0.10000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZENBNB(Symbol):
@@ -113920,17 +89994,6 @@ class ZENBNB(Symbol):
 
 
 ZENBNB = ZENBNB(*ZENBNB._fields)
-"""
-    name: ZENBNB
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZENBTC(Symbol):
@@ -113972,17 +90035,6 @@ class ZENBTC(Symbol):
 
 
 ZENBTC = ZENBTC(*ZENBTC._fields)
-"""
-    name: ZENBTC
-    significant_digits: None
-    tick_size: 0.00000100
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZENBUSD(Symbol):
@@ -114024,17 +90076,6 @@ class ZENBUSD(Symbol):
 
 
 ZENBUSD = ZENBUSD(*ZENBUSD._fields)
-"""
-    name: ZENBUSD
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZENETH(Symbol):
@@ -114076,17 +90117,6 @@ class ZENETH(Symbol):
 
 
 ZENETH = ZENETH(*ZENETH._fields)
-"""
-    name: ZENETH
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZENUSDT(Symbol):
@@ -114128,17 +90158,6 @@ class ZENUSDT(Symbol):
 
 
 ZENUSDT = ZENUSDT(*ZENUSDT._fields)
-"""
-    name: ZENUSDT
-    significant_digits: None
-    tick_size: 0.01000000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZILBIDR(Symbol):
@@ -114180,17 +90199,6 @@ class ZILBIDR(Symbol):
 
 
 ZILBIDR = ZILBIDR(*ZILBIDR._fields)
-"""
-    name: ZILBIDR
-    significant_digits: None
-    tick_size: 1.00
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20000.00
-    max_order_size: 9000000000.00
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZILBNB(Symbol):
@@ -114232,17 +90240,6 @@ class ZILBNB(Symbol):
 
 
 ZILBNB = ZILBNB(*ZILBNB._fields)
-"""
-    name: ZILBNB
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZILBTC(Symbol):
@@ -114284,17 +90281,6 @@ class ZILBTC(Symbol):
 
 
 ZILBTC = ZILBTC(*ZILBTC._fields)
-"""
-    name: ZILBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZILBUSD(Symbol):
@@ -114336,17 +90322,6 @@ class ZILBUSD(Symbol):
 
 
 ZILBUSD = ZILBUSD(*ZILBUSD._fields)
-"""
-    name: ZILBUSD
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZILETH(Symbol):
@@ -114388,17 +90363,6 @@ class ZILETH(Symbol):
 
 
 ZILETH = ZILETH(*ZILETH._fields)
-"""
-    name: ZILETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZILEUR(Symbol):
@@ -114440,17 +90404,6 @@ class ZILEUR(Symbol):
 
 
 ZILEUR = ZILEUR(*ZILEUR._fields)
-"""
-    name: ZILEUR
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZILTRY(Symbol):
@@ -114492,17 +90445,6 @@ class ZILTRY(Symbol):
 
 
 ZILTRY = ZILTRY(*ZILTRY._fields)
-"""
-    name: ZILTRY
-    significant_digits: None
-    tick_size: 0.00100000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 90000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZILUSDT(Symbol):
@@ -114544,17 +90486,6 @@ class ZILUSDT(Symbol):
 
 
 ZILUSDT = ZILUSDT(*ZILUSDT._fields)
-"""
-    name: ZILUSDT
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZRXBNB(Symbol):
@@ -114596,17 +90527,6 @@ class ZRXBNB(Symbol):
 
 
 ZRXBNB = ZRXBNB(*ZRXBNB._fields)
-"""
-    name: ZRXBNB
-    significant_digits: None
-    tick_size: 0.00001000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZRXBTC(Symbol):
@@ -114648,17 +90568,6 @@ class ZRXBTC(Symbol):
 
 
 ZRXBTC = ZRXBTC(*ZRXBTC._fields)
-"""
-    name: ZRXBTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00010000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
 
 
 class ZRXBUSD(Symbol):
@@ -114700,17 +90609,6 @@ class ZRXBUSD(Symbol):
 
 
 ZRXBUSD = ZRXBUSD(*ZRXBUSD._fields)
-"""
-    name: ZRXBUSD
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZRXETH(Symbol):
@@ -114752,17 +90650,6 @@ class ZRXETH(Symbol):
 
 
 ZRXETH = ZRXETH(*ZRXETH._fields)
-"""
-    name: ZRXETH
-    significant_digits: None
-    tick_size: 0.00000010
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00500000
-    max_order_size: 9000000.00000000
-    has_margin: False
-    exchange: binance
-"""
 
 
 class ZRXUSDT(Symbol):
@@ -114804,14 +90691,2224 @@ class ZRXUSDT(Symbol):
 
 
 ZRXUSDT = ZRXUSDT(*ZRXUSDT._fields)
-"""
-    name: ZRXUSDT
-    significant_digits: None
-    tick_size: 0.00010000
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10.00000000
-    max_order_size: 9000000.00000000
-    has_margin: True
-    exchange: binance
-"""
+
+
+class Binance:
+
+    ONEINCHBTC: Symbol = ONEINCHBTC
+    ONEINCHBUSD: Symbol = ONEINCHBUSD
+    ONEINCHDOWNUSDT: Symbol = ONEINCHDOWNUSDT
+    ONEINCHUPUSDT: Symbol = ONEINCHUPUSDT
+    ONEINCHUSDT: Symbol = ONEINCHUSDT
+    AAVEBKRW: Symbol = AAVEBKRW
+    AAVEBNB: Symbol = AAVEBNB
+    AAVEBRL: Symbol = AAVEBRL
+    AAVEBTC: Symbol = AAVEBTC
+    AAVEBUSD: Symbol = AAVEBUSD
+    AAVEDOWNUSDT: Symbol = AAVEDOWNUSDT
+    AAVEETH: Symbol = AAVEETH
+    AAVEUPUSDT: Symbol = AAVEUPUSDT
+    AAVEUSDT: Symbol = AAVEUSDT
+    ACABTC: Symbol = ACABTC
+    ACABUSD: Symbol = ACABUSD
+    ACAUSDT: Symbol = ACAUSDT
+    ACHBTC: Symbol = ACHBTC
+    ACHBUSD: Symbol = ACHBUSD
+    ACHTRY: Symbol = ACHTRY
+    ACHUSDT: Symbol = ACHUSDT
+    ACMBTC: Symbol = ACMBTC
+    ACMBUSD: Symbol = ACMBUSD
+    ACMUSDT: Symbol = ACMUSDT
+    ADAAUD: Symbol = ADAAUD
+    ADABIDR: Symbol = ADABIDR
+    ADABKRW: Symbol = ADABKRW
+    ADABNB: Symbol = ADABNB
+    ADABRL: Symbol = ADABRL
+    ADABTC: Symbol = ADABTC
+    ADABUSD: Symbol = ADABUSD
+    ADADOWNUSDT: Symbol = ADADOWNUSDT
+    ADAETH: Symbol = ADAETH
+    ADAEUR: Symbol = ADAEUR
+    ADAGBP: Symbol = ADAGBP
+    ADAPAX: Symbol = ADAPAX
+    ADARUB: Symbol = ADARUB
+    ADATRY: Symbol = ADATRY
+    ADATUSD: Symbol = ADATUSD
+    ADAUPUSDT: Symbol = ADAUPUSDT
+    ADAUSDC: Symbol = ADAUSDC
+    ADAUSDT: Symbol = ADAUSDT
+    ADXBNB: Symbol = ADXBNB
+    ADXBTC: Symbol = ADXBTC
+    ADXBUSD: Symbol = ADXBUSD
+    ADXETH: Symbol = ADXETH
+    ADXUSDT: Symbol = ADXUSDT
+    AEBNB: Symbol = AEBNB
+    AEBTC: Symbol = AEBTC
+    AEETH: Symbol = AEETH
+    AERGOBTC: Symbol = AERGOBTC
+    AERGOBUSD: Symbol = AERGOBUSD
+    AERGOUSDT: Symbol = AERGOUSDT
+    AGIBNB: Symbol = AGIBNB
+    AGIBTC: Symbol = AGIBTC
+    AGIETH: Symbol = AGIETH
+    AGIXBTC: Symbol = AGIXBTC
+    AGIXBUSD: Symbol = AGIXBUSD
+    AGIXTRY: Symbol = AGIXTRY
+    AGIXUSDT: Symbol = AGIXUSDT
+    AGLDBNB: Symbol = AGLDBNB
+    AGLDBTC: Symbol = AGLDBTC
+    AGLDBUSD: Symbol = AGLDBUSD
+    AGLDUSDT: Symbol = AGLDUSDT
+    AIONBNB: Symbol = AIONBNB
+    AIONBTC: Symbol = AIONBTC
+    AIONBUSD: Symbol = AIONBUSD
+    AIONETH: Symbol = AIONETH
+    AIONUSDT: Symbol = AIONUSDT
+    AKROBTC: Symbol = AKROBTC
+    AKROBUSD: Symbol = AKROBUSD
+    AKROUSDT: Symbol = AKROUSDT
+    ALCXBTC: Symbol = ALCXBTC
+    ALCXBUSD: Symbol = ALCXBUSD
+    ALCXUSDT: Symbol = ALCXUSDT
+    ALGOBIDR: Symbol = ALGOBIDR
+    ALGOBNB: Symbol = ALGOBNB
+    ALGOBTC: Symbol = ALGOBTC
+    ALGOBUSD: Symbol = ALGOBUSD
+    ALGOETH: Symbol = ALGOETH
+    ALGOPAX: Symbol = ALGOPAX
+    ALGORUB: Symbol = ALGORUB
+    ALGOTRY: Symbol = ALGOTRY
+    ALGOTUSD: Symbol = ALGOTUSD
+    ALGOUSDC: Symbol = ALGOUSDC
+    ALGOUSDT: Symbol = ALGOUSDT
+    ALICEBIDR: Symbol = ALICEBIDR
+    ALICEBNB: Symbol = ALICEBNB
+    ALICEBTC: Symbol = ALICEBTC
+    ALICEBUSD: Symbol = ALICEBUSD
+    ALICETRY: Symbol = ALICETRY
+    ALICEUSDT: Symbol = ALICEUSDT
+    ALPACABNB: Symbol = ALPACABNB
+    ALPACABTC: Symbol = ALPACABTC
+    ALPACABUSD: Symbol = ALPACABUSD
+    ALPACAUSDT: Symbol = ALPACAUSDT
+    ALPHABNB: Symbol = ALPHABNB
+    ALPHABTC: Symbol = ALPHABTC
+    ALPHABUSD: Symbol = ALPHABUSD
+    ALPHAUSDT: Symbol = ALPHAUSDT
+    ALPINEBTC: Symbol = ALPINEBTC
+    ALPINEBUSD: Symbol = ALPINEBUSD
+    ALPINEEUR: Symbol = ALPINEEUR
+    ALPINETRY: Symbol = ALPINETRY
+    ALPINEUSDT: Symbol = ALPINEUSDT
+    AMBBNB: Symbol = AMBBNB
+    AMBBTC: Symbol = AMBBTC
+    AMBBUSD: Symbol = AMBBUSD
+    AMBETH: Symbol = AMBETH
+    AMBUSDT: Symbol = AMBUSDT
+    AMPBNB: Symbol = AMPBNB
+    AMPBTC: Symbol = AMPBTC
+    AMPBUSD: Symbol = AMPBUSD
+    AMPUSDT: Symbol = AMPUSDT
+    ANCBNB: Symbol = ANCBNB
+    ANCBTC: Symbol = ANCBTC
+    ANCBUSD: Symbol = ANCBUSD
+    ANCUSDT: Symbol = ANCUSDT
+    ANKRBNB: Symbol = ANKRBNB
+    ANKRBTC: Symbol = ANKRBTC
+    ANKRBUSD: Symbol = ANKRBUSD
+    ANKRPAX: Symbol = ANKRPAX
+    ANKRTRY: Symbol = ANKRTRY
+    ANKRTUSD: Symbol = ANKRTUSD
+    ANKRUSDC: Symbol = ANKRUSDC
+    ANKRUSDT: Symbol = ANKRUSDT
+    ANTBNB: Symbol = ANTBNB
+    ANTBTC: Symbol = ANTBTC
+    ANTBUSD: Symbol = ANTBUSD
+    ANTUSDT: Symbol = ANTUSDT
+    ANYBTC: Symbol = ANYBTC
+    ANYBUSD: Symbol = ANYBUSD
+    ANYUSDT: Symbol = ANYUSDT
+    APEAUD: Symbol = APEAUD
+    APEBNB: Symbol = APEBNB
+    APEBRL: Symbol = APEBRL
+    APEBTC: Symbol = APEBTC
+    APEBUSD: Symbol = APEBUSD
+    APEETH: Symbol = APEETH
+    APEEUR: Symbol = APEEUR
+    APEGBP: Symbol = APEGBP
+    APETRY: Symbol = APETRY
+    APEUSDT: Symbol = APEUSDT
+    API3BNB: Symbol = API3BNB
+    API3BTC: Symbol = API3BTC
+    API3BUSD: Symbol = API3BUSD
+    API3TRY: Symbol = API3TRY
+    API3USDT: Symbol = API3USDT
+    APPCBNB: Symbol = APPCBNB
+    APPCBTC: Symbol = APPCBTC
+    APPCETH: Symbol = APPCETH
+    APTBRL: Symbol = APTBRL
+    APTBTC: Symbol = APTBTC
+    APTBUSD: Symbol = APTBUSD
+    APTETH: Symbol = APTETH
+    APTEUR: Symbol = APTEUR
+    APTTRY: Symbol = APTTRY
+    APTUSDT: Symbol = APTUSDT
+    ARBBTC: Symbol = ARBBTC
+    ARBEUR: Symbol = ARBEUR
+    ARBNB: Symbol = ARBNB
+    ARBRUB: Symbol = ARBRUB
+    ARBTC: Symbol = ARBTC
+    ARBTRY: Symbol = ARBTRY
+    ARBTUSD: Symbol = ARBTUSD
+    ARBUSD: Symbol = ARBUSD
+    ARBUSDT: Symbol = ARBUSDT
+    ARDRBNB: Symbol = ARDRBNB
+    ARDRBTC: Symbol = ARDRBTC
+    ARDRETH: Symbol = ARDRETH
+    ARDRUSDT: Symbol = ARDRUSDT
+    ARKBTC: Symbol = ARKBTC
+    ARKBUSD: Symbol = ARKBUSD
+    ARKETH: Symbol = ARKETH
+    ARNBTC: Symbol = ARNBTC
+    ARNETH: Symbol = ARNETH
+    ARPABNB: Symbol = ARPABNB
+    ARPABTC: Symbol = ARPABTC
+    ARPABUSD: Symbol = ARPABUSD
+    ARPAETH: Symbol = ARPAETH
+    ARPARUB: Symbol = ARPARUB
+    ARPATRY: Symbol = ARPATRY
+    ARPAUSDT: Symbol = ARPAUSDT
+    ARUSDT: Symbol = ARUSDT
+    ASRBTC: Symbol = ASRBTC
+    ASRBUSD: Symbol = ASRBUSD
+    ASRUSDT: Symbol = ASRUSDT
+    ASTBTC: Symbol = ASTBTC
+    ASTETH: Symbol = ASTETH
+    ASTRBTC: Symbol = ASTRBTC
+    ASTRBUSD: Symbol = ASTRBUSD
+    ASTRETH: Symbol = ASTRETH
+    ASTRUSDT: Symbol = ASTRUSDT
+    ATABNB: Symbol = ATABNB
+    ATABTC: Symbol = ATABTC
+    ATABUSD: Symbol = ATABUSD
+    ATAUSDT: Symbol = ATAUSDT
+    ATMBTC: Symbol = ATMBTC
+    ATMBUSD: Symbol = ATMBUSD
+    ATMUSDT: Symbol = ATMUSDT
+    ATOMBIDR: Symbol = ATOMBIDR
+    ATOMBNB: Symbol = ATOMBNB
+    ATOMBRL: Symbol = ATOMBRL
+    ATOMBTC: Symbol = ATOMBTC
+    ATOMBUSD: Symbol = ATOMBUSD
+    ATOMETH: Symbol = ATOMETH
+    ATOMEUR: Symbol = ATOMEUR
+    ATOMPAX: Symbol = ATOMPAX
+    ATOMTRY: Symbol = ATOMTRY
+    ATOMTUSD: Symbol = ATOMTUSD
+    ATOMUSDC: Symbol = ATOMUSDC
+    ATOMUSDT: Symbol = ATOMUSDT
+    AUCTIONBTC: Symbol = AUCTIONBTC
+    AUCTIONBUSD: Symbol = AUCTIONBUSD
+    AUCTIONUSDT: Symbol = AUCTIONUSDT
+    AUDBUSD: Symbol = AUDBUSD
+    AUDIOBTC: Symbol = AUDIOBTC
+    AUDIOBUSD: Symbol = AUDIOBUSD
+    AUDIOTRY: Symbol = AUDIOTRY
+    AUDIOUSDT: Symbol = AUDIOUSDT
+    AUDUSDC: Symbol = AUDUSDC
+    AUDUSDT: Symbol = AUDUSDT
+    AUTOBTC: Symbol = AUTOBTC
+    AUTOBUSD: Symbol = AUTOBUSD
+    AUTOUSDT: Symbol = AUTOUSDT
+    AVABNB: Symbol = AVABNB
+    AVABTC: Symbol = AVABTC
+    AVABUSD: Symbol = AVABUSD
+    AVAUSDT: Symbol = AVAUSDT
+    AVAXAUD: Symbol = AVAXAUD
+    AVAXBIDR: Symbol = AVAXBIDR
+    AVAXBNB: Symbol = AVAXBNB
+    AVAXBRL: Symbol = AVAXBRL
+    AVAXBTC: Symbol = AVAXBTC
+    AVAXBUSD: Symbol = AVAXBUSD
+    AVAXETH: Symbol = AVAXETH
+    AVAXEUR: Symbol = AVAXEUR
+    AVAXGBP: Symbol = AVAXGBP
+    AVAXTRY: Symbol = AVAXTRY
+    AVAXUSDT: Symbol = AVAXUSDT
+    AXSAUD: Symbol = AXSAUD
+    AXSBNB: Symbol = AXSBNB
+    AXSBRL: Symbol = AXSBRL
+    AXSBTC: Symbol = AXSBTC
+    AXSBUSD: Symbol = AXSBUSD
+    AXSETH: Symbol = AXSETH
+    AXSTRY: Symbol = AXSTRY
+    AXSUSDT: Symbol = AXSUSDT
+    BADGERBTC: Symbol = BADGERBTC
+    BADGERBUSD: Symbol = BADGERBUSD
+    BADGERUSDT: Symbol = BADGERUSDT
+    BAKEBNB: Symbol = BAKEBNB
+    BAKEBTC: Symbol = BAKEBTC
+    BAKEBUSD: Symbol = BAKEBUSD
+    BAKEUSDT: Symbol = BAKEUSDT
+    BALBNB: Symbol = BALBNB
+    BALBTC: Symbol = BALBTC
+    BALBUSD: Symbol = BALBUSD
+    BALUSDT: Symbol = BALUSDT
+    BANDBNB: Symbol = BANDBNB
+    BANDBTC: Symbol = BANDBTC
+    BANDBUSD: Symbol = BANDBUSD
+    BANDUSDT: Symbol = BANDUSDT
+    BARBTC: Symbol = BARBTC
+    BARBUSD: Symbol = BARBUSD
+    BARUSDT: Symbol = BARUSDT
+    BATBNB: Symbol = BATBNB
+    BATBTC: Symbol = BATBTC
+    BATBUSD: Symbol = BATBUSD
+    BATETH: Symbol = BATETH
+    BATPAX: Symbol = BATPAX
+    BATTUSD: Symbol = BATTUSD
+    BATUSDC: Symbol = BATUSDC
+    BATUSDT: Symbol = BATUSDT
+    BCCBNB: Symbol = BCCBNB
+    BCCBTC: Symbol = BCCBTC
+    BCCETH: Symbol = BCCETH
+    BCCUSDT: Symbol = BCCUSDT
+    BCDBTC: Symbol = BCDBTC
+    BCDETH: Symbol = BCDETH
+    BCHABCBTC: Symbol = BCHABCBTC
+    BCHABCBUSD: Symbol = BCHABCBUSD
+    BCHABCPAX: Symbol = BCHABCPAX
+    BCHABCTUSD: Symbol = BCHABCTUSD
+    BCHABCUSDC: Symbol = BCHABCUSDC
+    BCHABCUSDT: Symbol = BCHABCUSDT
+    BCHABUSD: Symbol = BCHABUSD
+    BCHBNB: Symbol = BCHBNB
+    BCHBTC: Symbol = BCHBTC
+    BCHBUSD: Symbol = BCHBUSD
+    BCHDOWNUSDT: Symbol = BCHDOWNUSDT
+    BCHEUR: Symbol = BCHEUR
+    BCHPAX: Symbol = BCHPAX
+    BCHSVBTC: Symbol = BCHSVBTC
+    BCHSVPAX: Symbol = BCHSVPAX
+    BCHSVTUSD: Symbol = BCHSVTUSD
+    BCHSVUSDC: Symbol = BCHSVUSDC
+    BCHSVUSDT: Symbol = BCHSVUSDT
+    BCHTUSD: Symbol = BCHTUSD
+    BCHUPUSDT: Symbol = BCHUPUSDT
+    BCHUSDC: Symbol = BCHUSDC
+    BCHUSDT: Symbol = BCHUSDT
+    BCNBNB: Symbol = BCNBNB
+    BCNBTC: Symbol = BCNBTC
+    BCNETH: Symbol = BCNETH
+    BCPTBNB: Symbol = BCPTBNB
+    BCPTBTC: Symbol = BCPTBTC
+    BCPTETH: Symbol = BCPTETH
+    BCPTPAX: Symbol = BCPTPAX
+    BCPTTUSD: Symbol = BCPTTUSD
+    BCPTUSDC: Symbol = BCPTUSDC
+    BDOTDOT: Symbol = BDOTDOT
+    BEAMBNB: Symbol = BEAMBNB
+    BEAMBTC: Symbol = BEAMBTC
+    BEAMUSDT: Symbol = BEAMUSDT
+    BEARBUSD: Symbol = BEARBUSD
+    BEARUSDT: Symbol = BEARUSDT
+    BELBNB: Symbol = BELBNB
+    BELBTC: Symbol = BELBTC
+    BELBUSD: Symbol = BELBUSD
+    BELETH: Symbol = BELETH
+    BELTRY: Symbol = BELTRY
+    BELUSDT: Symbol = BELUSDT
+    BETABNB: Symbol = BETABNB
+    BETABTC: Symbol = BETABTC
+    BETABUSD: Symbol = BETABUSD
+    BETAETH: Symbol = BETAETH
+    BETAUSDT: Symbol = BETAUSDT
+    BETHBUSD: Symbol = BETHBUSD
+    BETHETH: Symbol = BETHETH
+    BETHUSDT: Symbol = BETHUSDT
+    BGBPUSDC: Symbol = BGBPUSDC
+    BICOBTC: Symbol = BICOBTC
+    BICOBUSD: Symbol = BICOBUSD
+    BICOUSDT: Symbol = BICOUSDT
+    BIFIBNB: Symbol = BIFIBNB
+    BIFIBUSD: Symbol = BIFIBUSD
+    BIFIUSDT: Symbol = BIFIUSDT
+    BKRWBUSD: Symbol = BKRWBUSD
+    BKRWUSDT: Symbol = BKRWUSDT
+    BLZBNB: Symbol = BLZBNB
+    BLZBTC: Symbol = BLZBTC
+    BLZBUSD: Symbol = BLZBUSD
+    BLZETH: Symbol = BLZETH
+    BLZUSDT: Symbol = BLZUSDT
+    BNBAUD: Symbol = BNBAUD
+    BNBBEARBUSD: Symbol = BNBBEARBUSD
+    BNBBEARUSDT: Symbol = BNBBEARUSDT
+    BNBBIDR: Symbol = BNBBIDR
+    BNBBKRW: Symbol = BNBBKRW
+    BNBBRL: Symbol = BNBBRL
+    BNBBTC: Symbol = BNBBTC
+    BNBBULLBUSD: Symbol = BNBBULLBUSD
+    BNBBULLUSDT: Symbol = BNBBULLUSDT
+    BNBBUSD: Symbol = BNBBUSD
+    BNBDAI: Symbol = BNBDAI
+    BNBDOWNUSDT: Symbol = BNBDOWNUSDT
+    BNBETH: Symbol = BNBETH
+    BNBEUR: Symbol = BNBEUR
+    BNBGBP: Symbol = BNBGBP
+    BNBIDRT: Symbol = BNBIDRT
+    BNBNGN: Symbol = BNBNGN
+    BNBPAX: Symbol = BNBPAX
+    BNBRUB: Symbol = BNBRUB
+    BNBTRY: Symbol = BNBTRY
+    BNBTUSD: Symbol = BNBTUSD
+    BNBUAH: Symbol = BNBUAH
+    BNBUPUSDT: Symbol = BNBUPUSDT
+    BNBUSDC: Symbol = BNBUSDC
+    BNBUSDP: Symbol = BNBUSDP
+    BNBUSDS: Symbol = BNBUSDS
+    BNBUSDT: Symbol = BNBUSDT
+    BNBUST: Symbol = BNBUST
+    BNBZAR: Symbol = BNBZAR
+    BNTBTC: Symbol = BNTBTC
+    BNTBUSD: Symbol = BNTBUSD
+    BNTETH: Symbol = BNTETH
+    BNTUSDT: Symbol = BNTUSDT
+    BNXBNB: Symbol = BNXBNB
+    BNXBTC: Symbol = BNXBTC
+    BNXBUSD: Symbol = BNXBUSD
+    BNXUSDT: Symbol = BNXUSDT
+    BONDBNB: Symbol = BONDBNB
+    BONDBTC: Symbol = BONDBTC
+    BONDBUSD: Symbol = BONDBUSD
+    BONDETH: Symbol = BONDETH
+    BONDUSDT: Symbol = BONDUSDT
+    BOTBTC: Symbol = BOTBTC
+    BOTBUSD: Symbol = BOTBUSD
+    BQXBTC: Symbol = BQXBTC
+    BQXETH: Symbol = BQXETH
+    BRDBNB: Symbol = BRDBNB
+    BRDBTC: Symbol = BRDBTC
+    BRDETH: Symbol = BRDETH
+    BSWBNB: Symbol = BSWBNB
+    BSWBUSD: Symbol = BSWBUSD
+    BSWETH: Symbol = BSWETH
+    BSWTRY: Symbol = BSWTRY
+    BSWUSDT: Symbol = BSWUSDT
+    BTCAUD: Symbol = BTCAUD
+    BTCBBTC: Symbol = BTCBBTC
+    BTCBIDR: Symbol = BTCBIDR
+    BTCBKRW: Symbol = BTCBKRW
+    BTCBRL: Symbol = BTCBRL
+    BTCBUSD: Symbol = BTCBUSD
+    BTCDAI: Symbol = BTCDAI
+    BTCDOWNUSDT: Symbol = BTCDOWNUSDT
+    BTCEUR: Symbol = BTCEUR
+    BTCGBP: Symbol = BTCGBP
+    BTCIDRT: Symbol = BTCIDRT
+    BTCNGN: Symbol = BTCNGN
+    BTCPAX: Symbol = BTCPAX
+    BTCPLN: Symbol = BTCPLN
+    BTCRON: Symbol = BTCRON
+    BTCRUB: Symbol = BTCRUB
+    BTCSTBTC: Symbol = BTCSTBTC
+    BTCSTBUSD: Symbol = BTCSTBUSD
+    BTCSTUSDT: Symbol = BTCSTUSDT
+    BTCTRY: Symbol = BTCTRY
+    BTCTUSD: Symbol = BTCTUSD
+    BTCUAH: Symbol = BTCUAH
+    BTCUPUSDT: Symbol = BTCUPUSDT
+    BTCUSDC: Symbol = BTCUSDC
+    BTCUSDP: Symbol = BTCUSDP
+    BTCUSDS: Symbol = BTCUSDS
+    BTCUSDT: Symbol = BTCUSDT
+    BTCUST: Symbol = BTCUST
+    BTCVAI: Symbol = BTCVAI
+    BTCZAR: Symbol = BTCZAR
+    BTGBTC: Symbol = BTGBTC
+    BTGBUSD: Symbol = BTGBUSD
+    BTGETH: Symbol = BTGETH
+    BTGUSDT: Symbol = BTGUSDT
+    BTSBNB: Symbol = BTSBNB
+    BTSBTC: Symbol = BTSBTC
+    BTSBUSD: Symbol = BTSBUSD
+    BTSETH: Symbol = BTSETH
+    BTSUSDT: Symbol = BTSUSDT
+    BTTBNB: Symbol = BTTBNB
+    BTTBRL: Symbol = BTTBRL
+    BTTBTC: Symbol = BTTBTC
+    BTTBUSD: Symbol = BTTBUSD
+    BTTCBUSD: Symbol = BTTCBUSD
+    BTTCTRY: Symbol = BTTCTRY
+    BTTCUSDC: Symbol = BTTCUSDC
+    BTTCUSDT: Symbol = BTTCUSDT
+    BTTEUR: Symbol = BTTEUR
+    BTTPAX: Symbol = BTTPAX
+    BTTTRX: Symbol = BTTTRX
+    BTTTRY: Symbol = BTTTRY
+    BTTTUSD: Symbol = BTTTUSD
+    BTTUSDC: Symbol = BTTUSDC
+    BTTUSDT: Symbol = BTTUSDT
+    BULLBUSD: Symbol = BULLBUSD
+    BULLUSDT: Symbol = BULLUSDT
+    BURGERBNB: Symbol = BURGERBNB
+    BURGERBUSD: Symbol = BURGERBUSD
+    BURGERETH: Symbol = BURGERETH
+    BURGERUSDT: Symbol = BURGERUSDT
+    BUSDBIDR: Symbol = BUSDBIDR
+    BUSDBKRW: Symbol = BUSDBKRW
+    BUSDBRL: Symbol = BUSDBRL
+    BUSDBVND: Symbol = BUSDBVND
+    BUSDDAI: Symbol = BUSDDAI
+    BUSDIDRT: Symbol = BUSDIDRT
+    BUSDNGN: Symbol = BUSDNGN
+    BUSDPLN: Symbol = BUSDPLN
+    BUSDRON: Symbol = BUSDRON
+    BUSDRUB: Symbol = BUSDRUB
+    BUSDTRY: Symbol = BUSDTRY
+    BUSDUAH: Symbol = BUSDUAH
+    BUSDUSDT: Symbol = BUSDUSDT
+    BUSDVAI: Symbol = BUSDVAI
+    BUSDZAR: Symbol = BUSDZAR
+    BZRXBNB: Symbol = BZRXBNB
+    BZRXBTC: Symbol = BZRXBTC
+    BZRXBUSD: Symbol = BZRXBUSD
+    BZRXUSDT: Symbol = BZRXUSDT
+    C98BNB: Symbol = C98BNB
+    C98BRL: Symbol = C98BRL
+    C98BTC: Symbol = C98BTC
+    C98BUSD: Symbol = C98BUSD
+    C98USDT: Symbol = C98USDT
+    CAKEAUD: Symbol = CAKEAUD
+    CAKEBNB: Symbol = CAKEBNB
+    CAKEBRL: Symbol = CAKEBRL
+    CAKEBTC: Symbol = CAKEBTC
+    CAKEBUSD: Symbol = CAKEBUSD
+    CAKEGBP: Symbol = CAKEGBP
+    CAKEUSDT: Symbol = CAKEUSDT
+    CDTBTC: Symbol = CDTBTC
+    CDTETH: Symbol = CDTETH
+    CELOBTC: Symbol = CELOBTC
+    CELOBUSD: Symbol = CELOBUSD
+    CELOUSDT: Symbol = CELOUSDT
+    CELRBNB: Symbol = CELRBNB
+    CELRBTC: Symbol = CELRBTC
+    CELRBUSD: Symbol = CELRBUSD
+    CELRETH: Symbol = CELRETH
+    CELRUSDT: Symbol = CELRUSDT
+    CFXBTC: Symbol = CFXBTC
+    CFXBUSD: Symbol = CFXBUSD
+    CFXTRY: Symbol = CFXTRY
+    CFXUSDT: Symbol = CFXUSDT
+    CHATBTC: Symbol = CHATBTC
+    CHATETH: Symbol = CHATETH
+    CHESSBNB: Symbol = CHESSBNB
+    CHESSBTC: Symbol = CHESSBTC
+    CHESSBUSD: Symbol = CHESSBUSD
+    CHESSUSDT: Symbol = CHESSUSDT
+    CHRBNB: Symbol = CHRBNB
+    CHRBTC: Symbol = CHRBTC
+    CHRBUSD: Symbol = CHRBUSD
+    CHRETH: Symbol = CHRETH
+    CHRUSDT: Symbol = CHRUSDT
+    CHZBNB: Symbol = CHZBNB
+    CHZBRL: Symbol = CHZBRL
+    CHZBTC: Symbol = CHZBTC
+    CHZBUSD: Symbol = CHZBUSD
+    CHZEUR: Symbol = CHZEUR
+    CHZGBP: Symbol = CHZGBP
+    CHZTRY: Symbol = CHZTRY
+    CHZUSDT: Symbol = CHZUSDT
+    CITYBNB: Symbol = CITYBNB
+    CITYBTC: Symbol = CITYBTC
+    CITYBUSD: Symbol = CITYBUSD
+    CITYUSDT: Symbol = CITYUSDT
+    CKBBTC: Symbol = CKBBTC
+    CKBBUSD: Symbol = CKBBUSD
+    CKBUSDT: Symbol = CKBUSDT
+    CLOAKBTC: Symbol = CLOAKBTC
+    CLOAKETH: Symbol = CLOAKETH
+    CLVBNB: Symbol = CLVBNB
+    CLVBTC: Symbol = CLVBTC
+    CLVBUSD: Symbol = CLVBUSD
+    CLVUSDT: Symbol = CLVUSDT
+    CMTBNB: Symbol = CMTBNB
+    CMTBTC: Symbol = CMTBTC
+    CMTETH: Symbol = CMTETH
+    CNDBNB: Symbol = CNDBNB
+    CNDBTC: Symbol = CNDBTC
+    CNDETH: Symbol = CNDETH
+    COCOSBNB: Symbol = COCOSBNB
+    COCOSBTC: Symbol = COCOSBTC
+    COCOSBUSD: Symbol = COCOSBUSD
+    COCOSTRY: Symbol = COCOSTRY
+    COCOSUSDT: Symbol = COCOSUSDT
+    COMPBNB: Symbol = COMPBNB
+    COMPBTC: Symbol = COMPBTC
+    COMPBUSD: Symbol = COMPBUSD
+    COMPUSDT: Symbol = COMPUSDT
+    COSBNB: Symbol = COSBNB
+    COSBTC: Symbol = COSBTC
+    COSBUSD: Symbol = COSBUSD
+    COSTRY: Symbol = COSTRY
+    COSUSDT: Symbol = COSUSDT
+    COTIBNB: Symbol = COTIBNB
+    COTIBTC: Symbol = COTIBTC
+    COTIBUSD: Symbol = COTIBUSD
+    COTIUSDT: Symbol = COTIUSDT
+    COVERBUSD: Symbol = COVERBUSD
+    COVERETH: Symbol = COVERETH
+    CREAMBNB: Symbol = CREAMBNB
+    CREAMBUSD: Symbol = CREAMBUSD
+    CRVBNB: Symbol = CRVBNB
+    CRVBTC: Symbol = CRVBTC
+    CRVBUSD: Symbol = CRVBUSD
+    CRVETH: Symbol = CRVETH
+    CRVUSDT: Symbol = CRVUSDT
+    CTKBNB: Symbol = CTKBNB
+    CTKBTC: Symbol = CTKBTC
+    CTKBUSD: Symbol = CTKBUSD
+    CTKUSDT: Symbol = CTKUSDT
+    CTSIBNB: Symbol = CTSIBNB
+    CTSIBTC: Symbol = CTSIBTC
+    CTSIBUSD: Symbol = CTSIBUSD
+    CTSIUSDT: Symbol = CTSIUSDT
+    CTXCBNB: Symbol = CTXCBNB
+    CTXCBTC: Symbol = CTXCBTC
+    CTXCBUSD: Symbol = CTXCBUSD
+    CTXCUSDT: Symbol = CTXCUSDT
+    CVCBNB: Symbol = CVCBNB
+    CVCBTC: Symbol = CVCBTC
+    CVCBUSD: Symbol = CVCBUSD
+    CVCETH: Symbol = CVCETH
+    CVCUSDT: Symbol = CVCUSDT
+    CVPBUSD: Symbol = CVPBUSD
+    CVPETH: Symbol = CVPETH
+    CVPUSDT: Symbol = CVPUSDT
+    CVXBTC: Symbol = CVXBTC
+    CVXBUSD: Symbol = CVXBUSD
+    CVXUSDT: Symbol = CVXUSDT
+    DAIBNB: Symbol = DAIBNB
+    DAIBTC: Symbol = DAIBTC
+    DAIBUSD: Symbol = DAIBUSD
+    DAIUSDT: Symbol = DAIUSDT
+    DARBNB: Symbol = DARBNB
+    DARBTC: Symbol = DARBTC
+    DARBUSD: Symbol = DARBUSD
+    DARETH: Symbol = DARETH
+    DAREUR: Symbol = DAREUR
+    DARTRY: Symbol = DARTRY
+    DARUSDT: Symbol = DARUSDT
+    DASHBNB: Symbol = DASHBNB
+    DASHBTC: Symbol = DASHBTC
+    DASHBUSD: Symbol = DASHBUSD
+    DASHETH: Symbol = DASHETH
+    DASHUSDT: Symbol = DASHUSDT
+    DATABTC: Symbol = DATABTC
+    DATABUSD: Symbol = DATABUSD
+    DATAETH: Symbol = DATAETH
+    DATAUSDT: Symbol = DATAUSDT
+    DCRBNB: Symbol = DCRBNB
+    DCRBTC: Symbol = DCRBTC
+    DCRBUSD: Symbol = DCRBUSD
+    DCRUSDT: Symbol = DCRUSDT
+    DEGOBTC: Symbol = DEGOBTC
+    DEGOBUSD: Symbol = DEGOBUSD
+    DEGOUSDT: Symbol = DEGOUSDT
+    DENTBTC: Symbol = DENTBTC
+    DENTBUSD: Symbol = DENTBUSD
+    DENTETH: Symbol = DENTETH
+    DENTTRY: Symbol = DENTTRY
+    DENTUSDT: Symbol = DENTUSDT
+    DEXEBUSD: Symbol = DEXEBUSD
+    DEXEETH: Symbol = DEXEETH
+    DEXEUSDT: Symbol = DEXEUSDT
+    DFBUSD: Symbol = DFBUSD
+    DFETH: Symbol = DFETH
+    DFUSDT: Symbol = DFUSDT
+    DGBBTC: Symbol = DGBBTC
+    DGBBUSD: Symbol = DGBBUSD
+    DGBUSDT: Symbol = DGBUSDT
+    DGDBTC: Symbol = DGDBTC
+    DGDETH: Symbol = DGDETH
+    DIABNB: Symbol = DIABNB
+    DIABTC: Symbol = DIABTC
+    DIABUSD: Symbol = DIABUSD
+    DIAUSDT: Symbol = DIAUSDT
+    DLTBNB: Symbol = DLTBNB
+    DLTBTC: Symbol = DLTBTC
+    DLTETH: Symbol = DLTETH
+    DNTBTC: Symbol = DNTBTC
+    DNTBUSD: Symbol = DNTBUSD
+    DNTETH: Symbol = DNTETH
+    DNTUSDT: Symbol = DNTUSDT
+    DOCKBTC: Symbol = DOCKBTC
+    DOCKBUSD: Symbol = DOCKBUSD
+    DOCKETH: Symbol = DOCKETH
+    DOCKUSDT: Symbol = DOCKUSDT
+    DODOBTC: Symbol = DODOBTC
+    DODOBUSD: Symbol = DODOBUSD
+    DODOUSDT: Symbol = DODOUSDT
+    DOGEAUD: Symbol = DOGEAUD
+    DOGEBIDR: Symbol = DOGEBIDR
+    DOGEBNB: Symbol = DOGEBNB
+    DOGEBRL: Symbol = DOGEBRL
+    DOGEBTC: Symbol = DOGEBTC
+    DOGEBUSD: Symbol = DOGEBUSD
+    DOGEEUR: Symbol = DOGEEUR
+    DOGEGBP: Symbol = DOGEGBP
+    DOGEPAX: Symbol = DOGEPAX
+    DOGERUB: Symbol = DOGERUB
+    DOGETRY: Symbol = DOGETRY
+    DOGETUSD: Symbol = DOGETUSD
+    DOGEUSDC: Symbol = DOGEUSDC
+    DOGEUSDT: Symbol = DOGEUSDT
+    DOTAUD: Symbol = DOTAUD
+    DOTBIDR: Symbol = DOTBIDR
+    DOTBKRW: Symbol = DOTBKRW
+    DOTBNB: Symbol = DOTBNB
+    DOTBRL: Symbol = DOTBRL
+    DOTBTC: Symbol = DOTBTC
+    DOTBUSD: Symbol = DOTBUSD
+    DOTDOWNUSDT: Symbol = DOTDOWNUSDT
+    DOTETH: Symbol = DOTETH
+    DOTEUR: Symbol = DOTEUR
+    DOTGBP: Symbol = DOTGBP
+    DOTNGN: Symbol = DOTNGN
+    DOTRUB: Symbol = DOTRUB
+    DOTTRY: Symbol = DOTTRY
+    DOTUPUSDT: Symbol = DOTUPUSDT
+    DOTUSDT: Symbol = DOTUSDT
+    DREPBNB: Symbol = DREPBNB
+    DREPBTC: Symbol = DREPBTC
+    DREPBUSD: Symbol = DREPBUSD
+    DREPUSDT: Symbol = DREPUSDT
+    DUSKBNB: Symbol = DUSKBNB
+    DUSKBTC: Symbol = DUSKBTC
+    DUSKBUSD: Symbol = DUSKBUSD
+    DUSKPAX: Symbol = DUSKPAX
+    DUSKUSDC: Symbol = DUSKUSDC
+    DUSKUSDT: Symbol = DUSKUSDT
+    DYDXBNB: Symbol = DYDXBNB
+    DYDXBTC: Symbol = DYDXBTC
+    DYDXBUSD: Symbol = DYDXBUSD
+    DYDXETH: Symbol = DYDXETH
+    DYDXUSDT: Symbol = DYDXUSDT
+    EASYBTC: Symbol = EASYBTC
+    EASYETH: Symbol = EASYETH
+    EDOBTC: Symbol = EDOBTC
+    EDOETH: Symbol = EDOETH
+    EDUBNB: Symbol = EDUBNB
+    EDUBTC: Symbol = EDUBTC
+    EDUEUR: Symbol = EDUEUR
+    EDUTRY: Symbol = EDUTRY
+    EDUTUSD: Symbol = EDUTUSD
+    EDUUSDT: Symbol = EDUUSDT
+    EGLDBNB: Symbol = EGLDBNB
+    EGLDBTC: Symbol = EGLDBTC
+    EGLDBUSD: Symbol = EGLDBUSD
+    EGLDETH: Symbol = EGLDETH
+    EGLDEUR: Symbol = EGLDEUR
+    EGLDRON: Symbol = EGLDRON
+    EGLDUSDT: Symbol = EGLDUSDT
+    ELFBTC: Symbol = ELFBTC
+    ELFBUSD: Symbol = ELFBUSD
+    ELFETH: Symbol = ELFETH
+    ELFUSDT: Symbol = ELFUSDT
+    ENGBTC: Symbol = ENGBTC
+    ENGETH: Symbol = ENGETH
+    ENJBNB: Symbol = ENJBNB
+    ENJBRL: Symbol = ENJBRL
+    ENJBTC: Symbol = ENJBTC
+    ENJBUSD: Symbol = ENJBUSD
+    ENJETH: Symbol = ENJETH
+    ENJEUR: Symbol = ENJEUR
+    ENJGBP: Symbol = ENJGBP
+    ENJTRY: Symbol = ENJTRY
+    ENJUSDT: Symbol = ENJUSDT
+    ENSBNB: Symbol = ENSBNB
+    ENSBTC: Symbol = ENSBTC
+    ENSBUSD: Symbol = ENSBUSD
+    ENSTRY: Symbol = ENSTRY
+    ENSUSDT: Symbol = ENSUSDT
+    EOSAUD: Symbol = EOSAUD
+    EOSBEARBUSD: Symbol = EOSBEARBUSD
+    EOSBEARUSDT: Symbol = EOSBEARUSDT
+    EOSBNB: Symbol = EOSBNB
+    EOSBTC: Symbol = EOSBTC
+    EOSBULLBUSD: Symbol = EOSBULLBUSD
+    EOSBULLUSDT: Symbol = EOSBULLUSDT
+    EOSBUSD: Symbol = EOSBUSD
+    EOSDOWNUSDT: Symbol = EOSDOWNUSDT
+    EOSETH: Symbol = EOSETH
+    EOSEUR: Symbol = EOSEUR
+    EOSPAX: Symbol = EOSPAX
+    EOSTRY: Symbol = EOSTRY
+    EOSTUSD: Symbol = EOSTUSD
+    EOSUPUSDT: Symbol = EOSUPUSDT
+    EOSUSDC: Symbol = EOSUSDC
+    EOSUSDT: Symbol = EOSUSDT
+    EPSBTC: Symbol = EPSBTC
+    EPSBUSD: Symbol = EPSBUSD
+    EPSUSDT: Symbol = EPSUSDT
+    EPXBUSD: Symbol = EPXBUSD
+    EPXUSDT: Symbol = EPXUSDT
+    ERDBNB: Symbol = ERDBNB
+    ERDBTC: Symbol = ERDBTC
+    ERDBUSD: Symbol = ERDBUSD
+    ERDPAX: Symbol = ERDPAX
+    ERDUSDC: Symbol = ERDUSDC
+    ERDUSDT: Symbol = ERDUSDT
+    ERNBNB: Symbol = ERNBNB
+    ERNBUSD: Symbol = ERNBUSD
+    ERNUSDT: Symbol = ERNUSDT
+    ETCBNB: Symbol = ETCBNB
+    ETCBRL: Symbol = ETCBRL
+    ETCBTC: Symbol = ETCBTC
+    ETCBUSD: Symbol = ETCBUSD
+    ETCETH: Symbol = ETCETH
+    ETCEUR: Symbol = ETCEUR
+    ETCGBP: Symbol = ETCGBP
+    ETCPAX: Symbol = ETCPAX
+    ETCTRY: Symbol = ETCTRY
+    ETCTUSD: Symbol = ETCTUSD
+    ETCUSDC: Symbol = ETCUSDC
+    ETCUSDT: Symbol = ETCUSDT
+    ETHAUD: Symbol = ETHAUD
+    ETHBEARBUSD: Symbol = ETHBEARBUSD
+    ETHBEARUSDT: Symbol = ETHBEARUSDT
+    ETHBIDR: Symbol = ETHBIDR
+    ETHBKRW: Symbol = ETHBKRW
+    ETHBRL: Symbol = ETHBRL
+    ETHBTC: Symbol = ETHBTC
+    ETHBULLBUSD: Symbol = ETHBULLBUSD
+    ETHBULLUSDT: Symbol = ETHBULLUSDT
+    ETHBUSD: Symbol = ETHBUSD
+    ETHDAI: Symbol = ETHDAI
+    ETHDOWNUSDT: Symbol = ETHDOWNUSDT
+    ETHEUR: Symbol = ETHEUR
+    ETHGBP: Symbol = ETHGBP
+    ETHNGN: Symbol = ETHNGN
+    ETHPAX: Symbol = ETHPAX
+    ETHPLN: Symbol = ETHPLN
+    ETHRUB: Symbol = ETHRUB
+    ETHTRY: Symbol = ETHTRY
+    ETHTUSD: Symbol = ETHTUSD
+    ETHUAH: Symbol = ETHUAH
+    ETHUPUSDT: Symbol = ETHUPUSDT
+    ETHUSDC: Symbol = ETHUSDC
+    ETHUSDP: Symbol = ETHUSDP
+    ETHUSDT: Symbol = ETHUSDT
+    ETHUST: Symbol = ETHUST
+    ETHZAR: Symbol = ETHZAR
+    EURBUSD: Symbol = EURBUSD
+    EURUSDT: Symbol = EURUSDT
+    EVXBTC: Symbol = EVXBTC
+    EVXETH: Symbol = EVXETH
+    FARMBNB: Symbol = FARMBNB
+    FARMBTC: Symbol = FARMBTC
+    FARMBUSD: Symbol = FARMBUSD
+    FARMETH: Symbol = FARMETH
+    FARMUSDT: Symbol = FARMUSDT
+    FETBNB: Symbol = FETBNB
+    FETBTC: Symbol = FETBTC
+    FETBUSD: Symbol = FETBUSD
+    FETTRY: Symbol = FETTRY
+    FETUSDT: Symbol = FETUSDT
+    FIDABNB: Symbol = FIDABNB
+    FIDABTC: Symbol = FIDABTC
+    FIDABUSD: Symbol = FIDABUSD
+    FIDAUSDT: Symbol = FIDAUSDT
+    FILBNB: Symbol = FILBNB
+    FILBTC: Symbol = FILBTC
+    FILBUSD: Symbol = FILBUSD
+    FILDOWNUSDT: Symbol = FILDOWNUSDT
+    FILETH: Symbol = FILETH
+    FILTRY: Symbol = FILTRY
+    FILUPUSDT: Symbol = FILUPUSDT
+    FILUSDT: Symbol = FILUSDT
+    FIOBNB: Symbol = FIOBNB
+    FIOBTC: Symbol = FIOBTC
+    FIOBUSD: Symbol = FIOBUSD
+    FIOUSDT: Symbol = FIOUSDT
+    FIROBTC: Symbol = FIROBTC
+    FIROBUSD: Symbol = FIROBUSD
+    FIROETH: Symbol = FIROETH
+    FIROUSDT: Symbol = FIROUSDT
+    FISBIDR: Symbol = FISBIDR
+    FISBRL: Symbol = FISBRL
+    FISBTC: Symbol = FISBTC
+    FISBUSD: Symbol = FISBUSD
+    FISTRY: Symbol = FISTRY
+    FISUSDT: Symbol = FISUSDT
+    FLMBNB: Symbol = FLMBNB
+    FLMBTC: Symbol = FLMBTC
+    FLMBUSD: Symbol = FLMBUSD
+    FLMUSDT: Symbol = FLMUSDT
+    FLOKITUSD: Symbol = FLOKITUSD
+    FLOKIUSDT: Symbol = FLOKIUSDT
+    FLOWBNB: Symbol = FLOWBNB
+    FLOWBTC: Symbol = FLOWBTC
+    FLOWBUSD: Symbol = FLOWBUSD
+    FLOWUSDT: Symbol = FLOWUSDT
+    FLUXBTC: Symbol = FLUXBTC
+    FLUXBUSD: Symbol = FLUXBUSD
+    FLUXUSDT: Symbol = FLUXUSDT
+    FORBNB: Symbol = FORBNB
+    FORBTC: Symbol = FORBTC
+    FORBUSD: Symbol = FORBUSD
+    FORTHBTC: Symbol = FORTHBTC
+    FORTHBUSD: Symbol = FORTHBUSD
+    FORTHUSDT: Symbol = FORTHUSDT
+    FORUSDT: Symbol = FORUSDT
+    FRONTBTC: Symbol = FRONTBTC
+    FRONTBUSD: Symbol = FRONTBUSD
+    FRONTETH: Symbol = FRONTETH
+    FRONTUSDT: Symbol = FRONTUSDT
+    FTMAUD: Symbol = FTMAUD
+    FTMBIDR: Symbol = FTMBIDR
+    FTMBNB: Symbol = FTMBNB
+    FTMBRL: Symbol = FTMBRL
+    FTMBTC: Symbol = FTMBTC
+    FTMBUSD: Symbol = FTMBUSD
+    FTMETH: Symbol = FTMETH
+    FTMEUR: Symbol = FTMEUR
+    FTMPAX: Symbol = FTMPAX
+    FTMRUB: Symbol = FTMRUB
+    FTMTRY: Symbol = FTMTRY
+    FTMTUSD: Symbol = FTMTUSD
+    FTMUSDC: Symbol = FTMUSDC
+    FTMUSDT: Symbol = FTMUSDT
+    FTTBNB: Symbol = FTTBNB
+    FTTBTC: Symbol = FTTBTC
+    FTTBUSD: Symbol = FTTBUSD
+    FTTETH: Symbol = FTTETH
+    FTTUSDT: Symbol = FTTUSDT
+    FUELBTC: Symbol = FUELBTC
+    FUELETH: Symbol = FUELETH
+    FUNBNB: Symbol = FUNBNB
+    FUNBTC: Symbol = FUNBTC
+    FUNETH: Symbol = FUNETH
+    FUNUSDT: Symbol = FUNUSDT
+    FXSBTC: Symbol = FXSBTC
+    FXSBUSD: Symbol = FXSBUSD
+    FXSUSDT: Symbol = FXSUSDT
+    GALAAUD: Symbol = GALAAUD
+    GALABNB: Symbol = GALABNB
+    GALABRL: Symbol = GALABRL
+    GALABTC: Symbol = GALABTC
+    GALABUSD: Symbol = GALABUSD
+    GALAETH: Symbol = GALAETH
+    GALAEUR: Symbol = GALAEUR
+    GALATRY: Symbol = GALATRY
+    GALAUSDT: Symbol = GALAUSDT
+    GALBNB: Symbol = GALBNB
+    GALBRL: Symbol = GALBRL
+    GALBTC: Symbol = GALBTC
+    GALBUSD: Symbol = GALBUSD
+    GALETH: Symbol = GALETH
+    GALEUR: Symbol = GALEUR
+    GALTRY: Symbol = GALTRY
+    GALUSDT: Symbol = GALUSDT
+    GASBTC: Symbol = GASBTC
+    GASBUSD: Symbol = GASBUSD
+    GASUSDT: Symbol = GASUSDT
+    GBPBUSD: Symbol = GBPBUSD
+    GBPUSDT: Symbol = GBPUSDT
+    GFTBUSD: Symbol = GFTBUSD
+    GHSTBUSD: Symbol = GHSTBUSD
+    GHSTETH: Symbol = GHSTETH
+    GHSTUSDT: Symbol = GHSTUSDT
+    GLMBTC: Symbol = GLMBTC
+    GLMBUSD: Symbol = GLMBUSD
+    GLMETH: Symbol = GLMETH
+    GLMRBNB: Symbol = GLMRBNB
+    GLMRBTC: Symbol = GLMRBTC
+    GLMRBUSD: Symbol = GLMRBUSD
+    GLMRUSDT: Symbol = GLMRUSDT
+    GLMUSDT: Symbol = GLMUSDT
+    GMTAUD: Symbol = GMTAUD
+    GMTBNB: Symbol = GMTBNB
+    GMTBRL: Symbol = GMTBRL
+    GMTBTC: Symbol = GMTBTC
+    GMTBUSD: Symbol = GMTBUSD
+    GMTETH: Symbol = GMTETH
+    GMTEUR: Symbol = GMTEUR
+    GMTGBP: Symbol = GMTGBP
+    GMTTRY: Symbol = GMTTRY
+    GMTUSDT: Symbol = GMTUSDT
+    GMXBTC: Symbol = GMXBTC
+    GMXBUSD: Symbol = GMXBUSD
+    GMXUSDT: Symbol = GMXUSDT
+    GNOBNB: Symbol = GNOBNB
+    GNOBTC: Symbol = GNOBTC
+    GNOBUSD: Symbol = GNOBUSD
+    GNOUSDT: Symbol = GNOUSDT
+    GNSBTC: Symbol = GNSBTC
+    GNSUSDT: Symbol = GNSUSDT
+    GNTBNB: Symbol = GNTBNB
+    GNTBTC: Symbol = GNTBTC
+    GNTETH: Symbol = GNTETH
+    GOBNB: Symbol = GOBNB
+    GOBTC: Symbol = GOBTC
+    GRSBTC: Symbol = GRSBTC
+    GRSETH: Symbol = GRSETH
+    GRTBTC: Symbol = GRTBTC
+    GRTBUSD: Symbol = GRTBUSD
+    GRTETH: Symbol = GRTETH
+    GRTEUR: Symbol = GRTEUR
+    GRTTRY: Symbol = GRTTRY
+    GRTUSDT: Symbol = GRTUSDT
+    GTCBNB: Symbol = GTCBNB
+    GTCBTC: Symbol = GTCBTC
+    GTCBUSD: Symbol = GTCBUSD
+    GTCUSDT: Symbol = GTCUSDT
+    GTOBNB: Symbol = GTOBNB
+    GTOBTC: Symbol = GTOBTC
+    GTOBUSD: Symbol = GTOBUSD
+    GTOETH: Symbol = GTOETH
+    GTOPAX: Symbol = GTOPAX
+    GTOTUSD: Symbol = GTOTUSD
+    GTOUSDC: Symbol = GTOUSDC
+    GTOUSDT: Symbol = GTOUSDT
+    GVTBTC: Symbol = GVTBTC
+    GVTETH: Symbol = GVTETH
+    GXSBNB: Symbol = GXSBNB
+    GXSBTC: Symbol = GXSBTC
+    GXSETH: Symbol = GXSETH
+    GXSUSDT: Symbol = GXSUSDT
+    HARDBNB: Symbol = HARDBNB
+    HARDBTC: Symbol = HARDBTC
+    HARDBUSD: Symbol = HARDBUSD
+    HARDUSDT: Symbol = HARDUSDT
+    HBARBNB: Symbol = HBARBNB
+    HBARBTC: Symbol = HBARBTC
+    HBARBUSD: Symbol = HBARBUSD
+    HBARUSDT: Symbol = HBARUSDT
+    HCBTC: Symbol = HCBTC
+    HCETH: Symbol = HCETH
+    HCUSDT: Symbol = HCUSDT
+    HEGICBUSD: Symbol = HEGICBUSD
+    HEGICETH: Symbol = HEGICETH
+    HFTBTC: Symbol = HFTBTC
+    HFTBUSD: Symbol = HFTBUSD
+    HFTUSDT: Symbol = HFTUSDT
+    HIFIETH: Symbol = HIFIETH
+    HIFIUSDT: Symbol = HIFIUSDT
+    HIGHBNB: Symbol = HIGHBNB
+    HIGHBTC: Symbol = HIGHBTC
+    HIGHBUSD: Symbol = HIGHBUSD
+    HIGHUSDT: Symbol = HIGHUSDT
+    HIVEBNB: Symbol = HIVEBNB
+    HIVEBTC: Symbol = HIVEBTC
+    HIVEBUSD: Symbol = HIVEBUSD
+    HIVEUSDT: Symbol = HIVEUSDT
+    HNTBTC: Symbol = HNTBTC
+    HNTBUSD: Symbol = HNTBUSD
+    HNTUSDT: Symbol = HNTUSDT
+    HOOKBNB: Symbol = HOOKBNB
+    HOOKBTC: Symbol = HOOKBTC
+    HOOKBUSD: Symbol = HOOKBUSD
+    HOOKUSDT: Symbol = HOOKUSDT
+    HOTBNB: Symbol = HOTBNB
+    HOTBRL: Symbol = HOTBRL
+    HOTBTC: Symbol = HOTBTC
+    HOTBUSD: Symbol = HOTBUSD
+    HOTETH: Symbol = HOTETH
+    HOTEUR: Symbol = HOTEUR
+    HOTTRY: Symbol = HOTTRY
+    HOTUSDT: Symbol = HOTUSDT
+    HSRBTC: Symbol = HSRBTC
+    HSRETH: Symbol = HSRETH
+    ICNBTC: Symbol = ICNBTC
+    ICNETH: Symbol = ICNETH
+    ICPBNB: Symbol = ICPBNB
+    ICPBTC: Symbol = ICPBTC
+    ICPBUSD: Symbol = ICPBUSD
+    ICPETH: Symbol = ICPETH
+    ICPEUR: Symbol = ICPEUR
+    ICPRUB: Symbol = ICPRUB
+    ICPTRY: Symbol = ICPTRY
+    ICPUSDT: Symbol = ICPUSDT
+    ICXBNB: Symbol = ICXBNB
+    ICXBTC: Symbol = ICXBTC
+    ICXBUSD: Symbol = ICXBUSD
+    ICXETH: Symbol = ICXETH
+    ICXUSDT: Symbol = ICXUSDT
+    IDBNB: Symbol = IDBNB
+    IDBTC: Symbol = IDBTC
+    IDEUR: Symbol = IDEUR
+    IDEXBNB: Symbol = IDEXBNB
+    IDEXBTC: Symbol = IDEXBTC
+    IDEXBUSD: Symbol = IDEXBUSD
+    IDEXUSDT: Symbol = IDEXUSDT
+    IDTRY: Symbol = IDTRY
+    IDTUSD: Symbol = IDTUSD
+    IDUSDT: Symbol = IDUSDT
+    ILVBNB: Symbol = ILVBNB
+    ILVBTC: Symbol = ILVBTC
+    ILVBUSD: Symbol = ILVBUSD
+    ILVUSDT: Symbol = ILVUSDT
+    IMXBNB: Symbol = IMXBNB
+    IMXBTC: Symbol = IMXBTC
+    IMXBUSD: Symbol = IMXBUSD
+    IMXUSDT: Symbol = IMXUSDT
+    INJBNB: Symbol = INJBNB
+    INJBTC: Symbol = INJBTC
+    INJBUSD: Symbol = INJBUSD
+    INJTRY: Symbol = INJTRY
+    INJUSDT: Symbol = INJUSDT
+    INSBTC: Symbol = INSBTC
+    INSETH: Symbol = INSETH
+    IOSTBTC: Symbol = IOSTBTC
+    IOSTBUSD: Symbol = IOSTBUSD
+    IOSTETH: Symbol = IOSTETH
+    IOSTUSDT: Symbol = IOSTUSDT
+    IOTABNB: Symbol = IOTABNB
+    IOTABTC: Symbol = IOTABTC
+    IOTABUSD: Symbol = IOTABUSD
+    IOTAETH: Symbol = IOTAETH
+    IOTAUSDT: Symbol = IOTAUSDT
+    IOTXBTC: Symbol = IOTXBTC
+    IOTXBUSD: Symbol = IOTXBUSD
+    IOTXETH: Symbol = IOTXETH
+    IOTXUSDT: Symbol = IOTXUSDT
+    IQBNB: Symbol = IQBNB
+    IQBUSD: Symbol = IQBUSD
+    IRISBNB: Symbol = IRISBNB
+    IRISBTC: Symbol = IRISBTC
+    IRISBUSD: Symbol = IRISBUSD
+    IRISUSDT: Symbol = IRISUSDT
+    JASMYBNB: Symbol = JASMYBNB
+    JASMYBTC: Symbol = JASMYBTC
+    JASMYBUSD: Symbol = JASMYBUSD
+    JASMYETH: Symbol = JASMYETH
+    JASMYEUR: Symbol = JASMYEUR
+    JASMYTRY: Symbol = JASMYTRY
+    JASMYUSDT: Symbol = JASMYUSDT
+    JOEBTC: Symbol = JOEBTC
+    JOEBUSD: Symbol = JOEBUSD
+    JOETRY: Symbol = JOETRY
+    JOEUSDT: Symbol = JOEUSDT
+    JSTBNB: Symbol = JSTBNB
+    JSTBTC: Symbol = JSTBTC
+    JSTBUSD: Symbol = JSTBUSD
+    JSTUSDT: Symbol = JSTUSDT
+    JUVBTC: Symbol = JUVBTC
+    JUVBUSD: Symbol = JUVBUSD
+    JUVUSDT: Symbol = JUVUSDT
+    KAVABNB: Symbol = KAVABNB
+    KAVABTC: Symbol = KAVABTC
+    KAVABUSD: Symbol = KAVABUSD
+    KAVAETH: Symbol = KAVAETH
+    KAVAUSDT: Symbol = KAVAUSDT
+    KDABTC: Symbol = KDABTC
+    KDABUSD: Symbol = KDABUSD
+    KDAUSDT: Symbol = KDAUSDT
+    KEEPBNB: Symbol = KEEPBNB
+    KEEPBTC: Symbol = KEEPBTC
+    KEEPBUSD: Symbol = KEEPBUSD
+    KEEPUSDT: Symbol = KEEPUSDT
+    KEYBTC: Symbol = KEYBTC
+    KEYBUSD: Symbol = KEYBUSD
+    KEYETH: Symbol = KEYETH
+    KEYUSDT: Symbol = KEYUSDT
+    KLAYBNB: Symbol = KLAYBNB
+    KLAYBTC: Symbol = KLAYBTC
+    KLAYBUSD: Symbol = KLAYBUSD
+    KLAYUSDT: Symbol = KLAYUSDT
+    KMDBTC: Symbol = KMDBTC
+    KMDBUSD: Symbol = KMDBUSD
+    KMDETH: Symbol = KMDETH
+    KMDUSDT: Symbol = KMDUSDT
+    KNCBNB: Symbol = KNCBNB
+    KNCBTC: Symbol = KNCBTC
+    KNCBUSD: Symbol = KNCBUSD
+    KNCETH: Symbol = KNCETH
+    KNCUSDT: Symbol = KNCUSDT
+    KP3RBNB: Symbol = KP3RBNB
+    KP3RBUSD: Symbol = KP3RBUSD
+    KP3RUSDT: Symbol = KP3RUSDT
+    KSMAUD: Symbol = KSMAUD
+    KSMBNB: Symbol = KSMBNB
+    KSMBTC: Symbol = KSMBTC
+    KSMBUSD: Symbol = KSMBUSD
+    KSMETH: Symbol = KSMETH
+    KSMUSDT: Symbol = KSMUSDT
+    LAZIOBTC: Symbol = LAZIOBTC
+    LAZIOBUSD: Symbol = LAZIOBUSD
+    LAZIOEUR: Symbol = LAZIOEUR
+    LAZIOTRY: Symbol = LAZIOTRY
+    LAZIOUSDT: Symbol = LAZIOUSDT
+    LDOBTC: Symbol = LDOBTC
+    LDOBUSD: Symbol = LDOBUSD
+    LDOTUSD: Symbol = LDOTUSD
+    LDOUSDT: Symbol = LDOUSDT
+    LENDBKRW: Symbol = LENDBKRW
+    LENDBTC: Symbol = LENDBTC
+    LENDBUSD: Symbol = LENDBUSD
+    LENDETH: Symbol = LENDETH
+    LENDUSDT: Symbol = LENDUSDT
+    LEVERBUSD: Symbol = LEVERBUSD
+    LEVERUSDT: Symbol = LEVERUSDT
+    LINABNB: Symbol = LINABNB
+    LINABTC: Symbol = LINABTC
+    LINABUSD: Symbol = LINABUSD
+    LINAUSDT: Symbol = LINAUSDT
+    LINKAUD: Symbol = LINKAUD
+    LINKBKRW: Symbol = LINKBKRW
+    LINKBNB: Symbol = LINKBNB
+    LINKBRL: Symbol = LINKBRL
+    LINKBTC: Symbol = LINKBTC
+    LINKBUSD: Symbol = LINKBUSD
+    LINKDOWNUSDT: Symbol = LINKDOWNUSDT
+    LINKETH: Symbol = LINKETH
+    LINKEUR: Symbol = LINKEUR
+    LINKGBP: Symbol = LINKGBP
+    LINKNGN: Symbol = LINKNGN
+    LINKPAX: Symbol = LINKPAX
+    LINKTRY: Symbol = LINKTRY
+    LINKTUSD: Symbol = LINKTUSD
+    LINKUPUSDT: Symbol = LINKUPUSDT
+    LINKUSDC: Symbol = LINKUSDC
+    LINKUSDT: Symbol = LINKUSDT
+    LITBTC: Symbol = LITBTC
+    LITBUSD: Symbol = LITBUSD
+    LITETH: Symbol = LITETH
+    LITUSDT: Symbol = LITUSDT
+    LOKABNB: Symbol = LOKABNB
+    LOKABTC: Symbol = LOKABTC
+    LOKABUSD: Symbol = LOKABUSD
+    LOKAUSDT: Symbol = LOKAUSDT
+    LOOMBNB: Symbol = LOOMBNB
+    LOOMBTC: Symbol = LOOMBTC
+    LOOMBUSD: Symbol = LOOMBUSD
+    LOOMETH: Symbol = LOOMETH
+    LOOMUSDT: Symbol = LOOMUSDT
+    LPTBNB: Symbol = LPTBNB
+    LPTBTC: Symbol = LPTBTC
+    LPTBUSD: Symbol = LPTBUSD
+    LPTUSDT: Symbol = LPTUSDT
+    LQTYBTC: Symbol = LQTYBTC
+    LQTYUSDT: Symbol = LQTYUSDT
+    LRCBNB: Symbol = LRCBNB
+    LRCBTC: Symbol = LRCBTC
+    LRCBUSD: Symbol = LRCBUSD
+    LRCETH: Symbol = LRCETH
+    LRCTRY: Symbol = LRCTRY
+    LRCUSDT: Symbol = LRCUSDT
+    LSKBNB: Symbol = LSKBNB
+    LSKBTC: Symbol = LSKBTC
+    LSKBUSD: Symbol = LSKBUSD
+    LSKETH: Symbol = LSKETH
+    LSKUSDT: Symbol = LSKUSDT
+    LTCBNB: Symbol = LTCBNB
+    LTCBRL: Symbol = LTCBRL
+    LTCBTC: Symbol = LTCBTC
+    LTCBUSD: Symbol = LTCBUSD
+    LTCDOWNUSDT: Symbol = LTCDOWNUSDT
+    LTCETH: Symbol = LTCETH
+    LTCEUR: Symbol = LTCEUR
+    LTCGBP: Symbol = LTCGBP
+    LTCNGN: Symbol = LTCNGN
+    LTCPAX: Symbol = LTCPAX
+    LTCRUB: Symbol = LTCRUB
+    LTCTUSD: Symbol = LTCTUSD
+    LTCUAH: Symbol = LTCUAH
+    LTCUPUSDT: Symbol = LTCUPUSDT
+    LTCUSDC: Symbol = LTCUSDC
+    LTCUSDT: Symbol = LTCUSDT
+    LTOBNB: Symbol = LTOBNB
+    LTOBTC: Symbol = LTOBTC
+    LTOBUSD: Symbol = LTOBUSD
+    LTOUSDT: Symbol = LTOUSDT
+    LUNAAUD: Symbol = LUNAAUD
+    LUNABIDR: Symbol = LUNABIDR
+    LUNABNB: Symbol = LUNABNB
+    LUNABRL: Symbol = LUNABRL
+    LUNABTC: Symbol = LUNABTC
+    LUNABUSD: Symbol = LUNABUSD
+    LUNAETH: Symbol = LUNAETH
+    LUNAEUR: Symbol = LUNAEUR
+    LUNAGBP: Symbol = LUNAGBP
+    LUNATRY: Symbol = LUNATRY
+    LUNAUSDT: Symbol = LUNAUSDT
+    LUNAUST: Symbol = LUNAUST
+    LUNBTC: Symbol = LUNBTC
+    LUNCBUSD: Symbol = LUNCBUSD
+    LUNCUSDT: Symbol = LUNCUSDT
+    LUNETH: Symbol = LUNETH
+    MAGICBTC: Symbol = MAGICBTC
+    MAGICBUSD: Symbol = MAGICBUSD
+    MAGICTRY: Symbol = MAGICTRY
+    MAGICUSDT: Symbol = MAGICUSDT
+    MANABIDR: Symbol = MANABIDR
+    MANABNB: Symbol = MANABNB
+    MANABRL: Symbol = MANABRL
+    MANABTC: Symbol = MANABTC
+    MANABUSD: Symbol = MANABUSD
+    MANAETH: Symbol = MANAETH
+    MANATRY: Symbol = MANATRY
+    MANAUSDT: Symbol = MANAUSDT
+    MASKBNB: Symbol = MASKBNB
+    MASKBUSD: Symbol = MASKBUSD
+    MASKUSDT: Symbol = MASKUSDT
+    MATICAUD: Symbol = MATICAUD
+    MATICBIDR: Symbol = MATICBIDR
+    MATICBNB: Symbol = MATICBNB
+    MATICBRL: Symbol = MATICBRL
+    MATICBTC: Symbol = MATICBTC
+    MATICBUSD: Symbol = MATICBUSD
+    MATICETH: Symbol = MATICETH
+    MATICEUR: Symbol = MATICEUR
+    MATICGBP: Symbol = MATICGBP
+    MATICRUB: Symbol = MATICRUB
+    MATICTRY: Symbol = MATICTRY
+    MATICTUSD: Symbol = MATICTUSD
+    MATICUSDT: Symbol = MATICUSDT
+    MBLBNB: Symbol = MBLBNB
+    MBLBTC: Symbol = MBLBTC
+    MBLBUSD: Symbol = MBLBUSD
+    MBLUSDT: Symbol = MBLUSDT
+    MBOXBNB: Symbol = MBOXBNB
+    MBOXBTC: Symbol = MBOXBTC
+    MBOXBUSD: Symbol = MBOXBUSD
+    MBOXTRY: Symbol = MBOXTRY
+    MBOXUSDT: Symbol = MBOXUSDT
+    MCBNB: Symbol = MCBNB
+    MCBTC: Symbol = MCBTC
+    MCBUSD: Symbol = MCBUSD
+    MCOBNB: Symbol = MCOBNB
+    MCOBTC: Symbol = MCOBTC
+    MCOETH: Symbol = MCOETH
+    MCOUSDT: Symbol = MCOUSDT
+    MCUSDT: Symbol = MCUSDT
+    MDABTC: Symbol = MDABTC
+    MDAETH: Symbol = MDAETH
+    MDTBNB: Symbol = MDTBNB
+    MDTBTC: Symbol = MDTBTC
+    MDTBUSD: Symbol = MDTBUSD
+    MDTUSDT: Symbol = MDTUSDT
+    MDXBNB: Symbol = MDXBNB
+    MDXBTC: Symbol = MDXBTC
+    MDXBUSD: Symbol = MDXBUSD
+    MDXUSDT: Symbol = MDXUSDT
+    MFTBNB: Symbol = MFTBNB
+    MFTBTC: Symbol = MFTBTC
+    MFTETH: Symbol = MFTETH
+    MFTUSDT: Symbol = MFTUSDT
+    MINABNB: Symbol = MINABNB
+    MINABTC: Symbol = MINABTC
+    MINABUSD: Symbol = MINABUSD
+    MINATRY: Symbol = MINATRY
+    MINAUSDT: Symbol = MINAUSDT
+    MIRBTC: Symbol = MIRBTC
+    MIRBUSD: Symbol = MIRBUSD
+    MIRUSDT: Symbol = MIRUSDT
+    MITHBNB: Symbol = MITHBNB
+    MITHBTC: Symbol = MITHBTC
+    MITHUSDT: Symbol = MITHUSDT
+    MKRBNB: Symbol = MKRBNB
+    MKRBTC: Symbol = MKRBTC
+    MKRBUSD: Symbol = MKRBUSD
+    MKRUSDT: Symbol = MKRUSDT
+    MLNBNB: Symbol = MLNBNB
+    MLNBTC: Symbol = MLNBTC
+    MLNBUSD: Symbol = MLNBUSD
+    MLNUSDT: Symbol = MLNUSDT
+    MOBBTC: Symbol = MOBBTC
+    MOBBUSD: Symbol = MOBBUSD
+    MOBUSDT: Symbol = MOBUSDT
+    MODBTC: Symbol = MODBTC
+    MODETH: Symbol = MODETH
+    MOVRBNB: Symbol = MOVRBNB
+    MOVRBTC: Symbol = MOVRBTC
+    MOVRBUSD: Symbol = MOVRBUSD
+    MOVRUSDT: Symbol = MOVRUSDT
+    MTHBTC: Symbol = MTHBTC
+    MTHETH: Symbol = MTHETH
+    MTLBTC: Symbol = MTLBTC
+    MTLBUSD: Symbol = MTLBUSD
+    MTLETH: Symbol = MTLETH
+    MTLUSDT: Symbol = MTLUSDT
+    MULTIBTC: Symbol = MULTIBTC
+    MULTIBUSD: Symbol = MULTIBUSD
+    MULTIUSDT: Symbol = MULTIUSDT
+    NANOBNB: Symbol = NANOBNB
+    NANOBTC: Symbol = NANOBTC
+    NANOBUSD: Symbol = NANOBUSD
+    NANOETH: Symbol = NANOETH
+    NANOUSDT: Symbol = NANOUSDT
+    NASBNB: Symbol = NASBNB
+    NASBTC: Symbol = NASBTC
+    NASETH: Symbol = NASETH
+    NAVBNB: Symbol = NAVBNB
+    NAVBTC: Symbol = NAVBTC
+    NAVETH: Symbol = NAVETH
+    NBSBTC: Symbol = NBSBTC
+    NBSUSDT: Symbol = NBSUSDT
+    NCASHBNB: Symbol = NCASHBNB
+    NCASHBTC: Symbol = NCASHBTC
+    NCASHETH: Symbol = NCASHETH
+    NEARBNB: Symbol = NEARBNB
+    NEARBTC: Symbol = NEARBTC
+    NEARBUSD: Symbol = NEARBUSD
+    NEARETH: Symbol = NEARETH
+    NEAREUR: Symbol = NEAREUR
+    NEARRUB: Symbol = NEARRUB
+    NEARTRY: Symbol = NEARTRY
+    NEARUSDT: Symbol = NEARUSDT
+    NEBLBNB: Symbol = NEBLBNB
+    NEBLBTC: Symbol = NEBLBTC
+    NEBLBUSD: Symbol = NEBLBUSD
+    NEBLUSDT: Symbol = NEBLUSDT
+    NEOBNB: Symbol = NEOBNB
+    NEOBTC: Symbol = NEOBTC
+    NEOBUSD: Symbol = NEOBUSD
+    NEOETH: Symbol = NEOETH
+    NEOPAX: Symbol = NEOPAX
+    NEORUB: Symbol = NEORUB
+    NEOTRY: Symbol = NEOTRY
+    NEOTUSD: Symbol = NEOTUSD
+    NEOUSDC: Symbol = NEOUSDC
+    NEOUSDT: Symbol = NEOUSDT
+    NEXOBTC: Symbol = NEXOBTC
+    NEXOBUSD: Symbol = NEXOBUSD
+    NEXOUSDT: Symbol = NEXOUSDT
+    NKNBNB: Symbol = NKNBNB
+    NKNBTC: Symbol = NKNBTC
+    NKNBUSD: Symbol = NKNBUSD
+    NKNUSDT: Symbol = NKNUSDT
+    NMRBTC: Symbol = NMRBTC
+    NMRBUSD: Symbol = NMRBUSD
+    NMRUSDT: Symbol = NMRUSDT
+    NPXSBTC: Symbol = NPXSBTC
+    NPXSETH: Symbol = NPXSETH
+    NPXSUSDC: Symbol = NPXSUSDC
+    NPXSUSDT: Symbol = NPXSUSDT
+    NUAUD: Symbol = NUAUD
+    NUBNB: Symbol = NUBNB
+    NUBTC: Symbol = NUBTC
+    NUBUSD: Symbol = NUBUSD
+    NULSBNB: Symbol = NULSBNB
+    NULSBTC: Symbol = NULSBTC
+    NULSBUSD: Symbol = NULSBUSD
+    NULSETH: Symbol = NULSETH
+    NULSUSDT: Symbol = NULSUSDT
+    NURUB: Symbol = NURUB
+    NUUSDT: Symbol = NUUSDT
+    NXSBNB: Symbol = NXSBNB
+    NXSBTC: Symbol = NXSBTC
+    NXSETH: Symbol = NXSETH
+    OAXBTC: Symbol = OAXBTC
+    OAXETH: Symbol = OAXETH
+    OAXUSDT: Symbol = OAXUSDT
+    OCEANBNB: Symbol = OCEANBNB
+    OCEANBTC: Symbol = OCEANBTC
+    OCEANBUSD: Symbol = OCEANBUSD
+    OCEANUSDT: Symbol = OCEANUSDT
+    OGBTC: Symbol = OGBTC
+    OGBUSD: Symbol = OGBUSD
+    OGNBNB: Symbol = OGNBNB
+    OGNBTC: Symbol = OGNBTC
+    OGNBUSD: Symbol = OGNBUSD
+    OGNUSDT: Symbol = OGNUSDT
+    OGUSDT: Symbol = OGUSDT
+    OMBTC: Symbol = OMBTC
+    OMBUSD: Symbol = OMBUSD
+    OMGBNB: Symbol = OMGBNB
+    OMGBTC: Symbol = OMGBTC
+    OMGBUSD: Symbol = OMGBUSD
+    OMGETH: Symbol = OMGETH
+    OMGUSDT: Symbol = OMGUSDT
+    OMUSDT: Symbol = OMUSDT
+    ONEBIDR: Symbol = ONEBIDR
+    ONEBNB: Symbol = ONEBNB
+    ONEBTC: Symbol = ONEBTC
+    ONEBUSD: Symbol = ONEBUSD
+    ONEETH: Symbol = ONEETH
+    ONEPAX: Symbol = ONEPAX
+    ONETRY: Symbol = ONETRY
+    ONETUSD: Symbol = ONETUSD
+    ONEUSDC: Symbol = ONEUSDC
+    ONEUSDT: Symbol = ONEUSDT
+    ONGBNB: Symbol = ONGBNB
+    ONGBTC: Symbol = ONGBTC
+    ONGUSDT: Symbol = ONGUSDT
+    ONTBNB: Symbol = ONTBNB
+    ONTBTC: Symbol = ONTBTC
+    ONTBUSD: Symbol = ONTBUSD
+    ONTETH: Symbol = ONTETH
+    ONTPAX: Symbol = ONTPAX
+    ONTTRY: Symbol = ONTTRY
+    ONTUSDC: Symbol = ONTUSDC
+    ONTUSDT: Symbol = ONTUSDT
+    OOKIBNB: Symbol = OOKIBNB
+    OOKIBUSD: Symbol = OOKIBUSD
+    OOKIETH: Symbol = OOKIETH
+    OOKIUSDT: Symbol = OOKIUSDT
+    OPBNB: Symbol = OPBNB
+    OPBTC: Symbol = OPBTC
+    OPBUSD: Symbol = OPBUSD
+    OPETH: Symbol = OPETH
+    OPEUR: Symbol = OPEUR
+    OPTUSD: Symbol = OPTUSD
+    OPUSDT: Symbol = OPUSDT
+    ORNBTC: Symbol = ORNBTC
+    ORNBUSD: Symbol = ORNBUSD
+    ORNUSDT: Symbol = ORNUSDT
+    OSMOBTC: Symbol = OSMOBTC
+    OSMOBUSD: Symbol = OSMOBUSD
+    OSMOUSDT: Symbol = OSMOUSDT
+    OSTBNB: Symbol = OSTBNB
+    OSTBTC: Symbol = OSTBTC
+    OSTETH: Symbol = OSTETH
+    OXTBTC: Symbol = OXTBTC
+    OXTBUSD: Symbol = OXTBUSD
+    OXTUSDT: Symbol = OXTUSDT
+    PAXBNB: Symbol = PAXBNB
+    PAXBTC: Symbol = PAXBTC
+    PAXBUSD: Symbol = PAXBUSD
+    PAXETH: Symbol = PAXETH
+    PAXGBNB: Symbol = PAXGBNB
+    PAXGBTC: Symbol = PAXGBTC
+    PAXGBUSD: Symbol = PAXGBUSD
+    PAXGUSDT: Symbol = PAXGUSDT
+    PAXTUSD: Symbol = PAXTUSD
+    PAXUSDT: Symbol = PAXUSDT
+    PEOPLEBNB: Symbol = PEOPLEBNB
+    PEOPLEBTC: Symbol = PEOPLEBTC
+    PEOPLEBUSD: Symbol = PEOPLEBUSD
+    PEOPLEETH: Symbol = PEOPLEETH
+    PEOPLEUSDT: Symbol = PEOPLEUSDT
+    PEPETUSD: Symbol = PEPETUSD
+    PEPEUSDT: Symbol = PEPEUSDT
+    PERLBNB: Symbol = PERLBNB
+    PERLBTC: Symbol = PERLBTC
+    PERLUSDC: Symbol = PERLUSDC
+    PERLUSDT: Symbol = PERLUSDT
+    PERPBTC: Symbol = PERPBTC
+    PERPBUSD: Symbol = PERPBUSD
+    PERPUSDT: Symbol = PERPUSDT
+    PHABTC: Symbol = PHABTC
+    PHABUSD: Symbol = PHABUSD
+    PHAUSDT: Symbol = PHAUSDT
+    PHBBNB: Symbol = PHBBNB
+    PHBBTC: Symbol = PHBBTC
+    PHBBUSD: Symbol = PHBBUSD
+    PHBPAX: Symbol = PHBPAX
+    PHBTUSD: Symbol = PHBTUSD
+    PHBUSDC: Symbol = PHBUSDC
+    PHBUSDT: Symbol = PHBUSDT
+    PHXBNB: Symbol = PHXBNB
+    PHXBTC: Symbol = PHXBTC
+    PHXETH: Symbol = PHXETH
+    PIVXBNB: Symbol = PIVXBNB
+    PIVXBTC: Symbol = PIVXBTC
+    PLABNB: Symbol = PLABNB
+    PLABTC: Symbol = PLABTC
+    PLABUSD: Symbol = PLABUSD
+    PLAUSDT: Symbol = PLAUSDT
+    PNTBTC: Symbol = PNTBTC
+    PNTUSDT: Symbol = PNTUSDT
+    POABNB: Symbol = POABNB
+    POABTC: Symbol = POABTC
+    POAETH: Symbol = POAETH
+    POEBTC: Symbol = POEBTC
+    POEETH: Symbol = POEETH
+    POLSBNB: Symbol = POLSBNB
+    POLSBTC: Symbol = POLSBTC
+    POLSBUSD: Symbol = POLSBUSD
+    POLSUSDT: Symbol = POLSUSDT
+    POLYBNB: Symbol = POLYBNB
+    POLYBTC: Symbol = POLYBTC
+    POLYBUSD: Symbol = POLYBUSD
+    POLYUSDT: Symbol = POLYUSDT
+    POLYXBTC: Symbol = POLYXBTC
+    POLYXBUSD: Symbol = POLYXBUSD
+    POLYXUSDT: Symbol = POLYXUSDT
+    PONDBTC: Symbol = PONDBTC
+    PONDBUSD: Symbol = PONDBUSD
+    PONDUSDT: Symbol = PONDUSDT
+    PORTOBTC: Symbol = PORTOBTC
+    PORTOBUSD: Symbol = PORTOBUSD
+    PORTOEUR: Symbol = PORTOEUR
+    PORTOTRY: Symbol = PORTOTRY
+    PORTOUSDT: Symbol = PORTOUSDT
+    POWRBNB: Symbol = POWRBNB
+    POWRBTC: Symbol = POWRBTC
+    POWRBUSD: Symbol = POWRBUSD
+    POWRETH: Symbol = POWRETH
+    POWRUSDT: Symbol = POWRUSDT
+    PPTBTC: Symbol = PPTBTC
+    PPTETH: Symbol = PPTETH
+    PROMBNB: Symbol = PROMBNB
+    PROMBTC: Symbol = PROMBTC
+    PROMBUSD: Symbol = PROMBUSD
+    PROMUSDT: Symbol = PROMUSDT
+    PROSBUSD: Symbol = PROSBUSD
+    PROSETH: Symbol = PROSETH
+    PROSUSDT: Symbol = PROSUSDT
+    PSGBTC: Symbol = PSGBTC
+    PSGBUSD: Symbol = PSGBUSD
+    PSGUSDT: Symbol = PSGUSDT
+    PUNDIXBUSD: Symbol = PUNDIXBUSD
+    PUNDIXETH: Symbol = PUNDIXETH
+    PUNDIXUSDT: Symbol = PUNDIXUSDT
+    PYRBTC: Symbol = PYRBTC
+    PYRBUSD: Symbol = PYRBUSD
+    PYRUSDT: Symbol = PYRUSDT
+    QIBNB: Symbol = QIBNB
+    QIBTC: Symbol = QIBTC
+    QIBUSD: Symbol = QIBUSD
+    QIUSDT: Symbol = QIUSDT
+    QKCBTC: Symbol = QKCBTC
+    QKCBUSD: Symbol = QKCBUSD
+    QKCETH: Symbol = QKCETH
+    QKCUSDT: Symbol = QKCUSDT
+    QLCBNB: Symbol = QLCBNB
+    QLCBTC: Symbol = QLCBTC
+    QLCETH: Symbol = QLCETH
+    QNTBNB: Symbol = QNTBNB
+    QNTBTC: Symbol = QNTBTC
+    QNTBUSD: Symbol = QNTBUSD
+    QNTUSDT: Symbol = QNTUSDT
+    QSPBNB: Symbol = QSPBNB
+    QSPBTC: Symbol = QSPBTC
+    QSPETH: Symbol = QSPETH
+    QTUMBNB: Symbol = QTUMBNB
+    QTUMBTC: Symbol = QTUMBTC
+    QTUMBUSD: Symbol = QTUMBUSD
+    QTUMETH: Symbol = QTUMETH
+    QTUMUSDT: Symbol = QTUMUSDT
+    QUICKBNB: Symbol = QUICKBNB
+    QUICKBTC: Symbol = QUICKBTC
+    QUICKBUSD: Symbol = QUICKBUSD
+    QUICKUSDT: Symbol = QUICKUSDT
+    RADBNB: Symbol = RADBNB
+    RADBTC: Symbol = RADBTC
+    RADBUSD: Symbol = RADBUSD
+    RADUSDT: Symbol = RADUSDT
+    RAMPBTC: Symbol = RAMPBTC
+    RAMPBUSD: Symbol = RAMPBUSD
+    RAMPUSDT: Symbol = RAMPUSDT
+    RAREBNB: Symbol = RAREBNB
+    RAREBTC: Symbol = RAREBTC
+    RAREBUSD: Symbol = RAREBUSD
+    RAREUSDT: Symbol = RAREUSDT
+    RAYBNB: Symbol = RAYBNB
+    RAYBUSD: Symbol = RAYBUSD
+    RAYUSDT: Symbol = RAYUSDT
+    RCNBNB: Symbol = RCNBNB
+    RCNBTC: Symbol = RCNBTC
+    RCNETH: Symbol = RCNETH
+    RDNBNB: Symbol = RDNBNB
+    RDNBTC: Symbol = RDNBTC
+    RDNETH: Symbol = RDNETH
+    RDNTBTC: Symbol = RDNTBTC
+    RDNTTUSD: Symbol = RDNTTUSD
+    RDNTUSDT: Symbol = RDNTUSDT
+    REEFBIDR: Symbol = REEFBIDR
+    REEFBTC: Symbol = REEFBTC
+    REEFBUSD: Symbol = REEFBUSD
+    REEFTRY: Symbol = REEFTRY
+    REEFUSDT: Symbol = REEFUSDT
+    REIBNB: Symbol = REIBNB
+    REIBUSD: Symbol = REIBUSD
+    REIETH: Symbol = REIETH
+    REIUSDT: Symbol = REIUSDT
+    RENBNB: Symbol = RENBNB
+    RENBTC: Symbol = RENBTC
+    RENBTCBTC: Symbol = RENBTCBTC
+    RENBTCETH: Symbol = RENBTCETH
+    RENBUSD: Symbol = RENBUSD
+    RENUSDT: Symbol = RENUSDT
+    REPBNB: Symbol = REPBNB
+    REPBTC: Symbol = REPBTC
+    REPBUSD: Symbol = REPBUSD
+    REPUSDT: Symbol = REPUSDT
+    REQBTC: Symbol = REQBTC
+    REQBUSD: Symbol = REQBUSD
+    REQETH: Symbol = REQETH
+    REQUSDT: Symbol = REQUSDT
+    RGTBNB: Symbol = RGTBNB
+    RGTBTC: Symbol = RGTBTC
+    RGTBUSD: Symbol = RGTBUSD
+    RGTUSDT: Symbol = RGTUSDT
+    RIFBTC: Symbol = RIFBTC
+    RIFUSDT: Symbol = RIFUSDT
+    RLCBNB: Symbol = RLCBNB
+    RLCBTC: Symbol = RLCBTC
+    RLCBUSD: Symbol = RLCBUSD
+    RLCETH: Symbol = RLCETH
+    RLCUSDT: Symbol = RLCUSDT
+    RNDRBTC: Symbol = RNDRBTC
+    RNDRBUSD: Symbol = RNDRBUSD
+    RNDRTRY: Symbol = RNDRTRY
+    RNDRUSDT: Symbol = RNDRUSDT
+    ROSEBNB: Symbol = ROSEBNB
+    ROSEBTC: Symbol = ROSEBTC
+    ROSEBUSD: Symbol = ROSEBUSD
+    ROSEETH: Symbol = ROSEETH
+    ROSETRY: Symbol = ROSETRY
+    ROSEUSDT: Symbol = ROSEUSDT
+    RPLBTC: Symbol = RPLBTC
+    RPLBUSD: Symbol = RPLBUSD
+    RPLUSDT: Symbol = RPLUSDT
+    RPXBNB: Symbol = RPXBNB
+    RPXBTC: Symbol = RPXBTC
+    RPXETH: Symbol = RPXETH
+    RSRBNB: Symbol = RSRBNB
+    RSRBTC: Symbol = RSRBTC
+    RSRBUSD: Symbol = RSRBUSD
+    RSRUSDT: Symbol = RSRUSDT
+    RUNEAUD: Symbol = RUNEAUD
+    RUNEBNB: Symbol = RUNEBNB
+    RUNEBTC: Symbol = RUNEBTC
+    RUNEBUSD: Symbol = RUNEBUSD
+    RUNEETH: Symbol = RUNEETH
+    RUNEEUR: Symbol = RUNEEUR
+    RUNEGBP: Symbol = RUNEGBP
+    RUNETRY: Symbol = RUNETRY
+    RUNEUSDT: Symbol = RUNEUSDT
+    RVNBTC: Symbol = RVNBTC
+    RVNBUSD: Symbol = RVNBUSD
+    RVNTRY: Symbol = RVNTRY
+    RVNUSDT: Symbol = RVNUSDT
+    SALTBTC: Symbol = SALTBTC
+    SALTETH: Symbol = SALTETH
+    SANDAUD: Symbol = SANDAUD
+    SANDBIDR: Symbol = SANDBIDR
+    SANDBNB: Symbol = SANDBNB
+    SANDBRL: Symbol = SANDBRL
+    SANDBTC: Symbol = SANDBTC
+    SANDBUSD: Symbol = SANDBUSD
+    SANDETH: Symbol = SANDETH
+    SANDTRY: Symbol = SANDTRY
+    SANDUSDT: Symbol = SANDUSDT
+    SANTOSBRL: Symbol = SANTOSBRL
+    SANTOSBTC: Symbol = SANTOSBTC
+    SANTOSBUSD: Symbol = SANTOSBUSD
+    SANTOSTRY: Symbol = SANTOSTRY
+    SANTOSUSDT: Symbol = SANTOSUSDT
+    SCBTC: Symbol = SCBTC
+    SCBUSD: Symbol = SCBUSD
+    SCETH: Symbol = SCETH
+    SCRTBTC: Symbol = SCRTBTC
+    SCRTBUSD: Symbol = SCRTBUSD
+    SCRTETH: Symbol = SCRTETH
+    SCRTUSDT: Symbol = SCRTUSDT
+    SCUSDT: Symbol = SCUSDT
+    SFPBTC: Symbol = SFPBTC
+    SFPBUSD: Symbol = SFPBUSD
+    SFPUSDT: Symbol = SFPUSDT
+    SHIBAUD: Symbol = SHIBAUD
+    SHIBBRL: Symbol = SHIBBRL
+    SHIBBUSD: Symbol = SHIBBUSD
+    SHIBDOGE: Symbol = SHIBDOGE
+    SHIBEUR: Symbol = SHIBEUR
+    SHIBGBP: Symbol = SHIBGBP
+    SHIBRUB: Symbol = SHIBRUB
+    SHIBTRY: Symbol = SHIBTRY
+    SHIBUAH: Symbol = SHIBUAH
+    SHIBUSDT: Symbol = SHIBUSDT
+    SKLBTC: Symbol = SKLBTC
+    SKLBUSD: Symbol = SKLBUSD
+    SKLUSDT: Symbol = SKLUSDT
+    SKYBNB: Symbol = SKYBNB
+    SKYBTC: Symbol = SKYBTC
+    SKYETH: Symbol = SKYETH
+    SLPBIDR: Symbol = SLPBIDR
+    SLPBNB: Symbol = SLPBNB
+    SLPBUSD: Symbol = SLPBUSD
+    SLPETH: Symbol = SLPETH
+    SLPTRY: Symbol = SLPTRY
+    SLPUSDT: Symbol = SLPUSDT
+    SNGLSBTC: Symbol = SNGLSBTC
+    SNGLSETH: Symbol = SNGLSETH
+    SNMBTC: Symbol = SNMBTC
+    SNMBUSD: Symbol = SNMBUSD
+    SNMETH: Symbol = SNMETH
+    SNTBTC: Symbol = SNTBTC
+    SNTBUSD: Symbol = SNTBUSD
+    SNTETH: Symbol = SNTETH
+    SNXBNB: Symbol = SNXBNB
+    SNXBTC: Symbol = SNXBTC
+    SNXBUSD: Symbol = SNXBUSD
+    SNXETH: Symbol = SNXETH
+    SNXUSDT: Symbol = SNXUSDT
+    SOLAUD: Symbol = SOLAUD
+    SOLBIDR: Symbol = SOLBIDR
+    SOLBNB: Symbol = SOLBNB
+    SOLBRL: Symbol = SOLBRL
+    SOLBTC: Symbol = SOLBTC
+    SOLBUSD: Symbol = SOLBUSD
+    SOLETH: Symbol = SOLETH
+    SOLEUR: Symbol = SOLEUR
+    SOLGBP: Symbol = SOLGBP
+    SOLRUB: Symbol = SOLRUB
+    SOLTRY: Symbol = SOLTRY
+    SOLTUSD: Symbol = SOLTUSD
+    SOLUSDC: Symbol = SOLUSDC
+    SOLUSDT: Symbol = SOLUSDT
+    SPARTABNB: Symbol = SPARTABNB
+    SPELLBNB: Symbol = SPELLBNB
+    SPELLBTC: Symbol = SPELLBTC
+    SPELLBUSD: Symbol = SPELLBUSD
+    SPELLTRY: Symbol = SPELLTRY
+    SPELLUSDT: Symbol = SPELLUSDT
+    SRMBIDR: Symbol = SRMBIDR
+    SRMBNB: Symbol = SRMBNB
+    SRMBTC: Symbol = SRMBTC
+    SRMBUSD: Symbol = SRMBUSD
+    SRMUSDT: Symbol = SRMUSDT
+    SSVBTC: Symbol = SSVBTC
+    SSVBUSD: Symbol = SSVBUSD
+    SSVETH: Symbol = SSVETH
+    SSVTUSD: Symbol = SSVTUSD
+    SSVUSDT: Symbol = SSVUSDT
+    STEEMBNB: Symbol = STEEMBNB
+    STEEMBTC: Symbol = STEEMBTC
+    STEEMBUSD: Symbol = STEEMBUSD
+    STEEMETH: Symbol = STEEMETH
+    STEEMUSDT: Symbol = STEEMUSDT
+    STGBTC: Symbol = STGBTC
+    STGBUSD: Symbol = STGBUSD
+    STGUSDT: Symbol = STGUSDT
+    STMXBTC: Symbol = STMXBTC
+    STMXBUSD: Symbol = STMXBUSD
+    STMXETH: Symbol = STMXETH
+    STMXUSDT: Symbol = STMXUSDT
+    STORJBTC: Symbol = STORJBTC
+    STORJBUSD: Symbol = STORJBUSD
+    STORJETH: Symbol = STORJETH
+    STORJTRY: Symbol = STORJTRY
+    STORJUSDT: Symbol = STORJUSDT
+    STORMBNB: Symbol = STORMBNB
+    STORMBTC: Symbol = STORMBTC
+    STORMETH: Symbol = STORMETH
+    STORMUSDT: Symbol = STORMUSDT
+    STPTBNB: Symbol = STPTBNB
+    STPTBTC: Symbol = STPTBTC
+    STPTBUSD: Symbol = STPTBUSD
+    STPTUSDT: Symbol = STPTUSDT
+    STRATBNB: Symbol = STRATBNB
+    STRATBTC: Symbol = STRATBTC
+    STRATBUSD: Symbol = STRATBUSD
+    STRATETH: Symbol = STRATETH
+    STRATUSDT: Symbol = STRATUSDT
+    STRAXBTC: Symbol = STRAXBTC
+    STRAXBUSD: Symbol = STRAXBUSD
+    STRAXETH: Symbol = STRAXETH
+    STRAXUSDT: Symbol = STRAXUSDT
+    STXBNB: Symbol = STXBNB
+    STXBTC: Symbol = STXBTC
+    STXBUSD: Symbol = STXBUSD
+    STXTRY: Symbol = STXTRY
+    STXUSDT: Symbol = STXUSDT
+    SUBBTC: Symbol = SUBBTC
+    SUBETH: Symbol = SUBETH
+    SUIBNB: Symbol = SUIBNB
+    SUIBTC: Symbol = SUIBTC
+    SUIEUR: Symbol = SUIEUR
+    SUITRY: Symbol = SUITRY
+    SUITUSD: Symbol = SUITUSD
+    SUIUSDT: Symbol = SUIUSDT
+    SUNBTC: Symbol = SUNBTC
+    SUNBUSD: Symbol = SUNBUSD
+    SUNUSDT: Symbol = SUNUSDT
+    SUPERBTC: Symbol = SUPERBTC
+    SUPERBUSD: Symbol = SUPERBUSD
+    SUPERUSDT: Symbol = SUPERUSDT
+    SUSDBTC: Symbol = SUSDBTC
+    SUSDETH: Symbol = SUSDETH
+    SUSDUSDT: Symbol = SUSDUSDT
+    SUSHIBNB: Symbol = SUSHIBNB
+    SUSHIBTC: Symbol = SUSHIBTC
+    SUSHIBUSD: Symbol = SUSHIBUSD
+    SUSHIDOWNUSDT: Symbol = SUSHIDOWNUSDT
+    SUSHIUPUSDT: Symbol = SUSHIUPUSDT
+    SUSHIUSDT: Symbol = SUSHIUSDT
+    SWRVBNB: Symbol = SWRVBNB
+    SWRVBUSD: Symbol = SWRVBUSD
+    SXPAUD: Symbol = SXPAUD
+    SXPBIDR: Symbol = SXPBIDR
+    SXPBNB: Symbol = SXPBNB
+    SXPBTC: Symbol = SXPBTC
+    SXPBUSD: Symbol = SXPBUSD
+    SXPDOWNUSDT: Symbol = SXPDOWNUSDT
+    SXPEUR: Symbol = SXPEUR
+    SXPGBP: Symbol = SXPGBP
+    SXPTRY: Symbol = SXPTRY
+    SXPUPUSDT: Symbol = SXPUPUSDT
+    SXPUSDT: Symbol = SXPUSDT
+    SYNBTC: Symbol = SYNBTC
+    SYNUSDT: Symbol = SYNUSDT
+    SYSBNB: Symbol = SYSBNB
+    SYSBTC: Symbol = SYSBTC
+    SYSBUSD: Symbol = SYSBUSD
+    SYSETH: Symbol = SYSETH
+    SYSUSDT: Symbol = SYSUSDT
+    TBUSD: Symbol = TBUSD
+    TCTBNB: Symbol = TCTBNB
+    TCTBTC: Symbol = TCTBTC
+    TCTUSDT: Symbol = TCTUSDT
+    TFUELBNB: Symbol = TFUELBNB
+    TFUELBTC: Symbol = TFUELBTC
+    TFUELBUSD: Symbol = TFUELBUSD
+    TFUELPAX: Symbol = TFUELPAX
+    TFUELTUSD: Symbol = TFUELTUSD
+    TFUELUSDC: Symbol = TFUELUSDC
+    TFUELUSDT: Symbol = TFUELUSDT
+    THETABNB: Symbol = THETABNB
+    THETABTC: Symbol = THETABTC
+    THETABUSD: Symbol = THETABUSD
+    THETAETH: Symbol = THETAETH
+    THETAEUR: Symbol = THETAEUR
+    THETAUSDT: Symbol = THETAUSDT
+    TKOBIDR: Symbol = TKOBIDR
+    TKOBTC: Symbol = TKOBTC
+    TKOBUSD: Symbol = TKOBUSD
+    TKOUSDT: Symbol = TKOUSDT
+    TLMBNB: Symbol = TLMBNB
+    TLMBTC: Symbol = TLMBTC
+    TLMBUSD: Symbol = TLMBUSD
+    TLMTRY: Symbol = TLMTRY
+    TLMUSDT: Symbol = TLMUSDT
+    TNBBTC: Symbol = TNBBTC
+    TNBETH: Symbol = TNBETH
+    TNTBTC: Symbol = TNTBTC
+    TNTETH: Symbol = TNTETH
+    TOMOBNB: Symbol = TOMOBNB
+    TOMOBTC: Symbol = TOMOBTC
+    TOMOBUSD: Symbol = TOMOBUSD
+    TOMOUSDC: Symbol = TOMOUSDC
+    TOMOUSDT: Symbol = TOMOUSDT
+    TORNBNB: Symbol = TORNBNB
+    TORNBTC: Symbol = TORNBTC
+    TORNBUSD: Symbol = TORNBUSD
+    TORNUSDT: Symbol = TORNUSDT
+    TRBBNB: Symbol = TRBBNB
+    TRBBTC: Symbol = TRBBTC
+    TRBBUSD: Symbol = TRBBUSD
+    TRBUSDT: Symbol = TRBUSDT
+    TRIBEBNB: Symbol = TRIBEBNB
+    TRIBEBTC: Symbol = TRIBEBTC
+    TRIBEBUSD: Symbol = TRIBEBUSD
+    TRIBEUSDT: Symbol = TRIBEUSDT
+    TRIGBNB: Symbol = TRIGBNB
+    TRIGBTC: Symbol = TRIGBTC
+    TRIGETH: Symbol = TRIGETH
+    TROYBNB: Symbol = TROYBNB
+    TROYBTC: Symbol = TROYBTC
+    TROYBUSD: Symbol = TROYBUSD
+    TROYUSDT: Symbol = TROYUSDT
+    TRUBTC: Symbol = TRUBTC
+    TRUBUSD: Symbol = TRUBUSD
+    TRURUB: Symbol = TRURUB
+    TRUUSDT: Symbol = TRUUSDT
+    TRXAUD: Symbol = TRXAUD
+    TRXBNB: Symbol = TRXBNB
+    TRXBTC: Symbol = TRXBTC
+    TRXBUSD: Symbol = TRXBUSD
+    TRXDOWNUSDT: Symbol = TRXDOWNUSDT
+    TRXETH: Symbol = TRXETH
+    TRXEUR: Symbol = TRXEUR
+    TRXNGN: Symbol = TRXNGN
+    TRXPAX: Symbol = TRXPAX
+    TRXTRY: Symbol = TRXTRY
+    TRXTUSD: Symbol = TRXTUSD
+    TRXUPUSDT: Symbol = TRXUPUSDT
+    TRXUSDC: Symbol = TRXUSDC
+    TRXUSDT: Symbol = TRXUSDT
+    TRXXRP: Symbol = TRXXRP
+    TUSDBNB: Symbol = TUSDBNB
+    TUSDBTC: Symbol = TUSDBTC
+    TUSDBTUSD: Symbol = TUSDBTUSD
+    TUSDBUSD: Symbol = TUSDBUSD
+    TUSDETH: Symbol = TUSDETH
+    TUSDT: Symbol = TUSDT
+    TUSDUSDT: Symbol = TUSDUSDT
+    TVKBTC: Symbol = TVKBTC
+    TVKBUSD: Symbol = TVKBUSD
+    TVKUSDT: Symbol = TVKUSDT
+    TWTBTC: Symbol = TWTBTC
+    TWTBUSD: Symbol = TWTBUSD
+    TWTTRY: Symbol = TWTTRY
+    TWTUSDT: Symbol = TWTUSDT
+    UFTBUSD: Symbol = UFTBUSD
+    UFTETH: Symbol = UFTETH
+    UFTUSDT: Symbol = UFTUSDT
+    UMABTC: Symbol = UMABTC
+    UMABUSD: Symbol = UMABUSD
+    UMATRY: Symbol = UMATRY
+    UMAUSDT: Symbol = UMAUSDT
+    UNFIBNB: Symbol = UNFIBNB
+    UNFIBTC: Symbol = UNFIBTC
+    UNFIBUSD: Symbol = UNFIBUSD
+    UNFIETH: Symbol = UNFIETH
+    UNFIUSDT: Symbol = UNFIUSDT
+    UNIAUD: Symbol = UNIAUD
+    UNIBNB: Symbol = UNIBNB
+    UNIBTC: Symbol = UNIBTC
+    UNIBUSD: Symbol = UNIBUSD
+    UNIDOWNUSDT: Symbol = UNIDOWNUSDT
+    UNIETH: Symbol = UNIETH
+    UNIEUR: Symbol = UNIEUR
+    UNIUPUSDT: Symbol = UNIUPUSDT
+    UNIUSDT: Symbol = UNIUSDT
+    USDCBNB: Symbol = USDCBNB
+    USDCBUSD: Symbol = USDCBUSD
+    USDCPAX: Symbol = USDCPAX
+    USDCTUSD: Symbol = USDCTUSD
+    USDCUSDT: Symbol = USDCUSDT
+    USDPBUSD: Symbol = USDPBUSD
+    USDPUSDT: Symbol = USDPUSDT
+    USDSBUSDS: Symbol = USDSBUSDS
+    USDSBUSDT: Symbol = USDSBUSDT
+    USDSPAX: Symbol = USDSPAX
+    USDSTUSD: Symbol = USDSTUSD
+    USDSUSDC: Symbol = USDSUSDC
+    USDSUSDT: Symbol = USDSUSDT
+    USDTARS: Symbol = USDTARS
+    USDTBIDR: Symbol = USDTBIDR
+    USDTBKRW: Symbol = USDTBKRW
+    USDTBRL: Symbol = USDTBRL
+    USDTBVND: Symbol = USDTBVND
+    USDTDAI: Symbol = USDTDAI
+    USDTIDRT: Symbol = USDTIDRT
+    USDTNGN: Symbol = USDTNGN
+    USDTPLN: Symbol = USDTPLN
+    USDTRON: Symbol = USDTRON
+    USDTRUB: Symbol = USDTRUB
+    USDTTRY: Symbol = USDTTRY
+    USDTUAH: Symbol = USDTUAH
+    USDTZAR: Symbol = USDTZAR
+    USTBTC: Symbol = USTBTC
+    USTBUSD: Symbol = USTBUSD
+    USTCBUSD: Symbol = USTCBUSD
+    USTCUSDT: Symbol = USTCUSDT
+    USTUSDT: Symbol = USTUSDT
+    UTKBTC: Symbol = UTKBTC
+    UTKBUSD: Symbol = UTKBUSD
+    UTKUSDT: Symbol = UTKUSDT
+    VENBNB: Symbol = VENBNB
+    VENBTC: Symbol = VENBTC
+    VENETH: Symbol = VENETH
+    VENUSDT: Symbol = VENUSDT
+    VETBNB: Symbol = VETBNB
+    VETBTC: Symbol = VETBTC
+    VETBUSD: Symbol = VETBUSD
+    VETETH: Symbol = VETETH
+    VETEUR: Symbol = VETEUR
+    VETGBP: Symbol = VETGBP
+    VETTRY: Symbol = VETTRY
+    VETUSDT: Symbol = VETUSDT
+    VGXBTC: Symbol = VGXBTC
+    VGXETH: Symbol = VGXETH
+    VGXUSDT: Symbol = VGXUSDT
+    VIABNB: Symbol = VIABNB
+    VIABTC: Symbol = VIABTC
+    VIAETH: Symbol = VIAETH
+    VIBBTC: Symbol = VIBBTC
+    VIBBUSD: Symbol = VIBBUSD
+    VIBEBTC: Symbol = VIBEBTC
+    VIBEETH: Symbol = VIBEETH
+    VIBETH: Symbol = VIBETH
+    VIBUSDT: Symbol = VIBUSDT
+    VIDTBTC: Symbol = VIDTBTC
+    VIDTBUSD: Symbol = VIDTBUSD
+    VIDTUSDT: Symbol = VIDTUSDT
+    VITEBNB: Symbol = VITEBNB
+    VITEBTC: Symbol = VITEBTC
+    VITEBUSD: Symbol = VITEBUSD
+    VITEUSDT: Symbol = VITEUSDT
+    VOXELBNB: Symbol = VOXELBNB
+    VOXELBTC: Symbol = VOXELBTC
+    VOXELBUSD: Symbol = VOXELBUSD
+    VOXELETH: Symbol = VOXELETH
+    VOXELUSDT: Symbol = VOXELUSDT
+    VTHOBNB: Symbol = VTHOBNB
+    VTHOBUSD: Symbol = VTHOBUSD
+    VTHOUSDT: Symbol = VTHOUSDT
+    WABIBNB: Symbol = WABIBNB
+    WABIBTC: Symbol = WABIBTC
+    WABIETH: Symbol = WABIETH
+    WANBNB: Symbol = WANBNB
+    WANBTC: Symbol = WANBTC
+    WANETH: Symbol = WANETH
+    WANUSDT: Symbol = WANUSDT
+    WAVESBNB: Symbol = WAVESBNB
+    WAVESBTC: Symbol = WAVESBTC
+    WAVESBUSD: Symbol = WAVESBUSD
+    WAVESETH: Symbol = WAVESETH
+    WAVESEUR: Symbol = WAVESEUR
+    WAVESPAX: Symbol = WAVESPAX
+    WAVESRUB: Symbol = WAVESRUB
+    WAVESTRY: Symbol = WAVESTRY
+    WAVESTUSD: Symbol = WAVESTUSD
+    WAVESUSDC: Symbol = WAVESUSDC
+    WAVESUSDT: Symbol = WAVESUSDT
+    WAXPBNB: Symbol = WAXPBNB
+    WAXPBTC: Symbol = WAXPBTC
+    WAXPBUSD: Symbol = WAXPBUSD
+    WAXPUSDT: Symbol = WAXPUSDT
+    WBTCBTC: Symbol = WBTCBTC
+    WBTCBUSD: Symbol = WBTCBUSD
+    WBTCETH: Symbol = WBTCETH
+    WBTCUSDT: Symbol = WBTCUSDT
+    WINBNB: Symbol = WINBNB
+    WINBRL: Symbol = WINBRL
+    WINBTC: Symbol = WINBTC
+    WINBUSD: Symbol = WINBUSD
+    WINEUR: Symbol = WINEUR
+    WINGBNB: Symbol = WINGBNB
+    WINGBTC: Symbol = WINGBTC
+    WINGBUSD: Symbol = WINGBUSD
+    WINGETH: Symbol = WINGETH
+    WINGSBTC: Symbol = WINGSBTC
+    WINGSETH: Symbol = WINGSETH
+    WINGUSDT: Symbol = WINGUSDT
+    WINTRX: Symbol = WINTRX
+    WINUSDC: Symbol = WINUSDC
+    WINUSDT: Symbol = WINUSDT
+    WNXMBNB: Symbol = WNXMBNB
+    WNXMBTC: Symbol = WNXMBTC
+    WNXMBUSD: Symbol = WNXMBUSD
+    WNXMUSDT: Symbol = WNXMUSDT
+    WOOBNB: Symbol = WOOBNB
+    WOOBTC: Symbol = WOOBTC
+    WOOBUSD: Symbol = WOOBUSD
+    WOOUSDT: Symbol = WOOUSDT
+    WPRBTC: Symbol = WPRBTC
+    WPRETH: Symbol = WPRETH
+    WRXBNB: Symbol = WRXBNB
+    WRXBTC: Symbol = WRXBTC
+    WRXBUSD: Symbol = WRXBUSD
+    WRXEUR: Symbol = WRXEUR
+    WRXUSDT: Symbol = WRXUSDT
+    WTCBNB: Symbol = WTCBNB
+    WTCBTC: Symbol = WTCBTC
+    WTCETH: Symbol = WTCETH
+    WTCUSDT: Symbol = WTCUSDT
+    XECBUSD: Symbol = XECBUSD
+    XECUSDT: Symbol = XECUSDT
+    XEMBNB: Symbol = XEMBNB
+    XEMBTC: Symbol = XEMBTC
+    XEMBUSD: Symbol = XEMBUSD
+    XEMETH: Symbol = XEMETH
+    XEMUSDT: Symbol = XEMUSDT
+    XLMBNB: Symbol = XLMBNB
+    XLMBTC: Symbol = XLMBTC
+    XLMBUSD: Symbol = XLMBUSD
+    XLMDOWNUSDT: Symbol = XLMDOWNUSDT
+    XLMETH: Symbol = XLMETH
+    XLMEUR: Symbol = XLMEUR
+    XLMPAX: Symbol = XLMPAX
+    XLMTRY: Symbol = XLMTRY
+    XLMTUSD: Symbol = XLMTUSD
+    XLMUPUSDT: Symbol = XLMUPUSDT
+    XLMUSDC: Symbol = XLMUSDC
+    XLMUSDT: Symbol = XLMUSDT
+    XMRBNB: Symbol = XMRBNB
+    XMRBTC: Symbol = XMRBTC
+    XMRBUSD: Symbol = XMRBUSD
+    XMRETH: Symbol = XMRETH
+    XMRUSDT: Symbol = XMRUSDT
+    XNOBTC: Symbol = XNOBTC
+    XNOBUSD: Symbol = XNOBUSD
+    XNOETH: Symbol = XNOETH
+    XNOUSDT: Symbol = XNOUSDT
+    XRPAUD: Symbol = XRPAUD
+    XRPBEARBUSD: Symbol = XRPBEARBUSD
+    XRPBEARUSDT: Symbol = XRPBEARUSDT
+    XRPBIDR: Symbol = XRPBIDR
+    XRPBKRW: Symbol = XRPBKRW
+    XRPBNB: Symbol = XRPBNB
+    XRPBRL: Symbol = XRPBRL
+    XRPBTC: Symbol = XRPBTC
+    XRPBULLBUSD: Symbol = XRPBULLBUSD
+    XRPBULLUSDT: Symbol = XRPBULLUSDT
+    XRPBUSD: Symbol = XRPBUSD
+    XRPDOWNUSDT: Symbol = XRPDOWNUSDT
+    XRPETH: Symbol = XRPETH
+    XRPEUR: Symbol = XRPEUR
+    XRPGBP: Symbol = XRPGBP
+    XRPNGN: Symbol = XRPNGN
+    XRPPAX: Symbol = XRPPAX
+    XRPRUB: Symbol = XRPRUB
+    XRPTRY: Symbol = XRPTRY
+    XRPTUSD: Symbol = XRPTUSD
+    XRPUPUSDT: Symbol = XRPUPUSDT
+    XRPUSDC: Symbol = XRPUSDC
+    XRPUSDT: Symbol = XRPUSDT
+    XTZBNB: Symbol = XTZBNB
+    XTZBTC: Symbol = XTZBTC
+    XTZBUSD: Symbol = XTZBUSD
+    XTZDOWNUSDT: Symbol = XTZDOWNUSDT
+    XTZETH: Symbol = XTZETH
+    XTZTRY: Symbol = XTZTRY
+    XTZUPUSDT: Symbol = XTZUPUSDT
+    XTZUSDT: Symbol = XTZUSDT
+    XVGBTC: Symbol = XVGBTC
+    XVGBUSD: Symbol = XVGBUSD
+    XVGETH: Symbol = XVGETH
+    XVGUSDT: Symbol = XVGUSDT
+    XVSBNB: Symbol = XVSBNB
+    XVSBTC: Symbol = XVSBTC
+    XVSBUSD: Symbol = XVSBUSD
+    XVSTRY: Symbol = XVSTRY
+    XVSUSDT: Symbol = XVSUSDT
+    XZCBNB: Symbol = XZCBNB
+    XZCBTC: Symbol = XZCBTC
+    XZCETH: Symbol = XZCETH
+    XZCUSDT: Symbol = XZCUSDT
+    XZCXRP: Symbol = XZCXRP
+    YFIBNB: Symbol = YFIBNB
+    YFIBTC: Symbol = YFIBTC
+    YFIBUSD: Symbol = YFIBUSD
+    YFIDOWNUSDT: Symbol = YFIDOWNUSDT
+    YFIEUR: Symbol = YFIEUR
+    YFIIBNB: Symbol = YFIIBNB
+    YFIIBTC: Symbol = YFIIBTC
+    YFIIBUSD: Symbol = YFIIBUSD
+    YFIIUSDT: Symbol = YFIIUSDT
+    YFIUPUSDT: Symbol = YFIUPUSDT
+    YFIUSDT: Symbol = YFIUSDT
+    YGGBNB: Symbol = YGGBNB
+    YGGBTC: Symbol = YGGBTC
+    YGGBUSD: Symbol = YGGBUSD
+    YGGUSDT: Symbol = YGGUSDT
+    YOYOBNB: Symbol = YOYOBNB
+    YOYOBTC: Symbol = YOYOBTC
+    YOYOETH: Symbol = YOYOETH
+    ZECBNB: Symbol = ZECBNB
+    ZECBTC: Symbol = ZECBTC
+    ZECBUSD: Symbol = ZECBUSD
+    ZECETH: Symbol = ZECETH
+    ZECPAX: Symbol = ZECPAX
+    ZECTUSD: Symbol = ZECTUSD
+    ZECUSDC: Symbol = ZECUSDC
+    ZECUSDT: Symbol = ZECUSDT
+    ZENBNB: Symbol = ZENBNB
+    ZENBTC: Symbol = ZENBTC
+    ZENBUSD: Symbol = ZENBUSD
+    ZENETH: Symbol = ZENETH
+    ZENUSDT: Symbol = ZENUSDT
+    ZILBIDR: Symbol = ZILBIDR
+    ZILBNB: Symbol = ZILBNB
+    ZILBTC: Symbol = ZILBTC
+    ZILBUSD: Symbol = ZILBUSD
+    ZILETH: Symbol = ZILETH
+    ZILEUR: Symbol = ZILEUR
+    ZILTRY: Symbol = ZILTRY
+    ZILUSDT: Symbol = ZILUSDT
+    ZRXBNB: Symbol = ZRXBNB
+    ZRXBTC: Symbol = ZRXBTC
+    ZRXBUSD: Symbol = ZRXBUSD
+    ZRXETH: Symbol = ZRXETH
+    ZRXUSDT: Symbol = ZRXUSDT
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([ONEINCHBTC, ONEINCHBUSD, ONEINCHDOWNUSDT, ONEINCHUPUSDT, ONEINCHUSDT, AAVEBKRW, AAVEBNB, AAVEBRL, AAVEBTC, AAVEBUSD, AAVEDOWNUSDT, AAVEETH, AAVEUPUSDT, AAVEUSDT, ACABTC, ACABUSD, ACAUSDT, ACHBTC, ACHBUSD, ACHTRY, ACHUSDT, ACMBTC, ACMBUSD, ACMUSDT, ADAAUD, ADABIDR, ADABKRW, ADABNB, ADABRL, ADABTC, ADABUSD, ADADOWNUSDT, ADAETH, ADAEUR, ADAGBP, ADAPAX, ADARUB, ADATRY, ADATUSD, ADAUPUSDT, ADAUSDC, ADAUSDT, ADXBNB, ADXBTC, ADXBUSD, ADXETH, ADXUSDT, AEBNB, AEBTC, AEETH, AERGOBTC, AERGOBUSD, AERGOUSDT, AGIBNB, AGIBTC, AGIETH, AGIXBTC, AGIXBUSD, AGIXTRY, AGIXUSDT, AGLDBNB, AGLDBTC, AGLDBUSD, AGLDUSDT, AIONBNB, AIONBTC, AIONBUSD, AIONETH, AIONUSDT, AKROBTC, AKROBUSD, AKROUSDT, ALCXBTC, ALCXBUSD, ALCXUSDT, ALGOBIDR, ALGOBNB, ALGOBTC, ALGOBUSD, ALGOETH, ALGOPAX, ALGORUB, ALGOTRY, ALGOTUSD, ALGOUSDC, ALGOUSDT, ALICEBIDR, ALICEBNB, ALICEBTC, ALICEBUSD, ALICETRY, ALICEUSDT, ALPACABNB, ALPACABTC, ALPACABUSD, ALPACAUSDT, ALPHABNB, ALPHABTC, ALPHABUSD, ALPHAUSDT, ALPINEBTC, ALPINEBUSD, ALPINEEUR, ALPINETRY, ALPINEUSDT, AMBBNB, AMBBTC, AMBBUSD, AMBETH, AMBUSDT, AMPBNB, AMPBTC, AMPBUSD, AMPUSDT, ANCBNB, ANCBTC, ANCBUSD, ANCUSDT, ANKRBNB, ANKRBTC, ANKRBUSD, ANKRPAX, ANKRTRY, ANKRTUSD, ANKRUSDC, ANKRUSDT, ANTBNB, ANTBTC, ANTBUSD, ANTUSDT, ANYBTC, ANYBUSD, ANYUSDT, APEAUD, APEBNB, APEBRL, APEBTC, APEBUSD, APEETH, APEEUR, APEGBP, APETRY, APEUSDT, API3BNB, API3BTC, API3BUSD, API3TRY, API3USDT, APPCBNB, APPCBTC, APPCETH, APTBRL, APTBTC, APTBUSD, APTETH, APTEUR, APTTRY, APTUSDT, ARBBTC, ARBEUR, ARBNB, ARBRUB, ARBTC, ARBTRY, ARBTUSD, ARBUSD, ARBUSDT, ARDRBNB, ARDRBTC, ARDRETH, ARDRUSDT, ARKBTC, ARKBUSD, ARKETH, ARNBTC, ARNETH, ARPABNB, ARPABTC, ARPABUSD, ARPAETH, ARPARUB, ARPATRY, ARPAUSDT, ARUSDT, ASRBTC, ASRBUSD, ASRUSDT, ASTBTC, ASTETH, ASTRBTC, ASTRBUSD, ASTRETH, ASTRUSDT, ATABNB, ATABTC, ATABUSD, ATAUSDT, ATMBTC, ATMBUSD, ATMUSDT, ATOMBIDR, ATOMBNB, ATOMBRL, ATOMBTC, ATOMBUSD, ATOMETH, ATOMEUR, ATOMPAX, ATOMTRY, ATOMTUSD, ATOMUSDC, ATOMUSDT, AUCTIONBTC, AUCTIONBUSD, AUCTIONUSDT, AUDBUSD, AUDIOBTC, AUDIOBUSD, AUDIOTRY, AUDIOUSDT, AUDUSDC, AUDUSDT, AUTOBTC, AUTOBUSD, AUTOUSDT, AVABNB, AVABTC, AVABUSD, AVAUSDT, AVAXAUD, AVAXBIDR, AVAXBNB, AVAXBRL, AVAXBTC, AVAXBUSD, AVAXETH, AVAXEUR, AVAXGBP, AVAXTRY, AVAXUSDT, AXSAUD, AXSBNB, AXSBRL, AXSBTC, AXSBUSD, AXSETH, AXSTRY, AXSUSDT, BADGERBTC, BADGERBUSD, BADGERUSDT, BAKEBNB, BAKEBTC, BAKEBUSD, BAKEUSDT, BALBNB, BALBTC, BALBUSD, BALUSDT, BANDBNB, BANDBTC, BANDBUSD, BANDUSDT, BARBTC, BARBUSD, BARUSDT, BATBNB, BATBTC, BATBUSD, BATETH, BATPAX, BATTUSD, BATUSDC, BATUSDT, BCCBNB, BCCBTC, BCCETH, BCCUSDT, BCDBTC, BCDETH, BCHABCBTC, BCHABCBUSD, BCHABCPAX, BCHABCTUSD, BCHABCUSDC, BCHABCUSDT, BCHABUSD, BCHBNB, BCHBTC, BCHBUSD, BCHDOWNUSDT, BCHEUR, BCHPAX, BCHSVBTC, BCHSVPAX, BCHSVTUSD, BCHSVUSDC, BCHSVUSDT, BCHTUSD, BCHUPUSDT, BCHUSDC, BCHUSDT, BCNBNB, BCNBTC, BCNETH, BCPTBNB, BCPTBTC, BCPTETH, BCPTPAX, BCPTTUSD, BCPTUSDC, BDOTDOT, BEAMBNB, BEAMBTC, BEAMUSDT, BEARBUSD, BEARUSDT, BELBNB, BELBTC, BELBUSD, BELETH, BELTRY, BELUSDT, BETABNB, BETABTC, BETABUSD, BETAETH, BETAUSDT, BETHBUSD, BETHETH, BETHUSDT, BGBPUSDC, BICOBTC, BICOBUSD, BICOUSDT, BIFIBNB, BIFIBUSD, BIFIUSDT, BKRWBUSD, BKRWUSDT, BLZBNB, BLZBTC, BLZBUSD, BLZETH, BLZUSDT, BNBAUD, BNBBEARBUSD, BNBBEARUSDT, BNBBIDR, BNBBKRW, BNBBRL, BNBBTC, BNBBULLBUSD, BNBBULLUSDT, BNBBUSD, BNBDAI, BNBDOWNUSDT, BNBETH, BNBEUR, BNBGBP, BNBIDRT, BNBNGN, BNBPAX, BNBRUB, BNBTRY, BNBTUSD, BNBUAH, BNBUPUSDT, BNBUSDC, BNBUSDP, BNBUSDS, BNBUSDT, BNBUST, BNBZAR, BNTBTC, BNTBUSD, BNTETH, BNTUSDT, BNXBNB, BNXBTC, BNXBUSD, BNXUSDT, BONDBNB, BONDBTC, BONDBUSD, BONDETH, BONDUSDT, BOTBTC, BOTBUSD, BQXBTC, BQXETH, BRDBNB, BRDBTC, BRDETH, BSWBNB, BSWBUSD, BSWETH, BSWTRY, BSWUSDT, BTCAUD, BTCBBTC, BTCBIDR, BTCBKRW, BTCBRL, BTCBUSD, BTCDAI, BTCDOWNUSDT, BTCEUR, BTCGBP, BTCIDRT, BTCNGN, BTCPAX, BTCPLN, BTCRON, BTCRUB, BTCSTBTC, BTCSTBUSD, BTCSTUSDT, BTCTRY, BTCTUSD, BTCUAH, BTCUPUSDT, BTCUSDC, BTCUSDP, BTCUSDS, BTCUSDT, BTCUST, BTCVAI, BTCZAR, BTGBTC, BTGBUSD, BTGETH, BTGUSDT, BTSBNB, BTSBTC, BTSBUSD, BTSETH, BTSUSDT, BTTBNB, BTTBRL, BTTBTC, BTTBUSD, BTTCBUSD, BTTCTRY, BTTCUSDC, BTTCUSDT, BTTEUR, BTTPAX, BTTTRX, BTTTRY, BTTTUSD, BTTUSDC, BTTUSDT, BULLBUSD, BULLUSDT, BURGERBNB, BURGERBUSD, BURGERETH, BURGERUSDT, BUSDBIDR, BUSDBKRW, BUSDBRL, BUSDBVND, BUSDDAI, BUSDIDRT, BUSDNGN, BUSDPLN, BUSDRON, BUSDRUB, BUSDTRY, BUSDUAH, BUSDUSDT, BUSDVAI, BUSDZAR, BZRXBNB, BZRXBTC, BZRXBUSD, BZRXUSDT, C98BNB, C98BRL, C98BTC, C98BUSD, C98USDT, CAKEAUD, CAKEBNB, CAKEBRL, CAKEBTC, CAKEBUSD, CAKEGBP, CAKEUSDT, CDTBTC, CDTETH, CELOBTC, CELOBUSD, CELOUSDT, CELRBNB, CELRBTC, CELRBUSD, CELRETH, CELRUSDT, CFXBTC, CFXBUSD, CFXTRY, CFXUSDT, CHATBTC, CHATETH, CHESSBNB, CHESSBTC, CHESSBUSD, CHESSUSDT, CHRBNB, CHRBTC, CHRBUSD, CHRETH, CHRUSDT, CHZBNB, CHZBRL, CHZBTC, CHZBUSD, CHZEUR, CHZGBP, CHZTRY, CHZUSDT, CITYBNB, CITYBTC, CITYBUSD, CITYUSDT, CKBBTC, CKBBUSD, CKBUSDT, CLOAKBTC, CLOAKETH, CLVBNB, CLVBTC, CLVBUSD, CLVUSDT, CMTBNB, CMTBTC, CMTETH, CNDBNB, CNDBTC, CNDETH, COCOSBNB, COCOSBTC, COCOSBUSD, COCOSTRY, COCOSUSDT, COMPBNB, COMPBTC, COMPBUSD, COMPUSDT, COSBNB, COSBTC, COSBUSD, COSTRY, COSUSDT, COTIBNB, COTIBTC, COTIBUSD, COTIUSDT, COVERBUSD, COVERETH, CREAMBNB, CREAMBUSD, CRVBNB, CRVBTC, CRVBUSD, CRVETH, CRVUSDT, CTKBNB, CTKBTC, CTKBUSD, CTKUSDT, CTSIBNB, CTSIBTC, CTSIBUSD, CTSIUSDT, CTXCBNB, CTXCBTC, CTXCBUSD, CTXCUSDT, CVCBNB, CVCBTC, CVCBUSD, CVCETH, CVCUSDT, CVPBUSD, CVPETH, CVPUSDT, CVXBTC, CVXBUSD, CVXUSDT, DAIBNB, DAIBTC, DAIBUSD, DAIUSDT, DARBNB, DARBTC, DARBUSD, DARETH, DAREUR, DARTRY, DARUSDT, DASHBNB, DASHBTC, DASHBUSD, DASHETH, DASHUSDT, DATABTC, DATABUSD, DATAETH, DATAUSDT, DCRBNB, DCRBTC, DCRBUSD, DCRUSDT, DEGOBTC, DEGOBUSD, DEGOUSDT, DENTBTC, DENTBUSD, DENTETH, DENTTRY, DENTUSDT, DEXEBUSD, DEXEETH, DEXEUSDT, DFBUSD, DFETH, DFUSDT, DGBBTC, DGBBUSD, DGBUSDT, DGDBTC, DGDETH, DIABNB, DIABTC, DIABUSD, DIAUSDT, DLTBNB, DLTBTC, DLTETH, DNTBTC, DNTBUSD, DNTETH, DNTUSDT, DOCKBTC, DOCKBUSD, DOCKETH, DOCKUSDT, DODOBTC, DODOBUSD, DODOUSDT, DOGEAUD, DOGEBIDR, DOGEBNB, DOGEBRL, DOGEBTC, DOGEBUSD, DOGEEUR, DOGEGBP, DOGEPAX, DOGERUB, DOGETRY, DOGETUSD, DOGEUSDC, DOGEUSDT, DOTAUD, DOTBIDR, DOTBKRW, DOTBNB, DOTBRL, DOTBTC, DOTBUSD, DOTDOWNUSDT, DOTETH, DOTEUR, DOTGBP, DOTNGN, DOTRUB, DOTTRY, DOTUPUSDT, DOTUSDT, DREPBNB, DREPBTC, DREPBUSD, DREPUSDT, DUSKBNB, DUSKBTC, DUSKBUSD, DUSKPAX, DUSKUSDC, DUSKUSDT, DYDXBNB, DYDXBTC, DYDXBUSD, DYDXETH, DYDXUSDT, EASYBTC, EASYETH, EDOBTC, EDOETH, EDUBNB, EDUBTC, EDUEUR, EDUTRY, EDUTUSD, EDUUSDT, EGLDBNB, EGLDBTC, EGLDBUSD, EGLDETH, EGLDEUR, EGLDRON, EGLDUSDT, ELFBTC, ELFBUSD, ELFETH, ELFUSDT, ENGBTC, ENGETH, ENJBNB, ENJBRL, ENJBTC, ENJBUSD, ENJETH, ENJEUR, ENJGBP, ENJTRY, ENJUSDT, ENSBNB, ENSBTC, ENSBUSD, ENSTRY, ENSUSDT, EOSAUD, EOSBEARBUSD, EOSBEARUSDT, EOSBNB, EOSBTC, EOSBULLBUSD, EOSBULLUSDT, EOSBUSD, EOSDOWNUSDT, EOSETH, EOSEUR, EOSPAX, EOSTRY, EOSTUSD, EOSUPUSDT, EOSUSDC, EOSUSDT, EPSBTC, EPSBUSD, EPSUSDT, EPXBUSD, EPXUSDT, ERDBNB, ERDBTC, ERDBUSD, ERDPAX, ERDUSDC, ERDUSDT, ERNBNB, ERNBUSD, ERNUSDT, ETCBNB, ETCBRL, ETCBTC, ETCBUSD, ETCETH, ETCEUR, ETCGBP, ETCPAX, ETCTRY, ETCTUSD, ETCUSDC, ETCUSDT, ETHAUD, ETHBEARBUSD, ETHBEARUSDT, ETHBIDR, ETHBKRW, ETHBRL, ETHBTC, ETHBULLBUSD, ETHBULLUSDT, ETHBUSD, ETHDAI, ETHDOWNUSDT, ETHEUR, ETHGBP, ETHNGN, ETHPAX, ETHPLN, ETHRUB, ETHTRY, ETHTUSD, ETHUAH, ETHUPUSDT, ETHUSDC, ETHUSDP, ETHUSDT, ETHUST, ETHZAR, EURBUSD, EURUSDT, EVXBTC, EVXETH, FARMBNB, FARMBTC, FARMBUSD, FARMETH, FARMUSDT, FETBNB, FETBTC, FETBUSD, FETTRY, FETUSDT, FIDABNB, FIDABTC, FIDABUSD, FIDAUSDT, FILBNB, FILBTC, FILBUSD, FILDOWNUSDT, FILETH, FILTRY, FILUPUSDT, FILUSDT, FIOBNB, FIOBTC, FIOBUSD, FIOUSDT, FIROBTC, FIROBUSD, FIROETH, FIROUSDT, FISBIDR, FISBRL, FISBTC, FISBUSD, FISTRY, FISUSDT, FLMBNB, FLMBTC, FLMBUSD, FLMUSDT, FLOKITUSD, FLOKIUSDT, FLOWBNB, FLOWBTC, FLOWBUSD, FLOWUSDT, FLUXBTC, FLUXBUSD, FLUXUSDT, FORBNB, FORBTC, FORBUSD, FORTHBTC, FORTHBUSD, FORTHUSDT, FORUSDT, FRONTBTC, FRONTBUSD, FRONTETH, FRONTUSDT, FTMAUD, FTMBIDR, FTMBNB, FTMBRL, FTMBTC, FTMBUSD, FTMETH, FTMEUR, FTMPAX, FTMRUB, FTMTRY, FTMTUSD, FTMUSDC, FTMUSDT, FTTBNB, FTTBTC, FTTBUSD, FTTETH, FTTUSDT, FUELBTC, FUELETH, FUNBNB, FUNBTC, FUNETH, FUNUSDT, FXSBTC, FXSBUSD, FXSUSDT, GALAAUD, GALABNB, GALABRL, GALABTC, GALABUSD, GALAETH, GALAEUR, GALATRY, GALAUSDT, GALBNB, GALBRL, GALBTC, GALBUSD, GALETH, GALEUR, GALTRY, GALUSDT, GASBTC, GASBUSD, GASUSDT, GBPBUSD, GBPUSDT, GFTBUSD, GHSTBUSD, GHSTETH, GHSTUSDT, GLMBTC, GLMBUSD, GLMETH, GLMRBNB, GLMRBTC, GLMRBUSD, GLMRUSDT, GLMUSDT, GMTAUD, GMTBNB, GMTBRL, GMTBTC, GMTBUSD, GMTETH, GMTEUR, GMTGBP, GMTTRY, GMTUSDT, GMXBTC, GMXBUSD, GMXUSDT, GNOBNB, GNOBTC, GNOBUSD, GNOUSDT, GNSBTC, GNSUSDT, GNTBNB, GNTBTC, GNTETH, GOBNB, GOBTC, GRSBTC, GRSETH, GRTBTC, GRTBUSD, GRTETH, GRTEUR, GRTTRY, GRTUSDT, GTCBNB, GTCBTC, GTCBUSD, GTCUSDT, GTOBNB, GTOBTC, GTOBUSD, GTOETH, GTOPAX, GTOTUSD, GTOUSDC, GTOUSDT, GVTBTC, GVTETH, GXSBNB, GXSBTC, GXSETH, GXSUSDT, HARDBNB, HARDBTC, HARDBUSD, HARDUSDT, HBARBNB, HBARBTC, HBARBUSD, HBARUSDT, HCBTC, HCETH, HCUSDT, HEGICBUSD, HEGICETH, HFTBTC, HFTBUSD, HFTUSDT, HIFIETH, HIFIUSDT, HIGHBNB, HIGHBTC, HIGHBUSD, HIGHUSDT, HIVEBNB, HIVEBTC, HIVEBUSD, HIVEUSDT, HNTBTC, HNTBUSD, HNTUSDT, HOOKBNB, HOOKBTC, HOOKBUSD, HOOKUSDT, HOTBNB, HOTBRL, HOTBTC, HOTBUSD, HOTETH, HOTEUR, HOTTRY, HOTUSDT, HSRBTC, HSRETH, ICNBTC, ICNETH, ICPBNB, ICPBTC, ICPBUSD, ICPETH, ICPEUR, ICPRUB, ICPTRY, ICPUSDT, ICXBNB, ICXBTC, ICXBUSD, ICXETH, ICXUSDT, IDBNB, IDBTC, IDEUR, IDEXBNB, IDEXBTC, IDEXBUSD, IDEXUSDT, IDTRY, IDTUSD, IDUSDT, ILVBNB, ILVBTC, ILVBUSD, ILVUSDT, IMXBNB, IMXBTC, IMXBUSD, IMXUSDT, INJBNB, INJBTC, INJBUSD, INJTRY, INJUSDT, INSBTC, INSETH, IOSTBTC, IOSTBUSD, IOSTETH, IOSTUSDT, IOTABNB, IOTABTC, IOTABUSD, IOTAETH, IOTAUSDT, IOTXBTC, IOTXBUSD, IOTXETH, IOTXUSDT, IQBNB, IQBUSD, IRISBNB, IRISBTC, IRISBUSD, IRISUSDT, JASMYBNB, JASMYBTC, JASMYBUSD, JASMYETH, JASMYEUR, JASMYTRY, JASMYUSDT, JOEBTC, JOEBUSD, JOETRY, JOEUSDT, JSTBNB, JSTBTC, JSTBUSD, JSTUSDT, JUVBTC, JUVBUSD, JUVUSDT, KAVABNB, KAVABTC, KAVABUSD, KAVAETH, KAVAUSDT, KDABTC, KDABUSD, KDAUSDT, KEEPBNB, KEEPBTC, KEEPBUSD, KEEPUSDT, KEYBTC, KEYBUSD, KEYETH, KEYUSDT, KLAYBNB, KLAYBTC, KLAYBUSD, KLAYUSDT, KMDBTC, KMDBUSD, KMDETH, KMDUSDT, KNCBNB, KNCBTC, KNCBUSD, KNCETH, KNCUSDT, KP3RBNB, KP3RBUSD, KP3RUSDT, KSMAUD, KSMBNB, KSMBTC, KSMBUSD, KSMETH, KSMUSDT, LAZIOBTC, LAZIOBUSD, LAZIOEUR, LAZIOTRY, LAZIOUSDT, LDOBTC, LDOBUSD, LDOTUSD, LDOUSDT, LENDBKRW, LENDBTC, LENDBUSD, LENDETH, LENDUSDT, LEVERBUSD, LEVERUSDT, LINABNB, LINABTC, LINABUSD, LINAUSDT, LINKAUD, LINKBKRW, LINKBNB, LINKBRL, LINKBTC, LINKBUSD, LINKDOWNUSDT, LINKETH, LINKEUR, LINKGBP, LINKNGN, LINKPAX, LINKTRY, LINKTUSD, LINKUPUSDT, LINKUSDC, LINKUSDT, LITBTC, LITBUSD, LITETH, LITUSDT, LOKABNB, LOKABTC, LOKABUSD, LOKAUSDT, LOOMBNB, LOOMBTC, LOOMBUSD, LOOMETH, LOOMUSDT, LPTBNB, LPTBTC, LPTBUSD, LPTUSDT, LQTYBTC, LQTYUSDT, LRCBNB, LRCBTC, LRCBUSD, LRCETH, LRCTRY, LRCUSDT, LSKBNB, LSKBTC, LSKBUSD, LSKETH, LSKUSDT, LTCBNB, LTCBRL, LTCBTC, LTCBUSD, LTCDOWNUSDT, LTCETH, LTCEUR, LTCGBP, LTCNGN, LTCPAX, LTCRUB, LTCTUSD, LTCUAH, LTCUPUSDT, LTCUSDC, LTCUSDT, LTOBNB, LTOBTC, LTOBUSD, LTOUSDT, LUNAAUD, LUNABIDR, LUNABNB, LUNABRL, LUNABTC, LUNABUSD, LUNAETH, LUNAEUR, LUNAGBP, LUNATRY, LUNAUSDT, LUNAUST, LUNBTC, LUNCBUSD, LUNCUSDT, LUNETH, MAGICBTC, MAGICBUSD, MAGICTRY, MAGICUSDT, MANABIDR, MANABNB, MANABRL, MANABTC, MANABUSD, MANAETH, MANATRY, MANAUSDT, MASKBNB, MASKBUSD, MASKUSDT, MATICAUD, MATICBIDR, MATICBNB, MATICBRL, MATICBTC, MATICBUSD, MATICETH, MATICEUR, MATICGBP, MATICRUB, MATICTRY, MATICTUSD, MATICUSDT, MBLBNB, MBLBTC, MBLBUSD, MBLUSDT, MBOXBNB, MBOXBTC, MBOXBUSD, MBOXTRY, MBOXUSDT, MCBNB, MCBTC, MCBUSD, MCOBNB, MCOBTC, MCOETH, MCOUSDT, MCUSDT, MDABTC, MDAETH, MDTBNB, MDTBTC, MDTBUSD, MDTUSDT, MDXBNB, MDXBTC, MDXBUSD, MDXUSDT, MFTBNB, MFTBTC, MFTETH, MFTUSDT, MINABNB, MINABTC, MINABUSD, MINATRY, MINAUSDT, MIRBTC, MIRBUSD, MIRUSDT, MITHBNB, MITHBTC, MITHUSDT, MKRBNB, MKRBTC, MKRBUSD, MKRUSDT, MLNBNB, MLNBTC, MLNBUSD, MLNUSDT, MOBBTC, MOBBUSD, MOBUSDT, MODBTC, MODETH, MOVRBNB, MOVRBTC, MOVRBUSD, MOVRUSDT, MTHBTC, MTHETH, MTLBTC, MTLBUSD, MTLETH, MTLUSDT, MULTIBTC, MULTIBUSD, MULTIUSDT, NANOBNB, NANOBTC, NANOBUSD, NANOETH, NANOUSDT, NASBNB, NASBTC, NASETH, NAVBNB, NAVBTC, NAVETH, NBSBTC, NBSUSDT, NCASHBNB, NCASHBTC, NCASHETH, NEARBNB, NEARBTC, NEARBUSD, NEARETH, NEAREUR, NEARRUB, NEARTRY, NEARUSDT, NEBLBNB, NEBLBTC, NEBLBUSD, NEBLUSDT, NEOBNB, NEOBTC, NEOBUSD, NEOETH, NEOPAX, NEORUB, NEOTRY, NEOTUSD, NEOUSDC, NEOUSDT, NEXOBTC, NEXOBUSD, NEXOUSDT, NKNBNB, NKNBTC, NKNBUSD, NKNUSDT, NMRBTC, NMRBUSD, NMRUSDT, NPXSBTC, NPXSETH, NPXSUSDC, NPXSUSDT, NUAUD, NUBNB, NUBTC, NUBUSD, NULSBNB, NULSBTC, NULSBUSD, NULSETH, NULSUSDT, NURUB, NUUSDT, NXSBNB, NXSBTC, NXSETH, OAXBTC, OAXETH, OAXUSDT, OCEANBNB, OCEANBTC, OCEANBUSD, OCEANUSDT, OGBTC, OGBUSD, OGNBNB, OGNBTC, OGNBUSD, OGNUSDT, OGUSDT, OMBTC, OMBUSD, OMGBNB, OMGBTC, OMGBUSD, OMGETH, OMGUSDT, OMUSDT, ONEBIDR, ONEBNB, ONEBTC, ONEBUSD, ONEETH, ONEPAX, ONETRY, ONETUSD, ONEUSDC, ONEUSDT, ONGBNB, ONGBTC, ONGUSDT, ONTBNB, ONTBTC, ONTBUSD, ONTETH, ONTPAX, ONTTRY, ONTUSDC, ONTUSDT, OOKIBNB, OOKIBUSD, OOKIETH, OOKIUSDT, OPBNB, OPBTC, OPBUSD, OPETH, OPEUR, OPTUSD, OPUSDT, ORNBTC, ORNBUSD, ORNUSDT, OSMOBTC, OSMOBUSD, OSMOUSDT, OSTBNB, OSTBTC, OSTETH, OXTBTC, OXTBUSD, OXTUSDT, PAXBNB, PAXBTC, PAXBUSD, PAXETH, PAXGBNB, PAXGBTC, PAXGBUSD, PAXGUSDT, PAXTUSD, PAXUSDT, PEOPLEBNB, PEOPLEBTC, PEOPLEBUSD, PEOPLEETH, PEOPLEUSDT, PEPETUSD, PEPEUSDT, PERLBNB, PERLBTC, PERLUSDC, PERLUSDT, PERPBTC, PERPBUSD, PERPUSDT, PHABTC, PHABUSD, PHAUSDT, PHBBNB, PHBBTC, PHBBUSD, PHBPAX, PHBTUSD, PHBUSDC, PHBUSDT, PHXBNB, PHXBTC, PHXETH, PIVXBNB, PIVXBTC, PLABNB, PLABTC, PLABUSD, PLAUSDT, PNTBTC, PNTUSDT, POABNB, POABTC, POAETH, POEBTC, POEETH, POLSBNB, POLSBTC, POLSBUSD, POLSUSDT, POLYBNB, POLYBTC, POLYBUSD, POLYUSDT, POLYXBTC, POLYXBUSD, POLYXUSDT, PONDBTC, PONDBUSD, PONDUSDT, PORTOBTC, PORTOBUSD, PORTOEUR, PORTOTRY, PORTOUSDT, POWRBNB, POWRBTC, POWRBUSD, POWRETH, POWRUSDT, PPTBTC, PPTETH, PROMBNB, PROMBTC, PROMBUSD, PROMUSDT, PROSBUSD, PROSETH, PROSUSDT, PSGBTC, PSGBUSD, PSGUSDT, PUNDIXBUSD, PUNDIXETH, PUNDIXUSDT, PYRBTC, PYRBUSD, PYRUSDT, QIBNB, QIBTC, QIBUSD, QIUSDT, QKCBTC, QKCBUSD, QKCETH, QKCUSDT, QLCBNB, QLCBTC, QLCETH, QNTBNB, QNTBTC, QNTBUSD, QNTUSDT, QSPBNB, QSPBTC, QSPETH, QTUMBNB, QTUMBTC, QTUMBUSD, QTUMETH, QTUMUSDT, QUICKBNB, QUICKBTC, QUICKBUSD, QUICKUSDT, RADBNB, RADBTC, RADBUSD, RADUSDT, RAMPBTC, RAMPBUSD, RAMPUSDT, RAREBNB, RAREBTC, RAREBUSD, RAREUSDT, RAYBNB, RAYBUSD, RAYUSDT, RCNBNB, RCNBTC, RCNETH, RDNBNB, RDNBTC, RDNETH, RDNTBTC, RDNTTUSD, RDNTUSDT, REEFBIDR, REEFBTC, REEFBUSD, REEFTRY, REEFUSDT, REIBNB, REIBUSD, REIETH, REIUSDT, RENBNB, RENBTC, RENBTCBTC, RENBTCETH, RENBUSD, RENUSDT, REPBNB, REPBTC, REPBUSD, REPUSDT, REQBTC, REQBUSD, REQETH, REQUSDT, RGTBNB, RGTBTC, RGTBUSD, RGTUSDT, RIFBTC, RIFUSDT, RLCBNB, RLCBTC, RLCBUSD, RLCETH, RLCUSDT, RNDRBTC, RNDRBUSD, RNDRTRY, RNDRUSDT, ROSEBNB, ROSEBTC, ROSEBUSD, ROSEETH, ROSETRY, ROSEUSDT, RPLBTC, RPLBUSD, RPLUSDT, RPXBNB, RPXBTC, RPXETH, RSRBNB, RSRBTC, RSRBUSD, RSRUSDT, RUNEAUD, RUNEBNB, RUNEBTC, RUNEBUSD, RUNEETH, RUNEEUR, RUNEGBP, RUNETRY, RUNEUSDT, RVNBTC, RVNBUSD, RVNTRY, RVNUSDT, SALTBTC, SALTETH, SANDAUD, SANDBIDR, SANDBNB, SANDBRL, SANDBTC, SANDBUSD, SANDETH, SANDTRY, SANDUSDT, SANTOSBRL, SANTOSBTC, SANTOSBUSD, SANTOSTRY, SANTOSUSDT, SCBTC, SCBUSD, SCETH, SCRTBTC, SCRTBUSD, SCRTETH, SCRTUSDT, SCUSDT, SFPBTC, SFPBUSD, SFPUSDT, SHIBAUD, SHIBBRL, SHIBBUSD, SHIBDOGE, SHIBEUR, SHIBGBP, SHIBRUB, SHIBTRY, SHIBUAH, SHIBUSDT, SKLBTC, SKLBUSD, SKLUSDT, SKYBNB, SKYBTC, SKYETH, SLPBIDR, SLPBNB, SLPBUSD, SLPETH, SLPTRY, SLPUSDT, SNGLSBTC, SNGLSETH, SNMBTC, SNMBUSD, SNMETH, SNTBTC, SNTBUSD, SNTETH, SNXBNB, SNXBTC, SNXBUSD, SNXETH, SNXUSDT, SOLAUD, SOLBIDR, SOLBNB, SOLBRL, SOLBTC, SOLBUSD, SOLETH, SOLEUR, SOLGBP, SOLRUB, SOLTRY, SOLTUSD, SOLUSDC, SOLUSDT, SPARTABNB, SPELLBNB, SPELLBTC, SPELLBUSD, SPELLTRY, SPELLUSDT, SRMBIDR, SRMBNB, SRMBTC, SRMBUSD, SRMUSDT, SSVBTC, SSVBUSD, SSVETH, SSVTUSD, SSVUSDT, STEEMBNB, STEEMBTC, STEEMBUSD, STEEMETH, STEEMUSDT, STGBTC, STGBUSD, STGUSDT, STMXBTC, STMXBUSD, STMXETH, STMXUSDT, STORJBTC, STORJBUSD, STORJETH, STORJTRY, STORJUSDT, STORMBNB, STORMBTC, STORMETH, STORMUSDT, STPTBNB, STPTBTC, STPTBUSD, STPTUSDT, STRATBNB, STRATBTC, STRATBUSD, STRATETH, STRATUSDT, STRAXBTC, STRAXBUSD, STRAXETH, STRAXUSDT, STXBNB, STXBTC, STXBUSD, STXTRY, STXUSDT, SUBBTC, SUBETH, SUIBNB, SUIBTC, SUIEUR, SUITRY, SUITUSD, SUIUSDT, SUNBTC, SUNBUSD, SUNUSDT, SUPERBTC, SUPERBUSD, SUPERUSDT, SUSDBTC, SUSDETH, SUSDUSDT, SUSHIBNB, SUSHIBTC, SUSHIBUSD, SUSHIDOWNUSDT, SUSHIUPUSDT, SUSHIUSDT, SWRVBNB, SWRVBUSD, SXPAUD, SXPBIDR, SXPBNB, SXPBTC, SXPBUSD, SXPDOWNUSDT, SXPEUR, SXPGBP, SXPTRY, SXPUPUSDT, SXPUSDT, SYNBTC, SYNUSDT, SYSBNB, SYSBTC, SYSBUSD, SYSETH, SYSUSDT, TBUSD, TCTBNB, TCTBTC, TCTUSDT, TFUELBNB, TFUELBTC, TFUELBUSD, TFUELPAX, TFUELTUSD, TFUELUSDC, TFUELUSDT, THETABNB, THETABTC, THETABUSD, THETAETH, THETAEUR, THETAUSDT, TKOBIDR, TKOBTC, TKOBUSD, TKOUSDT, TLMBNB, TLMBTC, TLMBUSD, TLMTRY, TLMUSDT, TNBBTC, TNBETH, TNTBTC, TNTETH, TOMOBNB, TOMOBTC, TOMOBUSD, TOMOUSDC, TOMOUSDT, TORNBNB, TORNBTC, TORNBUSD, TORNUSDT, TRBBNB, TRBBTC, TRBBUSD, TRBUSDT, TRIBEBNB, TRIBEBTC, TRIBEBUSD, TRIBEUSDT, TRIGBNB, TRIGBTC, TRIGETH, TROYBNB, TROYBTC, TROYBUSD, TROYUSDT, TRUBTC, TRUBUSD, TRURUB, TRUUSDT, TRXAUD, TRXBNB, TRXBTC, TRXBUSD, TRXDOWNUSDT, TRXETH, TRXEUR, TRXNGN, TRXPAX, TRXTRY, TRXTUSD, TRXUPUSDT, TRXUSDC, TRXUSDT, TRXXRP, TUSDBNB, TUSDBTC, TUSDBTUSD, TUSDBUSD, TUSDETH, TUSDT, TUSDUSDT, TVKBTC, TVKBUSD, TVKUSDT, TWTBTC, TWTBUSD, TWTTRY, TWTUSDT, UFTBUSD, UFTETH, UFTUSDT, UMABTC, UMABUSD, UMATRY, UMAUSDT, UNFIBNB, UNFIBTC, UNFIBUSD, UNFIETH, UNFIUSDT, UNIAUD, UNIBNB, UNIBTC, UNIBUSD, UNIDOWNUSDT, UNIETH, UNIEUR, UNIUPUSDT, UNIUSDT, USDCBNB, USDCBUSD, USDCPAX, USDCTUSD, USDCUSDT, USDPBUSD, USDPUSDT, USDSBUSDS, USDSBUSDT, USDSPAX, USDSTUSD, USDSUSDC, USDSUSDT, USDTARS, USDTBIDR, USDTBKRW, USDTBRL, USDTBVND, USDTDAI, USDTIDRT, USDTNGN, USDTPLN, USDTRON, USDTRUB, USDTTRY, USDTUAH, USDTZAR, USTBTC, USTBUSD, USTCBUSD, USTCUSDT, USTUSDT, UTKBTC, UTKBUSD, UTKUSDT, VENBNB, VENBTC, VENETH, VENUSDT, VETBNB, VETBTC, VETBUSD, VETETH, VETEUR, VETGBP, VETTRY, VETUSDT, VGXBTC, VGXETH, VGXUSDT, VIABNB, VIABTC, VIAETH, VIBBTC, VIBBUSD, VIBEBTC, VIBEETH, VIBETH, VIBUSDT, VIDTBTC, VIDTBUSD, VIDTUSDT, VITEBNB, VITEBTC, VITEBUSD, VITEUSDT, VOXELBNB, VOXELBTC, VOXELBUSD, VOXELETH, VOXELUSDT, VTHOBNB, VTHOBUSD, VTHOUSDT, WABIBNB, WABIBTC, WABIETH, WANBNB, WANBTC, WANETH, WANUSDT, WAVESBNB, WAVESBTC, WAVESBUSD, WAVESETH, WAVESEUR, WAVESPAX, WAVESRUB, WAVESTRY, WAVESTUSD, WAVESUSDC, WAVESUSDT, WAXPBNB, WAXPBTC, WAXPBUSD, WAXPUSDT, WBTCBTC, WBTCBUSD, WBTCETH, WBTCUSDT, WINBNB, WINBRL, WINBTC, WINBUSD, WINEUR, WINGBNB, WINGBTC, WINGBUSD, WINGETH, WINGSBTC, WINGSETH, WINGUSDT, WINTRX, WINUSDC, WINUSDT, WNXMBNB, WNXMBTC, WNXMBUSD, WNXMUSDT, WOOBNB, WOOBTC, WOOBUSD, WOOUSDT, WPRBTC, WPRETH, WRXBNB, WRXBTC, WRXBUSD, WRXEUR, WRXUSDT, WTCBNB, WTCBTC, WTCETH, WTCUSDT, XECBUSD, XECUSDT, XEMBNB, XEMBTC, XEMBUSD, XEMETH, XEMUSDT, XLMBNB, XLMBTC, XLMBUSD, XLMDOWNUSDT, XLMETH, XLMEUR, XLMPAX, XLMTRY, XLMTUSD, XLMUPUSDT, XLMUSDC, XLMUSDT, XMRBNB, XMRBTC, XMRBUSD, XMRETH, XMRUSDT, XNOBTC, XNOBUSD, XNOETH, XNOUSDT, XRPAUD, XRPBEARBUSD, XRPBEARUSDT, XRPBIDR, XRPBKRW, XRPBNB, XRPBRL, XRPBTC, XRPBULLBUSD, XRPBULLUSDT, XRPBUSD, XRPDOWNUSDT, XRPETH, XRPEUR, XRPGBP, XRPNGN, XRPPAX, XRPRUB, XRPTRY, XRPTUSD, XRPUPUSDT, XRPUSDC, XRPUSDT, XTZBNB, XTZBTC, XTZBUSD, XTZDOWNUSDT, XTZETH, XTZTRY, XTZUPUSDT, XTZUSDT, XVGBTC, XVGBUSD, XVGETH, XVGUSDT, XVSBNB, XVSBTC, XVSBUSD, XVSTRY, XVSUSDT, XZCBNB, XZCBTC, XZCETH, XZCUSDT, XZCXRP, YFIBNB, YFIBTC, YFIBUSD, YFIDOWNUSDT, YFIEUR, YFIIBNB, YFIIBTC, YFIIBUSD, YFIIUSDT, YFIUPUSDT, YFIUSDT, YGGBNB, YGGBTC, YGGBUSD, YGGUSDT, YOYOBNB, YOYOBTC, YOYOETH, ZECBNB, ZECBTC, ZECBUSD, ZECETH, ZECPAX, ZECTUSD, ZECUSDC, ZECUSDT, ZENBNB, ZENBTC, ZENBUSD, ZENETH, ZENUSDT, ZILBIDR, ZILBNB, ZILBTC, ZILBUSD, ZILETH, ZILEUR, ZILTRY, ZILUSDT, ZRXBNB, ZRXBTC, ZRXBUSD, ZRXETH, ZRXUSDT])
+
+binance = Binance()

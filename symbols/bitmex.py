@@ -40,17 +40,6 @@ class _EVOL7D(Symbol):
 
 
 _EVOL7D = _EVOL7D(*_EVOL7D._fields)
-"""
-    name: .EVOL7D
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAXBT(Symbol):
@@ -92,17 +81,6 @@ class _BADAXBT(Symbol):
 
 
 _BADAXBT = _BADAXBT(*_BADAXBT._fields)
-"""
-    name: .BADAXBT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAXBT30M(Symbol):
@@ -144,17 +122,6 @@ class _BADAXBT30M(Symbol):
 
 
 _BADAXBT30M = _BADAXBT30M(*_BADAXBT30M._fields)
-"""
-    name: .BADAXBT30M
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCHXBT(Symbol):
@@ -196,17 +163,6 @@ class _BBCHXBT(Symbol):
 
 
 _BBCHXBT = _BBCHXBT(*_BBCHXBT._fields)
-"""
-    name: .BBCHXBT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCHXBT30M(Symbol):
@@ -248,17 +204,6 @@ class _BBCHXBT30M(Symbol):
 
 
 _BBCHXBT30M = _BBCHXBT30M(*_BBCHXBT30M._fields)
-"""
-    name: .BBCHXBT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOSXBT(Symbol):
@@ -300,17 +245,6 @@ class _BEOSXBT(Symbol):
 
 
 _BEOSXBT = _BEOSXBT(*_BEOSXBT._fields)
-"""
-    name: .BEOSXBT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOSXBT30M(Symbol):
@@ -352,17 +286,6 @@ class _BEOSXBT30M(Symbol):
 
 
 _BEOSXBT30M = _BEOSXBT30M(*_BEOSXBT30M._fields)
-"""
-    name: .BEOSXBT30M
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRPXBT(Symbol):
@@ -404,17 +327,6 @@ class _BXRPXBT(Symbol):
 
 
 _BXRPXBT = _BXRPXBT(*_BXRPXBT._fields)
-"""
-    name: .BXRPXBT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRPXBT30M(Symbol):
@@ -456,17 +368,6 @@ class _BXRPXBT30M(Symbol):
 
 
 _BXRPXBT30M = _BXRPXBT30M(*_BXRPXBT30M._fields)
-"""
-    name: .BXRPXBT30M
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXXBT(Symbol):
@@ -508,17 +409,6 @@ class _BTRXXBT(Symbol):
 
 
 _BTRXXBT = _BTRXXBT(*_BTRXXBT._fields)
-"""
-    name: .BTRXXBT
-    significant_digits: None
-    tick_size: 1e-10
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXXBT30M(Symbol):
@@ -560,17 +450,6 @@ class _BTRXXBT30M(Symbol):
 
 
 _BTRXXBT30M = _BTRXXBT30M(*_BTRXXBT30M._fields)
-"""
-    name: .BTRXXBT30M
-    significant_digits: None
-    tick_size: 1e-10
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAXBT_NEXT(Symbol):
@@ -612,17 +491,6 @@ class _BADAXBT_NEXT(Symbol):
 
 
 _BADAXBT_NEXT = _BADAXBT_NEXT(*_BADAXBT_NEXT._fields)
-"""
-    name: .BADAXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCHXBT_NEXT(Symbol):
@@ -664,17 +532,6 @@ class _BBCHXBT_NEXT(Symbol):
 
 
 _BBCHXBT_NEXT = _BBCHXBT_NEXT(*_BBCHXBT_NEXT._fields)
-"""
-    name: .BBCHXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOSXBT_NEXT(Symbol):
@@ -716,17 +573,6 @@ class _BEOSXBT_NEXT(Symbol):
 
 
 _BEOSXBT_NEXT = _BEOSXBT_NEXT(*_BEOSXBT_NEXT._fields)
-"""
-    name: .BEOSXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXXBT_NEXT(Symbol):
@@ -768,17 +614,6 @@ class _BTRXXBT_NEXT(Symbol):
 
 
 _BTRXXBT_NEXT = _BTRXXBT_NEXT(*_BTRXXBT_NEXT._fields)
-"""
-    name: .BTRXXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-10
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRPXBT_NEXT(Symbol):
@@ -820,17 +655,6 @@ class _BXRPXBT_NEXT(Symbol):
 
 
 _BXRPXBT_NEXT = _BXRPXBT_NEXT(*_BXRPXBT_NEXT._fields)
-"""
-    name: .BXRPXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRP_NEXT(Symbol):
@@ -872,17 +696,6 @@ class _BXRP_NEXT(Symbol):
 
 
 _BXRP_NEXT = _BXRP_NEXT(*_BXRP_NEXT._fields)
-"""
-    name: .BXRP_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRP(Symbol):
@@ -924,17 +737,6 @@ class _BXRP(Symbol):
 
 
 _BXRP = _BXRP(*_BXRP._fields)
-"""
-    name: .BXRP
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPBON(Symbol):
@@ -976,17 +778,6 @@ class _XRPBON(Symbol):
 
 
 _XRPBON = _XRPBON(*_XRPBON._fields)
-"""
-    name: .XRPBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPBON8H(Symbol):
@@ -1028,17 +819,6 @@ class _XRPBON8H(Symbol):
 
 
 _XRPBON8H = _XRPBON8H(*_XRPBON8H._fields)
-"""
-    name: .XRPBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPUSDPI(Symbol):
@@ -1080,17 +860,6 @@ class _XRPUSDPI(Symbol):
 
 
 _XRPUSDPI = _XRPUSDPI(*_XRPUSDPI._fields)
-"""
-    name: .XRPUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPUSDPI8H(Symbol):
@@ -1132,17 +901,6 @@ class _XRPUSDPI8H(Symbol):
 
 
 _XRPUSDPI8H = _XRPUSDPI8H(*_XRPUSDPI8H._fields)
-"""
-    name: .XRPUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCH(Symbol):
@@ -1184,17 +942,6 @@ class _BBCH(Symbol):
 
 
 _BBCH = _BBCH(*_BBCH._fields)
-"""
-    name: .BBCH
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHBON(Symbol):
@@ -1236,17 +983,6 @@ class _BCHBON(Symbol):
 
 
 _BCHBON = _BCHBON(*_BCHBON._fields)
-"""
-    name: .BCHBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHBON8H(Symbol):
@@ -1288,17 +1024,6 @@ class _BCHBON8H(Symbol):
 
 
 _BCHBON8H = _BCHBON8H(*_BCHBON8H._fields)
-"""
-    name: .BCHBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHUSDPI(Symbol):
@@ -1340,17 +1065,6 @@ class _BCHUSDPI(Symbol):
 
 
 _BCHUSDPI = _BCHUSDPI(*_BCHUSDPI._fields)
-"""
-    name: .BCHUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHUSDPI8H(Symbol):
@@ -1392,17 +1106,6 @@ class _BCHUSDPI8H(Symbol):
 
 
 _BCHUSDPI8H = _BCHUSDPI8H(*_BCHUSDPI8H._fields)
-"""
-    name: .BCHUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCH_NEXT(Symbol):
@@ -1444,17 +1147,6 @@ class _BBCH_NEXT(Symbol):
 
 
 _BBCH_NEXT = _BBCH_NEXT(*_BBCH_NEXT._fields)
-"""
-    name: .BBCH_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDT(Symbol):
@@ -1496,17 +1188,6 @@ class _BUSDT(Symbol):
 
 
 _BUSDT = _BUSDT(*_BUSDT._fields)
-"""
-    name: .BUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDT_NEXT(Symbol):
@@ -1548,17 +1229,6 @@ class _BUSDT_NEXT(Symbol):
 
 
 _BUSDT_NEXT = _BUSDT_NEXT(*_BUSDT_NEXT._fields)
-"""
-    name: .BUSDT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOST(Symbol):
@@ -1600,17 +1270,6 @@ class _BEOST(Symbol):
 
 
 _BEOST = _BEOST(*_BEOST._fields)
-"""
-    name: .BEOST
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOST_NEXT(Symbol):
@@ -1652,17 +1311,6 @@ class _BEOST_NEXT(Symbol):
 
 
 _BEOST_NEXT = _BEOST_NEXT(*_BEOST_NEXT._fields)
-"""
-    name: .BEOST_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOST30M(Symbol):
@@ -1704,17 +1352,6 @@ class _BEOST30M(Symbol):
 
 
 _BEOST30M = _BEOST30M(*_BEOST30M._fields)
-"""
-    name: .BEOST30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLINKT(Symbol):
@@ -1756,17 +1393,6 @@ class _BLINKT(Symbol):
 
 
 _BLINKT = _BLINKT(*_BLINKT._fields)
-"""
-    name: .BLINKT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLINKT_NEXT(Symbol):
@@ -1808,17 +1434,6 @@ class _BLINKT_NEXT(Symbol):
 
 
 _BLINKT_NEXT = _BLINKT_NEXT(*_BLINKT_NEXT._fields)
-"""
-    name: .BLINKT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLINKT30M(Symbol):
@@ -1860,17 +1475,6 @@ class _BLINKT30M(Symbol):
 
 
 _BLINKT30M = _BLINKT30M(*_BLINKT30M._fields)
-"""
-    name: .BLINKT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAT(Symbol):
@@ -1912,17 +1516,6 @@ class _BADAT(Symbol):
 
 
 _BADAT = _BADAT(*_BADAT._fields)
-"""
-    name: .BADAT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAT_NEXT(Symbol):
@@ -1964,17 +1557,6 @@ class _BADAT_NEXT(Symbol):
 
 
 _BADAT_NEXT = _BADAT_NEXT(*_BADAT_NEXT._fields)
-"""
-    name: .BADAT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADAT30M(Symbol):
@@ -2016,17 +1598,6 @@ class _BADAT30M(Symbol):
 
 
 _BADAT30M = _BADAT30M(*_BADAT30M._fields)
-"""
-    name: .BADAT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXTZT(Symbol):
@@ -2068,17 +1639,6 @@ class _BXTZT(Symbol):
 
 
 _BXTZT = _BXTZT(*_BXTZT._fields)
-"""
-    name: .BXTZT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXTZT_NEXT(Symbol):
@@ -2120,17 +1680,6 @@ class _BXTZT_NEXT(Symbol):
 
 
 _BXTZT_NEXT = _BXTZT_NEXT(*_BXTZT_NEXT._fields)
-"""
-    name: .BXTZT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXTZT30M(Symbol):
@@ -2172,17 +1721,6 @@ class _BXTZT30M(Symbol):
 
 
 _BXTZT30M = _BXTZT30M(*_BXTZT30M._fields)
-"""
-    name: .BXTZT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKBON(Symbol):
@@ -2224,17 +1762,6 @@ class _LINKBON(Symbol):
 
 
 _LINKBON = _LINKBON(*_LINKBON._fields)
-"""
-    name: .LINKBON
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKBON8H(Symbol):
@@ -2276,17 +1803,6 @@ class _LINKBON8H(Symbol):
 
 
 _LINKBON8H = _LINKBON8H(*_LINKBON8H._fields)
-"""
-    name: .LINKBON8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKUSDTPI(Symbol):
@@ -2328,17 +1844,6 @@ class _LINKUSDTPI(Symbol):
 
 
 _LINKUSDTPI = _LINKUSDTPI(*_LINKUSDTPI._fields)
-"""
-    name: .LINKUSDTPI
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKUSDTPI8H(Symbol):
@@ -2380,17 +1885,6 @@ class _LINKUSDTPI8H(Symbol):
 
 
 _LINKUSDTPI8H = _LINKUSDTPI8H(*_LINKUSDTPI8H._fields)
-"""
-    name: .LINKUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTBON(Symbol):
@@ -2432,17 +1926,6 @@ class _USDTBON(Symbol):
 
 
 _USDTBON = _USDTBON(*_USDTBON._fields)
-"""
-    name: .USDTBON
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTBON8H(Symbol):
@@ -2484,17 +1967,6 @@ class _USDTBON8H(Symbol):
 
 
 _USDTBON8H = _USDTBON8H(*_USDTBON8H._fields)
-"""
-    name: .USDTBON8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBNBT(Symbol):
@@ -2536,17 +2008,6 @@ class _BBNBT(Symbol):
 
 
 _BBNBT = _BBNBT(*_BBNBT._fields)
-"""
-    name: .BBNBT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBNBT_NEXT(Symbol):
@@ -2588,17 +2049,6 @@ class _BBNBT_NEXT(Symbol):
 
 
 _BBNBT_NEXT = _BBNBT_NEXT(*_BBNBT_NEXT._fields)
-"""
-    name: .BBNBT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBNBT30M(Symbol):
@@ -2640,17 +2090,6 @@ class _BBNBT30M(Symbol):
 
 
 _BBNBT30M = _BBNBT30M(*_BBNBT30M._fields)
-"""
-    name: .BBNBT30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOTT(Symbol):
@@ -2692,17 +2131,6 @@ class _BDOTT(Symbol):
 
 
 _BDOTT = _BDOTT(*_BDOTT._fields)
-"""
-    name: .BDOTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOTT_NEXT(Symbol):
@@ -2744,17 +2172,6 @@ class _BDOTT_NEXT(Symbol):
 
 
 _BDOTT_NEXT = _BDOTT_NEXT(*_BDOTT_NEXT._fields)
-"""
-    name: .BDOTT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOTT30M(Symbol):
@@ -2796,17 +2213,6 @@ class _BDOTT30M(Symbol):
 
 
 _BDOTT30M = _BDOTT30M(*_BDOTT30M._fields)
-"""
-    name: .BDOTT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BYFIT(Symbol):
@@ -2848,17 +2254,6 @@ class _BYFIT(Symbol):
 
 
 _BYFIT = _BYFIT(*_BYFIT._fields)
-"""
-    name: .BYFIT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BYFIT_NEXT(Symbol):
@@ -2900,17 +2295,6 @@ class _BYFIT_NEXT(Symbol):
 
 
 _BYFIT_NEXT = _BYFIT_NEXT(*_BYFIT_NEXT._fields)
-"""
-    name: .BYFIT_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BYFIT30M(Symbol):
@@ -2952,17 +2336,6 @@ class _BYFIT30M(Symbol):
 
 
 _BYFIT30M = _BYFIT30M(*_BYFIT30M._fields)
-"""
-    name: .BYFIT30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOGET(Symbol):
@@ -3004,17 +2377,6 @@ class _BDOGET(Symbol):
 
 
 _BDOGET = _BDOGET(*_BDOGET._fields)
-"""
-    name: .BDOGET
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOGET_NEXT(Symbol):
@@ -3056,17 +2418,6 @@ class _BDOGET_NEXT(Symbol):
 
 
 _BDOGET_NEXT = _BDOGET_NEXT(*_BDOGET_NEXT._fields)
-"""
-    name: .BDOGET_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEBON(Symbol):
@@ -3108,17 +2459,6 @@ class _DOGEBON(Symbol):
 
 
 _DOGEBON = _DOGEBON(*_DOGEBON._fields)
-"""
-    name: .DOGEBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEBON8H(Symbol):
@@ -3160,17 +2500,6 @@ class _DOGEBON8H(Symbol):
 
 
 _DOGEBON8H = _DOGEBON8H(*_DOGEBON8H._fields)
-"""
-    name: .DOGEBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEUSDTPI(Symbol):
@@ -3212,17 +2541,6 @@ class _DOGEUSDTPI(Symbol):
 
 
 _DOGEUSDTPI = _DOGEUSDTPI(*_DOGEUSDTPI._fields)
-"""
-    name: .DOGEUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEUSDTPI8H(Symbol):
@@ -3264,17 +2582,6 @@ class _DOGEUSDTPI8H(Symbol):
 
 
 _DOGEUSDTPI8H = _DOGEUSDTPI8H(*_DOGEUSDTPI8H._fields)
-"""
-    name: .DOGEUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBBON(Symbol):
@@ -3316,17 +2623,6 @@ class _BNBBON(Symbol):
 
 
 _BNBBON = _BNBBON(*_BNBBON._fields)
-"""
-    name: .BNBBON
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBBON8H(Symbol):
@@ -3368,17 +2664,6 @@ class _BNBBON8H(Symbol):
 
 
 _BNBBON8H = _BNBBON8H(*_BNBBON8H._fields)
-"""
-    name: .BNBBON8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBUSDTPI(Symbol):
@@ -3420,17 +2705,6 @@ class _BNBUSDTPI(Symbol):
 
 
 _BNBUSDTPI = _BNBUSDTPI(*_BNBUSDTPI._fields)
-"""
-    name: .BNBUSDTPI
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBUSDTPI8H(Symbol):
@@ -3472,17 +2746,6 @@ class _BNBUSDTPI8H(Symbol):
 
 
 _BNBUSDTPI8H = _BNBUSDTPI8H(*_BNBUSDTPI8H._fields)
-"""
-    name: .BNBUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADABON(Symbol):
@@ -3524,17 +2787,6 @@ class _ADABON(Symbol):
 
 
 _ADABON = _ADABON(*_ADABON._fields)
-"""
-    name: .ADABON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADABON8H(Symbol):
@@ -3576,17 +2828,6 @@ class _ADABON8H(Symbol):
 
 
 _ADABON8H = _ADABON8H(*_ADABON8H._fields)
-"""
-    name: .ADABON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADAUSDTPI(Symbol):
@@ -3628,17 +2869,6 @@ class _ADAUSDTPI(Symbol):
 
 
 _ADAUSDTPI = _ADAUSDTPI(*_ADAUSDTPI._fields)
-"""
-    name: .ADAUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADAUSDTPI8H(Symbol):
@@ -3680,17 +2910,6 @@ class _ADAUSDTPI8H(Symbol):
 
 
 _ADAUSDTPI8H = _ADAUSDTPI8H(*_ADAUSDTPI8H._fields)
-"""
-    name: .ADAUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTBON(Symbol):
@@ -3732,17 +2951,6 @@ class _DOTBON(Symbol):
 
 
 _DOTBON = _DOTBON(*_DOTBON._fields)
-"""
-    name: .DOTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTBON8H(Symbol):
@@ -3784,17 +2992,6 @@ class _DOTBON8H(Symbol):
 
 
 _DOTBON8H = _DOTBON8H(*_DOTBON8H._fields)
-"""
-    name: .DOTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTUSDTPI(Symbol):
@@ -3836,17 +3033,6 @@ class _DOTUSDTPI(Symbol):
 
 
 _DOTUSDTPI = _DOTUSDTPI(*_DOTUSDTPI._fields)
-"""
-    name: .DOTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTUSDTPI8H(Symbol):
@@ -3888,17 +3074,6 @@ class _DOTUSDTPI8H(Symbol):
 
 
 _DOTUSDTPI8H = _DOTUSDTPI8H(*_DOTUSDTPI8H._fields)
-"""
-    name: .DOTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSBON(Symbol):
@@ -3940,17 +3115,6 @@ class _EOSBON(Symbol):
 
 
 _EOSBON = _EOSBON(*_EOSBON._fields)
-"""
-    name: .EOSBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSBON8H(Symbol):
@@ -3992,17 +3156,6 @@ class _EOSBON8H(Symbol):
 
 
 _EOSBON8H = _EOSBON8H(*_EOSBON8H._fields)
-"""
-    name: .EOSBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSUSDTPI(Symbol):
@@ -4044,17 +3197,6 @@ class _EOSUSDTPI(Symbol):
 
 
 _EOSUSDTPI = _EOSUSDTPI(*_EOSUSDTPI._fields)
-"""
-    name: .EOSUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSUSDTPI8H(Symbol):
@@ -4096,17 +3238,6 @@ class _EOSUSDTPI8H(Symbol):
 
 
 _EOSUSDTPI8H = _EOSUSDTPI8H(*_EOSUSDTPI8H._fields)
-"""
-    name: .EOSUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XTZBON(Symbol):
@@ -4148,17 +3279,6 @@ class _XTZBON(Symbol):
 
 
 _XTZBON = _XTZBON(*_XTZBON._fields)
-"""
-    name: .XTZBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XTZBON8H(Symbol):
@@ -4200,17 +3320,6 @@ class _XTZBON8H(Symbol):
 
 
 _XTZBON8H = _XTZBON8H(*_XTZBON8H._fields)
-"""
-    name: .XTZBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XTZUSDTPI(Symbol):
@@ -4252,17 +3361,6 @@ class _XTZUSDTPI(Symbol):
 
 
 _XTZUSDTPI = _XTZUSDTPI(*_XTZUSDTPI._fields)
-"""
-    name: .XTZUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _YFIBON(Symbol):
@@ -4304,17 +3402,6 @@ class _YFIBON(Symbol):
 
 
 _YFIBON = _YFIBON(*_YFIBON._fields)
-"""
-    name: .YFIBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _YFIBON8H(Symbol):
@@ -4356,17 +3443,6 @@ class _YFIBON8H(Symbol):
 
 
 _YFIBON8H = _YFIBON8H(*_YFIBON8H._fields)
-"""
-    name: .YFIBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _YFIUSDTPI(Symbol):
@@ -4408,17 +3484,6 @@ class _YFIUSDTPI(Symbol):
 
 
 _YFIUSDTPI = _YFIUSDTPI(*_YFIUSDTPI._fields)
-"""
-    name: .YFIUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAAVET(Symbol):
@@ -4460,17 +3525,6 @@ class _BAAVET(Symbol):
 
 
 _BAAVET = _BAAVET(*_BAAVET._fields)
-"""
-    name: .BAAVET
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAAVET_NEXT(Symbol):
@@ -4512,17 +3566,6 @@ class _BAAVET_NEXT(Symbol):
 
 
 _BAAVET_NEXT = _BAAVET_NEXT(*_BAAVET_NEXT._fields)
-"""
-    name: .BAAVET_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AAVEBON(Symbol):
@@ -4564,17 +3607,6 @@ class _AAVEBON(Symbol):
 
 
 _AAVEBON = _AAVEBON(*_AAVEBON._fields)
-"""
-    name: .AAVEBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AAVEBON8H(Symbol):
@@ -4616,17 +3648,6 @@ class _AAVEBON8H(Symbol):
 
 
 _AAVEBON8H = _AAVEBON8H(*_AAVEBON8H._fields)
-"""
-    name: .AAVEBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AAVEUSDTPI(Symbol):
@@ -4668,17 +3689,6 @@ class _AAVEUSDTPI(Symbol):
 
 
 _AAVEUSDTPI = _AAVEUSDTPI(*_AAVEUSDTPI._fields)
-"""
-    name: .AAVEUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AAVEUSDTPI8H(Symbol):
@@ -4720,17 +3730,6 @@ class _AAVEUSDTPI8H(Symbol):
 
 
 _AAVEUSDTPI8H = _AAVEUSDTPI8H(*_AAVEUSDTPI8H._fields)
-"""
-    name: .AAVEUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUNIT(Symbol):
@@ -4772,17 +3771,6 @@ class _BUNIT(Symbol):
 
 
 _BUNIT = _BUNIT(*_BUNIT._fields)
-"""
-    name: .BUNIT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUNIT_NEXT(Symbol):
@@ -4824,17 +3812,6 @@ class _BUNIT_NEXT(Symbol):
 
 
 _BUNIT_NEXT = _BUNIT_NEXT(*_BUNIT_NEXT._fields)
-"""
-    name: .BUNIT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _UNIBON(Symbol):
@@ -4876,17 +3853,6 @@ class _UNIBON(Symbol):
 
 
 _UNIBON = _UNIBON(*_UNIBON._fields)
-"""
-    name: .UNIBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _UNIBON8H(Symbol):
@@ -4928,17 +3894,6 @@ class _UNIBON8H(Symbol):
 
 
 _UNIBON8H = _UNIBON8H(*_UNIBON8H._fields)
-"""
-    name: .UNIBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _UNIUSDTPI(Symbol):
@@ -4980,17 +3935,6 @@ class _UNIUSDTPI(Symbol):
 
 
 _UNIUSDTPI = _UNIUSDTPI(*_UNIUSDTPI._fields)
-"""
-    name: .UNIUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _UNIUSDTPI8H(Symbol):
@@ -5032,17 +3976,6 @@ class _UNIUSDTPI8H(Symbol):
 
 
 _UNIUSDTPI8H = _UNIUSDTPI8H(*_UNIUSDTPI8H._fields)
-"""
-    name: .UNIUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXLMT(Symbol):
@@ -5084,17 +4017,6 @@ class _BXLMT(Symbol):
 
 
 _BXLMT = _BXLMT(*_BXLMT._fields)
-"""
-    name: .BXLMT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXLMT_NEXT(Symbol):
@@ -5136,17 +4058,6 @@ class _BXLMT_NEXT(Symbol):
 
 
 _BXLMT_NEXT = _BXLMT_NEXT(*_BXLMT_NEXT._fields)
-"""
-    name: .BXLMT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XLMBON(Symbol):
@@ -5188,17 +4099,6 @@ class _XLMBON(Symbol):
 
 
 _XLMBON = _XLMBON(*_XLMBON._fields)
-"""
-    name: .XLMBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XLMBON8H(Symbol):
@@ -5240,17 +4140,6 @@ class _XLMBON8H(Symbol):
 
 
 _XLMBON8H = _XLMBON8H(*_XLMBON8H._fields)
-"""
-    name: .XLMBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XLMUSDTPI(Symbol):
@@ -5292,17 +4181,6 @@ class _XLMUSDTPI(Symbol):
 
 
 _XLMUSDTPI = _XLMUSDTPI(*_XLMUSDTPI._fields)
-"""
-    name: .XLMUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XLMUSDTPI8H(Symbol):
@@ -5344,17 +4222,6 @@ class _XLMUSDTPI8H(Symbol):
 
 
 _XLMUSDTPI8H = _XLMUSDTPI8H(*_XLMUSDTPI8H._fields)
-"""
-    name: .XLMUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXT(Symbol):
@@ -5396,17 +4263,6 @@ class _BTRXT(Symbol):
 
 
 _BTRXT = _BTRXT(*_BTRXT._fields)
-"""
-    name: .BTRXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXT_NEXT(Symbol):
@@ -5448,17 +4304,6 @@ class _BTRXT_NEXT(Symbol):
 
 
 _BTRXT_NEXT = _BTRXT_NEXT(*_BTRXT_NEXT._fields)
-"""
-    name: .BTRXT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXBON(Symbol):
@@ -5500,17 +4345,6 @@ class _TRXBON(Symbol):
 
 
 _TRXBON = _TRXBON(*_TRXBON._fields)
-"""
-    name: .TRXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXBON8H(Symbol):
@@ -5552,17 +4386,6 @@ class _TRXBON8H(Symbol):
 
 
 _TRXBON8H = _TRXBON8H(*_TRXBON8H._fields)
-"""
-    name: .TRXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXUSDTPI(Symbol):
@@ -5604,17 +4427,6 @@ class _TRXUSDTPI(Symbol):
 
 
 _TRXUSDTPI = _TRXUSDTPI(*_TRXUSDTPI._fields)
-"""
-    name: .TRXUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXUSDTPI8H(Symbol):
@@ -5656,17 +4468,6 @@ class _TRXUSDTPI8H(Symbol):
 
 
 _TRXUSDTPI8H = _TRXUSDTPI8H(*_TRXUSDTPI8H._fields)
-"""
-    name: .TRXUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRXT30M(Symbol):
@@ -5708,17 +4509,6 @@ class _BTRXT30M(Symbol):
 
 
 _BTRXT30M = _BTRXT30M(*_BTRXT30M._fields)
-"""
-    name: .BTRXT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSOLT(Symbol):
@@ -5760,17 +4550,6 @@ class _BSOLT(Symbol):
 
 
 _BSOLT = _BSOLT(*_BSOLT._fields)
-"""
-    name: .BSOLT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSOLT_NEXT(Symbol):
@@ -5812,17 +4591,6 @@ class _BSOLT_NEXT(Symbol):
 
 
 _BSOLT_NEXT = _BSOLT_NEXT(*_BSOLT_NEXT._fields)
-"""
-    name: .BSOLT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLBON(Symbol):
@@ -5864,17 +4632,6 @@ class _SOLBON(Symbol):
 
 
 _SOLBON = _SOLBON(*_SOLBON._fields)
-"""
-    name: .SOLBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLBON8H(Symbol):
@@ -5916,17 +4673,6 @@ class _SOLBON8H(Symbol):
 
 
 _SOLBON8H = _SOLBON8H(*_SOLBON8H._fields)
-"""
-    name: .SOLBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLUSDTPI(Symbol):
@@ -5968,17 +4714,6 @@ class _SOLUSDTPI(Symbol):
 
 
 _SOLUSDTPI = _SOLUSDTPI(*_SOLUSDTPI._fields)
-"""
-    name: .SOLUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLUSDTPI8H(Symbol):
@@ -6020,17 +4755,6 @@ class _SOLUSDTPI8H(Symbol):
 
 
 _SOLUSDTPI8H = _SOLUSDTPI8H(*_SOLUSDTPI8H._fields)
-"""
-    name: .SOLUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFILT(Symbol):
@@ -6072,17 +4796,6 @@ class _BFILT(Symbol):
 
 
 _BFILT = _BFILT(*_BFILT._fields)
-"""
-    name: .BFILT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFILT_NEXT(Symbol):
@@ -6124,17 +4837,6 @@ class _BFILT_NEXT(Symbol):
 
 
 _BFILT_NEXT = _BFILT_NEXT(*_BFILT_NEXT._fields)
-"""
-    name: .BFILT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FILBON(Symbol):
@@ -6176,17 +4878,6 @@ class _FILBON(Symbol):
 
 
 _FILBON = _FILBON(*_FILBON._fields)
-"""
-    name: .FILBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FILBON8H(Symbol):
@@ -6228,17 +4919,6 @@ class _FILBON8H(Symbol):
 
 
 _FILBON8H = _FILBON8H(*_FILBON8H._fields)
-"""
-    name: .FILBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FILUSDTPI(Symbol):
@@ -6280,17 +4960,6 @@ class _FILUSDTPI(Symbol):
 
 
 _FILUSDTPI = _FILUSDTPI(*_FILUSDTPI._fields)
-"""
-    name: .FILUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FILUSDTPI8H(Symbol):
@@ -6332,17 +5001,6 @@ class _FILUSDTPI8H(Symbol):
 
 
 _FILUSDTPI8H = _FILUSDTPI8H(*_FILUSDTPI8H._fields)
-"""
-    name: .FILUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURBON(Symbol):
@@ -6384,17 +5042,6 @@ class _EURBON(Symbol):
 
 
 _EURBON = _EURBON(*_EURBON._fields)
-"""
-    name: .EURBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURBON8H(Symbol):
@@ -6436,17 +5083,6 @@ class _EURBON8H(Symbol):
 
 
 _EURBON8H = _EURBON8H(*_EURBON8H._fields)
-"""
-    name: .EURBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVETT(Symbol):
@@ -6488,17 +5124,6 @@ class _BVETT(Symbol):
 
 
 _BVETT = _BVETT(*_BVETT._fields)
-"""
-    name: .BVETT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVETT_NEXT(Symbol):
@@ -6540,17 +5165,6 @@ class _BVETT_NEXT(Symbol):
 
 
 _BVETT_NEXT = _BVETT_NEXT(*_BVETT_NEXT._fields)
-"""
-    name: .BVETT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _VETBON(Symbol):
@@ -6592,17 +5206,6 @@ class _VETBON(Symbol):
 
 
 _VETBON = _VETBON(*_VETBON._fields)
-"""
-    name: .VETBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _VETBON8H(Symbol):
@@ -6644,17 +5247,6 @@ class _VETBON8H(Symbol):
 
 
 _VETBON8H = _VETBON8H(*_VETBON8H._fields)
-"""
-    name: .VETBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _VETUSDTPI(Symbol):
@@ -6696,17 +5288,6 @@ class _VETUSDTPI(Symbol):
 
 
 _VETUSDTPI = _VETUSDTPI(*_VETUSDTPI._fields)
-"""
-    name: .VETUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _VETUSDTPI8H(Symbol):
@@ -6748,17 +5329,6 @@ class _VETUSDTPI8H(Symbol):
 
 
 _VETUSDTPI8H = _VETUSDTPI8H(*_VETUSDTPI8H._fields)
-"""
-    name: .VETUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMATICT(Symbol):
@@ -6800,17 +5370,6 @@ class _BMATICT(Symbol):
 
 
 _BMATICT = _BMATICT(*_BMATICT._fields)
-"""
-    name: .BMATICT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMATICT_NEXT(Symbol):
@@ -6852,17 +5411,6 @@ class _BMATICT_NEXT(Symbol):
 
 
 _BMATICT_NEXT = _BMATICT_NEXT(*_BMATICT_NEXT._fields)
-"""
-    name: .BMATICT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MATICBON(Symbol):
@@ -6904,17 +5452,6 @@ class _MATICBON(Symbol):
 
 
 _MATICBON = _MATICBON(*_MATICBON._fields)
-"""
-    name: .MATICBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MATICBON8H(Symbol):
@@ -6956,17 +5493,6 @@ class _MATICBON8H(Symbol):
 
 
 _MATICBON8H = _MATICBON8H(*_MATICBON8H._fields)
-"""
-    name: .MATICBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MATICUSDTPI(Symbol):
@@ -7008,17 +5534,6 @@ class _MATICUSDTPI(Symbol):
 
 
 _MATICUSDTPI = _MATICUSDTPI(*_MATICUSDTPI._fields)
-"""
-    name: .MATICUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MATICUSDTPI8H(Symbol):
@@ -7060,17 +5575,6 @@ class _MATICUSDTPI8H(Symbol):
 
 
 _MATICUSDTPI8H = _MATICUSDTPI8H(*_MATICUSDTPI8H._fields)
-"""
-    name: .MATICUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMKRT(Symbol):
@@ -7112,17 +5616,6 @@ class _BMKRT(Symbol):
 
 
 _BMKRT = _BMKRT(*_BMKRT._fields)
-"""
-    name: .BMKRT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMKRT_NEXT(Symbol):
@@ -7164,17 +5657,6 @@ class _BMKRT_NEXT(Symbol):
 
 
 _BMKRT_NEXT = _BMKRT_NEXT(*_BMKRT_NEXT._fields)
-"""
-    name: .BMKRT_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAVAXT(Symbol):
@@ -7216,17 +5698,6 @@ class _BAVAXT(Symbol):
 
 
 _BAVAXT = _BAVAXT(*_BAVAXT._fields)
-"""
-    name: .BAVAXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAVAXT_NEXT(Symbol):
@@ -7268,17 +5739,6 @@ class _BAVAXT_NEXT(Symbol):
 
 
 _BAVAXT_NEXT = _BAVAXT_NEXT(*_BAVAXT_NEXT._fields)
-"""
-    name: .BAVAXT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNAT(Symbol):
@@ -7320,17 +5780,6 @@ class _BLUNAT(Symbol):
 
 
 _BLUNAT = _BLUNAT(*_BLUNAT._fields)
-"""
-    name: .BLUNAT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNAT_NEXT(Symbol):
@@ -7372,17 +5821,6 @@ class _BLUNAT_NEXT(Symbol):
 
 
 _BLUNAT_NEXT = _BLUNAT_NEXT(*_BLUNAT_NEXT._fields)
-"""
-    name: .BLUNAT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCOMPT(Symbol):
@@ -7424,17 +5862,6 @@ class _BCOMPT(Symbol):
 
 
 _BCOMPT = _BCOMPT(*_BCOMPT._fields)
-"""
-    name: .BCOMPT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCOMPT_NEXT(Symbol):
@@ -7476,17 +5903,6 @@ class _BCOMPT_NEXT(Symbol):
 
 
 _BCOMPT_NEXT = _BCOMPT_NEXT(*_BCOMPT_NEXT._fields)
-"""
-    name: .BCOMPT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUSHIT(Symbol):
@@ -7528,17 +5944,6 @@ class _BSUSHIT(Symbol):
 
 
 _BSUSHIT = _BSUSHIT(*_BSUSHIT._fields)
-"""
-    name: .BSUSHIT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUSHIT_NEXT(Symbol):
@@ -7580,17 +5985,6 @@ class _BSUSHIT_NEXT(Symbol):
 
 
 _BSUSHIT_NEXT = _BSUSHIT_NEXT(*_BSUSHIT_NEXT._fields)
-"""
-    name: .BSUSHIT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGRTT(Symbol):
@@ -7632,17 +6026,6 @@ class _BGRTT(Symbol):
 
 
 _BGRTT = _BGRTT(*_BGRTT._fields)
-"""
-    name: .BGRTT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGRTT_NEXT(Symbol):
@@ -7684,17 +6067,6 @@ class _BGRTT_NEXT(Symbol):
 
 
 _BGRTT_NEXT = _BGRTT_NEXT(*_BGRTT_NEXT._fields)
-"""
-    name: .BGRTT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BALTMEX(Symbol):
@@ -7736,17 +6108,6 @@ class _BALTMEX(Symbol):
 
 
 _BALTMEX = _BALTMEX(*_BALTMEX._fields)
-"""
-    name: .BALTMEX
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDEFIMEX(Symbol):
@@ -7788,17 +6149,6 @@ class _BDEFIMEX(Symbol):
 
 
 _BDEFIMEX = _BDEFIMEX(*_BDEFIMEX._fields)
-"""
-    name: .BDEFIMEX
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXBON(Symbol):
@@ -7840,17 +6190,6 @@ class _ALTMEXBON(Symbol):
 
 
 _ALTMEXBON = _ALTMEXBON(*_ALTMEXBON._fields)
-"""
-    name: .ALTMEXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXBON8H(Symbol):
@@ -7892,17 +6231,6 @@ class _ALTMEXBON8H(Symbol):
 
 
 _ALTMEXBON8H = _ALTMEXBON8H(*_ALTMEXBON8H._fields)
-"""
-    name: .ALTMEXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXUSDPI(Symbol):
@@ -7944,17 +6272,6 @@ class _ALTMEXUSDPI(Symbol):
 
 
 _ALTMEXUSDPI = _ALTMEXUSDPI(*_ALTMEXUSDPI._fields)
-"""
-    name: .ALTMEXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXUSDPI8H(Symbol):
@@ -7996,17 +6313,6 @@ class _ALTMEXUSDPI8H(Symbol):
 
 
 _ALTMEXUSDPI8H = _ALTMEXUSDPI8H(*_ALTMEXUSDPI8H._fields)
-"""
-    name: .ALTMEXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXBON(Symbol):
@@ -8048,17 +6354,6 @@ class _DEFIMEXBON(Symbol):
 
 
 _DEFIMEXBON = _DEFIMEXBON(*_DEFIMEXBON._fields)
-"""
-    name: .DEFIMEXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXBON8H(Symbol):
@@ -8100,17 +6395,6 @@ class _DEFIMEXBON8H(Symbol):
 
 
 _DEFIMEXBON8H = _DEFIMEXBON8H(*_DEFIMEXBON8H._fields)
-"""
-    name: .DEFIMEXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXUSDPI(Symbol):
@@ -8152,17 +6436,6 @@ class _DEFIMEXUSDPI(Symbol):
 
 
 _DEFIMEXUSDPI = _DEFIMEXUSDPI(*_DEFIMEXUSDPI._fields)
-"""
-    name: .DEFIMEXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXUSDPI8H(Symbol):
@@ -8204,17 +6477,6 @@ class _DEFIMEXUSDPI8H(Symbol):
 
 
 _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H(*_DEFIMEXUSDPI8H._fields)
-"""
-    name: .DEFIMEXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUSHIBON(Symbol):
@@ -8256,17 +6518,6 @@ class _SUSHIBON(Symbol):
 
 
 _SUSHIBON = _SUSHIBON(*_SUSHIBON._fields)
-"""
-    name: .SUSHIBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUSHIBON8H(Symbol):
@@ -8308,17 +6559,6 @@ class _SUSHIBON8H(Symbol):
 
 
 _SUSHIBON8H = _SUSHIBON8H(*_SUSHIBON8H._fields)
-"""
-    name: .SUSHIBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUSHIUSDTPI(Symbol):
@@ -8360,17 +6600,6 @@ class _SUSHIUSDTPI(Symbol):
 
 
 _SUSHIUSDTPI = _SUSHIUSDTPI(*_SUSHIUSDTPI._fields)
-"""
-    name: .SUSHIUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUSHIUSDTPI8H(Symbol):
@@ -8412,17 +6641,6 @@ class _SUSHIUSDTPI8H(Symbol):
 
 
 _SUSHIUSDTPI8H = _SUSHIUSDTPI8H(*_SUSHIUSDTPI8H._fields)
-"""
-    name: .SUSHIUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAXST(Symbol):
@@ -8464,17 +6682,6 @@ class _BAXST(Symbol):
 
 
 _BAXST = _BAXST(*_BAXST._fields)
-"""
-    name: .BAXST
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAXST_NEXT(Symbol):
@@ -8516,17 +6723,6 @@ class _BAXST_NEXT(Symbol):
 
 
 _BAXST_NEXT = _BAXST_NEXT(*_BAXST_NEXT._fields)
-"""
-    name: .BAXST_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSBON(Symbol):
@@ -8568,17 +6764,6 @@ class _AXSBON(Symbol):
 
 
 _AXSBON = _AXSBON(*_AXSBON._fields)
-"""
-    name: .AXSBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSBON8H(Symbol):
@@ -8620,17 +6805,6 @@ class _AXSBON8H(Symbol):
 
 
 _AXSBON8H = _AXSBON8H(*_AXSBON8H._fields)
-"""
-    name: .AXSBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSUSDTPI(Symbol):
@@ -8672,17 +6846,6 @@ class _AXSUSDTPI(Symbol):
 
 
 _AXSUSDTPI = _AXSUSDTPI(*_AXSUSDTPI._fields)
-"""
-    name: .AXSUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSUSDTPI8H(Symbol):
@@ -8724,17 +6887,6 @@ class _AXSUSDTPI8H(Symbol):
 
 
 _AXSUSDTPI8H = _AXSUSDTPI8H(*_AXSUSDTPI8H._fields)
-"""
-    name: .AXSUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSRMT(Symbol):
@@ -8776,17 +6928,6 @@ class _BSRMT(Symbol):
 
 
 _BSRMT = _BSRMT(*_BSRMT._fields)
-"""
-    name: .BSRMT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSRMT_NEXT(Symbol):
@@ -8828,17 +6969,6 @@ class _BSRMT_NEXT(Symbol):
 
 
 _BSRMT_NEXT = _BSRMT_NEXT(*_BSRMT_NEXT._fields)
-"""
-    name: .BSRMT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SRMBON(Symbol):
@@ -8880,17 +7010,6 @@ class _SRMBON(Symbol):
 
 
 _SRMBON = _SRMBON(*_SRMBON._fields)
-"""
-    name: .SRMBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SRMBON8H(Symbol):
@@ -8932,17 +7051,6 @@ class _SRMBON8H(Symbol):
 
 
 _SRMBON8H = _SRMBON8H(*_SRMBON8H._fields)
-"""
-    name: .SRMBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SRMUSDTPI(Symbol):
@@ -8984,17 +7092,6 @@ class _SRMUSDTPI(Symbol):
 
 
 _SRMUSDTPI = _SRMUSDTPI(*_SRMUSDTPI._fields)
-"""
-    name: .SRMUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SRMUSDTPI8H(Symbol):
@@ -9036,17 +7133,6 @@ class _SRMUSDTPI8H(Symbol):
 
 
 _SRMUSDTPI8H = _SRMUSDTPI8H(*_SRMUSDTPI8H._fields)
-"""
-    name: .SRMUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNA(Symbol):
@@ -9088,17 +7174,6 @@ class _BLUNA(Symbol):
 
 
 _BLUNA = _BLUNA(*_BLUNA._fields)
-"""
-    name: .BLUNA
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNA_NEXT(Symbol):
@@ -9140,17 +7215,6 @@ class _BLUNA_NEXT(Symbol):
 
 
 _BLUNA_NEXT = _BLUNA_NEXT(*_BLUNA_NEXT._fields)
-"""
-    name: .BLUNA_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNABON(Symbol):
@@ -9192,17 +7256,6 @@ class _LUNABON(Symbol):
 
 
 _LUNABON = _LUNABON(*_LUNABON._fields)
-"""
-    name: .LUNABON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNABON8H(Symbol):
@@ -9244,17 +7297,6 @@ class _LUNABON8H(Symbol):
 
 
 _LUNABON8H = _LUNABON8H(*_LUNABON8H._fields)
-"""
-    name: .LUNABON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNAUSDPI(Symbol):
@@ -9296,17 +7338,6 @@ class _LUNAUSDPI(Symbol):
 
 
 _LUNAUSDPI = _LUNAUSDPI(*_LUNAUSDPI._fields)
-"""
-    name: .LUNAUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNAUSDPI8H(Symbol):
@@ -9348,17 +7379,6 @@ class _LUNAUSDPI8H(Symbol):
 
 
 _LUNAUSDPI8H = _LUNAUSDPI8H(*_LUNAUSDPI8H._fields)
-"""
-    name: .LUNAUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXBON(Symbol):
@@ -9400,17 +7420,6 @@ class _AVAXBON(Symbol):
 
 
 _AVAXBON = _AVAXBON(*_AVAXBON._fields)
-"""
-    name: .AVAXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXBON8H(Symbol):
@@ -9452,17 +7461,6 @@ class _AVAXBON8H(Symbol):
 
 
 _AVAXBON8H = _AVAXBON8H(*_AVAXBON8H._fields)
-"""
-    name: .AVAXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAVAX(Symbol):
@@ -9504,17 +7502,6 @@ class _BAVAX(Symbol):
 
 
 _BAVAX = _BAVAX(*_BAVAX._fields)
-"""
-    name: .BAVAX
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAVAX_NEXT(Symbol):
@@ -9556,17 +7543,6 @@ class _BAVAX_NEXT(Symbol):
 
 
 _BAVAX_NEXT = _BAVAX_NEXT(*_BAVAX_NEXT._fields)
-"""
-    name: .BAVAX_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXUSDPI(Symbol):
@@ -9608,17 +7584,6 @@ class _AVAXUSDPI(Symbol):
 
 
 _AVAXUSDPI = _AVAXUSDPI(*_AVAXUSDPI._fields)
-"""
-    name: .AVAXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXUSDPI8H(Symbol):
@@ -9660,17 +7625,6 @@ class _AVAXUSDPI8H(Symbol):
 
 
 _AVAXUSDPI8H = _AVAXUSDPI8H(*_AVAXUSDPI8H._fields)
-"""
-    name: .AVAXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADA(Symbol):
@@ -9712,17 +7666,6 @@ class _BADA(Symbol):
 
 
 _BADA = _BADA(*_BADA._fields)
-"""
-    name: .BADA
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BADA_NEXT(Symbol):
@@ -9764,17 +7707,6 @@ class _BADA_NEXT(Symbol):
 
 
 _BADA_NEXT = _BADA_NEXT(*_BADA_NEXT._fields)
-"""
-    name: .BADA_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADAUSDPI(Symbol):
@@ -9816,17 +7748,6 @@ class _ADAUSDPI(Symbol):
 
 
 _ADAUSDPI = _ADAUSDPI(*_ADAUSDPI._fields)
-"""
-    name: .ADAUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ADAUSDPI8H(Symbol):
@@ -9868,17 +7789,6 @@ class _ADAUSDPI8H(Symbol):
 
 
 _ADAUSDPI8H = _ADAUSDPI8H(*_ADAUSDPI8H._fields)
-"""
-    name: .ADAUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOGE(Symbol):
@@ -9920,17 +7830,6 @@ class _BDOGE(Symbol):
 
 
 _BDOGE = _BDOGE(*_BDOGE._fields)
-"""
-    name: .BDOGE
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOGE_NEXT(Symbol):
@@ -9972,17 +7871,6 @@ class _BDOGE_NEXT(Symbol):
 
 
 _BDOGE_NEXT = _BDOGE_NEXT(*_BDOGE_NEXT._fields)
-"""
-    name: .BDOGE_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEUSDPI(Symbol):
@@ -10024,17 +7912,6 @@ class _DOGEUSDPI(Symbol):
 
 
 _DOGEUSDPI = _DOGEUSDPI(*_DOGEUSDPI._fields)
-"""
-    name: .DOGEUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOGEUSDPI8H(Symbol):
@@ -10076,17 +7953,6 @@ class _DOGEUSDPI8H(Symbol):
 
 
 _DOGEUSDPI8H = _DOGEUSDPI8H(*_DOGEUSDPI8H._fields)
-"""
-    name: .DOGEUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBNB(Symbol):
@@ -10128,17 +7994,6 @@ class _BBNB(Symbol):
 
 
 _BBNB = _BBNB(*_BBNB._fields)
-"""
-    name: .BBNB
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBNB_NEXT(Symbol):
@@ -10180,17 +8035,6 @@ class _BBNB_NEXT(Symbol):
 
 
 _BBNB_NEXT = _BBNB_NEXT(*_BBNB_NEXT._fields)
-"""
-    name: .BBNB_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBUSDPI(Symbol):
@@ -10232,17 +8076,6 @@ class _BNBUSDPI(Symbol):
 
 
 _BNBUSDPI = _BNBUSDPI(*_BNBUSDPI._fields)
-"""
-    name: .BNBUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNBUSDPI8H(Symbol):
@@ -10284,17 +8117,6 @@ class _BNBUSDPI8H(Symbol):
 
 
 _BNBUSDPI8H = _BNBUSDPI8H(*_BNBUSDPI8H._fields)
-"""
-    name: .BNBUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOT(Symbol):
@@ -10336,17 +8158,6 @@ class _BDOT(Symbol):
 
 
 _BDOT = _BDOT(*_BDOT._fields)
-"""
-    name: .BDOT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOT_NEXT(Symbol):
@@ -10388,17 +8199,6 @@ class _BDOT_NEXT(Symbol):
 
 
 _BDOT_NEXT = _BDOT_NEXT(*_BDOT_NEXT._fields)
-"""
-    name: .BDOT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTUSDPI(Symbol):
@@ -10440,17 +8240,6 @@ class _DOTUSDPI(Symbol):
 
 
 _DOTUSDPI = _DOTUSDPI(*_DOTUSDPI._fields)
-"""
-    name: .DOTUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DOTUSDPI8H(Symbol):
@@ -10492,17 +8281,6 @@ class _DOTUSDPI8H(Symbol):
 
 
 _DOTUSDPI8H = _DOTUSDPI8H(*_DOTUSDPI8H._fields)
-"""
-    name: .DOTUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDOGET30M(Symbol):
@@ -10544,17 +8322,6 @@ class _BDOGET30M(Symbol):
 
 
 _BDOGET30M = _BDOGET30M(*_BDOGET30M._fields)
-"""
-    name: .BDOGET30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFILT30M(Symbol):
@@ -10596,17 +8363,6 @@ class _BFILT30M(Symbol):
 
 
 _BFILT30M = _BFILT30M(*_BFILT30M._fields)
-"""
-    name: .BFILT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUNIT30M(Symbol):
@@ -10648,17 +8404,6 @@ class _BUNIT30M(Symbol):
 
 
 _BUNIT30M = _BUNIT30M(*_BUNIT30M._fields)
-"""
-    name: .BUNIT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXLMT30M(Symbol):
@@ -10700,17 +8445,6 @@ class _BXLMT30M(Symbol):
 
 
 _BXLMT30M = _BXLMT30M(*_BXLMT30M._fields)
-"""
-    name: .BXLMT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAXS(Symbol):
@@ -10752,17 +8486,6 @@ class _BAXS(Symbol):
 
 
 _BAXS = _BAXS(*_BAXS._fields)
-"""
-    name: .BAXS
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAXS_NEXT(Symbol):
@@ -10804,17 +8527,6 @@ class _BAXS_NEXT(Symbol):
 
 
 _BAXS_NEXT = _BAXS_NEXT(*_BAXS_NEXT._fields)
-"""
-    name: .BAXS_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSUSDPI(Symbol):
@@ -10856,17 +8568,6 @@ class _AXSUSDPI(Symbol):
 
 
 _AXSUSDPI = _AXSUSDPI(*_AXSUSDPI._fields)
-"""
-    name: .AXSUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AXSUSDPI8H(Symbol):
@@ -10908,17 +8609,6 @@ class _AXSUSDPI8H(Symbol):
 
 
 _AXSUSDPI8H = _AXSUSDPI8H(*_AXSUSDPI8H._fields)
-"""
-    name: .AXSUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOS(Symbol):
@@ -10960,17 +8650,6 @@ class _BEOS(Symbol):
 
 
 _BEOS = _BEOS(*_BEOS._fields)
-"""
-    name: .BEOS
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEOS_NEXT(Symbol):
@@ -11012,17 +8691,6 @@ class _BEOS_NEXT(Symbol):
 
 
 _BEOS_NEXT = _BEOS_NEXT(*_BEOS_NEXT._fields)
-"""
-    name: .BEOS_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSUSDPI(Symbol):
@@ -11064,17 +8732,6 @@ class _EOSUSDPI(Symbol):
 
 
 _EOSUSDPI = _EOSUSDPI(*_EOSUSDPI._fields)
-"""
-    name: .EOSUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EOSUSDPI8H(Symbol):
@@ -11116,17 +8773,6 @@ class _EOSUSDPI8H(Symbol):
 
 
 _EOSUSDPI8H = _EOSUSDPI8H(*_EOSUSDPI8H._fields)
-"""
-    name: .EOSUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLINK(Symbol):
@@ -11168,17 +8814,6 @@ class _BLINK(Symbol):
 
 
 _BLINK = _BLINK(*_BLINK._fields)
-"""
-    name: .BLINK
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLINK_NEXT(Symbol):
@@ -11220,17 +8855,6 @@ class _BLINK_NEXT(Symbol):
 
 
 _BLINK_NEXT = _BLINK_NEXT(*_BLINK_NEXT._fields)
-"""
-    name: .BLINK_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKUSDPI(Symbol):
@@ -11272,17 +8896,6 @@ class _LINKUSDPI(Symbol):
 
 
 _LINKUSDPI = _LINKUSDPI(*_LINKUSDPI._fields)
-"""
-    name: .LINKUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LINKUSDPI8H(Symbol):
@@ -11324,17 +8937,6 @@ class _LINKUSDPI8H(Symbol):
 
 
 _LINKUSDPI8H = _LINKUSDPI8H(*_LINKUSDPI8H._fields)
-"""
-    name: .LINKUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSOL(Symbol):
@@ -11376,17 +8978,6 @@ class _BSOL(Symbol):
 
 
 _BSOL = _BSOL(*_BSOL._fields)
-"""
-    name: .BSOL
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSOL_NEXT(Symbol):
@@ -11428,17 +9019,6 @@ class _BSOL_NEXT(Symbol):
 
 
 _BSOL_NEXT = _BSOL_NEXT(*_BSOL_NEXT._fields)
-"""
-    name: .BSOL_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLUSDPI(Symbol):
@@ -11480,17 +9060,6 @@ class _SOLUSDPI(Symbol):
 
 
 _SOLUSDPI = _SOLUSDPI(*_SOLUSDPI._fields)
-"""
-    name: .SOLUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SOLUSDPI8H(Symbol):
@@ -11532,17 +9101,6 @@ class _SOLUSDPI8H(Symbol):
 
 
 _SOLUSDPI8H = _SOLUSDPI8H(*_SOLUSDPI8H._fields)
-"""
-    name: .SOLUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAXST30M(Symbol):
@@ -11584,17 +9142,6 @@ class _BAXST30M(Symbol):
 
 
 _BAXST30M = _BAXST30M(*_BAXST30M._fields)
-"""
-    name: .BAXST30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSOLT30M(Symbol):
@@ -11636,17 +9183,6 @@ class _BSOLT30M(Symbol):
 
 
 _BSOLT30M = _BSOLT30M(*_BSOLT30M._fields)
-"""
-    name: .BSOLT30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVETT30M(Symbol):
@@ -11688,17 +9224,6 @@ class _BVETT30M(Symbol):
 
 
 _BVETT30M = _BVETT30M(*_BVETT30M._fields)
-"""
-    name: .BVETT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMATICT30M(Symbol):
@@ -11740,17 +9265,6 @@ class _BMATICT30M(Symbol):
 
 
 _BMATICT30M = _BMATICT30M(*_BMATICT30M._fields)
-"""
-    name: .BMATICT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAAVET30M(Symbol):
@@ -11792,17 +9306,6 @@ class _BAAVET30M(Symbol):
 
 
 _BAAVET30M = _BAAVET30M(*_BAAVET30M._fields)
-"""
-    name: .BAAVET30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUSHIT30M(Symbol):
@@ -11844,17 +9347,6 @@ class _BSUSHIT30M(Symbol):
 
 
 _BSUSHIT30M = _BSUSHIT30M(*_BSUSHIT30M._fields)
-"""
-    name: .BSUSHIT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSRMT30M(Symbol):
@@ -11896,17 +9388,6 @@ class _BSRMT30M(Symbol):
 
 
 _BSRMT30M = _BSRMT30M(*_BSRMT30M._fields)
-"""
-    name: .BSRMT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRPT(Symbol):
@@ -11948,17 +9429,6 @@ class _BXRPT(Symbol):
 
 
 _BXRPT = _BXRPT(*_BXRPT._fields)
-"""
-    name: .BXRPT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXRPT_NEXT(Symbol):
@@ -12000,17 +9470,6 @@ class _BXRPT_NEXT(Symbol):
 
 
 _BXRPT_NEXT = _BXRPT_NEXT(*_BXRPT_NEXT._fields)
-"""
-    name: .BXRPT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCHT(Symbol):
@@ -12052,17 +9511,6 @@ class _BBCHT(Symbol):
 
 
 _BBCHT = _BBCHT(*_BBCHT._fields)
-"""
-    name: .BBCHT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBCHT_NEXT(Symbol):
@@ -12104,17 +9552,6 @@ class _BBCHT_NEXT(Symbol):
 
 
 _BBCHT_NEXT = _BBCHT_NEXT(*_BBCHT_NEXT._fields)
-"""
-    name: .BBCHT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPUSDTPI(Symbol):
@@ -12156,17 +9593,6 @@ class _XRPUSDTPI(Symbol):
 
 
 _XRPUSDTPI = _XRPUSDTPI(*_XRPUSDTPI._fields)
-"""
-    name: .XRPUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XRPUSDTPI8H(Symbol):
@@ -12208,17 +9634,6 @@ class _XRPUSDTPI8H(Symbol):
 
 
 _XRPUSDTPI8H = _XRPUSDTPI8H(*_XRPUSDTPI8H._fields)
-"""
-    name: .XRPUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHUSDTPI(Symbol):
@@ -12260,17 +9675,6 @@ class _BCHUSDTPI(Symbol):
 
 
 _BCHUSDTPI = _BCHUSDTPI(*_BCHUSDTPI._fields)
-"""
-    name: .BCHUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCHUSDTPI8H(Symbol):
@@ -12312,17 +9716,6 @@ class _BCHUSDTPI8H(Symbol):
 
 
 _BCHUSDTPI8H = _BCHUSDTPI8H(*_BCHUSDTPI8H._fields)
-"""
-    name: .BCHUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDEFIMEX30M(Symbol):
@@ -12364,17 +9757,6 @@ class _BDEFIMEX30M(Symbol):
 
 
 _BDEFIMEX30M = _BDEFIMEX30M(*_BDEFIMEX30M._fields)
-"""
-    name: .BDEFIMEX30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BALTMEX30M(Symbol):
@@ -12416,17 +9798,6 @@ class _BALTMEX30M(Symbol):
 
 
 _BALTMEX30M = _BALTMEX30M(*_BALTMEX30M._fields)
-"""
-    name: .BALTMEX30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTMT(Symbol):
@@ -12468,17 +9839,6 @@ class _BFTMT(Symbol):
 
 
 _BFTMT = _BFTMT(*_BFTMT._fields)
-"""
-    name: .BFTMT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTMT_NEXT(Symbol):
@@ -12520,17 +9880,6 @@ class _BFTMT_NEXT(Symbol):
 
 
 _BFTMT_NEXT = _BFTMT_NEXT(*_BFTMT_NEXT._fields)
-"""
-    name: .BFTMT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTMBON(Symbol):
@@ -12572,17 +9921,6 @@ class _FTMBON(Symbol):
 
 
 _FTMBON = _FTMBON(*_FTMBON._fields)
-"""
-    name: .FTMBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTMBON8H(Symbol):
@@ -12624,17 +9962,6 @@ class _FTMBON8H(Symbol):
 
 
 _FTMBON8H = _FTMBON8H(*_FTMBON8H._fields)
-"""
-    name: .FTMBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTMUSDTPI(Symbol):
@@ -12676,17 +10003,6 @@ class _FTMUSDTPI(Symbol):
 
 
 _FTMUSDTPI = _FTMUSDTPI(*_FTMUSDTPI._fields)
-"""
-    name: .FTMUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTMUSDTPI8H(Symbol):
@@ -12728,17 +10044,6 @@ class _FTMUSDTPI8H(Symbol):
 
 
 _FTMUSDTPI8H = _FTMUSDTPI8H(*_FTMUSDTPI8H._fields)
-"""
-    name: .FTMUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSHIBT(Symbol):
@@ -12780,17 +10085,6 @@ class _BSHIBT(Symbol):
 
 
 _BSHIBT = _BSHIBT(*_BSHIBT._fields)
-"""
-    name: .BSHIBT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSHIBT_NEXT(Symbol):
@@ -12832,17 +10126,6 @@ class _BSHIBT_NEXT(Symbol):
 
 
 _BSHIBT_NEXT = _BSHIBT_NEXT(*_BSHIBT_NEXT._fields)
-"""
-    name: .BSHIBT_NEXT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SHIBBON(Symbol):
@@ -12884,17 +10167,6 @@ class _SHIBBON(Symbol):
 
 
 _SHIBBON = _SHIBBON(*_SHIBBON._fields)
-"""
-    name: .SHIBBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SHIBBON8H(Symbol):
@@ -12936,17 +10208,6 @@ class _SHIBBON8H(Symbol):
 
 
 _SHIBBON8H = _SHIBBON8H(*_SHIBBON8H._fields)
-"""
-    name: .SHIBBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SHIBUSDTPI(Symbol):
@@ -12988,17 +10249,6 @@ class _SHIBUSDTPI(Symbol):
 
 
 _SHIBUSDTPI = _SHIBUSDTPI(*_SHIBUSDTPI._fields)
-"""
-    name: .SHIBUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SHIBUSDTPI8H(Symbol):
@@ -13040,17 +10290,6 @@ class _SHIBUSDTPI8H(Symbol):
 
 
 _SHIBUSDTPI8H = _SHIBUSDTPI8H(*_SHIBUSDTPI8H._fields)
-"""
-    name: .SHIBUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLRCT(Symbol):
@@ -13092,17 +10331,6 @@ class _BLRCT(Symbol):
 
 
 _BLRCT = _BLRCT(*_BLRCT._fields)
-"""
-    name: .BLRCT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLRCT_NEXT(Symbol):
@@ -13144,17 +10372,6 @@ class _BLRCT_NEXT(Symbol):
 
 
 _BLRCT_NEXT = _BLRCT_NEXT(*_BLRCT_NEXT._fields)
-"""
-    name: .BLRCT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMANAT(Symbol):
@@ -13196,17 +10413,6 @@ class _BMANAT(Symbol):
 
 
 _BMANAT = _BMANAT(*_BMANAT._fields)
-"""
-    name: .BMANAT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMANAT_NEXT(Symbol):
@@ -13248,17 +10454,6 @@ class _BMANAT_NEXT(Symbol):
 
 
 _BMANAT_NEXT = _BMANAT_NEXT(*_BMANAT_NEXT._fields)
-"""
-    name: .BMANAT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MANABON(Symbol):
@@ -13300,17 +10495,6 @@ class _MANABON(Symbol):
 
 
 _MANABON = _MANABON(*_MANABON._fields)
-"""
-    name: .MANABON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MANABON8H(Symbol):
@@ -13352,17 +10536,6 @@ class _MANABON8H(Symbol):
 
 
 _MANABON8H = _MANABON8H(*_MANABON8H._fields)
-"""
-    name: .MANABON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MANAUSDTPI(Symbol):
@@ -13404,17 +10577,6 @@ class _MANAUSDTPI(Symbol):
 
 
 _MANAUSDTPI = _MANAUSDTPI(*_MANAUSDTPI._fields)
-"""
-    name: .MANAUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MANAUSDTPI8H(Symbol):
@@ -13456,17 +10618,6 @@ class _MANAUSDTPI8H(Symbol):
 
 
 _MANAUSDTPI8H = _MANAUSDTPI8H(*_MANAUSDTPI8H._fields)
-"""
-    name: .MANAUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSANDT(Symbol):
@@ -13508,17 +10659,6 @@ class _BSANDT(Symbol):
 
 
 _BSANDT = _BSANDT(*_BSANDT._fields)
-"""
-    name: .BSANDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSANDT_NEXT(Symbol):
@@ -13560,17 +10700,6 @@ class _BSANDT_NEXT(Symbol):
 
 
 _BSANDT_NEXT = _BSANDT_NEXT(*_BSANDT_NEXT._fields)
-"""
-    name: .BSANDT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SANDBON(Symbol):
@@ -13612,17 +10741,6 @@ class _SANDBON(Symbol):
 
 
 _SANDBON = _SANDBON(*_SANDBON._fields)
-"""
-    name: .SANDBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SANDBON8H(Symbol):
@@ -13664,17 +10782,6 @@ class _SANDBON8H(Symbol):
 
 
 _SANDBON8H = _SANDBON8H(*_SANDBON8H._fields)
-"""
-    name: .SANDBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SANDUSDTPI(Symbol):
@@ -13716,17 +10823,6 @@ class _SANDUSDTPI(Symbol):
 
 
 _SANDUSDTPI = _SANDUSDTPI(*_SANDUSDTPI._fields)
-"""
-    name: .SANDUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SANDUSDTPI8H(Symbol):
@@ -13768,17 +10864,6 @@ class _SANDUSDTPI8H(Symbol):
 
 
 _SANDUSDTPI8H = _SANDUSDTPI8H(*_SANDUSDTPI8H._fields)
-"""
-    name: .SANDUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTHETAT(Symbol):
@@ -13820,17 +10905,6 @@ class _BTHETAT(Symbol):
 
 
 _BTHETAT = _BTHETAT(*_BTHETAT._fields)
-"""
-    name: .BTHETAT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTHETAT_NEXT(Symbol):
@@ -13872,17 +10946,6 @@ class _BTHETAT_NEXT(Symbol):
 
 
 _BTHETAT_NEXT = _BTHETAT_NEXT(*_BTHETAT_NEXT._fields)
-"""
-    name: .BTHETAT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BENJT(Symbol):
@@ -13924,17 +10987,6 @@ class _BENJT(Symbol):
 
 
 _BENJT = _BENJT(*_BENJT._fields)
-"""
-    name: .BENJT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BENJT_NEXT(Symbol):
@@ -13976,17 +11028,6 @@ class _BENJT_NEXT(Symbol):
 
 
 _BENJT_NEXT = _BENJT_NEXT(*_BENJT_NEXT._fields)
-"""
-    name: .BENJT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDEFIMEXT(Symbol):
@@ -14028,17 +11069,6 @@ class _BDEFIMEXT(Symbol):
 
 
 _BDEFIMEXT = _BDEFIMEXT(*_BDEFIMEXT._fields)
-"""
-    name: .BDEFIMEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXTBON(Symbol):
@@ -14080,17 +11110,6 @@ class _DEFIMEXTBON(Symbol):
 
 
 _DEFIMEXTBON = _DEFIMEXTBON(*_DEFIMEXTBON._fields)
-"""
-    name: .DEFIMEXTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXTBON8H(Symbol):
@@ -14132,17 +11151,6 @@ class _DEFIMEXTBON8H(Symbol):
 
 
 _DEFIMEXTBON8H = _DEFIMEXTBON8H(*_DEFIMEXTBON8H._fields)
-"""
-    name: .DEFIMEXTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXTUSDTPI(Symbol):
@@ -14184,17 +11192,6 @@ class _DEFIMEXTUSDTPI(Symbol):
 
 
 _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI(*_DEFIMEXTUSDTPI._fields)
-"""
-    name: .DEFIMEXTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _DEFIMEXTUSDTPI8H(Symbol):
@@ -14236,17 +11233,6 @@ class _DEFIMEXTUSDTPI8H(Symbol):
 
 
 _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H(*_DEFIMEXTUSDTPI8H._fields)
-"""
-    name: .DEFIMEXTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BALTMEXT(Symbol):
@@ -14288,17 +11274,6 @@ class _BALTMEXT(Symbol):
 
 
 _BALTMEXT = _BALTMEXT(*_BALTMEXT._fields)
-"""
-    name: .BALTMEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXTBON(Symbol):
@@ -14340,17 +11315,6 @@ class _ALTMEXTBON(Symbol):
 
 
 _ALTMEXTBON = _ALTMEXTBON(*_ALTMEXTBON._fields)
-"""
-    name: .ALTMEXTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXTBON8H(Symbol):
@@ -14392,17 +11356,6 @@ class _ALTMEXTBON8H(Symbol):
 
 
 _ALTMEXTBON8H = _ALTMEXTBON8H(*_ALTMEXTBON8H._fields)
-"""
-    name: .ALTMEXTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXTUSDTPI(Symbol):
@@ -14444,17 +11397,6 @@ class _ALTMEXTUSDTPI(Symbol):
 
 
 _ALTMEXTUSDTPI = _ALTMEXTUSDTPI(*_ALTMEXTUSDTPI._fields)
-"""
-    name: .ALTMEXTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ALTMEXTUSDTPI8H(Symbol):
@@ -14496,17 +11438,6 @@ class _ALTMEXTUSDTPI8H(Symbol):
 
 
 _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H(*_ALTMEXTUSDTPI8H._fields)
-"""
-    name: .ALTMEXTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMETAMEXT(Symbol):
@@ -14548,17 +11479,6 @@ class _BMETAMEXT(Symbol):
 
 
 _BMETAMEXT = _BMETAMEXT(*_BMETAMEXT._fields)
-"""
-    name: .BMETAMEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _METAMEXTBON(Symbol):
@@ -14600,17 +11520,6 @@ class _METAMEXTBON(Symbol):
 
 
 _METAMEXTBON = _METAMEXTBON(*_METAMEXTBON._fields)
-"""
-    name: .METAMEXTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _METAMEXTBON8H(Symbol):
@@ -14652,17 +11561,6 @@ class _METAMEXTBON8H(Symbol):
 
 
 _METAMEXTBON8H = _METAMEXTBON8H(*_METAMEXTBON8H._fields)
-"""
-    name: .METAMEXTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _METAMEXTUSDTPI(Symbol):
@@ -14704,17 +11602,6 @@ class _METAMEXTUSDTPI(Symbol):
 
 
 _METAMEXTUSDTPI = _METAMEXTUSDTPI(*_METAMEXTUSDTPI._fields)
-"""
-    name: .METAMEXTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _METAMEXTUSDTPI8H(Symbol):
@@ -14756,17 +11643,6 @@ class _METAMEXTUSDTPI8H(Symbol):
 
 
 _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H(*_METAMEXTUSDTPI8H._fields)
-"""
-    name: .METAMEXTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXUSDTPI(Symbol):
@@ -14808,17 +11684,6 @@ class _AVAXUSDTPI(Symbol):
 
 
 _AVAXUSDTPI = _AVAXUSDTPI(*_AVAXUSDTPI._fields)
-"""
-    name: .AVAXUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _AVAXUSDTPI8H(Symbol):
@@ -14860,17 +11725,6 @@ class _AVAXUSDTPI8H(Symbol):
 
 
 _AVAXUSDTPI8H = _AVAXUSDTPI8H(*_AVAXUSDTPI8H._fields)
-"""
-    name: .AVAXUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNAUSDTPI(Symbol):
@@ -14912,17 +11766,6 @@ class _LUNAUSDTPI(Symbol):
 
 
 _LUNAUSDTPI = _LUNAUSDTPI(*_LUNAUSDTPI._fields)
-"""
-    name: .LUNAUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LUNAUSDTPI8H(Symbol):
@@ -14964,17 +11807,6 @@ class _LUNAUSDTPI8H(Symbol):
 
 
 _LUNAUSDTPI8H = _LUNAUSDTPI8H(*_LUNAUSDTPI8H._fields)
-"""
-    name: .LUNAUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPET(Symbol):
@@ -15016,17 +11848,6 @@ class _BAPET(Symbol):
 
 
 _BAPET = _BAPET(*_BAPET._fields)
-"""
-    name: .BAPET
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPET_NEXT(Symbol):
@@ -15068,17 +11889,6 @@ class _BAPET_NEXT(Symbol):
 
 
 _BAPET_NEXT = _BAPET_NEXT(*_BAPET_NEXT._fields)
-"""
-    name: .BAPET_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEBON(Symbol):
@@ -15120,17 +11930,6 @@ class _APEBON(Symbol):
 
 
 _APEBON = _APEBON(*_APEBON._fields)
-"""
-    name: .APEBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEBON8H(Symbol):
@@ -15172,17 +11971,6 @@ class _APEBON8H(Symbol):
 
 
 _APEBON8H = _APEBON8H(*_APEBON8H._fields)
-"""
-    name: .APEBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEUSDTPI(Symbol):
@@ -15224,17 +12012,6 @@ class _APEUSDTPI(Symbol):
 
 
 _APEUSDTPI = _APEUSDTPI(*_APEUSDTPI._fields)
-"""
-    name: .APEUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEUSDTPI8H(Symbol):
@@ -15276,17 +12053,6 @@ class _APEUSDTPI8H(Symbol):
 
 
 _APEUSDTPI8H = _APEUSDTPI8H(*_APEUSDTPI8H._fields)
-"""
-    name: .APEUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTBON(Symbol):
@@ -15328,17 +12094,6 @@ class _GMTBON(Symbol):
 
 
 _GMTBON = _GMTBON(*_GMTBON._fields)
-"""
-    name: .GMTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTBON8H(Symbol):
@@ -15380,17 +12135,6 @@ class _GMTBON8H(Symbol):
 
 
 _GMTBON8H = _GMTBON8H(*_GMTBON8H._fields)
-"""
-    name: .GMTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTUSDTPI(Symbol):
@@ -15432,17 +12176,6 @@ class _GMTUSDTPI(Symbol):
 
 
 _GMTUSDTPI = _GMTUSDTPI(*_GMTUSDTPI._fields)
-"""
-    name: .GMTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTUSDTPI8H(Symbol):
@@ -15484,17 +12217,6 @@ class _GMTUSDTPI8H(Symbol):
 
 
 _GMTUSDTPI8H = _GMTUSDTPI8H(*_GMTUSDTPI8H._fields)
-"""
-    name: .GMTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTUSDPI(Symbol):
@@ -15536,17 +12258,6 @@ class _GMTUSDPI(Symbol):
 
 
 _GMTUSDPI = _GMTUSDPI(*_GMTUSDPI._fields)
-"""
-    name: .GMTUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMTUSDPI8H(Symbol):
@@ -15588,17 +12299,6 @@ class _GMTUSDPI8H(Symbol):
 
 
 _GMTUSDPI8H = _GMTUSDPI8H(*_GMTUSDPI8H._fields)
-"""
-    name: .GMTUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMT(Symbol):
@@ -15640,17 +12340,6 @@ class _BGMT(Symbol):
 
 
 _BGMT = _BGMT(*_BGMT._fields)
-"""
-    name: .BGMT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMT_NEXT(Symbol):
@@ -15692,17 +12381,6 @@ class _BGMT_NEXT(Symbol):
 
 
 _BGMT_NEXT = _BGMT_NEXT(*_BGMT_NEXT._fields)
-"""
-    name: .BGMT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMTT(Symbol):
@@ -15744,17 +12422,6 @@ class _BGMTT(Symbol):
 
 
 _BGMTT = _BGMTT(*_BGMTT._fields)
-"""
-    name: .BGMTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMTT_NEXT(Symbol):
@@ -15796,17 +12463,6 @@ class _BGMTT_NEXT(Symbol):
 
 
 _BGMTT_NEXT = _BGMTT_NEXT(*_BGMTT_NEXT._fields)
-"""
-    name: .BGMTT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARBON(Symbol):
@@ -15848,17 +12504,6 @@ class _NEARBON(Symbol):
 
 
 _NEARBON = _NEARBON(*_NEARBON._fields)
-"""
-    name: .NEARBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARBON8H(Symbol):
@@ -15900,17 +12545,6 @@ class _NEARBON8H(Symbol):
 
 
 _NEARBON8H = _NEARBON8H(*_NEARBON8H._fields)
-"""
-    name: .NEARBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARUSDTPI(Symbol):
@@ -15952,17 +12586,6 @@ class _NEARUSDTPI(Symbol):
 
 
 _NEARUSDTPI = _NEARUSDTPI(*_NEARUSDTPI._fields)
-"""
-    name: .NEARUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARUSDTPI8H(Symbol):
@@ -16004,17 +12627,6 @@ class _NEARUSDTPI8H(Symbol):
 
 
 _NEARUSDTPI8H = _NEARUSDTPI8H(*_NEARUSDTPI8H._fields)
-"""
-    name: .NEARUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARUSDPI(Symbol):
@@ -16056,17 +12668,6 @@ class _NEARUSDPI(Symbol):
 
 
 _NEARUSDPI = _NEARUSDPI(*_NEARUSDPI._fields)
-"""
-    name: .NEARUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NEARUSDPI8H(Symbol):
@@ -16108,17 +12709,6 @@ class _NEARUSDPI8H(Symbol):
 
 
 _NEARUSDPI8H = _NEARUSDPI8H(*_NEARUSDPI8H._fields)
-"""
-    name: .NEARUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNEAR(Symbol):
@@ -16160,17 +12750,6 @@ class _BNEAR(Symbol):
 
 
 _BNEAR = _BNEAR(*_BNEAR._fields)
-"""
-    name: .BNEAR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNEAR_NEXT(Symbol):
@@ -16212,17 +12791,6 @@ class _BNEAR_NEXT(Symbol):
 
 
 _BNEAR_NEXT = _BNEAR_NEXT(*_BNEAR_NEXT._fields)
-"""
-    name: .BNEAR_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNEART(Symbol):
@@ -16264,17 +12832,6 @@ class _BNEART(Symbol):
 
 
 _BNEART = _BNEART(*_BNEART._fields)
-"""
-    name: .BNEART
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNEART_NEXT(Symbol):
@@ -16316,17 +12873,6 @@ class _BNEART_NEXT(Symbol):
 
 
 _BNEART_NEXT = _BNEART_NEXT(*_BNEART_NEXT._fields)
-"""
-    name: .BNEART_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNA30M(Symbol):
@@ -16368,17 +12914,6 @@ class _BLUNA30M(Symbol):
 
 
 _BLUNA30M = _BLUNA30M(*_BLUNA30M._fields)
-"""
-    name: .BLUNA30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNAT30M(Symbol):
@@ -16420,17 +12955,6 @@ class _BLUNAT30M(Symbol):
 
 
 _BLUNAT30M = _BLUNAT30M(*_BLUNAT30M._fields)
-"""
-    name: .BLUNAT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPE(Symbol):
@@ -16472,17 +12996,6 @@ class _BAPE(Symbol):
 
 
 _BAPE = _BAPE(*_BAPE._fields)
-"""
-    name: .BAPE
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPE_NEXT(Symbol):
@@ -16524,17 +13037,6 @@ class _BAPE_NEXT(Symbol):
 
 
 _BAPE_NEXT = _BAPE_NEXT(*_BAPE_NEXT._fields)
-"""
-    name: .BAPE_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRX(Symbol):
@@ -16576,17 +13078,6 @@ class _BTRX(Symbol):
 
 
 _BTRX = _BTRX(*_BTRX._fields)
-"""
-    name: .BTRX
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRX_NEXT(Symbol):
@@ -16628,17 +13119,6 @@ class _BTRX_NEXT(Symbol):
 
 
 _BTRX_NEXT = _BTRX_NEXT(*_BTRX_NEXT._fields)
-"""
-    name: .BTRX_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGAL(Symbol):
@@ -16680,17 +13160,6 @@ class _BGAL(Symbol):
 
 
 _BGAL = _BGAL(*_BGAL._fields)
-"""
-    name: .BGAL
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGAL_NEXT(Symbol):
@@ -16732,17 +13201,6 @@ class _BGAL_NEXT(Symbol):
 
 
 _BGAL_NEXT = _BGAL_NEXT(*_BGAL_NEXT._fields)
-"""
-    name: .BGAL_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGALT(Symbol):
@@ -16784,17 +13242,6 @@ class _BGALT(Symbol):
 
 
 _BGALT = _BGALT(*_BGALT._fields)
-"""
-    name: .BGALT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGALT_NEXT(Symbol):
@@ -16836,17 +13283,6 @@ class _BGALT_NEXT(Symbol):
 
 
 _BGALT_NEXT = _BGALT_NEXT(*_BGALT_NEXT._fields)
-"""
-    name: .BGALT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALBON(Symbol):
@@ -16888,17 +13324,6 @@ class _GALBON(Symbol):
 
 
 _GALBON = _GALBON(*_GALBON._fields)
-"""
-    name: .GALBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALBON8H(Symbol):
@@ -16940,17 +13365,6 @@ class _GALBON8H(Symbol):
 
 
 _GALBON8H = _GALBON8H(*_GALBON8H._fields)
-"""
-    name: .GALBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEUSDPI(Symbol):
@@ -16992,17 +13406,6 @@ class _APEUSDPI(Symbol):
 
 
 _APEUSDPI = _APEUSDPI(*_APEUSDPI._fields)
-"""
-    name: .APEUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APEUSDPI8H(Symbol):
@@ -17044,17 +13447,6 @@ class _APEUSDPI8H(Symbol):
 
 
 _APEUSDPI8H = _APEUSDPI8H(*_APEUSDPI8H._fields)
-"""
-    name: .APEUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXUSDPI(Symbol):
@@ -17096,17 +13488,6 @@ class _TRXUSDPI(Symbol):
 
 
 _TRXUSDPI = _TRXUSDPI(*_TRXUSDPI._fields)
-"""
-    name: .TRXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRXUSDPI8H(Symbol):
@@ -17148,17 +13529,6 @@ class _TRXUSDPI8H(Symbol):
 
 
 _TRXUSDPI8H = _TRXUSDPI8H(*_TRXUSDPI8H._fields)
-"""
-    name: .TRXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALUSDTPI(Symbol):
@@ -17200,17 +13570,6 @@ class _GALUSDTPI(Symbol):
 
 
 _GALUSDTPI = _GALUSDTPI(*_GALUSDTPI._fields)
-"""
-    name: .GALUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALUSDTPI8H(Symbol):
@@ -17252,17 +13611,6 @@ class _GALUSDTPI8H(Symbol):
 
 
 _GALUSDTPI8H = _GALUSDTPI8H(*_GALUSDTPI8H._fields)
-"""
-    name: .GALUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALUSDPI(Symbol):
@@ -17304,17 +13652,6 @@ class _GALUSDPI(Symbol):
 
 
 _GALUSDPI = _GALUSDPI(*_GALUSDPI._fields)
-"""
-    name: .GALUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GALUSDPI8H(Symbol):
@@ -17356,17 +13693,6 @@ class _GALUSDPI8H(Symbol):
 
 
 _GALUSDPI8H = _GALUSDPI8H(*_GALUSDPI8H._fields)
-"""
-    name: .GALUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNC(Symbol):
@@ -17408,17 +13734,6 @@ class _BLUNC(Symbol):
 
 
 _BLUNC = _BLUNC(*_BLUNC._fields)
-"""
-    name: .BLUNC
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNC_NEXT(Symbol):
@@ -17460,17 +13775,6 @@ class _BLUNC_NEXT(Symbol):
 
 
 _BLUNC_NEXT = _BLUNC_NEXT(*_BLUNC_NEXT._fields)
-"""
-    name: .BLUNC_NEXT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNCT(Symbol):
@@ -17512,17 +13816,6 @@ class _BLUNCT(Symbol):
 
 
 _BLUNCT = _BLUNCT(*_BLUNCT._fields)
-"""
-    name: .BLUNCT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLUNCT_NEXT(Symbol):
@@ -17564,17 +13857,6 @@ class _BLUNCT_NEXT(Symbol):
 
 
 _BLUNCT_NEXT = _BLUNCT_NEXT(*_BLUNCT_NEXT._fields)
-"""
-    name: .BLUNCT_NEXT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDFI(Symbol):
@@ -17616,17 +13898,6 @@ class _BDFI(Symbol):
 
 
 _BDFI = _BDFI(*_BDFI._fields)
-"""
-    name: .BDFI
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDFIT(Symbol):
@@ -17668,17 +13939,6 @@ class _BDFIT(Symbol):
 
 
 _BDFIT = _BDFIT(*_BDFIT._fields)
-"""
-    name: .BDFIT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGRT(Symbol):
@@ -17720,17 +13980,6 @@ class _BGRT(Symbol):
 
 
 _BGRT = _BGRT(*_BGRT._fields)
-"""
-    name: .BGRT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURUSDPI(Symbol):
@@ -17772,17 +14021,6 @@ class _EURUSDPI(Symbol):
 
 
 _EURUSDPI = _EURUSDPI(*_EURUSDPI._fields)
-"""
-    name: .EURUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCHFPI(Symbol):
@@ -17824,17 +14062,6 @@ class _USDCHFPI(Symbol):
 
 
 _USDCHFPI = _USDCHFPI(*_USDCHFPI._fields)
-"""
-    name: .USDCHFPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURCHFPI(Symbol):
@@ -17876,17 +14103,6 @@ class _EURCHFPI(Symbol):
 
 
 _EURCHFPI = _EURCHFPI(*_EURCHFPI._fields)
-"""
-    name: .EURCHFPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURTRYPI(Symbol):
@@ -17928,17 +14144,6 @@ class _EURTRYPI(Symbol):
 
 
 _EURTRYPI = _EURTRYPI(*_EURTRYPI._fields)
-"""
-    name: .EURTRYPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTRYPI(Symbol):
@@ -17980,17 +14185,6 @@ class _USDTRYPI(Symbol):
 
 
 _USDTRYPI = _USDTRYPI(*_USDTRYPI._fields)
-"""
-    name: .USDTRYPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDINRPI(Symbol):
@@ -18032,17 +14226,6 @@ class _USDINRPI(Symbol):
 
 
 _USDINRPI = _USDINRPI(*_USDINRPI._fields)
-"""
-    name: .USDINRPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDZARPI(Symbol):
@@ -18084,17 +14267,6 @@ class _USDZARPI(Symbol):
 
 
 _USDZARPI = _USDZARPI(*_USDZARPI._fields)
-"""
-    name: .USDZARPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDBRLPI(Symbol):
@@ -18136,17 +14308,6 @@ class _USDBRLPI(Symbol):
 
 
 _USDBRLPI = _USDBRLPI(*_USDBRLPI._fields)
-"""
-    name: .USDBRLPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDMXNPI(Symbol):
@@ -18188,17 +14349,6 @@ class _USDMXNPI(Symbol):
 
 
 _USDMXNPI = _USDMXNPI(*_USDMXNPI._fields)
-"""
-    name: .USDMXNPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDUSDPI(Symbol):
@@ -18240,17 +14390,6 @@ class _NZDUSDPI(Symbol):
 
 
 _NZDUSDPI = _NZDUSDPI(*_NZDUSDPI._fields)
-"""
-    name: .NZDUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCNHPI(Symbol):
@@ -18292,17 +14431,6 @@ class _USDCNHPI(Symbol):
 
 
 _USDCNHPI = _USDCNHPI(*_USDCNHPI._fields)
-"""
-    name: .USDCNHPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDSEKPI(Symbol):
@@ -18344,17 +14472,6 @@ class _USDSEKPI(Symbol):
 
 
 _USDSEKPI = _USDSEKPI(*_USDSEKPI._fields)
-"""
-    name: .USDSEKPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURUSDPI8H(Symbol):
@@ -18396,17 +14513,6 @@ class _EURUSDPI8H(Symbol):
 
 
 _EURUSDPI8H = _EURUSDPI8H(*_EURUSDPI8H._fields)
-"""
-    name: .EURUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCHFPI8H(Symbol):
@@ -18448,17 +14554,6 @@ class _USDCHFPI8H(Symbol):
 
 
 _USDCHFPI8H = _USDCHFPI8H(*_USDCHFPI8H._fields)
-"""
-    name: .USDCHFPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURCHFPI8H(Symbol):
@@ -18500,17 +14595,6 @@ class _EURCHFPI8H(Symbol):
 
 
 _EURCHFPI8H = _EURCHFPI8H(*_EURCHFPI8H._fields)
-"""
-    name: .EURCHFPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURTRYPI8H(Symbol):
@@ -18552,17 +14636,6 @@ class _EURTRYPI8H(Symbol):
 
 
 _EURTRYPI8H = _EURTRYPI8H(*_EURTRYPI8H._fields)
-"""
-    name: .EURTRYPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTRYPI8H(Symbol):
@@ -18604,17 +14677,6 @@ class _USDTRYPI8H(Symbol):
 
 
 _USDTRYPI8H = _USDTRYPI8H(*_USDTRYPI8H._fields)
-"""
-    name: .USDTRYPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDINRPI8H(Symbol):
@@ -18656,17 +14718,6 @@ class _USDINRPI8H(Symbol):
 
 
 _USDINRPI8H = _USDINRPI8H(*_USDINRPI8H._fields)
-"""
-    name: .USDINRPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDZARPI8H(Symbol):
@@ -18708,17 +14759,6 @@ class _USDZARPI8H(Symbol):
 
 
 _USDZARPI8H = _USDZARPI8H(*_USDZARPI8H._fields)
-"""
-    name: .USDZARPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDBRLPI8H(Symbol):
@@ -18760,17 +14800,6 @@ class _USDBRLPI8H(Symbol):
 
 
 _USDBRLPI8H = _USDBRLPI8H(*_USDBRLPI8H._fields)
-"""
-    name: .USDBRLPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDMXNPI8H(Symbol):
@@ -18812,17 +14841,6 @@ class _USDMXNPI8H(Symbol):
 
 
 _USDMXNPI8H = _USDMXNPI8H(*_USDMXNPI8H._fields)
-"""
-    name: .USDMXNPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDUSDPI8H(Symbol):
@@ -18864,17 +14882,6 @@ class _NZDUSDPI8H(Symbol):
 
 
 _NZDUSDPI8H = _NZDUSDPI8H(*_NZDUSDPI8H._fields)
-"""
-    name: .NZDUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCNHPI8H(Symbol):
@@ -18916,17 +14923,6 @@ class _USDCNHPI8H(Symbol):
 
 
 _USDCNHPI8H = _USDCNHPI8H(*_USDCNHPI8H._fields)
-"""
-    name: .USDCNHPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDSEKPI8H(Symbol):
@@ -18968,17 +14964,6 @@ class _USDSEKPI8H(Symbol):
 
 
 _USDSEKPI8H = _USDSEKPI8H(*_USDSEKPI8H._fields)
-"""
-    name: .USDSEKPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURUSDTPI(Symbol):
@@ -19020,17 +15005,6 @@ class _EURUSDTPI(Symbol):
 
 
 _EURUSDTPI = _EURUSDTPI(*_EURUSDTPI._fields)
-"""
-    name: .EURUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTCHFPI(Symbol):
@@ -19072,17 +15046,6 @@ class _USDTCHFPI(Symbol):
 
 
 _USDTCHFPI = _USDTCHFPI(*_USDTCHFPI._fields)
-"""
-    name: .USDTCHFPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTTRYPI(Symbol):
@@ -19124,17 +15087,6 @@ class _USDTTRYPI(Symbol):
 
 
 _USDTTRYPI = _USDTTRYPI(*_USDTTRYPI._fields)
-"""
-    name: .USDTTRYPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTINRPI(Symbol):
@@ -19176,17 +15128,6 @@ class _USDTINRPI(Symbol):
 
 
 _USDTINRPI = _USDTINRPI(*_USDTINRPI._fields)
-"""
-    name: .USDTINRPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTZARPI(Symbol):
@@ -19228,17 +15169,6 @@ class _USDTZARPI(Symbol):
 
 
 _USDTZARPI = _USDTZARPI(*_USDTZARPI._fields)
-"""
-    name: .USDTZARPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTBRLPI(Symbol):
@@ -19280,17 +15210,6 @@ class _USDTBRLPI(Symbol):
 
 
 _USDTBRLPI = _USDTBRLPI(*_USDTBRLPI._fields)
-"""
-    name: .USDTBRLPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTMXNPI(Symbol):
@@ -19332,17 +15251,6 @@ class _USDTMXNPI(Symbol):
 
 
 _USDTMXNPI = _USDTMXNPI(*_USDTMXNPI._fields)
-"""
-    name: .USDTMXNPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDUSDTPI(Symbol):
@@ -19384,17 +15292,6 @@ class _NZDUSDTPI(Symbol):
 
 
 _NZDUSDTPI = _NZDUSDTPI(*_NZDUSDTPI._fields)
-"""
-    name: .NZDUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTCNHPI(Symbol):
@@ -19436,17 +15333,6 @@ class _USDTCNHPI(Symbol):
 
 
 _USDTCNHPI = _USDTCNHPI(*_USDTCNHPI._fields)
-"""
-    name: .USDTCNHPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTSEKPI(Symbol):
@@ -19488,17 +15374,6 @@ class _USDTSEKPI(Symbol):
 
 
 _USDTSEKPI = _USDTSEKPI(*_USDTSEKPI._fields)
-"""
-    name: .USDTSEKPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _EURUSDTPI8H(Symbol):
@@ -19540,17 +15415,6 @@ class _EURUSDTPI8H(Symbol):
 
 
 _EURUSDTPI8H = _EURUSDTPI8H(*_EURUSDTPI8H._fields)
-"""
-    name: .EURUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTCHFPI8H(Symbol):
@@ -19592,17 +15456,6 @@ class _USDTCHFPI8H(Symbol):
 
 
 _USDTCHFPI8H = _USDTCHFPI8H(*_USDTCHFPI8H._fields)
-"""
-    name: .USDTCHFPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTTRYPI8H(Symbol):
@@ -19644,17 +15497,6 @@ class _USDTTRYPI8H(Symbol):
 
 
 _USDTTRYPI8H = _USDTTRYPI8H(*_USDTTRYPI8H._fields)
-"""
-    name: .USDTTRYPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTINRPI8H(Symbol):
@@ -19696,17 +15538,6 @@ class _USDTINRPI8H(Symbol):
 
 
 _USDTINRPI8H = _USDTINRPI8H(*_USDTINRPI8H._fields)
-"""
-    name: .USDTINRPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTZARPI8H(Symbol):
@@ -19748,17 +15579,6 @@ class _USDTZARPI8H(Symbol):
 
 
 _USDTZARPI8H = _USDTZARPI8H(*_USDTZARPI8H._fields)
-"""
-    name: .USDTZARPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTBRLPI8H(Symbol):
@@ -19800,17 +15620,6 @@ class _USDTBRLPI8H(Symbol):
 
 
 _USDTBRLPI8H = _USDTBRLPI8H(*_USDTBRLPI8H._fields)
-"""
-    name: .USDTBRLPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTMXNPI8H(Symbol):
@@ -19852,17 +15661,6 @@ class _USDTMXNPI8H(Symbol):
 
 
 _USDTMXNPI8H = _USDTMXNPI8H(*_USDTMXNPI8H._fields)
-"""
-    name: .USDTMXNPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDUSDTPI8H(Symbol):
@@ -19904,17 +15702,6 @@ class _NZDUSDTPI8H(Symbol):
 
 
 _NZDUSDTPI8H = _NZDUSDTPI8H(*_NZDUSDTPI8H._fields)
-"""
-    name: .NZDUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTCNHPI8H(Symbol):
@@ -19956,17 +15743,6 @@ class _USDTCNHPI8H(Symbol):
 
 
 _USDTCNHPI8H = _USDTCNHPI8H(*_USDTCNHPI8H._fields)
-"""
-    name: .USDTCNHPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTSEKPI8H(Symbol):
@@ -20008,17 +15784,6 @@ class _USDTSEKPI8H(Symbol):
 
 
 _USDTSEKPI8H = _USDTSEKPI8H(*_USDTSEKPI8H._fields)
-"""
-    name: .USDTSEKPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CHFBON(Symbol):
@@ -20060,17 +15825,6 @@ class _CHFBON(Symbol):
 
 
 _CHFBON = _CHFBON(*_CHFBON._fields)
-"""
-    name: .CHFBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRYBON(Symbol):
@@ -20112,17 +15866,6 @@ class _TRYBON(Symbol):
 
 
 _TRYBON = _TRYBON(*_TRYBON._fields)
-"""
-    name: .TRYBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _INRBON(Symbol):
@@ -20164,17 +15907,6 @@ class _INRBON(Symbol):
 
 
 _INRBON = _INRBON(*_INRBON._fields)
-"""
-    name: .INRBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ZARBON(Symbol):
@@ -20216,17 +15948,6 @@ class _ZARBON(Symbol):
 
 
 _ZARBON = _ZARBON(*_ZARBON._fields)
-"""
-    name: .ZARBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BRLBON(Symbol):
@@ -20268,17 +15989,6 @@ class _BRLBON(Symbol):
 
 
 _BRLBON = _BRLBON(*_BRLBON._fields)
-"""
-    name: .BRLBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MXNBON(Symbol):
@@ -20320,17 +16030,6 @@ class _MXNBON(Symbol):
 
 
 _MXNBON = _MXNBON(*_MXNBON._fields)
-"""
-    name: .MXNBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDBON(Symbol):
@@ -20372,17 +16071,6 @@ class _NZDBON(Symbol):
 
 
 _NZDBON = _NZDBON(*_NZDBON._fields)
-"""
-    name: .NZDBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CNHBON(Symbol):
@@ -20424,17 +16112,6 @@ class _CNHBON(Symbol):
 
 
 _CNHBON = _CNHBON(*_CNHBON._fields)
-"""
-    name: .CNHBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SEKBON(Symbol):
@@ -20476,17 +16153,6 @@ class _SEKBON(Symbol):
 
 
 _SEKBON = _SEKBON(*_SEKBON._fields)
-"""
-    name: .SEKBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CHFBON8H(Symbol):
@@ -20528,17 +16194,6 @@ class _CHFBON8H(Symbol):
 
 
 _CHFBON8H = _CHFBON8H(*_CHFBON8H._fields)
-"""
-    name: .CHFBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _TRYBON8H(Symbol):
@@ -20580,17 +16235,6 @@ class _TRYBON8H(Symbol):
 
 
 _TRYBON8H = _TRYBON8H(*_TRYBON8H._fields)
-"""
-    name: .TRYBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _INRBON8H(Symbol):
@@ -20632,17 +16276,6 @@ class _INRBON8H(Symbol):
 
 
 _INRBON8H = _INRBON8H(*_INRBON8H._fields)
-"""
-    name: .INRBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ZARBON8H(Symbol):
@@ -20684,17 +16317,6 @@ class _ZARBON8H(Symbol):
 
 
 _ZARBON8H = _ZARBON8H(*_ZARBON8H._fields)
-"""
-    name: .ZARBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BRLBON8H(Symbol):
@@ -20736,17 +16358,6 @@ class _BRLBON8H(Symbol):
 
 
 _BRLBON8H = _BRLBON8H(*_BRLBON8H._fields)
-"""
-    name: .BRLBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _MXNBON8H(Symbol):
@@ -20788,17 +16399,6 @@ class _MXNBON8H(Symbol):
 
 
 _MXNBON8H = _MXNBON8H(*_MXNBON8H._fields)
-"""
-    name: .MXNBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _NZDBON8H(Symbol):
@@ -20840,17 +16440,6 @@ class _NZDBON8H(Symbol):
 
 
 _NZDBON8H = _NZDBON8H(*_NZDBON8H._fields)
-"""
-    name: .NZDBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CNHBON8H(Symbol):
@@ -20892,17 +16481,6 @@ class _CNHBON8H(Symbol):
 
 
 _CNHBON8H = _CNHBON8H(*_CNHBON8H._fields)
-"""
-    name: .CNHBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SEKBON8H(Symbol):
@@ -20944,17 +16522,6 @@ class _SEKBON8H(Symbol):
 
 
 _SEKBON8H = _SEKBON8H(*_SEKBON8H._fields)
-"""
-    name: .SEKBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOP(Symbol):
@@ -20996,17 +16563,6 @@ class _BOP(Symbol):
 
 
 _BOP = _BOP(*_BOP._fields)
-"""
-    name: .BOP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOP_NEXT(Symbol):
@@ -21048,17 +16604,6 @@ class _BOP_NEXT(Symbol):
 
 
 _BOP_NEXT = _BOP_NEXT(*_BOP_NEXT._fields)
-"""
-    name: .BOP_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOPT(Symbol):
@@ -21100,17 +16645,6 @@ class _BOPT(Symbol):
 
 
 _BOPT = _BOPT(*_BOPT._fields)
-"""
-    name: .BOPT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOPT_NEXT(Symbol):
@@ -21152,17 +16686,6 @@ class _BOPT_NEXT(Symbol):
 
 
 _BOPT_NEXT = _BOPT_NEXT(*_BOPT_NEXT._fields)
-"""
-    name: .BOPT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPBON(Symbol):
@@ -21204,17 +16727,6 @@ class _OPBON(Symbol):
 
 
 _OPBON = _OPBON(*_OPBON._fields)
-"""
-    name: .OPBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPBON8H(Symbol):
@@ -21256,17 +16768,6 @@ class _OPBON8H(Symbol):
 
 
 _OPBON8H = _OPBON8H(*_OPBON8H._fields)
-"""
-    name: .OPBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPUSDTPI(Symbol):
@@ -21308,17 +16809,6 @@ class _OPUSDTPI(Symbol):
 
 
 _OPUSDTPI = _OPUSDTPI(*_OPUSDTPI._fields)
-"""
-    name: .OPUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPUSDTPI8H(Symbol):
@@ -21360,17 +16850,6 @@ class _OPUSDTPI8H(Symbol):
 
 
 _OPUSDTPI8H = _OPUSDTPI8H(*_OPUSDTPI8H._fields)
-"""
-    name: .OPUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPUSDPI(Symbol):
@@ -21412,17 +16891,6 @@ class _OPUSDPI(Symbol):
 
 
 _OPUSDPI = _OPUSDPI(*_OPUSDPI._fields)
-"""
-    name: .OPUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _OPUSDPI8H(Symbol):
@@ -21464,17 +16932,6 @@ class _OPUSDPI8H(Symbol):
 
 
 _OPUSDPI8H = _OPUSDPI8H(*_OPUSDPI8H._fields)
-"""
-    name: .OPUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDC(Symbol):
@@ -21516,17 +16973,6 @@ class _BUSDC(Symbol):
 
 
 _BUSDC = _BUSDC(*_BUSDC._fields)
-"""
-    name: .BUSDC
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDCT(Symbol):
@@ -21568,17 +17014,6 @@ class _BUSDCT(Symbol):
 
 
 _BUSDCT = _BUSDCT(*_BUSDCT._fields)
-"""
-    name: .BUSDCT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHPOWT(Symbol):
@@ -21620,17 +17055,6 @@ class _BETHPOWT(Symbol):
 
 
 _BETHPOWT = _BETHPOWT(*_BETHPOWT._fields)
-"""
-    name: .BETHPOWT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHPOWT_NEXT(Symbol):
@@ -21672,17 +17096,6 @@ class _BETHPOWT_NEXT(Symbol):
 
 
 _BETHPOWT_NEXT = _BETHPOWT_NEXT(*_BETHPOWT_NEXT._fields)
-"""
-    name: .BETHPOWT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHPOWT30M(Symbol):
@@ -21724,17 +17137,6 @@ class _BETHPOWT30M(Symbol):
 
 
 _BETHPOWT30M = _BETHPOWT30M(*_BETHPOWT30M._fields)
-"""
-    name: .BETHPOWT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BALTMEXT30M(Symbol):
@@ -21776,17 +17178,6 @@ class _BALTMEXT30M(Symbol):
 
 
 _BALTMEXT30M = _BALTMEXT30M(*_BALTMEXT30M._fields)
-"""
-    name: .BALTMEXT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDEFIMEXT30M(Symbol):
@@ -21828,17 +17219,6 @@ class _BDEFIMEXT30M(Symbol):
 
 
 _BDEFIMEXT30M = _BDEFIMEXT30M(*_BDEFIMEXT30M._fields)
-"""
-    name: .BDEFIMEXT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMETAMEXT30M(Symbol):
@@ -21880,17 +17260,6 @@ class _BMETAMEXT30M(Symbol):
 
 
 _BMETAMEXT30M = _BMETAMEXT30M(*_BMETAMEXT30M._fields)
-"""
-    name: .BMETAMEXT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDC_NEXT(Symbol):
@@ -21932,17 +17301,6 @@ class _BUSDC_NEXT(Symbol):
 
 
 _BUSDC_NEXT = _BUSDC_NEXT(*_BUSDC_NEXT._fields)
-"""
-    name: .BUSDC_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDCT_NEXT(Symbol):
@@ -21984,17 +17342,6 @@ class _BUSDCT_NEXT(Symbol):
 
 
 _BUSDCT_NEXT = _BUSDCT_NEXT(*_BUSDCT_NEXT._fields)
-"""
-    name: .BUSDCT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BKLAY(Symbol):
@@ -22036,17 +17383,6 @@ class _BKLAY(Symbol):
 
 
 _BKLAY = _BKLAY(*_BKLAY._fields)
-"""
-    name: .BKLAY
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BKLAY_NEXT(Symbol):
@@ -22088,17 +17424,6 @@ class _BKLAY_NEXT(Symbol):
 
 
 _BKLAY_NEXT = _BKLAY_NEXT(*_BKLAY_NEXT._fields)
-"""
-    name: .BKLAY_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BKLAYT(Symbol):
@@ -22140,17 +17465,6 @@ class _BKLAYT(Symbol):
 
 
 _BKLAYT = _BKLAYT(*_BKLAYT._fields)
-"""
-    name: .BKLAYT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BKLAYT_NEXT(Symbol):
@@ -22192,17 +17506,6 @@ class _BKLAYT_NEXT(Symbol):
 
 
 _BKLAYT_NEXT = _BKLAYT_NEXT(*_BKLAYT_NEXT._fields)
-"""
-    name: .BKLAYT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYUSDTPI(Symbol):
@@ -22244,17 +17547,6 @@ class _KLAYUSDTPI(Symbol):
 
 
 _KLAYUSDTPI = _KLAYUSDTPI(*_KLAYUSDTPI._fields)
-"""
-    name: .KLAYUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYUSDTPI8H(Symbol):
@@ -22296,17 +17588,6 @@ class _KLAYUSDTPI8H(Symbol):
 
 
 _KLAYUSDTPI8H = _KLAYUSDTPI8H(*_KLAYUSDTPI8H._fields)
-"""
-    name: .KLAYUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYUSDPI(Symbol):
@@ -22348,17 +17629,6 @@ class _KLAYUSDPI(Symbol):
 
 
 _KLAYUSDPI = _KLAYUSDPI(*_KLAYUSDPI._fields)
-"""
-    name: .KLAYUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYUSDPI8H(Symbol):
@@ -22400,17 +17670,6 @@ class _KLAYUSDPI8H(Symbol):
 
 
 _KLAYUSDPI8H = _KLAYUSDPI8H(*_KLAYUSDPI8H._fields)
-"""
-    name: .KLAYUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYBON(Symbol):
@@ -22452,17 +17711,6 @@ class _KLAYBON(Symbol):
 
 
 _KLAYBON = _KLAYBON(*_KLAYBON._fields)
-"""
-    name: .KLAYBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _KLAYBON8H(Symbol):
@@ -22504,17 +17752,6 @@ class _KLAYBON8H(Symbol):
 
 
 _KLAYBON8H = _KLAYBON8H(*_KLAYBON8H._fields)
-"""
-    name: .KLAYBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSTETH(Symbol):
@@ -22556,17 +17793,6 @@ class _BSTETH(Symbol):
 
 
 _BSTETH = _BSTETH(*_BSTETH._fields)
-"""
-    name: .BSTETH
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSTETHT(Symbol):
@@ -22608,17 +17834,6 @@ class _BSTETHT(Symbol):
 
 
 _BSTETHT = _BSTETHT(*_BSTETHT._fields)
-"""
-    name: .BSTETHT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDAI(Symbol):
@@ -22660,17 +17875,6 @@ class _BDAI(Symbol):
 
 
 _BDAI = _BDAI(*_BDAI._fields)
-"""
-    name: .BDAI
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BDAIT(Symbol):
@@ -22712,17 +17916,6 @@ class _BDAIT(Symbol):
 
 
 _BDAIT = _BDAIT(*_BDAIT._fields)
-"""
-    name: .BDAIT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBUSD(Symbol):
@@ -22764,17 +17957,6 @@ class _BBUSD(Symbol):
 
 
 _BBUSD = _BBUSD(*_BBUSD._fields)
-"""
-    name: .BBUSD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBUSDT(Symbol):
@@ -22816,17 +17998,6 @@ class _BBUSDT(Symbol):
 
 
 _BBUSDT = _BBUSDT(*_BBUSDT._fields)
-"""
-    name: .BBUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BWBTC(Symbol):
@@ -22868,17 +18039,6 @@ class _BWBTC(Symbol):
 
 
 _BWBTC = _BWBTC(*_BWBTC._fields)
-"""
-    name: .BWBTC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BWBTCT(Symbol):
@@ -22920,17 +18080,6 @@ class _BWBTCT(Symbol):
 
 
 _BWBTCT = _BWBTCT(*_BWBTCT._fields)
-"""
-    name: .BWBTCT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCRO(Symbol):
@@ -22972,17 +18121,6 @@ class _BCRO(Symbol):
 
 
 _BCRO = _BCRO(*_BCRO._fields)
-"""
-    name: .BCRO
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCROT(Symbol):
@@ -23024,17 +18162,6 @@ class _BCROT(Symbol):
 
 
 _BCROT = _BCROT(*_BCROT._fields)
-"""
-    name: .BCROT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BQNT(Symbol):
@@ -23076,17 +18203,6 @@ class _BQNT(Symbol):
 
 
 _BQNT = _BQNT(*_BQNT._fields)
-"""
-    name: .BQNT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BQNTT(Symbol):
@@ -23128,17 +18244,6 @@ class _BQNTT(Symbol):
 
 
 _BQNTT = _BQNTT(*_BQNTT._fields)
-"""
-    name: .BQNTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOKB(Symbol):
@@ -23180,17 +18285,6 @@ class _BOKB(Symbol):
 
 
 _BOKB = _BOKB(*_BOKB._fields)
-"""
-    name: .BOKB
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOKBT(Symbol):
@@ -23232,17 +18326,6 @@ class _BOKBT(Symbol):
 
 
 _BOKBT = _BOKBT(*_BOKBT._fields)
-"""
-    name: .BOKBT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLEO(Symbol):
@@ -23284,17 +18367,6 @@ class _BLEO(Symbol):
 
 
 _BLEO = _BLEO(*_BLEO._fields)
-"""
-    name: .BLEO
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLEOT(Symbol):
@@ -23336,17 +18408,6 @@ class _BLEOT(Symbol):
 
 
 _BLEOT = _BLEOT(*_BLEOT._fields)
-"""
-    name: .BLEOT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAAVE(Symbol):
@@ -23388,17 +18449,6 @@ class _BAAVE(Symbol):
 
 
 _BAAVE = _BAAVE(*_BAAVE._fields)
-"""
-    name: .BAAVE
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMANA(Symbol):
@@ -23440,17 +18490,6 @@ class _BMANA(Symbol):
 
 
 _BMANA = _BMANA(*_BMANA._fields)
-"""
-    name: .BMANA
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXLM(Symbol):
@@ -23492,17 +18531,6 @@ class _BXLM(Symbol):
 
 
 _BXLM = _BXLM(*_BXLM._fields)
-"""
-    name: .BXLM
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVET(Symbol):
@@ -23544,17 +18572,6 @@ class _BVET(Symbol):
 
 
 _BVET = _BVET(*_BVET._fields)
-"""
-    name: .BVET
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFIL(Symbol):
@@ -23596,17 +18613,6 @@ class _BFIL(Symbol):
 
 
 _BFIL = _BFIL(*_BFIL._fields)
-"""
-    name: .BFIL
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXTZ(Symbol):
@@ -23648,17 +18654,6 @@ class _BXTZ(Symbol):
 
 
 _BXTZ = _BXTZ(*_BXTZ._fields)
-"""
-    name: .BXTZ
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMKR(Symbol):
@@ -23700,17 +18695,6 @@ class _BMKR(Symbol):
 
 
 _BMKR = _BMKR(*_BMKR._fields)
-"""
-    name: .BMKR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLOW(Symbol):
@@ -23752,17 +18736,6 @@ class _BFLOW(Symbol):
 
 
 _BFLOW = _BFLOW(*_BFLOW._fields)
-"""
-    name: .BFLOW
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLOWT(Symbol):
@@ -23804,17 +18777,6 @@ class _BFLOWT(Symbol):
 
 
 _BFLOWT = _BFLOWT(*_BFLOWT._fields)
-"""
-    name: .BFLOWT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BHBAR(Symbol):
@@ -23856,17 +18818,6 @@ class _BHBAR(Symbol):
 
 
 _BHBAR = _BHBAR(*_BHBAR._fields)
-"""
-    name: .BHBAR
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BHBART(Symbol):
@@ -23908,17 +18859,6 @@ class _BHBART(Symbol):
 
 
 _BHBART = _BHBART(*_BHBART._fields)
-"""
-    name: .BHBART
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEGLD(Symbol):
@@ -23960,17 +18900,6 @@ class _BEGLD(Symbol):
 
 
 _BEGLD = _BEGLD(*_BEGLD._fields)
-"""
-    name: .BEGLD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BEGLDT(Symbol):
@@ -24012,17 +18941,6 @@ class _BEGLDT(Symbol):
 
 
 _BEGLDT = _BEGLDT(*_BEGLDT._fields)
-"""
-    name: .BEGLDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTUSD(Symbol):
@@ -24064,17 +18982,6 @@ class _BTUSD(Symbol):
 
 
 _BTUSD = _BTUSD(*_BTUSD._fields)
-"""
-    name: .BTUSD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTUSDT(Symbol):
@@ -24116,17 +19023,6 @@ class _BTUSDT(Symbol):
 
 
 _BTUSDT = _BTUSDT(*_BTUSDT._fields)
-"""
-    name: .BTUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDP(Symbol):
@@ -24168,17 +19064,6 @@ class _BUSDP(Symbol):
 
 
 _BUSDP = _BUSDP(*_BUSDP._fields)
-"""
-    name: .BUSDP
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BHNT(Symbol):
@@ -24220,17 +19105,6 @@ class _BHNT(Symbol):
 
 
 _BHNT = _BHNT(*_BHNT._fields)
-"""
-    name: .BHNT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BHNTT(Symbol):
@@ -24272,17 +19146,6 @@ class _BHNTT(Symbol):
 
 
 _BHNTT = _BHNTT(*_BHNTT._fields)
-"""
-    name: .BHNTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BIOTA(Symbol):
@@ -24324,17 +19187,6 @@ class _BIOTA(Symbol):
 
 
 _BIOTA = _BIOTA(*_BIOTA._fields)
-"""
-    name: .BIOTA
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BIOTAT(Symbol):
@@ -24376,17 +19228,6 @@ class _BIOTAT(Symbol):
 
 
 _BIOTAT = _BIOTAT(*_BIOTAT._fields)
-"""
-    name: .BIOTAT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXEC(Symbol):
@@ -24428,17 +19269,6 @@ class _BXEC(Symbol):
 
 
 _BXEC = _BXEC(*_BXEC._fields)
-"""
-    name: .BXEC
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXECT(Symbol):
@@ -24480,17 +19310,6 @@ class _BXECT(Symbol):
 
 
 _BXECT = _BXECT(*_BXECT._fields)
-"""
-    name: .BXECT
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTTT(Symbol):
@@ -24532,17 +19351,6 @@ class _BFTTT(Symbol):
 
 
 _BFTTT = _BFTTT(*_BFTTT._fields)
-"""
-    name: .BFTTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSANDT30M(Symbol):
@@ -24584,17 +19392,6 @@ class _BSANDT30M(Symbol):
 
 
 _BSANDT30M = _BSANDT30M(*_BSANDT30M._fields)
-"""
-    name: .BSANDT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BNEART30M(Symbol):
@@ -24636,17 +19433,6 @@ class _BNEART30M(Symbol):
 
 
 _BNEART30M = _BNEART30M(*_BNEART30M._fields)
-"""
-    name: .BNEART30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMANAT30M(Symbol):
@@ -24688,17 +19474,6 @@ class _BMANAT30M(Symbol):
 
 
 _BMANAT30M = _BMANAT30M(*_BMANAT30M._fields)
-"""
-    name: .BMANAT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSHIBT30M(Symbol):
@@ -24740,17 +19515,6 @@ class _BSHIBT30M(Symbol):
 
 
 _BSHIBT30M = _BSHIBT30M(*_BSHIBT30M._fields)
-"""
-    name: .BSHIBT30M
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOPT30M(Symbol):
@@ -24792,17 +19556,6 @@ class _BOPT30M(Symbol):
 
 
 _BOPT30M = _BOPT30M(*_BOPT30M._fields)
-"""
-    name: .BOPT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGALT30M(Symbol):
@@ -24844,17 +19597,6 @@ class _BGALT30M(Symbol):
 
 
 _BGALT30M = _BGALT30M(*_BGALT30M._fields)
-"""
-    name: .BGALT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGAL30M(Symbol):
@@ -24896,17 +19638,6 @@ class _BGAL30M(Symbol):
 
 
 _BGAL30M = _BGAL30M(*_BGAL30M._fields)
-"""
-    name: .BGAL30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BTRX30M(Symbol):
@@ -24948,17 +19679,6 @@ class _BTRX30M(Symbol):
 
 
 _BTRX30M = _BTRX30M(*_BTRX30M._fields)
-"""
-    name: .BTRX30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BOP30M(Symbol):
@@ -25000,17 +19720,6 @@ class _BOP30M(Symbol):
 
 
 _BOP30M = _BOP30M(*_BOP30M._fields)
-"""
-    name: .BOP30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPE30M(Symbol):
@@ -25052,17 +19761,6 @@ class _BAPE30M(Symbol):
 
 
 _BAPE30M = _BAPE30M(*_BAPE30M._fields)
-"""
-    name: .BAPE30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTMT30M(Symbol):
@@ -25104,17 +19802,6 @@ class _BFTMT30M(Symbol):
 
 
 _BFTMT30M = _BFTMT30M(*_BFTMT30M._fields)
-"""
-    name: .BFTMT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPT(Symbol):
@@ -25156,17 +19843,6 @@ class _BAPT(Symbol):
 
 
 _BAPT = _BAPT(*_BAPT._fields)
-"""
-    name: .BAPT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPT_NEXT(Symbol):
@@ -25208,17 +19884,6 @@ class _BAPT_NEXT(Symbol):
 
 
 _BAPT_NEXT = _BAPT_NEXT(*_BAPT_NEXT._fields)
-"""
-    name: .BAPT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPT30M(Symbol):
@@ -25260,17 +19925,6 @@ class _BAPT30M(Symbol):
 
 
 _BAPT30M = _BAPT30M(*_BAPT30M._fields)
-"""
-    name: .BAPT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPTT(Symbol):
@@ -25312,17 +19966,6 @@ class _BAPTT(Symbol):
 
 
 _BAPTT = _BAPTT(*_BAPTT._fields)
-"""
-    name: .BAPTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPTT_NEXT(Symbol):
@@ -25364,17 +20007,6 @@ class _BAPTT_NEXT(Symbol):
 
 
 _BAPTT_NEXT = _BAPTT_NEXT(*_BAPTT_NEXT._fields)
-"""
-    name: .BAPTT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BAPTT30M(Symbol):
@@ -25416,17 +20048,6 @@ class _BAPTT30M(Symbol):
 
 
 _BAPTT30M = _BAPTT30M(*_BAPTT30M._fields)
-"""
-    name: .BAPTT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTBON(Symbol):
@@ -25468,17 +20089,6 @@ class _APTBON(Symbol):
 
 
 _APTBON = _APTBON(*_APTBON._fields)
-"""
-    name: .APTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTBON8H(Symbol):
@@ -25520,17 +20130,6 @@ class _APTBON8H(Symbol):
 
 
 _APTBON8H = _APTBON8H(*_APTBON8H._fields)
-"""
-    name: .APTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTUSDTPI(Symbol):
@@ -25572,17 +20171,6 @@ class _APTUSDTPI(Symbol):
 
 
 _APTUSDTPI = _APTUSDTPI(*_APTUSDTPI._fields)
-"""
-    name: .APTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTUSDTPI8H(Symbol):
@@ -25624,17 +20212,6 @@ class _APTUSDTPI8H(Symbol):
 
 
 _APTUSDTPI8H = _APTUSDTPI8H(*_APTUSDTPI8H._fields)
-"""
-    name: .APTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTUSDPI(Symbol):
@@ -25676,17 +20253,6 @@ class _APTUSDPI(Symbol):
 
 
 _APTUSDPI = _APTUSDPI(*_APTUSDPI._fields)
-"""
-    name: .APTUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _APTUSDPI8H(Symbol):
@@ -25728,17 +20294,6 @@ class _APTUSDPI8H(Symbol):
 
 
 _APTUSDPI8H = _APTUSDPI8H(*_APTUSDPI8H._fields)
-"""
-    name: .APTUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTT(Symbol):
@@ -25780,17 +20335,6 @@ class _BFTT(Symbol):
 
 
 _BFTT = _BFTT(*_BFTT._fields)
-"""
-    name: .BFTT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTT_NEXT(Symbol):
@@ -25832,17 +20376,6 @@ class _BFTT_NEXT(Symbol):
 
 
 _BFTT_NEXT = _BFTT_NEXT(*_BFTT_NEXT._fields)
-"""
-    name: .BFTT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTTT_NEXT(Symbol):
@@ -25884,17 +20417,6 @@ class _BFTTT_NEXT(Symbol):
 
 
 _BFTTT_NEXT = _BFTTT_NEXT(*_BFTTT_NEXT._fields)
-"""
-    name: .BFTTT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTBON(Symbol):
@@ -25936,17 +20458,6 @@ class _FTTBON(Symbol):
 
 
 _FTTBON = _FTTBON(*_FTTBON._fields)
-"""
-    name: .FTTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTBON8H(Symbol):
@@ -25988,17 +20499,6 @@ class _FTTBON8H(Symbol):
 
 
 _FTTBON8H = _FTTBON8H(*_FTTBON8H._fields)
-"""
-    name: .FTTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTUSDTPI(Symbol):
@@ -26040,17 +20540,6 @@ class _FTTUSDTPI(Symbol):
 
 
 _FTTUSDTPI = _FTTUSDTPI(*_FTTUSDTPI._fields)
-"""
-    name: .FTTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTUSDTPI8H(Symbol):
@@ -26092,17 +20581,6 @@ class _FTTUSDTPI8H(Symbol):
 
 
 _FTTUSDTPI8H = _FTTUSDTPI8H(*_FTTUSDTPI8H._fields)
-"""
-    name: .FTTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTUSDPI(Symbol):
@@ -26144,17 +20622,6 @@ class _FTTUSDPI(Symbol):
 
 
 _FTTUSDPI = _FTTUSDPI(*_FTTUSDPI._fields)
-"""
-    name: .FTTUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FTTUSDPI8H(Symbol):
@@ -26196,17 +20663,6 @@ class _FTTUSDPI8H(Symbol):
 
 
 _FTTUSDPI8H = _FTTUSDPI8H(*_FTTUSDPI8H._fields)
-"""
-    name: .FTTUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXBON(Symbol):
@@ -26248,17 +20704,6 @@ class _BMEXBON(Symbol):
 
 
 _BMEXBON = _BMEXBON(*_BMEXBON._fields)
-"""
-    name: .BMEXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXBON8H(Symbol):
@@ -26300,17 +20745,6 @@ class _BMEXBON8H(Symbol):
 
 
 _BMEXBON8H = _BMEXBON8H(*_BMEXBON8H._fields)
-"""
-    name: .BMEXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXUSDTPI(Symbol):
@@ -26352,17 +20786,6 @@ class _BMEXUSDTPI(Symbol):
 
 
 _BMEXUSDTPI = _BMEXUSDTPI(*_BMEXUSDTPI._fields)
-"""
-    name: .BMEXUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXUSDTPI8H(Symbol):
@@ -26404,17 +20827,6 @@ class _BMEXUSDTPI8H(Symbol):
 
 
 _BMEXUSDTPI8H = _BMEXUSDTPI8H(*_BMEXUSDTPI8H._fields)
-"""
-    name: .BMEXUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXUSDPI(Symbol):
@@ -26456,17 +20868,6 @@ class _BMEXUSDPI(Symbol):
 
 
 _BMEXUSDPI = _BMEXUSDPI(*_BMEXUSDPI._fields)
-"""
-    name: .BMEXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BMEXUSDPI8H(Symbol):
@@ -26508,17 +20909,6 @@ class _BMEXUSDPI8H(Symbol):
 
 
 _BMEXUSDPI8H = _BMEXUSDPI8H(*_BMEXUSDPI8H._fields)
-"""
-    name: .BMEXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBMEXT(Symbol):
@@ -26560,17 +20950,6 @@ class _BBMEXT(Symbol):
 
 
 _BBMEXT = _BBMEXT(*_BBMEXT._fields)
-"""
-    name: .BBMEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBMEXT_NEXT(Symbol):
@@ -26612,17 +20991,6 @@ class _BBMEXT_NEXT(Symbol):
 
 
 _BBMEXT_NEXT = _BBMEXT_NEXT(*_BBMEXT_NEXT._fields)
-"""
-    name: .BBMEXT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBMEX(Symbol):
@@ -26664,17 +21032,6 @@ class _BBMEX(Symbol):
 
 
 _BBMEX = _BBMEX(*_BBMEX._fields)
-"""
-    name: .BBMEX
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBMEX_NEXT(Symbol):
@@ -26716,17 +21073,6 @@ class _BBMEX_NEXT(Symbol):
 
 
 _BBMEX_NEXT = _BBMEX_NEXT(*_BBMEX_NEXT._fields)
-"""
-    name: .BBMEX_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROBON(Symbol):
@@ -26768,17 +21114,6 @@ class _CROBON(Symbol):
 
 
 _CROBON = _CROBON(*_CROBON._fields)
-"""
-    name: .CROBON
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROBON8H(Symbol):
@@ -26820,17 +21155,6 @@ class _CROBON8H(Symbol):
 
 
 _CROBON8H = _CROBON8H(*_CROBON8H._fields)
-"""
-    name: .CROBON8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROUSDTPI(Symbol):
@@ -26872,17 +21196,6 @@ class _CROUSDTPI(Symbol):
 
 
 _CROUSDTPI = _CROUSDTPI(*_CROUSDTPI._fields)
-"""
-    name: .CROUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROUSDTPI8H(Symbol):
@@ -26924,17 +21237,6 @@ class _CROUSDTPI8H(Symbol):
 
 
 _CROUSDTPI8H = _CROUSDTPI8H(*_CROUSDTPI8H._fields)
-"""
-    name: .CROUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROUSDPI(Symbol):
@@ -26976,17 +21278,6 @@ class _CROUSDPI(Symbol):
 
 
 _CROUSDPI = _CROUSDPI(*_CROUSDPI._fields)
-"""
-    name: .CROUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _CROUSDPI8H(Symbol):
@@ -27028,17 +21319,6 @@ class _CROUSDPI8H(Symbol):
 
 
 _CROUSDPI8H = _CROUSDPI8H(*_CROUSDPI8H._fields)
-"""
-    name: .CROUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTT30M(Symbol):
@@ -27080,17 +21360,6 @@ class _BFTT30M(Symbol):
 
 
 _BFTT30M = _BFTT30M(*_BFTT30M._fields)
-"""
-    name: .BFTT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFTTT30M(Symbol):
@@ -27132,17 +21401,6 @@ class _BFTTT30M(Symbol):
 
 
 _BFTTT30M = _BFTTT30M(*_BFTTT30M._fields)
-"""
-    name: .BFTTT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHYLD(Symbol):
@@ -27184,17 +21442,6 @@ class _BETHYLD(Symbol):
 
 
 _BETHYLD = _BETHYLD(*_BETHYLD._fields)
-"""
-    name: .BETHYLD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLRT(Symbol):
@@ -27236,17 +21483,6 @@ class _BFLRT(Symbol):
 
 
 _BFLRT = _BFLRT(*_BFLRT._fields)
-"""
-    name: .BFLRT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLRT_NEXT(Symbol):
@@ -27288,17 +21524,6 @@ class _BFLRT_NEXT(Symbol):
 
 
 _BFLRT_NEXT = _BFLRT_NEXT(*_BFLRT_NEXT._fields)
-"""
-    name: .BFLRT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLRT30M(Symbol):
@@ -27340,17 +21565,6 @@ class _BFLRT30M(Symbol):
 
 
 _BFLRT30M = _BFLRT30M(*_BFLRT30M._fields)
-"""
-    name: .BFLRT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRBON(Symbol):
@@ -27392,17 +21606,6 @@ class _FLRBON(Symbol):
 
 
 _FLRBON = _FLRBON(*_FLRBON._fields)
-"""
-    name: .FLRBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRBON8H(Symbol):
@@ -27444,17 +21647,6 @@ class _FLRBON8H(Symbol):
 
 
 _FLRBON8H = _FLRBON8H(*_FLRBON8H._fields)
-"""
-    name: .FLRBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRUSDTPI(Symbol):
@@ -27496,17 +21688,6 @@ class _FLRUSDTPI(Symbol):
 
 
 _FLRUSDTPI = _FLRUSDTPI(*_FLRUSDTPI._fields)
-"""
-    name: .FLRUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRUSDTPI8H(Symbol):
@@ -27548,17 +21729,6 @@ class _FLRUSDTPI8H(Symbol):
 
 
 _FLRUSDTPI8H = _FLRUSDTPI8H(*_FLRUSDTPI8H._fields)
-"""
-    name: .FLRUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRUSDPI(Symbol):
@@ -27600,17 +21770,6 @@ class _FLRUSDPI(Symbol):
 
 
 _FLRUSDPI = _FLRUSDPI(*_FLRUSDPI._fields)
-"""
-    name: .FLRUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _FLRUSDPI8H(Symbol):
@@ -27652,17 +21811,6 @@ class _FLRUSDPI8H(Symbol):
 
 
 _FLRUSDPI8H = _FLRUSDPI8H(*_FLRUSDPI8H._fields)
-"""
-    name: .FLRUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLR(Symbol):
@@ -27704,17 +21852,6 @@ class _BFLR(Symbol):
 
 
 _BFLR = _BFLR(*_BFLR._fields)
-"""
-    name: .BFLR
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BFLR_NEXT(Symbol):
@@ -27756,17 +21893,6 @@ class _BFLR_NEXT(Symbol):
 
 
 _BFLR_NEXT = _BFLR_NEXT(*_BFLR_NEXT._fields)
-"""
-    name: .BFLR_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURBON(Symbol):
@@ -27808,17 +21934,6 @@ class _BLURBON(Symbol):
 
 
 _BLURBON = _BLURBON(*_BLURBON._fields)
-"""
-    name: .BLURBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURBON8H(Symbol):
@@ -27860,17 +21975,6 @@ class _BLURBON8H(Symbol):
 
 
 _BLURBON8H = _BLURBON8H(*_BLURBON8H._fields)
-"""
-    name: .BLURBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURUSDTPI(Symbol):
@@ -27912,17 +22016,6 @@ class _BLURUSDTPI(Symbol):
 
 
 _BLURUSDTPI = _BLURUSDTPI(*_BLURUSDTPI._fields)
-"""
-    name: .BLURUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURUSDTPI8H(Symbol):
@@ -27964,17 +22057,6 @@ class _BLURUSDTPI8H(Symbol):
 
 
 _BLURUSDTPI8H = _BLURUSDTPI8H(*_BLURUSDTPI8H._fields)
-"""
-    name: .BLURUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURUSDPI(Symbol):
@@ -28016,17 +22098,6 @@ class _BLURUSDPI(Symbol):
 
 
 _BLURUSDPI = _BLURUSDPI(*_BLURUSDPI._fields)
-"""
-    name: .BLURUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLURUSDPI8H(Symbol):
@@ -28068,17 +22139,6 @@ class _BLURUSDPI8H(Symbol):
 
 
 _BLURUSDPI8H = _BLURUSDPI8H(*_BLURUSDPI8H._fields)
-"""
-    name: .BLURUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBLUR(Symbol):
@@ -28120,17 +22180,6 @@ class _BBLUR(Symbol):
 
 
 _BBLUR = _BBLUR(*_BBLUR._fields)
-"""
-    name: .BBLUR
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBLUR_NEXT(Symbol):
@@ -28172,17 +22221,6 @@ class _BBLUR_NEXT(Symbol):
 
 
 _BBLUR_NEXT = _BBLUR_NEXT(*_BBLUR_NEXT._fields)
-"""
-    name: .BBLUR_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBLURT(Symbol):
@@ -28224,17 +22262,6 @@ class _BBLURT(Symbol):
 
 
 _BBLURT = _BBLURT(*_BBLURT._fields)
-"""
-    name: .BBLURT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BBLURT_NEXT(Symbol):
@@ -28276,17 +22303,6 @@ class _BBLURT_NEXT(Symbol):
 
 
 _BBLURT_NEXT = _BBLURT_NEXT(*_BBLURT_NEXT._fields)
-"""
-    name: .BBLURT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMXT(Symbol):
@@ -28328,17 +22344,6 @@ class _BGMXT(Symbol):
 
 
 _BGMXT = _BGMXT(*_BGMXT._fields)
-"""
-    name: .BGMXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMXT_NEXT(Symbol):
@@ -28380,17 +22385,6 @@ class _BGMXT_NEXT(Symbol):
 
 
 _BGMXT_NEXT = _BGMXT_NEXT(*_BGMXT_NEXT._fields)
-"""
-    name: .BGMXT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMX(Symbol):
@@ -28432,17 +22426,6 @@ class _BGMX(Symbol):
 
 
 _BGMX = _BGMX(*_BGMX._fields)
-"""
-    name: .BGMX
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BGMX_NEXT(Symbol):
@@ -28484,17 +22467,6 @@ class _BGMX_NEXT(Symbol):
 
 
 _BGMX_NEXT = _BGMX_NEXT(*_BGMX_NEXT._fields)
-"""
-    name: .BGMX_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXBON(Symbol):
@@ -28536,17 +22508,6 @@ class _GMXBON(Symbol):
 
 
 _GMXBON = _GMXBON(*_GMXBON._fields)
-"""
-    name: .GMXBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXBON8H(Symbol):
@@ -28588,17 +22549,6 @@ class _GMXBON8H(Symbol):
 
 
 _GMXBON8H = _GMXBON8H(*_GMXBON8H._fields)
-"""
-    name: .GMXBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXUSDTPI(Symbol):
@@ -28640,17 +22590,6 @@ class _GMXUSDTPI(Symbol):
 
 
 _GMXUSDTPI = _GMXUSDTPI(*_GMXUSDTPI._fields)
-"""
-    name: .GMXUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXUSDTPI8H(Symbol):
@@ -28692,17 +22631,6 @@ class _GMXUSDTPI8H(Symbol):
 
 
 _GMXUSDTPI8H = _GMXUSDTPI8H(*_GMXUSDTPI8H._fields)
-"""
-    name: .GMXUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXUSDPI(Symbol):
@@ -28744,17 +22672,6 @@ class _GMXUSDPI(Symbol):
 
 
 _GMXUSDPI = _GMXUSDPI(*_GMXUSDPI._fields)
-"""
-    name: .GMXUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _GMXUSDPI8H(Symbol):
@@ -28796,17 +22713,6 @@ class _GMXUSDPI8H(Symbol):
 
 
 _GMXUSDPI8H = _GMXUSDPI8H(*_GMXUSDPI8H._fields)
-"""
-    name: .GMXUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCBON(Symbol):
@@ -28848,17 +22754,6 @@ class _USDCBON(Symbol):
 
 
 _USDCBON = _USDCBON(*_USDCBON._fields)
-"""
-    name: .USDCBON
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDCBON8H(Symbol):
@@ -28900,17 +22795,6 @@ class _USDCBON8H(Symbol):
 
 
 _USDCBON8H = _USDCBON8H(*_USDCBON8H._fields)
-"""
-    name: .USDCBON8H
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTUSDCPI(Symbol):
@@ -28952,17 +22836,6 @@ class _USDTUSDCPI(Symbol):
 
 
 _USDTUSDCPI = _USDTUSDCPI(*_USDTUSDCPI._fields)
-"""
-    name: .USDTUSDCPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDTUSDCPI8H(Symbol):
@@ -29004,17 +22877,6 @@ class _USDTUSDCPI8H(Symbol):
 
 
 _USDTUSDCPI8H = _USDTUSDCPI8H(*_USDTUSDCPI8H._fields)
-"""
-    name: .USDTUSDCPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BUSDTUSDC(Symbol):
@@ -29056,17 +22918,6 @@ class _BUSDTUSDC(Symbol):
 
 
 _BUSDTUSDC = _BUSDTUSDC(*_BUSDTUSDC._fields)
-"""
-    name: .BUSDTUSDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BARBT(Symbol):
@@ -29108,17 +22959,6 @@ class _BARBT(Symbol):
 
 
 _BARBT = _BARBT(*_BARBT._fields)
-"""
-    name: .BARBT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BARBT_NEXT(Symbol):
@@ -29160,17 +23000,6 @@ class _BARBT_NEXT(Symbol):
 
 
 _BARBT_NEXT = _BARBT_NEXT(*_BARBT_NEXT._fields)
-"""
-    name: .BARBT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BARBT30M(Symbol):
@@ -29212,17 +23041,6 @@ class _BARBT30M(Symbol):
 
 
 _BARBT30M = _BARBT30M(*_BARBT30M._fields)
-"""
-    name: .BARBT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BARB(Symbol):
@@ -29264,17 +23082,6 @@ class _BARB(Symbol):
 
 
 _BARB = _BARB(*_BARB._fields)
-"""
-    name: .BARB
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BARB_NEXT(Symbol):
@@ -29316,17 +23123,6 @@ class _BARB_NEXT(Symbol):
 
 
 _BARB_NEXT = _BARB_NEXT(*_BARB_NEXT._fields)
-"""
-    name: .BARB_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBBON(Symbol):
@@ -29368,17 +23164,6 @@ class _ARBBON(Symbol):
 
 
 _ARBBON = _ARBBON(*_ARBBON._fields)
-"""
-    name: .ARBBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBBON8H(Symbol):
@@ -29420,17 +23205,6 @@ class _ARBBON8H(Symbol):
 
 
 _ARBBON8H = _ARBBON8H(*_ARBBON8H._fields)
-"""
-    name: .ARBBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBUSDTPI(Symbol):
@@ -29472,17 +23246,6 @@ class _ARBUSDTPI(Symbol):
 
 
 _ARBUSDTPI = _ARBUSDTPI(*_ARBUSDTPI._fields)
-"""
-    name: .ARBUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBUSDTPI8H(Symbol):
@@ -29524,17 +23287,6 @@ class _ARBUSDTPI8H(Symbol):
 
 
 _ARBUSDTPI8H = _ARBUSDTPI8H(*_ARBUSDTPI8H._fields)
-"""
-    name: .ARBUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBUSDPI(Symbol):
@@ -29576,17 +23328,6 @@ class _ARBUSDPI(Symbol):
 
 
 _ARBUSDPI = _ARBUSDPI(*_ARBUSDPI._fields)
-"""
-    name: .ARBUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ARBUSDPI8H(Symbol):
@@ -29628,17 +23369,6 @@ class _ARBUSDPI8H(Symbol):
 
 
 _ARBUSDPI8H = _ARBUSDPI8H(*_ARBUSDPI8H._fields)
-"""
-    name: .ARBUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BPEPET(Symbol):
@@ -29680,17 +23410,6 @@ class _BPEPET(Symbol):
 
 
 _BPEPET = _BPEPET(*_BPEPET._fields)
-"""
-    name: .BPEPET
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BPEPET_NEXT(Symbol):
@@ -29732,17 +23451,6 @@ class _BPEPET_NEXT(Symbol):
 
 
 _BPEPET_NEXT = _BPEPET_NEXT(*_BPEPET_NEXT._fields)
-"""
-    name: .BPEPET_NEXT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BPEPE(Symbol):
@@ -29784,17 +23492,6 @@ class _BPEPE(Symbol):
 
 
 _BPEPE = _BPEPE(*_BPEPE._fields)
-"""
-    name: .BPEPE
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BPEPE_NEXT(Symbol):
@@ -29836,17 +23533,6 @@ class _BPEPE_NEXT(Symbol):
 
 
 _BPEPE_NEXT = _BPEPE_NEXT(*_BPEPE_NEXT._fields)
-"""
-    name: .BPEPE_NEXT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEBON(Symbol):
@@ -29888,17 +23574,6 @@ class _PEPEBON(Symbol):
 
 
 _PEPEBON = _PEPEBON(*_PEPEBON._fields)
-"""
-    name: .PEPEBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEBON8H(Symbol):
@@ -29940,17 +23615,6 @@ class _PEPEBON8H(Symbol):
 
 
 _PEPEBON8H = _PEPEBON8H(*_PEPEBON8H._fields)
-"""
-    name: .PEPEBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEUSDTPI(Symbol):
@@ -29992,17 +23656,6 @@ class _PEPEUSDTPI(Symbol):
 
 
 _PEPEUSDTPI = _PEPEUSDTPI(*_PEPEUSDTPI._fields)
-"""
-    name: .PEPEUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEUSDTPI8H(Symbol):
@@ -30044,17 +23697,6 @@ class _PEPEUSDTPI8H(Symbol):
 
 
 _PEPEUSDTPI8H = _PEPEUSDTPI8H(*_PEPEUSDTPI8H._fields)
-"""
-    name: .PEPEUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEUSDPI(Symbol):
@@ -30096,17 +23738,6 @@ class _PEPEUSDPI(Symbol):
 
 
 _PEPEUSDPI = _PEPEUSDPI(*_PEPEUSDPI._fields)
-"""
-    name: .PEPEUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _PEPEUSDPI8H(Symbol):
@@ -30148,17 +23779,6 @@ class _PEPEUSDPI8H(Symbol):
 
 
 _PEPEUSDPI8H = _PEPEUSDPI8H(*_PEPEUSDPI8H._fields)
-"""
-    name: .PEPEUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUIT(Symbol):
@@ -30200,17 +23820,6 @@ class _BSUIT(Symbol):
 
 
 _BSUIT = _BSUIT(*_BSUIT._fields)
-"""
-    name: .BSUIT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUIT_NEXT(Symbol):
@@ -30252,17 +23861,6 @@ class _BSUIT_NEXT(Symbol):
 
 
 _BSUIT_NEXT = _BSUIT_NEXT(*_BSUIT_NEXT._fields)
-"""
-    name: .BSUIT_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUI(Symbol):
@@ -30304,17 +23902,6 @@ class _BSUI(Symbol):
 
 
 _BSUI = _BSUI(*_BSUI._fields)
-"""
-    name: .BSUI
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUI_NEXT(Symbol):
@@ -30356,17 +23943,6 @@ class _BSUI_NEXT(Symbol):
 
 
 _BSUI_NEXT = _BSUI_NEXT(*_BSUI_NEXT._fields)
-"""
-    name: .BSUI_NEXT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BSUIT30M(Symbol):
@@ -30408,17 +23984,6 @@ class _BSUIT30M(Symbol):
 
 
 _BSUIT30M = _BSUIT30M(*_BSUIT30M._fields)
-"""
-    name: .BSUIT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIUSDTPI(Symbol):
@@ -30460,17 +24025,6 @@ class _SUIUSDTPI(Symbol):
 
 
 _SUIUSDTPI = _SUIUSDTPI(*_SUIUSDTPI._fields)
-"""
-    name: .SUIUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIUSDTPI8H(Symbol):
@@ -30512,17 +24066,6 @@ class _SUIUSDTPI8H(Symbol):
 
 
 _SUIUSDTPI8H = _SUIUSDTPI8H(*_SUIUSDTPI8H._fields)
-"""
-    name: .SUIUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIUSDPI(Symbol):
@@ -30564,17 +24107,6 @@ class _SUIUSDPI(Symbol):
 
 
 _SUIUSDPI = _SUIUSDPI(*_SUIUSDPI._fields)
-"""
-    name: .SUIUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIUSDPI8H(Symbol):
@@ -30616,17 +24148,6 @@ class _SUIUSDPI8H(Symbol):
 
 
 _SUIUSDPI8H = _SUIUSDPI8H(*_SUIUSDPI8H._fields)
-"""
-    name: .SUIUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIBON(Symbol):
@@ -30668,17 +24189,6 @@ class _SUIBON(Symbol):
 
 
 _SUIBON = _SUIBON(*_SUIBON._fields)
-"""
-    name: .SUIBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _SUIBON8H(Symbol):
@@ -30720,17 +24230,6 @@ class _SUIBON8H(Symbol):
 
 
 _SUIBON8H = _SUIBON8H(*_SUIBON8H._fields)
-"""
-    name: .SUIBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BKLAYT30M(Symbol):
@@ -30772,17 +24271,6 @@ class _BKLAYT30M(Symbol):
 
 
 _BKLAYT30M = _BKLAYT30M(*_BKLAYT30M._fields)
-"""
-    name: .BKLAYT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BCROT30M(Symbol):
@@ -30824,17 +24312,6 @@ class _BCROT30M(Symbol):
 
 
 _BCROT30M = _BCROT30M(*_BCROT30M._fields)
-"""
-    name: .BCROT30M
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class ADAM23(Symbol):
@@ -30876,17 +24353,6 @@ class ADAM23(Symbol):
 
 
 ADAM23 = ADAM23(*ADAM23._fields)
-"""
-    name: ADAM23
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XRPM23(Symbol):
@@ -30928,17 +24394,6 @@ class XRPM23(Symbol):
 
 
 XRPM23 = XRPM23(*XRPM23._fields)
-"""
-    name: XRPM23
-    significant_digits: None
-    tick_size: 1e-08
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ARBUSDTM23(Symbol):
@@ -30980,17 +24435,6 @@ class ARBUSDTM23(Symbol):
 
 
 ARBUSDTM23 = ARBUSDTM23(*ARBUSDTM23._fields)
-"""
-    name: ARBUSDTM23
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class KLAYUSD(Symbol):
@@ -31032,17 +24476,6 @@ class KLAYUSD(Symbol):
 
 
 KLAYUSD = KLAYUSD(*KLAYUSD._fields)
-"""
-    name: KLAYUSD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class KLAYUSDT(Symbol):
@@ -31084,17 +24517,6 @@ class KLAYUSDT(Symbol):
 
 
 KLAYUSDT = KLAYUSDT(*KLAYUSDT._fields)
-"""
-    name: KLAYUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XRPUSD(Symbol):
@@ -31136,17 +24558,6 @@ class XRPUSD(Symbol):
 
 
 XRPUSD = XRPUSD(*XRPUSD._fields)
-"""
-    name: XRPUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BCHUSD(Symbol):
@@ -31188,17 +24599,6 @@ class BCHUSD(Symbol):
 
 
 BCHUSD = BCHUSD(*BCHUSD._fields)
-"""
-    name: BCHUSD
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class DOGEUSD(Symbol):
@@ -31240,17 +24640,6 @@ class DOGEUSD(Symbol):
 
 
 DOGEUSD = DOGEUSD(*DOGEUSD._fields)
-"""
-    name: DOGEUSD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 5000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BNBUSD(Symbol):
@@ -31292,17 +24681,6 @@ class BNBUSD(Symbol):
 
 
 BNBUSD = BNBUSD(*BNBUSD._fields)
-"""
-    name: BNBUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LINKUSD(Symbol):
@@ -31344,17 +24722,6 @@ class LINKUSD(Symbol):
 
 
 LINKUSD = LINKUSD(*LINKUSD._fields)
-"""
-    name: LINKUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class SOLUSD(Symbol):
@@ -31396,17 +24763,6 @@ class SOLUSD(Symbol):
 
 
 SOLUSD = SOLUSD(*SOLUSD._fields)
-"""
-    name: SOLUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class APTUSD(Symbol):
@@ -31448,17 +24804,6 @@ class APTUSD(Symbol):
 
 
 APTUSD = APTUSD(*APTUSD._fields)
-"""
-    name: APTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BMEXUSD(Symbol):
@@ -31500,17 +24845,6 @@ class BMEXUSD(Symbol):
 
 
 BMEXUSD = BMEXUSD(*BMEXUSD._fields)
-"""
-    name: BMEXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class CROUSD(Symbol):
@@ -31552,17 +24886,6 @@ class CROUSD(Symbol):
 
 
 CROUSD = CROUSD(*CROUSD._fields)
-"""
-    name: CROUSD
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 5000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class FLRUSD(Symbol):
@@ -31604,17 +24927,6 @@ class FLRUSD(Symbol):
 
 
 FLRUSD = FLRUSD(*FLRUSD._fields)
-"""
-    name: FLRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BLURUSD(Symbol):
@@ -31656,17 +24968,6 @@ class BLURUSD(Symbol):
 
 
 BLURUSD = BLURUSD(*BLURUSD._fields)
-"""
-    name: BLURUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class GMXUSD(Symbol):
@@ -31708,17 +25009,6 @@ class GMXUSD(Symbol):
 
 
 GMXUSD = GMXUSD(*GMXUSD._fields)
-"""
-    name: GMXUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ARBUSD(Symbol):
@@ -31760,17 +25050,6 @@ class ARBUSD(Symbol):
 
 
 ARBUSD = ARBUSD(*ARBUSD._fields)
-"""
-    name: ARBUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class PEPEUSDT(Symbol):
@@ -31812,17 +25091,6 @@ class PEPEUSDT(Symbol):
 
 
 PEPEUSDT = PEPEUSDT(*PEPEUSDT._fields)
-"""
-    name: PEPEUSDT
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 10000
-    max_order_size: 100000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class PEPEUSD(Symbol):
@@ -31864,17 +25132,6 @@ class PEPEUSD(Symbol):
 
 
 PEPEUSD = PEPEUSD(*PEPEUSD._fields)
-"""
-    name: PEPEUSD
-    significant_digits: None
-    tick_size: 1e-09
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class SUIUSD(Symbol):
@@ -31916,17 +25173,6 @@ class SUIUSD(Symbol):
 
 
 SUIUSD = SUIUSD(*SUIUSD._fields)
-"""
-    name: SUIUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class DOGEUSDT(Symbol):
@@ -31968,17 +25214,6 @@ class DOGEUSDT(Symbol):
 
 
 DOGEUSDT = DOGEUSDT(*DOGEUSDT._fields)
-"""
-    name: DOGEUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class DOTUSDT(Symbol):
@@ -32020,17 +25255,6 @@ class DOTUSDT(Symbol):
 
 
 DOTUSDT = DOTUSDT(*DOTUSDT._fields)
-"""
-    name: DOTUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ADAUSDT(Symbol):
@@ -32072,17 +25296,6 @@ class ADAUSDT(Symbol):
 
 
 ADAUSDT = ADAUSDT(*ADAUSDT._fields)
-"""
-    name: ADAUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BNBUSDT(Symbol):
@@ -32124,17 +25337,6 @@ class BNBUSDT(Symbol):
 
 
 BNBUSDT = BNBUSDT(*BNBUSDT._fields)
-"""
-    name: BNBUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class SOLUSDT(Symbol):
@@ -32176,17 +25378,6 @@ class SOLUSDT(Symbol):
 
 
 SOLUSDT = SOLUSDT(*SOLUSDT._fields)
-"""
-    name: SOLUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ADAUSD(Symbol):
@@ -32228,17 +25419,6 @@ class ADAUSD(Symbol):
 
 
 ADAUSD = ADAUSD(*ADAUSD._fields)
-"""
-    name: ADAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class EOSUSD(Symbol):
@@ -32280,17 +25460,6 @@ class EOSUSD(Symbol):
 
 
 EOSUSD = EOSUSD(*EOSUSD._fields)
-"""
-    name: EOSUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XRPUSDT(Symbol):
@@ -32332,17 +25501,6 @@ class XRPUSDT(Symbol):
 
 
 XRPUSDT = XRPUSDT(*XRPUSDT._fields)
-"""
-    name: XRPUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BCHUSDT(Symbol):
@@ -32384,17 +25542,6 @@ class BCHUSDT(Symbol):
 
 
 BCHUSDT = BCHUSDT(*BCHUSDT._fields)
-"""
-    name: BCHUSDT
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class APEUSDT(Symbol):
@@ -32436,17 +25583,6 @@ class APEUSDT(Symbol):
 
 
 APEUSDT = APEUSDT(*APEUSDT._fields)
-"""
-    name: APEUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class GMTUSDT(Symbol):
@@ -32488,17 +25624,6 @@ class GMTUSDT(Symbol):
 
 
 GMTUSDT = GMTUSDT(*GMTUSDT._fields)
-"""
-    name: GMTUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class GMTUSD(Symbol):
@@ -32540,17 +25665,6 @@ class GMTUSD(Symbol):
 
 
 GMTUSD = GMTUSD(*GMTUSD._fields)
-"""
-    name: GMTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class NEARUSD(Symbol):
@@ -32592,17 +25706,6 @@ class NEARUSD(Symbol):
 
 
 NEARUSD = NEARUSD(*NEARUSD._fields)
-"""
-    name: NEARUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class APTUSDT(Symbol):
@@ -32644,17 +25747,6 @@ class APTUSDT(Symbol):
 
 
 APTUSDT = APTUSDT(*APTUSDT._fields)
-"""
-    name: APTUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BMEXUSDT(Symbol):
@@ -32696,17 +25788,6 @@ class BMEXUSDT(Symbol):
 
 
 BMEXUSDT = BMEXUSDT(*BMEXUSDT._fields)
-"""
-    name: BMEXUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class CROUSDT(Symbol):
@@ -32748,17 +25829,6 @@ class CROUSDT(Symbol):
 
 
 CROUSDT = CROUSDT(*CROUSDT._fields)
-"""
-    name: CROUSDT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class FLRUSDT(Symbol):
@@ -32800,17 +25870,6 @@ class FLRUSDT(Symbol):
 
 
 FLRUSDT = FLRUSDT(*FLRUSDT._fields)
-"""
-    name: FLRUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BLURUSDT(Symbol):
@@ -32852,17 +25911,6 @@ class BLURUSDT(Symbol):
 
 
 BLURUSDT = BLURUSDT(*BLURUSDT._fields)
-"""
-    name: BLURUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class GMXUSDT(Symbol):
@@ -32904,17 +25952,6 @@ class GMXUSDT(Symbol):
 
 
 GMXUSDT = GMXUSDT(*GMXUSDT._fields)
-"""
-    name: GMXUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ARBUSDT(Symbol):
@@ -32956,17 +25993,6 @@ class ARBUSDT(Symbol):
 
 
 ARBUSDT = ARBUSDT(*ARBUSDT._fields)
-"""
-    name: ARBUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 100
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class SUIUSDT(Symbol):
@@ -33008,17 +26034,6 @@ class SUIUSDT(Symbol):
 
 
 SUIUSDT = SUIUSDT(*SUIUSDT._fields)
-"""
-    name: SUIUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 100
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LUNAUSD(Symbol):
@@ -33060,17 +26075,6 @@ class LUNAUSD(Symbol):
 
 
 LUNAUSD = LUNAUSD(*LUNAUSD._fields)
-"""
-    name: LUNAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.04
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class DOTUSD(Symbol):
@@ -33112,17 +26116,6 @@ class DOTUSD(Symbol):
 
 
 DOTUSD = DOTUSD(*DOTUSD._fields)
-"""
-    name: DOTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.04
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class MATICUSDT(Symbol):
@@ -33164,17 +26157,6 @@ class MATICUSDT(Symbol):
 
 
 MATICUSDT = MATICUSDT(*MATICUSDT._fields)
-"""
-    name: MATICUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class AVAXUSD(Symbol):
@@ -33216,17 +26198,6 @@ class AVAXUSD(Symbol):
 
 
 AVAXUSD = AVAXUSD(*AVAXUSD._fields)
-"""
-    name: AVAXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1
-    max_order_size: 500000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class AXSUSD(Symbol):
@@ -33268,17 +26239,6 @@ class AXSUSD(Symbol):
 
 
 AXSUSD = AXSUSD(*AXSUSD._fields)
-"""
-    name: AXSUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1
-    max_order_size: 1000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class AVAXUSDT(Symbol):
@@ -33320,17 +26280,6 @@ class AVAXUSDT(Symbol):
 
 
 AVAXUSDT = AVAXUSDT(*AVAXUSDT._fields)
-"""
-    name: AVAXUSDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LUNAUSDT(Symbol):
@@ -33372,17 +26321,6 @@ class LUNAUSDT(Symbol):
 
 
 LUNAUSDT = LUNAUSDT(*LUNAUSDT._fields)
-"""
-    name: LUNAUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.05
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class USDTUSDC(Symbol):
@@ -33424,17 +26362,6 @@ class USDTUSDC(Symbol):
 
 
 USDTUSDC = USDTUSDC(*USDTUSDC._fields)
-"""
-    name: USDTUSDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 0.1
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class UNI_USDT(Symbol):
@@ -33476,17 +26403,6 @@ class UNI_USDT(Symbol):
 
 
 UNI_USDT = UNI_USDT(*UNI_USDT._fields)
-"""
-    name: UNI_USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 10000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LINK_USDT(Symbol):
@@ -33528,17 +26444,6 @@ class LINK_USDT(Symbol):
 
 
 LINK_USDT = LINK_USDT(*LINK_USDT._fields)
-"""
-    name: LINK_USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 10000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class MATIC_USDT(Symbol):
@@ -33580,17 +26485,6 @@ class MATIC_USDT(Symbol):
 
 
 MATIC_USDT = MATIC_USDT(*MATIC_USDT._fields)
-"""
-    name: MATIC_USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 100000000
-    max_order_size: 100000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class AXS_USDT(Symbol):
@@ -33632,17 +26526,6 @@ class AXS_USDT(Symbol):
 
 
 AXS_USDT = AXS_USDT(*AXS_USDT._fields)
-"""
-    name: AXS_USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 1000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class APE_USDT(Symbol):
@@ -33684,17 +26567,6 @@ class APE_USDT(Symbol):
 
 
 APE_USDT = APE_USDT(*APE_USDT._fields)
-"""
-    name: APE_USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 10000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class TRX_USDT(Symbol):
@@ -33736,17 +26608,6 @@ class TRX_USDT(Symbol):
 
 
 TRX_USDT = TRX_USDT(*TRX_USDT._fields)
-"""
-    name: TRX_USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 100000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class SOL_USDT(Symbol):
@@ -33788,17 +26649,6 @@ class SOL_USDT(Symbol):
 
 
 SOL_USDT = SOL_USDT(*SOL_USDT._fields)
-"""
-    name: SOL_USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class BMEX_USDT(Symbol):
@@ -33840,17 +26690,6 @@ class BMEX_USDT(Symbol):
 
 
 BMEX_USDT = BMEX_USDT(*BMEX_USDT._fields)
-"""
-    name: BMEX_USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 1000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class _XBT(Symbol):
@@ -33892,17 +26731,6 @@ class _XBT(Symbol):
 
 
 _XBT = _XBT(*_XBT._fields)
-"""
-    name: .XBT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBT30M(Symbol):
@@ -33944,17 +26772,6 @@ class _XBT30M(Symbol):
 
 
 _XBT30M = _XBT30M(*_XBT30M._fields)
-"""
-    name: .XBT30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTBON(Symbol):
@@ -33996,17 +26813,6 @@ class _XBTBON(Symbol):
 
 
 _XBTBON = _XBTBON(*_XBTBON._fields)
-"""
-    name: .XBTBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTBON8H(Symbol):
@@ -34048,17 +26854,6 @@ class _XBTBON8H(Symbol):
 
 
 _XBTBON8H = _XBTBON8H(*_XBTBON8H._fields)
-"""
-    name: .XBTBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTUSDPI(Symbol):
@@ -34100,17 +26895,6 @@ class _XBTUSDPI(Symbol):
 
 
 _XBTUSDPI = _XBTUSDPI(*_XBTUSDPI._fields)
-"""
-    name: .XBTUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTUSDPI8H(Symbol):
@@ -34152,17 +26936,6 @@ class _XBTUSDPI8H(Symbol):
 
 
 _XBTUSDPI8H = _XBTUSDPI8H(*_XBTUSDPI8H._fields)
-"""
-    name: .XBTUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBT(Symbol):
@@ -34204,17 +26977,6 @@ class _BXBT(Symbol):
 
 
 _BXBT = _BXBT(*_BXBT._fields)
-"""
-    name: .BXBT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBT30M(Symbol):
@@ -34256,17 +27018,6 @@ class _BXBT30M(Symbol):
 
 
 _BXBT30M = _BXBT30M(*_BXBT30M._fields)
-"""
-    name: .BXBT30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBT_NEXT(Symbol):
@@ -34308,17 +27059,6 @@ class _BXBT_NEXT(Symbol):
 
 
 _BXBT_NEXT = _BXBT_NEXT(*_BXBT_NEXT._fields)
-"""
-    name: .BXBT_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTEUR(Symbol):
@@ -34360,17 +27100,6 @@ class _BXBTEUR(Symbol):
 
 
 _BXBTEUR = _BXBTEUR(*_BXBTEUR._fields)
-"""
-    name: .BXBTEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTEUR_NEXT(Symbol):
@@ -34412,17 +27141,6 @@ class _BXBTEUR_NEXT(Symbol):
 
 
 _BXBTEUR_NEXT = _BXBTEUR_NEXT(*_BXBTEUR_NEXT._fields)
-"""
-    name: .BXBTEUR_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTEURPI(Symbol):
@@ -34464,17 +27182,6 @@ class _XBTEURPI(Symbol):
 
 
 _XBTEURPI = _XBTEURPI(*_XBTEURPI._fields)
-"""
-    name: .XBTEURPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTEURPI8H(Symbol):
@@ -34516,17 +27223,6 @@ class _XBTEURPI8H(Symbol):
 
 
 _XBTEURPI8H = _XBTEURPI8H(*_XBTEURPI8H._fields)
-"""
-    name: .XBTEURPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTEUR30M(Symbol):
@@ -34568,17 +27264,6 @@ class _BXBTEUR30M(Symbol):
 
 
 _BXBTEUR30M = _BXBTEUR30M(*_BXBTEUR30M._fields)
-"""
-    name: .BXBTEUR30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTT(Symbol):
@@ -34620,17 +27305,6 @@ class _BXBTT(Symbol):
 
 
 _BXBTT = _BXBTT(*_BXBTT._fields)
-"""
-    name: .BXBTT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTT_NEXT(Symbol):
@@ -34672,17 +27346,6 @@ class _BXBTT_NEXT(Symbol):
 
 
 _BXBTT_NEXT = _BXBTT_NEXT(*_BXBTT_NEXT._fields)
-"""
-    name: .BXBTT_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BXBTT30M(Symbol):
@@ -34724,17 +27387,6 @@ class _BXBTT30M(Symbol):
 
 
 _BXBTT30M = _BXBTT30M(*_BXBTT30M._fields)
-"""
-    name: .BXBTT30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTUSDTPI(Symbol):
@@ -34776,17 +27428,6 @@ class _XBTUSDTPI(Symbol):
 
 
 _XBTUSDTPI = _XBTUSDTPI(*_XBTUSDTPI._fields)
-"""
-    name: .XBTUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _XBTUSDTPI8H(Symbol):
@@ -34828,17 +27469,6 @@ class _XBTUSDTPI8H(Symbol):
 
 
 _XBTUSDTPI8H = _XBTUSDTPI8H(*_XBTUSDTPI8H._fields)
-"""
-    name: .XBTUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVOL(Symbol):
@@ -34880,17 +27510,6 @@ class _BVOL(Symbol):
 
 
 _BVOL = _BVOL(*_BVOL._fields)
-"""
-    name: .BVOL
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVOL24H(Symbol):
@@ -34932,17 +27551,6 @@ class _BVOL24H(Symbol):
 
 
 _BVOL24H = _BVOL24H(*_BVOL24H._fields)
-"""
-    name: .BVOL24H
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BVOL7D(Symbol):
@@ -34984,17 +27592,6 @@ class _BVOL7D(Symbol):
 
 
 _BVOL7D = _BVOL7D(*_BVOL7D._fields)
-"""
-    name: .BVOL7D
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHBON(Symbol):
@@ -35036,17 +27633,6 @@ class _ETHBON(Symbol):
 
 
 _ETHBON = _ETHBON(*_ETHBON._fields)
-"""
-    name: .ETHBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHBON8H(Symbol):
@@ -35088,17 +27674,6 @@ class _ETHBON8H(Symbol):
 
 
 _ETHBON8H = _ETHBON8H(*_ETHBON8H._fields)
-"""
-    name: .ETHBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSDPI(Symbol):
@@ -35140,17 +27715,6 @@ class _ETHUSDPI(Symbol):
 
 
 _ETHUSDPI = _ETHUSDPI(*_ETHUSDPI._fields)
-"""
-    name: .ETHUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSDPI8H(Symbol):
@@ -35192,17 +27756,6 @@ class _ETHUSDPI8H(Symbol):
 
 
 _ETHUSDPI8H = _ETHUSDPI8H(*_ETHUSDPI8H._fields)
-"""
-    name: .ETHUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETH(Symbol):
@@ -35244,17 +27797,6 @@ class _BETH(Symbol):
 
 
 _BETH = _BETH(*_BETH._fields)
-"""
-    name: .BETH
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETH30M(Symbol):
@@ -35296,17 +27838,6 @@ class _BETH30M(Symbol):
 
 
 _BETH30M = _BETH30M(*_BETH30M._fields)
-"""
-    name: .BETH30M
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHXBT(Symbol):
@@ -35348,17 +27879,6 @@ class _BETHXBT(Symbol):
 
 
 _BETHXBT = _BETHXBT(*_BETHXBT._fields)
-"""
-    name: .BETHXBT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHXBT30M(Symbol):
@@ -35400,17 +27920,6 @@ class _BETHXBT30M(Symbol):
 
 
 _BETHXBT30M = _BETHXBT30M(*_BETHXBT30M._fields)
-"""
-    name: .BETHXBT30M
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETH_NEXT(Symbol):
@@ -35452,17 +27961,6 @@ class _BETH_NEXT(Symbol):
 
 
 _BETH_NEXT = _BETH_NEXT(*_BETH_NEXT._fields)
-"""
-    name: .BETH_NEXT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHXBT_NEXT(Symbol):
@@ -35504,17 +28002,6 @@ class _BETHXBT_NEXT(Symbol):
 
 
 _BETHXBT_NEXT = _BETHXBT_NEXT(*_BETHXBT_NEXT._fields)
-"""
-    name: .BETHXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHT(Symbol):
@@ -35556,17 +28043,6 @@ class _BETHT(Symbol):
 
 
 _BETHT = _BETHT(*_BETHT._fields)
-"""
-    name: .BETHT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHT_NEXT(Symbol):
@@ -35608,17 +28084,6 @@ class _BETHT_NEXT(Symbol):
 
 
 _BETHT_NEXT = _BETHT_NEXT(*_BETHT_NEXT._fields)
-"""
-    name: .BETHT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETHT30M(Symbol):
@@ -35660,17 +28125,6 @@ class _BETHT30M(Symbol):
 
 
 _BETHT30M = _BETHT30M(*_BETHT30M._fields)
-"""
-    name: .BETHT30M
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSDTPI(Symbol):
@@ -35712,17 +28166,6 @@ class _ETHUSDTPI(Symbol):
 
 
 _ETHUSDTPI = _ETHUSDTPI(*_ETHUSDTPI._fields)
-"""
-    name: .ETHUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSDTPI8H(Symbol):
@@ -35764,17 +28207,6 @@ class _ETHUSDTPI8H(Symbol):
 
 
 _ETHUSDTPI8H = _ETHUSDTPI8H(*_ETHUSDTPI8H._fields)
-"""
-    name: .ETHUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSD_ETHPI(Symbol):
@@ -35816,17 +28248,6 @@ class _ETHUSD_ETHPI(Symbol):
 
 
 _ETHUSD_ETHPI = _ETHUSD_ETHPI(*_ETHUSD_ETHPI._fields)
-"""
-    name: .ETHUSD_ETHPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _ETHUSD_ETHPI8H(Symbol):
@@ -35868,17 +28289,6 @@ class _ETHUSD_ETHPI8H(Symbol):
 
 
 _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H(*_ETHUSD_ETHPI8H._fields)
-"""
-    name: .ETHUSD_ETHPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BETC(Symbol):
@@ -35920,17 +28330,6 @@ class _BETC(Symbol):
 
 
 _BETC = _BETC(*_BETC._fields)
-"""
-    name: .BETC
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCBON(Symbol):
@@ -35972,17 +28371,6 @@ class _LTCBON(Symbol):
 
 
 _LTCBON = _LTCBON(*_LTCBON._fields)
-"""
-    name: .LTCBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCBON8H(Symbol):
@@ -36024,17 +28412,6 @@ class _LTCBON8H(Symbol):
 
 
 _LTCBON8H = _LTCBON8H(*_LTCBON8H._fields)
-"""
-    name: .LTCBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTCXBT(Symbol):
@@ -36076,17 +28453,6 @@ class _BLTCXBT(Symbol):
 
 
 _BLTCXBT = _BLTCXBT(*_BLTCXBT._fields)
-"""
-    name: .BLTCXBT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTCXBT30M(Symbol):
@@ -36128,17 +28494,6 @@ class _BLTCXBT30M(Symbol):
 
 
 _BLTCXBT30M = _BLTCXBT30M(*_BLTCXBT30M._fields)
-"""
-    name: .BLTCXBT30M
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTCXBT_NEXT(Symbol):
@@ -36180,17 +28535,6 @@ class _BLTCXBT_NEXT(Symbol):
 
 
 _BLTCXBT_NEXT = _BLTCXBT_NEXT(*_BLTCXBT_NEXT._fields)
-"""
-    name: .BLTCXBT_NEXT
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTC(Symbol):
@@ -36232,17 +28576,6 @@ class _BLTC(Symbol):
 
 
 _BLTC = _BLTC(*_BLTC._fields)
-"""
-    name: .BLTC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCUSDPI(Symbol):
@@ -36284,17 +28617,6 @@ class _LTCUSDPI(Symbol):
 
 
 _LTCUSDPI = _LTCUSDPI(*_LTCUSDPI._fields)
-"""
-    name: .LTCUSDPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCUSDPI8H(Symbol):
@@ -36336,17 +28658,6 @@ class _LTCUSDPI8H(Symbol):
 
 
 _LTCUSDPI8H = _LTCUSDPI8H(*_LTCUSDPI8H._fields)
-"""
-    name: .LTCUSDPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTC_NEXT(Symbol):
@@ -36388,17 +28699,6 @@ class _BLTC_NEXT(Symbol):
 
 
 _BLTC_NEXT = _BLTC_NEXT(*_BLTC_NEXT._fields)
-"""
-    name: .BLTC_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTCT(Symbol):
@@ -36440,17 +28740,6 @@ class _BLTCT(Symbol):
 
 
 _BLTCT = _BLTCT(*_BLTCT._fields)
-"""
-    name: .BLTCT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _BLTCT_NEXT(Symbol):
@@ -36492,17 +28781,6 @@ class _BLTCT_NEXT(Symbol):
 
 
 _BLTCT_NEXT = _BLTCT_NEXT(*_BLTCT_NEXT._fields)
-"""
-    name: .BLTCT_NEXT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCUSDTPI(Symbol):
@@ -36544,17 +28822,6 @@ class _LTCUSDTPI(Symbol):
 
 
 _LTCUSDTPI = _LTCUSDTPI(*_LTCUSDTPI._fields)
-"""
-    name: .LTCUSDTPI
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _LTCUSDTPI8H(Symbol):
@@ -36596,17 +28863,6 @@ class _LTCUSDTPI8H(Symbol):
 
 
 _LTCUSDTPI8H = _LTCUSDTPI8H(*_LTCUSDTPI8H._fields)
-"""
-    name: .LTCUSDTPI8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDBON(Symbol):
@@ -36648,17 +28904,6 @@ class _USDBON(Symbol):
 
 
 _USDBON = _USDBON(*_USDBON._fields)
-"""
-    name: .USDBON
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class _USDBON8H(Symbol):
@@ -36700,17 +28945,6 @@ class _USDBON8H(Symbol):
 
 
 _USDBON8H = _USDBON8H(*_USDBON8H._fields)
-"""
-    name: .USDBON8H
-    significant_digits: None
-    tick_size: 1e-06
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
 
 
 class XBTUSD(Symbol):
@@ -36752,17 +28986,6 @@ class XBTUSD(Symbol):
 
 
 XBTUSD = XBTUSD(*XBTUSD._fields)
-"""
-    name: XBTUSD
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTUSDT(Symbol):
@@ -36804,17 +29027,6 @@ class XBTUSDT(Symbol):
 
 
 XBTUSDT = XBTUSDT(*XBTUSDT._fields)
-"""
-    name: XBTUSDT
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTEUR(Symbol):
@@ -36856,17 +29068,6 @@ class XBTEUR(Symbol):
 
 
 XBTEUR = XBTEUR(*XBTEUR._fields)
-"""
-    name: XBTEUR
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTK23(Symbol):
@@ -36908,17 +29109,6 @@ class XBTK23(Symbol):
 
 
 XBTK23 = XBTK23(*XBTK23._fields)
-"""
-    name: XBTK23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTM23(Symbol):
@@ -36960,17 +29150,6 @@ class XBTM23(Symbol):
 
 
 XBTM23 = XBTM23(*XBTM23._fields)
-"""
-    name: XBTM23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTUSDTM23(Symbol):
@@ -37012,17 +29191,6 @@ class XBTUSDTM23(Symbol):
 
 
 XBTUSDTM23 = XBTUSDTM23(*XBTUSDTM23._fields)
-"""
-    name: XBTUSDTM23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTU23(Symbol):
@@ -37064,17 +29232,6 @@ class XBTU23(Symbol):
 
 
 XBTU23 = XBTU23(*XBTU23._fields)
-"""
-    name: XBTU23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTUSDTU23(Symbol):
@@ -37116,17 +29273,6 @@ class XBTUSDTU23(Symbol):
 
 
 XBTUSDTU23 = XBTUSDTU23(*XBTUSDTU23._fields)
-"""
-    name: XBTUSDTU23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBTZ23(Symbol):
@@ -37168,17 +29314,6 @@ class XBTZ23(Symbol):
 
 
 XBTZ23 = XBTZ23(*XBTZ23._fields)
-"""
-    name: XBTZ23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class XBT_USDT(Symbol):
@@ -37220,17 +29355,6 @@ class XBT_USDT(Symbol):
 
 
 XBT_USDT = XBT_USDT(*XBT_USDT._fields)
-"""
-    name: XBT_USDT
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 10000
-    max_order_size: 100000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHUSD(Symbol):
@@ -37272,17 +29396,6 @@ class ETHUSD(Symbol):
 
 
 ETHUSD = ETHUSD(*ETHUSD._fields)
-"""
-    name: ETHUSD
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHUSDT(Symbol):
@@ -37324,17 +29437,6 @@ class ETHUSDT(Symbol):
 
 
 ETHUSDT = ETHUSDT(*ETHUSDT._fields)
-"""
-    name: ETHUSDT
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHUSD_ETH(Symbol):
@@ -37376,17 +29478,6 @@ class ETHUSD_ETH(Symbol):
 
 
 ETHUSD_ETH = ETHUSD_ETH(*ETHUSD_ETH._fields)
-"""
-    name: ETHUSD_ETH
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHM23(Symbol):
@@ -37428,17 +29519,6 @@ class ETHM23(Symbol):
 
 
 ETHM23 = ETHM23(*ETHM23._fields)
-"""
-    name: ETHM23
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHUSDM23(Symbol):
@@ -37480,17 +29560,6 @@ class ETHUSDM23(Symbol):
 
 
 ETHUSDM23 = ETHUSDM23(*ETHUSDM23._fields)
-"""
-    name: ETHUSDM23
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETHUSDTM23(Symbol):
@@ -37532,17 +29601,6 @@ class ETHUSDTM23(Symbol):
 
 
 ETHUSDTM23 = ETHUSDTM23(*ETHUSDTM23._fields)
-"""
-    name: ETHUSDTM23
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETH_USDT(Symbol):
@@ -37584,17 +29642,6 @@ class ETH_USDT(Symbol):
 
 
 ETH_USDT = ETH_USDT(*ETH_USDT._fields)
-"""
-    name: ETH_USDT
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class ETH_XBT(Symbol):
@@ -37636,17 +29683,6 @@ class ETH_XBT(Symbol):
 
 
 ETH_XBT = ETH_XBT(*ETH_XBT._fields)
-"""
-    name: ETH_XBT
-    significant_digits: None
-    tick_size: 1e-07
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 100000000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LTCUSD(Symbol):
@@ -37688,17 +29724,6 @@ class LTCUSD(Symbol):
 
 
 LTCUSD = LTCUSD(*LTCUSD._fields)
-"""
-    name: LTCUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
 
 
 class LTCUSDT(Symbol):
@@ -37740,14 +29765,738 @@ class LTCUSDT(Symbol):
 
 
 LTCUSDT = LTCUSDT(*LTCUSDT._fields)
-"""
-    name: LTCUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
+
+
+class Bitmex:
+
+    _EVOL7D: Symbol = _EVOL7D
+    _BADAXBT: Symbol = _BADAXBT
+    _BADAXBT30M: Symbol = _BADAXBT30M
+    _BBCHXBT: Symbol = _BBCHXBT
+    _BBCHXBT30M: Symbol = _BBCHXBT30M
+    _BEOSXBT: Symbol = _BEOSXBT
+    _BEOSXBT30M: Symbol = _BEOSXBT30M
+    _BXRPXBT: Symbol = _BXRPXBT
+    _BXRPXBT30M: Symbol = _BXRPXBT30M
+    _BTRXXBT: Symbol = _BTRXXBT
+    _BTRXXBT30M: Symbol = _BTRXXBT30M
+    _BADAXBT_NEXT: Symbol = _BADAXBT_NEXT
+    _BBCHXBT_NEXT: Symbol = _BBCHXBT_NEXT
+    _BEOSXBT_NEXT: Symbol = _BEOSXBT_NEXT
+    _BTRXXBT_NEXT: Symbol = _BTRXXBT_NEXT
+    _BXRPXBT_NEXT: Symbol = _BXRPXBT_NEXT
+    _BXRP_NEXT: Symbol = _BXRP_NEXT
+    _BXRP: Symbol = _BXRP
+    _XRPBON: Symbol = _XRPBON
+    _XRPBON8H: Symbol = _XRPBON8H
+    _XRPUSDPI: Symbol = _XRPUSDPI
+    _XRPUSDPI8H: Symbol = _XRPUSDPI8H
+    _BBCH: Symbol = _BBCH
+    _BCHBON: Symbol = _BCHBON
+    _BCHBON8H: Symbol = _BCHBON8H
+    _BCHUSDPI: Symbol = _BCHUSDPI
+    _BCHUSDPI8H: Symbol = _BCHUSDPI8H
+    _BBCH_NEXT: Symbol = _BBCH_NEXT
+    _BUSDT: Symbol = _BUSDT
+    _BUSDT_NEXT: Symbol = _BUSDT_NEXT
+    _BEOST: Symbol = _BEOST
+    _BEOST_NEXT: Symbol = _BEOST_NEXT
+    _BEOST30M: Symbol = _BEOST30M
+    _BLINKT: Symbol = _BLINKT
+    _BLINKT_NEXT: Symbol = _BLINKT_NEXT
+    _BLINKT30M: Symbol = _BLINKT30M
+    _BADAT: Symbol = _BADAT
+    _BADAT_NEXT: Symbol = _BADAT_NEXT
+    _BADAT30M: Symbol = _BADAT30M
+    _BXTZT: Symbol = _BXTZT
+    _BXTZT_NEXT: Symbol = _BXTZT_NEXT
+    _BXTZT30M: Symbol = _BXTZT30M
+    _LINKBON: Symbol = _LINKBON
+    _LINKBON8H: Symbol = _LINKBON8H
+    _LINKUSDTPI: Symbol = _LINKUSDTPI
+    _LINKUSDTPI8H: Symbol = _LINKUSDTPI8H
+    _USDTBON: Symbol = _USDTBON
+    _USDTBON8H: Symbol = _USDTBON8H
+    _BBNBT: Symbol = _BBNBT
+    _BBNBT_NEXT: Symbol = _BBNBT_NEXT
+    _BBNBT30M: Symbol = _BBNBT30M
+    _BDOTT: Symbol = _BDOTT
+    _BDOTT_NEXT: Symbol = _BDOTT_NEXT
+    _BDOTT30M: Symbol = _BDOTT30M
+    _BYFIT: Symbol = _BYFIT
+    _BYFIT_NEXT: Symbol = _BYFIT_NEXT
+    _BYFIT30M: Symbol = _BYFIT30M
+    _BDOGET: Symbol = _BDOGET
+    _BDOGET_NEXT: Symbol = _BDOGET_NEXT
+    _DOGEBON: Symbol = _DOGEBON
+    _DOGEBON8H: Symbol = _DOGEBON8H
+    _DOGEUSDTPI: Symbol = _DOGEUSDTPI
+    _DOGEUSDTPI8H: Symbol = _DOGEUSDTPI8H
+    _BNBBON: Symbol = _BNBBON
+    _BNBBON8H: Symbol = _BNBBON8H
+    _BNBUSDTPI: Symbol = _BNBUSDTPI
+    _BNBUSDTPI8H: Symbol = _BNBUSDTPI8H
+    _ADABON: Symbol = _ADABON
+    _ADABON8H: Symbol = _ADABON8H
+    _ADAUSDTPI: Symbol = _ADAUSDTPI
+    _ADAUSDTPI8H: Symbol = _ADAUSDTPI8H
+    _DOTBON: Symbol = _DOTBON
+    _DOTBON8H: Symbol = _DOTBON8H
+    _DOTUSDTPI: Symbol = _DOTUSDTPI
+    _DOTUSDTPI8H: Symbol = _DOTUSDTPI8H
+    _EOSBON: Symbol = _EOSBON
+    _EOSBON8H: Symbol = _EOSBON8H
+    _EOSUSDTPI: Symbol = _EOSUSDTPI
+    _EOSUSDTPI8H: Symbol = _EOSUSDTPI8H
+    _XTZBON: Symbol = _XTZBON
+    _XTZBON8H: Symbol = _XTZBON8H
+    _XTZUSDTPI: Symbol = _XTZUSDTPI
+    _YFIBON: Symbol = _YFIBON
+    _YFIBON8H: Symbol = _YFIBON8H
+    _YFIUSDTPI: Symbol = _YFIUSDTPI
+    _BAAVET: Symbol = _BAAVET
+    _BAAVET_NEXT: Symbol = _BAAVET_NEXT
+    _AAVEBON: Symbol = _AAVEBON
+    _AAVEBON8H: Symbol = _AAVEBON8H
+    _AAVEUSDTPI: Symbol = _AAVEUSDTPI
+    _AAVEUSDTPI8H: Symbol = _AAVEUSDTPI8H
+    _BUNIT: Symbol = _BUNIT
+    _BUNIT_NEXT: Symbol = _BUNIT_NEXT
+    _UNIBON: Symbol = _UNIBON
+    _UNIBON8H: Symbol = _UNIBON8H
+    _UNIUSDTPI: Symbol = _UNIUSDTPI
+    _UNIUSDTPI8H: Symbol = _UNIUSDTPI8H
+    _BXLMT: Symbol = _BXLMT
+    _BXLMT_NEXT: Symbol = _BXLMT_NEXT
+    _XLMBON: Symbol = _XLMBON
+    _XLMBON8H: Symbol = _XLMBON8H
+    _XLMUSDTPI: Symbol = _XLMUSDTPI
+    _XLMUSDTPI8H: Symbol = _XLMUSDTPI8H
+    _BTRXT: Symbol = _BTRXT
+    _BTRXT_NEXT: Symbol = _BTRXT_NEXT
+    _TRXBON: Symbol = _TRXBON
+    _TRXBON8H: Symbol = _TRXBON8H
+    _TRXUSDTPI: Symbol = _TRXUSDTPI
+    _TRXUSDTPI8H: Symbol = _TRXUSDTPI8H
+    _BTRXT30M: Symbol = _BTRXT30M
+    _BSOLT: Symbol = _BSOLT
+    _BSOLT_NEXT: Symbol = _BSOLT_NEXT
+    _SOLBON: Symbol = _SOLBON
+    _SOLBON8H: Symbol = _SOLBON8H
+    _SOLUSDTPI: Symbol = _SOLUSDTPI
+    _SOLUSDTPI8H: Symbol = _SOLUSDTPI8H
+    _BFILT: Symbol = _BFILT
+    _BFILT_NEXT: Symbol = _BFILT_NEXT
+    _FILBON: Symbol = _FILBON
+    _FILBON8H: Symbol = _FILBON8H
+    _FILUSDTPI: Symbol = _FILUSDTPI
+    _FILUSDTPI8H: Symbol = _FILUSDTPI8H
+    _EURBON: Symbol = _EURBON
+    _EURBON8H: Symbol = _EURBON8H
+    _BVETT: Symbol = _BVETT
+    _BVETT_NEXT: Symbol = _BVETT_NEXT
+    _VETBON: Symbol = _VETBON
+    _VETBON8H: Symbol = _VETBON8H
+    _VETUSDTPI: Symbol = _VETUSDTPI
+    _VETUSDTPI8H: Symbol = _VETUSDTPI8H
+    _BMATICT: Symbol = _BMATICT
+    _BMATICT_NEXT: Symbol = _BMATICT_NEXT
+    _MATICBON: Symbol = _MATICBON
+    _MATICBON8H: Symbol = _MATICBON8H
+    _MATICUSDTPI: Symbol = _MATICUSDTPI
+    _MATICUSDTPI8H: Symbol = _MATICUSDTPI8H
+    _BMKRT: Symbol = _BMKRT
+    _BMKRT_NEXT: Symbol = _BMKRT_NEXT
+    _BAVAXT: Symbol = _BAVAXT
+    _BAVAXT_NEXT: Symbol = _BAVAXT_NEXT
+    _BLUNAT: Symbol = _BLUNAT
+    _BLUNAT_NEXT: Symbol = _BLUNAT_NEXT
+    _BCOMPT: Symbol = _BCOMPT
+    _BCOMPT_NEXT: Symbol = _BCOMPT_NEXT
+    _BSUSHIT: Symbol = _BSUSHIT
+    _BSUSHIT_NEXT: Symbol = _BSUSHIT_NEXT
+    _BGRTT: Symbol = _BGRTT
+    _BGRTT_NEXT: Symbol = _BGRTT_NEXT
+    _BALTMEX: Symbol = _BALTMEX
+    _BDEFIMEX: Symbol = _BDEFIMEX
+    _ALTMEXBON: Symbol = _ALTMEXBON
+    _ALTMEXBON8H: Symbol = _ALTMEXBON8H
+    _ALTMEXUSDPI: Symbol = _ALTMEXUSDPI
+    _ALTMEXUSDPI8H: Symbol = _ALTMEXUSDPI8H
+    _DEFIMEXBON: Symbol = _DEFIMEXBON
+    _DEFIMEXBON8H: Symbol = _DEFIMEXBON8H
+    _DEFIMEXUSDPI: Symbol = _DEFIMEXUSDPI
+    _DEFIMEXUSDPI8H: Symbol = _DEFIMEXUSDPI8H
+    _SUSHIBON: Symbol = _SUSHIBON
+    _SUSHIBON8H: Symbol = _SUSHIBON8H
+    _SUSHIUSDTPI: Symbol = _SUSHIUSDTPI
+    _SUSHIUSDTPI8H: Symbol = _SUSHIUSDTPI8H
+    _BAXST: Symbol = _BAXST
+    _BAXST_NEXT: Symbol = _BAXST_NEXT
+    _AXSBON: Symbol = _AXSBON
+    _AXSBON8H: Symbol = _AXSBON8H
+    _AXSUSDTPI: Symbol = _AXSUSDTPI
+    _AXSUSDTPI8H: Symbol = _AXSUSDTPI8H
+    _BSRMT: Symbol = _BSRMT
+    _BSRMT_NEXT: Symbol = _BSRMT_NEXT
+    _SRMBON: Symbol = _SRMBON
+    _SRMBON8H: Symbol = _SRMBON8H
+    _SRMUSDTPI: Symbol = _SRMUSDTPI
+    _SRMUSDTPI8H: Symbol = _SRMUSDTPI8H
+    _BLUNA: Symbol = _BLUNA
+    _BLUNA_NEXT: Symbol = _BLUNA_NEXT
+    _LUNABON: Symbol = _LUNABON
+    _LUNABON8H: Symbol = _LUNABON8H
+    _LUNAUSDPI: Symbol = _LUNAUSDPI
+    _LUNAUSDPI8H: Symbol = _LUNAUSDPI8H
+    _AVAXBON: Symbol = _AVAXBON
+    _AVAXBON8H: Symbol = _AVAXBON8H
+    _BAVAX: Symbol = _BAVAX
+    _BAVAX_NEXT: Symbol = _BAVAX_NEXT
+    _AVAXUSDPI: Symbol = _AVAXUSDPI
+    _AVAXUSDPI8H: Symbol = _AVAXUSDPI8H
+    _BADA: Symbol = _BADA
+    _BADA_NEXT: Symbol = _BADA_NEXT
+    _ADAUSDPI: Symbol = _ADAUSDPI
+    _ADAUSDPI8H: Symbol = _ADAUSDPI8H
+    _BDOGE: Symbol = _BDOGE
+    _BDOGE_NEXT: Symbol = _BDOGE_NEXT
+    _DOGEUSDPI: Symbol = _DOGEUSDPI
+    _DOGEUSDPI8H: Symbol = _DOGEUSDPI8H
+    _BBNB: Symbol = _BBNB
+    _BBNB_NEXT: Symbol = _BBNB_NEXT
+    _BNBUSDPI: Symbol = _BNBUSDPI
+    _BNBUSDPI8H: Symbol = _BNBUSDPI8H
+    _BDOT: Symbol = _BDOT
+    _BDOT_NEXT: Symbol = _BDOT_NEXT
+    _DOTUSDPI: Symbol = _DOTUSDPI
+    _DOTUSDPI8H: Symbol = _DOTUSDPI8H
+    _BDOGET30M: Symbol = _BDOGET30M
+    _BFILT30M: Symbol = _BFILT30M
+    _BUNIT30M: Symbol = _BUNIT30M
+    _BXLMT30M: Symbol = _BXLMT30M
+    _BAXS: Symbol = _BAXS
+    _BAXS_NEXT: Symbol = _BAXS_NEXT
+    _AXSUSDPI: Symbol = _AXSUSDPI
+    _AXSUSDPI8H: Symbol = _AXSUSDPI8H
+    _BEOS: Symbol = _BEOS
+    _BEOS_NEXT: Symbol = _BEOS_NEXT
+    _EOSUSDPI: Symbol = _EOSUSDPI
+    _EOSUSDPI8H: Symbol = _EOSUSDPI8H
+    _BLINK: Symbol = _BLINK
+    _BLINK_NEXT: Symbol = _BLINK_NEXT
+    _LINKUSDPI: Symbol = _LINKUSDPI
+    _LINKUSDPI8H: Symbol = _LINKUSDPI8H
+    _BSOL: Symbol = _BSOL
+    _BSOL_NEXT: Symbol = _BSOL_NEXT
+    _SOLUSDPI: Symbol = _SOLUSDPI
+    _SOLUSDPI8H: Symbol = _SOLUSDPI8H
+    _BAXST30M: Symbol = _BAXST30M
+    _BSOLT30M: Symbol = _BSOLT30M
+    _BVETT30M: Symbol = _BVETT30M
+    _BMATICT30M: Symbol = _BMATICT30M
+    _BAAVET30M: Symbol = _BAAVET30M
+    _BSUSHIT30M: Symbol = _BSUSHIT30M
+    _BSRMT30M: Symbol = _BSRMT30M
+    _BXRPT: Symbol = _BXRPT
+    _BXRPT_NEXT: Symbol = _BXRPT_NEXT
+    _BBCHT: Symbol = _BBCHT
+    _BBCHT_NEXT: Symbol = _BBCHT_NEXT
+    _XRPUSDTPI: Symbol = _XRPUSDTPI
+    _XRPUSDTPI8H: Symbol = _XRPUSDTPI8H
+    _BCHUSDTPI: Symbol = _BCHUSDTPI
+    _BCHUSDTPI8H: Symbol = _BCHUSDTPI8H
+    _BDEFIMEX30M: Symbol = _BDEFIMEX30M
+    _BALTMEX30M: Symbol = _BALTMEX30M
+    _BFTMT: Symbol = _BFTMT
+    _BFTMT_NEXT: Symbol = _BFTMT_NEXT
+    _FTMBON: Symbol = _FTMBON
+    _FTMBON8H: Symbol = _FTMBON8H
+    _FTMUSDTPI: Symbol = _FTMUSDTPI
+    _FTMUSDTPI8H: Symbol = _FTMUSDTPI8H
+    _BSHIBT: Symbol = _BSHIBT
+    _BSHIBT_NEXT: Symbol = _BSHIBT_NEXT
+    _SHIBBON: Symbol = _SHIBBON
+    _SHIBBON8H: Symbol = _SHIBBON8H
+    _SHIBUSDTPI: Symbol = _SHIBUSDTPI
+    _SHIBUSDTPI8H: Symbol = _SHIBUSDTPI8H
+    _BLRCT: Symbol = _BLRCT
+    _BLRCT_NEXT: Symbol = _BLRCT_NEXT
+    _BMANAT: Symbol = _BMANAT
+    _BMANAT_NEXT: Symbol = _BMANAT_NEXT
+    _MANABON: Symbol = _MANABON
+    _MANABON8H: Symbol = _MANABON8H
+    _MANAUSDTPI: Symbol = _MANAUSDTPI
+    _MANAUSDTPI8H: Symbol = _MANAUSDTPI8H
+    _BSANDT: Symbol = _BSANDT
+    _BSANDT_NEXT: Symbol = _BSANDT_NEXT
+    _SANDBON: Symbol = _SANDBON
+    _SANDBON8H: Symbol = _SANDBON8H
+    _SANDUSDTPI: Symbol = _SANDUSDTPI
+    _SANDUSDTPI8H: Symbol = _SANDUSDTPI8H
+    _BTHETAT: Symbol = _BTHETAT
+    _BTHETAT_NEXT: Symbol = _BTHETAT_NEXT
+    _BENJT: Symbol = _BENJT
+    _BENJT_NEXT: Symbol = _BENJT_NEXT
+    _BDEFIMEXT: Symbol = _BDEFIMEXT
+    _DEFIMEXTBON: Symbol = _DEFIMEXTBON
+    _DEFIMEXTBON8H: Symbol = _DEFIMEXTBON8H
+    _DEFIMEXTUSDTPI: Symbol = _DEFIMEXTUSDTPI
+    _DEFIMEXTUSDTPI8H: Symbol = _DEFIMEXTUSDTPI8H
+    _BALTMEXT: Symbol = _BALTMEXT
+    _ALTMEXTBON: Symbol = _ALTMEXTBON
+    _ALTMEXTBON8H: Symbol = _ALTMEXTBON8H
+    _ALTMEXTUSDTPI: Symbol = _ALTMEXTUSDTPI
+    _ALTMEXTUSDTPI8H: Symbol = _ALTMEXTUSDTPI8H
+    _BMETAMEXT: Symbol = _BMETAMEXT
+    _METAMEXTBON: Symbol = _METAMEXTBON
+    _METAMEXTBON8H: Symbol = _METAMEXTBON8H
+    _METAMEXTUSDTPI: Symbol = _METAMEXTUSDTPI
+    _METAMEXTUSDTPI8H: Symbol = _METAMEXTUSDTPI8H
+    _AVAXUSDTPI: Symbol = _AVAXUSDTPI
+    _AVAXUSDTPI8H: Symbol = _AVAXUSDTPI8H
+    _LUNAUSDTPI: Symbol = _LUNAUSDTPI
+    _LUNAUSDTPI8H: Symbol = _LUNAUSDTPI8H
+    _BAPET: Symbol = _BAPET
+    _BAPET_NEXT: Symbol = _BAPET_NEXT
+    _APEBON: Symbol = _APEBON
+    _APEBON8H: Symbol = _APEBON8H
+    _APEUSDTPI: Symbol = _APEUSDTPI
+    _APEUSDTPI8H: Symbol = _APEUSDTPI8H
+    _GMTBON: Symbol = _GMTBON
+    _GMTBON8H: Symbol = _GMTBON8H
+    _GMTUSDTPI: Symbol = _GMTUSDTPI
+    _GMTUSDTPI8H: Symbol = _GMTUSDTPI8H
+    _GMTUSDPI: Symbol = _GMTUSDPI
+    _GMTUSDPI8H: Symbol = _GMTUSDPI8H
+    _BGMT: Symbol = _BGMT
+    _BGMT_NEXT: Symbol = _BGMT_NEXT
+    _BGMTT: Symbol = _BGMTT
+    _BGMTT_NEXT: Symbol = _BGMTT_NEXT
+    _NEARBON: Symbol = _NEARBON
+    _NEARBON8H: Symbol = _NEARBON8H
+    _NEARUSDTPI: Symbol = _NEARUSDTPI
+    _NEARUSDTPI8H: Symbol = _NEARUSDTPI8H
+    _NEARUSDPI: Symbol = _NEARUSDPI
+    _NEARUSDPI8H: Symbol = _NEARUSDPI8H
+    _BNEAR: Symbol = _BNEAR
+    _BNEAR_NEXT: Symbol = _BNEAR_NEXT
+    _BNEART: Symbol = _BNEART
+    _BNEART_NEXT: Symbol = _BNEART_NEXT
+    _BLUNA30M: Symbol = _BLUNA30M
+    _BLUNAT30M: Symbol = _BLUNAT30M
+    _BAPE: Symbol = _BAPE
+    _BAPE_NEXT: Symbol = _BAPE_NEXT
+    _BTRX: Symbol = _BTRX
+    _BTRX_NEXT: Symbol = _BTRX_NEXT
+    _BGAL: Symbol = _BGAL
+    _BGAL_NEXT: Symbol = _BGAL_NEXT
+    _BGALT: Symbol = _BGALT
+    _BGALT_NEXT: Symbol = _BGALT_NEXT
+    _GALBON: Symbol = _GALBON
+    _GALBON8H: Symbol = _GALBON8H
+    _APEUSDPI: Symbol = _APEUSDPI
+    _APEUSDPI8H: Symbol = _APEUSDPI8H
+    _TRXUSDPI: Symbol = _TRXUSDPI
+    _TRXUSDPI8H: Symbol = _TRXUSDPI8H
+    _GALUSDTPI: Symbol = _GALUSDTPI
+    _GALUSDTPI8H: Symbol = _GALUSDTPI8H
+    _GALUSDPI: Symbol = _GALUSDPI
+    _GALUSDPI8H: Symbol = _GALUSDPI8H
+    _BLUNC: Symbol = _BLUNC
+    _BLUNC_NEXT: Symbol = _BLUNC_NEXT
+    _BLUNCT: Symbol = _BLUNCT
+    _BLUNCT_NEXT: Symbol = _BLUNCT_NEXT
+    _BDFI: Symbol = _BDFI
+    _BDFIT: Symbol = _BDFIT
+    _BGRT: Symbol = _BGRT
+    _EURUSDPI: Symbol = _EURUSDPI
+    _USDCHFPI: Symbol = _USDCHFPI
+    _EURCHFPI: Symbol = _EURCHFPI
+    _EURTRYPI: Symbol = _EURTRYPI
+    _USDTRYPI: Symbol = _USDTRYPI
+    _USDINRPI: Symbol = _USDINRPI
+    _USDZARPI: Symbol = _USDZARPI
+    _USDBRLPI: Symbol = _USDBRLPI
+    _USDMXNPI: Symbol = _USDMXNPI
+    _NZDUSDPI: Symbol = _NZDUSDPI
+    _USDCNHPI: Symbol = _USDCNHPI
+    _USDSEKPI: Symbol = _USDSEKPI
+    _EURUSDPI8H: Symbol = _EURUSDPI8H
+    _USDCHFPI8H: Symbol = _USDCHFPI8H
+    _EURCHFPI8H: Symbol = _EURCHFPI8H
+    _EURTRYPI8H: Symbol = _EURTRYPI8H
+    _USDTRYPI8H: Symbol = _USDTRYPI8H
+    _USDINRPI8H: Symbol = _USDINRPI8H
+    _USDZARPI8H: Symbol = _USDZARPI8H
+    _USDBRLPI8H: Symbol = _USDBRLPI8H
+    _USDMXNPI8H: Symbol = _USDMXNPI8H
+    _NZDUSDPI8H: Symbol = _NZDUSDPI8H
+    _USDCNHPI8H: Symbol = _USDCNHPI8H
+    _USDSEKPI8H: Symbol = _USDSEKPI8H
+    _EURUSDTPI: Symbol = _EURUSDTPI
+    _USDTCHFPI: Symbol = _USDTCHFPI
+    _USDTTRYPI: Symbol = _USDTTRYPI
+    _USDTINRPI: Symbol = _USDTINRPI
+    _USDTZARPI: Symbol = _USDTZARPI
+    _USDTBRLPI: Symbol = _USDTBRLPI
+    _USDTMXNPI: Symbol = _USDTMXNPI
+    _NZDUSDTPI: Symbol = _NZDUSDTPI
+    _USDTCNHPI: Symbol = _USDTCNHPI
+    _USDTSEKPI: Symbol = _USDTSEKPI
+    _EURUSDTPI8H: Symbol = _EURUSDTPI8H
+    _USDTCHFPI8H: Symbol = _USDTCHFPI8H
+    _USDTTRYPI8H: Symbol = _USDTTRYPI8H
+    _USDTINRPI8H: Symbol = _USDTINRPI8H
+    _USDTZARPI8H: Symbol = _USDTZARPI8H
+    _USDTBRLPI8H: Symbol = _USDTBRLPI8H
+    _USDTMXNPI8H: Symbol = _USDTMXNPI8H
+    _NZDUSDTPI8H: Symbol = _NZDUSDTPI8H
+    _USDTCNHPI8H: Symbol = _USDTCNHPI8H
+    _USDTSEKPI8H: Symbol = _USDTSEKPI8H
+    _CHFBON: Symbol = _CHFBON
+    _TRYBON: Symbol = _TRYBON
+    _INRBON: Symbol = _INRBON
+    _ZARBON: Symbol = _ZARBON
+    _BRLBON: Symbol = _BRLBON
+    _MXNBON: Symbol = _MXNBON
+    _NZDBON: Symbol = _NZDBON
+    _CNHBON: Symbol = _CNHBON
+    _SEKBON: Symbol = _SEKBON
+    _CHFBON8H: Symbol = _CHFBON8H
+    _TRYBON8H: Symbol = _TRYBON8H
+    _INRBON8H: Symbol = _INRBON8H
+    _ZARBON8H: Symbol = _ZARBON8H
+    _BRLBON8H: Symbol = _BRLBON8H
+    _MXNBON8H: Symbol = _MXNBON8H
+    _NZDBON8H: Symbol = _NZDBON8H
+    _CNHBON8H: Symbol = _CNHBON8H
+    _SEKBON8H: Symbol = _SEKBON8H
+    _BOP: Symbol = _BOP
+    _BOP_NEXT: Symbol = _BOP_NEXT
+    _BOPT: Symbol = _BOPT
+    _BOPT_NEXT: Symbol = _BOPT_NEXT
+    _OPBON: Symbol = _OPBON
+    _OPBON8H: Symbol = _OPBON8H
+    _OPUSDTPI: Symbol = _OPUSDTPI
+    _OPUSDTPI8H: Symbol = _OPUSDTPI8H
+    _OPUSDPI: Symbol = _OPUSDPI
+    _OPUSDPI8H: Symbol = _OPUSDPI8H
+    _BUSDC: Symbol = _BUSDC
+    _BUSDCT: Symbol = _BUSDCT
+    _BETHPOWT: Symbol = _BETHPOWT
+    _BETHPOWT_NEXT: Symbol = _BETHPOWT_NEXT
+    _BETHPOWT30M: Symbol = _BETHPOWT30M
+    _BALTMEXT30M: Symbol = _BALTMEXT30M
+    _BDEFIMEXT30M: Symbol = _BDEFIMEXT30M
+    _BMETAMEXT30M: Symbol = _BMETAMEXT30M
+    _BUSDC_NEXT: Symbol = _BUSDC_NEXT
+    _BUSDCT_NEXT: Symbol = _BUSDCT_NEXT
+    _BKLAY: Symbol = _BKLAY
+    _BKLAY_NEXT: Symbol = _BKLAY_NEXT
+    _BKLAYT: Symbol = _BKLAYT
+    _BKLAYT_NEXT: Symbol = _BKLAYT_NEXT
+    _KLAYUSDTPI: Symbol = _KLAYUSDTPI
+    _KLAYUSDTPI8H: Symbol = _KLAYUSDTPI8H
+    _KLAYUSDPI: Symbol = _KLAYUSDPI
+    _KLAYUSDPI8H: Symbol = _KLAYUSDPI8H
+    _KLAYBON: Symbol = _KLAYBON
+    _KLAYBON8H: Symbol = _KLAYBON8H
+    _BSTETH: Symbol = _BSTETH
+    _BSTETHT: Symbol = _BSTETHT
+    _BDAI: Symbol = _BDAI
+    _BDAIT: Symbol = _BDAIT
+    _BBUSD: Symbol = _BBUSD
+    _BBUSDT: Symbol = _BBUSDT
+    _BWBTC: Symbol = _BWBTC
+    _BWBTCT: Symbol = _BWBTCT
+    _BCRO: Symbol = _BCRO
+    _BCROT: Symbol = _BCROT
+    _BQNT: Symbol = _BQNT
+    _BQNTT: Symbol = _BQNTT
+    _BOKB: Symbol = _BOKB
+    _BOKBT: Symbol = _BOKBT
+    _BLEO: Symbol = _BLEO
+    _BLEOT: Symbol = _BLEOT
+    _BAAVE: Symbol = _BAAVE
+    _BMANA: Symbol = _BMANA
+    _BXLM: Symbol = _BXLM
+    _BVET: Symbol = _BVET
+    _BFIL: Symbol = _BFIL
+    _BXTZ: Symbol = _BXTZ
+    _BMKR: Symbol = _BMKR
+    _BFLOW: Symbol = _BFLOW
+    _BFLOWT: Symbol = _BFLOWT
+    _BHBAR: Symbol = _BHBAR
+    _BHBART: Symbol = _BHBART
+    _BEGLD: Symbol = _BEGLD
+    _BEGLDT: Symbol = _BEGLDT
+    _BTUSD: Symbol = _BTUSD
+    _BTUSDT: Symbol = _BTUSDT
+    _BUSDP: Symbol = _BUSDP
+    _BHNT: Symbol = _BHNT
+    _BHNTT: Symbol = _BHNTT
+    _BIOTA: Symbol = _BIOTA
+    _BIOTAT: Symbol = _BIOTAT
+    _BXEC: Symbol = _BXEC
+    _BXECT: Symbol = _BXECT
+    _BFTTT: Symbol = _BFTTT
+    _BSANDT30M: Symbol = _BSANDT30M
+    _BNEART30M: Symbol = _BNEART30M
+    _BMANAT30M: Symbol = _BMANAT30M
+    _BSHIBT30M: Symbol = _BSHIBT30M
+    _BOPT30M: Symbol = _BOPT30M
+    _BGALT30M: Symbol = _BGALT30M
+    _BGAL30M: Symbol = _BGAL30M
+    _BTRX30M: Symbol = _BTRX30M
+    _BOP30M: Symbol = _BOP30M
+    _BAPE30M: Symbol = _BAPE30M
+    _BFTMT30M: Symbol = _BFTMT30M
+    _BAPT: Symbol = _BAPT
+    _BAPT_NEXT: Symbol = _BAPT_NEXT
+    _BAPT30M: Symbol = _BAPT30M
+    _BAPTT: Symbol = _BAPTT
+    _BAPTT_NEXT: Symbol = _BAPTT_NEXT
+    _BAPTT30M: Symbol = _BAPTT30M
+    _APTBON: Symbol = _APTBON
+    _APTBON8H: Symbol = _APTBON8H
+    _APTUSDTPI: Symbol = _APTUSDTPI
+    _APTUSDTPI8H: Symbol = _APTUSDTPI8H
+    _APTUSDPI: Symbol = _APTUSDPI
+    _APTUSDPI8H: Symbol = _APTUSDPI8H
+    _BFTT: Symbol = _BFTT
+    _BFTT_NEXT: Symbol = _BFTT_NEXT
+    _BFTTT_NEXT: Symbol = _BFTTT_NEXT
+    _FTTBON: Symbol = _FTTBON
+    _FTTBON8H: Symbol = _FTTBON8H
+    _FTTUSDTPI: Symbol = _FTTUSDTPI
+    _FTTUSDTPI8H: Symbol = _FTTUSDTPI8H
+    _FTTUSDPI: Symbol = _FTTUSDPI
+    _FTTUSDPI8H: Symbol = _FTTUSDPI8H
+    _BMEXBON: Symbol = _BMEXBON
+    _BMEXBON8H: Symbol = _BMEXBON8H
+    _BMEXUSDTPI: Symbol = _BMEXUSDTPI
+    _BMEXUSDTPI8H: Symbol = _BMEXUSDTPI8H
+    _BMEXUSDPI: Symbol = _BMEXUSDPI
+    _BMEXUSDPI8H: Symbol = _BMEXUSDPI8H
+    _BBMEXT: Symbol = _BBMEXT
+    _BBMEXT_NEXT: Symbol = _BBMEXT_NEXT
+    _BBMEX: Symbol = _BBMEX
+    _BBMEX_NEXT: Symbol = _BBMEX_NEXT
+    _CROBON: Symbol = _CROBON
+    _CROBON8H: Symbol = _CROBON8H
+    _CROUSDTPI: Symbol = _CROUSDTPI
+    _CROUSDTPI8H: Symbol = _CROUSDTPI8H
+    _CROUSDPI: Symbol = _CROUSDPI
+    _CROUSDPI8H: Symbol = _CROUSDPI8H
+    _BFTT30M: Symbol = _BFTT30M
+    _BFTTT30M: Symbol = _BFTTT30M
+    _BETHYLD: Symbol = _BETHYLD
+    _BFLRT: Symbol = _BFLRT
+    _BFLRT_NEXT: Symbol = _BFLRT_NEXT
+    _BFLRT30M: Symbol = _BFLRT30M
+    _FLRBON: Symbol = _FLRBON
+    _FLRBON8H: Symbol = _FLRBON8H
+    _FLRUSDTPI: Symbol = _FLRUSDTPI
+    _FLRUSDTPI8H: Symbol = _FLRUSDTPI8H
+    _FLRUSDPI: Symbol = _FLRUSDPI
+    _FLRUSDPI8H: Symbol = _FLRUSDPI8H
+    _BFLR: Symbol = _BFLR
+    _BFLR_NEXT: Symbol = _BFLR_NEXT
+    _BLURBON: Symbol = _BLURBON
+    _BLURBON8H: Symbol = _BLURBON8H
+    _BLURUSDTPI: Symbol = _BLURUSDTPI
+    _BLURUSDTPI8H: Symbol = _BLURUSDTPI8H
+    _BLURUSDPI: Symbol = _BLURUSDPI
+    _BLURUSDPI8H: Symbol = _BLURUSDPI8H
+    _BBLUR: Symbol = _BBLUR
+    _BBLUR_NEXT: Symbol = _BBLUR_NEXT
+    _BBLURT: Symbol = _BBLURT
+    _BBLURT_NEXT: Symbol = _BBLURT_NEXT
+    _BGMXT: Symbol = _BGMXT
+    _BGMXT_NEXT: Symbol = _BGMXT_NEXT
+    _BGMX: Symbol = _BGMX
+    _BGMX_NEXT: Symbol = _BGMX_NEXT
+    _GMXBON: Symbol = _GMXBON
+    _GMXBON8H: Symbol = _GMXBON8H
+    _GMXUSDTPI: Symbol = _GMXUSDTPI
+    _GMXUSDTPI8H: Symbol = _GMXUSDTPI8H
+    _GMXUSDPI: Symbol = _GMXUSDPI
+    _GMXUSDPI8H: Symbol = _GMXUSDPI8H
+    _USDCBON: Symbol = _USDCBON
+    _USDCBON8H: Symbol = _USDCBON8H
+    _USDTUSDCPI: Symbol = _USDTUSDCPI
+    _USDTUSDCPI8H: Symbol = _USDTUSDCPI8H
+    _BUSDTUSDC: Symbol = _BUSDTUSDC
+    _BARBT: Symbol = _BARBT
+    _BARBT_NEXT: Symbol = _BARBT_NEXT
+    _BARBT30M: Symbol = _BARBT30M
+    _BARB: Symbol = _BARB
+    _BARB_NEXT: Symbol = _BARB_NEXT
+    _ARBBON: Symbol = _ARBBON
+    _ARBBON8H: Symbol = _ARBBON8H
+    _ARBUSDTPI: Symbol = _ARBUSDTPI
+    _ARBUSDTPI8H: Symbol = _ARBUSDTPI8H
+    _ARBUSDPI: Symbol = _ARBUSDPI
+    _ARBUSDPI8H: Symbol = _ARBUSDPI8H
+    _BPEPET: Symbol = _BPEPET
+    _BPEPET_NEXT: Symbol = _BPEPET_NEXT
+    _BPEPE: Symbol = _BPEPE
+    _BPEPE_NEXT: Symbol = _BPEPE_NEXT
+    _PEPEBON: Symbol = _PEPEBON
+    _PEPEBON8H: Symbol = _PEPEBON8H
+    _PEPEUSDTPI: Symbol = _PEPEUSDTPI
+    _PEPEUSDTPI8H: Symbol = _PEPEUSDTPI8H
+    _PEPEUSDPI: Symbol = _PEPEUSDPI
+    _PEPEUSDPI8H: Symbol = _PEPEUSDPI8H
+    _BSUIT: Symbol = _BSUIT
+    _BSUIT_NEXT: Symbol = _BSUIT_NEXT
+    _BSUI: Symbol = _BSUI
+    _BSUI_NEXT: Symbol = _BSUI_NEXT
+    _BSUIT30M: Symbol = _BSUIT30M
+    _SUIUSDTPI: Symbol = _SUIUSDTPI
+    _SUIUSDTPI8H: Symbol = _SUIUSDTPI8H
+    _SUIUSDPI: Symbol = _SUIUSDPI
+    _SUIUSDPI8H: Symbol = _SUIUSDPI8H
+    _SUIBON: Symbol = _SUIBON
+    _SUIBON8H: Symbol = _SUIBON8H
+    _BKLAYT30M: Symbol = _BKLAYT30M
+    _BCROT30M: Symbol = _BCROT30M
+    ADAM23: Symbol = ADAM23
+    XRPM23: Symbol = XRPM23
+    ARBUSDTM23: Symbol = ARBUSDTM23
+    KLAYUSD: Symbol = KLAYUSD
+    KLAYUSDT: Symbol = KLAYUSDT
+    XRPUSD: Symbol = XRPUSD
+    BCHUSD: Symbol = BCHUSD
+    DOGEUSD: Symbol = DOGEUSD
+    BNBUSD: Symbol = BNBUSD
+    LINKUSD: Symbol = LINKUSD
+    SOLUSD: Symbol = SOLUSD
+    APTUSD: Symbol = APTUSD
+    BMEXUSD: Symbol = BMEXUSD
+    CROUSD: Symbol = CROUSD
+    FLRUSD: Symbol = FLRUSD
+    BLURUSD: Symbol = BLURUSD
+    GMXUSD: Symbol = GMXUSD
+    ARBUSD: Symbol = ARBUSD
+    PEPEUSDT: Symbol = PEPEUSDT
+    PEPEUSD: Symbol = PEPEUSD
+    SUIUSD: Symbol = SUIUSD
+    DOGEUSDT: Symbol = DOGEUSDT
+    DOTUSDT: Symbol = DOTUSDT
+    ADAUSDT: Symbol = ADAUSDT
+    BNBUSDT: Symbol = BNBUSDT
+    SOLUSDT: Symbol = SOLUSDT
+    ADAUSD: Symbol = ADAUSD
+    EOSUSD: Symbol = EOSUSD
+    XRPUSDT: Symbol = XRPUSDT
+    BCHUSDT: Symbol = BCHUSDT
+    APEUSDT: Symbol = APEUSDT
+    GMTUSDT: Symbol = GMTUSDT
+    GMTUSD: Symbol = GMTUSD
+    NEARUSD: Symbol = NEARUSD
+    APTUSDT: Symbol = APTUSDT
+    BMEXUSDT: Symbol = BMEXUSDT
+    CROUSDT: Symbol = CROUSDT
+    FLRUSDT: Symbol = FLRUSDT
+    BLURUSDT: Symbol = BLURUSDT
+    GMXUSDT: Symbol = GMXUSDT
+    ARBUSDT: Symbol = ARBUSDT
+    SUIUSDT: Symbol = SUIUSDT
+    LUNAUSD: Symbol = LUNAUSD
+    DOTUSD: Symbol = DOTUSD
+    MATICUSDT: Symbol = MATICUSDT
+    AVAXUSD: Symbol = AVAXUSD
+    AXSUSD: Symbol = AXSUSD
+    AVAXUSDT: Symbol = AVAXUSDT
+    LUNAUSDT: Symbol = LUNAUSDT
+    USDTUSDC: Symbol = USDTUSDC
+    UNI_USDT: Symbol = UNI_USDT
+    LINK_USDT: Symbol = LINK_USDT
+    MATIC_USDT: Symbol = MATIC_USDT
+    AXS_USDT: Symbol = AXS_USDT
+    APE_USDT: Symbol = APE_USDT
+    TRX_USDT: Symbol = TRX_USDT
+    SOL_USDT: Symbol = SOL_USDT
+    BMEX_USDT: Symbol = BMEX_USDT
+    _XBT: Symbol = _XBT
+    _XBT30M: Symbol = _XBT30M
+    _XBTBON: Symbol = _XBTBON
+    _XBTBON8H: Symbol = _XBTBON8H
+    _XBTUSDPI: Symbol = _XBTUSDPI
+    _XBTUSDPI8H: Symbol = _XBTUSDPI8H
+    _BXBT: Symbol = _BXBT
+    _BXBT30M: Symbol = _BXBT30M
+    _BXBT_NEXT: Symbol = _BXBT_NEXT
+    _BXBTEUR: Symbol = _BXBTEUR
+    _BXBTEUR_NEXT: Symbol = _BXBTEUR_NEXT
+    _XBTEURPI: Symbol = _XBTEURPI
+    _XBTEURPI8H: Symbol = _XBTEURPI8H
+    _BXBTEUR30M: Symbol = _BXBTEUR30M
+    _BXBTT: Symbol = _BXBTT
+    _BXBTT_NEXT: Symbol = _BXBTT_NEXT
+    _BXBTT30M: Symbol = _BXBTT30M
+    _XBTUSDTPI: Symbol = _XBTUSDTPI
+    _XBTUSDTPI8H: Symbol = _XBTUSDTPI8H
+    _BVOL: Symbol = _BVOL
+    _BVOL24H: Symbol = _BVOL24H
+    _BVOL7D: Symbol = _BVOL7D
+    _ETHBON: Symbol = _ETHBON
+    _ETHBON8H: Symbol = _ETHBON8H
+    _ETHUSDPI: Symbol = _ETHUSDPI
+    _ETHUSDPI8H: Symbol = _ETHUSDPI8H
+    _BETH: Symbol = _BETH
+    _BETH30M: Symbol = _BETH30M
+    _BETHXBT: Symbol = _BETHXBT
+    _BETHXBT30M: Symbol = _BETHXBT30M
+    _BETH_NEXT: Symbol = _BETH_NEXT
+    _BETHXBT_NEXT: Symbol = _BETHXBT_NEXT
+    _BETHT: Symbol = _BETHT
+    _BETHT_NEXT: Symbol = _BETHT_NEXT
+    _BETHT30M: Symbol = _BETHT30M
+    _ETHUSDTPI: Symbol = _ETHUSDTPI
+    _ETHUSDTPI8H: Symbol = _ETHUSDTPI8H
+    _ETHUSD_ETHPI: Symbol = _ETHUSD_ETHPI
+    _ETHUSD_ETHPI8H: Symbol = _ETHUSD_ETHPI8H
+    _BETC: Symbol = _BETC
+    _LTCBON: Symbol = _LTCBON
+    _LTCBON8H: Symbol = _LTCBON8H
+    _BLTCXBT: Symbol = _BLTCXBT
+    _BLTCXBT30M: Symbol = _BLTCXBT30M
+    _BLTCXBT_NEXT: Symbol = _BLTCXBT_NEXT
+    _BLTC: Symbol = _BLTC
+    _LTCUSDPI: Symbol = _LTCUSDPI
+    _LTCUSDPI8H: Symbol = _LTCUSDPI8H
+    _BLTC_NEXT: Symbol = _BLTC_NEXT
+    _BLTCT: Symbol = _BLTCT
+    _BLTCT_NEXT: Symbol = _BLTCT_NEXT
+    _LTCUSDTPI: Symbol = _LTCUSDTPI
+    _LTCUSDTPI8H: Symbol = _LTCUSDTPI8H
+    _USDBON: Symbol = _USDBON
+    _USDBON8H: Symbol = _USDBON8H
+    XBTUSD: Symbol = XBTUSD
+    XBTUSDT: Symbol = XBTUSDT
+    XBTEUR: Symbol = XBTEUR
+    XBTK23: Symbol = XBTK23
+    XBTM23: Symbol = XBTM23
+    XBTUSDTM23: Symbol = XBTUSDTM23
+    XBTU23: Symbol = XBTU23
+    XBTUSDTU23: Symbol = XBTUSDTU23
+    XBTZ23: Symbol = XBTZ23
+    XBT_USDT: Symbol = XBT_USDT
+    ETHUSD: Symbol = ETHUSD
+    ETHUSDT: Symbol = ETHUSDT
+    ETHUSD_ETH: Symbol = ETHUSD_ETH
+    ETHM23: Symbol = ETHM23
+    ETHUSDM23: Symbol = ETHUSDM23
+    ETHUSDTM23: Symbol = ETHUSDTM23
+    ETH_USDT: Symbol = ETH_USDT
+    ETH_XBT: Symbol = ETH_XBT
+    LTCUSD: Symbol = LTCUSD
+    LTCUSDT: Symbol = LTCUSDT
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([_EVOL7D, _BADAXBT, _BADAXBT30M, _BBCHXBT, _BBCHXBT30M, _BEOSXBT, _BEOSXBT30M, _BXRPXBT, _BXRPXBT30M, _BTRXXBT, _BTRXXBT30M, _BADAXBT_NEXT, _BBCHXBT_NEXT, _BEOSXBT_NEXT, _BTRXXBT_NEXT, _BXRPXBT_NEXT, _BXRP_NEXT, _BXRP, _XRPBON, _XRPBON8H, _XRPUSDPI, _XRPUSDPI8H, _BBCH, _BCHBON, _BCHBON8H, _BCHUSDPI, _BCHUSDPI8H, _BBCH_NEXT, _BUSDT, _BUSDT_NEXT, _BEOST, _BEOST_NEXT, _BEOST30M, _BLINKT, _BLINKT_NEXT, _BLINKT30M, _BADAT, _BADAT_NEXT, _BADAT30M, _BXTZT, _BXTZT_NEXT, _BXTZT30M, _LINKBON, _LINKBON8H, _LINKUSDTPI, _LINKUSDTPI8H, _USDTBON, _USDTBON8H, _BBNBT, _BBNBT_NEXT, _BBNBT30M, _BDOTT, _BDOTT_NEXT, _BDOTT30M, _BYFIT, _BYFIT_NEXT, _BYFIT30M, _BDOGET, _BDOGET_NEXT, _DOGEBON, _DOGEBON8H, _DOGEUSDTPI, _DOGEUSDTPI8H, _BNBBON, _BNBBON8H, _BNBUSDTPI, _BNBUSDTPI8H, _ADABON, _ADABON8H, _ADAUSDTPI, _ADAUSDTPI8H, _DOTBON, _DOTBON8H, _DOTUSDTPI, _DOTUSDTPI8H, _EOSBON, _EOSBON8H, _EOSUSDTPI, _EOSUSDTPI8H, _XTZBON, _XTZBON8H, _XTZUSDTPI, _YFIBON, _YFIBON8H, _YFIUSDTPI, _BAAVET, _BAAVET_NEXT, _AAVEBON, _AAVEBON8H, _AAVEUSDTPI, _AAVEUSDTPI8H, _BUNIT, _BUNIT_NEXT, _UNIBON, _UNIBON8H, _UNIUSDTPI, _UNIUSDTPI8H, _BXLMT, _BXLMT_NEXT, _XLMBON, _XLMBON8H, _XLMUSDTPI, _XLMUSDTPI8H, _BTRXT, _BTRXT_NEXT, _TRXBON, _TRXBON8H, _TRXUSDTPI, _TRXUSDTPI8H, _BTRXT30M, _BSOLT, _BSOLT_NEXT, _SOLBON, _SOLBON8H, _SOLUSDTPI, _SOLUSDTPI8H, _BFILT, _BFILT_NEXT, _FILBON, _FILBON8H, _FILUSDTPI, _FILUSDTPI8H, _EURBON, _EURBON8H, _BVETT, _BVETT_NEXT, _VETBON, _VETBON8H, _VETUSDTPI, _VETUSDTPI8H, _BMATICT, _BMATICT_NEXT, _MATICBON, _MATICBON8H, _MATICUSDTPI, _MATICUSDTPI8H, _BMKRT, _BMKRT_NEXT, _BAVAXT, _BAVAXT_NEXT, _BLUNAT, _BLUNAT_NEXT, _BCOMPT, _BCOMPT_NEXT, _BSUSHIT, _BSUSHIT_NEXT, _BGRTT, _BGRTT_NEXT, _BALTMEX, _BDEFIMEX, _ALTMEXBON, _ALTMEXBON8H, _ALTMEXUSDPI, _ALTMEXUSDPI8H, _DEFIMEXBON, _DEFIMEXBON8H, _DEFIMEXUSDPI, _DEFIMEXUSDPI8H, _SUSHIBON, _SUSHIBON8H, _SUSHIUSDTPI, _SUSHIUSDTPI8H, _BAXST, _BAXST_NEXT, _AXSBON, _AXSBON8H, _AXSUSDTPI, _AXSUSDTPI8H, _BSRMT, _BSRMT_NEXT, _SRMBON, _SRMBON8H, _SRMUSDTPI, _SRMUSDTPI8H, _BLUNA, _BLUNA_NEXT, _LUNABON, _LUNABON8H, _LUNAUSDPI, _LUNAUSDPI8H, _AVAXBON, _AVAXBON8H, _BAVAX, _BAVAX_NEXT, _AVAXUSDPI, _AVAXUSDPI8H, _BADA, _BADA_NEXT, _ADAUSDPI, _ADAUSDPI8H, _BDOGE, _BDOGE_NEXT, _DOGEUSDPI, _DOGEUSDPI8H, _BBNB, _BBNB_NEXT, _BNBUSDPI, _BNBUSDPI8H, _BDOT, _BDOT_NEXT, _DOTUSDPI, _DOTUSDPI8H, _BDOGET30M, _BFILT30M, _BUNIT30M, _BXLMT30M, _BAXS, _BAXS_NEXT, _AXSUSDPI, _AXSUSDPI8H, _BEOS, _BEOS_NEXT, _EOSUSDPI, _EOSUSDPI8H, _BLINK, _BLINK_NEXT, _LINKUSDPI, _LINKUSDPI8H, _BSOL, _BSOL_NEXT, _SOLUSDPI, _SOLUSDPI8H, _BAXST30M, _BSOLT30M, _BVETT30M, _BMATICT30M, _BAAVET30M, _BSUSHIT30M, _BSRMT30M, _BXRPT, _BXRPT_NEXT, _BBCHT, _BBCHT_NEXT, _XRPUSDTPI, _XRPUSDTPI8H, _BCHUSDTPI, _BCHUSDTPI8H, _BDEFIMEX30M, _BALTMEX30M, _BFTMT, _BFTMT_NEXT, _FTMBON, _FTMBON8H, _FTMUSDTPI, _FTMUSDTPI8H, _BSHIBT, _BSHIBT_NEXT, _SHIBBON, _SHIBBON8H, _SHIBUSDTPI, _SHIBUSDTPI8H, _BLRCT, _BLRCT_NEXT, _BMANAT, _BMANAT_NEXT, _MANABON, _MANABON8H, _MANAUSDTPI, _MANAUSDTPI8H, _BSANDT, _BSANDT_NEXT, _SANDBON, _SANDBON8H, _SANDUSDTPI, _SANDUSDTPI8H, _BTHETAT, _BTHETAT_NEXT, _BENJT, _BENJT_NEXT, _BDEFIMEXT, _DEFIMEXTBON, _DEFIMEXTBON8H, _DEFIMEXTUSDTPI, _DEFIMEXTUSDTPI8H, _BALTMEXT, _ALTMEXTBON, _ALTMEXTBON8H, _ALTMEXTUSDTPI, _ALTMEXTUSDTPI8H, _BMETAMEXT, _METAMEXTBON, _METAMEXTBON8H, _METAMEXTUSDTPI, _METAMEXTUSDTPI8H, _AVAXUSDTPI, _AVAXUSDTPI8H, _LUNAUSDTPI, _LUNAUSDTPI8H, _BAPET, _BAPET_NEXT, _APEBON, _APEBON8H, _APEUSDTPI, _APEUSDTPI8H, _GMTBON, _GMTBON8H, _GMTUSDTPI, _GMTUSDTPI8H, _GMTUSDPI, _GMTUSDPI8H, _BGMT, _BGMT_NEXT, _BGMTT, _BGMTT_NEXT, _NEARBON, _NEARBON8H, _NEARUSDTPI, _NEARUSDTPI8H, _NEARUSDPI, _NEARUSDPI8H, _BNEAR, _BNEAR_NEXT, _BNEART, _BNEART_NEXT, _BLUNA30M, _BLUNAT30M, _BAPE, _BAPE_NEXT, _BTRX, _BTRX_NEXT, _BGAL, _BGAL_NEXT, _BGALT, _BGALT_NEXT, _GALBON, _GALBON8H, _APEUSDPI, _APEUSDPI8H, _TRXUSDPI, _TRXUSDPI8H, _GALUSDTPI, _GALUSDTPI8H, _GALUSDPI, _GALUSDPI8H, _BLUNC, _BLUNC_NEXT, _BLUNCT, _BLUNCT_NEXT, _BDFI, _BDFIT, _BGRT, _EURUSDPI, _USDCHFPI, _EURCHFPI, _EURTRYPI, _USDTRYPI, _USDINRPI, _USDZARPI, _USDBRLPI, _USDMXNPI, _NZDUSDPI, _USDCNHPI, _USDSEKPI, _EURUSDPI8H, _USDCHFPI8H, _EURCHFPI8H, _EURTRYPI8H, _USDTRYPI8H, _USDINRPI8H, _USDZARPI8H, _USDBRLPI8H, _USDMXNPI8H, _NZDUSDPI8H, _USDCNHPI8H, _USDSEKPI8H, _EURUSDTPI, _USDTCHFPI, _USDTTRYPI, _USDTINRPI, _USDTZARPI, _USDTBRLPI, _USDTMXNPI, _NZDUSDTPI, _USDTCNHPI, _USDTSEKPI, _EURUSDTPI8H, _USDTCHFPI8H, _USDTTRYPI8H, _USDTINRPI8H, _USDTZARPI8H, _USDTBRLPI8H, _USDTMXNPI8H, _NZDUSDTPI8H, _USDTCNHPI8H, _USDTSEKPI8H, _CHFBON, _TRYBON, _INRBON, _ZARBON, _BRLBON, _MXNBON, _NZDBON, _CNHBON, _SEKBON, _CHFBON8H, _TRYBON8H, _INRBON8H, _ZARBON8H, _BRLBON8H, _MXNBON8H, _NZDBON8H, _CNHBON8H, _SEKBON8H, _BOP, _BOP_NEXT, _BOPT, _BOPT_NEXT, _OPBON, _OPBON8H, _OPUSDTPI, _OPUSDTPI8H, _OPUSDPI, _OPUSDPI8H, _BUSDC, _BUSDCT, _BETHPOWT, _BETHPOWT_NEXT, _BETHPOWT30M, _BALTMEXT30M, _BDEFIMEXT30M, _BMETAMEXT30M, _BUSDC_NEXT, _BUSDCT_NEXT, _BKLAY, _BKLAY_NEXT, _BKLAYT, _BKLAYT_NEXT, _KLAYUSDTPI, _KLAYUSDTPI8H, _KLAYUSDPI, _KLAYUSDPI8H, _KLAYBON, _KLAYBON8H, _BSTETH, _BSTETHT, _BDAI, _BDAIT, _BBUSD, _BBUSDT, _BWBTC, _BWBTCT, _BCRO, _BCROT, _BQNT, _BQNTT, _BOKB, _BOKBT, _BLEO, _BLEOT, _BAAVE, _BMANA, _BXLM, _BVET, _BFIL, _BXTZ, _BMKR, _BFLOW, _BFLOWT, _BHBAR, _BHBART, _BEGLD, _BEGLDT, _BTUSD, _BTUSDT, _BUSDP, _BHNT, _BHNTT, _BIOTA, _BIOTAT, _BXEC, _BXECT, _BFTTT, _BSANDT30M, _BNEART30M, _BMANAT30M, _BSHIBT30M, _BOPT30M, _BGALT30M, _BGAL30M, _BTRX30M, _BOP30M, _BAPE30M, _BFTMT30M, _BAPT, _BAPT_NEXT, _BAPT30M, _BAPTT, _BAPTT_NEXT, _BAPTT30M, _APTBON, _APTBON8H, _APTUSDTPI, _APTUSDTPI8H, _APTUSDPI, _APTUSDPI8H, _BFTT, _BFTT_NEXT, _BFTTT_NEXT, _FTTBON, _FTTBON8H, _FTTUSDTPI, _FTTUSDTPI8H, _FTTUSDPI, _FTTUSDPI8H, _BMEXBON, _BMEXBON8H, _BMEXUSDTPI, _BMEXUSDTPI8H, _BMEXUSDPI, _BMEXUSDPI8H, _BBMEXT, _BBMEXT_NEXT, _BBMEX, _BBMEX_NEXT, _CROBON, _CROBON8H, _CROUSDTPI, _CROUSDTPI8H, _CROUSDPI, _CROUSDPI8H, _BFTT30M, _BFTTT30M, _BETHYLD, _BFLRT, _BFLRT_NEXT, _BFLRT30M, _FLRBON, _FLRBON8H, _FLRUSDTPI, _FLRUSDTPI8H, _FLRUSDPI, _FLRUSDPI8H, _BFLR, _BFLR_NEXT, _BLURBON, _BLURBON8H, _BLURUSDTPI, _BLURUSDTPI8H, _BLURUSDPI, _BLURUSDPI8H, _BBLUR, _BBLUR_NEXT, _BBLURT, _BBLURT_NEXT, _BGMXT, _BGMXT_NEXT, _BGMX, _BGMX_NEXT, _GMXBON, _GMXBON8H, _GMXUSDTPI, _GMXUSDTPI8H, _GMXUSDPI, _GMXUSDPI8H, _USDCBON, _USDCBON8H, _USDTUSDCPI, _USDTUSDCPI8H, _BUSDTUSDC, _BARBT, _BARBT_NEXT, _BARBT30M, _BARB, _BARB_NEXT, _ARBBON, _ARBBON8H, _ARBUSDTPI, _ARBUSDTPI8H, _ARBUSDPI, _ARBUSDPI8H, _BPEPET, _BPEPET_NEXT, _BPEPE, _BPEPE_NEXT, _PEPEBON, _PEPEBON8H, _PEPEUSDTPI, _PEPEUSDTPI8H, _PEPEUSDPI, _PEPEUSDPI8H, _BSUIT, _BSUIT_NEXT, _BSUI, _BSUI_NEXT, _BSUIT30M, _SUIUSDTPI, _SUIUSDTPI8H, _SUIUSDPI, _SUIUSDPI8H, _SUIBON, _SUIBON8H, _BKLAYT30M, _BCROT30M, ADAM23, XRPM23, ARBUSDTM23, KLAYUSD, KLAYUSDT, XRPUSD, BCHUSD, DOGEUSD, BNBUSD, LINKUSD, SOLUSD, APTUSD, BMEXUSD, CROUSD, FLRUSD, BLURUSD, GMXUSD, ARBUSD, PEPEUSDT, PEPEUSD, SUIUSD, DOGEUSDT, DOTUSDT, ADAUSDT, BNBUSDT, SOLUSDT, ADAUSD, EOSUSD, XRPUSDT, BCHUSDT, APEUSDT, GMTUSDT, GMTUSD, NEARUSD, APTUSDT, BMEXUSDT, CROUSDT, FLRUSDT, BLURUSDT, GMXUSDT, ARBUSDT, SUIUSDT, LUNAUSD, DOTUSD, MATICUSDT, AVAXUSD, AXSUSD, AVAXUSDT, LUNAUSDT, USDTUSDC, UNI_USDT, LINK_USDT, MATIC_USDT, AXS_USDT, APE_USDT, TRX_USDT, SOL_USDT, BMEX_USDT, _XBT, _XBT30M, _XBTBON, _XBTBON8H, _XBTUSDPI, _XBTUSDPI8H, _BXBT, _BXBT30M, _BXBT_NEXT, _BXBTEUR, _BXBTEUR_NEXT, _XBTEURPI, _XBTEURPI8H, _BXBTEUR30M, _BXBTT, _BXBTT_NEXT, _BXBTT30M, _XBTUSDTPI, _XBTUSDTPI8H, _BVOL, _BVOL24H, _BVOL7D, _ETHBON, _ETHBON8H, _ETHUSDPI, _ETHUSDPI8H, _BETH, _BETH30M, _BETHXBT, _BETHXBT30M, _BETH_NEXT, _BETHXBT_NEXT, _BETHT, _BETHT_NEXT, _BETHT30M, _ETHUSDTPI, _ETHUSDTPI8H, _ETHUSD_ETHPI, _ETHUSD_ETHPI8H, _BETC, _LTCBON, _LTCBON8H, _BLTCXBT, _BLTCXBT30M, _BLTCXBT_NEXT, _BLTC, _LTCUSDPI, _LTCUSDPI8H, _BLTC_NEXT, _BLTCT, _BLTCT_NEXT, _LTCUSDTPI, _LTCUSDTPI8H, _USDBON, _USDBON8H, XBTUSD, XBTUSDT, XBTEUR, XBTK23, XBTM23, XBTUSDTM23, XBTU23, XBTUSDTU23, XBTZ23, XBT_USDT, ETHUSD, ETHUSDT, ETHUSD_ETH, ETHM23, ETHUSDM23, ETHUSDTM23, ETH_USDT, ETH_XBT, LTCUSD, LTCUSDT])
+
+bitmex = Bitmex()

@@ -40,17 +40,6 @@ class ONEINCH_USD(Symbol):
 
 
 ONEINCH_USD = ONEINCH_USD(*ONEINCH_USD._fields)
-"""
-    name: t1INCH:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ONEINCH_UST(Symbol):
@@ -92,17 +81,6 @@ class ONEINCH_UST(Symbol):
 
 
 ONEINCH_UST = ONEINCH_UST(*ONEINCH_UST._fields)
-"""
-    name: t1INCH:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AAVE_USD(Symbol):
@@ -144,17 +122,6 @@ class AAVE_USD(Symbol):
 
 
 AAVE_USD = AAVE_USD(*AAVE_USD._fields)
-"""
-    name: tAAVE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AAVE_UST(Symbol):
@@ -196,17 +163,6 @@ class AAVE_UST(Symbol):
 
 
 AAVE_UST = AAVE_UST(*AAVE_UST._fields)
-"""
-    name: tAAVE:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AAVEF0_USTF0(Symbol):
@@ -248,17 +204,6 @@ class AAVEF0_USTF0(Symbol):
 
 
 AAVEF0_USTF0 = AAVEF0_USTF0(*AAVEF0_USTF0._fields)
-"""
-    name: tAAVEF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ADABTC(Symbol):
@@ -300,17 +245,6 @@ class ADABTC(Symbol):
 
 
 ADABTC = ADABTC(*ADABTC._fields)
-"""
-    name: tADABTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ADAF0_USTF0(Symbol):
@@ -352,17 +286,6 @@ class ADAF0_USTF0(Symbol):
 
 
 ADAF0_USTF0 = ADAF0_USTF0(*ADAF0_USTF0._fields)
-"""
-    name: tADAF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ADAUSD(Symbol):
@@ -404,17 +327,6 @@ class ADAUSD(Symbol):
 
 
 ADAUSD = ADAUSD(*ADAUSD._fields)
-"""
-    name: tADAUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ADAUST(Symbol):
@@ -456,17 +368,6 @@ class ADAUST(Symbol):
 
 
 ADAUST = ADAUST(*ADAUST._fields)
-"""
-    name: tADAUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AIXUSD(Symbol):
@@ -508,17 +409,6 @@ class AIXUSD(Symbol):
 
 
 AIXUSD = AIXUSD(*AIXUSD._fields)
-"""
-    name: tAIXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 570.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AIXUST(Symbol):
@@ -560,17 +450,6 @@ class AIXUST(Symbol):
 
 
 AIXUST = AIXUST(*AIXUST._fields)
-"""
-    name: tAIXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 570.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ALGBTC(Symbol):
@@ -612,17 +491,6 @@ class ALGBTC(Symbol):
 
 
 ALGBTC = ALGBTC(*ALGBTC._fields)
-"""
-    name: tALGBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 150000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ALGF0_USTF0(Symbol):
@@ -664,17 +532,6 @@ class ALGF0_USTF0(Symbol):
 
 
 ALGF0_USTF0 = ALGF0_USTF0(*ALGF0_USTF0._fields)
-"""
-    name: tALGF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ALGUSD(Symbol):
@@ -716,17 +573,6 @@ class ALGUSD(Symbol):
 
 
 ALGUSD = ALGUSD(*ALGUSD._fields)
-"""
-    name: tALGUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 25.0
-    initial_margin: 50.0
-    min_order_size: 6.0
-    max_order_size: 150000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ALGUST(Symbol):
@@ -768,17 +614,6 @@ class ALGUST(Symbol):
 
 
 ALGUST = ALGUST(*ALGUST._fields)
-"""
-    name: tALGUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 25.0
-    initial_margin: 50.0
-    min_order_size: 6.0
-    max_order_size: 150000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AMPBTC(Symbol):
@@ -820,17 +655,6 @@ class AMPBTC(Symbol):
 
 
 AMPBTC = AMPBTC(*AMPBTC._fields)
-"""
-    name: tAMPBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AMPF0_USTF0(Symbol):
@@ -872,17 +696,6 @@ class AMPF0_USTF0(Symbol):
 
 
 AMPF0_USTF0 = AMPF0_USTF0(*AMPF0_USTF0._fields)
-"""
-    name: tAMPF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 2.5
-    initial_margin: 5.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AMPUSD(Symbol):
@@ -924,17 +737,6 @@ class AMPUSD(Symbol):
 
 
 AMPUSD = AMPUSD(*AMPUSD._fields)
-"""
-    name: tAMPUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class AMPUST(Symbol):
@@ -976,17 +778,6 @@ class AMPUST(Symbol):
 
 
 AMPUST = AMPUST(*AMPUST._fields)
-"""
-    name: tAMPUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ANTBTC(Symbol):
@@ -1028,17 +819,6 @@ class ANTBTC(Symbol):
 
 
 ANTBTC = ANTBTC(*ANTBTC._fields)
-"""
-    name: tANTBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ANTUSD(Symbol):
@@ -1080,17 +860,6 @@ class ANTUSD(Symbol):
 
 
 ANTUSD = ANTUSD(*ANTUSD._fields)
-"""
-    name: tANTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class APEF0_USTF0(Symbol):
@@ -1132,17 +901,6 @@ class APEF0_USTF0(Symbol):
 
 
 APEF0_USTF0 = APEF0_USTF0(*APEF0_USTF0._fields)
-"""
-    name: tAPEF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.4
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class APENFT_USD(Symbol):
@@ -1184,17 +942,6 @@ class APENFT_USD(Symbol):
 
 
 APENFT_USD = APENFT_USD(*APENFT_USD._fields)
-"""
-    name: tAPENFT:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 40000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class APENFT_UST(Symbol):
@@ -1236,17 +983,6 @@ class APENFT_UST(Symbol):
 
 
 APENFT_UST = APENFT_UST(*APENFT_UST._fields)
-"""
-    name: tAPENFT:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 40000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class APEUSD(Symbol):
@@ -1288,17 +1024,6 @@ class APEUSD(Symbol):
 
 
 APEUSD = APEUSD(*APEUSD._fields)
-"""
-    name: tAPEUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 30.0
-    initial_margin: 60.0
-    min_order_size: 0.4
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class APEUST(Symbol):
@@ -1340,17 +1065,6 @@ class APEUST(Symbol):
 
 
 APEUST = APEUST(*APEUST._fields)
-"""
-    name: tAPEUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 30.0
-    initial_margin: 60.0
-    min_order_size: 0.4
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class APTF0_USTF0(Symbol):
@@ -1392,17 +1106,6 @@ class APTF0_USTF0(Symbol):
 
 
 APTF0_USTF0 = APTF0_USTF0(*APTF0_USTF0._fields)
-"""
-    name: tAPTF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 30000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class APTUSD(Symbol):
@@ -1444,17 +1147,6 @@ class APTUSD(Symbol):
 
 
 APTUSD = APTUSD(*APTUSD._fields)
-"""
-    name: tAPTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 30000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class APTUST(Symbol):
@@ -1496,17 +1188,6 @@ class APTUST(Symbol):
 
 
 APTUST = APTUST(*APTUST._fields)
-"""
-    name: tAPTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 30000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ARBF0_USTF0(Symbol):
@@ -1548,17 +1229,6 @@ class ARBF0_USTF0(Symbol):
 
 
 ARBF0_USTF0 = ARBF0_USTF0(*ARBF0_USTF0._fields)
-"""
-    name: tARBF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 75000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ARBUSD(Symbol):
@@ -1600,17 +1270,6 @@ class ARBUSD(Symbol):
 
 
 ARBUSD = ARBUSD(*ARBUSD._fields)
-"""
-    name: tARBUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 75000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ARBUST(Symbol):
@@ -1652,17 +1311,6 @@ class ARBUST(Symbol):
 
 
 ARBUST = ARBUST(*ARBUST._fields)
-"""
-    name: tARBUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 75000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ATLAS_USD(Symbol):
@@ -1704,17 +1352,6 @@ class ATLAS_USD(Symbol):
 
 
 ATLAS_USD = ATLAS_USD(*ATLAS_USD._fields)
-"""
-    name: tATLAS:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 232.0
-    max_order_size: 25000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ATLAS_UST(Symbol):
@@ -1756,17 +1393,6 @@ class ATLAS_UST(Symbol):
 
 
 ATLAS_UST = ATLAS_UST(*ATLAS_UST._fields)
-"""
-    name: tATLAS:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 232.0
-    max_order_size: 25000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ATOBTC(Symbol):
@@ -1808,17 +1434,6 @@ class ATOBTC(Symbol):
 
 
 ATOBTC = ATOBTC(*ATOBTC._fields)
-"""
-    name: tATOBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ATOETH(Symbol):
@@ -1860,17 +1475,6 @@ class ATOETH(Symbol):
 
 
 ATOETH = ATOETH(*ATOETH._fields)
-"""
-    name: tATOETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ATOF0_USTF0(Symbol):
@@ -1912,17 +1516,6 @@ class ATOF0_USTF0(Symbol):
 
 
 ATOF0_USTF0 = ATOF0_USTF0(*ATOF0_USTF0._fields)
-"""
-    name: tATOF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ATOUSD(Symbol):
@@ -1964,17 +1557,6 @@ class ATOUSD(Symbol):
 
 
 ATOUSD = ATOUSD(*ATOUSD._fields)
-"""
-    name: tATOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 25.0
-    initial_margin: 50.0
-    min_order_size: 0.2
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ATOUST(Symbol):
@@ -2016,17 +1598,6 @@ class ATOUST(Symbol):
 
 
 ATOUST = ATOUST(*ATOUST._fields)
-"""
-    name: tATOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AUSTRALIA200IXF0_USTF0(Symbol):
@@ -2068,17 +1639,6 @@ class AUSTRALIA200IXF0_USTF0(Symbol):
 
 
 AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0(*AUSTRALIA200IXF0_USTF0._fields)
-"""
-    name: tAUSTRALIA200IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AVAX_BTC(Symbol):
@@ -2120,17 +1680,6 @@ class AVAX_BTC(Symbol):
 
 
 AVAX_BTC = AVAX_BTC(*AVAX_BTC._fields)
-"""
-    name: tAVAX:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.08
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AVAX_USD(Symbol):
@@ -2172,17 +1721,6 @@ class AVAX_USD(Symbol):
 
 
 AVAX_USD = AVAX_USD(*AVAX_USD._fields)
-"""
-    name: tAVAX:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.08
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AVAX_UST(Symbol):
@@ -2224,17 +1762,6 @@ class AVAX_UST(Symbol):
 
 
 AVAX_UST = AVAX_UST(*AVAX_UST._fields)
-"""
-    name: tAVAX:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.08
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AVAXF0_BTCF0(Symbol):
@@ -2276,17 +1803,6 @@ class AVAXF0_BTCF0(Symbol):
 
 
 AVAXF0_BTCF0 = AVAXF0_BTCF0(*AVAXF0_BTCF0._fields)
-"""
-    name: tAVAXF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.08
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AVAXF0_USTF0(Symbol):
@@ -2328,17 +1844,6 @@ class AVAXF0_USTF0(Symbol):
 
 
 AVAXF0_USTF0 = AVAXF0_USTF0(*AVAXF0_USTF0._fields)
-"""
-    name: tAVAXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.08
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AXSF0_USTF0(Symbol):
@@ -2380,17 +1885,6 @@ class AXSF0_USTF0(Symbol):
 
 
 AXSF0_USTF0 = AXSF0_USTF0(*AXSF0_USTF0._fields)
-"""
-    name: tAXSF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AXSUSD(Symbol):
@@ -2432,17 +1926,6 @@ class AXSUSD(Symbol):
 
 
 AXSUSD = AXSUSD(*AXSUSD._fields)
-"""
-    name: tAXSUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class AXSUST(Symbol):
@@ -2484,17 +1967,6 @@ class AXSUST(Symbol):
 
 
 AXSUST = AXSUST(*AXSUST._fields)
-"""
-    name: tAXSUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class B2MUSD(Symbol):
@@ -2536,17 +2008,6 @@ class B2MUSD(Symbol):
 
 
 B2MUSD = B2MUSD(*B2MUSD._fields)
-"""
-    name: tB2MUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 144.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class B2MUST(Symbol):
@@ -2588,17 +2049,6 @@ class B2MUST(Symbol):
 
 
 B2MUST = B2MUST(*B2MUST._fields)
-"""
-    name: tB2MUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 144.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BALUSD(Symbol):
@@ -2640,17 +2090,6 @@ class BALUSD(Symbol):
 
 
 BALUSD = BALUSD(*BALUSD._fields)
-"""
-    name: tBALUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BALUST(Symbol):
@@ -2692,17 +2131,6 @@ class BALUST(Symbol):
 
 
 BALUST = BALUST(*BALUST._fields)
-"""
-    name: tBALUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BAND_USD(Symbol):
@@ -2744,17 +2172,6 @@ class BAND_USD(Symbol):
 
 
 BAND_USD = BAND_USD(*BAND_USD._fields)
-"""
-    name: tBAND:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BAND_UST(Symbol):
@@ -2796,17 +2213,6 @@ class BAND_UST(Symbol):
 
 
 BAND_UST = BAND_UST(*BAND_UST._fields)
-"""
-    name: tBAND:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BATUSD(Symbol):
@@ -2848,17 +2254,6 @@ class BATUSD(Symbol):
 
 
 BATUSD = BATUSD(*BATUSD._fields)
-"""
-    name: tBATUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BATUST(Symbol):
@@ -2900,17 +2295,6 @@ class BATUST(Symbol):
 
 
 BATUST = BATUST(*BATUST._fields)
-"""
-    name: tBATUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BCHABC_USD(Symbol):
@@ -2952,17 +2336,6 @@ class BCHABC_USD(Symbol):
 
 
 BCHABC_USD = BCHABC_USD(*BCHABC_USD._fields)
-"""
-    name: tBCHABC:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 40962.0
-    max_order_size: 1000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BCHN_USD(Symbol):
@@ -3004,17 +2377,6 @@ class BCHN_USD(Symbol):
 
 
 BCHN_USD = BCHN_USD(*BCHN_USD._fields)
-"""
-    name: tBCHN:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 1000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BEST_USD(Symbol):
@@ -3056,17 +2418,6 @@ class BEST_USD(Symbol):
 
 
 BEST_USD = BEST_USD(*BEST_USD._fields)
-"""
-    name: tBEST:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BGBUSD(Symbol):
@@ -3108,17 +2459,6 @@ class BGBUSD(Symbol):
 
 
 BGBUSD = BGBUSD(*BGBUSD._fields)
-"""
-    name: tBGBUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BGBUST(Symbol):
@@ -3160,17 +2500,6 @@ class BGBUST(Symbol):
 
 
 BGBUST = BGBUST(*BGBUST._fields)
-"""
-    name: tBGBUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BLUR_USD(Symbol):
@@ -3212,17 +2541,6 @@ class BLUR_USD(Symbol):
 
 
 BLUR_USD = BLUR_USD(*BLUR_USD._fields)
-"""
-    name: tBLUR:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 75000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BLUR_UST(Symbol):
@@ -3264,17 +2582,6 @@ class BLUR_UST(Symbol):
 
 
 BLUR_UST = BLUR_UST(*BLUR_UST._fields)
-"""
-    name: tBLUR:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 75000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BMNBTC(Symbol):
@@ -3316,17 +2623,6 @@ class BMNBTC(Symbol):
 
 
 BMNBTC = BMNBTC(*BMNBTC._fields)
-"""
-    name: tBMNBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00002
-    max_order_size: 1.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BMNUSD(Symbol):
@@ -3368,17 +2664,6 @@ class BMNUSD(Symbol):
 
 
 BMNUSD = BMNUSD(*BMNUSD._fields)
-"""
-    name: tBMNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00002
-    max_order_size: 1.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BNTUSD(Symbol):
@@ -3420,17 +2705,6 @@ class BNTUSD(Symbol):
 
 
 BNTUSD = BNTUSD(*BNTUSD._fields)
-"""
-    name: tBNTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 20000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOBA_USD(Symbol):
@@ -3472,17 +2746,6 @@ class BOBA_USD(Symbol):
 
 
 BOBA_USD = BOBA_USD(*BOBA_USD._fields)
-"""
-    name: tBOBA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOBA_UST(Symbol):
@@ -3524,17 +2787,6 @@ class BOBA_UST(Symbol):
 
 
 BOBA_UST = BOBA_UST(*BOBA_UST._fields)
-"""
-    name: tBOBA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOOUSD(Symbol):
@@ -3576,17 +2828,6 @@ class BOOUSD(Symbol):
 
 
 BOOUSD = BOOUSD(*BOOUSD._fields)
-"""
-    name: tBOOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 45000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOOUST(Symbol):
@@ -3628,17 +2869,6 @@ class BOOUST(Symbol):
 
 
 BOOUST = BOOUST(*BOOUST._fields)
-"""
-    name: tBOOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 45000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOSON_USD(Symbol):
@@ -3680,17 +2910,6 @@ class BOSON_USD(Symbol):
 
 
 BOSON_USD = BOSON_USD(*BOSON_USD._fields)
-"""
-    name: tBOSON:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BOSON_UST(Symbol):
@@ -3732,17 +2951,6 @@ class BOSON_UST(Symbol):
 
 
 BOSON_UST = BOSON_UST(*BOSON_UST._fields)
-"""
-    name: tBOSON:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BRISE_USD(Symbol):
@@ -3784,17 +2992,6 @@ class BRISE_USD(Symbol):
 
 
 BRISE_USD = BRISE_USD(*BRISE_USD._fields)
-"""
-    name: tBRISE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BRISE_UST(Symbol):
@@ -3836,17 +3033,6 @@ class BRISE_UST(Symbol):
 
 
 BRISE_UST = BRISE_UST(*BRISE_UST._fields)
-"""
-    name: tBRISE:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTC_CNHT(Symbol):
@@ -3888,17 +3074,6 @@ class BTC_CNHT(Symbol):
 
 
 BTC_CNHT = BTC_CNHT(*BTC_CNHT._fields)
-"""
-    name: tBTC:CNHT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTC_MXNT(Symbol):
@@ -3940,17 +3115,6 @@ class BTC_MXNT(Symbol):
 
 
 BTC_MXNT = BTC_MXNT(*BTC_MXNT._fields)
-"""
-    name: tBTC:MXNT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 500.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTC_XAUT(Symbol):
@@ -3992,17 +3156,6 @@ class BTC_XAUT(Symbol):
 
 
 BTC_XAUT = BTC_XAUT(*BTC_XAUT._fields)
-"""
-    name: tBTC:XAUT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.0002
-    max_order_size: 250.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTCDOMF0_USTF0(Symbol):
@@ -4044,17 +3197,6 @@ class BTCDOMF0_USTF0(Symbol):
 
 
 BTCDOMF0_USTF0 = BTCDOMF0_USTF0(*BTCDOMF0_USTF0._fields)
-"""
-    name: tBTCDOMF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.01
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCEUR(Symbol):
@@ -4096,17 +3238,6 @@ class BTCEUR(Symbol):
 
 
 BTCEUR = BTCEUR(*BTCEUR._fields)
-"""
-    name: tBTCEUR
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCEUT(Symbol):
@@ -4148,17 +3279,6 @@ class BTCEUT(Symbol):
 
 
 BTCEUT = BTCEUT(*BTCEUT._fields)
-"""
-    name: tBTCEUT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCF0_EUTF0(Symbol):
@@ -4200,17 +3320,6 @@ class BTCF0_EUTF0(Symbol):
 
 
 BTCF0_EUTF0 = BTCF0_EUTF0(*BTCF0_EUTF0._fields)
-"""
-    name: tBTCF0:EUTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.0002
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCF0_USTF0(Symbol):
@@ -4252,17 +3361,6 @@ class BTCF0_USTF0(Symbol):
 
 
 BTCF0_USTF0 = BTCF0_USTF0(*BTCF0_USTF0._fields)
-"""
-    name: tBTCF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.00006
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCGBP(Symbol):
@@ -4304,17 +3402,6 @@ class BTCGBP(Symbol):
 
 
 BTCGBP = BTCGBP(*BTCGBP._fields)
-"""
-    name: tBTCGBP
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCJPY(Symbol):
@@ -4356,17 +3443,6 @@ class BTCJPY(Symbol):
 
 
 BTCJPY = BTCJPY(*BTCJPY._fields)
-"""
-    name: tBTCJPY
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCMIM(Symbol):
@@ -4408,17 +3484,6 @@ class BTCMIM(Symbol):
 
 
 BTCMIM = BTCMIM(*BTCMIM._fields)
-"""
-    name: tBTCMIM
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.0002
-    max_order_size: 2500.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTCTRY(Symbol):
@@ -4460,17 +3525,6 @@ class BTCTRY(Symbol):
 
 
 BTCTRY = BTCTRY(*BTCTRY._fields)
-"""
-    name: tBTCTRY
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTCUSD(Symbol):
@@ -4512,17 +3566,6 @@ class BTCUSD(Symbol):
 
 
 BTCUSD = BTCUSD(*BTCUSD._fields)
-"""
-    name: tBTCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 5.0
-    initial_margin: 10.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTCUST(Symbol):
@@ -4564,17 +3607,6 @@ class BTCUST(Symbol):
 
 
 BTCUST = BTCUST(*BTCUST._fields)
-"""
-    name: tBTCUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.00006
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class BTGBTC(Symbol):
@@ -4616,17 +3648,6 @@ class BTGBTC(Symbol):
 
 
 BTGBTC = BTGBTC(*BTGBTC._fields)
-"""
-    name: tBTGBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.1
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTGUSD(Symbol):
@@ -4668,17 +3689,6 @@ class BTGUSD(Symbol):
 
 
 BTGUSD = BTGUSD(*BTGUSD._fields)
-"""
-    name: tBTGUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.1
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTSE_USD(Symbol):
@@ -4720,17 +3730,6 @@ class BTSE_USD(Symbol):
 
 
 BTSE_USD = BTSE_USD(*BTSE_USD._fields)
-"""
-    name: tBTSE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class BTTUSD(Symbol):
@@ -4772,17 +3771,6 @@ class BTTUSD(Symbol):
 
 
 BTTUSD = BTTUSD(*BTTUSD._fields)
-"""
-    name: tBTTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1970444.0
-    max_order_size: 25000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CCDBTC(Symbol):
@@ -4824,17 +3812,6 @@ class CCDBTC(Symbol):
 
 
 CCDBTC = CCDBTC(*CCDBTC._fields)
-"""
-    name: tCCDBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 100.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CCDUSD(Symbol):
@@ -4876,17 +3853,6 @@ class CCDUSD(Symbol):
 
 
 CCDUSD = CCDUSD(*CCDUSD._fields)
-"""
-    name: tCCDUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 100.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CCDUST(Symbol):
@@ -4928,17 +3894,6 @@ class CCDUST(Symbol):
 
 
 CCDUST = CCDUST(*CCDUST._fields)
-"""
-    name: tCCDUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 100.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHEX_USD(Symbol):
@@ -4980,17 +3935,6 @@ class CHEX_USD(Symbol):
 
 
 CHEX_USD = CHEX_USD(*CHEX_USD._fields)
-"""
-    name: tCHEX:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 88.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHSB_BTC(Symbol):
@@ -5032,17 +3976,6 @@ class CHSB_BTC(Symbol):
 
 
 CHSB_BTC = CHSB_BTC(*CHSB_BTC._fields)
-"""
-    name: tCHSB:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHSB_USD(Symbol):
@@ -5084,17 +4017,6 @@ class CHSB_USD(Symbol):
 
 
 CHSB_USD = CHSB_USD(*CHSB_USD._fields)
-"""
-    name: tCHSB:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHSB_UST(Symbol):
@@ -5136,17 +4058,6 @@ class CHSB_UST(Symbol):
 
 
 CHSB_UST = CHSB_UST(*CHSB_UST._fields)
-"""
-    name: tCHSB:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHZUSD(Symbol):
@@ -5188,17 +4099,6 @@ class CHZUSD(Symbol):
 
 
 CHZUSD = CHZUSD(*CHZUSD._fields)
-"""
-    name: tCHZUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 16.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CHZUST(Symbol):
@@ -5240,17 +4140,6 @@ class CHZUST(Symbol):
 
 
 CHZUST = CHZUST(*CHZUST._fields)
-"""
-    name: tCHZUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 16.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CLOUSD(Symbol):
@@ -5292,17 +4181,6 @@ class CLOUSD(Symbol):
 
 
 CLOUSD = CLOUSD(*CLOUSD._fields)
-"""
-    name: tCLOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 624.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CNH_CNHT(Symbol):
@@ -5344,17 +4222,6 @@ class CNH_CNHT(Symbol):
 
 
 CNH_CNHT = CNH_CNHT(*CNH_CNHT._fields)
-"""
-    name: tCNH:CNHT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class COMP_USD(Symbol):
@@ -5396,17 +4263,6 @@ class COMP_USD(Symbol):
 
 
 COMP_USD = COMP_USD(*COMP_USD._fields)
-"""
-    name: tCOMP:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class COMP_UST(Symbol):
@@ -5448,17 +4304,6 @@ class COMP_UST(Symbol):
 
 
 COMP_UST = COMP_UST(*COMP_UST._fields)
-"""
-    name: tCOMP:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class COMPF0_USTF0(Symbol):
@@ -5500,17 +4345,6 @@ class COMPF0_USTF0(Symbol):
 
 
 COMPF0_USTF0 = COMPF0_USTF0(*COMPF0_USTF0._fields)
-"""
-    name: tCOMPF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class CONV_USD(Symbol):
@@ -5552,17 +4386,6 @@ class CONV_USD(Symbol):
 
 
 CONV_USD = CONV_USD(*CONV_USD._fields)
-"""
-    name: tCONV:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CONV_UST(Symbol):
@@ -5604,17 +4427,6 @@ class CONV_UST(Symbol):
 
 
 CONV_UST = CONV_UST(*CONV_UST._fields)
-"""
-    name: tCONV:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CRVF0_USTF0(Symbol):
@@ -5656,17 +4468,6 @@ class CRVF0_USTF0(Symbol):
 
 
 CRVF0_USTF0 = CRVF0_USTF0(*CRVF0_USTF0._fields)
-"""
-    name: tCRVF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class CRVUSD(Symbol):
@@ -5708,17 +4509,6 @@ class CRVUSD(Symbol):
 
 
 CRVUSD = CRVUSD(*CRVUSD._fields)
-"""
-    name: tCRVUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class CRVUST(Symbol):
@@ -5760,17 +4550,6 @@ class CRVUST(Symbol):
 
 
 CRVUST = CRVUST(*CRVUST._fields)
-"""
-    name: tCRVUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DAIBTC(Symbol):
@@ -5812,17 +4591,6 @@ class DAIBTC(Symbol):
 
 
 DAIBTC = DAIBTC(*DAIBTC._fields)
-"""
-    name: tDAIBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DAIUSD(Symbol):
@@ -5864,17 +4632,6 @@ class DAIUSD(Symbol):
 
 
 DAIUSD = DAIUSD(*DAIUSD._fields)
-"""
-    name: tDAIUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 33.0
-    initial_margin: 66.0
-    min_order_size: 2.0
-    max_order_size: 200000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DGBUSD(Symbol):
@@ -5916,17 +4673,6 @@ class DGBUSD(Symbol):
 
 
 DGBUSD = DGBUSD(*DGBUSD._fields)
-"""
-    name: tDGBUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 184.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DOGE_BTC(Symbol):
@@ -5968,17 +4714,6 @@ class DOGE_BTC(Symbol):
 
 
 DOGE_BTC = DOGE_BTC(*DOGE_BTC._fields)
-"""
-    name: tDOGE:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 1500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOGE_USD(Symbol):
@@ -6020,17 +4755,6 @@ class DOGE_USD(Symbol):
 
 
 DOGE_USD = DOGE_USD(*DOGE_USD._fields)
-"""
-    name: tDOGE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 1500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOGE_UST(Symbol):
@@ -6072,17 +4796,6 @@ class DOGE_UST(Symbol):
 
 
 DOGE_UST = DOGE_UST(*DOGE_UST._fields)
-"""
-    name: tDOGE:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 1500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOGEF0_USTF0(Symbol):
@@ -6124,17 +4837,6 @@ class DOGEF0_USTF0(Symbol):
 
 
 DOGEF0_USTF0 = DOGEF0_USTF0(*DOGEF0_USTF0._fields)
-"""
-    name: tDOGEF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 26.0
-    max_order_size: 1500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DORA_USD(Symbol):
@@ -6176,17 +4878,6 @@ class DORA_USD(Symbol):
 
 
 DORA_USD = DORA_USD(*DORA_USD._fields)
-"""
-    name: tDORA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DORA_UST(Symbol):
@@ -6228,17 +4919,6 @@ class DORA_UST(Symbol):
 
 
 DORA_UST = DORA_UST(*DORA_UST._fields)
-"""
-    name: tDORA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DOTBTC(Symbol):
@@ -6280,17 +4960,6 @@ class DOTBTC(Symbol):
 
 
 DOTBTC = DOTBTC(*DOTBTC._fields)
-"""
-    name: tDOTBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOTF0_BTCF0(Symbol):
@@ -6332,17 +5001,6 @@ class DOTF0_BTCF0(Symbol):
 
 
 DOTF0_BTCF0 = DOTF0_BTCF0(*DOTF0_BTCF0._fields)
-"""
-    name: tDOTF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOTF0_USTF0(Symbol):
@@ -6384,17 +5042,6 @@ class DOTF0_USTF0(Symbol):
 
 
 DOTF0_USTF0 = DOTF0_USTF0(*DOTF0_USTF0._fields)
-"""
-    name: tDOTF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOTUSD(Symbol):
@@ -6436,17 +5083,6 @@ class DOTUSD(Symbol):
 
 
 DOTUSD = DOTUSD(*DOTUSD._fields)
-"""
-    name: tDOTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DOTUST(Symbol):
@@ -6488,17 +5124,6 @@ class DOTUST(Symbol):
 
 
 DOTUST = DOTUST(*DOTUST._fields)
-"""
-    name: tDOTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DSHBTC(Symbol):
@@ -6540,17 +5165,6 @@ class DSHBTC(Symbol):
 
 
 DSHBTC = DSHBTC(*DSHBTC._fields)
-"""
-    name: tDSHBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DSHUSD(Symbol):
@@ -6592,17 +5206,6 @@ class DSHUSD(Symbol):
 
 
 DSHUSD = DSHUSD(*DSHUSD._fields)
-"""
-    name: tDSHUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class DUSK_BTC(Symbol):
@@ -6644,17 +5247,6 @@ class DUSK_BTC(Symbol):
 
 
 DUSK_BTC = DUSK_BTC(*DUSK_BTC._fields)
-"""
-    name: tDUSK:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DUSK_USD(Symbol):
@@ -6696,17 +5288,6 @@ class DUSK_USD(Symbol):
 
 
 DUSK_USD = DUSK_USD(*DUSK_USD._fields)
-"""
-    name: tDUSK:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class DVFUSD(Symbol):
@@ -6748,17 +5329,6 @@ class DVFUSD(Symbol):
 
 
 DVFUSD = DVFUSD(*DVFUSD._fields)
-"""
-    name: tDVFUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EDOUSD(Symbol):
@@ -6800,17 +5370,6 @@ class EDOUSD(Symbol):
 
 
 EDOUSD = EDOUSD(*EDOUSD._fields)
-"""
-    name: tEDOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EGLD_USD(Symbol):
@@ -6852,17 +5411,6 @@ class EGLD_USD(Symbol):
 
 
 EGLD_USD = EGLD_USD(*EGLD_USD._fields)
-"""
-    name: tEGLD:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EGLD_UST(Symbol):
@@ -6904,17 +5452,6 @@ class EGLD_UST(Symbol):
 
 
 EGLD_UST = EGLD_UST(*EGLD_UST._fields)
-"""
-    name: tEGLD:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EGLDF0_USTF0(Symbol):
@@ -6956,17 +5493,6 @@ class EGLDF0_USTF0(Symbol):
 
 
 EGLDF0_USTF0 = EGLDF0_USTF0(*EGLDF0_USTF0._fields)
-"""
-    name: tEGLDF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ENJUSD(Symbol):
@@ -7008,17 +5534,6 @@ class ENJUSD(Symbol):
 
 
 ENJUSD = ENJUSD(*ENJUSD._fields)
-"""
-    name: tENJUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EOSBTC(Symbol):
@@ -7060,17 +5575,6 @@ class EOSBTC(Symbol):
 
 
 EOSBTC = EOSBTC(*EOSBTC._fields)
-"""
-    name: tEOSBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EOSETH(Symbol):
@@ -7112,17 +5616,6 @@ class EOSETH(Symbol):
 
 
 EOSETH = EOSETH(*EOSETH._fields)
-"""
-    name: tEOSETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EOSEUR(Symbol):
@@ -7164,17 +5657,6 @@ class EOSEUR(Symbol):
 
 
 EOSEUR = EOSEUR(*EOSEUR._fields)
-"""
-    name: tEOSEUR
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EOSF0_USTF0(Symbol):
@@ -7216,17 +5698,6 @@ class EOSF0_USTF0(Symbol):
 
 
 EOSF0_USTF0 = EOSF0_USTF0(*EOSF0_USTF0._fields)
-"""
-    name: tEOSF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EOSUSD(Symbol):
@@ -7268,17 +5739,6 @@ class EOSUSD(Symbol):
 
 
 EOSUSD = EOSUSD(*EOSUSD._fields)
-"""
-    name: tEOSUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EOSUST(Symbol):
@@ -7320,17 +5780,6 @@ class EOSUST(Symbol):
 
 
 EOSUST = EOSUST(*EOSUST._fields)
-"""
-    name: tEOSUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETCBTC(Symbol):
@@ -7372,17 +5821,6 @@ class ETCBTC(Symbol):
 
 
 ETCBTC = ETCBTC(*ETCBTC._fields)
-"""
-    name: tETCBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.1
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETCF0_USTF0(Symbol):
@@ -7424,17 +5862,6 @@ class ETCF0_USTF0(Symbol):
 
 
 ETCF0_USTF0 = ETCF0_USTF0(*ETCF0_USTF0._fields)
-"""
-    name: tETCF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.1
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETCUSD(Symbol):
@@ -7476,17 +5903,6 @@ class ETCUSD(Symbol):
 
 
 ETCUSD = ETCUSD(*ETCUSD._fields)
-"""
-    name: tETCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.1
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETCUST(Symbol):
@@ -7528,17 +5944,6 @@ class ETCUST(Symbol):
 
 
 ETCUST = ETCUST(*ETCUST._fields)
-"""
-    name: tETCUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.1
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETH2X_ETH(Symbol):
@@ -7580,17 +5985,6 @@ class ETH2X_ETH(Symbol):
 
 
 ETH2X_ETH = ETH2X_ETH(*ETH2X_ETH._fields)
-"""
-    name: tETH2X:ETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ETH2X_USD(Symbol):
@@ -7632,17 +6026,6 @@ class ETH2X_USD(Symbol):
 
 
 ETH2X_USD = ETH2X_USD(*ETH2X_USD._fields)
-"""
-    name: tETH2X:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ETH2X_UST(Symbol):
@@ -7684,17 +6067,6 @@ class ETH2X_UST(Symbol):
 
 
 ETH2X_UST = ETH2X_UST(*ETH2X_UST._fields)
-"""
-    name: tETH2X:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ETH_MXNT(Symbol):
@@ -7736,17 +6108,6 @@ class ETH_MXNT(Symbol):
 
 
 ETH_MXNT = ETH_MXNT(*ETH_MXNT._fields)
-"""
-    name: tETH:MXNT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 2000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ETH_XAUT(Symbol):
@@ -7788,17 +6149,6 @@ class ETH_XAUT(Symbol):
 
 
 ETH_XAUT = ETH_XAUT(*ETH_XAUT._fields)
-"""
-    name: tETH:XAUT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 2500.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ETHBTC(Symbol):
@@ -7840,17 +6190,6 @@ class ETHBTC(Symbol):
 
 
 ETHBTC = ETHBTC(*ETHBTC._fields)
-"""
-    name: tETHBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHEUR(Symbol):
@@ -7892,17 +6231,6 @@ class ETHEUR(Symbol):
 
 
 ETHEUR = ETHEUR(*ETHEUR._fields)
-"""
-    name: tETHEUR
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHEUT(Symbol):
@@ -7944,17 +6272,6 @@ class ETHEUT(Symbol):
 
 
 ETHEUT = ETHEUT(*ETHEUT._fields)
-"""
-    name: tETHEUT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHF0_BTCF0(Symbol):
@@ -7996,17 +6313,6 @@ class ETHF0_BTCF0(Symbol):
 
 
 ETHF0_BTCF0 = ETHF0_BTCF0(*ETHF0_BTCF0._fields)
-"""
-    name: tETHF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHF0_EUTF0(Symbol):
@@ -8048,17 +6354,6 @@ class ETHF0_EUTF0(Symbol):
 
 
 ETHF0_EUTF0 = ETHF0_EUTF0(*ETHF0_EUTF0._fields)
-"""
-    name: tETHF0:EUTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHF0_USTF0(Symbol):
@@ -8100,17 +6395,6 @@ class ETHF0_USTF0(Symbol):
 
 
 ETHF0_USTF0 = ETHF0_USTF0(*ETHF0_USTF0._fields)
-"""
-    name: tETHF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 1000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHGBP(Symbol):
@@ -8152,17 +6436,6 @@ class ETHGBP(Symbol):
 
 
 ETHGBP = ETHGBP(*ETHGBP._fields)
-"""
-    name: tETHGBP
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHJPY(Symbol):
@@ -8204,17 +6477,6 @@ class ETHJPY(Symbol):
 
 
 ETHJPY = ETHJPY(*ETHJPY._fields)
-"""
-    name: tETHJPY
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHUSD(Symbol):
@@ -8256,17 +6518,6 @@ class ETHUSD(Symbol):
 
 
 ETHUSD = ETHUSD(*ETHUSD._fields)
-"""
-    name: tETHUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHUST(Symbol):
@@ -8308,17 +6559,6 @@ class ETHUST(Symbol):
 
 
 ETHUST = ETHUST(*ETHUST._fields)
-"""
-    name: tETHUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHW_USD(Symbol):
@@ -8360,17 +6600,6 @@ class ETHW_USD(Symbol):
 
 
 ETHW_USD = ETHW_USD(*ETHW_USD._fields)
-"""
-    name: tETHW:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 30.0
-    initial_margin: 60.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETHW_UST(Symbol):
@@ -8412,17 +6641,6 @@ class ETHW_UST(Symbol):
 
 
 ETHW_UST = ETHW_UST(*ETHW_UST._fields)
-"""
-    name: tETHW:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 30.0
-    initial_margin: 60.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ETPUSD(Symbol):
@@ -8464,17 +6682,6 @@ class ETPUSD(Symbol):
 
 
 ETPUSD = ETPUSD(*ETPUSD._fields)
-"""
-    name: tETPUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 42.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EURF0_USTF0(Symbol):
@@ -8516,17 +6723,6 @@ class EURF0_USTF0(Symbol):
 
 
 EURF0_USTF0 = EURF0_USTF0(*EURF0_USTF0._fields)
-"""
-    name: tEURF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EUROPE50IXF0_USTF0(Symbol):
@@ -8568,17 +6764,6 @@ class EUROPE50IXF0_USTF0(Symbol):
 
 
 EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0(*EUROPE50IXF0_USTF0._fields)
-"""
-    name: tEUROPE50IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.0006
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class EURUST(Symbol):
@@ -8620,17 +6805,6 @@ class EURUST(Symbol):
 
 
 EURUST = EURUST(*EURUST._fields)
-"""
-    name: tEURUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EUSUSD(Symbol):
@@ -8672,17 +6846,6 @@ class EUSUSD(Symbol):
 
 
 EUSUSD = EUSUSD(*EUSUSD._fields)
-"""
-    name: tEUSUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EUT_MXNT(Symbol):
@@ -8724,17 +6887,6 @@ class EUT_MXNT(Symbol):
 
 
 EUT_MXNT = EUT_MXNT(*EUT_MXNT._fields)
-"""
-    name: tEUT:MXNT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EUTEUR(Symbol):
@@ -8776,17 +6928,6 @@ class EUTEUR(Symbol):
 
 
 EUTEUR = EUTEUR(*EUTEUR._fields)
-"""
-    name: tEUTEUR
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EUTUSD(Symbol):
@@ -8828,17 +6969,6 @@ class EUTUSD(Symbol):
 
 
 EUTUSD = EUTUSD(*EUTUSD._fields)
-"""
-    name: tEUTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class EUTUST(Symbol):
@@ -8880,17 +7010,6 @@ class EUTUST(Symbol):
 
 
 EUTUST = EUTUST(*EUTUST._fields)
-"""
-    name: tEUTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FBTUSD(Symbol):
@@ -8932,17 +7051,6 @@ class FBTUSD(Symbol):
 
 
 FBTUSD = FBTUSD(*FBTUSD._fields)
-"""
-    name: tFBTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FBTUST(Symbol):
@@ -8984,17 +7092,6 @@ class FBTUST(Symbol):
 
 
 FBTUST = FBTUST(*FBTUST._fields)
-"""
-    name: tFBTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FCLUSD(Symbol):
@@ -9036,17 +7133,6 @@ class FCLUSD(Symbol):
 
 
 FCLUSD = FCLUSD(*FCLUSD._fields)
-"""
-    name: tFCLUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 62.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FCLUST(Symbol):
@@ -9088,17 +7174,6 @@ class FCLUST(Symbol):
 
 
 FCLUST = FCLUST(*FCLUST._fields)
-"""
-    name: tFCLUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 62.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FETUSD(Symbol):
@@ -9140,17 +7215,6 @@ class FETUSD(Symbol):
 
 
 FETUSD = FETUSD(*FETUSD._fields)
-"""
-    name: tFETUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FETUST(Symbol):
@@ -9192,17 +7256,6 @@ class FETUST(Symbol):
 
 
 FETUST = FETUST(*FETUST._fields)
-"""
-    name: tFETUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FILF0_USTF0(Symbol):
@@ -9244,17 +7297,6 @@ class FILF0_USTF0(Symbol):
 
 
 FILF0_USTF0 = FILF0_USTF0(*FILF0_USTF0._fields)
-"""
-    name: tFILF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FILUSD(Symbol):
@@ -9296,17 +7338,6 @@ class FILUSD(Symbol):
 
 
 FILUSD = FILUSD(*FILUSD._fields)
-"""
-    name: tFILUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FILUST(Symbol):
@@ -9348,17 +7379,6 @@ class FILUST(Symbol):
 
 
 FILUST = FILUST(*FILUST._fields)
-"""
-    name: tFILUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FLOKI_USD(Symbol):
@@ -9400,17 +7420,6 @@ class FLOKI_USD(Symbol):
 
 
 FLOKI_USD = FLOKI_USD(*FLOKI_USD._fields)
-"""
-    name: tFLOKI:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 2500000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FLOKI_UST(Symbol):
@@ -9452,17 +7461,6 @@ class FLOKI_UST(Symbol):
 
 
 FLOKI_UST = FLOKI_UST(*FLOKI_UST._fields)
-"""
-    name: tFLOKI:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 2500000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FLRUSD(Symbol):
@@ -9504,17 +7502,6 @@ class FLRUSD(Symbol):
 
 
 FLRUSD = FLRUSD(*FLRUSD._fields)
-"""
-    name: tFLRUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FLRUST(Symbol):
@@ -9556,17 +7543,6 @@ class FLRUST(Symbol):
 
 
 FLRUST = FLRUST(*FLRUST._fields)
-"""
-    name: tFLRUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FORTH_USD(Symbol):
@@ -9608,17 +7584,6 @@ class FORTH_USD(Symbol):
 
 
 FORTH_USD = FORTH_USD(*FORTH_USD._fields)
-"""
-    name: tFORTH:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FORTH_UST(Symbol):
@@ -9660,17 +7625,6 @@ class FORTH_UST(Symbol):
 
 
 FORTH_UST = FORTH_UST(*FORTH_UST._fields)
-"""
-    name: tFORTH:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class FRANCE40IXF0_USTF0(Symbol):
@@ -9712,17 +7666,6 @@ class FRANCE40IXF0_USTF0(Symbol):
 
 
 FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0(*FRANCE40IXF0_USTF0._fields)
-"""
-    name: tFRANCE40IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FTMF0_USTF0(Symbol):
@@ -9764,17 +7707,6 @@ class FTMF0_USTF0(Symbol):
 
 
 FTMF0_USTF0 = FTMF0_USTF0(*FTMF0_USTF0._fields)
-"""
-    name: tFTMF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FTMUSD(Symbol):
@@ -9816,17 +7748,6 @@ class FTMUSD(Symbol):
 
 
 FTMUSD = FTMUSD(*FTMUSD._fields)
-"""
-    name: tFTMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FTMUST(Symbol):
@@ -9868,17 +7789,6 @@ class FTMUST(Symbol):
 
 
 FTMUST = FTMUST(*FTMUST._fields)
-"""
-    name: tFTMUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class FUNUSD(Symbol):
@@ -9920,17 +7830,6 @@ class FUNUSD(Symbol):
 
 
 FUNUSD = FUNUSD(*FUNUSD._fields)
-"""
-    name: tFUNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 226.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GALA_USD(Symbol):
@@ -9972,17 +7871,6 @@ class GALA_USD(Symbol):
 
 
 GALA_USD = GALA_USD(*GALA_USD._fields)
-"""
-    name: tGALA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GALA_UST(Symbol):
@@ -10024,17 +7912,6 @@ class GALA_UST(Symbol):
 
 
 GALA_UST = GALA_UST(*GALA_UST._fields)
-"""
-    name: tGALA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GALAF0_USTF0(Symbol):
@@ -10076,17 +7953,6 @@ class GALAF0_USTF0(Symbol):
 
 
 GALAF0_USTF0 = GALAF0_USTF0(*GALAF0_USTF0._fields)
-"""
-    name: tGALAF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 26.0
-    max_order_size: 500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class GBPEUT(Symbol):
@@ -10128,17 +7994,6 @@ class GBPEUT(Symbol):
 
 
 GBPEUT = GBPEUT(*GBPEUT._fields)
-"""
-    name: tGBPEUT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GBPF0_USTF0(Symbol):
@@ -10180,17 +8035,6 @@ class GBPF0_USTF0(Symbol):
 
 
 GBPF0_USTF0 = GBPF0_USTF0(*GBPF0_USTF0._fields)
-"""
-    name: tGBPF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class GBPUST(Symbol):
@@ -10232,17 +8076,6 @@ class GBPUST(Symbol):
 
 
 GBPUST = GBPUST(*GBPUST._fields)
-"""
-    name: tGBPUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GERMANY40IXF0_USTF0(Symbol):
@@ -10284,17 +8117,6 @@ class GERMANY40IXF0_USTF0(Symbol):
 
 
 GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0(*GERMANY40IXF0_USTF0._fields)
-"""
-    name: tGERMANY40IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.0004
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class GNOUSD(Symbol):
@@ -10336,17 +8158,6 @@ class GNOUSD(Symbol):
 
 
 GNOUSD = GNOUSD(*GNOUSD._fields)
-"""
-    name: tGNOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 1000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GNTUSD(Symbol):
@@ -10388,17 +8199,6 @@ class GNTUSD(Symbol):
 
 
 GNTUSD = GNTUSD(*GNTUSD._fields)
-"""
-    name: tGNTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GPTUSD(Symbol):
@@ -10440,17 +8240,6 @@ class GPTUSD(Symbol):
 
 
 GPTUSD = GPTUSD(*GPTUSD._fields)
-"""
-    name: tGPTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 400000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GPTUST(Symbol):
@@ -10492,17 +8281,6 @@ class GPTUST(Symbol):
 
 
 GPTUST = GPTUST(*GPTUST._fields)
-"""
-    name: tGPTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 400000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GRTUSD(Symbol):
@@ -10544,17 +8322,6 @@ class GRTUSD(Symbol):
 
 
 GRTUSD = GRTUSD(*GRTUSD._fields)
-"""
-    name: tGRTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GRTUST(Symbol):
@@ -10596,17 +8363,6 @@ class GRTUST(Symbol):
 
 
 GRTUST = GRTUST(*GRTUST._fields)
-"""
-    name: tGRTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GTXUSD(Symbol):
@@ -10648,17 +8404,6 @@ class GTXUSD(Symbol):
 
 
 GTXUSD = GTXUSD(*GTXUSD._fields)
-"""
-    name: tGTXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GTXUST(Symbol):
@@ -10700,17 +8445,6 @@ class GTXUST(Symbol):
 
 
 GTXUST = GTXUST(*GTXUST._fields)
-"""
-    name: tGTXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GXTUSD(Symbol):
@@ -10752,17 +8486,6 @@ class GXTUSD(Symbol):
 
 
 GXTUSD = GXTUSD(*GXTUSD._fields)
-"""
-    name: tGXTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class GXTUST(Symbol):
@@ -10804,17 +8527,6 @@ class GXTUST(Symbol):
 
 
 GXTUST = GXTUST(*GXTUST._fields)
-"""
-    name: tGXTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HECUSD(Symbol):
@@ -10856,17 +8568,6 @@ class HECUSD(Symbol):
 
 
 HECUSD = HECUSD(*HECUSD._fields)
-"""
-    name: tHECUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HECUST(Symbol):
@@ -10908,17 +8609,6 @@ class HECUST(Symbol):
 
 
 HECUST = HECUST(*HECUST._fields)
-"""
-    name: tHECUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HIXUSD(Symbol):
@@ -10960,17 +8650,6 @@ class HIXUSD(Symbol):
 
 
 HIXUSD = HIXUSD(*HIXUSD._fields)
-"""
-    name: tHIXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HIXUST(Symbol):
@@ -11012,17 +8691,6 @@ class HIXUST(Symbol):
 
 
 HIXUST = HIXUST(*HIXUST._fields)
-"""
-    name: tHIXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HMTUSD(Symbol):
@@ -11064,17 +8732,6 @@ class HMTUSD(Symbol):
 
 
 HMTUSD = HMTUSD(*HMTUSD._fields)
-"""
-    name: tHMTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HMTUST(Symbol):
@@ -11116,17 +8773,6 @@ class HMTUST(Symbol):
 
 
 HMTUST = HMTUST(*HMTUST._fields)
-"""
-    name: tHMTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HONGKONG50IXF0_USTF0(Symbol):
@@ -11168,17 +8814,6 @@ class HONGKONG50IXF0_USTF0(Symbol):
 
 
 HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0(*HONGKONG50IXF0_USTF0._fields)
-"""
-    name: tHONGKONG50IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class HTXUSD(Symbol):
@@ -11220,17 +8855,6 @@ class HTXUSD(Symbol):
 
 
 HTXUSD = HTXUSD(*HTXUSD._fields)
-"""
-    name: tHTXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class HTXUST(Symbol):
@@ -11272,17 +8896,6 @@ class HTXUST(Symbol):
 
 
 HTXUST = HTXUST(*HTXUST._fields)
-"""
-    name: tHTXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ICEUSD(Symbol):
@@ -11324,17 +8937,6 @@ class ICEUSD(Symbol):
 
 
 ICEUSD = ICEUSD(*ICEUSD._fields)
-"""
-    name: tICEUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ICPBTC(Symbol):
@@ -11376,17 +8978,6 @@ class ICPBTC(Symbol):
 
 
 ICPBTC = ICPBTC(*ICPBTC._fields)
-"""
-    name: tICPBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ICPF0_USTF0(Symbol):
@@ -11428,17 +9019,6 @@ class ICPF0_USTF0(Symbol):
 
 
 ICPF0_USTF0 = ICPF0_USTF0(*ICPF0_USTF0._fields)
-"""
-    name: tICPF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ICPUSD(Symbol):
@@ -11480,17 +9060,6 @@ class ICPUSD(Symbol):
 
 
 ICPUSD = ICPUSD(*ICPUSD._fields)
-"""
-    name: tICPUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ICPUST(Symbol):
@@ -11532,17 +9101,6 @@ class ICPUST(Symbol):
 
 
 ICPUST = ICPUST(*ICPUST._fields)
-"""
-    name: tICPUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class IDXUSD(Symbol):
@@ -11584,17 +9142,6 @@ class IDXUSD(Symbol):
 
 
 IDXUSD = IDXUSD(*IDXUSD._fields)
-"""
-    name: tIDXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class IDXUST(Symbol):
@@ -11636,17 +9183,6 @@ class IDXUST(Symbol):
 
 
 IDXUST = IDXUST(*IDXUST._fields)
-"""
-    name: tIDXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class IOTBTC(Symbol):
@@ -11688,17 +9224,6 @@ class IOTBTC(Symbol):
 
 
 IOTBTC = IOTBTC(*IOTBTC._fields)
-"""
-    name: tIOTBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class IOTF0_USTF0(Symbol):
@@ -11740,17 +9265,6 @@ class IOTF0_USTF0(Symbol):
 
 
 IOTF0_USTF0 = IOTF0_USTF0(*IOTF0_USTF0._fields)
-"""
-    name: tIOTF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class IOTUSD(Symbol):
@@ -11792,17 +9306,6 @@ class IOTUSD(Symbol):
 
 
 IOTUSD = IOTUSD(*IOTUSD._fields)
-"""
-    name: tIOTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class JAPAN225IXF0_USTF0(Symbol):
@@ -11844,17 +9347,6 @@ class JAPAN225IXF0_USTF0(Symbol):
 
 
 JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0(*JAPAN225IXF0_USTF0._fields)
-"""
-    name: tJAPAN225IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class JASMY_USD(Symbol):
@@ -11896,17 +9388,6 @@ class JASMY_USD(Symbol):
 
 
 JASMY_USD = JASMY_USD(*JASMY_USD._fields)
-"""
-    name: tJASMY:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 168.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class JASMY_UST(Symbol):
@@ -11948,17 +9429,6 @@ class JASMY_UST(Symbol):
 
 
 JASMY_UST = JASMY_UST(*JASMY_UST._fields)
-"""
-    name: tJASMY:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 168.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class JASMYF0_USTF0(Symbol):
@@ -12000,17 +9470,6 @@ class JASMYF0_USTF0(Symbol):
 
 
 JASMYF0_USTF0 = JASMYF0_USTF0(*JASMYF0_USTF0._fields)
-"""
-    name: tJASMYF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 168.0
-    max_order_size: 2500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class JPYF0_USTF0(Symbol):
@@ -12052,17 +9511,6 @@ class JPYF0_USTF0(Symbol):
 
 
 JPYF0_USTF0 = JPYF0_USTF0(*JPYF0_USTF0._fields)
-"""
-    name: tJPYF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 262.0
-    max_order_size: 100000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class JPYUST(Symbol):
@@ -12104,17 +9552,6 @@ class JPYUST(Symbol):
 
 
 JPYUST = JPYUST(*JPYUST._fields)
-"""
-    name: tJPYUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 262.0
-    max_order_size: 100000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class JSTBTC(Symbol):
@@ -12156,17 +9593,6 @@ class JSTBTC(Symbol):
 
 
 JSTBTC = JSTBTC(*JSTBTC._fields)
-"""
-    name: tJSTBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 48.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class JSTUSD(Symbol):
@@ -12208,17 +9634,6 @@ class JSTUSD(Symbol):
 
 
 JSTUSD = JSTUSD(*JSTUSD._fields)
-"""
-    name: tJSTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 48.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class JSTUST(Symbol):
@@ -12260,17 +9675,6 @@ class JSTUST(Symbol):
 
 
 JSTUST = JSTUST(*JSTUST._fields)
-"""
-    name: tJSTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 48.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KANUSD(Symbol):
@@ -12312,17 +9716,6 @@ class KANUSD(Symbol):
 
 
 KANUSD = KANUSD(*KANUSD._fields)
-"""
-    name: tKANUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1542.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KANUST(Symbol):
@@ -12364,17 +9757,6 @@ class KANUST(Symbol):
 
 
 KANUST = KANUST(*KANUST._fields)
-"""
-    name: tKANUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1542.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KNCBTC(Symbol):
@@ -12416,17 +9798,6 @@ class KNCBTC(Symbol):
 
 
 KNCBTC = KNCBTC(*KNCBTC._fields)
-"""
-    name: tKNCBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 20000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KNCF0_USTF0(Symbol):
@@ -12468,17 +9839,6 @@ class KNCF0_USTF0(Symbol):
 
 
 KNCF0_USTF0 = KNCF0_USTF0(*KNCF0_USTF0._fields)
-"""
-    name: tKNCF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class KNCUSD(Symbol):
@@ -12520,17 +9880,6 @@ class KNCUSD(Symbol):
 
 
 KNCUSD = KNCUSD(*KNCUSD._fields)
-"""
-    name: tKNCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KSMUSD(Symbol):
@@ -12572,17 +9921,6 @@ class KSMUSD(Symbol):
 
 
 KSMUSD = KSMUSD(*KSMUSD._fields)
-"""
-    name: tKSMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class KSMUST(Symbol):
@@ -12624,17 +9962,6 @@ class KSMUST(Symbol):
 
 
 KSMUST = KSMUST(*KSMUST._fields)
-"""
-    name: tKSMUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LDOUSD(Symbol):
@@ -12676,17 +10003,6 @@ class LDOUSD(Symbol):
 
 
 LDOUSD = LDOUSD(*LDOUSD._fields)
-"""
-    name: tLDOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LDOUST(Symbol):
@@ -12728,17 +10044,6 @@ class LDOUST(Symbol):
 
 
 LDOUST = LDOUST(*LDOUST._fields)
-"""
-    name: tLDOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LEOBTC(Symbol):
@@ -12780,17 +10085,6 @@ class LEOBTC(Symbol):
 
 
 LEOBTC = LEOBTC(*LEOBTC._fields)
-"""
-    name: tLEOBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LEOETH(Symbol):
@@ -12832,17 +10126,6 @@ class LEOETH(Symbol):
 
 
 LEOETH = LEOETH(*LEOETH._fields)
-"""
-    name: tLEOETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LEOUSD(Symbol):
@@ -12884,17 +10167,6 @@ class LEOUSD(Symbol):
 
 
 LEOUSD = LEOUSD(*LEOUSD._fields)
-"""
-    name: tLEOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LEOUST(Symbol):
@@ -12936,17 +10208,6 @@ class LEOUST(Symbol):
 
 
 LEOUST = LEOUST(*LEOUST._fields)
-"""
-    name: tLEOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LINK_USD(Symbol):
@@ -12988,17 +10249,6 @@ class LINK_USD(Symbol):
 
 
 LINK_USD = LINK_USD(*LINK_USD._fields)
-"""
-    name: tLINK:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LINK_UST(Symbol):
@@ -13040,17 +10290,6 @@ class LINK_UST(Symbol):
 
 
 LINK_UST = LINK_UST(*LINK_UST._fields)
-"""
-    name: tLINK:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LINKF0_USTF0(Symbol):
@@ -13092,17 +10331,6 @@ class LINKF0_USTF0(Symbol):
 
 
 LINKF0_USTF0 = LINKF0_USTF0(*LINKF0_USTF0._fields)
-"""
-    name: tLINKF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LRCUSD(Symbol):
@@ -13144,17 +10372,6 @@ class LRCUSD(Symbol):
 
 
 LRCUSD = LRCUSD(*LRCUSD._fields)
-"""
-    name: tLRCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LTCBTC(Symbol):
@@ -13196,17 +10413,6 @@ class LTCBTC(Symbol):
 
 
 LTCBTC = LTCBTC(*LTCBTC._fields)
-"""
-    name: tLTCBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LTCF0_BTCF0(Symbol):
@@ -13248,17 +10454,6 @@ class LTCF0_BTCF0(Symbol):
 
 
 LTCF0_BTCF0 = LTCF0_BTCF0(*LTCF0_BTCF0._fields)
-"""
-    name: tLTCF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.04
-    max_order_size: 7500.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LTCF0_USTF0(Symbol):
@@ -13300,17 +10495,6 @@ class LTCF0_USTF0(Symbol):
 
 
 LTCF0_USTF0 = LTCF0_USTF0(*LTCF0_USTF0._fields)
-"""
-    name: tLTCF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.04
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LTCUSD(Symbol):
@@ -13352,17 +10536,6 @@ class LTCUSD(Symbol):
 
 
 LTCUSD = LTCUSD(*LTCUSD._fields)
-"""
-    name: tLTCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.04
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LTCUST(Symbol):
@@ -13404,17 +10577,6 @@ class LTCUST(Symbol):
 
 
 LTCUST = LTCUST(*LTCUST._fields)
-"""
-    name: tLTCUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.04
-    max_order_size: 2000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class LUNA2_USD(Symbol):
@@ -13456,17 +10618,6 @@ class LUNA2_USD(Symbol):
 
 
 LUNA2_USD = LUNA2_USD(*LUNA2_USD._fields)
-"""
-    name: tLUNA2:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LUNA2_UST(Symbol):
@@ -13508,17 +10659,6 @@ class LUNA2_UST(Symbol):
 
 
 LUNA2_UST = LUNA2_UST(*LUNA2_UST._fields)
-"""
-    name: tLUNA2:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LUNA_USD(Symbol):
@@ -13560,17 +10700,6 @@ class LUNA_USD(Symbol):
 
 
 LUNA_USD = LUNA_USD(*LUNA_USD._fields)
-"""
-    name: tLUNA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20814.0
-    max_order_size: 100000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LUNA_UST(Symbol):
@@ -13612,17 +10741,6 @@ class LUNA_UST(Symbol):
 
 
 LUNA_UST = LUNA_UST(*LUNA_UST._fields)
-"""
-    name: tLUNA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20814.0
-    max_order_size: 100000000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LUXO_USD(Symbol):
@@ -13664,17 +10782,6 @@ class LUXO_USD(Symbol):
 
 
 LUXO_USD = LUXO_USD(*LUXO_USD._fields)
-"""
-    name: tLUXO:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class LYMUSD(Symbol):
@@ -13716,17 +10823,6 @@ class LYMUSD(Symbol):
 
 
 LYMUSD = LYMUSD(*LYMUSD._fields)
-"""
-    name: tLYMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 740.0
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MATIC_BTC(Symbol):
@@ -13768,17 +10864,6 @@ class MATIC_BTC(Symbol):
 
 
 MATIC_BTC = MATIC_BTC(*MATIC_BTC._fields)
-"""
-    name: tMATIC:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MATIC_USD(Symbol):
@@ -13820,17 +10905,6 @@ class MATIC_USD(Symbol):
 
 
 MATIC_USD = MATIC_USD(*MATIC_USD._fields)
-"""
-    name: tMATIC:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class MATIC_UST(Symbol):
@@ -13872,17 +10946,6 @@ class MATIC_UST(Symbol):
 
 
 MATIC_UST = MATIC_UST(*MATIC_UST._fields)
-"""
-    name: tMATIC:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class MATICF0_USTF0(Symbol):
@@ -13924,17 +10987,6 @@ class MATICF0_USTF0(Symbol):
 
 
 MATICF0_USTF0 = MATICF0_USTF0(*MATICF0_USTF0._fields)
-"""
-    name: tMATICF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 4.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class MIMUSD(Symbol):
@@ -13976,17 +11028,6 @@ class MIMUSD(Symbol):
 
 
 MIMUSD = MIMUSD(*MIMUSD._fields)
-"""
-    name: tMIMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MIMUST(Symbol):
@@ -14028,17 +11069,6 @@ class MIMUST(Symbol):
 
 
 MIMUST = MIMUST(*MIMUST._fields)
-"""
-    name: tMIMUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MKRF0_USTF0(Symbol):
@@ -14080,17 +11110,6 @@ class MKRF0_USTF0(Symbol):
 
 
 MKRF0_USTF0 = MKRF0_USTF0(*MKRF0_USTF0._fields)
-"""
-    name: tMKRF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 2500.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class MKRUSD(Symbol):
@@ -14132,17 +11151,6 @@ class MKRUSD(Symbol):
 
 
 MKRUSD = MKRUSD(*MKRUSD._fields)
-"""
-    name: tMKRUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 2500.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class MKRUST(Symbol):
@@ -14184,17 +11192,6 @@ class MKRUST(Symbol):
 
 
 MKRUST = MKRUST(*MKRUST._fields)
-"""
-    name: tMKRUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.002
-    max_order_size: 2500.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MLNUSD(Symbol):
@@ -14236,17 +11233,6 @@ class MLNUSD(Symbol):
 
 
 MLNUSD = MLNUSD(*MLNUSD._fields)
-"""
-    name: tMLNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.08
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MNABTC(Symbol):
@@ -14288,17 +11274,6 @@ class MNABTC(Symbol):
 
 
 MNABTC = MNABTC(*MNABTC._fields)
-"""
-    name: tMNABTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MNAUSD(Symbol):
@@ -14340,17 +11315,6 @@ class MNAUSD(Symbol):
 
 
 MNAUSD = MNAUSD(*MNAUSD._fields)
-"""
-    name: tMNAUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MOBUSD(Symbol):
@@ -14392,17 +11356,6 @@ class MOBUSD(Symbol):
 
 
 MOBUSD = MOBUSD(*MOBUSD._fields)
-"""
-    name: tMOBUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MOBUST(Symbol):
@@ -14444,17 +11397,6 @@ class MOBUST(Symbol):
 
 
 MOBUST = MOBUST(*MOBUST._fields)
-"""
-    name: tMOBUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class MXNT_USD(Symbol):
@@ -14496,17 +11438,6 @@ class MXNT_USD(Symbol):
 
 
 MXNT_USD = MXNT_USD(*MXNT_USD._fields)
-"""
-    name: tMXNT:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NEAR_USD(Symbol):
@@ -14548,17 +11479,6 @@ class NEAR_USD(Symbol):
 
 
 NEAR_USD = NEAR_USD(*NEAR_USD._fields)
-"""
-    name: tNEAR:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NEAR_UST(Symbol):
@@ -14600,17 +11520,6 @@ class NEAR_UST(Symbol):
 
 
 NEAR_UST = NEAR_UST(*NEAR_UST._fields)
-"""
-    name: tNEAR:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 25000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NEARF0_USTF0(Symbol):
@@ -14652,17 +11561,6 @@ class NEARF0_USTF0(Symbol):
 
 
 NEARF0_USTF0 = NEARF0_USTF0(*NEARF0_USTF0._fields)
-"""
-    name: tNEARF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.4
-    max_order_size: 25000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class NEOBTC(Symbol):
@@ -14704,17 +11602,6 @@ class NEOBTC(Symbol):
 
 
 NEOBTC = NEOBTC(*NEOBTC._fields)
-"""
-    name: tNEOBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class NEOF0_USTF0(Symbol):
@@ -14756,17 +11643,6 @@ class NEOF0_USTF0(Symbol):
 
 
 NEOF0_USTF0 = NEOF0_USTF0(*NEOF0_USTF0._fields)
-"""
-    name: tNEOF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class NEOUSD(Symbol):
@@ -14808,17 +11684,6 @@ class NEOUSD(Symbol):
 
 
 NEOUSD = NEOUSD(*NEOUSD._fields)
-"""
-    name: tNEOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class NEOUST(Symbol):
@@ -14860,17 +11725,6 @@ class NEOUST(Symbol):
 
 
 NEOUST = NEOUST(*NEOUST._fields)
-"""
-    name: tNEOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class NEXO_BTC(Symbol):
@@ -14912,17 +11766,6 @@ class NEXO_BTC(Symbol):
 
 
 NEXO_BTC = NEXO_BTC(*NEXO_BTC._fields)
-"""
-    name: tNEXO:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NEXO_USD(Symbol):
@@ -14964,17 +11807,6 @@ class NEXO_USD(Symbol):
 
 
 NEXO_USD = NEXO_USD(*NEXO_USD._fields)
-"""
-    name: tNEXO:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NEXO_UST(Symbol):
@@ -15016,17 +11848,6 @@ class NEXO_UST(Symbol):
 
 
 NEXO_UST = NEXO_UST(*NEXO_UST._fields)
-"""
-    name: tNEXO:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NOMUSD(Symbol):
@@ -15068,17 +11889,6 @@ class NOMUSD(Symbol):
 
 
 NOMUSD = NOMUSD(*NOMUSD._fields)
-"""
-    name: tNOMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 20000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NOMUST(Symbol):
@@ -15120,17 +11930,6 @@ class NOMUST(Symbol):
 
 
 NOMUST = NOMUST(*NOMUST._fields)
-"""
-    name: tNOMUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 20000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class NXRA_USD(Symbol):
@@ -15172,17 +11971,6 @@ class NXRA_USD(Symbol):
 
 
 NXRA_USD = NXRA_USD(*NXRA_USD._fields)
-"""
-    name: tNXRA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 200000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class OCEAN_USD(Symbol):
@@ -15224,17 +12012,6 @@ class OCEAN_USD(Symbol):
 
 
 OCEAN_USD = OCEAN_USD(*OCEAN_USD._fields)
-"""
-    name: tOCEAN:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 10.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class OCEAN_UST(Symbol):
@@ -15276,17 +12053,6 @@ class OCEAN_UST(Symbol):
 
 
 OCEAN_UST = OCEAN_UST(*OCEAN_UST._fields)
-"""
-    name: tOCEAN:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 10.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class OGNUSD(Symbol):
@@ -15328,17 +12094,6 @@ class OGNUSD(Symbol):
 
 
 OGNUSD = OGNUSD(*OGNUSD._fields)
-"""
-    name: tOGNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class OGNUST(Symbol):
@@ -15380,17 +12135,6 @@ class OGNUST(Symbol):
 
 
 OGNUST = OGNUST(*OGNUST._fields)
-"""
-    name: tOGNUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class OMGBTC(Symbol):
@@ -15432,17 +12176,6 @@ class OMGBTC(Symbol):
 
 
 OMGBTC = OMGBTC(*OMGBTC._fields)
-"""
-    name: tOMGBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class OMGETH(Symbol):
@@ -15484,17 +12217,6 @@ class OMGETH(Symbol):
 
 
 OMGETH = OMGETH(*OMGETH._fields)
-"""
-    name: tOMGETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class OMGF0_USTF0(Symbol):
@@ -15536,17 +12258,6 @@ class OMGF0_USTF0(Symbol):
 
 
 OMGF0_USTF0 = OMGF0_USTF0(*OMGF0_USTF0._fields)
-"""
-    name: tOMGF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.8
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class OMGUSD(Symbol):
@@ -15588,17 +12299,6 @@ class OMGUSD(Symbol):
 
 
 OMGUSD = OMGUSD(*OMGUSD._fields)
-"""
-    name: tOMGUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class OMNUSD(Symbol):
@@ -15640,17 +12340,6 @@ class OMNUSD(Symbol):
 
 
 OMNUSD = OMNUSD(*OMNUSD._fields)
-"""
-    name: tOMNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 20000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ONEUSD(Symbol):
@@ -15692,17 +12381,6 @@ class ONEUSD(Symbol):
 
 
 ONEUSD = ONEUSD(*ONEUSD._fields)
-"""
-    name: tONEUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ONEUST(Symbol):
@@ -15744,17 +12422,6 @@ class ONEUST(Symbol):
 
 
 ONEUST = ONEUST(*ONEUST._fields)
-"""
-    name: tONEUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PASUSD(Symbol):
@@ -15796,17 +12463,6 @@ class PASUSD(Symbol):
 
 
 PASUSD = PASUSD(*PASUSD._fields)
-"""
-    name: tPASUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1588.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PAXUSD(Symbol):
@@ -15848,17 +12504,6 @@ class PAXUSD(Symbol):
 
 
 PAXUSD = PAXUSD(*PAXUSD._fields)
-"""
-    name: tPAXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PAXUST(Symbol):
@@ -15900,17 +12545,6 @@ class PAXUST(Symbol):
 
 
 PAXUST = PAXUST(*PAXUST._fields)
-"""
-    name: tPAXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PLANETS_USD(Symbol):
@@ -15952,17 +12586,6 @@ class PLANETS_USD(Symbol):
 
 
 PLANETS_USD = PLANETS_USD(*PLANETS_USD._fields)
-"""
-    name: tPLANETS:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 124.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PLANETS_UST(Symbol):
@@ -16004,17 +12627,6 @@ class PLANETS_UST(Symbol):
 
 
 PLANETS_UST = PLANETS_UST(*PLANETS_UST._fields)
-"""
-    name: tPLANETS:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 124.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PLUUSD(Symbol):
@@ -16056,17 +12668,6 @@ class PLUUSD(Symbol):
 
 
 PLUUSD = PLUUSD(*PLUUSD._fields)
-"""
-    name: tPLUUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 10000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PNKUSD(Symbol):
@@ -16108,17 +12709,6 @@ class PNKUSD(Symbol):
 
 
 PNKUSD = PNKUSD(*PNKUSD._fields)
-"""
-    name: tPNKUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 52.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class POLC_USD(Symbol):
@@ -16160,17 +12750,6 @@ class POLC_USD(Symbol):
 
 
 POLC_USD = POLC_USD(*POLC_USD._fields)
-"""
-    name: tPOLC:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class POLC_UST(Symbol):
@@ -16212,17 +12791,6 @@ class POLC_UST(Symbol):
 
 
 POLC_UST = POLC_UST(*POLC_UST._fields)
-"""
-    name: tPOLC:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 26.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class POLIS_USD(Symbol):
@@ -16264,17 +12832,6 @@ class POLIS_USD(Symbol):
 
 
 POLIS_USD = POLIS_USD(*POLIS_USD._fields)
-"""
-    name: tPOLIS:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class POLIS_UST(Symbol):
@@ -16316,17 +12873,6 @@ class POLIS_UST(Symbol):
 
 
 POLIS_UST = POLIS_UST(*POLIS_UST._fields)
-"""
-    name: tPOLIS:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PRMX_USD(Symbol):
@@ -16368,17 +12914,6 @@ class PRMX_USD(Symbol):
 
 
 PRMX_USD = PRMX_USD(*PRMX_USD._fields)
-"""
-    name: tPRMX:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 4000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class PRMX_UST(Symbol):
@@ -16420,17 +12955,6 @@ class PRMX_UST(Symbol):
 
 
 PRMX_UST = PRMX_UST(*PRMX_UST._fields)
-"""
-    name: tPRMX:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 4000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class QRDO_USD(Symbol):
@@ -16472,17 +12996,6 @@ class QRDO_USD(Symbol):
 
 
 QRDO_USD = QRDO_USD(*QRDO_USD._fields)
-"""
-    name: tQRDO:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class QRDO_UST(Symbol):
@@ -16524,17 +13037,6 @@ class QRDO_UST(Symbol):
 
 
 QRDO_UST = QRDO_UST(*QRDO_UST._fields)
-"""
-    name: tQRDO:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class QTFBTC(Symbol):
@@ -16576,17 +13078,6 @@ class QTFBTC(Symbol):
 
 
 QTFBTC = QTFBTC(*QTFBTC._fields)
-"""
-    name: tQTFBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class QTFUSD(Symbol):
@@ -16628,17 +13119,6 @@ class QTFUSD(Symbol):
 
 
 QTFUSD = QTFUSD(*QTFUSD._fields)
-"""
-    name: tQTFUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class QTMUSD(Symbol):
@@ -16680,17 +13160,6 @@ class QTMUSD(Symbol):
 
 
 QTMUSD = QTMUSD(*QTMUSD._fields)
-"""
-    name: tQTMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.6
-    max_order_size: 5000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class RBTUSD(Symbol):
@@ -16732,17 +13201,6 @@ class RBTUSD(Symbol):
 
 
 RBTUSD = RBTUSD(*RBTUSD._fields)
-"""
-    name: tRBTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 500.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class REEF_USD(Symbol):
@@ -16784,17 +13242,6 @@ class REEF_USD(Symbol):
 
 
 REEF_USD = REEF_USD(*REEF_USD._fields)
-"""
-    name: tREEF:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 466.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class REEF_UST(Symbol):
@@ -16836,17 +13283,6 @@ class REEF_UST(Symbol):
 
 
 REEF_UST = REEF_UST(*REEF_UST._fields)
-"""
-    name: tREEF:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 466.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class REPUSD(Symbol):
@@ -16888,17 +13324,6 @@ class REPUSD(Symbol):
 
 
 REPUSD = REPUSD(*REPUSD._fields)
-"""
-    name: tREPUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 1000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class REQUSD(Symbol):
@@ -16940,17 +13365,6 @@ class REQUSD(Symbol):
 
 
 REQUSD = REQUSD(*REQUSD._fields)
-"""
-    name: tREQUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 16.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class RLYUSD(Symbol):
@@ -16992,17 +13406,6 @@ class RLYUSD(Symbol):
 
 
 RLYUSD = RLYUSD(*RLYUSD._fields)
-"""
-    name: tRLYUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class RLYUST(Symbol):
@@ -17044,17 +13447,6 @@ class RLYUST(Symbol):
 
 
 RLYUST = RLYUST(*RLYUST._fields)
-"""
-    name: tRLYUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class RRTUSD(Symbol):
@@ -17096,17 +13488,6 @@ class RRTUSD(Symbol):
 
 
 RRTUSD = RRTUSD(*RRTUSD._fields)
-"""
-    name: tRRTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SAND_USD(Symbol):
@@ -17148,17 +13529,6 @@ class SAND_USD(Symbol):
 
 
 SAND_USD = SAND_USD(*SAND_USD._fields)
-"""
-    name: tSAND:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SAND_UST(Symbol):
@@ -17200,17 +13570,6 @@ class SAND_UST(Symbol):
 
 
 SAND_UST = SAND_UST(*SAND_UST._fields)
-"""
-    name: tSAND:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SANDF0_USTF0(Symbol):
@@ -17252,17 +13611,6 @@ class SANDF0_USTF0(Symbol):
 
 
 SANDF0_USTF0 = SANDF0_USTF0(*SANDF0_USTF0._fields)
-"""
-    name: tSANDF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SENATE_USD(Symbol):
@@ -17304,17 +13652,6 @@ class SENATE_USD(Symbol):
 
 
 SENATE_USD = SENATE_USD(*SENATE_USD._fields)
-"""
-    name: tSENATE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 20.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SGBUSD(Symbol):
@@ -17356,17 +13693,6 @@ class SGBUSD(Symbol):
 
 
 SGBUSD = SGBUSD(*SGBUSD._fields)
-"""
-    name: tSGBUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 52.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SGBUST(Symbol):
@@ -17408,17 +13734,6 @@ class SGBUST(Symbol):
 
 
 SGBUST = SGBUST(*SGBUST._fields)
-"""
-    name: tSGBUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 52.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SHFT_USD(Symbol):
@@ -17460,17 +13775,6 @@ class SHFT_USD(Symbol):
 
 
 SHFT_USD = SHFT_USD(*SHFT_USD._fields)
-"""
-    name: tSHFT:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 52.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SHFT_UST(Symbol):
@@ -17512,17 +13816,6 @@ class SHFT_UST(Symbol):
 
 
 SHFT_UST = SHFT_UST(*SHFT_UST._fields)
-"""
-    name: tSHFT:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 52.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SHIB_USD(Symbol):
@@ -17564,17 +13857,6 @@ class SHIB_USD(Symbol):
 
 
 SHIB_USD = SHIB_USD(*SHIB_USD._fields)
-"""
-    name: tSHIB:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 187004.0
-    max_order_size: 5000000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SHIB_UST(Symbol):
@@ -17616,17 +13898,6 @@ class SHIB_UST(Symbol):
 
 
 SHIB_UST = SHIB_UST(*SHIB_UST._fields)
-"""
-    name: tSHIB:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 187004.0
-    max_order_size: 5000000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SHIBF0_USTF0(Symbol):
@@ -17668,17 +13939,6 @@ class SHIBF0_USTF0(Symbol):
 
 
 SHIBF0_USTF0 = SHIBF0_USTF0(*SHIBF0_USTF0._fields)
-"""
-    name: tSHIBF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 187004.0
-    max_order_size: 5000000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SIDUS_USD(Symbol):
@@ -17720,17 +13980,6 @@ class SIDUS_USD(Symbol):
 
 
 SIDUS_USD = SIDUS_USD(*SIDUS_USD._fields)
-"""
-    name: tSIDUS:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 664.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SMRUSD(Symbol):
@@ -17772,17 +14021,6 @@ class SMRUSD(Symbol):
 
 
 SMRUSD = SMRUSD(*SMRUSD._fields)
-"""
-    name: tSMRUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 700000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SMRUST(Symbol):
@@ -17824,17 +14062,6 @@ class SMRUST(Symbol):
 
 
 SMRUST = SMRUST(*SMRUST._fields)
-"""
-    name: tSMRUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 700000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SNTUSD(Symbol):
@@ -17876,17 +14103,6 @@ class SNTUSD(Symbol):
 
 
 SNTUSD = SNTUSD(*SNTUSD._fields)
-"""
-    name: tSNTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 48.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SNXUSD(Symbol):
@@ -17928,17 +14144,6 @@ class SNXUSD(Symbol):
 
 
 SNXUSD = SNXUSD(*SNXUSD._fields)
-"""
-    name: tSNXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SNXUST(Symbol):
@@ -17980,17 +14185,6 @@ class SNXUST(Symbol):
 
 
 SNXUST = SNXUST(*SNXUST._fields)
-"""
-    name: tSNXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.8
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SOLBTC(Symbol):
@@ -18032,17 +14226,6 @@ class SOLBTC(Symbol):
 
 
 SOLBTC = SOLBTC(*SOLBTC._fields)
-"""
-    name: tSOLBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.06
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SOLF0_BTCF0(Symbol):
@@ -18084,17 +14267,6 @@ class SOLF0_BTCF0(Symbol):
 
 
 SOLF0_BTCF0 = SOLF0_BTCF0(*SOLF0_BTCF0._fields)
-"""
-    name: tSOLF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 2.5
-    initial_margin: 5.0
-    min_order_size: 0.06
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SOLF0_USTF0(Symbol):
@@ -18136,17 +14308,6 @@ class SOLF0_USTF0(Symbol):
 
 
 SOLF0_USTF0 = SOLF0_USTF0(*SOLF0_USTF0._fields)
-"""
-    name: tSOLF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 2.5
-    initial_margin: 5.0
-    min_order_size: 0.06
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SOLUSD(Symbol):
@@ -18188,17 +14349,6 @@ class SOLUSD(Symbol):
 
 
 SOLUSD = SOLUSD(*SOLUSD._fields)
-"""
-    name: tSOLUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.06
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SOLUST(Symbol):
@@ -18240,17 +14390,6 @@ class SOLUST(Symbol):
 
 
 SOLUST = SOLUST(*SOLUST._fields)
-"""
-    name: tSOLUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.06
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SPAIN35IXF0_USTF0(Symbol):
@@ -18292,17 +14431,6 @@ class SPAIN35IXF0_USTF0(Symbol):
 
 
 SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0(*SPAIN35IXF0_USTF0._fields)
-"""
-    name: tSPAIN35IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SPELL_USD(Symbol):
@@ -18344,17 +14472,6 @@ class SPELL_USD(Symbol):
 
 
 SPELL_USD = SPELL_USD(*SPELL_USD._fields)
-"""
-    name: tSPELL:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 1640.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class STGF0_USTF0(Symbol):
@@ -18396,17 +14513,6 @@ class STGF0_USTF0(Symbol):
 
 
 STGF0_USTF0 = STGF0_USTF0(*STGF0_USTF0._fields)
-"""
-    name: tSTGF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class STGUSD(Symbol):
@@ -18448,17 +14554,6 @@ class STGUSD(Symbol):
 
 
 STGUSD = STGUSD(*STGUSD._fields)
-"""
-    name: tSTGUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class STGUST(Symbol):
@@ -18500,17 +14595,6 @@ class STGUST(Symbol):
 
 
 STGUST = STGUST(*STGUST._fields)
-"""
-    name: tSTGUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class STJUSD(Symbol):
@@ -18552,17 +14636,6 @@ class STJUSD(Symbol):
 
 
 STJUSD = STJUSD(*STJUSD._fields)
-"""
-    name: tSTJUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 30000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUIUSD(Symbol):
@@ -18604,17 +14677,6 @@ class SUIUSD(Symbol):
 
 
 SUIUSD = SUIUSD(*SUIUSD._fields)
-"""
-    name: tSUIUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUIUST(Symbol):
@@ -18656,17 +14718,6 @@ class SUIUST(Symbol):
 
 
 SUIUST = SUIUST(*SUIUST._fields)
-"""
-    name: tSUIUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUKU_USD(Symbol):
@@ -18708,17 +14759,6 @@ class SUKU_USD(Symbol):
 
 
 SUKU_USD = SUKU_USD(*SUKU_USD._fields)
-"""
-    name: tSUKU:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUKU_UST(Symbol):
@@ -18760,17 +14800,6 @@ class SUKU_UST(Symbol):
 
 
 SUKU_UST = SUKU_UST(*SUKU_UST._fields)
-"""
-    name: tSUKU:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 18.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUNUSD(Symbol):
@@ -18812,17 +14841,6 @@ class SUNUSD(Symbol):
 
 
 SUNUSD = SUNUSD(*SUNUSD._fields)
-"""
-    name: tSUNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 216.0
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUNUST(Symbol):
@@ -18864,17 +14882,6 @@ class SUNUST(Symbol):
 
 
 SUNUST = SUNUST(*SUNUST._fields)
-"""
-    name: tSUNUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 216.0
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SUSHI_USD(Symbol):
@@ -18916,17 +14923,6 @@ class SUSHI_USD(Symbol):
 
 
 SUSHI_USD = SUSHI_USD(*SUSHI_USD._fields)
-"""
-    name: tSUSHI:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SUSHI_UST(Symbol):
@@ -18968,17 +14964,6 @@ class SUSHI_UST(Symbol):
 
 
 SUSHI_UST = SUSHI_UST(*SUSHI_UST._fields)
-"""
-    name: tSUSHI:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SUSHIF0_USTF0(Symbol):
@@ -19020,17 +15005,6 @@ class SUSHIF0_USTF0(Symbol):
 
 
 SUSHIF0_USTF0 = SUSHIF0_USTF0(*SUSHIF0_USTF0._fields)
-"""
-    name: tSUSHIF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class SWEAT_USD(Symbol):
@@ -19072,17 +15046,6 @@ class SWEAT_USD(Symbol):
 
 
 SWEAT_USD = SWEAT_USD(*SWEAT_USD._fields)
-"""
-    name: tSWEAT:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 7000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SWEAT_UST(Symbol):
@@ -19124,17 +15087,6 @@ class SWEAT_UST(Symbol):
 
 
 SWEAT_UST = SWEAT_UST(*SWEAT_UST._fields)
-"""
-    name: tSWEAT:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 7000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class SXXUSD(Symbol):
@@ -19176,17 +15128,6 @@ class SXXUSD(Symbol):
 
 
 SXXUSD = SXXUSD(*SXXUSD._fields)
-"""
-    name: tSXXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TERRAUST_USD(Symbol):
@@ -19228,17 +15169,6 @@ class TERRAUST_USD(Symbol):
 
 
 TERRAUST_USD = TERRAUST_USD(*TERRAUST_USD._fields)
-"""
-    name: tTERRAUST:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 100.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TESTADA_TESTUSD(Symbol):
@@ -19280,17 +15210,6 @@ class TESTADA_TESTUSD(Symbol):
 
 
 TESTADA_TESTUSD = TESTADA_TESTUSD(*TESTADA_TESTUSD._fields)
-"""
-    name: tTESTADA:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTADAF0_TESTUSDTF0(Symbol):
@@ -19332,17 +15251,6 @@ class TESTADAF0_TESTUSDTF0(Symbol):
 
 
 TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0(*TESTADAF0_TESTUSDTF0._fields)
-"""
-    name: tTESTADAF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTALGO_TESTUSD(Symbol):
@@ -19384,17 +15292,6 @@ class TESTALGO_TESTUSD(Symbol):
 
 
 TESTALGO_TESTUSD = TESTALGO_TESTUSD(*TESTALGO_TESTUSD._fields)
-"""
-    name: tTESTALGO:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTALGOF0_TESTUSDTF0(Symbol):
@@ -19436,17 +15333,6 @@ class TESTALGOF0_TESTUSDTF0(Symbol):
 
 
 TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0(*TESTALGOF0_TESTUSDTF0._fields)
-"""
-    name: tTESTALGOF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTAPT_TESTUSD(Symbol):
@@ -19488,17 +15374,6 @@ class TESTAPT_TESTUSD(Symbol):
 
 
 TESTAPT_TESTUSD = TESTAPT_TESTUSD(*TESTAPT_TESTUSD._fields)
-"""
-    name: tTESTAPT:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTAPTF0_TESTUSDTF0(Symbol):
@@ -19540,17 +15415,6 @@ class TESTAPTF0_TESTUSDTF0(Symbol):
 
 
 TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0(*TESTAPTF0_TESTUSDTF0._fields)
-"""
-    name: tTESTAPTF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTAVAX_TESTUSD(Symbol):
@@ -19592,17 +15456,6 @@ class TESTAVAX_TESTUSD(Symbol):
 
 
 TESTAVAX_TESTUSD = TESTAVAX_TESTUSD(*TESTAVAX_TESTUSD._fields)
-"""
-    name: tTESTAVAX:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTAVAXF0_TESTUSDTF0(Symbol):
@@ -19644,17 +15497,6 @@ class TESTAVAXF0_TESTUSDTF0(Symbol):
 
 
 TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0(*TESTAVAXF0_TESTUSDTF0._fields)
-"""
-    name: tTESTAVAXF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTBTC_TESTUSD(Symbol):
@@ -19696,17 +15538,6 @@ class TESTBTC_TESTUSD(Symbol):
 
 
 TESTBTC_TESTUSD = TESTBTC_TESTUSD(*TESTBTC_TESTUSD._fields)
-"""
-    name: tTESTBTC:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTBTC_TESTUSDT(Symbol):
@@ -19748,17 +15579,6 @@ class TESTBTC_TESTUSDT(Symbol):
 
 
 TESTBTC_TESTUSDT = TESTBTC_TESTUSDT(*TESTBTC_TESTUSDT._fields)
-"""
-    name: tTESTBTC:TESTUSDT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTBTCF0_TESTUSDTF0(Symbol):
@@ -19800,17 +15620,6 @@ class TESTBTCF0_TESTUSDTF0(Symbol):
 
 
 TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0(*TESTBTCF0_TESTUSDTF0._fields)
-"""
-    name: tTESTBTCF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.00006
-    max_order_size: 1000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTDOGE_TESTUSD(Symbol):
@@ -19852,17 +15661,6 @@ class TESTDOGE_TESTUSD(Symbol):
 
 
 TESTDOGE_TESTUSD = TESTDOGE_TESTUSD(*TESTDOGE_TESTUSD._fields)
-"""
-    name: tTESTDOGE:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTDOGEF0_TESTUSDTF0(Symbol):
@@ -19904,17 +15702,6 @@ class TESTDOGEF0_TESTUSDTF0(Symbol):
 
 
 TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0(*TESTDOGEF0_TESTUSDTF0._fields)
-"""
-    name: tTESTDOGEF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTDOT_TESTUSD(Symbol):
@@ -19956,17 +15743,6 @@ class TESTDOT_TESTUSD(Symbol):
 
 
 TESTDOT_TESTUSD = TESTDOT_TESTUSD(*TESTDOT_TESTUSD._fields)
-"""
-    name: tTESTDOT:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTDOTF0_TESTUSDTF0(Symbol):
@@ -20008,17 +15784,6 @@ class TESTDOTF0_TESTUSDTF0(Symbol):
 
 
 TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0(*TESTDOTF0_TESTUSDTF0._fields)
-"""
-    name: tTESTDOTF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTEOS_TESTUSD(Symbol):
@@ -20060,17 +15825,6 @@ class TESTEOS_TESTUSD(Symbol):
 
 
 TESTEOS_TESTUSD = TESTEOS_TESTUSD(*TESTEOS_TESTUSD._fields)
-"""
-    name: tTESTEOS:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTEOSF0_TESTUSDTF0(Symbol):
@@ -20112,17 +15866,6 @@ class TESTEOSF0_TESTUSDTF0(Symbol):
 
 
 TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0(*TESTEOSF0_TESTUSDTF0._fields)
-"""
-    name: tTESTEOSF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTETH_TESTUSD(Symbol):
@@ -20164,17 +15907,6 @@ class TESTETH_TESTUSD(Symbol):
 
 
 TESTETH_TESTUSD = TESTETH_TESTUSD(*TESTETH_TESTUSD._fields)
-"""
-    name: tTESTETH:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTETHF0_TESTUSDTF0(Symbol):
@@ -20216,17 +15948,6 @@ class TESTETHF0_TESTUSDTF0(Symbol):
 
 
 TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0(*TESTETHF0_TESTUSDTF0._fields)
-"""
-    name: tTESTETHF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTFIL_TESTUSD(Symbol):
@@ -20268,17 +15989,6 @@ class TESTFIL_TESTUSD(Symbol):
 
 
 TESTFIL_TESTUSD = TESTFIL_TESTUSD(*TESTFIL_TESTUSD._fields)
-"""
-    name: tTESTFIL:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTFILF0_TESTUSDTF0(Symbol):
@@ -20320,17 +16030,6 @@ class TESTFILF0_TESTUSDTF0(Symbol):
 
 
 TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0(*TESTFILF0_TESTUSDTF0._fields)
-"""
-    name: tTESTFILF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTLTC_TESTUSD(Symbol):
@@ -20372,17 +16071,6 @@ class TESTLTC_TESTUSD(Symbol):
 
 
 TESTLTC_TESTUSD = TESTLTC_TESTUSD(*TESTLTC_TESTUSD._fields)
-"""
-    name: tTESTLTC:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTLTCF0_TESTUSDTF0(Symbol):
@@ -20424,17 +16112,6 @@ class TESTLTCF0_TESTUSDTF0(Symbol):
 
 
 TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0(*TESTLTCF0_TESTUSDTF0._fields)
-"""
-    name: tTESTLTCF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTMATIC_TESTUSD(Symbol):
@@ -20476,17 +16153,6 @@ class TESTMATIC_TESTUSD(Symbol):
 
 
 TESTMATIC_TESTUSD = TESTMATIC_TESTUSD(*TESTMATIC_TESTUSD._fields)
-"""
-    name: tTESTMATIC:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTMATIC_TESTUSDT(Symbol):
@@ -20528,17 +16194,6 @@ class TESTMATIC_TESTUSDT(Symbol):
 
 
 TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT(*TESTMATIC_TESTUSDT._fields)
-"""
-    name: tTESTMATIC:TESTUSDT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TESTMATICF0_TESTUSDTF0(Symbol):
@@ -20580,17 +16235,6 @@ class TESTMATICF0_TESTUSDTF0(Symbol):
 
 
 TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0(*TESTMATICF0_TESTUSDTF0._fields)
-"""
-    name: tTESTMATICF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTNEAR_TESTUSD(Symbol):
@@ -20632,17 +16276,6 @@ class TESTNEAR_TESTUSD(Symbol):
 
 
 TESTNEAR_TESTUSD = TESTNEAR_TESTUSD(*TESTNEAR_TESTUSD._fields)
-"""
-    name: tTESTNEAR:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTNEARF0_TESTUSDTF0(Symbol):
@@ -20684,17 +16317,6 @@ class TESTNEARF0_TESTUSDTF0(Symbol):
 
 
 TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0(*TESTNEARF0_TESTUSDTF0._fields)
-"""
-    name: tTESTNEARF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTSOL_TESTUSD(Symbol):
@@ -20736,17 +16358,6 @@ class TESTSOL_TESTUSD(Symbol):
 
 
 TESTSOL_TESTUSD = TESTSOL_TESTUSD(*TESTSOL_TESTUSD._fields)
-"""
-    name: tTESTSOL:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTSOLF0_TESTUSDTF0(Symbol):
@@ -20788,17 +16399,6 @@ class TESTSOLF0_TESTUSDTF0(Symbol):
 
 
 TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0(*TESTSOLF0_TESTUSDTF0._fields)
-"""
-    name: tTESTSOLF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTXAUT_TESTUSD(Symbol):
@@ -20840,17 +16440,6 @@ class TESTXAUT_TESTUSD(Symbol):
 
 
 TESTXAUT_TESTUSD = TESTXAUT_TESTUSD(*TESTXAUT_TESTUSD._fields)
-"""
-    name: tTESTXAUT:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTXAUTF0_TESTUSDTF0(Symbol):
@@ -20892,17 +16481,6 @@ class TESTXAUTF0_TESTUSDTF0(Symbol):
 
 
 TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0(*TESTXAUTF0_TESTUSDTF0._fields)
-"""
-    name: tTESTXAUTF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTXTZ_TESTUSD(Symbol):
@@ -20944,17 +16522,6 @@ class TESTXTZ_TESTUSD(Symbol):
 
 
 TESTXTZ_TESTUSD = TESTXTZ_TESTUSD(*TESTXTZ_TESTUSD._fields)
-"""
-    name: tTESTXTZ:TESTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TESTXTZF0_TESTUSDTF0(Symbol):
@@ -20996,17 +16563,6 @@ class TESTXTZF0_TESTUSDTF0(Symbol):
 
 
 TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0(*TESTXTZF0_TESTUSDTF0._fields)
-"""
-    name: tTESTXTZF0:TESTUSDTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class THETA_USD(Symbol):
@@ -21048,17 +16604,6 @@ class THETA_USD(Symbol):
 
 
 THETA_USD = THETA_USD(*THETA_USD._fields)
-"""
-    name: tTHETA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class THETA_UST(Symbol):
@@ -21100,17 +16645,6 @@ class THETA_UST(Symbol):
 
 
 THETA_UST = THETA_UST(*THETA_UST._fields)
-"""
-    name: tTHETA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TLOS_USD(Symbol):
@@ -21152,17 +16686,6 @@ class TLOS_USD(Symbol):
 
 
 TLOS_USD = TLOS_USD(*TLOS_USD._fields)
-"""
-    name: tTLOS:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 8.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TONUSD(Symbol):
@@ -21204,17 +16727,6 @@ class TONUSD(Symbol):
 
 
 TONUSD = TONUSD(*TONUSD._fields)
-"""
-    name: tTONUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TONUST(Symbol):
@@ -21256,17 +16768,6 @@ class TONUST(Symbol):
 
 
 TONUST = TONUST(*TONUST._fields)
-"""
-    name: tTONUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRADE_USD(Symbol):
@@ -21308,17 +16809,6 @@ class TRADE_USD(Symbol):
 
 
 TRADE_USD = TRADE_USD(*TRADE_USD._fields)
-"""
-    name: tTRADE:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 28.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRADE_UST(Symbol):
@@ -21360,17 +16850,6 @@ class TRADE_UST(Symbol):
 
 
 TRADE_UST = TRADE_UST(*TRADE_UST._fields)
-"""
-    name: tTRADE:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 28.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TREEB_USD(Symbol):
@@ -21412,17 +16891,6 @@ class TREEB_USD(Symbol):
 
 
 TREEB_USD = TREEB_USD(*TREEB_USD._fields)
-"""
-    name: tTREEB:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 3000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TREEB_UST(Symbol):
@@ -21464,17 +16932,6 @@ class TREEB_UST(Symbol):
 
 
 TREEB_UST = TREEB_UST(*TREEB_UST._fields)
-"""
-    name: tTREEB:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 3000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRXBTC(Symbol):
@@ -21516,17 +16973,6 @@ class TRXBTC(Symbol):
 
 
 TRXBTC = TRXBTC(*TRXBTC._fields)
-"""
-    name: tTRXBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 34.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRXETH(Symbol):
@@ -21568,17 +17014,6 @@ class TRXETH(Symbol):
 
 
 TRXETH = TRXETH(*TRXETH._fields)
-"""
-    name: tTRXETH
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 34.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRXEUR(Symbol):
@@ -21620,17 +17055,6 @@ class TRXEUR(Symbol):
 
 
 TRXEUR = TRXEUR(*TRXEUR._fields)
-"""
-    name: tTRXEUR
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 34.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TRXF0_USTF0(Symbol):
@@ -21672,17 +17096,6 @@ class TRXF0_USTF0(Symbol):
 
 
 TRXF0_USTF0 = TRXF0_USTF0(*TRXF0_USTF0._fields)
-"""
-    name: tTRXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 24.0
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TRXUSD(Symbol):
@@ -21724,17 +17137,6 @@ class TRXUSD(Symbol):
 
 
 TRXUSD = TRXUSD(*TRXUSD._fields)
-"""
-    name: tTRXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 34.0
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TRXUST(Symbol):
@@ -21776,17 +17178,6 @@ class TRXUST(Symbol):
 
 
 TRXUST = TRXUST(*TRXUST._fields)
-"""
-    name: tTRXUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 24.0
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class TRYUST(Symbol):
@@ -21828,17 +17219,6 @@ class TRYUST(Symbol):
 
 
 TRYUST = TRYUST(*TRYUST._fields)
-"""
-    name: tTRYUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TSDUSD(Symbol):
@@ -21880,17 +17260,6 @@ class TSDUSD(Symbol):
 
 
 TSDUSD = TSDUSD(*TSDUSD._fields)
-"""
-    name: tTSDUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class TSDUST(Symbol):
@@ -21932,17 +17301,6 @@ class TSDUST(Symbol):
 
 
 TSDUST = TSDUST(*TSDUST._fields)
-"""
-    name: tTSDUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UDCUSD(Symbol):
@@ -21984,17 +17342,6 @@ class UDCUSD(Symbol):
 
 
 UDCUSD = UDCUSD(*UDCUSD._fields)
-"""
-    name: tUDCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UDCUST(Symbol):
@@ -22036,17 +17383,6 @@ class UDCUST(Symbol):
 
 
 UDCUST = UDCUST(*UDCUST._fields)
-"""
-    name: tUDCUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UK100IXF0_USTF0(Symbol):
@@ -22088,17 +17424,6 @@ class UK100IXF0_USTF0(Symbol):
 
 
 UK100IXF0_USTF0 = UK100IXF0_USTF0(*UK100IXF0_USTF0._fields)
-"""
-    name: tUK100IXF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UKOILF0_USTF0(Symbol):
@@ -22140,17 +17465,6 @@ class UKOILF0_USTF0(Symbol):
 
 
 UKOILF0_USTF0 = UKOILF0_USTF0(*UKOILF0_USTF0._fields)
-"""
-    name: tUKOILF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UNIF0_USTF0(Symbol):
@@ -22192,17 +17506,6 @@ class UNIF0_USTF0(Symbol):
 
 
 UNIF0_USTF0 = UNIF0_USTF0(*UNIF0_USTF0._fields)
-"""
-    name: tUNIF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.4
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UNIUSD(Symbol):
@@ -22244,17 +17547,6 @@ class UNIUSD(Symbol):
 
 
 UNIUSD = UNIUSD(*UNIUSD._fields)
-"""
-    name: tUNIUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UNIUST(Symbol):
@@ -22296,17 +17588,6 @@ class UNIUST(Symbol):
 
 
 UNIUST = UNIUST(*UNIUST._fields)
-"""
-    name: tUNIUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.4
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UOSBTC(Symbol):
@@ -22348,17 +17629,6 @@ class UOSBTC(Symbol):
 
 
 UOSBTC = UOSBTC(*UOSBTC._fields)
-"""
-    name: tUOSBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 400000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UOSUSD(Symbol):
@@ -22400,17 +17670,6 @@ class UOSUSD(Symbol):
 
 
 UOSUSD = UOSUSD(*UOSUSD._fields)
-"""
-    name: tUOSUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 4.0
-    max_order_size: 400000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UST_CNHT(Symbol):
@@ -22452,17 +17711,6 @@ class UST_CNHT(Symbol):
 
 
 UST_CNHT = UST_CNHT(*UST_CNHT._fields)
-"""
-    name: tUST:CNHT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class UST_MXNT(Symbol):
@@ -22504,17 +17752,6 @@ class UST_MXNT(Symbol):
 
 
 UST_MXNT = UST_MXNT(*UST_MXNT._fields)
-"""
-    name: tUST:MXNT
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class USTUSD(Symbol):
@@ -22556,17 +17793,6 @@ class USTUSD(Symbol):
 
 
 USTUSD = USTUSD(*USTUSD._fields)
-"""
-    name: tUSTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 5.0
-    initial_margin: 10.0
-    min_order_size: 2.0
-    max_order_size: 5000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class UTKUSD(Symbol):
@@ -22608,17 +17834,6 @@ class UTKUSD(Symbol):
 
 
 UTKUSD = UTKUSD(*UTKUSD._fields)
-"""
-    name: tUTKUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 10.0
-    max_order_size: 300000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VELO_USD(Symbol):
@@ -22660,17 +17875,6 @@ class VELO_USD(Symbol):
 
 
 VELO_USD = VELO_USD(*VELO_USD._fields)
-"""
-    name: tVELO:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 66.0
-    max_order_size: 1750000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VELO_UST(Symbol):
@@ -22712,17 +17916,6 @@ class VELO_UST(Symbol):
 
 
 VELO_UST = VELO_UST(*VELO_UST._fields)
-"""
-    name: tVELO:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 66.0
-    max_order_size: 1750000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VETBTC(Symbol):
@@ -22764,17 +17957,6 @@ class VETBTC(Symbol):
 
 
 VETBTC = VETBTC(*VETBTC._fields)
-"""
-    name: tVETBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 66.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VETUSD(Symbol):
@@ -22816,17 +17998,6 @@ class VETUSD(Symbol):
 
 
 VETUSD = VETUSD(*VETUSD._fields)
-"""
-    name: tVETUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 66.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VETUST(Symbol):
@@ -22868,17 +18039,6 @@ class VETUST(Symbol):
 
 
 VETUST = VETUST(*VETUST._fields)
-"""
-    name: tVETUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 66.0
-    max_order_size: 5000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VRAUSD(Symbol):
@@ -22920,17 +18080,6 @@ class VRAUSD(Symbol):
 
 
 VRAUSD = VRAUSD(*VRAUSD._fields)
-"""
-    name: tVRAUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 286.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VRAUST(Symbol):
@@ -22972,17 +18121,6 @@ class VRAUST(Symbol):
 
 
 VRAUST = VRAUST(*VRAUST._fields)
-"""
-    name: tVRAUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 286.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class VSYUSD(Symbol):
@@ -23024,17 +18162,6 @@ class VSYUSD(Symbol):
 
 
 VSYUSD = VSYUSD(*VSYUSD._fields)
-"""
-    name: tVSYUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 432.0
-    max_order_size: 250000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WAVES_USD(Symbol):
@@ -23076,17 +18203,6 @@ class WAVES_USD(Symbol):
 
 
 WAVES_USD = WAVES_USD(*WAVES_USD._fields)
-"""
-    name: tWAVES:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WAVES_UST(Symbol):
@@ -23128,17 +18244,6 @@ class WAVES_UST(Symbol):
 
 
 WAVES_UST = WAVES_UST(*WAVES_UST._fields)
-"""
-    name: tWAVES:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WAVESF0_USTF0(Symbol):
@@ -23180,17 +18285,6 @@ class WAVESF0_USTF0(Symbol):
 
 
 WAVESF0_USTF0 = WAVESF0_USTF0(*WAVESF0_USTF0._fields)
-"""
-    name: tWAVESF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.2
-    max_order_size: 50000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class WAXUSD(Symbol):
@@ -23232,17 +18326,6 @@ class WAXUSD(Symbol):
 
 
 WAXUSD = WAXUSD(*WAXUSD._fields)
-"""
-    name: tWAXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 16.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WBTBTC(Symbol):
@@ -23284,17 +18367,6 @@ class WBTBTC(Symbol):
 
 
 WBTBTC = WBTBTC(*WBTBTC._fields)
-"""
-    name: tWBTBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 10.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WBTUSD(Symbol):
@@ -23336,17 +18408,6 @@ class WBTUSD(Symbol):
 
 
 WBTUSD = WBTUSD(*WBTUSD._fields)
-"""
-    name: tWBTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.00006
-    max_order_size: 10.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WILD_USD(Symbol):
@@ -23388,17 +18449,6 @@ class WILD_USD(Symbol):
 
 
 WILD_USD = WILD_USD(*WILD_USD._fields)
-"""
-    name: tWILD:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WILD_UST(Symbol):
@@ -23440,17 +18490,6 @@ class WILD_UST(Symbol):
 
 
 WILD_UST = WILD_UST(*WILD_UST._fields)
-"""
-    name: tWILD:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WMINIMA_USD(Symbol):
@@ -23492,17 +18531,6 @@ class WMINIMA_USD(Symbol):
 
 
 WMINIMA_USD = WMINIMA_USD(*WMINIMA_USD._fields)
-"""
-    name: tWMINIMA:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 150000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WMINIMA_UST(Symbol):
@@ -23544,17 +18572,6 @@ class WMINIMA_UST(Symbol):
 
 
 WMINIMA_UST = WMINIMA_UST(*WMINIMA_UST._fields)
-"""
-    name: tWMINIMA:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 150000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WNCG_USD(Symbol):
@@ -23596,17 +18613,6 @@ class WNCG_USD(Symbol):
 
 
 WNCG_USD = WNCG_USD(*WNCG_USD._fields)
-"""
-    name: tWNCG:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 12.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WOOUSD(Symbol):
@@ -23648,17 +18654,6 @@ class WOOUSD(Symbol):
 
 
 WOOUSD = WOOUSD(*WOOUSD._fields)
-"""
-    name: tWOOUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 10.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class WOOUST(Symbol):
@@ -23700,17 +18695,6 @@ class WOOUST(Symbol):
 
 
 WOOUST = WOOUST(*WOOUST._fields)
-"""
-    name: tWOOUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 10.0
-    max_order_size: 2500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XAGF0_USTF0(Symbol):
@@ -23752,17 +18736,6 @@ class XAGF0_USTF0(Symbol):
 
 
 XAGF0_USTF0 = XAGF0_USTF0(*XAGF0_USTF0._fields)
-"""
-    name: tXAGF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.1
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XAUT_BTC(Symbol):
@@ -23804,17 +18777,6 @@ class XAUT_BTC(Symbol):
 
 
 XAUT_BTC = XAUT_BTC(*XAUT_BTC._fields)
-"""
-    name: tXAUT:BTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 400.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XAUT_USD(Symbol):
@@ -23856,17 +18818,6 @@ class XAUT_USD(Symbol):
 
 
 XAUT_USD = XAUT_USD(*XAUT_USD._fields)
-"""
-    name: tXAUT:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 400.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XAUT_UST(Symbol):
@@ -23908,17 +18859,6 @@ class XAUT_UST(Symbol):
 
 
 XAUT_UST = XAUT_UST(*XAUT_UST._fields)
-"""
-    name: tXAUT:UST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 0.002
-    max_order_size: 400.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XAUTF0_BTCF0(Symbol):
@@ -23960,17 +18900,6 @@ class XAUTF0_BTCF0(Symbol):
 
 
 XAUTF0_BTCF0 = XAUTF0_BTCF0(*XAUTF0_BTCF0._fields)
-"""
-    name: tXAUTF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 500.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XAUTF0_USTF0(Symbol):
@@ -24012,17 +18941,6 @@ class XAUTF0_USTF0(Symbol):
 
 
 XAUTF0_USTF0 = XAUTF0_USTF0(*XAUTF0_USTF0._fields)
-"""
-    name: tXAUTF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.002
-    max_order_size: 400.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XCAD_USD(Symbol):
@@ -24064,17 +18982,6 @@ class XCAD_USD(Symbol):
 
 
 XCAD_USD = XCAD_USD(*XCAD_USD._fields)
-"""
-    name: tXCAD:USD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 15000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XCNUSD(Symbol):
@@ -24116,17 +19023,6 @@ class XCNUSD(Symbol):
 
 
 XCNUSD = XCNUSD(*XCNUSD._fields)
-"""
-    name: tXCNUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XCNUST(Symbol):
@@ -24168,17 +19064,6 @@ class XCNUST(Symbol):
 
 
 XCNUST = XCNUST(*XCNUST._fields)
-"""
-    name: tXCNUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.001
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XDCUSD(Symbol):
@@ -24220,17 +19105,6 @@ class XDCUSD(Symbol):
 
 
 XDCUSD = XDCUSD(*XDCUSD._fields)
-"""
-    name: tXDCUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 54.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XDCUST(Symbol):
@@ -24272,17 +19146,6 @@ class XDCUST(Symbol):
 
 
 XDCUST = XDCUST(*XDCUST._fields)
-"""
-    name: tXDCUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 54.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XLMBTC(Symbol):
@@ -24324,17 +19187,6 @@ class XLMBTC(Symbol):
 
 
 XLMBTC = XLMBTC(*XLMBTC._fields)
-"""
-    name: tXLMBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 25.0
-    initial_margin: 50.0
-    min_order_size: 14.0
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XLMF0_USTF0(Symbol):
@@ -24376,17 +19228,6 @@ class XLMF0_USTF0(Symbol):
 
 
 XLMF0_USTF0 = XLMF0_USTF0(*XLMF0_USTF0._fields)
-"""
-    name: tXLMF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 14.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XLMUSD(Symbol):
@@ -24428,17 +19269,6 @@ class XLMUSD(Symbol):
 
 
 XLMUSD = XLMUSD(*XLMUSD._fields)
-"""
-    name: tXLMUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 25.0
-    initial_margin: 50.0
-    min_order_size: 14.0
-    max_order_size: 1000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XLMUST(Symbol):
@@ -24480,17 +19310,6 @@ class XLMUST(Symbol):
 
 
 XLMUST = XLMUST(*XLMUST._fields)
-"""
-    name: tXLMUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 14.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XMRBTC(Symbol):
@@ -24532,17 +19351,6 @@ class XMRBTC(Symbol):
 
 
 XMRBTC = XMRBTC(*XMRBTC._fields)
-"""
-    name: tXMRBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XMRF0_USTF0(Symbol):
@@ -24584,17 +19392,6 @@ class XMRF0_USTF0(Symbol):
 
 
 XMRF0_USTF0 = XMRF0_USTF0(*XMRF0_USTF0._fields)
-"""
-    name: tXMRF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.02
-    max_order_size: 10000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XMRUSD(Symbol):
@@ -24636,17 +19433,6 @@ class XMRUSD(Symbol):
 
 
 XMRUSD = XMRUSD(*XMRUSD._fields)
-"""
-    name: tXMRUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XMRUST(Symbol):
@@ -24688,17 +19474,6 @@ class XMRUST(Symbol):
 
 
 XMRUST = XMRUST(*XMRUST._fields)
-"""
-    name: tXMRUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 5000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XPDF0_USTF0(Symbol):
@@ -24740,17 +19515,6 @@ class XPDF0_USTF0(Symbol):
 
 
 XPDF0_USTF0 = XPDF0_USTF0(*XPDF0_USTF0._fields)
-"""
-    name: tXPDF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 1000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XPTF0_USTF0(Symbol):
@@ -24792,17 +19556,6 @@ class XPTF0_USTF0(Symbol):
 
 
 XPTF0_USTF0 = XPTF0_USTF0(*XPTF0_USTF0._fields)
-"""
-    name: tXPTF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.001
-    max_order_size: 1000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XRDBTC(Symbol):
@@ -24844,17 +19597,6 @@ class XRDBTC(Symbol):
 
 
 XRDBTC = XRDBTC(*XRDBTC._fields)
-"""
-    name: tXRDBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 24.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XRDUSD(Symbol):
@@ -24896,17 +19638,6 @@ class XRDUSD(Symbol):
 
 
 XRDUSD = XRDUSD(*XRDUSD._fields)
-"""
-    name: tXRDUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 24.0
-    max_order_size: 1000000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class XRPBTC(Symbol):
@@ -24948,17 +19679,6 @@ class XRPBTC(Symbol):
 
 
 XRPBTC = XRPBTC(*XRPBTC._fields)
-"""
-    name: tXRPBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 6.0
-    max_order_size: 2000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XRPF0_BTCF0(Symbol):
@@ -25000,17 +19720,6 @@ class XRPF0_BTCF0(Symbol):
 
 
 XRPF0_BTCF0 = XRPF0_BTCF0(*XRPF0_BTCF0._fields)
-"""
-    name: tXRPF0:BTCF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 6.0
-    max_order_size: 250000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XRPF0_USTF0(Symbol):
@@ -25052,17 +19761,6 @@ class XRPF0_USTF0(Symbol):
 
 
 XRPF0_USTF0 = XRPF0_USTF0(*XRPF0_USTF0._fields)
-"""
-    name: tXRPF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 6.0
-    max_order_size: 500000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XRPUSD(Symbol):
@@ -25104,17 +19802,6 @@ class XRPUSD(Symbol):
 
 
 XRPUSD = XRPUSD(*XRPUSD._fields)
-"""
-    name: tXRPUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 10.0
-    initial_margin: 20.0
-    min_order_size: 6.0
-    max_order_size: 2000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XRPUST(Symbol):
@@ -25156,17 +19843,6 @@ class XRPUST(Symbol):
 
 
 XRPUST = XRPUST(*XRPUST._fields)
-"""
-    name: tXRPUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 2000000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XTZBTC(Symbol):
@@ -25208,17 +19884,6 @@ class XTZBTC(Symbol):
 
 
 XTZBTC = XTZBTC(*XTZBTC._fields)
-"""
-    name: tXTZBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XTZF0_USTF0(Symbol):
@@ -25260,17 +19925,6 @@ class XTZF0_USTF0(Symbol):
 
 
 XTZF0_USTF0 = XTZF0_USTF0(*XTZF0_USTF0._fields)
-"""
-    name: tXTZF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XTZUSD(Symbol):
@@ -25312,17 +19966,6 @@ class XTZUSD(Symbol):
 
 
 XTZUSD = XTZUSD(*XTZUSD._fields)
-"""
-    name: tXTZUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XTZUST(Symbol):
@@ -25364,17 +20007,6 @@ class XTZUST(Symbol):
 
 
 XTZUST = XTZUST(*XTZUST._fields)
-"""
-    name: tXTZUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 100000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class XVGUSD(Symbol):
@@ -25416,17 +20048,6 @@ class XVGUSD(Symbol):
 
 
 XVGUSD = XVGUSD(*XVGUSD._fields)
-"""
-    name: tXVGUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 432.0
-    max_order_size: 1500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class YFIUSD(Symbol):
@@ -25468,17 +20089,6 @@ class YFIUSD(Symbol):
 
 
 YFIUSD = YFIUSD(*YFIUSD._fields)
-"""
-    name: tYFIUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.0002
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class YFIUST(Symbol):
@@ -25520,17 +20130,6 @@ class YFIUST(Symbol):
 
 
 YFIUST = YFIUST(*YFIUST._fields)
-"""
-    name: tYFIUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.0002
-    max_order_size: 100.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ZECBTC(Symbol):
@@ -25572,17 +20171,6 @@ class ZECBTC(Symbol):
 
 
 ZECBTC = ZECBTC(*ZECBTC._fields)
-"""
-    name: tZECBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 20000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ZECF0_USTF0(Symbol):
@@ -25624,17 +20212,6 @@ class ZECF0_USTF0(Symbol):
 
 
 ZECF0_USTF0 = ZECF0_USTF0(*ZECF0_USTF0._fields)
-"""
-    name: tZECF0:USTF0
-    significant_digits: 5
-    tick_size: None
-    min_margin: 0.5
-    initial_margin: 1.0
-    min_order_size: 0.02
-    max_order_size: 20000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ZECUSD(Symbol):
@@ -25676,17 +20253,6 @@ class ZECUSD(Symbol):
 
 
 ZECUSD = ZECUSD(*ZECUSD._fields)
-"""
-    name: tZECUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 0.02
-    max_order_size: 20000.0
-    has_margin: True
-    exchange: bitfinex
-"""
 
 
 class ZILBTC(Symbol):
@@ -25728,17 +20294,6 @@ class ZILBTC(Symbol):
 
 
 ZILBTC = ZILBTC(*ZILBTC._fields)
-"""
-    name: tZILBTC
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 40.0
-    max_order_size: 1500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ZILUSD(Symbol):
@@ -25780,17 +20335,6 @@ class ZILUSD(Symbol):
 
 
 ZILUSD = ZILUSD(*ZILUSD._fields)
-"""
-    name: tZILUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 40.0
-    max_order_size: 1500000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ZMTUSD(Symbol):
@@ -25832,17 +20376,6 @@ class ZMTUSD(Symbol):
 
 
 ZMTUSD = ZMTUSD(*ZMTUSD._fields)
-"""
-    name: tZMTUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ZMTUST(Symbol):
@@ -25884,17 +20417,6 @@ class ZMTUST(Symbol):
 
 
 ZMTUST = ZMTUST(*ZMTUST._fields)
-"""
-    name: tZMTUST
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 2.0
-    max_order_size: 50000.0
-    has_margin: False
-    exchange: bitfinex
-"""
 
 
 class ZRXUSD(Symbol):
@@ -25936,14 +20458,511 @@ class ZRXUSD(Symbol):
 
 
 ZRXUSD = ZRXUSD(*ZRXUSD._fields)
-"""
-    name: tZRXUSD
-    significant_digits: 5
-    tick_size: None
-    min_margin: 15.0
-    initial_margin: 30.0
-    min_order_size: 6.0
-    max_order_size: 200000.0
-    has_margin: True
-    exchange: bitfinex
-"""
+
+
+class Bitfinex:
+
+    ONEINCH_USD: Symbol = ONEINCH_USD
+    ONEINCH_UST: Symbol = ONEINCH_UST
+    AAVE_USD: Symbol = AAVE_USD
+    AAVE_UST: Symbol = AAVE_UST
+    AAVEF0_USTF0: Symbol = AAVEF0_USTF0
+    ADABTC: Symbol = ADABTC
+    ADAF0_USTF0: Symbol = ADAF0_USTF0
+    ADAUSD: Symbol = ADAUSD
+    ADAUST: Symbol = ADAUST
+    AIXUSD: Symbol = AIXUSD
+    AIXUST: Symbol = AIXUST
+    ALGBTC: Symbol = ALGBTC
+    ALGF0_USTF0: Symbol = ALGF0_USTF0
+    ALGUSD: Symbol = ALGUSD
+    ALGUST: Symbol = ALGUST
+    AMPBTC: Symbol = AMPBTC
+    AMPF0_USTF0: Symbol = AMPF0_USTF0
+    AMPUSD: Symbol = AMPUSD
+    AMPUST: Symbol = AMPUST
+    ANTBTC: Symbol = ANTBTC
+    ANTUSD: Symbol = ANTUSD
+    APEF0_USTF0: Symbol = APEF0_USTF0
+    APENFT_USD: Symbol = APENFT_USD
+    APENFT_UST: Symbol = APENFT_UST
+    APEUSD: Symbol = APEUSD
+    APEUST: Symbol = APEUST
+    APTF0_USTF0: Symbol = APTF0_USTF0
+    APTUSD: Symbol = APTUSD
+    APTUST: Symbol = APTUST
+    ARBF0_USTF0: Symbol = ARBF0_USTF0
+    ARBUSD: Symbol = ARBUSD
+    ARBUST: Symbol = ARBUST
+    ATLAS_USD: Symbol = ATLAS_USD
+    ATLAS_UST: Symbol = ATLAS_UST
+    ATOBTC: Symbol = ATOBTC
+    ATOETH: Symbol = ATOETH
+    ATOF0_USTF0: Symbol = ATOF0_USTF0
+    ATOUSD: Symbol = ATOUSD
+    ATOUST: Symbol = ATOUST
+    AUSTRALIA200IXF0_USTF0: Symbol = AUSTRALIA200IXF0_USTF0
+    AVAX_BTC: Symbol = AVAX_BTC
+    AVAX_USD: Symbol = AVAX_USD
+    AVAX_UST: Symbol = AVAX_UST
+    AVAXF0_BTCF0: Symbol = AVAXF0_BTCF0
+    AVAXF0_USTF0: Symbol = AVAXF0_USTF0
+    AXSF0_USTF0: Symbol = AXSF0_USTF0
+    AXSUSD: Symbol = AXSUSD
+    AXSUST: Symbol = AXSUST
+    B2MUSD: Symbol = B2MUSD
+    B2MUST: Symbol = B2MUST
+    BALUSD: Symbol = BALUSD
+    BALUST: Symbol = BALUST
+    BAND_USD: Symbol = BAND_USD
+    BAND_UST: Symbol = BAND_UST
+    BATUSD: Symbol = BATUSD
+    BATUST: Symbol = BATUST
+    BCHABC_USD: Symbol = BCHABC_USD
+    BCHN_USD: Symbol = BCHN_USD
+    BEST_USD: Symbol = BEST_USD
+    BGBUSD: Symbol = BGBUSD
+    BGBUST: Symbol = BGBUST
+    BLUR_USD: Symbol = BLUR_USD
+    BLUR_UST: Symbol = BLUR_UST
+    BMNBTC: Symbol = BMNBTC
+    BMNUSD: Symbol = BMNUSD
+    BNTUSD: Symbol = BNTUSD
+    BOBA_USD: Symbol = BOBA_USD
+    BOBA_UST: Symbol = BOBA_UST
+    BOOUSD: Symbol = BOOUSD
+    BOOUST: Symbol = BOOUST
+    BOSON_USD: Symbol = BOSON_USD
+    BOSON_UST: Symbol = BOSON_UST
+    BRISE_USD: Symbol = BRISE_USD
+    BRISE_UST: Symbol = BRISE_UST
+    BTC_CNHT: Symbol = BTC_CNHT
+    BTC_MXNT: Symbol = BTC_MXNT
+    BTC_XAUT: Symbol = BTC_XAUT
+    BTCDOMF0_USTF0: Symbol = BTCDOMF0_USTF0
+    BTCEUR: Symbol = BTCEUR
+    BTCEUT: Symbol = BTCEUT
+    BTCF0_EUTF0: Symbol = BTCF0_EUTF0
+    BTCF0_USTF0: Symbol = BTCF0_USTF0
+    BTCGBP: Symbol = BTCGBP
+    BTCJPY: Symbol = BTCJPY
+    BTCMIM: Symbol = BTCMIM
+    BTCTRY: Symbol = BTCTRY
+    BTCUSD: Symbol = BTCUSD
+    BTCUST: Symbol = BTCUST
+    BTGBTC: Symbol = BTGBTC
+    BTGUSD: Symbol = BTGUSD
+    BTSE_USD: Symbol = BTSE_USD
+    BTTUSD: Symbol = BTTUSD
+    CCDBTC: Symbol = CCDBTC
+    CCDUSD: Symbol = CCDUSD
+    CCDUST: Symbol = CCDUST
+    CHEX_USD: Symbol = CHEX_USD
+    CHSB_BTC: Symbol = CHSB_BTC
+    CHSB_USD: Symbol = CHSB_USD
+    CHSB_UST: Symbol = CHSB_UST
+    CHZUSD: Symbol = CHZUSD
+    CHZUST: Symbol = CHZUST
+    CLOUSD: Symbol = CLOUSD
+    CNH_CNHT: Symbol = CNH_CNHT
+    COMP_USD: Symbol = COMP_USD
+    COMP_UST: Symbol = COMP_UST
+    COMPF0_USTF0: Symbol = COMPF0_USTF0
+    CONV_USD: Symbol = CONV_USD
+    CONV_UST: Symbol = CONV_UST
+    CRVF0_USTF0: Symbol = CRVF0_USTF0
+    CRVUSD: Symbol = CRVUSD
+    CRVUST: Symbol = CRVUST
+    DAIBTC: Symbol = DAIBTC
+    DAIUSD: Symbol = DAIUSD
+    DGBUSD: Symbol = DGBUSD
+    DOGE_BTC: Symbol = DOGE_BTC
+    DOGE_USD: Symbol = DOGE_USD
+    DOGE_UST: Symbol = DOGE_UST
+    DOGEF0_USTF0: Symbol = DOGEF0_USTF0
+    DORA_USD: Symbol = DORA_USD
+    DORA_UST: Symbol = DORA_UST
+    DOTBTC: Symbol = DOTBTC
+    DOTF0_BTCF0: Symbol = DOTF0_BTCF0
+    DOTF0_USTF0: Symbol = DOTF0_USTF0
+    DOTUSD: Symbol = DOTUSD
+    DOTUST: Symbol = DOTUST
+    DSHBTC: Symbol = DSHBTC
+    DSHUSD: Symbol = DSHUSD
+    DUSK_BTC: Symbol = DUSK_BTC
+    DUSK_USD: Symbol = DUSK_USD
+    DVFUSD: Symbol = DVFUSD
+    EDOUSD: Symbol = EDOUSD
+    EGLD_USD: Symbol = EGLD_USD
+    EGLD_UST: Symbol = EGLD_UST
+    EGLDF0_USTF0: Symbol = EGLDF0_USTF0
+    ENJUSD: Symbol = ENJUSD
+    EOSBTC: Symbol = EOSBTC
+    EOSETH: Symbol = EOSETH
+    EOSEUR: Symbol = EOSEUR
+    EOSF0_USTF0: Symbol = EOSF0_USTF0
+    EOSUSD: Symbol = EOSUSD
+    EOSUST: Symbol = EOSUST
+    ETCBTC: Symbol = ETCBTC
+    ETCF0_USTF0: Symbol = ETCF0_USTF0
+    ETCUSD: Symbol = ETCUSD
+    ETCUST: Symbol = ETCUST
+    ETH2X_ETH: Symbol = ETH2X_ETH
+    ETH2X_USD: Symbol = ETH2X_USD
+    ETH2X_UST: Symbol = ETH2X_UST
+    ETH_MXNT: Symbol = ETH_MXNT
+    ETH_XAUT: Symbol = ETH_XAUT
+    ETHBTC: Symbol = ETHBTC
+    ETHEUR: Symbol = ETHEUR
+    ETHEUT: Symbol = ETHEUT
+    ETHF0_BTCF0: Symbol = ETHF0_BTCF0
+    ETHF0_EUTF0: Symbol = ETHF0_EUTF0
+    ETHF0_USTF0: Symbol = ETHF0_USTF0
+    ETHGBP: Symbol = ETHGBP
+    ETHJPY: Symbol = ETHJPY
+    ETHUSD: Symbol = ETHUSD
+    ETHUST: Symbol = ETHUST
+    ETHW_USD: Symbol = ETHW_USD
+    ETHW_UST: Symbol = ETHW_UST
+    ETPUSD: Symbol = ETPUSD
+    EURF0_USTF0: Symbol = EURF0_USTF0
+    EUROPE50IXF0_USTF0: Symbol = EUROPE50IXF0_USTF0
+    EURUST: Symbol = EURUST
+    EUSUSD: Symbol = EUSUSD
+    EUT_MXNT: Symbol = EUT_MXNT
+    EUTEUR: Symbol = EUTEUR
+    EUTUSD: Symbol = EUTUSD
+    EUTUST: Symbol = EUTUST
+    FBTUSD: Symbol = FBTUSD
+    FBTUST: Symbol = FBTUST
+    FCLUSD: Symbol = FCLUSD
+    FCLUST: Symbol = FCLUST
+    FETUSD: Symbol = FETUSD
+    FETUST: Symbol = FETUST
+    FILF0_USTF0: Symbol = FILF0_USTF0
+    FILUSD: Symbol = FILUSD
+    FILUST: Symbol = FILUST
+    FLOKI_USD: Symbol = FLOKI_USD
+    FLOKI_UST: Symbol = FLOKI_UST
+    FLRUSD: Symbol = FLRUSD
+    FLRUST: Symbol = FLRUST
+    FORTH_USD: Symbol = FORTH_USD
+    FORTH_UST: Symbol = FORTH_UST
+    FRANCE40IXF0_USTF0: Symbol = FRANCE40IXF0_USTF0
+    FTMF0_USTF0: Symbol = FTMF0_USTF0
+    FTMUSD: Symbol = FTMUSD
+    FTMUST: Symbol = FTMUST
+    FUNUSD: Symbol = FUNUSD
+    GALA_USD: Symbol = GALA_USD
+    GALA_UST: Symbol = GALA_UST
+    GALAF0_USTF0: Symbol = GALAF0_USTF0
+    GBPEUT: Symbol = GBPEUT
+    GBPF0_USTF0: Symbol = GBPF0_USTF0
+    GBPUST: Symbol = GBPUST
+    GERMANY40IXF0_USTF0: Symbol = GERMANY40IXF0_USTF0
+    GNOUSD: Symbol = GNOUSD
+    GNTUSD: Symbol = GNTUSD
+    GPTUSD: Symbol = GPTUSD
+    GPTUST: Symbol = GPTUST
+    GRTUSD: Symbol = GRTUSD
+    GRTUST: Symbol = GRTUST
+    GTXUSD: Symbol = GTXUSD
+    GTXUST: Symbol = GTXUST
+    GXTUSD: Symbol = GXTUSD
+    GXTUST: Symbol = GXTUST
+    HECUSD: Symbol = HECUSD
+    HECUST: Symbol = HECUST
+    HIXUSD: Symbol = HIXUSD
+    HIXUST: Symbol = HIXUST
+    HMTUSD: Symbol = HMTUSD
+    HMTUST: Symbol = HMTUST
+    HONGKONG50IXF0_USTF0: Symbol = HONGKONG50IXF0_USTF0
+    HTXUSD: Symbol = HTXUSD
+    HTXUST: Symbol = HTXUST
+    ICEUSD: Symbol = ICEUSD
+    ICPBTC: Symbol = ICPBTC
+    ICPF0_USTF0: Symbol = ICPF0_USTF0
+    ICPUSD: Symbol = ICPUSD
+    ICPUST: Symbol = ICPUST
+    IDXUSD: Symbol = IDXUSD
+    IDXUST: Symbol = IDXUST
+    IOTBTC: Symbol = IOTBTC
+    IOTF0_USTF0: Symbol = IOTF0_USTF0
+    IOTUSD: Symbol = IOTUSD
+    JAPAN225IXF0_USTF0: Symbol = JAPAN225IXF0_USTF0
+    JASMY_USD: Symbol = JASMY_USD
+    JASMY_UST: Symbol = JASMY_UST
+    JASMYF0_USTF0: Symbol = JASMYF0_USTF0
+    JPYF0_USTF0: Symbol = JPYF0_USTF0
+    JPYUST: Symbol = JPYUST
+    JSTBTC: Symbol = JSTBTC
+    JSTUSD: Symbol = JSTUSD
+    JSTUST: Symbol = JSTUST
+    KANUSD: Symbol = KANUSD
+    KANUST: Symbol = KANUST
+    KNCBTC: Symbol = KNCBTC
+    KNCF0_USTF0: Symbol = KNCF0_USTF0
+    KNCUSD: Symbol = KNCUSD
+    KSMUSD: Symbol = KSMUSD
+    KSMUST: Symbol = KSMUST
+    LDOUSD: Symbol = LDOUSD
+    LDOUST: Symbol = LDOUST
+    LEOBTC: Symbol = LEOBTC
+    LEOETH: Symbol = LEOETH
+    LEOUSD: Symbol = LEOUSD
+    LEOUST: Symbol = LEOUST
+    LINK_USD: Symbol = LINK_USD
+    LINK_UST: Symbol = LINK_UST
+    LINKF0_USTF0: Symbol = LINKF0_USTF0
+    LRCUSD: Symbol = LRCUSD
+    LTCBTC: Symbol = LTCBTC
+    LTCF0_BTCF0: Symbol = LTCF0_BTCF0
+    LTCF0_USTF0: Symbol = LTCF0_USTF0
+    LTCUSD: Symbol = LTCUSD
+    LTCUST: Symbol = LTCUST
+    LUNA2_USD: Symbol = LUNA2_USD
+    LUNA2_UST: Symbol = LUNA2_UST
+    LUNA_USD: Symbol = LUNA_USD
+    LUNA_UST: Symbol = LUNA_UST
+    LUXO_USD: Symbol = LUXO_USD
+    LYMUSD: Symbol = LYMUSD
+    MATIC_BTC: Symbol = MATIC_BTC
+    MATIC_USD: Symbol = MATIC_USD
+    MATIC_UST: Symbol = MATIC_UST
+    MATICF0_USTF0: Symbol = MATICF0_USTF0
+    MIMUSD: Symbol = MIMUSD
+    MIMUST: Symbol = MIMUST
+    MKRF0_USTF0: Symbol = MKRF0_USTF0
+    MKRUSD: Symbol = MKRUSD
+    MKRUST: Symbol = MKRUST
+    MLNUSD: Symbol = MLNUSD
+    MNABTC: Symbol = MNABTC
+    MNAUSD: Symbol = MNAUSD
+    MOBUSD: Symbol = MOBUSD
+    MOBUST: Symbol = MOBUST
+    MXNT_USD: Symbol = MXNT_USD
+    NEAR_USD: Symbol = NEAR_USD
+    NEAR_UST: Symbol = NEAR_UST
+    NEARF0_USTF0: Symbol = NEARF0_USTF0
+    NEOBTC: Symbol = NEOBTC
+    NEOF0_USTF0: Symbol = NEOF0_USTF0
+    NEOUSD: Symbol = NEOUSD
+    NEOUST: Symbol = NEOUST
+    NEXO_BTC: Symbol = NEXO_BTC
+    NEXO_USD: Symbol = NEXO_USD
+    NEXO_UST: Symbol = NEXO_UST
+    NOMUSD: Symbol = NOMUSD
+    NOMUST: Symbol = NOMUST
+    NXRA_USD: Symbol = NXRA_USD
+    OCEAN_USD: Symbol = OCEAN_USD
+    OCEAN_UST: Symbol = OCEAN_UST
+    OGNUSD: Symbol = OGNUSD
+    OGNUST: Symbol = OGNUST
+    OMGBTC: Symbol = OMGBTC
+    OMGETH: Symbol = OMGETH
+    OMGF0_USTF0: Symbol = OMGF0_USTF0
+    OMGUSD: Symbol = OMGUSD
+    OMNUSD: Symbol = OMNUSD
+    ONEUSD: Symbol = ONEUSD
+    ONEUST: Symbol = ONEUST
+    PASUSD: Symbol = PASUSD
+    PAXUSD: Symbol = PAXUSD
+    PAXUST: Symbol = PAXUST
+    PLANETS_USD: Symbol = PLANETS_USD
+    PLANETS_UST: Symbol = PLANETS_UST
+    PLUUSD: Symbol = PLUUSD
+    PNKUSD: Symbol = PNKUSD
+    POLC_USD: Symbol = POLC_USD
+    POLC_UST: Symbol = POLC_UST
+    POLIS_USD: Symbol = POLIS_USD
+    POLIS_UST: Symbol = POLIS_UST
+    PRMX_USD: Symbol = PRMX_USD
+    PRMX_UST: Symbol = PRMX_UST
+    QRDO_USD: Symbol = QRDO_USD
+    QRDO_UST: Symbol = QRDO_UST
+    QTFBTC: Symbol = QTFBTC
+    QTFUSD: Symbol = QTFUSD
+    QTMUSD: Symbol = QTMUSD
+    RBTUSD: Symbol = RBTUSD
+    REEF_USD: Symbol = REEF_USD
+    REEF_UST: Symbol = REEF_UST
+    REPUSD: Symbol = REPUSD
+    REQUSD: Symbol = REQUSD
+    RLYUSD: Symbol = RLYUSD
+    RLYUST: Symbol = RLYUST
+    RRTUSD: Symbol = RRTUSD
+    SAND_USD: Symbol = SAND_USD
+    SAND_UST: Symbol = SAND_UST
+    SANDF0_USTF0: Symbol = SANDF0_USTF0
+    SENATE_USD: Symbol = SENATE_USD
+    SGBUSD: Symbol = SGBUSD
+    SGBUST: Symbol = SGBUST
+    SHFT_USD: Symbol = SHFT_USD
+    SHFT_UST: Symbol = SHFT_UST
+    SHIB_USD: Symbol = SHIB_USD
+    SHIB_UST: Symbol = SHIB_UST
+    SHIBF0_USTF0: Symbol = SHIBF0_USTF0
+    SIDUS_USD: Symbol = SIDUS_USD
+    SMRUSD: Symbol = SMRUSD
+    SMRUST: Symbol = SMRUST
+    SNTUSD: Symbol = SNTUSD
+    SNXUSD: Symbol = SNXUSD
+    SNXUST: Symbol = SNXUST
+    SOLBTC: Symbol = SOLBTC
+    SOLF0_BTCF0: Symbol = SOLF0_BTCF0
+    SOLF0_USTF0: Symbol = SOLF0_USTF0
+    SOLUSD: Symbol = SOLUSD
+    SOLUST: Symbol = SOLUST
+    SPAIN35IXF0_USTF0: Symbol = SPAIN35IXF0_USTF0
+    SPELL_USD: Symbol = SPELL_USD
+    STGF0_USTF0: Symbol = STGF0_USTF0
+    STGUSD: Symbol = STGUSD
+    STGUST: Symbol = STGUST
+    STJUSD: Symbol = STJUSD
+    SUIUSD: Symbol = SUIUSD
+    SUIUST: Symbol = SUIUST
+    SUKU_USD: Symbol = SUKU_USD
+    SUKU_UST: Symbol = SUKU_UST
+    SUNUSD: Symbol = SUNUSD
+    SUNUST: Symbol = SUNUST
+    SUSHI_USD: Symbol = SUSHI_USD
+    SUSHI_UST: Symbol = SUSHI_UST
+    SUSHIF0_USTF0: Symbol = SUSHIF0_USTF0
+    SWEAT_USD: Symbol = SWEAT_USD
+    SWEAT_UST: Symbol = SWEAT_UST
+    SXXUSD: Symbol = SXXUSD
+    TERRAUST_USD: Symbol = TERRAUST_USD
+    TESTADA_TESTUSD: Symbol = TESTADA_TESTUSD
+    TESTADAF0_TESTUSDTF0: Symbol = TESTADAF0_TESTUSDTF0
+    TESTALGO_TESTUSD: Symbol = TESTALGO_TESTUSD
+    TESTALGOF0_TESTUSDTF0: Symbol = TESTALGOF0_TESTUSDTF0
+    TESTAPT_TESTUSD: Symbol = TESTAPT_TESTUSD
+    TESTAPTF0_TESTUSDTF0: Symbol = TESTAPTF0_TESTUSDTF0
+    TESTAVAX_TESTUSD: Symbol = TESTAVAX_TESTUSD
+    TESTAVAXF0_TESTUSDTF0: Symbol = TESTAVAXF0_TESTUSDTF0
+    TESTBTC_TESTUSD: Symbol = TESTBTC_TESTUSD
+    TESTBTC_TESTUSDT: Symbol = TESTBTC_TESTUSDT
+    TESTBTCF0_TESTUSDTF0: Symbol = TESTBTCF0_TESTUSDTF0
+    TESTDOGE_TESTUSD: Symbol = TESTDOGE_TESTUSD
+    TESTDOGEF0_TESTUSDTF0: Symbol = TESTDOGEF0_TESTUSDTF0
+    TESTDOT_TESTUSD: Symbol = TESTDOT_TESTUSD
+    TESTDOTF0_TESTUSDTF0: Symbol = TESTDOTF0_TESTUSDTF0
+    TESTEOS_TESTUSD: Symbol = TESTEOS_TESTUSD
+    TESTEOSF0_TESTUSDTF0: Symbol = TESTEOSF0_TESTUSDTF0
+    TESTETH_TESTUSD: Symbol = TESTETH_TESTUSD
+    TESTETHF0_TESTUSDTF0: Symbol = TESTETHF0_TESTUSDTF0
+    TESTFIL_TESTUSD: Symbol = TESTFIL_TESTUSD
+    TESTFILF0_TESTUSDTF0: Symbol = TESTFILF0_TESTUSDTF0
+    TESTLTC_TESTUSD: Symbol = TESTLTC_TESTUSD
+    TESTLTCF0_TESTUSDTF0: Symbol = TESTLTCF0_TESTUSDTF0
+    TESTMATIC_TESTUSD: Symbol = TESTMATIC_TESTUSD
+    TESTMATIC_TESTUSDT: Symbol = TESTMATIC_TESTUSDT
+    TESTMATICF0_TESTUSDTF0: Symbol = TESTMATICF0_TESTUSDTF0
+    TESTNEAR_TESTUSD: Symbol = TESTNEAR_TESTUSD
+    TESTNEARF0_TESTUSDTF0: Symbol = TESTNEARF0_TESTUSDTF0
+    TESTSOL_TESTUSD: Symbol = TESTSOL_TESTUSD
+    TESTSOLF0_TESTUSDTF0: Symbol = TESTSOLF0_TESTUSDTF0
+    TESTXAUT_TESTUSD: Symbol = TESTXAUT_TESTUSD
+    TESTXAUTF0_TESTUSDTF0: Symbol = TESTXAUTF0_TESTUSDTF0
+    TESTXTZ_TESTUSD: Symbol = TESTXTZ_TESTUSD
+    TESTXTZF0_TESTUSDTF0: Symbol = TESTXTZF0_TESTUSDTF0
+    THETA_USD: Symbol = THETA_USD
+    THETA_UST: Symbol = THETA_UST
+    TLOS_USD: Symbol = TLOS_USD
+    TONUSD: Symbol = TONUSD
+    TONUST: Symbol = TONUST
+    TRADE_USD: Symbol = TRADE_USD
+    TRADE_UST: Symbol = TRADE_UST
+    TREEB_USD: Symbol = TREEB_USD
+    TREEB_UST: Symbol = TREEB_UST
+    TRXBTC: Symbol = TRXBTC
+    TRXETH: Symbol = TRXETH
+    TRXEUR: Symbol = TRXEUR
+    TRXF0_USTF0: Symbol = TRXF0_USTF0
+    TRXUSD: Symbol = TRXUSD
+    TRXUST: Symbol = TRXUST
+    TRYUST: Symbol = TRYUST
+    TSDUSD: Symbol = TSDUSD
+    TSDUST: Symbol = TSDUST
+    UDCUSD: Symbol = UDCUSD
+    UDCUST: Symbol = UDCUST
+    UK100IXF0_USTF0: Symbol = UK100IXF0_USTF0
+    UKOILF0_USTF0: Symbol = UKOILF0_USTF0
+    UNIF0_USTF0: Symbol = UNIF0_USTF0
+    UNIUSD: Symbol = UNIUSD
+    UNIUST: Symbol = UNIUST
+    UOSBTC: Symbol = UOSBTC
+    UOSUSD: Symbol = UOSUSD
+    UST_CNHT: Symbol = UST_CNHT
+    UST_MXNT: Symbol = UST_MXNT
+    USTUSD: Symbol = USTUSD
+    UTKUSD: Symbol = UTKUSD
+    VELO_USD: Symbol = VELO_USD
+    VELO_UST: Symbol = VELO_UST
+    VETBTC: Symbol = VETBTC
+    VETUSD: Symbol = VETUSD
+    VETUST: Symbol = VETUST
+    VRAUSD: Symbol = VRAUSD
+    VRAUST: Symbol = VRAUST
+    VSYUSD: Symbol = VSYUSD
+    WAVES_USD: Symbol = WAVES_USD
+    WAVES_UST: Symbol = WAVES_UST
+    WAVESF0_USTF0: Symbol = WAVESF0_USTF0
+    WAXUSD: Symbol = WAXUSD
+    WBTBTC: Symbol = WBTBTC
+    WBTUSD: Symbol = WBTUSD
+    WILD_USD: Symbol = WILD_USD
+    WILD_UST: Symbol = WILD_UST
+    WMINIMA_USD: Symbol = WMINIMA_USD
+    WMINIMA_UST: Symbol = WMINIMA_UST
+    WNCG_USD: Symbol = WNCG_USD
+    WOOUSD: Symbol = WOOUSD
+    WOOUST: Symbol = WOOUST
+    XAGF0_USTF0: Symbol = XAGF0_USTF0
+    XAUT_BTC: Symbol = XAUT_BTC
+    XAUT_USD: Symbol = XAUT_USD
+    XAUT_UST: Symbol = XAUT_UST
+    XAUTF0_BTCF0: Symbol = XAUTF0_BTCF0
+    XAUTF0_USTF0: Symbol = XAUTF0_USTF0
+    XCAD_USD: Symbol = XCAD_USD
+    XCNUSD: Symbol = XCNUSD
+    XCNUST: Symbol = XCNUST
+    XDCUSD: Symbol = XDCUSD
+    XDCUST: Symbol = XDCUST
+    XLMBTC: Symbol = XLMBTC
+    XLMF0_USTF0: Symbol = XLMF0_USTF0
+    XLMUSD: Symbol = XLMUSD
+    XLMUST: Symbol = XLMUST
+    XMRBTC: Symbol = XMRBTC
+    XMRF0_USTF0: Symbol = XMRF0_USTF0
+    XMRUSD: Symbol = XMRUSD
+    XMRUST: Symbol = XMRUST
+    XPDF0_USTF0: Symbol = XPDF0_USTF0
+    XPTF0_USTF0: Symbol = XPTF0_USTF0
+    XRDBTC: Symbol = XRDBTC
+    XRDUSD: Symbol = XRDUSD
+    XRPBTC: Symbol = XRPBTC
+    XRPF0_BTCF0: Symbol = XRPF0_BTCF0
+    XRPF0_USTF0: Symbol = XRPF0_USTF0
+    XRPUSD: Symbol = XRPUSD
+    XRPUST: Symbol = XRPUST
+    XTZBTC: Symbol = XTZBTC
+    XTZF0_USTF0: Symbol = XTZF0_USTF0
+    XTZUSD: Symbol = XTZUSD
+    XTZUST: Symbol = XTZUST
+    XVGUSD: Symbol = XVGUSD
+    YFIUSD: Symbol = YFIUSD
+    YFIUST: Symbol = YFIUST
+    ZECBTC: Symbol = ZECBTC
+    ZECF0_USTF0: Symbol = ZECF0_USTF0
+    ZECUSD: Symbol = ZECUSD
+    ZILBTC: Symbol = ZILBTC
+    ZILUSD: Symbol = ZILUSD
+    ZMTUSD: Symbol = ZMTUSD
+    ZMTUST: Symbol = ZMTUST
+    ZRXUSD: Symbol = ZRXUSD
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([ONEINCH_USD, ONEINCH_UST, AAVE_USD, AAVE_UST, AAVEF0_USTF0, ADABTC, ADAF0_USTF0, ADAUSD, ADAUST, AIXUSD, AIXUST, ALGBTC, ALGF0_USTF0, ALGUSD, ALGUST, AMPBTC, AMPF0_USTF0, AMPUSD, AMPUST, ANTBTC, ANTUSD, APEF0_USTF0, APENFT_USD, APENFT_UST, APEUSD, APEUST, APTF0_USTF0, APTUSD, APTUST, ARBF0_USTF0, ARBUSD, ARBUST, ATLAS_USD, ATLAS_UST, ATOBTC, ATOETH, ATOF0_USTF0, ATOUSD, ATOUST, AUSTRALIA200IXF0_USTF0, AVAX_BTC, AVAX_USD, AVAX_UST, AVAXF0_BTCF0, AVAXF0_USTF0, AXSF0_USTF0, AXSUSD, AXSUST, B2MUSD, B2MUST, BALUSD, BALUST, BAND_USD, BAND_UST, BATUSD, BATUST, BCHABC_USD, BCHN_USD, BEST_USD, BGBUSD, BGBUST, BLUR_USD, BLUR_UST, BMNBTC, BMNUSD, BNTUSD, BOBA_USD, BOBA_UST, BOOUSD, BOOUST, BOSON_USD, BOSON_UST, BRISE_USD, BRISE_UST, BTC_CNHT, BTC_MXNT, BTC_XAUT, BTCDOMF0_USTF0, BTCEUR, BTCEUT, BTCF0_EUTF0, BTCF0_USTF0, BTCGBP, BTCJPY, BTCMIM, BTCTRY, BTCUSD, BTCUST, BTGBTC, BTGUSD, BTSE_USD, BTTUSD, CCDBTC, CCDUSD, CCDUST, CHEX_USD, CHSB_BTC, CHSB_USD, CHSB_UST, CHZUSD, CHZUST, CLOUSD, CNH_CNHT, COMP_USD, COMP_UST, COMPF0_USTF0, CONV_USD, CONV_UST, CRVF0_USTF0, CRVUSD, CRVUST, DAIBTC, DAIUSD, DGBUSD, DOGE_BTC, DOGE_USD, DOGE_UST, DOGEF0_USTF0, DORA_USD, DORA_UST, DOTBTC, DOTF0_BTCF0, DOTF0_USTF0, DOTUSD, DOTUST, DSHBTC, DSHUSD, DUSK_BTC, DUSK_USD, DVFUSD, EDOUSD, EGLD_USD, EGLD_UST, EGLDF0_USTF0, ENJUSD, EOSBTC, EOSETH, EOSEUR, EOSF0_USTF0, EOSUSD, EOSUST, ETCBTC, ETCF0_USTF0, ETCUSD, ETCUST, ETH2X_ETH, ETH2X_USD, ETH2X_UST, ETH_MXNT, ETH_XAUT, ETHBTC, ETHEUR, ETHEUT, ETHF0_BTCF0, ETHF0_EUTF0, ETHF0_USTF0, ETHGBP, ETHJPY, ETHUSD, ETHUST, ETHW_USD, ETHW_UST, ETPUSD, EURF0_USTF0, EUROPE50IXF0_USTF0, EURUST, EUSUSD, EUT_MXNT, EUTEUR, EUTUSD, EUTUST, FBTUSD, FBTUST, FCLUSD, FCLUST, FETUSD, FETUST, FILF0_USTF0, FILUSD, FILUST, FLOKI_USD, FLOKI_UST, FLRUSD, FLRUST, FORTH_USD, FORTH_UST, FRANCE40IXF0_USTF0, FTMF0_USTF0, FTMUSD, FTMUST, FUNUSD, GALA_USD, GALA_UST, GALAF0_USTF0, GBPEUT, GBPF0_USTF0, GBPUST, GERMANY40IXF0_USTF0, GNOUSD, GNTUSD, GPTUSD, GPTUST, GRTUSD, GRTUST, GTXUSD, GTXUST, GXTUSD, GXTUST, HECUSD, HECUST, HIXUSD, HIXUST, HMTUSD, HMTUST, HONGKONG50IXF0_USTF0, HTXUSD, HTXUST, ICEUSD, ICPBTC, ICPF0_USTF0, ICPUSD, ICPUST, IDXUSD, IDXUST, IOTBTC, IOTF0_USTF0, IOTUSD, JAPAN225IXF0_USTF0, JASMY_USD, JASMY_UST, JASMYF0_USTF0, JPYF0_USTF0, JPYUST, JSTBTC, JSTUSD, JSTUST, KANUSD, KANUST, KNCBTC, KNCF0_USTF0, KNCUSD, KSMUSD, KSMUST, LDOUSD, LDOUST, LEOBTC, LEOETH, LEOUSD, LEOUST, LINK_USD, LINK_UST, LINKF0_USTF0, LRCUSD, LTCBTC, LTCF0_BTCF0, LTCF0_USTF0, LTCUSD, LTCUST, LUNA2_USD, LUNA2_UST, LUNA_USD, LUNA_UST, LUXO_USD, LYMUSD, MATIC_BTC, MATIC_USD, MATIC_UST, MATICF0_USTF0, MIMUSD, MIMUST, MKRF0_USTF0, MKRUSD, MKRUST, MLNUSD, MNABTC, MNAUSD, MOBUSD, MOBUST, MXNT_USD, NEAR_USD, NEAR_UST, NEARF0_USTF0, NEOBTC, NEOF0_USTF0, NEOUSD, NEOUST, NEXO_BTC, NEXO_USD, NEXO_UST, NOMUSD, NOMUST, NXRA_USD, OCEAN_USD, OCEAN_UST, OGNUSD, OGNUST, OMGBTC, OMGETH, OMGF0_USTF0, OMGUSD, OMNUSD, ONEUSD, ONEUST, PASUSD, PAXUSD, PAXUST, PLANETS_USD, PLANETS_UST, PLUUSD, PNKUSD, POLC_USD, POLC_UST, POLIS_USD, POLIS_UST, PRMX_USD, PRMX_UST, QRDO_USD, QRDO_UST, QTFBTC, QTFUSD, QTMUSD, RBTUSD, REEF_USD, REEF_UST, REPUSD, REQUSD, RLYUSD, RLYUST, RRTUSD, SAND_USD, SAND_UST, SANDF0_USTF0, SENATE_USD, SGBUSD, SGBUST, SHFT_USD, SHFT_UST, SHIB_USD, SHIB_UST, SHIBF0_USTF0, SIDUS_USD, SMRUSD, SMRUST, SNTUSD, SNXUSD, SNXUST, SOLBTC, SOLF0_BTCF0, SOLF0_USTF0, SOLUSD, SOLUST, SPAIN35IXF0_USTF0, SPELL_USD, STGF0_USTF0, STGUSD, STGUST, STJUSD, SUIUSD, SUIUST, SUKU_USD, SUKU_UST, SUNUSD, SUNUST, SUSHI_USD, SUSHI_UST, SUSHIF0_USTF0, SWEAT_USD, SWEAT_UST, SXXUSD, TERRAUST_USD, TESTADA_TESTUSD, TESTADAF0_TESTUSDTF0, TESTALGO_TESTUSD, TESTALGOF0_TESTUSDTF0, TESTAPT_TESTUSD, TESTAPTF0_TESTUSDTF0, TESTAVAX_TESTUSD, TESTAVAXF0_TESTUSDTF0, TESTBTC_TESTUSD, TESTBTC_TESTUSDT, TESTBTCF0_TESTUSDTF0, TESTDOGE_TESTUSD, TESTDOGEF0_TESTUSDTF0, TESTDOT_TESTUSD, TESTDOTF0_TESTUSDTF0, TESTEOS_TESTUSD, TESTEOSF0_TESTUSDTF0, TESTETH_TESTUSD, TESTETHF0_TESTUSDTF0, TESTFIL_TESTUSD, TESTFILF0_TESTUSDTF0, TESTLTC_TESTUSD, TESTLTCF0_TESTUSDTF0, TESTMATIC_TESTUSD, TESTMATIC_TESTUSDT, TESTMATICF0_TESTUSDTF0, TESTNEAR_TESTUSD, TESTNEARF0_TESTUSDTF0, TESTSOL_TESTUSD, TESTSOLF0_TESTUSDTF0, TESTXAUT_TESTUSD, TESTXAUTF0_TESTUSDTF0, TESTXTZ_TESTUSD, TESTXTZF0_TESTUSDTF0, THETA_USD, THETA_UST, TLOS_USD, TONUSD, TONUST, TRADE_USD, TRADE_UST, TREEB_USD, TREEB_UST, TRXBTC, TRXETH, TRXEUR, TRXF0_USTF0, TRXUSD, TRXUST, TRYUST, TSDUSD, TSDUST, UDCUSD, UDCUST, UK100IXF0_USTF0, UKOILF0_USTF0, UNIF0_USTF0, UNIUSD, UNIUST, UOSBTC, UOSUSD, UST_CNHT, UST_MXNT, USTUSD, UTKUSD, VELO_USD, VELO_UST, VETBTC, VETUSD, VETUST, VRAUSD, VRAUST, VSYUSD, WAVES_USD, WAVES_UST, WAVESF0_USTF0, WAXUSD, WBTBTC, WBTUSD, WILD_USD, WILD_UST, WMINIMA_USD, WMINIMA_UST, WNCG_USD, WOOUSD, WOOUST, XAGF0_USTF0, XAUT_BTC, XAUT_USD, XAUT_UST, XAUTF0_BTCF0, XAUTF0_USTF0, XCAD_USD, XCNUSD, XCNUST, XDCUSD, XDCUST, XLMBTC, XLMF0_USTF0, XLMUSD, XLMUST, XMRBTC, XMRF0_USTF0, XMRUSD, XMRUST, XPDF0_USTF0, XPTF0_USTF0, XRDBTC, XRDUSD, XRPBTC, XRPF0_BTCF0, XRPF0_USTF0, XRPUSD, XRPUST, XTZBTC, XTZF0_USTF0, XTZUSD, XTZUST, XVGUSD, YFIUSD, YFIUST, ZECBTC, ZECF0_USTF0, ZECUSD, ZILBTC, ZILUSD, ZMTUSD, ZMTUST, ZRXUSD])
+
+bitfinex = Bitfinex()

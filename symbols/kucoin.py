@@ -40,17 +40,6 @@ class OXEN_BTC(Symbol):
 
 
 OXEN_BTC = OXEN_BTC(*OXEN_BTC._fields)
-"""
-    name: LOKI-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OXEN_ETH(Symbol):
@@ -92,17 +81,6 @@ class OXEN_ETH(Symbol):
 
 
 OXEN_ETH = OXEN_ETH(*OXEN_ETH._fields)
-"""
-    name: LOKI-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NRG_BTC(Symbol):
@@ -144,17 +122,6 @@ class NRG_BTC(Symbol):
 
 
 NRG_BTC = NRG_BTC(*NRG_BTC._fields)
-"""
-    name: NRG-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVA_USDT(Symbol):
@@ -196,17 +163,6 @@ class AVA_USDT(Symbol):
 
 
 AVA_USDT = AVA_USDT(*AVA_USDT._fields)
-"""
-    name: AVA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FET_BTC(Symbol):
@@ -248,17 +204,6 @@ class FET_BTC(Symbol):
 
 
 FET_BTC = FET_BTC(*FET_BTC._fields)
-"""
-    name: FET-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FET_ETH(Symbol):
@@ -300,17 +245,6 @@ class FET_ETH(Symbol):
 
 
 FET_ETH = FET_ETH(*FET_ETH._fields)
-"""
-    name: FET-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ANKR_BTC(Symbol):
@@ -352,17 +286,6 @@ class ANKR_BTC(Symbol):
 
 
 ANKR_BTC = ANKR_BTC(*ANKR_BTC._fields)
-"""
-    name: ANKR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XMR_BTC(Symbol):
@@ -404,17 +327,6 @@ class XMR_BTC(Symbol):
 
 
 XMR_BTC = XMR_BTC(*XMR_BTC._fields)
-"""
-    name: XMR-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XMR_ETH(Symbol):
@@ -456,17 +368,6 @@ class XMR_ETH(Symbol):
 
 
 XMR_ETH = XMR_ETH(*XMR_ETH._fields)
-"""
-    name: XMR-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTV_BTC(Symbol):
@@ -508,17 +409,6 @@ class MTV_BTC(Symbol):
 
 
 MTV_BTC = MTV_BTC(*MTV_BTC._fields)
-"""
-    name: MTV-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTV_ETH(Symbol):
@@ -560,17 +450,6 @@ class MTV_ETH(Symbol):
 
 
 MTV_ETH = MTV_ETH(*MTV_ETH._fields)
-"""
-    name: MTV-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CRO_BTC(Symbol):
@@ -612,17 +491,6 @@ class CRO_BTC(Symbol):
 
 
 CRO_BTC = CRO_BTC(*CRO_BTC._fields)
-"""
-    name: CRO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTV_USDT(Symbol):
@@ -664,17 +532,6 @@ class MTV_USDT(Symbol):
 
 
 MTV_USDT = MTV_USDT(*MTV_USDT._fields)
-"""
-    name: MTV-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KMD_BTC(Symbol):
@@ -716,17 +573,6 @@ class KMD_BTC(Symbol):
 
 
 KMD_BTC = KMD_BTC(*KMD_BTC._fields)
-"""
-    name: KMD-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KMD_USDT(Symbol):
@@ -768,17 +614,6 @@ class KMD_USDT(Symbol):
 
 
 KMD_USDT = KMD_USDT(*KMD_USDT._fields)
-"""
-    name: KMD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RFOX_USDT(Symbol):
@@ -820,17 +655,6 @@ class RFOX_USDT(Symbol):
 
 
 RFOX_USDT = RFOX_USDT(*RFOX_USDT._fields)
-"""
-    name: RFOX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TEL_USDT(Symbol):
@@ -872,17 +696,6 @@ class TEL_USDT(Symbol):
 
 
 TEL_USDT = TEL_USDT(*TEL_USDT._fields)
-"""
-    name: TEL-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TT_USDT(Symbol):
@@ -924,17 +737,6 @@ class TT_USDT(Symbol):
 
 
 TT_USDT = TT_USDT(*TT_USDT._fields)
-"""
-    name: TT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AERGO_USDT(Symbol):
@@ -976,17 +778,6 @@ class AERGO_USDT(Symbol):
 
 
 AERGO_USDT = AERGO_USDT(*AERGO_USDT._fields)
-"""
-    name: AERGO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XMR_USDT(Symbol):
@@ -1028,17 +819,6 @@ class XMR_USDT(Symbol):
 
 
 XMR_USDT = XMR_USDT(*XMR_USDT._fields)
-"""
-    name: XMR-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TRX_KCS(Symbol):
@@ -1080,17 +860,6 @@ class TRX_KCS(Symbol):
 
 
 TRX_KCS = TRX_KCS(*TRX_KCS._fields)
-"""
-    name: TRX-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATOM_BTC(Symbol):
@@ -1132,17 +901,6 @@ class ATOM_BTC(Symbol):
 
 
 ATOM_BTC = ATOM_BTC(*ATOM_BTC._fields)
-"""
-    name: ATOM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ATOM_ETH(Symbol):
@@ -1184,17 +942,6 @@ class ATOM_ETH(Symbol):
 
 
 ATOM_ETH = ATOM_ETH(*ATOM_ETH._fields)
-"""
-    name: ATOM-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ATOM_USDT(Symbol):
@@ -1236,17 +983,6 @@ class ATOM_USDT(Symbol):
 
 
 ATOM_USDT = ATOM_USDT(*ATOM_USDT._fields)
-"""
-    name: ATOM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ATOM_KCS(Symbol):
@@ -1288,17 +1024,6 @@ class ATOM_KCS(Symbol):
 
 
 ATOM_KCS = ATOM_KCS(*ATOM_KCS._fields)
-"""
-    name: ATOM-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETN_USDT(Symbol):
@@ -1340,17 +1065,6 @@ class ETN_USDT(Symbol):
 
 
 ETN_USDT = ETN_USDT(*ETN_USDT._fields)
-"""
-    name: ETN-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTM_USDT(Symbol):
@@ -1392,17 +1106,6 @@ class FTM_USDT(Symbol):
 
 
 FTM_USDT = FTM_USDT(*FTM_USDT._fields)
-"""
-    name: FTM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class VSYS_USDT(Symbol):
@@ -1444,17 +1147,6 @@ class VSYS_USDT(Symbol):
 
 
 VSYS_USDT = VSYS_USDT(*VSYS_USDT._fields)
-"""
-    name: VSYS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OCEAN_BTC(Symbol):
@@ -1496,17 +1188,6 @@ class OCEAN_BTC(Symbol):
 
 
 OCEAN_BTC = OCEAN_BTC(*OCEAN_BTC._fields)
-"""
-    name: OCEAN-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OCEAN_ETH(Symbol):
@@ -1548,17 +1229,6 @@ class OCEAN_ETH(Symbol):
 
 
 OCEAN_ETH = OCEAN_ETH(*OCEAN_ETH._fields)
-"""
-    name: OCEAN-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CHR_BTC(Symbol):
@@ -1600,17 +1270,6 @@ class CHR_BTC(Symbol):
 
 
 CHR_BTC = CHR_BTC(*CHR_BTC._fields)
-"""
-    name: CHR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CHR_USDT(Symbol):
@@ -1652,17 +1311,6 @@ class CHR_USDT(Symbol):
 
 
 CHR_USDT = CHR_USDT(*CHR_USDT._fields)
-"""
-    name: CHR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FX_BTC(Symbol):
@@ -1704,17 +1352,6 @@ class FX_BTC(Symbol):
 
 
 FX_BTC = FX_BTC(*FX_BTC._fields)
-"""
-    name: FX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FX_ETH(Symbol):
@@ -1756,17 +1393,6 @@ class FX_ETH(Symbol):
 
 
 FX_ETH = FX_ETH(*FX_ETH._fields)
-"""
-    name: FX-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NIM_BTC(Symbol):
@@ -1808,17 +1434,6 @@ class NIM_BTC(Symbol):
 
 
 NIM_BTC = NIM_BTC(*NIM_BTC._fields)
-"""
-    name: NIM-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NIM_ETH(Symbol):
@@ -1860,17 +1475,6 @@ class NIM_ETH(Symbol):
 
 
 NIM_ETH = NIM_ETH(*NIM_ETH._fields)
-"""
-    name: NIM-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COTI_BTC(Symbol):
@@ -1912,17 +1516,6 @@ class COTI_BTC(Symbol):
 
 
 COTI_BTC = COTI_BTC(*COTI_BTC._fields)
-"""
-    name: COTI-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COTI_USDT(Symbol):
@@ -1964,17 +1557,6 @@ class COTI_USDT(Symbol):
 
 
 COTI_USDT = COTI_USDT(*COTI_USDT._fields)
-"""
-    name: COTI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NRG_ETH(Symbol):
@@ -2016,17 +1598,6 @@ class NRG_ETH(Symbol):
 
 
 NRG_ETH = NRG_ETH(*NRG_ETH._fields)
-"""
-    name: NRG-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB_BTC(Symbol):
@@ -2068,17 +1639,6 @@ class BNB_BTC(Symbol):
 
 
 BNB_BTC = BNB_BTC(*BNB_BTC._fields)
-"""
-    name: BNB-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB_USDT(Symbol):
@@ -2120,17 +1680,6 @@ class BNB_USDT(Symbol):
 
 
 BNB_USDT = BNB_USDT(*BNB_USDT._fields)
-"""
-    name: BNB-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class JAR_BTC(Symbol):
@@ -2172,17 +1721,6 @@ class JAR_BTC(Symbol):
 
 
 JAR_BTC = JAR_BTC(*JAR_BTC._fields)
-"""
-    name: JAR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JAR_USDT(Symbol):
@@ -2224,17 +1762,6 @@ class JAR_USDT(Symbol):
 
 
 JAR_USDT = JAR_USDT(*JAR_USDT._fields)
-"""
-    name: JAR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALGO_BTC(Symbol):
@@ -2276,17 +1803,6 @@ class ALGO_BTC(Symbol):
 
 
 ALGO_BTC = ALGO_BTC(*ALGO_BTC._fields)
-"""
-    name: ALGO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALGO_ETH(Symbol):
@@ -2328,17 +1844,6 @@ class ALGO_ETH(Symbol):
 
 
 ALGO_ETH = ALGO_ETH(*ALGO_ETH._fields)
-"""
-    name: ALGO-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALGO_USDT(Symbol):
@@ -2380,17 +1885,6 @@ class ALGO_USDT(Symbol):
 
 
 ALGO_USDT = ALGO_USDT(*ALGO_USDT._fields)
-"""
-    name: ALGO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XEM_BTC(Symbol):
@@ -2432,17 +1926,6 @@ class XEM_BTC(Symbol):
 
 
 XEM_BTC = XEM_BTC(*XEM_BTC._fields)
-"""
-    name: XEM-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XEM_USDT(Symbol):
@@ -2484,17 +1967,6 @@ class XEM_USDT(Symbol):
 
 
 XEM_USDT = XEM_USDT(*XEM_USDT._fields)
-"""
-    name: XEM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CIX100_USDT(Symbol):
@@ -2536,17 +2008,6 @@ class CIX100_USDT(Symbol):
 
 
 CIX100_USDT = CIX100_USDT(*CIX100_USDT._fields)
-"""
-    name: CIX100-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XTZ_BTC(Symbol):
@@ -2588,17 +2049,6 @@ class XTZ_BTC(Symbol):
 
 
 XTZ_BTC = XTZ_BTC(*XTZ_BTC._fields)
-"""
-    name: XTZ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XTZ_USDT(Symbol):
@@ -2640,17 +2090,6 @@ class XTZ_USDT(Symbol):
 
 
 XTZ_USDT = XTZ_USDT(*XTZ_USDT._fields)
-"""
-    name: XTZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ZEC_BTC(Symbol):
@@ -2692,17 +2131,6 @@ class ZEC_BTC(Symbol):
 
 
 ZEC_BTC = ZEC_BTC(*ZEC_BTC._fields)
-"""
-    name: ZEC-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ZEC_USDT(Symbol):
@@ -2744,17 +2172,6 @@ class ZEC_USDT(Symbol):
 
 
 ZEC_USDT = ZEC_USDT(*ZEC_USDT._fields)
-"""
-    name: ZEC-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ADA_BTC(Symbol):
@@ -2796,17 +2213,6 @@ class ADA_BTC(Symbol):
 
 
 ADA_BTC = ADA_BTC(*ADA_BTC._fields)
-"""
-    name: ADA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ADA_USDT(Symbol):
@@ -2848,17 +2254,6 @@ class ADA_USDT(Symbol):
 
 
 ADA_USDT = ADA_USDT(*ADA_USDT._fields)
-"""
-    name: ADA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class REV_USDT(Symbol):
@@ -2900,17 +2295,6 @@ class REV_USDT(Symbol):
 
 
 REV_USDT = REV_USDT(*REV_USDT._fields)
-"""
-    name: R-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORESTPLUS_BTC(Symbol):
@@ -2952,17 +2336,6 @@ class FORESTPLUS_BTC(Symbol):
 
 
 FORESTPLUS_BTC = FORESTPLUS_BTC(*FORESTPLUS_BTC._fields)
-"""
-    name: FORESTPLUS-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORESTPLUS_USDT(Symbol):
@@ -3004,17 +2377,6 @@ class FORESTPLUS_USDT(Symbol):
 
 
 FORESTPLUS_USDT = FORESTPLUS_USDT(*FORESTPLUS_USDT._fields)
-"""
-    name: FORESTPLUS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOLT_BTC(Symbol):
@@ -3056,17 +2418,6 @@ class BOLT_BTC(Symbol):
 
 
 BOLT_BTC = BOLT_BTC(*BOLT_BTC._fields)
-"""
-    name: BOLT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOLT_USDT(Symbol):
@@ -3108,17 +2459,6 @@ class BOLT_USDT(Symbol):
 
 
 BOLT_USDT = BOLT_USDT(*BOLT_USDT._fields)
-"""
-    name: BOLT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARPA_USDT(Symbol):
@@ -3160,17 +2500,6 @@ class ARPA_USDT(Symbol):
 
 
 ARPA_USDT = ARPA_USDT(*ARPA_USDT._fields)
-"""
-    name: ARPA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CHZ_BTC(Symbol):
@@ -3212,17 +2541,6 @@ class CHZ_BTC(Symbol):
 
 
 CHZ_BTC = CHZ_BTC(*CHZ_BTC._fields)
-"""
-    name: CHZ-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CHZ_USDT(Symbol):
@@ -3264,17 +2582,6 @@ class CHZ_USDT(Symbol):
 
 
 CHZ_USDT = CHZ_USDT(*CHZ_USDT._fields)
-"""
-    name: CHZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DAPPT_BTC(Symbol):
@@ -3316,17 +2623,6 @@ class DAPPT_BTC(Symbol):
 
 
 DAPPT_BTC = DAPPT_BTC(*DAPPT_BTC._fields)
-"""
-    name: DAPPT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DAPPT_USDT(Symbol):
@@ -3368,17 +2664,6 @@ class DAPPT_USDT(Symbol):
 
 
 DAPPT_USDT = DAPPT_USDT(*DAPPT_USDT._fields)
-"""
-    name: DAPPT-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NOIA_BTC(Symbol):
@@ -3420,17 +2705,6 @@ class NOIA_BTC(Symbol):
 
 
 NOIA_BTC = NOIA_BTC(*NOIA_BTC._fields)
-"""
-    name: NOIA-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NOIA_USDT(Symbol):
@@ -3472,17 +2746,6 @@ class NOIA_USDT(Symbol):
 
 
 NOIA_USDT = NOIA_USDT(*NOIA_USDT._fields)
-"""
-    name: NOIA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WIN_BTC(Symbol):
@@ -3524,17 +2787,6 @@ class WIN_BTC(Symbol):
 
 
 WIN_BTC = WIN_BTC(*WIN_BTC._fields)
-"""
-    name: WIN-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WIN_USDT(Symbol):
@@ -3576,17 +2828,6 @@ class WIN_USDT(Symbol):
 
 
 WIN_USDT = WIN_USDT(*WIN_USDT._fields)
-"""
-    name: WIN-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DERO_BTC(Symbol):
@@ -3628,17 +2869,6 @@ class DERO_BTC(Symbol):
 
 
 DERO_BTC = DERO_BTC(*DERO_BTC._fields)
-"""
-    name: DERO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DERO_USDT(Symbol):
@@ -3680,17 +2910,6 @@ class DERO_USDT(Symbol):
 
 
 DERO_USDT = DERO_USDT(*DERO_USDT._fields)
-"""
-    name: DERO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTT_USDT(Symbol):
@@ -3732,17 +2951,6 @@ class BTT_USDT(Symbol):
 
 
 BTT_USDT = BTT_USDT(*BTT_USDT._fields)
-"""
-    name: BTT-USDT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class EOSC_USDT(Symbol):
@@ -3784,17 +2992,6 @@ class EOSC_USDT(Symbol):
 
 
 EOSC_USDT = EOSC_USDT(*EOSC_USDT._fields)
-"""
-    name: EOSC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ENQ_BTC(Symbol):
@@ -3836,17 +3033,6 @@ class ENQ_BTC(Symbol):
 
 
 ENQ_BTC = ENQ_BTC(*ENQ_BTC._fields)
-"""
-    name: ENQ-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ENQ_USDT(Symbol):
@@ -3888,17 +3074,6 @@ class ENQ_USDT(Symbol):
 
 
 ENQ_USDT = ENQ_USDT(*ENQ_USDT._fields)
-"""
-    name: ENQ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONE_BTC(Symbol):
@@ -3940,17 +3115,6 @@ class ONE_BTC(Symbol):
 
 
 ONE_BTC = ONE_BTC(*ONE_BTC._fields)
-"""
-    name: ONE-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONE_USDT(Symbol):
@@ -3992,17 +3156,6 @@ class ONE_USDT(Symbol):
 
 
 ONE_USDT = ONE_USDT(*ONE_USDT._fields)
-"""
-    name: ONE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TOKO_BTC(Symbol):
@@ -4044,17 +3197,6 @@ class TOKO_BTC(Symbol):
 
 
 TOKO_BTC = TOKO_BTC(*TOKO_BTC._fields)
-"""
-    name: TOKO-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TOKO_USDT(Symbol):
@@ -4096,17 +3238,6 @@ class TOKO_USDT(Symbol):
 
 
 TOKO_USDT = TOKO_USDT(*TOKO_USDT._fields)
-"""
-    name: TOKO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VID_BTC(Symbol):
@@ -4148,17 +3279,6 @@ class VID_BTC(Symbol):
 
 
 VID_BTC = VID_BTC(*VID_BTC._fields)
-"""
-    name: VID-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VID_USDT(Symbol):
@@ -4200,17 +3320,6 @@ class VID_USDT(Symbol):
 
 
 VID_USDT = VID_USDT(*VID_USDT._fields)
-"""
-    name: VID-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LUNA_USDT(Symbol):
@@ -4252,17 +3361,6 @@ class LUNA_USDT(Symbol):
 
 
 LUNA_USDT = LUNA_USDT(*LUNA_USDT._fields)
-"""
-    name: LUNA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SXP_BTC(Symbol):
@@ -4304,17 +3402,6 @@ class SXP_BTC(Symbol):
 
 
 SXP_BTC = SXP_BTC(*SXP_BTC._fields)
-"""
-    name: SXP-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SXP_USDT(Symbol):
@@ -4356,17 +3443,6 @@ class SXP_USDT(Symbol):
 
 
 SXP_USDT = SXP_USDT(*SXP_USDT._fields)
-"""
-    name: SXP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AKRO_BTC(Symbol):
@@ -4408,17 +3484,6 @@ class AKRO_BTC(Symbol):
 
 
 AKRO_BTC = AKRO_BTC(*AKRO_BTC._fields)
-"""
-    name: AKRO-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AKRO_USDT(Symbol):
@@ -4460,17 +3525,6 @@ class AKRO_USDT(Symbol):
 
 
 AKRO_USDT = AKRO_USDT(*AKRO_USDT._fields)
-"""
-    name: AKRO-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ROOBEE_BTC(Symbol):
@@ -4512,17 +3566,6 @@ class ROOBEE_BTC(Symbol):
 
 
 ROOBEE_BTC = ROOBEE_BTC(*ROOBEE_BTC._fields)
-"""
-    name: ROOBEE-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WIN_TRX(Symbol):
@@ -4564,17 +3607,6 @@ class WIN_TRX(Symbol):
 
 
 WIN_TRX = WIN_TRX(*WIN_TRX._fields)
-"""
-    name: WIN-TRX
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 10
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAP_BTC(Symbol):
@@ -4616,17 +3648,6 @@ class MAP_BTC(Symbol):
 
 
 MAP_BTC = MAP_BTC(*MAP_BTC._fields)
-"""
-    name: MAP-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAP_USDT(Symbol):
@@ -4668,17 +3689,6 @@ class MAP_USDT(Symbol):
 
 
 MAP_USDT = MAP_USDT(*MAP_USDT._fields)
-"""
-    name: MAP-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMPL_BTC(Symbol):
@@ -4720,17 +3730,6 @@ class AMPL_BTC(Symbol):
 
 
 AMPL_BTC = AMPL_BTC(*AMPL_BTC._fields)
-"""
-    name: AMPL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMPL_USDT(Symbol):
@@ -4772,17 +3771,6 @@ class AMPL_USDT(Symbol):
 
 
 AMPL_USDT = AMPL_USDT(*AMPL_USDT._fields)
-"""
-    name: AMPL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DAG_USDT(Symbol):
@@ -4824,17 +3812,6 @@ class DAG_USDT(Symbol):
 
 
 DAG_USDT = DAG_USDT(*DAG_USDT._fields)
-"""
-    name: DAG-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POL_USDT(Symbol):
@@ -4876,17 +3853,6 @@ class POL_USDT(Symbol):
 
 
 POL_USDT = POL_USDT(*POL_USDT._fields)
-"""
-    name: POL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARX_USDT(Symbol):
@@ -4928,17 +3894,6 @@ class ARX_USDT(Symbol):
 
 
 ARX_USDT = ARX_USDT(*ARX_USDT._fields)
-"""
-    name: ARX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NWC_BTC(Symbol):
@@ -4980,17 +3935,6 @@ class NWC_BTC(Symbol):
 
 
 NWC_BTC = NWC_BTC(*NWC_BTC._fields)
-"""
-    name: NWC-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NWC_USDT(Symbol):
@@ -5032,17 +3976,6 @@ class NWC_USDT(Symbol):
 
 
 NWC_USDT = NWC_USDT(*NWC_USDT._fields)
-"""
-    name: NWC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BEPRO_BTC(Symbol):
@@ -5084,17 +4017,6 @@ class BEPRO_BTC(Symbol):
 
 
 BEPRO_BTC = BEPRO_BTC(*BEPRO_BTC._fields)
-"""
-    name: BEPRO-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BEPRO_USDT(Symbol):
@@ -5136,17 +4058,6 @@ class BEPRO_USDT(Symbol):
 
 
 BEPRO_USDT = BEPRO_USDT(*BEPRO_USDT._fields)
-"""
-    name: BEPRO-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VRA_BTC(Symbol):
@@ -5188,17 +4099,6 @@ class VRA_BTC(Symbol):
 
 
 VRA_BTC = VRA_BTC(*VRA_BTC._fields)
-"""
-    name: VRA-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VRA_USDT(Symbol):
@@ -5240,17 +4140,6 @@ class VRA_USDT(Symbol):
 
 
 VRA_USDT = VRA_USDT(*VRA_USDT._fields)
-"""
-    name: VRA-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KSM_BTC(Symbol):
@@ -5292,17 +4181,6 @@ class KSM_BTC(Symbol):
 
 
 KSM_BTC = KSM_BTC(*KSM_BTC._fields)
-"""
-    name: KSM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KSM_USDT(Symbol):
@@ -5344,17 +4222,6 @@ class KSM_USDT(Symbol):
 
 
 KSM_USDT = KSM_USDT(*KSM_USDT._fields)
-"""
-    name: KSM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DASH_USDT(Symbol):
@@ -5396,17 +4263,6 @@ class DASH_USDT(Symbol):
 
 
 DASH_USDT = DASH_USDT(*DASH_USDT._fields)
-"""
-    name: DASH-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUTER_USDT(Symbol):
@@ -5448,17 +4304,6 @@ class SUTER_USDT(Symbol):
 
 
 SUTER_USDT = SUTER_USDT(*SUTER_USDT._fields)
-"""
-    name: SUTER-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACOIN_USDT(Symbol):
@@ -5500,17 +4345,6 @@ class ACOIN_USDT(Symbol):
 
 
 ACOIN_USDT = ACOIN_USDT(*ACOIN_USDT._fields)
-"""
-    name: ACOIN-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUTER_BTC(Symbol):
@@ -5552,17 +4386,6 @@ class SUTER_BTC(Symbol):
 
 
 SUTER_BTC = SUTER_BTC(*SUTER_BTC._fields)
-"""
-    name: SUTER-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SENSO_USDT(Symbol):
@@ -5604,17 +4427,6 @@ class SENSO_USDT(Symbol):
 
 
 SENSO_USDT = SENSO_USDT(*SENSO_USDT._fields)
-"""
-    name: SENSO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRE_BTC(Symbol):
@@ -5656,17 +4468,6 @@ class PRE_BTC(Symbol):
 
 
 PRE_BTC = PRE_BTC(*PRE_BTC._fields)
-"""
-    name: PRE-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDB_USDT(Symbol):
@@ -5708,17 +4509,6 @@ class XDB_USDT(Symbol):
 
 
 XDB_USDT = XDB_USDT(*XDB_USDT._fields)
-"""
-    name: XDB-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SYLO_USDT(Symbol):
@@ -5760,17 +4550,6 @@ class SYLO_USDT(Symbol):
 
 
 SYLO_USDT = SYLO_USDT(*SYLO_USDT._fields)
-"""
-    name: SYLO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WOM_USDT(Symbol):
@@ -5812,17 +4591,6 @@ class WOM_USDT(Symbol):
 
 
 WOM_USDT = WOM_USDT(*WOM_USDT._fields)
-"""
-    name: WOM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SENSO_BTC(Symbol):
@@ -5864,17 +4632,6 @@ class SENSO_BTC(Symbol):
 
 
 SENSO_BTC = SENSO_BTC(*SENSO_BTC._fields)
-"""
-    name: SENSO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DGB_USDT(Symbol):
@@ -5916,17 +4673,6 @@ class DGB_USDT(Symbol):
 
 
 DGB_USDT = DGB_USDT(*DGB_USDT._fields)
-"""
-    name: DGB-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LYXE_USDT(Symbol):
@@ -5968,17 +4714,6 @@ class LYXE_USDT(Symbol):
 
 
 LYXE_USDT = LYXE_USDT(*LYXE_USDT._fields)
-"""
-    name: LYXE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LYXE_ETH(Symbol):
@@ -6020,17 +4755,6 @@ class LYXE_ETH(Symbol):
 
 
 LYXE_ETH = LYXE_ETH(*LYXE_ETH._fields)
-"""
-    name: LYXE-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDB_BTC(Symbol):
@@ -6072,17 +4796,6 @@ class XDB_BTC(Symbol):
 
 
 XDB_BTC = XDB_BTC(*XDB_BTC._fields)
-"""
-    name: XDB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STX_BTC(Symbol):
@@ -6124,17 +4837,6 @@ class STX_BTC(Symbol):
 
 
 STX_BTC = STX_BTC(*STX_BTC._fields)
-"""
-    name: STX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STX_USDT(Symbol):
@@ -6176,17 +4878,6 @@ class STX_USDT(Symbol):
 
 
 STX_USDT = STX_USDT(*STX_USDT._fields)
-"""
-    name: STX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class COMP_USDT(Symbol):
@@ -6228,17 +4919,6 @@ class COMP_USDT(Symbol):
 
 
 COMP_USDT = COMP_USDT(*COMP_USDT._fields)
-"""
-    name: COMP-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CRO_USDT(Symbol):
@@ -6280,17 +4960,6 @@ class CRO_USDT(Symbol):
 
 
 CRO_USDT = CRO_USDT(*CRO_USDT._fields)
-"""
-    name: CRO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KAI_USDT(Symbol):
@@ -6332,17 +5001,6 @@ class KAI_USDT(Symbol):
 
 
 KAI_USDT = KAI_USDT(*KAI_USDT._fields)
-"""
-    name: KAI-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAI_BTC(Symbol):
@@ -6384,17 +5042,6 @@ class KAI_BTC(Symbol):
 
 
 KAI_BTC = KAI_BTC(*KAI_BTC._fields)
-"""
-    name: KAI-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WEST_BTC(Symbol):
@@ -6436,17 +5083,6 @@ class WEST_BTC(Symbol):
 
 
 WEST_BTC = WEST_BTC(*WEST_BTC._fields)
-"""
-    name: WEST-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WEST_USDT(Symbol):
@@ -6488,17 +5124,6 @@ class WEST_USDT(Symbol):
 
 
 WEST_USDT = WEST_USDT(*WEST_USDT._fields)
-"""
-    name: WEST-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EWT_BTC(Symbol):
@@ -6540,17 +5165,6 @@ class EWT_BTC(Symbol):
 
 
 EWT_BTC = EWT_BTC(*EWT_BTC._fields)
-"""
-    name: EWT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAVES_USDT(Symbol):
@@ -6592,17 +5206,6 @@ class WAVES_USDT(Symbol):
 
 
 WAVES_USDT = WAVES_USDT(*WAVES_USDT._fields)
-"""
-    name: WAVES-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class WAVES_BTC(Symbol):
@@ -6644,17 +5247,6 @@ class WAVES_BTC(Symbol):
 
 
 WAVES_BTC = WAVES_BTC(*WAVES_BTC._fields)
-"""
-    name: WAVES-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ORN_USDT(Symbol):
@@ -6696,17 +5288,6 @@ class ORN_USDT(Symbol):
 
 
 ORN_USDT = ORN_USDT(*ORN_USDT._fields)
-"""
-    name: ORN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AMPL_ETH(Symbol):
@@ -6748,17 +5329,6 @@ class AMPL_ETH(Symbol):
 
 
 AMPL_ETH = AMPL_ETH(*AMPL_ETH._fields)
-"""
-    name: AMPL-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNS_USDT(Symbol):
@@ -6800,17 +5370,6 @@ class BNS_USDT(Symbol):
 
 
 BNS_USDT = BNS_USDT(*BNS_USDT._fields)
-"""
-    name: BNS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNS_BTC(Symbol):
@@ -6852,17 +5411,6 @@ class BNS_BTC(Symbol):
 
 
 BNS_BTC = BNS_BTC(*BNS_BTC._fields)
-"""
-    name: BNS-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MKR_USDT(Symbol):
@@ -6904,17 +5452,6 @@ class MKR_USDT(Symbol):
 
 
 MKR_USDT = MKR_USDT(*MKR_USDT._fields)
-"""
-    name: MKR-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUKU_BTC(Symbol):
@@ -6956,17 +5493,6 @@ class SUKU_BTC(Symbol):
 
 
 SUKU_BTC = SUKU_BTC(*SUKU_BTC._fields)
-"""
-    name: SUKU-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MLK_BTC(Symbol):
@@ -7008,17 +5534,6 @@ class MLK_BTC(Symbol):
 
 
 MLK_BTC = MLK_BTC(*MLK_BTC._fields)
-"""
-    name: MLK-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MLK_USDT(Symbol):
@@ -7060,17 +5575,6 @@ class MLK_USDT(Symbol):
 
 
 MLK_USDT = MLK_USDT(*MLK_USDT._fields)
-"""
-    name: MLK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JST_USDT(Symbol):
@@ -7112,17 +5616,6 @@ class JST_USDT(Symbol):
 
 
 JST_USDT = JST_USDT(*JST_USDT._fields)
-"""
-    name: JST-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KAI_ETH(Symbol):
@@ -7164,17 +5657,6 @@ class KAI_ETH(Symbol):
 
 
 KAI_ETH = KAI_ETH(*KAI_ETH._fields)
-"""
-    name: KAI-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUKU_USDT(Symbol):
@@ -7216,17 +5698,6 @@ class SUKU_USDT(Symbol):
 
 
 SUKU_USDT = SUKU_USDT(*SUKU_USDT._fields)
-"""
-    name: SUKU-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DIA_USDT(Symbol):
@@ -7268,17 +5739,6 @@ class DIA_USDT(Symbol):
 
 
 DIA_USDT = DIA_USDT(*DIA_USDT._fields)
-"""
-    name: DIA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DIA_BTC(Symbol):
@@ -7320,17 +5780,6 @@ class DIA_BTC(Symbol):
 
 
 DIA_BTC = DIA_BTC(*DIA_BTC._fields)
-"""
-    name: DIA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINK_BTC(Symbol):
@@ -7372,17 +5821,6 @@ class LINK_BTC(Symbol):
 
 
 LINK_BTC = LINK_BTC(*LINK_BTC._fields)
-"""
-    name: LINK-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINK_USDT(Symbol):
@@ -7424,17 +5862,6 @@ class LINK_USDT(Symbol):
 
 
 LINK_USDT = LINK_USDT(*LINK_USDT._fields)
-"""
-    name: LINK-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DOT_USDT(Symbol):
@@ -7476,17 +5903,6 @@ class DOT_USDT(Symbol):
 
 
 DOT_USDT = DOT_USDT(*DOT_USDT._fields)
-"""
-    name: DOT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DOT_BTC(Symbol):
@@ -7528,17 +5944,6 @@ class DOT_BTC(Symbol):
 
 
 DOT_BTC = DOT_BTC(*DOT_BTC._fields)
-"""
-    name: DOT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHA_BTC(Symbol):
@@ -7580,17 +5985,6 @@ class SHA_BTC(Symbol):
 
 
 SHA_BTC = SHA_BTC(*SHA_BTC._fields)
-"""
-    name: SHA-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 2000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHA_USDT(Symbol):
@@ -7632,17 +6026,6 @@ class SHA_USDT(Symbol):
 
 
 SHA_USDT = SHA_USDT(*SHA_USDT._fields)
-"""
-    name: SHA-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 2000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EWT_USDT(Symbol):
@@ -7684,17 +6067,6 @@ class EWT_USDT(Symbol):
 
 
 EWT_USDT = EWT_USDT(*EWT_USDT._fields)
-"""
-    name: EWT-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDJ_USDT(Symbol):
@@ -7736,17 +6108,6 @@ class USDJ_USDT(Symbol):
 
 
 USDJ_USDT = USDJ_USDT(*USDJ_USDT._fields)
-"""
-    name: USDJ-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EFX_BTC(Symbol):
@@ -7788,17 +6149,6 @@ class EFX_BTC(Symbol):
 
 
 EFX_BTC = EFX_BTC(*EFX_BTC._fields)
-"""
-    name: EFX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CKB_BTC(Symbol):
@@ -7840,17 +6190,6 @@ class CKB_BTC(Symbol):
 
 
 CKB_BTC = CKB_BTC(*CKB_BTC._fields)
-"""
-    name: CKB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CKB_USDT(Symbol):
@@ -7892,17 +6231,6 @@ class CKB_USDT(Symbol):
 
 
 CKB_USDT = CKB_USDT(*CKB_USDT._fields)
-"""
-    name: CKB-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class UMA_USDT(Symbol):
@@ -7944,17 +6272,6 @@ class UMA_USDT(Symbol):
 
 
 UMA_USDT = UMA_USDT(*UMA_USDT._fields)
-"""
-    name: UMA-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ALEPH_USDT(Symbol):
@@ -7996,17 +6313,6 @@ class ALEPH_USDT(Symbol):
 
 
 ALEPH_USDT = ALEPH_USDT(*ALEPH_USDT._fields)
-"""
-    name: ALEPH-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VELO_USDT(Symbol):
@@ -8048,17 +6354,6 @@ class VELO_USDT(Symbol):
 
 
 VELO_USDT = VELO_USDT(*VELO_USDT._fields)
-"""
-    name: VELO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUN_USDT(Symbol):
@@ -8100,17 +6395,6 @@ class SUN_USDT(Symbol):
 
 
 SUN_USDT = SUN_USDT(*SUN_USDT._fields)
-"""
-    name: SUN-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BUY_USDT(Symbol):
@@ -8152,17 +6436,6 @@ class BUY_USDT(Symbol):
 
 
 BUY_USDT = BUY_USDT(*BUY_USDT._fields)
-"""
-    name: BUY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class YFI_USDT(Symbol):
@@ -8204,17 +6477,6 @@ class YFI_USDT(Symbol):
 
 
 YFI_USDT = YFI_USDT(*YFI_USDT._fields)
-"""
-    name: YFI-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.000001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class OXEN_USDT(Symbol):
@@ -8256,17 +6518,6 @@ class OXEN_USDT(Symbol):
 
 
 OXEN_USDT = OXEN_USDT(*OXEN_USDT._fields)
-"""
-    name: LOKI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNI_USDT(Symbol):
@@ -8308,17 +6559,6 @@ class UNI_USDT(Symbol):
 
 
 UNI_USDT = UNI_USDT(*UNI_USDT._fields)
-"""
-    name: UNI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class UOS_USDT(Symbol):
@@ -8360,17 +6600,6 @@ class UOS_USDT(Symbol):
 
 
 UOS_USDT = UOS_USDT(*UOS_USDT._fields)
-"""
-    name: UOS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UOS_BTC(Symbol):
@@ -8412,17 +6641,6 @@ class UOS_BTC(Symbol):
 
 
 UOS_BTC = UOS_BTC(*UOS_BTC._fields)
-"""
-    name: UOS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NIM_USDT(Symbol):
@@ -8464,17 +6682,6 @@ class NIM_USDT(Symbol):
 
 
 NIM_USDT = NIM_USDT(*NIM_USDT._fields)
-"""
-    name: NIM-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DEGO_USDT(Symbol):
@@ -8516,17 +6723,6 @@ class DEGO_USDT(Symbol):
 
 
 DEGO_USDT = DEGO_USDT(*DEGO_USDT._fields)
-"""
-    name: DEGO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DEGO_ETH(Symbol):
@@ -8568,17 +6764,6 @@ class DEGO_ETH(Symbol):
 
 
 DEGO_ETH = DEGO_ETH(*DEGO_ETH._fields)
-"""
-    name: DEGO-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RFUEL_USDT(Symbol):
@@ -8620,17 +6805,6 @@ class RFUEL_USDT(Symbol):
 
 
 RFUEL_USDT = RFUEL_USDT(*RFUEL_USDT._fields)
-"""
-    name: RFUEL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FIL_USDT(Symbol):
@@ -8672,17 +6846,6 @@ class FIL_USDT(Symbol):
 
 
 FIL_USDT = FIL_USDT(*FIL_USDT._fields)
-"""
-    name: FIL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class UBX_ETH(Symbol):
@@ -8724,17 +6887,6 @@ class UBX_ETH(Symbol):
 
 
 UBX_ETH = UBX_ETH(*UBX_ETH._fields)
-"""
-    name: UBX-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REAP_USDT(Symbol):
@@ -8776,17 +6928,6 @@ class REAP_USDT(Symbol):
 
 
 REAP_USDT = REAP_USDT(*REAP_USDT._fields)
-"""
-    name: REAP-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AAVE_USDT(Symbol):
@@ -8828,17 +6969,6 @@ class AAVE_USDT(Symbol):
 
 
 AAVE_USDT = AAVE_USDT(*AAVE_USDT._fields)
-"""
-    name: AAVE-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AAVE_BTC(Symbol):
@@ -8880,17 +7010,6 @@ class AAVE_BTC(Symbol):
 
 
 AAVE_BTC = AAVE_BTC(*AAVE_BTC._fields)
-"""
-    name: AAVE-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TONE_BTC(Symbol):
@@ -8932,17 +7051,6 @@ class TONE_BTC(Symbol):
 
 
 TONE_BTC = TONE_BTC(*TONE_BTC._fields)
-"""
-    name: TONE-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TONE_ETH(Symbol):
@@ -8984,17 +7092,6 @@ class TONE_ETH(Symbol):
 
 
 TONE_ETH = TONE_ETH(*TONE_ETH._fields)
-"""
-    name: TONE-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ELF_ETH(Symbol):
@@ -9036,17 +7133,6 @@ class ELF_ETH(Symbol):
 
 
 ELF_ETH = ELF_ETH(*ELF_ETH._fields)
-"""
-    name: ELF-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AERGO_BTC(Symbol):
@@ -9088,17 +7174,6 @@ class AERGO_BTC(Symbol):
 
 
 AERGO_BTC = AERGO_BTC(*AERGO_BTC._fields)
-"""
-    name: AERGO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOST_ETH(Symbol):
@@ -9140,17 +7215,6 @@ class IOST_ETH(Symbol):
 
 
 IOST_ETH = IOST_ETH(*IOST_ETH._fields)
-"""
-    name: IOST-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KCS_USDT(Symbol):
@@ -9192,17 +7256,6 @@ class KCS_USDT(Symbol):
 
 
 KCS_USDT = KCS_USDT(*KCS_USDT._fields)
-"""
-    name: KCS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SNX_ETH(Symbol):
@@ -9244,17 +7297,6 @@ class SNX_ETH(Symbol):
 
 
 SNX_ETH = SNX_ETH(*SNX_ETH._fields)
-"""
-    name: SNX-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KCS_ETH(Symbol):
@@ -9296,17 +7338,6 @@ class KCS_ETH(Symbol):
 
 
 KCS_ETH = KCS_ETH(*KCS_ETH._fields)
-"""
-    name: KCS-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAN_ETH(Symbol):
@@ -9348,17 +7379,6 @@ class WAN_ETH(Symbol):
 
 
 WAN_ETH = WAN_ETH(*WAN_ETH._fields)
-"""
-    name: WAN-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NULS_ETH(Symbol):
@@ -9400,17 +7420,6 @@ class NULS_ETH(Symbol):
 
 
 NULS_ETH = NULS_ETH(*NULS_ETH._fields)
-"""
-    name: NULS-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QTUM_BTC(Symbol):
@@ -9452,17 +7461,6 @@ class QTUM_BTC(Symbol):
 
 
 QTUM_BTC = QTUM_BTC(*QTUM_BTC._fields)
-"""
-    name: QTUM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MANA_BTC(Symbol):
@@ -9504,17 +7502,6 @@ class MANA_BTC(Symbol):
 
 
 MANA_BTC = MANA_BTC(*MANA_BTC._fields)
-"""
-    name: MANA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TEL_BTC(Symbol):
@@ -9556,17 +7543,6 @@ class TEL_BTC(Symbol):
 
 
 TEL_BTC = TEL_BTC(*TEL_BTC._fields)
-"""
-    name: TEL-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XYO_ETH(Symbol):
@@ -9608,17 +7584,6 @@ class XYO_ETH(Symbol):
 
 
 XYO_ETH = XYO_ETH(*XYO_ETH._fields)
-"""
-    name: XYO-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETN_BTC(Symbol):
@@ -9660,17 +7625,6 @@ class ETN_BTC(Symbol):
 
 
 ETN_BTC = ETN_BTC(*ETN_BTC._fields)
-"""
-    name: ETN-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COV_ETH(Symbol):
@@ -9712,17 +7666,6 @@ class COV_ETH(Symbol):
 
 
 COV_ETH = COV_ETH(*COV_ETH._fields)
-"""
-    name: COV-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET_BTC(Symbol):
@@ -9764,17 +7707,6 @@ class VET_BTC(Symbol):
 
 
 VET_BTC = VET_BTC(*VET_BTC._fields)
-"""
-    name: VET-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KCS_BTC(Symbol):
@@ -9816,17 +7748,6 @@ class KCS_BTC(Symbol):
 
 
 KCS_BTC = KCS_BTC(*KCS_BTC._fields)
-"""
-    name: KCS-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CAPP_ETH(Symbol):
@@ -9868,17 +7789,6 @@ class CAPP_ETH(Symbol):
 
 
 CAPP_ETH = CAPP_ETH(*CAPP_ETH._fields)
-"""
-    name: CAPP-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONT_BTC(Symbol):
@@ -9920,17 +7830,6 @@ class ONT_BTC(Symbol):
 
 
 ONT_BTC = ONT_BTC(*ONT_BTC._fields)
-"""
-    name: ONT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DAG_ETH(Symbol):
@@ -9972,17 +7871,6 @@ class DAG_ETH(Symbol):
 
 
 DAG_ETH = DAG_ETH(*DAG_ETH._fields)
-"""
-    name: DAG-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAN_BTC(Symbol):
@@ -10024,17 +7912,6 @@ class WAN_BTC(Symbol):
 
 
 WAN_BTC = WAN_BTC(*WAN_BTC._fields)
-"""
-    name: WAN-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KNC_ETH(Symbol):
@@ -10076,17 +7953,6 @@ class KNC_ETH(Symbol):
 
 
 KNC_ETH = KNC_ETH(*KNC_ETH._fields)
-"""
-    name: KNC-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CRPT_ETH(Symbol):
@@ -10128,17 +7994,6 @@ class CRPT_ETH(Symbol):
 
 
 CRPT_ETH = CRPT_ETH(*CRPT_ETH._fields)
-"""
-    name: CRPT-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC_USDT(Symbol):
@@ -10180,17 +8035,6 @@ class LTC_USDT(Symbol):
 
 
 LTC_USDT = LTC_USDT(*LTC_USDT._fields)
-"""
-    name: LTC-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BAX_ETH(Symbol):
@@ -10232,17 +8076,6 @@ class BAX_ETH(Symbol):
 
 
 BAX_ETH = BAX_ETH(*BAX_ETH._fields)
-"""
-    name: BAX-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BSV_USDT(Symbol):
@@ -10284,17 +8117,6 @@ class BSV_USDT(Symbol):
 
 
 BSV_USDT = BSV_USDT(*BSV_USDT._fields)
-"""
-    name: BCHSV-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DENT_ETH(Symbol):
@@ -10336,17 +8158,6 @@ class DENT_ETH(Symbol):
 
 
 DENT_ETH = DENT_ETH(*DENT_ETH._fields)
-"""
-    name: DENT-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LYM_ETH(Symbol):
@@ -10388,17 +8199,6 @@ class LYM_ETH(Symbol):
 
 
 LYM_ETH = LYM_ETH(*LYM_ETH._fields)
-"""
-    name: LYM-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRAC_ETH(Symbol):
@@ -10440,17 +8240,6 @@ class TRAC_ETH(Symbol):
 
 
 TRAC_ETH = TRAC_ETH(*TRAC_ETH._fields)
-"""
-    name: TRAC-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ENJ_BTC(Symbol):
@@ -10492,17 +8281,6 @@ class ENJ_BTC(Symbol):
 
 
 ENJ_BTC = ENJ_BTC(*ENJ_BTC._fields)
-"""
-    name: ENJ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAXP_BTC(Symbol):
@@ -10544,17 +8322,6 @@ class WAXP_BTC(Symbol):
 
 
 WAXP_BTC = WAXP_BTC(*WAXP_BTC._fields)
-"""
-    name: WAX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DGB_BTC(Symbol):
@@ -10596,17 +8363,6 @@ class DGB_BTC(Symbol):
 
 
 DGB_BTC = DGB_BTC(*DGB_BTC._fields)
-"""
-    name: DGB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ELA_BTC(Symbol):
@@ -10648,17 +8404,6 @@ class ELA_BTC(Symbol):
 
 
 ELA_BTC = ELA_BTC(*ELA_BTC._fields)
-"""
-    name: ELA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZIL_BTC(Symbol):
@@ -10700,17 +8445,6 @@ class ZIL_BTC(Symbol):
 
 
 ZIL_BTC = ZIL_BTC(*ZIL_BTC._fields)
-"""
-    name: ZIL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BSV_BTC(Symbol):
@@ -10752,17 +8486,6 @@ class BSV_BTC(Symbol):
 
 
 BSV_BTC = BSV_BTC(*BSV_BTC._fields)
-"""
-    name: BCHSV-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XLM_USDT(Symbol):
@@ -10804,17 +8527,6 @@ class XLM_USDT(Symbol):
 
 
 XLM_USDT = XLM_USDT(*XLM_USDT._fields)
-"""
-    name: XLM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class IOTX_ETH(Symbol):
@@ -10856,17 +8568,6 @@ class IOTX_ETH(Symbol):
 
 
 IOTX_ETH = IOTX_ETH(*IOTX_ETH._fields)
-"""
-    name: IOTX-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOUL_BTC(Symbol):
@@ -10908,17 +8609,6 @@ class SOUL_BTC(Symbol):
 
 
 SOUL_BTC = SOUL_BTC(*SOUL_BTC._fields)
-"""
-    name: SOUL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOCK_BTC(Symbol):
@@ -10960,17 +8650,6 @@ class DOCK_BTC(Symbol):
 
 
 DOCK_BTC = DOCK_BTC(*DOCK_BTC._fields)
-"""
-    name: DOCK-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMB_ETH(Symbol):
@@ -11012,17 +8691,6 @@ class AMB_ETH(Symbol):
 
 
 AMB_ETH = AMB_ETH(*AMB_ETH._fields)
-"""
-    name: AMB-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRX_BTC(Symbol):
@@ -11064,17 +8732,6 @@ class TRX_BTC(Symbol):
 
 
 TRX_BTC = TRX_BTC(*TRX_BTC._fields)
-"""
-    name: TRX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XRP_TUSD(Symbol):
@@ -11116,17 +8773,6 @@ class XRP_TUSD(Symbol):
 
 
 XRP_TUSD = XRP_TUSD(*XRP_TUSD._fields)
-"""
-    name: XRP-TUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NULS_BTC(Symbol):
@@ -11168,17 +8814,6 @@ class NULS_BTC(Symbol):
 
 
 NULS_BTC = NULS_BTC(*NULS_BTC._fields)
-"""
-    name: NULS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_DAI(Symbol):
@@ -11220,17 +8855,6 @@ class ETH_DAI(Symbol):
 
 
 ETH_DAI = ETH_DAI(*ETH_DAI._fields)
-"""
-    name: ETH-DAI
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LSK_BTC(Symbol):
@@ -11272,17 +8896,6 @@ class LSK_BTC(Symbol):
 
 
 LSK_BTC = LSK_BTC(*LSK_BTC._fields)
-"""
-    name: LSK-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMB_ETH(Symbol):
@@ -11324,17 +8937,6 @@ class GMB_ETH(Symbol):
 
 
 GMB_ETH = GMB_ETH(*GMB_ETH._fields)
-"""
-    name: GMB-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMB_BTC(Symbol):
@@ -11376,17 +8978,6 @@ class GMB_BTC(Symbol):
 
 
 GMB_BTC = GMB_BTC(*GMB_BTC._fields)
-"""
-    name: GMB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEO_ETH(Symbol):
@@ -11428,17 +9019,6 @@ class NEO_ETH(Symbol):
 
 
 NEO_ETH = NEO_ETH(*NEO_ETH._fields)
-"""
-    name: NEO-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OMG_ETH(Symbol):
@@ -11480,17 +9060,6 @@ class OMG_ETH(Symbol):
 
 
 OMG_ETH = OMG_ETH(*OMG_ETH._fields)
-"""
-    name: OMG-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_TUSD(Symbol):
@@ -11532,17 +9101,6 @@ class BTC_TUSD(Symbol):
 
 
 BTC_TUSD = BTC_TUSD(*BTC_TUSD._fields)
-"""
-    name: BTC-TUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAT_USDT(Symbol):
@@ -11584,17 +9142,6 @@ class KAT_USDT(Symbol):
 
 
 KAT_USDT = KAT_USDT(*KAT_USDT._fields)
-"""
-    name: KAT-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KNC_BTC(Symbol):
@@ -11636,17 +9183,6 @@ class KNC_BTC(Symbol):
 
 
 KNC_BTC = KNC_BTC(*KNC_BTC._fields)
-"""
-    name: KNC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ELF_BTC(Symbol):
@@ -11688,17 +9224,6 @@ class ELF_BTC(Symbol):
 
 
 ELF_BTC = ELF_BTC(*ELF_BTC._fields)
-"""
-    name: ELF-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MANA_ETH(Symbol):
@@ -11740,17 +9265,6 @@ class MANA_ETH(Symbol):
 
 
 MANA_ETH = MANA_ETH(*MANA_ETH._fields)
-"""
-    name: MANA-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETC_USDT(Symbol):
@@ -11792,17 +9306,6 @@ class ETC_USDT(Symbol):
 
 
 ETC_USDT = ETC_USDT(*ETC_USDT._fields)
-"""
-    name: ETC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ONT_ETH(Symbol):
@@ -11844,17 +9347,6 @@ class ONT_ETH(Symbol):
 
 
 ONT_ETH = ONT_ETH(*ONT_ETH._fields)
-"""
-    name: ONT-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MKR_BTC(Symbol):
@@ -11896,17 +9388,6 @@ class MKR_BTC(Symbol):
 
 
 MKR_BTC = MKR_BTC(*MKR_BTC._fields)
-"""
-    name: MKR-BTC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAT_BTC(Symbol):
@@ -11948,17 +9429,6 @@ class KAT_BTC(Symbol):
 
 
 KAT_BTC = KAT_BTC(*KAT_BTC._fields)
-"""
-    name: KAT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRP_USDC(Symbol):
@@ -12000,17 +9470,6 @@ class XRP_USDC(Symbol):
 
 
 XRP_USDC = XRP_USDC(*XRP_USDC._fields)
-"""
-    name: XRP-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XYO_BTC(Symbol):
@@ -12052,17 +9511,6 @@ class XYO_BTC(Symbol):
 
 
 XYO_BTC = XYO_BTC(*XYO_BTC._fields)
-"""
-    name: XYO-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZRX_BTC(Symbol):
@@ -12104,17 +9552,6 @@ class ZRX_BTC(Symbol):
 
 
 ZRX_BTC = ZRX_BTC(*ZRX_BTC._fields)
-"""
-    name: ZRX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LOOM_ETH(Symbol):
@@ -12156,17 +9593,6 @@ class LOOM_ETH(Symbol):
 
 
 LOOM_ETH = LOOM_ETH(*LOOM_ETH._fields)
-"""
-    name: LOOM-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OLT_ETH(Symbol):
@@ -12208,17 +9634,6 @@ class OLT_ETH(Symbol):
 
 
 OLT_ETH = OLT_ETH(*OLT_ETH._fields)
-"""
-    name: OLT-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OLT_BTC(Symbol):
@@ -12260,17 +9675,6 @@ class OLT_BTC(Symbol):
 
 
 OLT_BTC = OLT_BTC(*OLT_BTC._fields)
-"""
-    name: OLT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRAC_BTC(Symbol):
@@ -12312,17 +9716,6 @@ class TRAC_BTC(Symbol):
 
 
 TRAC_BTC = TRAC_BTC(*TRAC_BTC._fields)
-"""
-    name: TRAC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XLM_ETH(Symbol):
@@ -12364,17 +9757,6 @@ class XLM_ETH(Symbol):
 
 
 XLM_ETH = XLM_ETH(*XLM_ETH._fields)
-"""
-    name: XLM-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_USDT(Symbol):
@@ -12416,17 +9798,6 @@ class ETH_USDT(Symbol):
 
 
 ETH_USDT = ETH_USDT(*ETH_USDT._fields)
-"""
-    name: ETH-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BSV_ETH(Symbol):
@@ -12468,17 +9839,6 @@ class BSV_ETH(Symbol):
 
 
 BSV_ETH = BSV_ETH(*BSV_ETH._fields)
-"""
-    name: BCHSV-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TRX_ETH(Symbol):
@@ -12520,17 +9880,6 @@ class TRX_ETH(Symbol):
 
 
 TRX_ETH = TRX_ETH(*TRX_ETH._fields)
-"""
-    name: TRX-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ETN_ETH(Symbol):
@@ -12572,17 +9921,6 @@ class ETN_ETH(Symbol):
 
 
 ETN_ETH = ETN_ETH(*ETN_ETH._fields)
-"""
-    name: ETN-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AOA_USDT(Symbol):
@@ -12624,17 +9962,6 @@ class AOA_USDT(Symbol):
 
 
 AOA_USDT = AOA_USDT(*AOA_USDT._fields)
-"""
-    name: AOA-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DENT_BTC(Symbol):
@@ -12676,17 +10003,6 @@ class DENT_BTC(Symbol):
 
 
 DENT_BTC = DENT_BTC(*DENT_BTC._fields)
-"""
-    name: DENT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOCK_ETH(Symbol):
@@ -12728,17 +10044,6 @@ class DOCK_ETH(Symbol):
 
 
 DOCK_ETH = DOCK_ETH(*DOCK_ETH._fields)
-"""
-    name: DOCK-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KEY_BTC(Symbol):
@@ -12780,17 +10085,6 @@ class KEY_BTC(Symbol):
 
 
 KEY_BTC = KEY_BTC(*KEY_BTC._fields)
-"""
-    name: KEY-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EOS_KCS(Symbol):
@@ -12832,17 +10126,6 @@ class EOS_KCS(Symbol):
 
 
 EOS_KCS = EOS_KCS(*EOS_KCS._fields)
-"""
-    name: EOS-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XLM_BTC(Symbol):
@@ -12884,17 +10167,6 @@ class XLM_BTC(Symbol):
 
 
 XLM_BTC = XLM_BTC(*XLM_BTC._fields)
-"""
-    name: XLM-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TIME_ETH(Symbol):
@@ -12936,17 +10208,6 @@ class TIME_ETH(Symbol):
 
 
 TIME_ETH = TIME_ETH(*TIME_ETH._fields)
-"""
-    name: TIME-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CVC_BTC(Symbol):
@@ -12988,17 +10249,6 @@ class CVC_BTC(Symbol):
 
 
 CVC_BTC = CVC_BTC(*CVC_BTC._fields)
-"""
-    name: CVC-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LSK_ETH(Symbol):
@@ -13040,17 +10290,6 @@ class LSK_ETH(Symbol):
 
 
 LSK_ETH = LSK_ETH(*LSK_ETH._fields)
-"""
-    name: LSK-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QKC_BTC(Symbol):
@@ -13092,17 +10331,6 @@ class QKC_BTC(Symbol):
 
 
 QKC_BTC = QKC_BTC(*QKC_BTC._fields)
-"""
-    name: QKC-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMB_BTC(Symbol):
@@ -13144,17 +10372,6 @@ class AMB_BTC(Symbol):
 
 
 AMB_BTC = AMB_BTC(*AMB_BTC._fields)
-"""
-    name: AMB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDT_TUSD(Symbol):
@@ -13196,17 +10413,6 @@ class USDT_TUSD(Symbol):
 
 
 USDT_TUSD = USDT_TUSD(*USDT_TUSD._fields)
-"""
-    name: USDT-TUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETC_ETH(Symbol):
@@ -13248,17 +10454,6 @@ class ETC_ETH(Symbol):
 
 
 ETC_ETH = ETC_ETH(*ETC_ETH._fields)
-"""
-    name: ETC-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRP_BTC(Symbol):
@@ -13300,17 +10495,6 @@ class XRP_BTC(Symbol):
 
 
 XRP_BTC = XRP_BTC(*XRP_BTC._fields)
-"""
-    name: XRP-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NEO_KCS(Symbol):
@@ -13352,17 +10536,6 @@ class NEO_KCS(Symbol):
 
 
 NEO_KCS = NEO_KCS(*NEO_KCS._fields)
-"""
-    name: NEO-KCS
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SNX_USDT(Symbol):
@@ -13404,17 +10577,6 @@ class SNX_USDT(Symbol):
 
 
 SNX_USDT = SNX_USDT(*SNX_USDT._fields)
-"""
-    name: SNX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CRPT_BTC(Symbol):
@@ -13456,17 +10618,6 @@ class CRPT_BTC(Symbol):
 
 
 CRPT_BTC = CRPT_BTC(*CRPT_BTC._fields)
-"""
-    name: CRPT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOTX_BTC(Symbol):
@@ -13508,17 +10659,6 @@ class IOTX_BTC(Symbol):
 
 
 IOTX_BTC = IOTX_BTC(*IOTX_BTC._fields)
-"""
-    name: IOTX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC_ETH(Symbol):
@@ -13560,17 +10700,6 @@ class LTC_ETH(Symbol):
 
 
 LTC_ETH = LTC_ETH(*LTC_ETH._fields)
-"""
-    name: LTC-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XRP_KCS(Symbol):
@@ -13612,17 +10741,6 @@ class XRP_KCS(Symbol):
 
 
 XRP_KCS = XRP_KCS(*XRP_KCS._fields)
-"""
-    name: XRP-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC_KCS(Symbol):
@@ -13664,17 +10782,6 @@ class LTC_KCS(Symbol):
 
 
 LTC_KCS = LTC_KCS(*LTC_KCS._fields)
-"""
-    name: LTC-KCS
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TEL_ETH(Symbol):
@@ -13716,17 +10823,6 @@ class TEL_ETH(Symbol):
 
 
 TEL_ETH = TEL_ETH(*TEL_ETH._fields)
-"""
-    name: TEL-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DCR_ETH(Symbol):
@@ -13768,17 +10864,6 @@ class DCR_ETH(Symbol):
 
 
 DCR_ETH = DCR_ETH(*DCR_ETH._fields)
-"""
-    name: DCR-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LYM_USDT(Symbol):
@@ -13820,17 +10905,6 @@ class LYM_USDT(Symbol):
 
 
 LYM_USDT = LYM_USDT(*LYM_USDT._fields)
-"""
-    name: LYM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDT_USDC(Symbol):
@@ -13872,17 +10946,6 @@ class USDT_USDC(Symbol):
 
 
 USDT_USDC = USDT_USDC(*USDT_USDC._fields)
-"""
-    name: USDT-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_USDC(Symbol):
@@ -13924,17 +10987,6 @@ class ETH_USDC(Symbol):
 
 
 ETH_USDC = ETH_USDC(*ETH_USDC._fields)
-"""
-    name: ETH-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DAG_BTC(Symbol):
@@ -13976,17 +11028,6 @@ class DAG_BTC(Symbol):
 
 
 DAG_BTC = DAG_BTC(*DAG_BTC._fields)
-"""
-    name: DAG-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVA_BTC(Symbol):
@@ -14028,17 +11069,6 @@ class AVA_BTC(Symbol):
 
 
 AVA_BTC = AVA_BTC(*AVA_BTC._fields)
-"""
-    name: AVA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_USDT(Symbol):
@@ -14080,17 +11110,6 @@ class BTC_USDT(Symbol):
 
 
 BTC_USDT = BTC_USDT(*BTC_USDT._fields)
-"""
-    name: BTC-USDT
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class WAXP_ETH(Symbol):
@@ -14132,17 +11151,6 @@ class WAXP_ETH(Symbol):
 
 
 WAXP_ETH = WAXP_ETH(*WAXP_ETH._fields)
-"""
-    name: WAX-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRP_USDT(Symbol):
@@ -14184,17 +11192,6 @@ class XRP_USDT(Symbol):
 
 
 XRP_USDT = XRP_USDT(*XRP_USDT._fields)
-"""
-    name: XRP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KEY_ETH(Symbol):
@@ -14236,17 +11233,6 @@ class KEY_ETH(Symbol):
 
 
 KEY_ETH = KEY_ETH(*KEY_ETH._fields)
-"""
-    name: KEY-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET_ETH(Symbol):
@@ -14288,17 +11274,6 @@ class VET_ETH(Symbol):
 
 
 VET_ETH = VET_ETH(*VET_ETH._fields)
-"""
-    name: VET-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTM_BTC(Symbol):
@@ -14340,17 +11315,6 @@ class FTM_BTC(Symbol):
 
 
 FTM_BTC = FTM_BTC(*FTM_BTC._fields)
-"""
-    name: FTM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class USDT_DAI(Symbol):
@@ -14392,17 +11356,6 @@ class USDT_DAI(Symbol):
 
 
 USDT_DAI = USDT_DAI(*USDT_DAI._fields)
-"""
-    name: USDT-DAI
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QKC_ETH(Symbol):
@@ -14444,17 +11397,6 @@ class QKC_ETH(Symbol):
 
 
 QKC_ETH = QKC_ETH(*QKC_ETH._fields)
-"""
-    name: QKC-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_BTC(Symbol):
@@ -14496,17 +11438,6 @@ class ETH_BTC(Symbol):
 
 
 ETH_BTC = ETH_BTC(*ETH_BTC._fields)
-"""
-    name: ETH-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MAN_BTC(Symbol):
@@ -14548,17 +11479,6 @@ class MAN_BTC(Symbol):
 
 
 MAN_BTC = MAN_BTC(*MAN_BTC._fields)
-"""
-    name: MAN-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CPC_ETH(Symbol):
@@ -14600,17 +11520,6 @@ class CPC_ETH(Symbol):
 
 
 CPC_ETH = CPC_ETH(*CPC_ETH._fields)
-"""
-    name: CPC-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 120
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRX_USDT(Symbol):
@@ -14652,17 +11561,6 @@ class TRX_USDT(Symbol):
 
 
 TRX_USDT = TRX_USDT(*TRX_USDT._fields)
-"""
-    name: TRX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BTC_DAI(Symbol):
@@ -14704,17 +11602,6 @@ class BTC_DAI(Symbol):
 
 
 BTC_DAI = BTC_DAI(*BTC_DAI._fields)
-"""
-    name: BTC-DAI
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONT_USDT(Symbol):
@@ -14756,17 +11643,6 @@ class ONT_USDT(Symbol):
 
 
 ONT_USDT = ONT_USDT(*ONT_USDT._fields)
-"""
-    name: ONT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DASH_ETH(Symbol):
@@ -14808,17 +11684,6 @@ class DASH_ETH(Symbol):
 
 
 DASH_ETH = DASH_ETH(*DASH_ETH._fields)
-"""
-    name: DASH-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAX_BTC(Symbol):
@@ -14860,17 +11725,6 @@ class BAX_BTC(Symbol):
 
 
 BAX_BTC = BAX_BTC(*BAX_BTC._fields)
-"""
-    name: BAX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVA_ETH(Symbol):
@@ -14912,17 +11766,6 @@ class AVA_ETH(Symbol):
 
 
 AVA_ETH = AVA_ETH(*AVA_ETH._fields)
-"""
-    name: AVA-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LOOM_BTC(Symbol):
@@ -14964,17 +11807,6 @@ class LOOM_BTC(Symbol):
 
 
 LOOM_BTC = LOOM_BTC(*LOOM_BTC._fields)
-"""
-    name: LOOM-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MKR_ETH(Symbol):
@@ -15016,17 +11848,6 @@ class MKR_ETH(Symbol):
 
 
 MKR_ETH = MKR_ETH(*MKR_ETH._fields)
-"""
-    name: MKR-ETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COV_BTC(Symbol):
@@ -15068,17 +11889,6 @@ class COV_BTC(Symbol):
 
 
 COV_BTC = COV_BTC(*COV_BTC._fields)
-"""
-    name: COV-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CPC_BTC(Symbol):
@@ -15120,17 +11930,6 @@ class CPC_BTC(Symbol):
 
 
 CPC_BTC = CPC_BTC(*CPC_BTC._fields)
-"""
-    name: CPC-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 120
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REQ_ETH(Symbol):
@@ -15172,17 +11971,6 @@ class REQ_ETH(Symbol):
 
 
 REQ_ETH = REQ_ETH(*REQ_ETH._fields)
-"""
-    name: REQ-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EOS_BTC(Symbol):
@@ -15224,17 +12012,6 @@ class EOS_BTC(Symbol):
 
 
 EOS_BTC = EOS_BTC(*EOS_BTC._fields)
-"""
-    name: EOS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LTC_BTC(Symbol):
@@ -15276,17 +12053,6 @@ class LTC_BTC(Symbol):
 
 
 LTC_BTC = LTC_BTC(*LTC_BTC._fields)
-"""
-    name: LTC-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XRP_ETH(Symbol):
@@ -15328,17 +12094,6 @@ class XRP_ETH(Symbol):
 
 
 XRP_ETH = XRP_ETH(*XRP_ETH._fields)
-"""
-    name: XRP-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CAPP_BTC(Symbol):
@@ -15380,17 +12135,6 @@ class CAPP_BTC(Symbol):
 
 
 CAPP_BTC = CAPP_BTC(*CAPP_BTC._fields)
-"""
-    name: CAPP-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTM_ETH(Symbol):
@@ -15432,17 +12176,6 @@ class FTM_ETH(Symbol):
 
 
 FTM_ETH = FTM_ETH(*FTM_ETH._fields)
-"""
-    name: FTM-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZRX_ETH(Symbol):
@@ -15484,17 +12217,6 @@ class ZRX_ETH(Symbol):
 
 
 ZRX_ETH = ZRX_ETH(*ZRX_ETH._fields)
-"""
-    name: ZRX-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DGB_ETH(Symbol):
@@ -15536,17 +12258,6 @@ class DGB_ETH(Symbol):
 
 
 DGB_ETH = DGB_ETH(*DGB_ETH._fields)
-"""
-    name: DGB-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET_USDT(Symbol):
@@ -15588,17 +12299,6 @@ class VET_USDT(Symbol):
 
 
 VET_USDT = VET_USDT(*VET_USDT._fields)
-"""
-    name: VET-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class REQ_BTC(Symbol):
@@ -15640,17 +12340,6 @@ class REQ_BTC(Symbol):
 
 
 REQ_BTC = REQ_BTC(*REQ_BTC._fields)
-"""
-    name: REQ-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UTK_BTC(Symbol):
@@ -15692,17 +12381,6 @@ class UTK_BTC(Symbol):
 
 
 UTK_BTC = UTK_BTC(*UTK_BTC._fields)
-"""
-    name: UTK-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PLAY_BTC(Symbol):
@@ -15744,17 +12422,6 @@ class PLAY_BTC(Symbol):
 
 
 PLAY_BTC = PLAY_BTC(*PLAY_BTC._fields)
-"""
-    name: PLAY-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UTK_ETH(Symbol):
@@ -15796,17 +12463,6 @@ class UTK_ETH(Symbol):
 
 
 UTK_ETH = UTK_ETH(*UTK_ETH._fields)
-"""
-    name: UTK-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SNX_BTC(Symbol):
@@ -15848,17 +12504,6 @@ class SNX_BTC(Symbol):
 
 
 SNX_BTC = SNX_BTC(*SNX_BTC._fields)
-"""
-    name: SNX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEO_BTC(Symbol):
@@ -15900,17 +12545,6 @@ class NEO_BTC(Symbol):
 
 
 NEO_BTC = NEO_BTC(*NEO_BTC._fields)
-"""
-    name: NEO-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 100000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOUL_ETH(Symbol):
@@ -15952,17 +12586,6 @@ class SOUL_ETH(Symbol):
 
 
 SOUL_ETH = SOUL_ETH(*SOUL_ETH._fields)
-"""
-    name: SOUL-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEO_USDT(Symbol):
@@ -16004,17 +12627,6 @@ class NEO_USDT(Symbol):
 
 
 NEO_USDT = NEO_USDT(*NEO_USDT._fields)
-"""
-    name: NEO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ELA_ETH(Symbol):
@@ -16056,17 +12668,6 @@ class ELA_ETH(Symbol):
 
 
 ELA_ETH = ELA_ETH(*ELA_ETH._fields)
-"""
-    name: ELA-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OMG_BTC(Symbol):
@@ -16108,17 +12709,6 @@ class OMG_BTC(Symbol):
 
 
 OMG_BTC = OMG_BTC(*OMG_BTC._fields)
-"""
-    name: OMG-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TIME_BTC(Symbol):
@@ -16160,17 +12750,6 @@ class TIME_BTC(Symbol):
 
 
 TIME_BTC = TIME_BTC(*TIME_BTC._fields)
-"""
-    name: TIME-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AOA_BTC(Symbol):
@@ -16212,17 +12791,6 @@ class AOA_BTC(Symbol):
 
 
 AOA_BTC = AOA_BTC(*AOA_BTC._fields)
-"""
-    name: AOA-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETC_BTC(Symbol):
@@ -16264,17 +12832,6 @@ class ETC_BTC(Symbol):
 
 
 ETC_BTC = ETC_BTC(*ETC_BTC._fields)
-"""
-    name: ETC-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DCR_BTC(Symbol):
@@ -16316,17 +12873,6 @@ class DCR_BTC(Symbol):
 
 
 DCR_BTC = DCR_BTC(*DCR_BTC._fields)
-"""
-    name: DCR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_USDC(Symbol):
@@ -16368,17 +12914,6 @@ class BTC_USDC(Symbol):
 
 
 BTC_USDC = BTC_USDC(*BTC_USDC._fields)
-"""
-    name: BTC-USDC
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ENJ_ETH(Symbol):
@@ -16420,17 +12955,6 @@ class ENJ_ETH(Symbol):
 
 
 ENJ_ETH = ENJ_ETH(*ENJ_ETH._fields)
-"""
-    name: ENJ-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOST_BTC(Symbol):
@@ -16472,17 +12996,6 @@ class IOST_BTC(Symbol):
 
 
 IOST_BTC = IOST_BTC(*IOST_BTC._fields)
-"""
-    name: IOST-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DASH_BTC(Symbol):
@@ -16524,17 +13037,6 @@ class DASH_BTC(Symbol):
 
 
 DASH_BTC = DASH_BTC(*DASH_BTC._fields)
-"""
-    name: DASH-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class EOS_USDT(Symbol):
@@ -16576,17 +13078,6 @@ class EOS_USDT(Symbol):
 
 
 EOS_USDT = EOS_USDT(*EOS_USDT._fields)
-"""
-    name: EOS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class EOS_ETH(Symbol):
@@ -16628,17 +13119,6 @@ class EOS_ETH(Symbol):
 
 
 EOS_ETH = EOS_ETH(*EOS_ETH._fields)
-"""
-    name: EOS-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ZIL_ETH(Symbol):
@@ -16680,17 +13160,6 @@ class ZIL_ETH(Symbol):
 
 
 ZIL_ETH = ZIL_ETH(*ZIL_ETH._fields)
-"""
-    name: ZIL-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_TUSD(Symbol):
@@ -16732,17 +13201,6 @@ class ETH_TUSD(Symbol):
 
 
 ETH_TUSD = ETH_TUSD(*ETH_TUSD._fields)
-"""
-    name: ETH-TUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GAS_BTC(Symbol):
@@ -16784,17 +13242,6 @@ class GAS_BTC(Symbol):
 
 
 GAS_BTC = GAS_BTC(*GAS_BTC._fields)
-"""
-    name: GAS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LYM_BTC(Symbol):
@@ -16836,17 +13283,6 @@ class LYM_BTC(Symbol):
 
 
 LYM_BTC = LYM_BTC(*LYM_BTC._fields)
-"""
-    name: LYM-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BCH_BTC(Symbol):
@@ -16888,17 +13324,6 @@ class BCH_BTC(Symbol):
 
 
 BCH_BTC = BCH_BTC(*BCH_BTC._fields)
-"""
-    name: BCH-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class VSYS_BTC(Symbol):
@@ -16940,17 +13365,6 @@ class VSYS_BTC(Symbol):
 
 
 VSYS_BTC = VSYS_BTC(*VSYS_BTC._fields)
-"""
-    name: VSYS-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BCH_USDT(Symbol):
@@ -16992,17 +13406,6 @@ class BCH_USDT(Symbol):
 
 
 BCH_USDT = BCH_USDT(*BCH_USDT._fields)
-"""
-    name: BCH-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MKR_DAI(Symbol):
@@ -17044,17 +13447,6 @@ class MKR_DAI(Symbol):
 
 
 MKR_DAI = MKR_DAI(*MKR_DAI._fields)
-"""
-    name: MKR-DAI
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOLVE_BTC(Symbol):
@@ -17096,17 +13488,6 @@ class SOLVE_BTC(Symbol):
 
 
 SOLVE_BTC = SOLVE_BTC(*SOLVE_BTC._fields)
-"""
-    name: SOLVE-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UQC_BTC(Symbol):
@@ -17148,17 +13529,6 @@ class UQC_BTC(Symbol):
 
 
 UQC_BTC = UQC_BTC(*UQC_BTC._fields)
-"""
-    name: UQC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UQC_ETH(Symbol):
@@ -17200,17 +13570,6 @@ class UQC_ETH(Symbol):
 
 
 UQC_ETH = UQC_ETH(*UQC_ETH._fields)
-"""
-    name: UQC-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OPCT_BTC(Symbol):
@@ -17252,17 +13611,6 @@ class OPCT_BTC(Symbol):
 
 
 OPCT_BTC = OPCT_BTC(*OPCT_BTC._fields)
-"""
-    name: OPCT-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OPCT_ETH(Symbol):
@@ -17304,17 +13652,6 @@ class OPCT_ETH(Symbol):
 
 
 OPCT_ETH = OPCT_ETH(*OPCT_ETH._fields)
-"""
-    name: OPCT-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRE_USDT(Symbol):
@@ -17356,17 +13693,6 @@ class PRE_USDT(Symbol):
 
 
 PRE_USDT = PRE_USDT(*PRE_USDT._fields)
-"""
-    name: PRE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHR_BTC(Symbol):
@@ -17408,17 +13734,6 @@ class SHR_BTC(Symbol):
 
 
 SHR_BTC = SHR_BTC(*SHR_BTC._fields)
-"""
-    name: SHR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHR_USDT(Symbol):
@@ -17460,17 +13775,6 @@ class SHR_USDT(Symbol):
 
 
 SHR_USDT = SHR_USDT(*SHR_USDT._fields)
-"""
-    name: SHR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VIDT_USDT(Symbol):
@@ -17512,17 +13816,6 @@ class VIDT_USDT(Symbol):
 
 
 VIDT_USDT = VIDT_USDT(*VIDT_USDT._fields)
-"""
-    name: VIDT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ROSE_USDT(Symbol):
@@ -17564,17 +13857,6 @@ class ROSE_USDT(Symbol):
 
 
 ROSE_USDT = ROSE_USDT(*ROSE_USDT._fields)
-"""
-    name: ROSE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class USDC_USDT(Symbol):
@@ -17616,17 +13898,6 @@ class USDC_USDT(Symbol):
 
 
 USDC_USDT = USDC_USDT(*USDC_USDT._fields)
-"""
-    name: USDC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CTI_USDT(Symbol):
@@ -17668,17 +13939,6 @@ class CTI_USDT(Symbol):
 
 
 CTI_USDT = CTI_USDT(*CTI_USDT._fields)
-"""
-    name: CTI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CTI_ETH(Symbol):
@@ -17720,17 +13980,6 @@ class CTI_ETH(Symbol):
 
 
 CTI_ETH = CTI_ETH(*CTI_ETH._fields)
-"""
-    name: CTI-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH2_ETH(Symbol):
@@ -17772,17 +14021,6 @@ class ETH2_ETH(Symbol):
 
 
 ETH2_ETH = ETH2_ETH(*ETH2_ETH._fields)
-"""
-    name: ETH2-ETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BUX_BTC(Symbol):
@@ -17824,17 +14062,6 @@ class BUX_BTC(Symbol):
 
 
 BUX_BTC = BUX_BTC(*BUX_BTC._fields)
-"""
-    name: BUX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XHV_USDT(Symbol):
@@ -17876,17 +14103,6 @@ class XHV_USDT(Symbol):
 
 
 XHV_USDT = XHV_USDT(*XHV_USDT._fields)
-"""
-    name: XHV-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PLU_USDT(Symbol):
@@ -17928,17 +14144,6 @@ class PLU_USDT(Symbol):
 
 
 PLU_USDT = PLU_USDT(*PLU_USDT._fields)
-"""
-    name: PLU-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GRT_USDT(Symbol):
@@ -17980,17 +14185,6 @@ class GRT_USDT(Symbol):
 
 
 GRT_USDT = GRT_USDT(*GRT_USDT._fields)
-"""
-    name: GRT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CAS_BTC(Symbol):
@@ -18032,17 +14226,6 @@ class CAS_BTC(Symbol):
 
 
 CAS_BTC = CAS_BTC(*CAS_BTC._fields)
-"""
-    name: CAS-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CAS_USDT(Symbol):
@@ -18084,17 +14267,6 @@ class CAS_USDT(Symbol):
 
 
 CAS_USDT = CAS_USDT(*CAS_USDT._fields)
-"""
-    name: CAS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MSWAP_BTC(Symbol):
@@ -18136,17 +14308,6 @@ class MSWAP_BTC(Symbol):
 
 
 MSWAP_BTC = MSWAP_BTC(*MSWAP_BTC._fields)
-"""
-    name: MSWAP-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MSWAP_USDT(Symbol):
@@ -18188,17 +14349,6 @@ class MSWAP_USDT(Symbol):
 
 
 MSWAP_USDT = MSWAP_USDT(*MSWAP_USDT._fields)
-"""
-    name: MSWAP-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REVV_BTC(Symbol):
@@ -18240,17 +14390,6 @@ class REVV_BTC(Symbol):
 
 
 REVV_BTC = REVV_BTC(*REVV_BTC._fields)
-"""
-    name: REVV-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REVV_USDT(Symbol):
@@ -18292,17 +14431,6 @@ class REVV_USDT(Symbol):
 
 
 REVV_USDT = REVV_USDT(*REVV_USDT._fields)
-"""
-    name: REVV-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONEINCH_USDT(Symbol):
@@ -18344,17 +14472,6 @@ class ONEINCH_USDT(Symbol):
 
 
 ONEINCH_USDT = ONEINCH_USDT(*ONEINCH_USDT._fields)
-"""
-    name: 1INCH-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LOC_USDT(Symbol):
@@ -18396,17 +14513,6 @@ class LOC_USDT(Symbol):
 
 
 LOC_USDT = LOC_USDT(*LOC_USDT._fields)
-"""
-    name: LOC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class API3_USDT(Symbol):
@@ -18448,17 +14554,6 @@ class API3_USDT(Symbol):
 
 
 API3_USDT = API3_USDT(*API3_USDT._fields)
-"""
-    name: API3-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class UNFI_USDT(Symbol):
@@ -18500,17 +14595,6 @@ class UNFI_USDT(Symbol):
 
 
 UNFI_USDT = UNFI_USDT(*UNFI_USDT._fields)
-"""
-    name: UNFI-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HTR_USDT(Symbol):
@@ -18552,17 +14636,6 @@ class HTR_USDT(Symbol):
 
 
 HTR_USDT = HTR_USDT(*HTR_USDT._fields)
-"""
-    name: HTR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FRONT_USDT(Symbol):
@@ -18604,17 +14677,6 @@ class FRONT_USDT(Symbol):
 
 
 FRONT_USDT = FRONT_USDT(*FRONT_USDT._fields)
-"""
-    name: FRONT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FRONT_BTC(Symbol):
@@ -18656,17 +14718,6 @@ class FRONT_BTC(Symbol):
 
 
 FRONT_BTC = FRONT_BTC(*FRONT_BTC._fields)
-"""
-    name: FRONT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WBTC_BTC(Symbol):
@@ -18708,17 +14759,6 @@ class WBTC_BTC(Symbol):
 
 
 WBTC_BTC = WBTC_BTC(*WBTC_BTC._fields)
-"""
-    name: WBTC-BTC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WBTC_ETH(Symbol):
@@ -18760,17 +14800,6 @@ class WBTC_ETH(Symbol):
 
 
 WBTC_ETH = WBTC_ETH(*WBTC_ETH._fields)
-"""
-    name: WBTC-ETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MIR_USDT(Symbol):
@@ -18812,17 +14841,6 @@ class MIR_USDT(Symbol):
 
 
 MIR_USDT = MIR_USDT(*MIR_USDT._fields)
-"""
-    name: MIR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC_USDC(Symbol):
@@ -18864,17 +14882,6 @@ class LTC_USDC(Symbol):
 
 
 LTC_USDC = LTC_USDC(*LTC_USDC._fields)
-"""
-    name: LTC-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BCH_USDC(Symbol):
@@ -18916,17 +14923,6 @@ class BCH_USDC(Symbol):
 
 
 BCH_USDC = BCH_USDC(*BCH_USDC._fields)
-"""
-    name: BCH-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HYDRA_USDT(Symbol):
@@ -18968,17 +14964,6 @@ class HYDRA_USDT(Symbol):
 
 
 HYDRA_USDT = HYDRA_USDT(*HYDRA_USDT._fields)
-"""
-    name: HYDRA-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DFI_USDT(Symbol):
@@ -19020,17 +15005,6 @@ class DFI_USDT(Symbol):
 
 
 DFI_USDT = DFI_USDT(*DFI_USDT._fields)
-"""
-    name: DFI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DFI_BTC(Symbol):
@@ -19072,17 +15046,6 @@ class DFI_BTC(Symbol):
 
 
 DFI_BTC = DFI_BTC(*DFI_BTC._fields)
-"""
-    name: DFI-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CRV_USDT(Symbol):
@@ -19124,17 +15087,6 @@ class CRV_USDT(Symbol):
 
 
 CRV_USDT = CRV_USDT(*CRV_USDT._fields)
-"""
-    name: CRV-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUSHI_USDT(Symbol):
@@ -19176,17 +15128,6 @@ class SUSHI_USDT(Symbol):
 
 
 SUSHI_USDT = SUSHI_USDT(*SUSHI_USDT._fields)
-"""
-    name: SUSHI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FRM_USDT(Symbol):
@@ -19228,17 +15169,6 @@ class FRM_USDT(Symbol):
 
 
 FRM_USDT = FRM_USDT(*FRM_USDT._fields)
-"""
-    name: FRM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EOS_USDC(Symbol):
@@ -19280,17 +15210,6 @@ class EOS_USDC(Symbol):
 
 
 EOS_USDC = EOS_USDC(*EOS_USDC._fields)
-"""
-    name: EOS-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BSV_USDC(Symbol):
@@ -19332,17 +15251,6 @@ class BSV_USDC(Symbol):
 
 
 BSV_USDC = BSV_USDC(*BSV_USDC._fields)
-"""
-    name: BCHSV-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZEN_USDT(Symbol):
@@ -19384,17 +15292,6 @@ class ZEN_USDT(Symbol):
 
 
 ZEN_USDT = ZEN_USDT(*ZEN_USDT._fields)
-"""
-    name: ZEN-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CUDOS_USDT(Symbol):
@@ -19436,17 +15333,6 @@ class CUDOS_USDT(Symbol):
 
 
 CUDOS_USDT = CUDOS_USDT(*CUDOS_USDT._fields)
-"""
-    name: CUDOS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADA_USDC(Symbol):
@@ -19488,17 +15374,6 @@ class ADA_USDC(Symbol):
 
 
 ADA_USDC = ADA_USDC(*ADA_USDC._fields)
-"""
-    name: ADA-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class REN_USDT(Symbol):
@@ -19540,17 +15415,6 @@ class REN_USDT(Symbol):
 
 
 REN_USDT = REN_USDT(*REN_USDT._fields)
-"""
-    name: REN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LRC_USDT(Symbol):
@@ -19592,17 +15456,6 @@ class LRC_USDT(Symbol):
 
 
 LRC_USDT = LRC_USDT(*LRC_USDT._fields)
-"""
-    name: LRC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LINK_USDC(Symbol):
@@ -19644,17 +15497,6 @@ class LINK_USDC(Symbol):
 
 
 LINK_USDC = LINK_USDC(*LINK_USDC._fields)
-"""
-    name: LINK-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KLV_USDT(Symbol):
@@ -19696,17 +15538,6 @@ class KLV_USDT(Symbol):
 
 
 KLV_USDT = KLV_USDT(*KLV_USDT._fields)
-"""
-    name: KLV-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KLV_BTC(Symbol):
@@ -19748,17 +15579,6 @@ class KLV_BTC(Symbol):
 
 
 KLV_BTC = KLV_BTC(*KLV_BTC._fields)
-"""
-    name: KLV-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOA_USDT(Symbol):
@@ -19800,17 +15620,6 @@ class BOA_USDT(Symbol):
 
 
 BOA_USDT = BOA_USDT(*BOA_USDT._fields)
-"""
-    name: BOA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class THETA_USDT(Symbol):
@@ -19852,17 +15661,6 @@ class THETA_USDT(Symbol):
 
 
 THETA_USDT = THETA_USDT(*THETA_USDT._fields)
-"""
-    name: THETA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class QNT_USDT(Symbol):
@@ -19904,17 +15702,6 @@ class QNT_USDT(Symbol):
 
 
 QNT_USDT = QNT_USDT(*QNT_USDT._fields)
-"""
-    name: QNT-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BAT_USDT(Symbol):
@@ -19956,17 +15743,6 @@ class BAT_USDT(Symbol):
 
 
 BAT_USDT = BAT_USDT(*BAT_USDT._fields)
-"""
-    name: BAT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DOGE_USDT(Symbol):
@@ -20008,17 +15784,6 @@ class DOGE_USDT(Symbol):
 
 
 DOGE_USDT = DOGE_USDT(*DOGE_USDT._fields)
-"""
-    name: DOGE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DOGE_USDC(Symbol):
@@ -20060,17 +15825,6 @@ class DOGE_USDC(Symbol):
 
 
 DOGE_USDC = DOGE_USDC(*DOGE_USDC._fields)
-"""
-    name: DOGE-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DAO_USDT(Symbol):
@@ -20112,17 +15866,6 @@ class DAO_USDT(Symbol):
 
 
 DAO_USDT = DAO_USDT(*DAO_USDT._fields)
-"""
-    name: DAO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class STRONG_USDT(Symbol):
@@ -20164,17 +15907,6 @@ class STRONG_USDT(Symbol):
 
 
 STRONG_USDT = STRONG_USDT(*STRONG_USDT._fields)
-"""
-    name: STRONG-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRIAS_USDT(Symbol):
@@ -20216,17 +15948,6 @@ class TRIAS_USDT(Symbol):
 
 
 TRIAS_USDT = TRIAS_USDT(*TRIAS_USDT._fields)
-"""
-    name: TRIAS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRIAS_BTC(Symbol):
@@ -20268,17 +15989,6 @@ class TRIAS_BTC(Symbol):
 
 
 TRIAS_BTC = TRIAS_BTC(*TRIAS_BTC._fields)
-"""
-    name: TRIAS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOGE_BTC(Symbol):
@@ -20320,17 +16030,6 @@ class DOGE_BTC(Symbol):
 
 
 DOGE_BTC = DOGE_BTC(*DOGE_BTC._fields)
-"""
-    name: DOGE-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MITX_BTC(Symbol):
@@ -20372,17 +16071,6 @@ class MITX_BTC(Symbol):
 
 
 MITX_BTC = MITX_BTC(*MITX_BTC._fields)
-"""
-    name: MITX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MITX_USDT(Symbol):
@@ -20424,17 +16112,6 @@ class MITX_USDT(Symbol):
 
 
 MITX_USDT = MITX_USDT(*MITX_USDT._fields)
-"""
-    name: MITX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CAKE_USDT(Symbol):
@@ -20476,17 +16153,6 @@ class CAKE_USDT(Symbol):
 
 
 CAKE_USDT = CAKE_USDT(*CAKE_USDT._fields)
-"""
-    name: CAKE-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ORAI_USDT(Symbol):
@@ -20528,17 +16194,6 @@ class ORAI_USDT(Symbol):
 
 
 ORAI_USDT = ORAI_USDT(*ORAI_USDT._fields)
-"""
-    name: ORAI-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZEE_USDT(Symbol):
@@ -20580,17 +16235,6 @@ class ZEE_USDT(Symbol):
 
 
 ZEE_USDT = ZEE_USDT(*ZEE_USDT._fields)
-"""
-    name: ZEE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTX_USDT(Symbol):
@@ -20632,17 +16276,6 @@ class LTX_USDT(Symbol):
 
 
 LTX_USDT = LTX_USDT(*LTX_USDT._fields)
-"""
-    name: LTX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTX_BTC(Symbol):
@@ -20684,17 +16317,6 @@ class LTX_BTC(Symbol):
 
 
 LTX_BTC = LTX_BTC(*LTX_BTC._fields)
-"""
-    name: LTX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MASK_USDT(Symbol):
@@ -20736,17 +16358,6 @@ class MASK_USDT(Symbol):
 
 
 MASK_USDT = MASK_USDT(*MASK_USDT._fields)
-"""
-    name: MASK-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KLV_TRX(Symbol):
@@ -20788,17 +16399,6 @@ class KLV_TRX(Symbol):
 
 
 KLV_TRX = KLV_TRX(*KLV_TRX._fields)
-"""
-    name: KLV-TRX
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 10
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IDEA_USDT(Symbol):
@@ -20840,17 +16440,6 @@ class IDEA_USDT(Symbol):
 
 
 IDEA_USDT = IDEA_USDT(*IDEA_USDT._fields)
-"""
-    name: IDEA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PHA_USDT(Symbol):
@@ -20892,17 +16481,6 @@ class PHA_USDT(Symbol):
 
 
 PHA_USDT = PHA_USDT(*PHA_USDT._fields)
-"""
-    name: PHA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PHA_ETH(Symbol):
@@ -20944,17 +16522,6 @@ class PHA_ETH(Symbol):
 
 
 PHA_ETH = PHA_ETH(*PHA_ETH._fields)
-"""
-    name: PHA-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BCH_KCS(Symbol):
@@ -20996,17 +16563,6 @@ class BCH_KCS(Symbol):
 
 
 BCH_KCS = BCH_KCS(*BCH_KCS._fields)
-"""
-    name: BCH-KCS
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SRK_USDT(Symbol):
@@ -21048,17 +16604,6 @@ class SRK_USDT(Symbol):
 
 
 SRK_USDT = SRK_USDT(*SRK_USDT._fields)
-"""
-    name: SRK-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SRK_BTC(Symbol):
@@ -21100,17 +16645,6 @@ class SRK_BTC(Symbol):
 
 
 SRK_BTC = SRK_BTC(*SRK_BTC._fields)
-"""
-    name: SRK-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADA_KCS(Symbol):
@@ -21152,17 +16686,6 @@ class ADA_KCS(Symbol):
 
 
 ADA_KCS = ADA_KCS(*ADA_KCS._fields)
-"""
-    name: ADA-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HTR_BTC(Symbol):
@@ -21204,17 +16727,6 @@ class HTR_BTC(Symbol):
 
 
 HTR_BTC = HTR_BTC(*HTR_BTC._fields)
-"""
-    name: HTR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BSV_KCS(Symbol):
@@ -21256,17 +16768,6 @@ class BSV_KCS(Symbol):
 
 
 BSV_KCS = BSV_KCS(*BSV_KCS._fields)
-"""
-    name: BCHSV-KCS
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOT_KCS(Symbol):
@@ -21308,17 +16809,6 @@ class DOT_KCS(Symbol):
 
 
 DOT_KCS = DOT_KCS(*DOT_KCS._fields)
-"""
-    name: DOT-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINK_KCS(Symbol):
@@ -21360,17 +16850,6 @@ class LINK_KCS(Symbol):
 
 
 LINK_KCS = LINK_KCS(*LINK_KCS._fields)
-"""
-    name: LINK-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MIR_KCS(Symbol):
@@ -21412,17 +16891,6 @@ class MIR_KCS(Symbol):
 
 
 MIR_KCS = MIR_KCS(*MIR_KCS._fields)
-"""
-    name: MIR-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB_KCS(Symbol):
@@ -21464,17 +16932,6 @@ class BNB_KCS(Symbol):
 
 
 BNB_KCS = BNB_KCS(*BNB_KCS._fields)
-"""
-    name: BNB-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XLM_KCS(Symbol):
@@ -21516,17 +16973,6 @@ class XLM_KCS(Symbol):
 
 
 XLM_KCS = XLM_KCS(*XLM_KCS._fields)
-"""
-    name: XLM-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET_KCS(Symbol):
@@ -21568,17 +17014,6 @@ class VET_KCS(Symbol):
 
 
 VET_KCS = VET_KCS(*VET_KCS._fields)
-"""
-    name: VET-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWINGBY_USDT(Symbol):
@@ -21620,17 +17055,6 @@ class SWINGBY_USDT(Symbol):
 
 
 SWINGBY_USDT = SWINGBY_USDT(*SWINGBY_USDT._fields)
-"""
-    name: SWINGBY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWINGBY_BTC(Symbol):
@@ -21672,17 +17096,6 @@ class SWINGBY_BTC(Symbol):
 
 
 SWINGBY_BTC = SWINGBY_BTC(*SWINGBY_BTC._fields)
-"""
-    name: SWINGBY-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XHV_BTC(Symbol):
@@ -21724,17 +17137,6 @@ class XHV_BTC(Symbol):
 
 
 XHV_BTC = XHV_BTC(*XHV_BTC._fields)
-"""
-    name: XHV-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DASH_KCS(Symbol):
@@ -21776,17 +17178,6 @@ class DASH_KCS(Symbol):
 
 
 DASH_KCS = DASH_KCS(*DASH_KCS._fields)
-"""
-    name: DASH-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNI_KCS(Symbol):
@@ -21828,17 +17219,6 @@ class UNI_KCS(Symbol):
 
 
 UNI_KCS = UNI_KCS(*UNI_KCS._fields)
-"""
-    name: UNI-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AAVE_KCS(Symbol):
@@ -21880,17 +17260,6 @@ class AAVE_KCS(Symbol):
 
 
 AAVE_KCS = AAVE_KCS(*AAVE_KCS._fields)
-"""
-    name: AAVE-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOGE_KCS(Symbol):
@@ -21932,17 +17301,6 @@ class DOGE_KCS(Symbol):
 
 
 DOGE_KCS = DOGE_KCS(*DOGE_KCS._fields)
-"""
-    name: DOGE-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZEC_KCS(Symbol):
@@ -21984,17 +17342,6 @@ class ZEC_KCS(Symbol):
 
 
 ZEC_KCS = ZEC_KCS(*ZEC_KCS._fields)
-"""
-    name: ZEC-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XTZ_KCS(Symbol):
@@ -22036,17 +17383,6 @@ class XTZ_KCS(Symbol):
 
 
 XTZ_KCS = XTZ_KCS(*XTZ_KCS._fields)
-"""
-    name: XTZ-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GRT_KCS(Symbol):
@@ -22088,17 +17424,6 @@ class GRT_KCS(Symbol):
 
 
 GRT_KCS = GRT_KCS(*GRT_KCS._fields)
-"""
-    name: GRT-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALGO_KCS(Symbol):
@@ -22140,17 +17465,6 @@ class ALGO_KCS(Symbol):
 
 
 ALGO_KCS = ALGO_KCS(*ALGO_KCS._fields)
-"""
-    name: ALGO-KCS
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EWT_KCS(Symbol):
@@ -22192,17 +17506,6 @@ class EWT_KCS(Symbol):
 
 
 EWT_KCS = EWT_KCS(*EWT_KCS._fields)
-"""
-    name: EWT-KCS
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GAS_USDT(Symbol):
@@ -22244,17 +17547,6 @@ class GAS_USDT(Symbol):
 
 
 GAS_USDT = GAS_USDT(*GAS_USDT._fields)
-"""
-    name: GAS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVAX_USDT(Symbol):
@@ -22296,17 +17588,6 @@ class AVAX_USDT(Symbol):
 
 
 AVAX_USDT = AVAX_USDT(*AVAX_USDT._fields)
-"""
-    name: AVAX-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AVAX_BTC(Symbol):
@@ -22348,17 +17629,6 @@ class AVAX_BTC(Symbol):
 
 
 AVAX_BTC = AVAX_BTC(*AVAX_BTC._fields)
-"""
-    name: AVAX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KRL_BTC(Symbol):
@@ -22400,17 +17670,6 @@ class KRL_BTC(Symbol):
 
 
 KRL_BTC = KRL_BTC(*KRL_BTC._fields)
-"""
-    name: KRL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KRL_USDT(Symbol):
@@ -22452,17 +17711,6 @@ class KRL_USDT(Symbol):
 
 
 KRL_USDT = KRL_USDT(*KRL_USDT._fields)
-"""
-    name: KRL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POLK_USDT(Symbol):
@@ -22504,17 +17752,6 @@ class POLK_USDT(Symbol):
 
 
 POLK_USDT = POLK_USDT(*POLK_USDT._fields)
-"""
-    name: POLK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POLK_BTC(Symbol):
@@ -22556,17 +17793,6 @@ class POLK_BTC(Symbol):
 
 
 POLK_BTC = POLK_BTC(*POLK_BTC._fields)
-"""
-    name: POLK-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ENJ_USDT(Symbol):
@@ -22608,17 +17834,6 @@ class ENJ_USDT(Symbol):
 
 
 ENJ_USDT = ENJ_USDT(*ENJ_USDT._fields)
-"""
-    name: ENJ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MANA_USDT(Symbol):
@@ -22660,17 +17875,6 @@ class MANA_USDT(Symbol):
 
 
 MANA_USDT = MANA_USDT(*MANA_USDT._fields)
-"""
-    name: MANA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RNDR_USDT(Symbol):
@@ -22712,17 +17916,6 @@ class RNDR_USDT(Symbol):
 
 
 RNDR_USDT = RNDR_USDT(*RNDR_USDT._fields)
-"""
-    name: RNDR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RNDR_BTC(Symbol):
@@ -22764,17 +17957,6 @@ class RNDR_BTC(Symbol):
 
 
 RNDR_BTC = RNDR_BTC(*RNDR_BTC._fields)
-"""
-    name: RNDR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RLY_USDT(Symbol):
@@ -22816,17 +17998,6 @@ class RLY_USDT(Symbol):
 
 
 RLY_USDT = RLY_USDT(*RLY_USDT._fields)
-"""
-    name: RLY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 100000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ANC_USDT(Symbol):
@@ -22868,17 +18039,6 @@ class ANC_USDT(Symbol):
 
 
 ANC_USDT = ANC_USDT(*ANC_USDT._fields)
-"""
-    name: ANC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SKEY_USDT(Symbol):
@@ -22920,17 +18080,6 @@ class SKEY_USDT(Symbol):
 
 
 SKEY_USDT = SKEY_USDT(*SKEY_USDT._fields)
-"""
-    name: SKEY-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LAYER_USDT(Symbol):
@@ -22972,17 +18121,6 @@ class LAYER_USDT(Symbol):
 
 
 LAYER_USDT = LAYER_USDT(*LAYER_USDT._fields)
-"""
-    name: LAYER-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TARA_USDT(Symbol):
@@ -23024,17 +18162,6 @@ class TARA_USDT(Symbol):
 
 
 TARA_USDT = TARA_USDT(*TARA_USDT._fields)
-"""
-    name: TARA-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TARA_ETH(Symbol):
@@ -23076,17 +18203,6 @@ class TARA_ETH(Symbol):
 
 
 TARA_ETH = TARA_ETH(*TARA_ETH._fields)
-"""
-    name: TARA-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOST_USDT(Symbol):
@@ -23128,17 +18244,6 @@ class IOST_USDT(Symbol):
 
 
 IOST_USDT = IOST_USDT(*IOST_USDT._fields)
-"""
-    name: IOST-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DYP_USDT(Symbol):
@@ -23180,17 +18285,6 @@ class DYP_USDT(Symbol):
 
 
 DYP_USDT = DYP_USDT(*DYP_USDT._fields)
-"""
-    name: DYP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DYP_ETH(Symbol):
@@ -23232,17 +18326,6 @@ class DYP_ETH(Symbol):
 
 
 DYP_ETH = DYP_ETH(*DYP_ETH._fields)
-"""
-    name: DYP-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XYM_USDT(Symbol):
@@ -23284,17 +18367,6 @@ class XYM_USDT(Symbol):
 
 
 XYM_USDT = XYM_USDT(*XYM_USDT._fields)
-"""
-    name: XYM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XYM_BTC(Symbol):
@@ -23336,17 +18408,6 @@ class XYM_BTC(Symbol):
 
 
 XYM_BTC = XYM_BTC(*XYM_BTC._fields)
-"""
-    name: XYM-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PCX_USDT(Symbol):
@@ -23388,17 +18449,6 @@ class PCX_USDT(Symbol):
 
 
 PCX_USDT = PCX_USDT(*PCX_USDT._fields)
-"""
-    name: PCX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PCX_BTC(Symbol):
@@ -23440,17 +18490,6 @@ class PCX_BTC(Symbol):
 
 
 PCX_BTC = PCX_BTC(*PCX_BTC._fields)
-"""
-    name: PCX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ORBS_USDT(Symbol):
@@ -23492,17 +18531,6 @@ class ORBS_USDT(Symbol):
 
 
 ORBS_USDT = ORBS_USDT(*ORBS_USDT._fields)
-"""
-    name: ORBS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ORBS_BTC(Symbol):
@@ -23544,17 +18572,6 @@ class ORBS_BTC(Symbol):
 
 
 ORBS_BTC = ORBS_BTC(*ORBS_BTC._fields)
-"""
-    name: ORBS-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC3L_USDT(Symbol):
@@ -23596,17 +18613,6 @@ class BTC3L_USDT(Symbol):
 
 
 BTC3L_USDT = BTC3L_USDT(*BTC3L_USDT._fields)
-"""
-    name: BTC3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC3S_USDT(Symbol):
@@ -23648,17 +18654,6 @@ class BTC3S_USDT(Symbol):
 
 
 BTC3S_USDT = BTC3S_USDT(*BTC3S_USDT._fields)
-"""
-    name: BTC3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH3L_USDT(Symbol):
@@ -23700,17 +18695,6 @@ class ETH3L_USDT(Symbol):
 
 
 ETH3L_USDT = ETH3L_USDT(*ETH3L_USDT._fields)
-"""
-    name: ETH3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH3S_USDT(Symbol):
@@ -23752,17 +18736,6 @@ class ETH3S_USDT(Symbol):
 
 
 ETH3S_USDT = ETH3S_USDT(*ETH3S_USDT._fields)
-"""
-    name: ETH3S-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ANKR_USDT(Symbol):
@@ -23804,17 +18777,6 @@ class ANKR_USDT(Symbol):
 
 
 ANKR_USDT = ANKR_USDT(*ANKR_USDT._fields)
-"""
-    name: ANKR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DSLA_USDT(Symbol):
@@ -23856,17 +18818,6 @@ class DSLA_USDT(Symbol):
 
 
 DSLA_USDT = DSLA_USDT(*DSLA_USDT._fields)
-"""
-    name: DSLA-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DSLA_BTC(Symbol):
@@ -23908,17 +18859,6 @@ class DSLA_BTC(Symbol):
 
 
 DSLA_BTC = DSLA_BTC(*DSLA_BTC._fields)
-"""
-    name: DSLA-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SAND_USDT(Symbol):
@@ -23960,17 +18900,6 @@ class SAND_USDT(Symbol):
 
 
 SAND_USDT = SAND_USDT(*SAND_USDT._fields)
-"""
-    name: SAND-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class VAI_USDT(Symbol):
@@ -24012,17 +18941,6 @@ class VAI_USDT(Symbol):
 
 
 VAI_USDT = VAI_USDT(*VAI_USDT._fields)
-"""
-    name: VAI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCUR_USDT(Symbol):
@@ -24064,17 +18982,6 @@ class XCUR_USDT(Symbol):
 
 
 XCUR_USDT = XCUR_USDT(*XCUR_USDT._fields)
-"""
-    name: XCUR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCUR_BTC(Symbol):
@@ -24116,17 +19023,6 @@ class XCUR_BTC(Symbol):
 
 
 XCUR_BTC = XCUR_BTC(*XCUR_BTC._fields)
-"""
-    name: XCUR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLUX_USDT(Symbol):
@@ -24168,17 +19064,6 @@ class FLUX_USDT(Symbol):
 
 
 FLUX_USDT = FLUX_USDT(*FLUX_USDT._fields)
-"""
-    name: FLUX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class OMG_USDT(Symbol):
@@ -24220,17 +19105,6 @@ class OMG_USDT(Symbol):
 
 
 OMG_USDT = OMG_USDT(*OMG_USDT._fields)
-"""
-    name: OMG-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ZIL_USDT(Symbol):
@@ -24272,17 +19146,6 @@ class ZIL_USDT(Symbol):
 
 
 ZIL_USDT = ZIL_USDT(*ZIL_USDT._fields)
-"""
-    name: ZIL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DODO_USDT(Symbol):
@@ -24324,17 +19187,6 @@ class DODO_USDT(Symbol):
 
 
 DODO_USDT = DODO_USDT(*DODO_USDT._fields)
-"""
-    name: DODO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MAN_USDT(Symbol):
@@ -24376,17 +19228,6 @@ class MAN_USDT(Symbol):
 
 
 MAN_USDT = MAN_USDT(*MAN_USDT._fields)
-"""
-    name: MAN-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAX_USDT(Symbol):
@@ -24428,17 +19269,6 @@ class BAX_USDT(Symbol):
 
 
 BAX_USDT = BAX_USDT(*BAX_USDT._fields)
-"""
-    name: BAX-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOSON_USDT(Symbol):
@@ -24480,17 +19310,6 @@ class BOSON_USDT(Symbol):
 
 
 BOSON_USDT = BOSON_USDT(*BOSON_USDT._fields)
-"""
-    name: BOSON-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOSON_ETH(Symbol):
@@ -24532,17 +19351,6 @@ class BOSON_ETH(Symbol):
 
 
 BOSON_ETH = BOSON_ETH(*BOSON_ETH._fields)
-"""
-    name: BOSON-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PUNDIX_USDT(Symbol):
@@ -24584,17 +19392,6 @@ class PUNDIX_USDT(Symbol):
 
 
 PUNDIX_USDT = PUNDIX_USDT(*PUNDIX_USDT._fields)
-"""
-    name: PUNDIX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PUNDIX_BTC(Symbol):
@@ -24636,17 +19433,6 @@ class PUNDIX_BTC(Symbol):
 
 
 PUNDIX_BTC = PUNDIX_BTC(*PUNDIX_BTC._fields)
-"""
-    name: PUNDIX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAXP_USDT(Symbol):
@@ -24688,17 +19474,6 @@ class WAXP_USDT(Symbol):
 
 
 WAXP_USDT = WAXP_USDT(*WAXP_USDT._fields)
-"""
-    name: WAX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class HT_USDT(Symbol):
@@ -24740,17 +19515,6 @@ class HT_USDT(Symbol):
 
 
 HT_USDT = HT_USDT(*HT_USDT._fields)
-"""
-    name: HT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PDEX_USDT(Symbol):
@@ -24792,17 +19556,6 @@ class PDEX_USDT(Symbol):
 
 
 PDEX_USDT = PDEX_USDT(*PDEX_USDT._fields)
-"""
-    name: PDEX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LABS_USDT(Symbol):
@@ -24844,17 +19597,6 @@ class LABS_USDT(Symbol):
 
 
 LABS_USDT = LABS_USDT(*LABS_USDT._fields)
-"""
-    name: LABS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LABS_ETH(Symbol):
@@ -24896,17 +19638,6 @@ class LABS_ETH(Symbol):
 
 
 LABS_ETH = LABS_ETH(*LABS_ETH._fields)
-"""
-    name: LABS-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMB_USDT(Symbol):
@@ -24948,17 +19679,6 @@ class GMB_USDT(Symbol):
 
 
 GMB_USDT = GMB_USDT(*GMB_USDT._fields)
-"""
-    name: GMB-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PHNX_USDT(Symbol):
@@ -25000,17 +19720,6 @@ class PHNX_USDT(Symbol):
 
 
 PHNX_USDT = PHNX_USDT(*PHNX_USDT._fields)
-"""
-    name: PHNX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PHNX_BTC(Symbol):
@@ -25052,17 +19761,6 @@ class PHNX_BTC(Symbol):
 
 
 PHNX_BTC = PHNX_BTC(*PHNX_BTC._fields)
-"""
-    name: PHNX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HAI_USDT(Symbol):
@@ -25104,17 +19802,6 @@ class HAI_USDT(Symbol):
 
 
 HAI_USDT = HAI_USDT(*HAI_USDT._fields)
-"""
-    name: HAI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EQZ_USDT(Symbol):
@@ -25156,17 +19843,6 @@ class EQZ_USDT(Symbol):
 
 
 EQZ_USDT = EQZ_USDT(*EQZ_USDT._fields)
-"""
-    name: EQZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORTH_USDT(Symbol):
@@ -25208,17 +19884,6 @@ class FORTH_USDT(Symbol):
 
 
 FORTH_USDT = FORTH_USDT(*FORTH_USDT._fields)
-"""
-    name: FORTH-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CGG_USDT(Symbol):
@@ -25260,17 +19925,6 @@ class CGG_USDT(Symbol):
 
 
 CGG_USDT = CGG_USDT(*CGG_USDT._fields)
-"""
-    name: CGG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UBX_USDT(Symbol):
@@ -25312,17 +19966,6 @@ class UBX_USDT(Symbol):
 
 
 UBX_USDT = UBX_USDT(*UBX_USDT._fields)
-"""
-    name: UBX-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GHX_USDT(Symbol):
@@ -25364,17 +20007,6 @@ class GHX_USDT(Symbol):
 
 
 GHX_USDT = GHX_USDT(*GHX_USDT._fields)
-"""
-    name: GHX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STND_USDT(Symbol):
@@ -25416,17 +20048,6 @@ class STND_USDT(Symbol):
 
 
 STND_USDT = STND_USDT(*STND_USDT._fields)
-"""
-    name: STND-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STND_ETH(Symbol):
@@ -25468,17 +20089,6 @@ class STND_ETH(Symbol):
 
 
 STND_ETH = STND_ETH(*STND_ETH._fields)
-"""
-    name: STND-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TOWER_USDT(Symbol):
@@ -25520,17 +20130,6 @@ class TOWER_USDT(Symbol):
 
 
 TOWER_USDT = TOWER_USDT(*TOWER_USDT._fields)
-"""
-    name: TOWER-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TOWER_BTC(Symbol):
@@ -25572,17 +20171,6 @@ class TOWER_BTC(Symbol):
 
 
 TOWER_BTC = TOWER_BTC(*TOWER_BTC._fields)
-"""
-    name: TOWER-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACE_USDT(Symbol):
@@ -25624,17 +20212,6 @@ class ACE_USDT(Symbol):
 
 
 ACE_USDT = ACE_USDT(*ACE_USDT._fields)
-"""
-    name: ACE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LOCG_USDT(Symbol):
@@ -25676,17 +20253,6 @@ class LOCG_USDT(Symbol):
 
 
 LOCG_USDT = LOCG_USDT(*LOCG_USDT._fields)
-"""
-    name: LOCG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CARD_USDT(Symbol):
@@ -25728,17 +20294,6 @@ class CARD_USDT(Symbol):
 
 
 CARD_USDT = CARD_USDT(*CARD_USDT._fields)
-"""
-    name: CARD-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLY_USDT(Symbol):
@@ -25780,17 +20335,6 @@ class FLY_USDT(Symbol):
 
 
 FLY_USDT = FLY_USDT(*FLY_USDT._fields)
-"""
-    name: FLY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CWS_USDT(Symbol):
@@ -25832,17 +20376,6 @@ class CWS_USDT(Symbol):
 
 
 CWS_USDT = CWS_USDT(*CWS_USDT._fields)
-"""
-    name: CWS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDC_USDT(Symbol):
@@ -25884,17 +20417,6 @@ class XDC_USDT(Symbol):
 
 
 XDC_USDT = XDC_USDT(*XDC_USDT._fields)
-"""
-    name: XDC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDC_ETH(Symbol):
@@ -25936,17 +20458,6 @@ class XDC_ETH(Symbol):
 
 
 XDC_ETH = XDC_ETH(*XDC_ETH._fields)
-"""
-    name: XDC-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STRK_BTC(Symbol):
@@ -25988,17 +20499,6 @@ class STRK_BTC(Symbol):
 
 
 STRK_BTC = STRK_BTC(*STRK_BTC._fields)
-"""
-    name: STRK-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STRK_ETH(Symbol):
@@ -26040,17 +20540,6 @@ class STRK_ETH(Symbol):
 
 
 STRK_ETH = STRK_ETH(*STRK_ETH._fields)
-"""
-    name: STRK-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHIB_USDT(Symbol):
@@ -26092,17 +20581,6 @@ class SHIB_USDT(Symbol):
 
 
 SHIB_USDT = SHIB_USDT(*SHIB_USDT._fields)
-"""
-    name: SHIB-USDT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class POLX_USDT(Symbol):
@@ -26144,17 +20622,6 @@ class POLX_USDT(Symbol):
 
 
 POLX_USDT = POLX_USDT(*POLX_USDT._fields)
-"""
-    name: POLX-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KDA_USDT(Symbol):
@@ -26196,17 +20663,6 @@ class KDA_USDT(Symbol):
 
 
 KDA_USDT = KDA_USDT(*KDA_USDT._fields)
-"""
-    name: KDA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KDA_BTC(Symbol):
@@ -26248,17 +20704,6 @@ class KDA_BTC(Symbol):
 
 
 KDA_BTC = KDA_BTC(*KDA_BTC._fields)
-"""
-    name: KDA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ICP_USDT(Symbol):
@@ -26300,17 +20745,6 @@ class ICP_USDT(Symbol):
 
 
 ICP_USDT = ICP_USDT(*ICP_USDT._fields)
-"""
-    name: ICP-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ICP_BTC(Symbol):
@@ -26352,17 +20786,6 @@ class ICP_BTC(Symbol):
 
 
 ICP_BTC = ICP_BTC(*ICP_BTC._fields)
-"""
-    name: ICP-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STC_USDT(Symbol):
@@ -26404,17 +20827,6 @@ class STC_USDT(Symbol):
 
 
 STC_USDT = STC_USDT(*STC_USDT._fields)
-"""
-    name: STC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STC_BTC(Symbol):
@@ -26456,17 +20868,6 @@ class STC_BTC(Symbol):
 
 
 STC_BTC = STC_BTC(*STC_BTC._fields)
-"""
-    name: STC-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GOVI_USDT(Symbol):
@@ -26508,17 +20909,6 @@ class GOVI_USDT(Symbol):
 
 
 GOVI_USDT = GOVI_USDT(*GOVI_USDT._fields)
-"""
-    name: GOVI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GOVI_BTC(Symbol):
@@ -26560,17 +20950,6 @@ class GOVI_BTC(Symbol):
 
 
 GOVI_BTC = GOVI_BTC(*GOVI_BTC._fields)
-"""
-    name: GOVI-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FKX_USDT(Symbol):
@@ -26612,17 +20991,6 @@ class FKX_USDT(Symbol):
 
 
 FKX_USDT = FKX_USDT(*FKX_USDT._fields)
-"""
-    name: FKX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CELO_USDT(Symbol):
@@ -26664,17 +21032,6 @@ class CELO_USDT(Symbol):
 
 
 CELO_USDT = CELO_USDT(*CELO_USDT._fields)
-"""
-    name: CELO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CELO_BTC(Symbol):
@@ -26716,17 +21073,6 @@ class CELO_BTC(Symbol):
 
 
 CELO_BTC = CELO_BTC(*CELO_BTC._fields)
-"""
-    name: CELO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CUSD_USDT(Symbol):
@@ -26768,17 +21114,6 @@ class CUSD_USDT(Symbol):
 
 
 CUSD_USDT = CUSD_USDT(*CUSD_USDT._fields)
-"""
-    name: CUSD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CUSD_BTC(Symbol):
@@ -26820,17 +21155,6 @@ class CUSD_BTC(Symbol):
 
 
 CUSD_BTC = CUSD_BTC(*CUSD_BTC._fields)
-"""
-    name: CUSD-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MATIC_USDT(Symbol):
@@ -26872,17 +21196,6 @@ class MATIC_USDT(Symbol):
 
 
 MATIC_USDT = MATIC_USDT(*MATIC_USDT._fields)
-"""
-    name: MATIC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MATIC_BTC(Symbol):
@@ -26924,17 +21237,6 @@ class MATIC_BTC(Symbol):
 
 
 MATIC_BTC = MATIC_BTC(*MATIC_BTC._fields)
-"""
-    name: MATIC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ELA_USDT(Symbol):
@@ -26976,17 +21278,6 @@ class ELA_USDT(Symbol):
 
 
 ELA_USDT = ELA_USDT(*ELA_USDT._fields)
-"""
-    name: ELA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CRPT_USDT(Symbol):
@@ -27028,17 +21319,6 @@ class CRPT_USDT(Symbol):
 
 
 CRPT_USDT = CRPT_USDT(*CRPT_USDT._fields)
-"""
-    name: CRPT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OPCT_USDT(Symbol):
@@ -27080,17 +21360,6 @@ class OPCT_USDT(Symbol):
 
 
 OPCT_USDT = OPCT_USDT(*OPCT_USDT._fields)
-"""
-    name: OPCT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OGN_USDT(Symbol):
@@ -27132,17 +21401,6 @@ class OGN_USDT(Symbol):
 
 
 OGN_USDT = OGN_USDT(*OGN_USDT._fields)
-"""
-    name: OGN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class OGN_BTC(Symbol):
@@ -27184,17 +21442,6 @@ class OGN_BTC(Symbol):
 
 
 OGN_BTC = OGN_BTC(*OGN_BTC._fields)
-"""
-    name: OGN-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OUSD_USDT(Symbol):
@@ -27236,17 +21483,6 @@ class OUSD_USDT(Symbol):
 
 
 OUSD_USDT = OUSD_USDT(*OUSD_USDT._fields)
-"""
-    name: OUSD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OUSD_BTC(Symbol):
@@ -27288,17 +21524,6 @@ class OUSD_BTC(Symbol):
 
 
 OUSD_BTC = OUSD_BTC(*OUSD_BTC._fields)
-"""
-    name: OUSD-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TLOS_USDT(Symbol):
@@ -27340,17 +21565,6 @@ class TLOS_USDT(Symbol):
 
 
 TLOS_USDT = TLOS_USDT(*TLOS_USDT._fields)
-"""
-    name: TLOS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TLOS_BTC(Symbol):
@@ -27392,17 +21606,6 @@ class TLOS_BTC(Symbol):
 
 
 TLOS_BTC = TLOS_BTC(*TLOS_BTC._fields)
-"""
-    name: TLOS-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLQ_USDT(Symbol):
@@ -27444,17 +21647,6 @@ class GLQ_USDT(Symbol):
 
 
 GLQ_USDT = GLQ_USDT(*GLQ_USDT._fields)
-"""
-    name: GLQ-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLQ_BTC(Symbol):
@@ -27496,17 +21688,6 @@ class GLQ_BTC(Symbol):
 
 
 GLQ_BTC = GLQ_BTC(*GLQ_BTC._fields)
-"""
-    name: GLQ-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MXC_USDT(Symbol):
@@ -27548,17 +21729,6 @@ class MXC_USDT(Symbol):
 
 
 MXC_USDT = MXC_USDT(*MXC_USDT._fields)
-"""
-    name: MXC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ERSDL_USDT(Symbol):
@@ -27600,17 +21770,6 @@ class ERSDL_USDT(Symbol):
 
 
 ERSDL_USDT = ERSDL_USDT(*ERSDL_USDT._fields)
-"""
-    name: ERSDL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HOTCROSS_USDT(Symbol):
@@ -27652,17 +21811,6 @@ class HOTCROSS_USDT(Symbol):
 
 
 HOTCROSS_USDT = HOTCROSS_USDT(*HOTCROSS_USDT._fields)
-"""
-    name: HOTCROSS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADA3L_USDT(Symbol):
@@ -27704,17 +21852,6 @@ class ADA3L_USDT(Symbol):
 
 
 ADA3L_USDT = ADA3L_USDT(*ADA3L_USDT._fields)
-"""
-    name: ADA3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADA3S_USDT(Symbol):
@@ -27756,17 +21893,6 @@ class ADA3S_USDT(Symbol):
 
 
 ADA3S_USDT = ADA3S_USDT(*ADA3S_USDT._fields)
-"""
-    name: ADA3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HYVE_USDT(Symbol):
@@ -27808,17 +21934,6 @@ class HYVE_USDT(Symbol):
 
 
 HYVE_USDT = HYVE_USDT(*HYVE_USDT._fields)
-"""
-    name: HYVE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HYVE_BTC(Symbol):
@@ -27860,17 +21975,6 @@ class HYVE_BTC(Symbol):
 
 
 HYVE_BTC = HYVE_BTC(*HYVE_BTC._fields)
-"""
-    name: HYVE-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DAPPX_USDT(Symbol):
@@ -27912,17 +22016,6 @@ class DAPPX_USDT(Symbol):
 
 
 DAPPX_USDT = DAPPX_USDT(*DAPPX_USDT._fields)
-"""
-    name: DAPPX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KONO_USDT(Symbol):
@@ -27964,17 +22057,6 @@ class KONO_USDT(Symbol):
 
 
 KONO_USDT = KONO_USDT(*KONO_USDT._fields)
-"""
-    name: KONO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRQ_USDT(Symbol):
@@ -28016,17 +22098,6 @@ class PRQ_USDT(Symbol):
 
 
 PRQ_USDT = PRQ_USDT(*PRQ_USDT._fields)
-"""
-    name: PRQ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAHA_USDT(Symbol):
@@ -28068,17 +22139,6 @@ class MAHA_USDT(Symbol):
 
 
 MAHA_USDT = MAHA_USDT(*MAHA_USDT._fields)
-"""
-    name: MAHA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAHA_BTC(Symbol):
@@ -28120,17 +22180,6 @@ class MAHA_BTC(Symbol):
 
 
 MAHA_BTC = MAHA_BTC(*MAHA_BTC._fields)
-"""
-    name: MAHA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FEAR_USDT(Symbol):
@@ -28172,17 +22221,6 @@ class FEAR_USDT(Symbol):
 
 
 FEAR_USDT = FEAR_USDT(*FEAR_USDT._fields)
-"""
-    name: FEAR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PYR_USDT(Symbol):
@@ -28224,17 +22262,6 @@ class PYR_USDT(Symbol):
 
 
 PYR_USDT = PYR_USDT(*PYR_USDT._fields)
-"""
-    name: PYR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class PYR_BTC(Symbol):
@@ -28276,17 +22303,6 @@ class PYR_BTC(Symbol):
 
 
 PYR_BTC = PYR_BTC(*PYR_BTC._fields)
-"""
-    name: PYR-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PROM_USDT(Symbol):
@@ -28328,17 +22344,6 @@ class PROM_USDT(Symbol):
 
 
 PROM_USDT = PROM_USDT(*PROM_USDT._fields)
-"""
-    name: PROM-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PROM_BTC(Symbol):
@@ -28380,17 +22385,6 @@ class PROM_BTC(Symbol):
 
 
 PROM_BTC = PROM_BTC(*PROM_BTC._fields)
-"""
-    name: PROM-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLCH_USDT(Symbol):
@@ -28432,17 +22426,6 @@ class GLCH_USDT(Symbol):
 
 
 GLCH_USDT = GLCH_USDT(*GLCH_USDT._fields)
-"""
-    name: GLCH-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNO_USDT(Symbol):
@@ -28484,17 +22467,6 @@ class UNO_USDT(Symbol):
 
 
 UNO_USDT = UNO_USDT(*UNO_USDT._fields)
-"""
-    name: UNO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCAD_USDT(Symbol):
@@ -28536,17 +22508,6 @@ class XCAD_USDT(Symbol):
 
 
 XCAD_USDT = XCAD_USDT(*XCAD_USDT._fields)
-"""
-    name: XCAD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EOS3L_USDT(Symbol):
@@ -28588,17 +22549,6 @@ class EOS3L_USDT(Symbol):
 
 
 EOS3L_USDT = EOS3L_USDT(*EOS3L_USDT._fields)
-"""
-    name: EOS3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EOS3S_USDT(Symbol):
@@ -28640,17 +22590,6 @@ class EOS3S_USDT(Symbol):
 
 
 EOS3S_USDT = EOS3S_USDT(*EOS3S_USDT._fields)
-"""
-    name: EOS3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BCH3L_USDT(Symbol):
@@ -28692,17 +22631,6 @@ class BCH3L_USDT(Symbol):
 
 
 BCH3L_USDT = BCH3L_USDT(*BCH3L_USDT._fields)
-"""
-    name: BCH3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BCH3S_USDT(Symbol):
@@ -28744,17 +22672,6 @@ class BCH3S_USDT(Symbol):
 
 
 BCH3S_USDT = BCH3S_USDT(*BCH3S_USDT._fields)
-"""
-    name: BCH3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ELON_USDT(Symbol):
@@ -28796,17 +22713,6 @@ class ELON_USDT(Symbol):
 
 
 ELON_USDT = ELON_USDT(*ELON_USDT._fields)
-"""
-    name: ELON-USDT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class APL_USDT(Symbol):
@@ -28848,17 +22754,6 @@ class APL_USDT(Symbol):
 
 
 APL_USDT = APL_USDT(*APL_USDT._fields)
-"""
-    name: APL-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VEED_USDT(Symbol):
@@ -28900,17 +22795,6 @@ class VEED_USDT(Symbol):
 
 
 VEED_USDT = VEED_USDT(*VEED_USDT._fields)
-"""
-    name: VEED-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VEED_BTC(Symbol):
@@ -28952,17 +22836,6 @@ class VEED_BTC(Symbol):
 
 
 VEED_BTC = VEED_BTC(*VEED_BTC._fields)
-"""
-    name: VEED-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DIVI_USDT(Symbol):
@@ -29004,17 +22877,6 @@ class DIVI_USDT(Symbol):
 
 
 DIVI_USDT = DIVI_USDT(*DIVI_USDT._fields)
-"""
-    name: DIVI-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PDEX_BTC(Symbol):
@@ -29056,17 +22918,6 @@ class PDEX_BTC(Symbol):
 
 
 PDEX_BTC = PDEX_BTC(*PDEX_BTC._fields)
-"""
-    name: PDEX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POLS_USDT(Symbol):
@@ -29108,17 +22959,6 @@ class POLS_USDT(Symbol):
 
 
 POLS_USDT = POLS_USDT(*POLS_USDT._fields)
-"""
-    name: POLS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class POLS_BTC(Symbol):
@@ -29160,17 +23000,6 @@ class POLS_BTC(Symbol):
 
 
 POLS_BTC = POLS_BTC(*POLS_BTC._fields)
-"""
-    name: POLS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LPOOL_USDT(Symbol):
@@ -29212,17 +23041,6 @@ class LPOOL_USDT(Symbol):
 
 
 LPOOL_USDT = LPOOL_USDT(*LPOOL_USDT._fields)
-"""
-    name: LPOOL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LPOOL_BTC(Symbol):
@@ -29264,17 +23082,6 @@ class LPOOL_BTC(Symbol):
 
 
 LPOOL_BTC = LPOOL_BTC(*LPOOL_BTC._fields)
-"""
-    name: LPOOL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LSS_USDT(Symbol):
@@ -29316,17 +23123,6 @@ class LSS_USDT(Symbol):
 
 
 LSS_USDT = LSS_USDT(*LSS_USDT._fields)
-"""
-    name: LSS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET3L_USDT(Symbol):
@@ -29368,17 +23164,6 @@ class VET3L_USDT(Symbol):
 
 
 VET3L_USDT = VET3L_USDT(*VET3L_USDT._fields)
-"""
-    name: VET3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VET3S_USDT(Symbol):
@@ -29420,17 +23205,6 @@ class VET3S_USDT(Symbol):
 
 
 VET3S_USDT = VET3S_USDT(*VET3S_USDT._fields)
-"""
-    name: VET3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC3L_USDT(Symbol):
@@ -29472,17 +23246,6 @@ class LTC3L_USDT(Symbol):
 
 
 LTC3L_USDT = LTC3L_USDT(*LTC3L_USDT._fields)
-"""
-    name: LTC3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTC3S_USDT(Symbol):
@@ -29524,17 +23287,6 @@ class LTC3S_USDT(Symbol):
 
 
 LTC3S_USDT = LTC3S_USDT(*LTC3S_USDT._fields)
-"""
-    name: LTC3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ABBC_USDT(Symbol):
@@ -29576,17 +23328,6 @@ class ABBC_USDT(Symbol):
 
 
 ABBC_USDT = ABBC_USDT(*ABBC_USDT._fields)
-"""
-    name: ABBC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ABBC_BTC(Symbol):
@@ -29628,17 +23369,6 @@ class ABBC_BTC(Symbol):
 
 
 ABBC_BTC = ABBC_BTC(*ABBC_BTC._fields)
-"""
-    name: ABBC-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KOK_USDT(Symbol):
@@ -29680,17 +23410,6 @@ class KOK_USDT(Symbol):
 
 
 KOK_USDT = KOK_USDT(*KOK_USDT._fields)
-"""
-    name: KOK-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZCX_USDT(Symbol):
@@ -29732,17 +23451,6 @@ class ZCX_USDT(Symbol):
 
 
 ZCX_USDT = ZCX_USDT(*ZCX_USDT._fields)
-"""
-    name: ZCX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZCX_BTC(Symbol):
@@ -29784,17 +23492,6 @@ class ZCX_BTC(Symbol):
 
 
 ZCX_BTC = ZCX_BTC(*ZCX_BTC._fields)
-"""
-    name: ZCX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NORD_USDT(Symbol):
@@ -29836,17 +23533,6 @@ class NORD_USDT(Symbol):
 
 
 NORD_USDT = NORD_USDT(*NORD_USDT._fields)
-"""
-    name: NORD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMEE_USDT(Symbol):
@@ -29888,17 +23574,6 @@ class GMEE_USDT(Symbol):
 
 
 GMEE_USDT = GMEE_USDT(*GMEE_USDT._fields)
-"""
-    name: GMEE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SFUND_USDT(Symbol):
@@ -29940,17 +23615,6 @@ class SFUND_USDT(Symbol):
 
 
 SFUND_USDT = SFUND_USDT(*SFUND_USDT._fields)
-"""
-    name: SFUND-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XAVA_USDT(Symbol):
@@ -29992,17 +23656,6 @@ class XAVA_USDT(Symbol):
 
 
 XAVA_USDT = XAVA_USDT(*XAVA_USDT._fields)
-"""
-    name: XAVA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AI_USDT(Symbol):
@@ -30044,17 +23697,6 @@ class AI_USDT(Symbol):
 
 
 AI_USDT = AI_USDT(*AI_USDT._fields)
-"""
-    name: AI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOI_USDT(Symbol):
@@ -30096,17 +23738,6 @@ class IOI_USDT(Symbol):
 
 
 IOI_USDT = IOI_USDT(*IOI_USDT._fields)
-"""
-    name: IOI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NFT_USDT(Symbol):
@@ -30148,17 +23779,6 @@ class NFT_USDT(Symbol):
 
 
 NFT_USDT = NFT_USDT(*NFT_USDT._fields)
-"""
-    name: NFT-USDT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NFT_TRX(Symbol):
@@ -30200,17 +23820,6 @@ class NFT_TRX(Symbol):
 
 
 NFT_TRX = NFT_TRX(*NFT_TRX._fields)
-"""
-    name: NFT-TRX
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 10
-    initial_margin: None
-    min_order_size: 100000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MNST_USDT(Symbol):
@@ -30252,17 +23861,6 @@ class MNST_USDT(Symbol):
 
 
 MNST_USDT = MNST_USDT(*MNST_USDT._fields)
-"""
-    name: MNST-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MEM_USDT(Symbol):
@@ -30304,17 +23902,6 @@ class MEM_USDT(Symbol):
 
 
 MEM_USDT = MEM_USDT(*MEM_USDT._fields)
-"""
-    name: MEM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AGIX_USDT(Symbol):
@@ -30356,17 +23943,6 @@ class AGIX_USDT(Symbol):
 
 
 AGIX_USDT = AGIX_USDT(*AGIX_USDT._fields)
-"""
-    name: AGIX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AGIX_BTC(Symbol):
@@ -30408,17 +23984,6 @@ class AGIX_BTC(Symbol):
 
 
 AGIX_BTC = AGIX_BTC(*AGIX_BTC._fields)
-"""
-    name: AGIX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AGIX_ETH(Symbol):
@@ -30460,17 +24025,6 @@ class AGIX_ETH(Symbol):
 
 
 AGIX_ETH = AGIX_ETH(*AGIX_ETH._fields)
-"""
-    name: AGIX-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CQT_USDT(Symbol):
@@ -30512,17 +24066,6 @@ class CQT_USDT(Symbol):
 
 
 CQT_USDT = CQT_USDT(*CQT_USDT._fields)
-"""
-    name: CQT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AIOZ_USDT(Symbol):
@@ -30564,17 +24107,6 @@ class AIOZ_USDT(Symbol):
 
 
 AIOZ_USDT = AIOZ_USDT(*AIOZ_USDT._fields)
-"""
-    name: AIOZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MARSH_USDT(Symbol):
@@ -30616,17 +24148,6 @@ class MARSH_USDT(Symbol):
 
 
 MARSH_USDT = MARSH_USDT(*MARSH_USDT._fields)
-"""
-    name: MARSH-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HAPI_USDT(Symbol):
@@ -30668,17 +24189,6 @@ class HAPI_USDT(Symbol):
 
 
 HAPI_USDT = HAPI_USDT(*HAPI_USDT._fields)
-"""
-    name: HAPI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MODEFI_USDT(Symbol):
@@ -30720,17 +24230,6 @@ class MODEFI_USDT(Symbol):
 
 
 MODEFI_USDT = MODEFI_USDT(*MODEFI_USDT._fields)
-"""
-    name: MODEFI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MODEFI_BTC(Symbol):
@@ -30772,17 +24271,6 @@ class MODEFI_BTC(Symbol):
 
 
 MODEFI_BTC = MODEFI_BTC(*MODEFI_BTC._fields)
-"""
-    name: MODEFI-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class YFDAI_USDT(Symbol):
@@ -30824,17 +24312,6 @@ class YFDAI_USDT(Symbol):
 
 
 YFDAI_USDT = YFDAI_USDT(*YFDAI_USDT._fields)
-"""
-    name: YFDAI-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class YFDAI_BTC(Symbol):
@@ -30876,17 +24353,6 @@ class YFDAI_BTC(Symbol):
 
 
 YFDAI_BTC = YFDAI_BTC(*YFDAI_BTC._fields)
-"""
-    name: YFDAI-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GENS_USDT(Symbol):
@@ -30928,17 +24394,6 @@ class GENS_USDT(Symbol):
 
 
 GENS_USDT = GENS_USDT(*GENS_USDT._fields)
-"""
-    name: GENS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORM_USDT(Symbol):
@@ -30980,17 +24435,6 @@ class FORM_USDT(Symbol):
 
 
 FORM_USDT = FORM_USDT(*FORM_USDT._fields)
-"""
-    name: FORM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARRR_USDT(Symbol):
@@ -31032,17 +24476,6 @@ class ARRR_USDT(Symbol):
 
 
 ARRR_USDT = ARRR_USDT(*ARRR_USDT._fields)
-"""
-    name: ARRR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARRR_BTC(Symbol):
@@ -31084,17 +24517,6 @@ class ARRR_BTC(Symbol):
 
 
 ARRR_BTC = ARRR_BTC(*ARRR_BTC._fields)
-"""
-    name: ARRR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TOKO_KCS(Symbol):
@@ -31136,17 +24558,6 @@ class TOKO_KCS(Symbol):
 
 
 TOKO_KCS = TOKO_KCS(*TOKO_KCS._fields)
-"""
-    name: TOKO-KCS
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LPT_USDT(Symbol):
@@ -31188,17 +24599,6 @@ class LPT_USDT(Symbol):
 
 
 LPT_USDT = LPT_USDT(*LPT_USDT._fields)
-"""
-    name: LPT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ASD_USDT(Symbol):
@@ -31240,17 +24640,6 @@ class ASD_USDT(Symbol):
 
 
 ASD_USDT = ASD_USDT(*ASD_USDT._fields)
-"""
-    name: ASD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOND_USDT(Symbol):
@@ -31292,17 +24681,6 @@ class BOND_USDT(Symbol):
 
 
 BOND_USDT = BOND_USDT(*BOND_USDT._fields)
-"""
-    name: BOND-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HAI_BTC(Symbol):
@@ -31344,17 +24722,6 @@ class HAI_BTC(Symbol):
 
 
 HAI_BTC = HAI_BTC(*HAI_BTC._fields)
-"""
-    name: HAI-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOUL_USDT(Symbol):
@@ -31396,17 +24763,6 @@ class SOUL_USDT(Symbol):
 
 
 SOUL_USDT = SOUL_USDT(*SOUL_USDT._fields)
-"""
-    name: SOUL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TWOCRZ_USDT(Symbol):
@@ -31448,17 +24804,6 @@ class TWOCRZ_USDT(Symbol):
 
 
 TWOCRZ_USDT = TWOCRZ_USDT(*TWOCRZ_USDT._fields)
-"""
-    name: 2CRZ-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEAR_USDT(Symbol):
@@ -31500,17 +24845,6 @@ class NEAR_USDT(Symbol):
 
 
 NEAR_USDT = NEAR_USDT(*NEAR_USDT._fields)
-"""
-    name: NEAR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NEAR_BTC(Symbol):
@@ -31552,17 +24886,6 @@ class NEAR_BTC(Symbol):
 
 
 NEAR_BTC = NEAR_BTC(*NEAR_BTC._fields)
-"""
-    name: NEAR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DFYN_USDT(Symbol):
@@ -31604,17 +24927,6 @@ class DFYN_USDT(Symbol):
 
 
 DFYN_USDT = DFYN_USDT(*DFYN_USDT._fields)
-"""
-    name: DFYN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OOE_USDT(Symbol):
@@ -31656,17 +24968,6 @@ class OOE_USDT(Symbol):
 
 
 OOE_USDT = OOE_USDT(*OOE_USDT._fields)
-"""
-    name: OOE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFG_USDT(Symbol):
@@ -31708,17 +25009,6 @@ class CFG_USDT(Symbol):
 
 
 CFG_USDT = CFG_USDT(*CFG_USDT._fields)
-"""
-    name: CFG-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFG_BTC(Symbol):
@@ -31760,17 +25050,6 @@ class CFG_BTC(Symbol):
 
 
 CFG_BTC = CFG_BTC(*CFG_BTC._fields)
-"""
-    name: CFG-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AXS_USDT(Symbol):
@@ -31812,17 +25091,6 @@ class AXS_USDT(Symbol):
 
 
 AXS_USDT = AXS_USDT(*AXS_USDT._fields)
-"""
-    name: AXS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CLV_USDT(Symbol):
@@ -31864,17 +25132,6 @@ class CLV_USDT(Symbol):
 
 
 CLV_USDT = CLV_USDT(*CLV_USDT._fields)
-"""
-    name: CLV-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ROUTE_USDT(Symbol):
@@ -31916,17 +25173,6 @@ class ROUTE_USDT(Symbol):
 
 
 ROUTE_USDT = ROUTE_USDT(*ROUTE_USDT._fields)
-"""
-    name: ROUTE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAR_USDT(Symbol):
@@ -31968,17 +25214,6 @@ class KAR_USDT(Symbol):
 
 
 KAR_USDT = KAR_USDT(*KAR_USDT._fields)
-"""
-    name: KAR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EFX_USDT(Symbol):
@@ -32020,17 +25255,6 @@ class EFX_USDT(Symbol):
 
 
 EFX_USDT = EFX_USDT(*EFX_USDT._fields)
-"""
-    name: EFX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDC_BTC(Symbol):
@@ -32072,17 +25296,6 @@ class XDC_BTC(Symbol):
 
 
 XDC_BTC = XDC_BTC(*XDC_BTC._fields)
-"""
-    name: XDC-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PMON_USDT(Symbol):
@@ -32124,17 +25337,6 @@ class PMON_USDT(Symbol):
 
 
 PMON_USDT = PMON_USDT(*PMON_USDT._fields)
-"""
-    name: PMON-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DPET_USDT(Symbol):
@@ -32176,17 +25378,6 @@ class DPET_USDT(Symbol):
 
 
 DPET_USDT = DPET_USDT(*DPET_USDT._fields)
-"""
-    name: DPET-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ERG_USDT(Symbol):
@@ -32228,17 +25419,6 @@ class ERG_USDT(Symbol):
 
 
 ERG_USDT = ERG_USDT(*ERG_USDT._fields)
-"""
-    name: ERG-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ERG_BTC(Symbol):
@@ -32280,17 +25460,6 @@ class ERG_BTC(Symbol):
 
 
 ERG_BTC = ERG_BTC(*ERG_BTC._fields)
-"""
-    name: ERG-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOL_USDT(Symbol):
@@ -32332,17 +25501,6 @@ class SOL_USDT(Symbol):
 
 
 SOL_USDT = SOL_USDT(*SOL_USDT._fields)
-"""
-    name: SOL-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SLP_USDT(Symbol):
@@ -32384,17 +25542,6 @@ class SLP_USDT(Symbol):
 
 
 SLP_USDT = SLP_USDT(*SLP_USDT._fields)
-"""
-    name: SLP-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LITH_USDT(Symbol):
@@ -32436,17 +25583,6 @@ class LITH_USDT(Symbol):
 
 
 LITH_USDT = LITH_USDT(*LITH_USDT._fields)
-"""
-    name: LITH-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LITH_ETH(Symbol):
@@ -32488,17 +25624,6 @@ class LITH_ETH(Symbol):
 
 
 LITH_ETH = LITH_ETH(*LITH_ETH._fields)
-"""
-    name: LITH-ETH
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCH_USDT(Symbol):
@@ -32540,17 +25665,6 @@ class XCH_USDT(Symbol):
 
 
 XCH_USDT = XCH_USDT(*XCH_USDT._fields)
-"""
-    name: XCH-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HAKA_USDT(Symbol):
@@ -32592,17 +25706,6 @@ class HAKA_USDT(Symbol):
 
 
 HAKA_USDT = HAKA_USDT(*HAKA_USDT._fields)
-"""
-    name: HAKA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LAYER_BTC(Symbol):
@@ -32644,17 +25747,6 @@ class LAYER_BTC(Symbol):
 
 
 LAYER_BTC = LAYER_BTC(*LAYER_BTC._fields)
-"""
-    name: LAYER-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTL_USDT(Symbol):
@@ -32696,17 +25788,6 @@ class MTL_USDT(Symbol):
 
 
 MTL_USDT = MTL_USDT(*MTL_USDT._fields)
-"""
-    name: MTL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTL_BTC(Symbol):
@@ -32748,17 +25829,6 @@ class MTL_BTC(Symbol):
 
 
 MTL_BTC = MTL_BTC(*MTL_BTC._fields)
-"""
-    name: MTL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOTX_USDT(Symbol):
@@ -32800,17 +25870,6 @@ class IOTX_USDT(Symbol):
 
 
 IOTX_USDT = IOTX_USDT(*IOTX_USDT._fields)
-"""
-    name: IOTX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class GALA_USDT(Symbol):
@@ -32852,17 +25911,6 @@ class GALA_USDT(Symbol):
 
 
 GALA_USDT = GALA_USDT(*GALA_USDT._fields)
-"""
-    name: GALAX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class REQ_USDT(Symbol):
@@ -32904,17 +25952,6 @@ class REQ_USDT(Symbol):
 
 
 REQ_USDT = REQ_USDT(*REQ_USDT._fields)
-"""
-    name: REQ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TXA_USDT(Symbol):
@@ -32956,17 +25993,6 @@ class TXA_USDT(Symbol):
 
 
 TXA_USDT = TXA_USDT(*TXA_USDT._fields)
-"""
-    name: TXA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TXA_USDC(Symbol):
@@ -33008,17 +26034,6 @@ class TXA_USDC(Symbol):
 
 
 TXA_USDC = TXA_USDC(*TXA_USDC._fields)
-"""
-    name: TXA-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CIRUS_USDT(Symbol):
@@ -33060,17 +26075,6 @@ class CIRUS_USDT(Symbol):
 
 
 CIRUS_USDT = CIRUS_USDT(*CIRUS_USDT._fields)
-"""
-    name: CIRUS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QI_USDT(Symbol):
@@ -33112,17 +26116,6 @@ class QI_USDT(Symbol):
 
 
 QI_USDT = QI_USDT(*QI_USDT._fields)
-"""
-    name: QI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class QI_BTC(Symbol):
@@ -33164,17 +26157,6 @@ class QI_BTC(Symbol):
 
 
 QI_BTC = QI_BTC(*QI_BTC._fields)
-"""
-    name: QI-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ODDZ_USDT(Symbol):
@@ -33216,17 +26198,6 @@ class ODDZ_USDT(Symbol):
 
 
 ODDZ_USDT = ODDZ_USDT(*ODDZ_USDT._fields)
-"""
-    name: ODDZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PNT_USDT(Symbol):
@@ -33268,17 +26239,6 @@ class PNT_USDT(Symbol):
 
 
 PNT_USDT = PNT_USDT(*PNT_USDT._fields)
-"""
-    name: PNT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PNT_BTC(Symbol):
@@ -33320,17 +26280,6 @@ class PNT_BTC(Symbol):
 
 
 PNT_BTC = PNT_BTC(*PNT_BTC._fields)
-"""
-    name: PNT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XPR_USDT(Symbol):
@@ -33372,17 +26321,6 @@ class XPR_USDT(Symbol):
 
 
 XPR_USDT = XPR_USDT(*XPR_USDT._fields)
-"""
-    name: XPR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XPR_BTC(Symbol):
@@ -33424,17 +26362,6 @@ class XPR_BTC(Symbol):
 
 
 XPR_BTC = XPR_BTC(*XPR_BTC._fields)
-"""
-    name: XPR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRIBE_USDT(Symbol):
@@ -33476,17 +26403,6 @@ class TRIBE_USDT(Symbol):
 
 
 TRIBE_USDT = TRIBE_USDT(*TRIBE_USDT._fields)
-"""
-    name: TRIBE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MOVR_USDT(Symbol):
@@ -33528,17 +26444,6 @@ class MOVR_USDT(Symbol):
 
 
 MOVR_USDT = MOVR_USDT(*MOVR_USDT._fields)
-"""
-    name: MOVR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MOVR_ETH(Symbol):
@@ -33580,17 +26485,6 @@ class MOVR_ETH(Symbol):
 
 
 MOVR_ETH = MOVR_ETH(*MOVR_ETH._fields)
-"""
-    name: MOVR-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WOO_USDT(Symbol):
@@ -33632,17 +26526,6 @@ class WOO_USDT(Symbol):
 
 
 WOO_USDT = WOO_USDT(*WOO_USDT._fields)
-"""
-    name: WOO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class WILD_USDT(Symbol):
@@ -33684,17 +26567,6 @@ class WILD_USDT(Symbol):
 
 
 WILD_USDT = WILD_USDT(*WILD_USDT._fields)
-"""
-    name: WILD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QRDO_USDT(Symbol):
@@ -33736,17 +26608,6 @@ class QRDO_USDT(Symbol):
 
 
 QRDO_USDT = QRDO_USDT(*QRDO_USDT._fields)
-"""
-    name: QRDO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QRDO_ETH(Symbol):
@@ -33788,17 +26649,6 @@ class QRDO_ETH(Symbol):
 
 
 QRDO_ETH = QRDO_ETH(*QRDO_ETH._fields)
-"""
-    name: QRDO-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAKI_USDT(Symbol):
@@ -33840,17 +26690,6 @@ class MAKI_USDT(Symbol):
 
 
 MAKI_USDT = MAKI_USDT(*MAKI_USDT._fields)
-"""
-    name: MAKI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAKI_BTC(Symbol):
@@ -33892,17 +26731,6 @@ class MAKI_BTC(Symbol):
 
 
 MAKI_BTC = MAKI_BTC(*MAKI_BTC._fields)
-"""
-    name: MAKI-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OXT_USDT(Symbol):
@@ -33944,17 +26772,6 @@ class OXT_USDT(Symbol):
 
 
 OXT_USDT = OXT_USDT(*OXT_USDT._fields)
-"""
-    name: OXT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OXT_BTC(Symbol):
@@ -33996,17 +26813,6 @@ class OXT_BTC(Symbol):
 
 
 OXT_BTC = OXT_BTC(*OXT_BTC._fields)
-"""
-    name: OXT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OXT_ETH(Symbol):
@@ -34048,17 +26854,6 @@ class OXT_ETH(Symbol):
 
 
 OXT_ETH = OXT_ETH(*OXT_ETH._fields)
-"""
-    name: OXT-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAL_USDT(Symbol):
@@ -34100,17 +26895,6 @@ class BAL_USDT(Symbol):
 
 
 BAL_USDT = BAL_USDT(*BAL_USDT._fields)
-"""
-    name: BAL-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAL_BTC(Symbol):
@@ -34152,17 +26936,6 @@ class BAL_BTC(Symbol):
 
 
 BAL_BTC = BAL_BTC(*BAL_BTC._fields)
-"""
-    name: BAL-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAL_ETH(Symbol):
@@ -34204,17 +26977,6 @@ class BAL_ETH(Symbol):
 
 
 BAL_ETH = BAL_ETH(*BAL_ETH._fields)
-"""
-    name: BAL-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STORJ_USDT(Symbol):
@@ -34256,17 +27018,6 @@ class STORJ_USDT(Symbol):
 
 
 STORJ_USDT = STORJ_USDT(*STORJ_USDT._fields)
-"""
-    name: STORJ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class STORJ_BTC(Symbol):
@@ -34308,17 +27059,6 @@ class STORJ_BTC(Symbol):
 
 
 STORJ_BTC = STORJ_BTC(*STORJ_BTC._fields)
-"""
-    name: STORJ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STORJ_ETH(Symbol):
@@ -34360,17 +27100,6 @@ class STORJ_ETH(Symbol):
 
 
 STORJ_ETH = STORJ_ETH(*STORJ_ETH._fields)
-"""
-    name: STORJ-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class YGG_USDT(Symbol):
@@ -34412,17 +27141,6 @@ class YGG_USDT(Symbol):
 
 
 YGG_USDT = YGG_USDT(*YGG_USDT._fields)
-"""
-    name: YGG-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NDAU_USDT(Symbol):
@@ -34464,17 +27182,6 @@ class NDAU_USDT(Symbol):
 
 
 NDAU_USDT = NDAU_USDT(*NDAU_USDT._fields)
-"""
-    name: NDAU-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SDAO_USDT(Symbol):
@@ -34516,17 +27223,6 @@ class SDAO_USDT(Symbol):
 
 
 SDAO_USDT = SDAO_USDT(*SDAO_USDT._fields)
-"""
-    name: SDAO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SDAO_ETH(Symbol):
@@ -34568,17 +27264,6 @@ class SDAO_ETH(Symbol):
 
 
 SDAO_ETH = SDAO_ETH(*SDAO_ETH._fields)
-"""
-    name: SDAO-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRP3L_USDT(Symbol):
@@ -34620,17 +27305,6 @@ class XRP3L_USDT(Symbol):
 
 
 XRP3L_USDT = XRP3L_USDT(*XRP3L_USDT._fields)
-"""
-    name: XRP3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRP3S_USDT(Symbol):
@@ -34672,17 +27346,6 @@ class XRP3S_USDT(Symbol):
 
 
 XRP3S_USDT = XRP3S_USDT(*XRP3S_USDT._fields)
-"""
-    name: XRP3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 9999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SKL_USDT(Symbol):
@@ -34724,17 +27387,6 @@ class SKL_USDT(Symbol):
 
 
 SKL_USDT = SKL_USDT(*SKL_USDT._fields)
-"""
-    name: SKL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SKL_BTC(Symbol):
@@ -34776,17 +27428,6 @@ class SKL_BTC(Symbol):
 
 
 SKL_BTC = SKL_BTC(*SKL_BTC._fields)
-"""
-    name: SKL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NMR_USDT(Symbol):
@@ -34828,17 +27469,6 @@ class NMR_USDT(Symbol):
 
 
 NMR_USDT = NMR_USDT(*NMR_USDT._fields)
-"""
-    name: NMR-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NMR_BTC(Symbol):
@@ -34880,17 +27510,6 @@ class NMR_BTC(Symbol):
 
 
 NMR_BTC = NMR_BTC(*NMR_BTC._fields)
-"""
-    name: NMR-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IXS_USDT(Symbol):
@@ -34932,17 +27551,6 @@ class IXS_USDT(Symbol):
 
 
 IXS_USDT = IXS_USDT(*IXS_USDT._fields)
-"""
-    name: IXS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRB_USDT(Symbol):
@@ -34984,17 +27592,6 @@ class TRB_USDT(Symbol):
 
 
 TRB_USDT = TRB_USDT(*TRB_USDT._fields)
-"""
-    name: TRB-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRB_BTC(Symbol):
@@ -35036,17 +27633,6 @@ class TRB_BTC(Symbol):
 
 
 TRB_BTC = TRB_BTC(*TRB_BTC._fields)
-"""
-    name: TRB-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DYDX_USDT(Symbol):
@@ -35088,17 +27674,6 @@ class DYDX_USDT(Symbol):
 
 
 DYDX_USDT = DYDX_USDT(*DYDX_USDT._fields)
-"""
-    name: DYDX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class XYO_USDT(Symbol):
@@ -35140,17 +27715,6 @@ class XYO_USDT(Symbol):
 
 
 XYO_USDT = XYO_USDT(*XYO_USDT._fields)
-"""
-    name: XYO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GTC_USDT(Symbol):
@@ -35192,17 +27756,6 @@ class GTC_USDT(Symbol):
 
 
 GTC_USDT = GTC_USDT(*GTC_USDT._fields)
-"""
-    name: GTC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GTC_BTC(Symbol):
@@ -35244,17 +27797,6 @@ class GTC_BTC(Symbol):
 
 
 GTC_BTC = GTC_BTC(*GTC_BTC._fields)
-"""
-    name: GTC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EQX_USDT(Symbol):
@@ -35296,17 +27838,6 @@ class EQX_USDT(Symbol):
 
 
 EQX_USDT = EQX_USDT(*EQX_USDT._fields)
-"""
-    name: EQX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EQX_BTC(Symbol):
@@ -35348,17 +27879,6 @@ class EQX_BTC(Symbol):
 
 
 EQX_BTC = EQX_BTC(*EQX_BTC._fields)
-"""
-    name: EQX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RLC_USDT(Symbol):
@@ -35400,17 +27920,6 @@ class RLC_USDT(Symbol):
 
 
 RLC_USDT = RLC_USDT(*RLC_USDT._fields)
-"""
-    name: RLC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RLC_BTC(Symbol):
@@ -35452,17 +27961,6 @@ class RLC_BTC(Symbol):
 
 
 RLC_BTC = RLC_BTC(*RLC_BTC._fields)
-"""
-    name: RLC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XPRT_USDT(Symbol):
@@ -35504,17 +28002,6 @@ class XPRT_USDT(Symbol):
 
 
 XPRT_USDT = XPRT_USDT(*XPRT_USDT._fields)
-"""
-    name: XPRT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EGLD_USDT(Symbol):
@@ -35556,17 +28043,6 @@ class EGLD_USDT(Symbol):
 
 
 EGLD_USDT = EGLD_USDT(*EGLD_USDT._fields)
-"""
-    name: EGLD-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class EGLD_BTC(Symbol):
@@ -35608,17 +28084,6 @@ class EGLD_BTC(Symbol):
 
 
 EGLD_BTC = EGLD_BTC(*EGLD_BTC._fields)
-"""
-    name: EGLD-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HBAR_USDT(Symbol):
@@ -35660,17 +28125,6 @@ class HBAR_USDT(Symbol):
 
 
 HBAR_USDT = HBAR_USDT(*HBAR_USDT._fields)
-"""
-    name: HBAR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class HBAR_BTC(Symbol):
@@ -35712,17 +28166,6 @@ class HBAR_BTC(Symbol):
 
 
 HBAR_BTC = HBAR_BTC(*HBAR_BTC._fields)
-"""
-    name: HBAR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOGE3L_USDT(Symbol):
@@ -35764,17 +28207,6 @@ class DOGE3L_USDT(Symbol):
 
 
 DOGE3L_USDT = DOGE3L_USDT(*DOGE3L_USDT._fields)
-"""
-    name: DOGE3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOGE3S_USDT(Symbol):
@@ -35816,17 +28248,6 @@ class DOGE3S_USDT(Symbol):
 
 
 DOGE3S_USDT = DOGE3S_USDT(*DOGE3S_USDT._fields)
-"""
-    name: DOGE3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLOW_USDT(Symbol):
@@ -35868,17 +28289,6 @@ class FLOW_USDT(Symbol):
 
 
 FLOW_USDT = FLOW_USDT(*FLOW_USDT._fields)
-"""
-    name: FLOW-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FLOW_BTC(Symbol):
@@ -35920,17 +28330,6 @@ class FLOW_BTC(Symbol):
 
 
 FLOW_BTC = FLOW_BTC(*FLOW_BTC._fields)
-"""
-    name: FLOW-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NKN_USDT(Symbol):
@@ -35972,17 +28371,6 @@ class NKN_USDT(Symbol):
 
 
 NKN_USDT = NKN_USDT(*NKN_USDT._fields)
-"""
-    name: NKN-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NKN_BTC(Symbol):
@@ -36024,17 +28412,6 @@ class NKN_BTC(Symbol):
 
 
 NKN_BTC = NKN_BTC(*NKN_BTC._fields)
-"""
-    name: NKN-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PBX_USDT(Symbol):
@@ -36076,17 +28453,6 @@ class PBX_USDT(Symbol):
 
 
 PBX_USDT = PBX_USDT(*PBX_USDT._fields)
-"""
-    name: PBX-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOL3L_USDT(Symbol):
@@ -36128,17 +28494,6 @@ class SOL3L_USDT(Symbol):
 
 
 SOL3L_USDT = SOL3L_USDT(*SOL3L_USDT._fields)
-"""
-    name: SOL3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOL3S_USDT(Symbol):
@@ -36180,17 +28535,6 @@ class SOL3S_USDT(Symbol):
 
 
 SOL3S_USDT = SOL3S_USDT(*SOL3S_USDT._fields)
-"""
-    name: SOL3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MLN_USDT(Symbol):
@@ -36232,17 +28576,6 @@ class MLN_USDT(Symbol):
 
 
 MLN_USDT = MLN_USDT(*MLN_USDT._fields)
-"""
-    name: MLN-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MLN_BTC(Symbol):
@@ -36284,17 +28617,6 @@ class MLN_BTC(Symbol):
 
 
 MLN_BTC = MLN_BTC(*MLN_BTC._fields)
-"""
-    name: MLN-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XNL_USDT(Symbol):
@@ -36336,17 +28658,6 @@ class XNL_USDT(Symbol):
 
 
 XNL_USDT = XNL_USDT(*XNL_USDT._fields)
-"""
-    name: XNL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOLVE_USDT(Symbol):
@@ -36388,17 +28699,6 @@ class SOLVE_USDT(Symbol):
 
 
 SOLVE_USDT = SOLVE_USDT(*SOLVE_USDT._fields)
-"""
-    name: SOLVE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DMTR_USDT(Symbol):
@@ -36440,17 +28740,6 @@ class DMTR_USDT(Symbol):
 
 
 DMTR_USDT = DMTR_USDT(*DMTR_USDT._fields)
-"""
-    name: DMTR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINK3L_USDT(Symbol):
@@ -36492,17 +28781,6 @@ class LINK3L_USDT(Symbol):
 
 
 LINK3L_USDT = LINK3L_USDT(*LINK3L_USDT._fields)
-"""
-    name: LINK3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINK3S_USDT(Symbol):
@@ -36544,17 +28822,6 @@ class LINK3S_USDT(Symbol):
 
 
 LINK3S_USDT = LINK3S_USDT(*LINK3S_USDT._fields)
-"""
-    name: LINK3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOT3L_USDT(Symbol):
@@ -36596,17 +28863,6 @@ class DOT3L_USDT(Symbol):
 
 
 DOT3L_USDT = DOT3L_USDT(*DOT3L_USDT._fields)
-"""
-    name: DOT3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOT3S_USDT(Symbol):
@@ -36648,17 +28904,6 @@ class DOT3S_USDT(Symbol):
 
 
 DOT3S_USDT = DOT3S_USDT(*DOT3S_USDT._fields)
-"""
-    name: DOT3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CTSI_USDT(Symbol):
@@ -36700,17 +28945,6 @@ class CTSI_USDT(Symbol):
 
 
 CTSI_USDT = CTSI_USDT(*CTSI_USDT._fields)
-"""
-    name: CTSI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class CTSI_BTC(Symbol):
@@ -36752,17 +28986,6 @@ class CTSI_BTC(Symbol):
 
 
 CTSI_BTC = CTSI_BTC(*CTSI_BTC._fields)
-"""
-    name: CTSI-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALICE_USDT(Symbol):
@@ -36804,17 +29027,6 @@ class ALICE_USDT(Symbol):
 
 
 ALICE_USDT = ALICE_USDT(*ALICE_USDT._fields)
-"""
-    name: ALICE-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ALICE_BTC(Symbol):
@@ -36856,17 +29068,6 @@ class ALICE_BTC(Symbol):
 
 
 ALICE_BTC = ALICE_BTC(*ALICE_BTC._fields)
-"""
-    name: ALICE-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALICE_ETH(Symbol):
@@ -36908,17 +29109,6 @@ class ALICE_ETH(Symbol):
 
 
 ALICE_ETH = ALICE_ETH(*ALICE_ETH._fields)
-"""
-    name: ALICE-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OPUL_USDT(Symbol):
@@ -36960,17 +29150,6 @@ class OPUL_USDT(Symbol):
 
 
 OPUL_USDT = OPUL_USDT(*OPUL_USDT._fields)
-"""
-    name: OPUL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ILV_USDT(Symbol):
@@ -37012,17 +29191,6 @@ class ILV_USDT(Symbol):
 
 
 ILV_USDT = ILV_USDT(*ILV_USDT._fields)
-"""
-    name: ILV-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BAND_USDT(Symbol):
@@ -37064,17 +29232,6 @@ class BAND_USDT(Symbol):
 
 
 BAND_USDT = BAND_USDT(*BAND_USDT._fields)
-"""
-    name: BAND-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BAND_BTC(Symbol):
@@ -37116,17 +29273,6 @@ class BAND_BTC(Symbol):
 
 
 BAND_BTC = BAND_BTC(*BAND_BTC._fields)
-"""
-    name: BAND-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTT_USDT(Symbol):
@@ -37168,17 +29314,6 @@ class FTT_USDT(Symbol):
 
 
 FTT_USDT = FTT_USDT(*FTT_USDT._fields)
-"""
-    name: FTT-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTT_BTC(Symbol):
@@ -37220,17 +29355,6 @@ class FTT_BTC(Symbol):
 
 
 FTT_BTC = FTT_BTC(*FTT_BTC._fields)
-"""
-    name: FTT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DVPN_USDT(Symbol):
@@ -37272,17 +29396,6 @@ class DVPN_USDT(Symbol):
 
 
 DVPN_USDT = DVPN_USDT(*DVPN_USDT._fields)
-"""
-    name: DVPN-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SKU_USDT(Symbol):
@@ -37324,17 +29437,6 @@ class SKU_USDT(Symbol):
 
 
 SKU_USDT = SKU_USDT(*SKU_USDT._fields)
-"""
-    name: SKU-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SKU_BTC(Symbol):
@@ -37376,17 +29478,6 @@ class SKU_BTC(Symbol):
 
 
 SKU_BTC = SKU_BTC(*SKU_BTC._fields)
-"""
-    name: SKU-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SLIM_USDT(Symbol):
@@ -37428,17 +29519,6 @@ class SLIM_USDT(Symbol):
 
 
 SLIM_USDT = SLIM_USDT(*SLIM_USDT._fields)
-"""
-    name: SLIM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TLM_USDT(Symbol):
@@ -37480,17 +29560,6 @@ class TLM_USDT(Symbol):
 
 
 TLM_USDT = TLM_USDT(*TLM_USDT._fields)
-"""
-    name: TLM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class TLM_BTC(Symbol):
@@ -37532,17 +29601,6 @@ class TLM_BTC(Symbol):
 
 
 TLM_BTC = TLM_BTC(*TLM_BTC._fields)
-"""
-    name: TLM-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TLM_ETH(Symbol):
@@ -37584,17 +29642,6 @@ class TLM_ETH(Symbol):
 
 
 TLM_ETH = TLM_ETH(*TLM_ETH._fields)
-"""
-    name: TLM-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DEXE_USDT(Symbol):
@@ -37636,17 +29683,6 @@ class DEXE_USDT(Symbol):
 
 
 DEXE_USDT = DEXE_USDT(*DEXE_USDT._fields)
-"""
-    name: DEXE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DEXE_BTC(Symbol):
@@ -37688,17 +29724,6 @@ class DEXE_BTC(Symbol):
 
 
 DEXE_BTC = DEXE_BTC(*DEXE_BTC._fields)
-"""
-    name: DEXE-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DEXE_ETH(Symbol):
@@ -37740,17 +29765,6 @@ class DEXE_ETH(Symbol):
 
 
 DEXE_ETH = DEXE_ETH(*DEXE_ETH._fields)
-"""
-    name: DEXE-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MATTER_USDT(Symbol):
@@ -37792,17 +29806,6 @@ class MATTER_USDT(Symbol):
 
 
 MATTER_USDT = MATTER_USDT(*MATTER_USDT._fields)
-"""
-    name: MATTER-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CUDOS_BTC(Symbol):
@@ -37844,17 +29847,6 @@ class CUDOS_BTC(Symbol):
 
 
 CUDOS_BTC = CUDOS_BTC(*CUDOS_BTC._fields)
-"""
-    name: CUDOS-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RUNE_USDT(Symbol):
@@ -37896,17 +29888,6 @@ class RUNE_USDT(Symbol):
 
 
 RUNE_USDT = RUNE_USDT(*RUNE_USDT._fields)
-"""
-    name: RUNE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RUNE_BTC(Symbol):
@@ -37948,17 +29929,6 @@ class RUNE_BTC(Symbol):
 
 
 RUNE_BTC = RUNE_BTC(*RUNE_BTC._fields)
-"""
-    name: RUNE-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RMRK_USDT(Symbol):
@@ -38000,17 +29970,6 @@ class RMRK_USDT(Symbol):
 
 
 RMRK_USDT = RMRK_USDT(*RMRK_USDT._fields)
-"""
-    name: RMRK-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class C98_USDT(Symbol):
@@ -38052,17 +30011,6 @@ class C98_USDT(Symbol):
 
 
 C98_USDT = C98_USDT(*C98_USDT._fields)
-"""
-    name: C98-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BLOK_USDT(Symbol):
@@ -38104,17 +30052,6 @@ class BLOK_USDT(Symbol):
 
 
 BLOK_USDT = BLOK_USDT(*BLOK_USDT._fields)
-"""
-    name: BLOK-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOLR_USDT(Symbol):
@@ -38156,17 +30093,6 @@ class SOLR_USDT(Symbol):
 
 
 SOLR_USDT = SOLR_USDT(*SOLR_USDT._fields)
-"""
-    name: SOLR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATOM3L_USDT(Symbol):
@@ -38208,17 +30134,6 @@ class ATOM3L_USDT(Symbol):
 
 
 ATOM3L_USDT = ATOM3L_USDT(*ATOM3L_USDT._fields)
-"""
-    name: ATOM3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATOM3S_USDT(Symbol):
@@ -38260,17 +30175,6 @@ class ATOM3S_USDT(Symbol):
 
 
 ATOM3S_USDT = ATOM3S_USDT(*ATOM3S_USDT._fields)
-"""
-    name: ATOM3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNI3L_USDT(Symbol):
@@ -38312,17 +30216,6 @@ class UNI3L_USDT(Symbol):
 
 
 UNI3L_USDT = UNI3L_USDT(*UNI3L_USDT._fields)
-"""
-    name: UNI3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNI3S_USDT(Symbol):
@@ -38364,17 +30257,6 @@ class UNI3S_USDT(Symbol):
 
 
 UNI3S_USDT = UNI3S_USDT(*UNI3S_USDT._fields)
-"""
-    name: UNI3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WSIENNA_USDT(Symbol):
@@ -38416,17 +30298,6 @@ class WSIENNA_USDT(Symbol):
 
 
 WSIENNA_USDT = WSIENNA_USDT(*WSIENNA_USDT._fields)
-"""
-    name: WSIENNA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PUSH_USDT(Symbol):
@@ -38468,17 +30339,6 @@ class PUSH_USDT(Symbol):
 
 
 PUSH_USDT = PUSH_USDT(*PUSH_USDT._fields)
-"""
-    name: PUSH-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PUSH_BTC(Symbol):
@@ -38520,17 +30380,6 @@ class PUSH_BTC(Symbol):
 
 
 PUSH_BTC = PUSH_BTC(*PUSH_BTC._fields)
-"""
-    name: PUSH-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORM_ETH(Symbol):
@@ -38572,17 +30421,6 @@ class FORM_ETH(Symbol):
 
 
 FORM_ETH = FORM_ETH(*FORM_ETH._fields)
-"""
-    name: FORM-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NTVRK_USDT(Symbol):
@@ -38624,17 +30462,6 @@ class NTVRK_USDT(Symbol):
 
 
 NTVRK_USDT = NTVRK_USDT(*NTVRK_USDT._fields)
-"""
-    name: NTVRK-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NTVRK_USDC(Symbol):
@@ -38676,17 +30503,6 @@ class NTVRK_USDC(Symbol):
 
 
 NTVRK_USDC = NTVRK_USDC(*NTVRK_USDC._fields)
-"""
-    name: NTVRK-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AXS3L_USDT(Symbol):
@@ -38728,17 +30544,6 @@ class AXS3L_USDT(Symbol):
 
 
 AXS3L_USDT = AXS3L_USDT(*AXS3L_USDT._fields)
-"""
-    name: AXS3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AXS3S_USDT(Symbol):
@@ -38780,17 +30585,6 @@ class AXS3S_USDT(Symbol):
 
 
 AXS3S_USDT = AXS3S_USDT(*AXS3S_USDT._fields)
-"""
-    name: AXS3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTM3L_USDT(Symbol):
@@ -38832,17 +30626,6 @@ class FTM3L_USDT(Symbol):
 
 
 FTM3L_USDT = FTM3L_USDT(*FTM3L_USDT._fields)
-"""
-    name: FTM3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTM3S_USDT(Symbol):
@@ -38884,17 +30667,6 @@ class FTM3S_USDT(Symbol):
 
 
 FTM3S_USDT = FTM3S_USDT(*FTM3S_USDT._fields)
-"""
-    name: FTM3S-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLAME_USDT(Symbol):
@@ -38936,17 +30708,6 @@ class FLAME_USDT(Symbol):
 
 
 FLAME_USDT = FLAME_USDT(*FLAME_USDT._fields)
-"""
-    name: FLAME-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AGLD_USDT(Symbol):
@@ -38988,17 +30749,6 @@ class AGLD_USDT(Symbol):
 
 
 AGLD_USDT = AGLD_USDT(*AGLD_USDT._fields)
-"""
-    name: AGLD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NAKA_USDT(Symbol):
@@ -39040,17 +30790,6 @@ class NAKA_USDT(Symbol):
 
 
 NAKA_USDT = NAKA_USDT(*NAKA_USDT._fields)
-"""
-    name: NAKA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class YLD_USDT(Symbol):
@@ -39092,17 +30831,6 @@ class YLD_USDT(Symbol):
 
 
 YLD_USDT = YLD_USDT(*YLD_USDT._fields)
-"""
-    name: YLD-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TONE_USDT(Symbol):
@@ -39144,17 +30872,6 @@ class TONE_USDT(Symbol):
 
 
 TONE_USDT = TONE_USDT(*TONE_USDT._fields)
-"""
-    name: TONE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REEF_USDT(Symbol):
@@ -39196,17 +30913,6 @@ class REEF_USDT(Symbol):
 
 
 REEF_USDT = REEF_USDT(*REEF_USDT._fields)
-"""
-    name: REEF-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REEF_BTC(Symbol):
@@ -39248,17 +30954,6 @@ class REEF_BTC(Symbol):
 
 
 REEF_BTC = REEF_BTC(*REEF_BTC._fields)
-"""
-    name: REEF-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TIDAL_USDT(Symbol):
@@ -39300,17 +30995,6 @@ class TIDAL_USDT(Symbol):
 
 
 TIDAL_USDT = TIDAL_USDT(*TIDAL_USDT._fields)
-"""
-    name: TIDAL-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TVK_USDT(Symbol):
@@ -39352,17 +31036,6 @@ class TVK_USDT(Symbol):
 
 
 TVK_USDT = TVK_USDT(*TVK_USDT._fields)
-"""
-    name: TVK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TVK_BTC(Symbol):
@@ -39404,17 +31077,6 @@ class TVK_BTC(Symbol):
 
 
 TVK_BTC = TVK_BTC(*TVK_BTC._fields)
-"""
-    name: TVK-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class INJ_USDT(Symbol):
@@ -39456,17 +31118,6 @@ class INJ_USDT(Symbol):
 
 
 INJ_USDT = INJ_USDT(*INJ_USDT._fields)
-"""
-    name: INJ-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class INJ_BTC(Symbol):
@@ -39508,17 +31159,6 @@ class INJ_BTC(Symbol):
 
 
 INJ_BTC = INJ_BTC(*INJ_BTC._fields)
-"""
-    name: INJ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB3L_USDT(Symbol):
@@ -39560,17 +31200,6 @@ class BNB3L_USDT(Symbol):
 
 
 BNB3L_USDT = BNB3L_USDT(*BNB3L_USDT._fields)
-"""
-    name: BNB3L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB3S_USDT(Symbol):
@@ -39612,17 +31241,6 @@ class BNB3S_USDT(Symbol):
 
 
 BNB3S_USDT = BNB3S_USDT(*BNB3S_USDT._fields)
-"""
-    name: BNB3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MATIC3L_USDT(Symbol):
@@ -39664,17 +31282,6 @@ class MATIC3L_USDT(Symbol):
 
 
 MATIC3L_USDT = MATIC3L_USDT(*MATIC3L_USDT._fields)
-"""
-    name: MATIC3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MATIC3S_USDT(Symbol):
@@ -39716,17 +31323,6 @@ class MATIC3S_USDT(Symbol):
 
 
 MATIC3S_USDT = MATIC3S_USDT(*MATIC3S_USDT._fields)
-"""
-    name: MATIC3S-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VEGA_USDT(Symbol):
@@ -39768,17 +31364,6 @@ class VEGA_USDT(Symbol):
 
 
 VEGA_USDT = VEGA_USDT(*VEGA_USDT._fields)
-"""
-    name: VEGA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VEGA_ETH(Symbol):
@@ -39820,17 +31405,6 @@ class VEGA_ETH(Symbol):
 
 
 VEGA_ETH = VEGA_ETH(*VEGA_ETH._fields)
-"""
-    name: VEGA-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALPHA_USDT(Symbol):
@@ -39872,17 +31446,6 @@ class ALPHA_USDT(Symbol):
 
 
 ALPHA_USDT = ALPHA_USDT(*ALPHA_USDT._fields)
-"""
-    name: ALPHA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALPHA_BTC(Symbol):
@@ -39924,17 +31487,6 @@ class ALPHA_BTC(Symbol):
 
 
 ALPHA_BTC = ALPHA_BTC(*ALPHA_BTC._fields)
-"""
-    name: ALPHA-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNO_BTC(Symbol):
@@ -39976,17 +31528,6 @@ class UNO_BTC(Symbol):
 
 
 UNO_BTC = UNO_BTC(*UNO_BTC._fields)
-"""
-    name: UNO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZKT_USDT(Symbol):
@@ -40028,17 +31569,6 @@ class ZKT_USDT(Symbol):
 
 
 ZKT_USDT = ZKT_USDT(*ZKT_USDT._fields)
-"""
-    name: ZKT-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AR_USDT(Symbol):
@@ -40080,17 +31610,6 @@ class AR_USDT(Symbol):
 
 
 AR_USDT = AR_USDT(*AR_USDT._fields)
-"""
-    name: AR-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AR_BTC(Symbol):
@@ -40132,17 +31651,6 @@ class AR_BTC(Symbol):
 
 
 AR_BTC = AR_BTC(*AR_BTC._fields)
-"""
-    name: AR-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JASMY_USDT(Symbol):
@@ -40184,17 +31692,6 @@ class JASMY_USDT(Symbol):
 
 
 JASMY_USDT = JASMY_USDT(*JASMY_USDT._fields)
-"""
-    name: JASMY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class PERP_USDT(Symbol):
@@ -40236,17 +31733,6 @@ class PERP_USDT(Symbol):
 
 
 PERP_USDT = PERP_USDT(*PERP_USDT._fields)
-"""
-    name: PERP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PERP_BTC(Symbol):
@@ -40288,17 +31774,6 @@ class PERP_BTC(Symbol):
 
 
 PERP_BTC = PERP_BTC(*PERP_BTC._fields)
-"""
-    name: PERP-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SCLP_USDT(Symbol):
@@ -40340,17 +31815,6 @@ class SCLP_USDT(Symbol):
 
 
 SCLP_USDT = SCLP_USDT(*SCLP_USDT._fields)
-"""
-    name: SCLP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SCLP_BTC(Symbol):
@@ -40392,17 +31856,6 @@ class SCLP_BTC(Symbol):
 
 
 SCLP_BTC = SCLP_BTC(*SCLP_BTC._fields)
-"""
-    name: SCLP-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUPER_USDT(Symbol):
@@ -40444,17 +31897,6 @@ class SUPER_USDT(Symbol):
 
 
 SUPER_USDT = SUPER_USDT(*SUPER_USDT._fields)
-"""
-    name: SUPER-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUPER_BTC(Symbol):
@@ -40496,17 +31938,6 @@ class SUPER_BTC(Symbol):
 
 
 SUPER_BTC = SUPER_BTC(*SUPER_BTC._fields)
-"""
-    name: SUPER-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CPOOL_USDT(Symbol):
@@ -40548,17 +31979,6 @@ class CPOOL_USDT(Symbol):
 
 
 CPOOL_USDT = CPOOL_USDT(*CPOOL_USDT._fields)
-"""
-    name: CPOOL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HERO_USDT(Symbol):
@@ -40600,17 +32020,6 @@ class HERO_USDT(Symbol):
 
 
 HERO_USDT = HERO_USDT(*HERO_USDT._fields)
-"""
-    name: HERO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BASIC_USDT(Symbol):
@@ -40652,17 +32061,6 @@ class BASIC_USDT(Symbol):
 
 
 BASIC_USDT = BASIC_USDT(*BASIC_USDT._fields)
-"""
-    name: BASIC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XED_USDT(Symbol):
@@ -40704,17 +32102,6 @@ class XED_USDT(Symbol):
 
 
 XED_USDT = XED_USDT(*XED_USDT._fields)
-"""
-    name: XED-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XED_BTC(Symbol):
@@ -40756,17 +32143,6 @@ class XED_BTC(Symbol):
 
 
 XED_BTC = XED_BTC(*XED_BTC._fields)
-"""
-    name: XED-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AURY_USDT(Symbol):
@@ -40808,17 +32184,6 @@ class AURY_USDT(Symbol):
 
 
 AURY_USDT = AURY_USDT(*AURY_USDT._fields)
-"""
-    name: AURY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWASH_USDT(Symbol):
@@ -40860,17 +32225,6 @@ class SWASH_USDT(Symbol):
 
 
 SWASH_USDT = SWASH_USDT(*SWASH_USDT._fields)
-"""
-    name: SWASH-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LTO_USDT(Symbol):
@@ -40912,17 +32266,6 @@ class LTO_USDT(Symbol):
 
 
 LTO_USDT = LTO_USDT(*LTO_USDT._fields)
-"""
-    name: LTO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LTO_BTC(Symbol):
@@ -40964,17 +32307,6 @@ class LTO_BTC(Symbol):
 
 
 LTO_BTC = LTO_BTC(*LTO_BTC._fields)
-"""
-    name: LTO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BUX_USDT(Symbol):
@@ -41016,17 +32348,6 @@ class BUX_USDT(Symbol):
 
 
 BUX_USDT = BUX_USDT(*BUX_USDT._fields)
-"""
-    name: BUX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTRG_USDT(Symbol):
@@ -41068,17 +32389,6 @@ class MTRG_USDT(Symbol):
 
 
 MTRG_USDT = MTRG_USDT(*MTRG_USDT._fields)
-"""
-    name: MTRG-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DREAMS_USDT(Symbol):
@@ -41120,17 +32430,6 @@ class DREAMS_USDT(Symbol):
 
 
 DREAMS_USDT = DREAMS_USDT(*DREAMS_USDT._fields)
-"""
-    name: DREAMS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHIB_DOGE(Symbol):
@@ -41172,17 +32471,6 @@ class SHIB_DOGE(Symbol):
 
 
 SHIB_DOGE = SHIB_DOGE(*SHIB_DOGE._fields)
-"""
-    name: SHIB-DOGE
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QUICK_USDT(Symbol):
@@ -41224,17 +32512,6 @@ class QUICK_USDT(Symbol):
 
 
 QUICK_USDT = QUICK_USDT(*QUICK_USDT._fields)
-"""
-    name: QUICK-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QUICK_BTC(Symbol):
@@ -41276,17 +32553,6 @@ class QUICK_BTC(Symbol):
 
 
 QUICK_BTC = QUICK_BTC(*QUICK_BTC._fields)
-"""
-    name: QUICK-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRU_USDT(Symbol):
@@ -41328,17 +32594,6 @@ class TRU_USDT(Symbol):
 
 
 TRU_USDT = TRU_USDT(*TRU_USDT._fields)
-"""
-    name: TRU-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRU_BTC(Symbol):
@@ -41380,17 +32635,6 @@ class TRU_BTC(Symbol):
 
 
 TRU_BTC = TRU_BTC(*TRU_BTC._fields)
-"""
-    name: TRU-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WRX_USDT(Symbol):
@@ -41432,17 +32676,6 @@ class WRX_USDT(Symbol):
 
 
 WRX_USDT = WRX_USDT(*WRX_USDT._fields)
-"""
-    name: WRX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WRX_BTC(Symbol):
@@ -41484,17 +32717,6 @@ class WRX_BTC(Symbol):
 
 
 WRX_BTC = WRX_BTC(*WRX_BTC._fields)
-"""
-    name: WRX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUSHI3L_USDT(Symbol):
@@ -41536,17 +32758,6 @@ class SUSHI3L_USDT(Symbol):
 
 
 SUSHI3L_USDT = SUSHI3L_USDT(*SUSHI3L_USDT._fields)
-"""
-    name: SUSHI3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUSHI3S_USDT(Symbol):
@@ -41588,17 +32799,6 @@ class SUSHI3S_USDT(Symbol):
 
 
 SUSHI3S_USDT = SUSHI3S_USDT(*SUSHI3S_USDT._fields)
-"""
-    name: SUSHI3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEAR3L_USDT(Symbol):
@@ -41640,17 +32840,6 @@ class NEAR3L_USDT(Symbol):
 
 
 NEAR3L_USDT = NEAR3L_USDT(*NEAR3L_USDT._fields)
-"""
-    name: NEAR3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEAR3S_USDT(Symbol):
@@ -41692,17 +32881,6 @@ class NEAR3S_USDT(Symbol):
 
 
 NEAR3S_USDT = NEAR3S_USDT(*NEAR3S_USDT._fields)
-"""
-    name: NEAR3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DATA_USDT(Symbol):
@@ -41744,17 +32922,6 @@ class DATA_USDT(Symbol):
 
 
 DATA_USDT = DATA_USDT(*DATA_USDT._fields)
-"""
-    name: DATA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DATA_BTC(Symbol):
@@ -41796,17 +32963,6 @@ class DATA_BTC(Symbol):
 
 
 DATA_BTC = DATA_BTC(*DATA_BTC._fields)
-"""
-    name: DATA-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NORD_BTC(Symbol):
@@ -41848,17 +33004,6 @@ class NORD_BTC(Symbol):
 
 
 NORD_BTC = NORD_BTC(*NORD_BTC._fields)
-"""
-    name: NORD-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ISP_USDT(Symbol):
@@ -41900,17 +33045,6 @@ class ISP_USDT(Symbol):
 
 
 ISP_USDT = ISP_USDT(*ISP_USDT._fields)
-"""
-    name: ISP-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CERE_USDT(Symbol):
@@ -41952,17 +33086,6 @@ class CERE_USDT(Symbol):
 
 
 CERE_USDT = CERE_USDT(*CERE_USDT._fields)
-"""
-    name: CERE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHILL_USDT(Symbol):
@@ -42004,17 +33127,6 @@ class SHILL_USDT(Symbol):
 
 
 SHILL_USDT = SHILL_USDT(*SHILL_USDT._fields)
-"""
-    name: SHILL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HEGIC_USDT(Symbol):
@@ -42056,17 +33168,6 @@ class HEGIC_USDT(Symbol):
 
 
 HEGIC_USDT = HEGIC_USDT(*HEGIC_USDT._fields)
-"""
-    name: HEGIC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HEGIC_BTC(Symbol):
@@ -42108,17 +33209,6 @@ class HEGIC_BTC(Symbol):
 
 
 HEGIC_BTC = HEGIC_BTC(*HEGIC_BTC._fields)
-"""
-    name: HEGIC-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ERN_USDT(Symbol):
@@ -42160,17 +33250,6 @@ class ERN_USDT(Symbol):
 
 
 ERN_USDT = ERN_USDT(*ERN_USDT._fields)
-"""
-    name: ERN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ERN_BTC(Symbol):
@@ -42212,17 +33291,6 @@ class ERN_BTC(Symbol):
 
 
 ERN_BTC = ERN_BTC(*ERN_BTC._fields)
-"""
-    name: ERN-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FTG_USDT(Symbol):
@@ -42264,17 +33332,6 @@ class FTG_USDT(Symbol):
 
 
 FTG_USDT = FTG_USDT(*FTG_USDT._fields)
-"""
-    name: FTG-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PAXG_USDT(Symbol):
@@ -42316,17 +33373,6 @@ class PAXG_USDT(Symbol):
 
 
 PAXG_USDT = PAXG_USDT(*PAXG_USDT._fields)
-"""
-    name: PAXG-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PAXG_BTC(Symbol):
@@ -42368,17 +33414,6 @@ class PAXG_BTC(Symbol):
 
 
 PAXG_BTC = PAXG_BTC(*PAXG_BTC._fields)
-"""
-    name: PAXG-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AUDIO_USDT(Symbol):
@@ -42420,17 +33455,6 @@ class AUDIO_USDT(Symbol):
 
 
 AUDIO_USDT = AUDIO_USDT(*AUDIO_USDT._fields)
-"""
-    name: AUDIO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AUDIO_BTC(Symbol):
@@ -42472,17 +33496,6 @@ class AUDIO_BTC(Symbol):
 
 
 AUDIO_BTC = AUDIO_BTC(*AUDIO_BTC._fields)
-"""
-    name: AUDIO-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ENS_USDT(Symbol):
@@ -42524,17 +33537,6 @@ class ENS_USDT(Symbol):
 
 
 ENS_USDT = ENS_USDT(*ENS_USDT._fields)
-"""
-    name: ENS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class AAVE3L_USDT(Symbol):
@@ -42576,17 +33578,6 @@ class AAVE3L_USDT(Symbol):
 
 
 AAVE3L_USDT = AAVE3L_USDT(*AAVE3L_USDT._fields)
-"""
-    name: AAVE3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AAVE3S_USDT(Symbol):
@@ -42628,17 +33619,6 @@ class AAVE3S_USDT(Symbol):
 
 
 AAVE3S_USDT = AAVE3S_USDT(*AAVE3S_USDT._fields)
-"""
-    name: AAVE3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SAND3L_USDT(Symbol):
@@ -42680,17 +33660,6 @@ class SAND3L_USDT(Symbol):
 
 
 SAND3L_USDT = SAND3L_USDT(*SAND3L_USDT._fields)
-"""
-    name: SAND3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SAND3S_USDT(Symbol):
@@ -42732,17 +33701,6 @@ class SAND3S_USDT(Symbol):
 
 
 SAND3S_USDT = SAND3S_USDT(*SAND3S_USDT._fields)
-"""
-    name: SAND3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XTM_USDT(Symbol):
@@ -42784,17 +33742,6 @@ class XTM_USDT(Symbol):
 
 
 XTM_USDT = XTM_USDT(*XTM_USDT._fields)
-"""
-    name: XTM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MNW_USDT(Symbol):
@@ -42836,17 +33783,6 @@ class MNW_USDT(Symbol):
 
 
 MNW_USDT = MNW_USDT(*MNW_USDT._fields)
-"""
-    name: MNW-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FXS_USDT(Symbol):
@@ -42888,17 +33824,6 @@ class FXS_USDT(Symbol):
 
 
 FXS_USDT = FXS_USDT(*FXS_USDT._fields)
-"""
-    name: FXS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FXS_BTC(Symbol):
@@ -42940,17 +33865,6 @@ class FXS_BTC(Symbol):
 
 
 FXS_BTC = FXS_BTC(*FXS_BTC._fields)
-"""
-    name: FXS-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATA_USDT(Symbol):
@@ -42992,17 +33906,6 @@ class ATA_USDT(Symbol):
 
 
 ATA_USDT = ATA_USDT(*ATA_USDT._fields)
-"""
-    name: ATA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATA_BTC(Symbol):
@@ -43044,17 +33947,6 @@ class ATA_BTC(Symbol):
 
 
 ATA_BTC = ATA_BTC(*ATA_BTC._fields)
-"""
-    name: ATA-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VXV_USDT(Symbol):
@@ -43096,17 +33988,6 @@ class VXV_USDT(Symbol):
 
 
 VXV_USDT = VXV_USDT(*VXV_USDT._fields)
-"""
-    name: VXV-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LRC_BTC(Symbol):
@@ -43148,17 +34029,6 @@ class LRC_BTC(Symbol):
 
 
 LRC_BTC = LRC_BTC(*LRC_BTC._fields)
-"""
-    name: LRC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LRC_ETH(Symbol):
@@ -43200,17 +34070,6 @@ class LRC_ETH(Symbol):
 
 
 LRC_ETH = LRC_ETH(*LRC_ETH._fields)
-"""
-    name: LRC-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DPR_USDT(Symbol):
@@ -43252,17 +34111,6 @@ class DPR_USDT(Symbol):
 
 
 DPR_USDT = DPR_USDT(*DPR_USDT._fields)
-"""
-    name: DPR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CWAR_USDT(Symbol):
@@ -43304,17 +34152,6 @@ class CWAR_USDT(Symbol):
 
 
 CWAR_USDT = CWAR_USDT(*CWAR_USDT._fields)
-"""
-    name: CWAR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CWAR_BTC(Symbol):
@@ -43356,17 +34193,6 @@ class CWAR_BTC(Symbol):
 
 
 CWAR_BTC = CWAR_BTC(*CWAR_BTC._fields)
-"""
-    name: CWAR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLUX_BTC(Symbol):
@@ -43408,17 +34234,6 @@ class FLUX_BTC(Symbol):
 
 
 FLUX_BTC = FLUX_BTC(*FLUX_BTC._fields)
-"""
-    name: FLUX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PBR_USDT(Symbol):
@@ -43460,17 +34275,6 @@ class PBR_USDT(Symbol):
 
 
 PBR_USDT = PBR_USDT(*PBR_USDT._fields)
-"""
-    name: PBR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ANT_USDT(Symbol):
@@ -43512,17 +34316,6 @@ class ANT_USDT(Symbol):
 
 
 ANT_USDT = ANT_USDT(*ANT_USDT._fields)
-"""
-    name: ANT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ANT_BTC(Symbol):
@@ -43564,17 +34357,6 @@ class ANT_BTC(Symbol):
 
 
 ANT_BTC = ANT_BTC(*ANT_BTC._fields)
-"""
-    name: ANT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COV_USDT(Symbol):
@@ -43616,17 +34398,6 @@ class COV_USDT(Symbol):
 
 
 COV_USDT = COV_USDT(*COV_USDT._fields)
-"""
-    name: COV-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWP_USDT(Symbol):
@@ -43668,17 +34439,6 @@ class SWP_USDT(Symbol):
 
 
 SWP_USDT = SWP_USDT(*SWP_USDT._fields)
-"""
-    name: SWP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TWT_USDT(Symbol):
@@ -43720,17 +34480,6 @@ class TWT_USDT(Symbol):
 
 
 TWT_USDT = TWT_USDT(*TWT_USDT._fields)
-"""
-    name: TWT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TWT_BTC(Symbol):
@@ -43772,17 +34521,6 @@ class TWT_BTC(Symbol):
 
 
 TWT_BTC = TWT_BTC(*TWT_BTC._fields)
-"""
-    name: TWT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OM_USDT(Symbol):
@@ -43824,17 +34562,6 @@ class OM_USDT(Symbol):
 
 
 OM_USDT = OM_USDT(*OM_USDT._fields)
-"""
-    name: OM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OM_BTC(Symbol):
@@ -43876,17 +34603,6 @@ class OM_BTC(Symbol):
 
 
 OM_BTC = OM_BTC(*OM_BTC._fields)
-"""
-    name: OM-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADX_USDT(Symbol):
@@ -43928,17 +34644,6 @@ class ADX_USDT(Symbol):
 
 
 ADX_USDT = ADX_USDT(*ADX_USDT._fields)
-"""
-    name: ADX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVAX3L_USDT(Symbol):
@@ -43980,17 +34685,6 @@ class AVAX3L_USDT(Symbol):
 
 
 AVAX3L_USDT = AVAX3L_USDT(*AVAX3L_USDT._fields)
-"""
-    name: AVAX3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVAX3S_USDT(Symbol):
@@ -44032,17 +34726,6 @@ class AVAX3S_USDT(Symbol):
 
 
 AVAX3S_USDT = AVAX3S_USDT(*AVAX3S_USDT._fields)
-"""
-    name: AVAX3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MANA3L_USDT(Symbol):
@@ -44084,17 +34767,6 @@ class MANA3L_USDT(Symbol):
 
 
 MANA3L_USDT = MANA3L_USDT(*MANA3L_USDT._fields)
-"""
-    name: MANA3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MANA3S_USDT(Symbol):
@@ -44136,17 +34808,6 @@ class MANA3S_USDT(Symbol):
 
 
 MANA3S_USDT = MANA3S_USDT(*MANA3S_USDT._fields)
-"""
-    name: MANA3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLM_USDT(Symbol):
@@ -44188,17 +34849,6 @@ class GLM_USDT(Symbol):
 
 
 GLM_USDT = GLM_USDT(*GLM_USDT._fields)
-"""
-    name: GLM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLM_BTC(Symbol):
@@ -44240,17 +34890,6 @@ class GLM_BTC(Symbol):
 
 
 GLM_BTC = GLM_BTC(*GLM_BTC._fields)
-"""
-    name: GLM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NUM_USDT(Symbol):
@@ -44292,17 +34931,6 @@ class NUM_USDT(Symbol):
 
 
 NUM_USDT = NUM_USDT(*NUM_USDT._fields)
-"""
-    name: NUM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VLX_USDT(Symbol):
@@ -44344,17 +34972,6 @@ class VLX_USDT(Symbol):
 
 
 VLX_USDT = VLX_USDT(*VLX_USDT._fields)
-"""
-    name: VLX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VLX_BTC(Symbol):
@@ -44396,17 +35013,6 @@ class VLX_BTC(Symbol):
 
 
 VLX_BTC = VLX_BTC(*VLX_BTC._fields)
-"""
-    name: VLX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRADE_USDT(Symbol):
@@ -44448,17 +35054,6 @@ class TRADE_USDT(Symbol):
 
 
 TRADE_USDT = TRADE_USDT(*TRADE_USDT._fields)
-"""
-    name: TRADE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRADE_BTC(Symbol):
@@ -44500,17 +35095,6 @@ class TRADE_BTC(Symbol):
 
 
 TRADE_BTC = TRADE_BTC(*TRADE_BTC._fields)
-"""
-    name: TRADE-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONEEARTH_USDT(Symbol):
@@ -44552,17 +35136,6 @@ class ONEEARTH_USDT(Symbol):
 
 
 ONEEARTH_USDT = ONEEARTH_USDT(*ONEEARTH_USDT._fields)
-"""
-    name: 1EARTH-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MONI_USDT(Symbol):
@@ -44604,17 +35177,6 @@ class MONI_USDT(Symbol):
 
 
 MONI_USDT = MONI_USDT(*MONI_USDT._fields)
-"""
-    name: MONI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LIKE_USDT(Symbol):
@@ -44656,17 +35218,6 @@ class LIKE_USDT(Symbol):
 
 
 LIKE_USDT = LIKE_USDT(*LIKE_USDT._fields)
-"""
-    name: LIKE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LIT_USDT(Symbol):
@@ -44708,17 +35259,6 @@ class LIT_USDT(Symbol):
 
 
 LIT_USDT = LIT_USDT(*LIT_USDT._fields)
-"""
-    name: LIT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LIT_BTC(Symbol):
@@ -44760,17 +35300,6 @@ class LIT_BTC(Symbol):
 
 
 LIT_BTC = LIT_BTC(*LIT_BTC._fields)
-"""
-    name: LIT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAVA_USDT(Symbol):
@@ -44812,17 +35341,6 @@ class KAVA_USDT(Symbol):
 
 
 KAVA_USDT = KAVA_USDT(*KAVA_USDT._fields)
-"""
-    name: KAVA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SFP_USDT(Symbol):
@@ -44864,17 +35382,6 @@ class SFP_USDT(Symbol):
 
 
 SFP_USDT = SFP_USDT(*SFP_USDT._fields)
-"""
-    name: SFP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SFP_BTC(Symbol):
@@ -44916,17 +35423,6 @@ class SFP_BTC(Symbol):
 
 
 SFP_BTC = SFP_BTC(*SFP_BTC._fields)
-"""
-    name: SFP-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BURGER_USDT(Symbol):
@@ -44968,17 +35464,6 @@ class BURGER_USDT(Symbol):
 
 
 BURGER_USDT = BURGER_USDT(*BURGER_USDT._fields)
-"""
-    name: BURGER-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BURGER_BTC(Symbol):
@@ -45020,17 +35505,6 @@ class BURGER_BTC(Symbol):
 
 
 BURGER_BTC = BURGER_BTC(*BURGER_BTC._fields)
-"""
-    name: BURGER-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ILA_USDT(Symbol):
@@ -45072,17 +35546,6 @@ class ILA_USDT(Symbol):
 
 
 ILA_USDT = ILA_USDT(*ILA_USDT._fields)
-"""
-    name: ILA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CREAM_USDT(Symbol):
@@ -45124,17 +35587,6 @@ class CREAM_USDT(Symbol):
 
 
 CREAM_USDT = CREAM_USDT(*CREAM_USDT._fields)
-"""
-    name: CREAM-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CREAM_BTC(Symbol):
@@ -45176,17 +35628,6 @@ class CREAM_BTC(Symbol):
 
 
 CREAM_BTC = CREAM_BTC(*CREAM_BTC._fields)
-"""
-    name: CREAM-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RSR_USDT(Symbol):
@@ -45228,17 +35669,6 @@ class RSR_USDT(Symbol):
 
 
 RSR_USDT = RSR_USDT(*RSR_USDT._fields)
-"""
-    name: RSR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RSR_BTC(Symbol):
@@ -45280,17 +35710,6 @@ class RSR_BTC(Symbol):
 
 
 RSR_BTC = RSR_BTC(*RSR_BTC._fields)
-"""
-    name: RSR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BUY_BTC(Symbol):
@@ -45332,17 +35751,6 @@ class BUY_BTC(Symbol):
 
 
 BUY_BTC = BUY_BTC(*BUY_BTC._fields)
-"""
-    name: BUY-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IMX_USDT(Symbol):
@@ -45384,17 +35792,6 @@ class IMX_USDT(Symbol):
 
 
 IMX_USDT = IMX_USDT(*IMX_USDT._fields)
-"""
-    name: IMX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class GODS_USDT(Symbol):
@@ -45436,17 +35833,6 @@ class GODS_USDT(Symbol):
 
 
 GODS_USDT = GODS_USDT(*GODS_USDT._fields)
-"""
-    name: GODS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KMA_USDT(Symbol):
@@ -45488,17 +35874,6 @@ class KMA_USDT(Symbol):
 
 
 KMA_USDT = KMA_USDT(*KMA_USDT._fields)
-"""
-    name: KMA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SRM_USDT(Symbol):
@@ -45540,17 +35915,6 @@ class SRM_USDT(Symbol):
 
 
 SRM_USDT = SRM_USDT(*SRM_USDT._fields)
-"""
-    name: SRM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SRM_BTC(Symbol):
@@ -45592,17 +35956,6 @@ class SRM_BTC(Symbol):
 
 
 SRM_BTC = SRM_BTC(*SRM_BTC._fields)
-"""
-    name: SRM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POLC_USDT(Symbol):
@@ -45644,17 +35997,6 @@ class POLC_USDT(Symbol):
 
 
 POLC_USDT = POLC_USDT(*POLC_USDT._fields)
-"""
-    name: POLC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XTAG_USDT(Symbol):
@@ -45696,17 +36038,6 @@ class XTAG_USDT(Symbol):
 
 
 XTAG_USDT = XTAG_USDT(*XTAG_USDT._fields)
-"""
-    name: XTAG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MNET_USDT(Symbol):
@@ -45748,17 +36079,6 @@ class MNET_USDT(Symbol):
 
 
 MNET_USDT = MNET_USDT(*MNET_USDT._fields)
-"""
-    name: MNET-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NGC_USDT(Symbol):
@@ -45800,17 +36120,6 @@ class NGC_USDT(Symbol):
 
 
 NGC_USDT = NGC_USDT(*NGC_USDT._fields)
-"""
-    name: NGC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HARD_USDT(Symbol):
@@ -45852,17 +36161,6 @@ class HARD_USDT(Symbol):
 
 
 HARD_USDT = HARD_USDT(*HARD_USDT._fields)
-"""
-    name: HARD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GALAX3L_USDT(Symbol):
@@ -45904,17 +36202,6 @@ class GALAX3L_USDT(Symbol):
 
 
 GALAX3L_USDT = GALAX3L_USDT(*GALAX3L_USDT._fields)
-"""
-    name: GALAX3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GALAX3S_USDT(Symbol):
@@ -45956,17 +36243,6 @@ class GALAX3S_USDT(Symbol):
 
 
 GALAX3S_USDT = GALAX3S_USDT(*GALAX3S_USDT._fields)
-"""
-    name: GALAX3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNIC_USDT(Symbol):
@@ -46008,17 +36284,6 @@ class UNIC_USDT(Symbol):
 
 
 UNIC_USDT = UNIC_USDT(*UNIC_USDT._fields)
-"""
-    name: UNIC-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POND_USDT(Symbol):
@@ -46060,17 +36325,6 @@ class POND_USDT(Symbol):
 
 
 POND_USDT = POND_USDT(*POND_USDT._fields)
-"""
-    name: POND-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class POND_BTC(Symbol):
@@ -46112,17 +36366,6 @@ class POND_BTC(Symbol):
 
 
 POND_BTC = POND_BTC(*POND_BTC._fields)
-"""
-    name: POND-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VR_USDT(Symbol):
@@ -46164,17 +36407,6 @@ class VR_USDT(Symbol):
 
 
 VR_USDT = VR_USDT(*VR_USDT._fields)
-"""
-    name: VR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EPIK_USDT(Symbol):
@@ -46216,17 +36448,6 @@ class EPIK_USDT(Symbol):
 
 
 EPIK_USDT = EPIK_USDT(*EPIK_USDT._fields)
-"""
-    name: EPIK-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NGL_USDT(Symbol):
@@ -46268,17 +36489,6 @@ class NGL_USDT(Symbol):
 
 
 NGL_USDT = NGL_USDT(*NGL_USDT._fields)
-"""
-    name: NGL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NGL_BTC(Symbol):
@@ -46320,17 +36530,6 @@ class NGL_BTC(Symbol):
 
 
 NGL_BTC = NGL_BTC(*NGL_BTC._fields)
-"""
-    name: NGL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KDON_USDT(Symbol):
@@ -46372,17 +36571,6 @@ class KDON_USDT(Symbol):
 
 
 KDON_USDT = KDON_USDT(*KDON_USDT._fields)
-"""
-    name: KDON-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PEL_USDT(Symbol):
@@ -46424,17 +36612,6 @@ class PEL_USDT(Symbol):
 
 
 PEL_USDT = PEL_USDT(*PEL_USDT._fields)
-"""
-    name: PEL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CIRUS_ETH(Symbol):
@@ -46476,17 +36653,6 @@ class CIRUS_ETH(Symbol):
 
 
 CIRUS_ETH = CIRUS_ETH(*CIRUS_ETH._fields)
-"""
-    name: CIRUS-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINA_USDT(Symbol):
@@ -46528,17 +36694,6 @@ class LINA_USDT(Symbol):
 
 
 LINA_USDT = LINA_USDT(*LINA_USDT._fields)
-"""
-    name: LINA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LINA_BTC(Symbol):
@@ -46580,17 +36735,6 @@ class LINA_BTC(Symbol):
 
 
 LINA_BTC = LINA_BTC(*LINA_BTC._fields)
-"""
-    name: LINA-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KLAY_USDT(Symbol):
@@ -46632,17 +36776,6 @@ class KLAY_USDT(Symbol):
 
 
 KLAY_USDT = KLAY_USDT(*KLAY_USDT._fields)
-"""
-    name: KLAY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KLAY_BTC(Symbol):
@@ -46684,17 +36817,6 @@ class KLAY_BTC(Symbol):
 
 
 KLAY_BTC = KLAY_BTC(*KLAY_BTC._fields)
-"""
-    name: KLAY-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CREDI_USDT(Symbol):
@@ -46736,17 +36858,6 @@ class CREDI_USDT(Symbol):
 
 
 CREDI_USDT = CREDI_USDT(*CREDI_USDT._fields)
-"""
-    name: CREDI-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRVL_USDT(Symbol):
@@ -46788,17 +36899,6 @@ class TRVL_USDT(Symbol):
 
 
 TRVL_USDT = TRVL_USDT(*TRVL_USDT._fields)
-"""
-    name: TRVL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LACE_USDT(Symbol):
@@ -46840,17 +36940,6 @@ class LACE_USDT(Symbol):
 
 
 LACE_USDT = LACE_USDT(*LACE_USDT._fields)
-"""
-    name: LACE-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LACE_ETH(Symbol):
@@ -46892,17 +36981,6 @@ class LACE_ETH(Symbol):
 
 
 LACE_ETH = LACE_ETH(*LACE_ETH._fields)
-"""
-    name: LACE-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARKER_USDT(Symbol):
@@ -46944,17 +37022,6 @@ class ARKER_USDT(Symbol):
 
 
 ARKER_USDT = ARKER_USDT(*ARKER_USDT._fields)
-"""
-    name: ARKER-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BONDLY_USDT(Symbol):
@@ -46996,17 +37063,6 @@ class BONDLY_USDT(Symbol):
 
 
 BONDLY_USDT = BONDLY_USDT(*BONDLY_USDT._fields)
-"""
-    name: BONDLY-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BONDLY_ETH(Symbol):
@@ -47048,17 +37104,6 @@ class BONDLY_ETH(Symbol):
 
 
 BONDLY_ETH = BONDLY_ETH(*BONDLY_ETH._fields)
-"""
-    name: BONDLY-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XEC_USDT(Symbol):
@@ -47100,17 +37145,6 @@ class XEC_USDT(Symbol):
 
 
 XEC_USDT = XEC_USDT(*XEC_USDT._fields)
-"""
-    name: XEC-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HEART_USDT(Symbol):
@@ -47152,17 +37186,6 @@ class HEART_USDT(Symbol):
 
 
 HEART_USDT = HEART_USDT(*HEART_USDT._fields)
-"""
-    name: HEART-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HEART_BTC(Symbol):
@@ -47204,17 +37227,6 @@ class HEART_BTC(Symbol):
 
 
 HEART_BTC = HEART_BTC(*HEART_BTC._fields)
-"""
-    name: HEART-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UNB_USDT(Symbol):
@@ -47256,17 +37268,6 @@ class UNB_USDT(Symbol):
 
 
 UNB_USDT = UNB_USDT(*UNB_USDT._fields)
-"""
-    name: UNB-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GAFI_USDT(Symbol):
@@ -47308,17 +37309,6 @@ class GAFI_USDT(Symbol):
 
 
 GAFI_USDT = GAFI_USDT(*GAFI_USDT._fields)
-"""
-    name: GAFI-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KOL_USDT(Symbol):
@@ -47360,17 +37350,6 @@ class KOL_USDT(Symbol):
 
 
 KOL_USDT = KOL_USDT(*KOL_USDT._fields)
-"""
-    name: KOL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KOL_ETH(Symbol):
@@ -47412,17 +37391,6 @@ class KOL_ETH(Symbol):
 
 
 KOL_ETH = KOL_ETH(*KOL_ETH._fields)
-"""
-    name: KOL-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class H3RO3S_USDT(Symbol):
@@ -47464,17 +37432,6 @@ class H3RO3S_USDT(Symbol):
 
 
 H3RO3S_USDT = H3RO3S_USDT(*H3RO3S_USDT._fields)
-"""
-    name: H3RO3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FALCONS_USDT(Symbol):
@@ -47516,17 +37473,6 @@ class FALCONS_USDT(Symbol):
 
 
 FALCONS_USDT = FALCONS_USDT(*FALCONS_USDT._fields)
-"""
-    name: FALCONS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UFO_USDT(Symbol):
@@ -47568,17 +37514,6 @@ class UFO_USDT(Symbol):
 
 
 UFO_USDT = UFO_USDT(*UFO_USDT._fields)
-"""
-    name: UFO-USDT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CHMB_USDT(Symbol):
@@ -47620,17 +37555,6 @@ class CHMB_USDT(Symbol):
 
 
 CHMB_USDT = CHMB_USDT(*CHMB_USDT._fields)
-"""
-    name: CHMB-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GEEQ_USDT(Symbol):
@@ -47672,17 +37596,6 @@ class GEEQ_USDT(Symbol):
 
 
 GEEQ_USDT = GEEQ_USDT(*GEEQ_USDT._fields)
-"""
-    name: GEEQ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ORC_USDT(Symbol):
@@ -47724,17 +37637,6 @@ class ORC_USDT(Symbol):
 
 
 ORC_USDT = ORC_USDT(*ORC_USDT._fields)
-"""
-    name: ORC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RACEFI_USDT(Symbol):
@@ -47776,17 +37678,6 @@ class RACEFI_USDT(Symbol):
 
 
 RACEFI_USDT = RACEFI_USDT(*RACEFI_USDT._fields)
-"""
-    name: RACEFI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PEOPLE_USDT(Symbol):
@@ -47828,17 +37719,6 @@ class PEOPLE_USDT(Symbol):
 
 
 PEOPLE_USDT = PEOPLE_USDT(*PEOPLE_USDT._fields)
-"""
-    name: PEOPLE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ADS_USDT(Symbol):
@@ -47880,17 +37760,6 @@ class ADS_USDT(Symbol):
 
 
 ADS_USDT = ADS_USDT(*ADS_USDT._fields)
-"""
-    name: ADS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ADS_BTC(Symbol):
@@ -47932,17 +37801,6 @@ class ADS_BTC(Symbol):
 
 
 ADS_BTC = ADS_BTC(*ADS_BTC._fields)
-"""
-    name: ADS-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OCEAN_USDT(Symbol):
@@ -47984,17 +37842,6 @@ class OCEAN_USDT(Symbol):
 
 
 OCEAN_USDT = OCEAN_USDT(*OCEAN_USDT._fields)
-"""
-    name: OCEAN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SOS_USDT(Symbol):
@@ -48036,17 +37883,6 @@ class SOS_USDT(Symbol):
 
 
 SOS_USDT = SOS_USDT(*SOS_USDT._fields)
-"""
-    name: SOS-USDT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class WHALE_USDT(Symbol):
@@ -48088,17 +37924,6 @@ class WHALE_USDT(Symbol):
 
 
 WHALE_USDT = WHALE_USDT(*WHALE_USDT._fields)
-"""
-    name: WHALE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TIME_USDT(Symbol):
@@ -48140,17 +37965,6 @@ class TIME_USDT(Symbol):
 
 
 TIME_USDT = TIME_USDT(*TIME_USDT._fields)
-"""
-    name: TIME-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CWEB_USDT(Symbol):
@@ -48192,17 +38006,6 @@ class CWEB_USDT(Symbol):
 
 
 CWEB_USDT = CWEB_USDT(*CWEB_USDT._fields)
-"""
-    name: CWEB-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IOTA_USDT(Symbol):
@@ -48244,17 +38047,6 @@ class IOTA_USDT(Symbol):
 
 
 IOTA_USDT = IOTA_USDT(*IOTA_USDT._fields)
-"""
-    name: IOTA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class IOTA_BTC(Symbol):
@@ -48296,17 +38088,6 @@ class IOTA_BTC(Symbol):
 
 
 IOTA_BTC = IOTA_BTC(*IOTA_BTC._fields)
-"""
-    name: IOTA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HNT_USDT(Symbol):
@@ -48348,17 +38129,6 @@ class HNT_USDT(Symbol):
 
 
 HNT_USDT = HNT_USDT(*HNT_USDT._fields)
-"""
-    name: HNT-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HNT_BTC(Symbol):
@@ -48400,17 +38170,6 @@ class HNT_BTC(Symbol):
 
 
 HNT_BTC = HNT_BTC(*HNT_BTC._fields)
-"""
-    name: HNT-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GGG_USDT(Symbol):
@@ -48452,17 +38211,6 @@ class GGG_USDT(Symbol):
 
 
 GGG_USDT = GGG_USDT(*GGG_USDT._fields)
-"""
-    name: GGG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REVU_USDT(Symbol):
@@ -48504,17 +38252,6 @@ class REVU_USDT(Symbol):
 
 
 REVU_USDT = REVU_USDT(*REVU_USDT._fields)
-"""
-    name: REVU-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CLH_USDT(Symbol):
@@ -48556,17 +38293,6 @@ class CLH_USDT(Symbol):
 
 
 CLH_USDT = CLH_USDT(*CLH_USDT._fields)
-"""
-    name: CLH-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PLGR_USDT(Symbol):
@@ -48608,17 +38334,6 @@ class PLGR_USDT(Symbol):
 
 
 PLGR_USDT = PLGR_USDT(*PLGR_USDT._fields)
-"""
-    name: PLGR-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GLMR_USDT(Symbol):
@@ -48660,17 +38375,6 @@ class GLMR_USDT(Symbol):
 
 
 GLMR_USDT = GLMR_USDT(*GLMR_USDT._fields)
-"""
-    name: GLMR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class GLMR_BTC(Symbol):
@@ -48712,17 +38416,6 @@ class GLMR_BTC(Symbol):
 
 
 GLMR_BTC = GLMR_BTC(*GLMR_BTC._fields)
-"""
-    name: GLMR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CTC_USDT(Symbol):
@@ -48764,17 +38457,6 @@ class CTC_USDT(Symbol):
 
 
 CTC_USDT = CTC_USDT(*CTC_USDT._fields)
-"""
-    name: CTC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CTC_BTC(Symbol):
@@ -48816,17 +38498,6 @@ class CTC_BTC(Symbol):
 
 
 CTC_BTC = CTC_BTC(*CTC_BTC._fields)
-"""
-    name: CTC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GARI_USDT(Symbol):
@@ -48868,17 +38539,6 @@ class GARI_USDT(Symbol):
 
 
 GARI_USDT = GARI_USDT(*GARI_USDT._fields)
-"""
-    name: GARI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FRR_USDT(Symbol):
@@ -48920,17 +38580,6 @@ class FRR_USDT(Symbol):
 
 
 FRR_USDT = FRR_USDT(*FRR_USDT._fields)
-"""
-    name: FRR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ASTR_USDT(Symbol):
@@ -48972,17 +38621,6 @@ class ASTR_USDT(Symbol):
 
 
 ASTR_USDT = ASTR_USDT(*ASTR_USDT._fields)
-"""
-    name: ASTR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ASTR_BTC(Symbol):
@@ -49024,17 +38662,6 @@ class ASTR_BTC(Symbol):
 
 
 ASTR_BTC = ASTR_BTC(*ASTR_BTC._fields)
-"""
-    name: ASTR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ERTHA_USDT(Symbol):
@@ -49076,17 +38703,6 @@ class ERTHA_USDT(Symbol):
 
 
 ERTHA_USDT = ERTHA_USDT(*ERTHA_USDT._fields)
-"""
-    name: ERTHA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FCON_USDT(Symbol):
@@ -49128,17 +38744,6 @@ class FCON_USDT(Symbol):
 
 
 FCON_USDT = FCON_USDT(*FCON_USDT._fields)
-"""
-    name: FCON-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACA_USDT(Symbol):
@@ -49180,17 +38785,6 @@ class ACA_USDT(Symbol):
 
 
 ACA_USDT = ACA_USDT(*ACA_USDT._fields)
-"""
-    name: ACA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACA_BTC(Symbol):
@@ -49232,17 +38826,6 @@ class ACA_BTC(Symbol):
 
 
 ACA_BTC = ACA_BTC(*ACA_BTC._fields)
-"""
-    name: ACA-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MTS_USDT(Symbol):
@@ -49284,17 +38867,6 @@ class MTS_USDT(Symbol):
 
 
 MTS_USDT = MTS_USDT(*MTS_USDT._fields)
-"""
-    name: MTS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ROAR_USDT(Symbol):
@@ -49336,17 +38908,6 @@ class ROAR_USDT(Symbol):
 
 
 ROAR_USDT = ROAR_USDT(*ROAR_USDT._fields)
-"""
-    name: ROAR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HBB_USDT(Symbol):
@@ -49388,17 +38949,6 @@ class HBB_USDT(Symbol):
 
 
 HBB_USDT = HBB_USDT(*HBB_USDT._fields)
-"""
-    name: HBB-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CVX_USDT(Symbol):
@@ -49440,17 +38990,6 @@ class CVX_USDT(Symbol):
 
 
 CVX_USDT = CVX_USDT(*CVX_USDT._fields)
-"""
-    name: CVX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMP_USDT(Symbol):
@@ -49492,17 +39031,6 @@ class AMP_USDT(Symbol):
 
 
 AMP_USDT = AMP_USDT(*AMP_USDT._fields)
-"""
-    name: AMP-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACT_USDT(Symbol):
@@ -49544,17 +39072,6 @@ class ACT_USDT(Symbol):
 
 
 ACT_USDT = ACT_USDT(*ACT_USDT._fields)
-"""
-    name: ACT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MJT_USDT(Symbol):
@@ -49596,17 +39113,6 @@ class MJT_USDT(Symbol):
 
 
 MJT_USDT = MJT_USDT(*MJT_USDT._fields)
-"""
-    name: MJT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MJT_KCS(Symbol):
@@ -49648,17 +39154,6 @@ class MJT_KCS(Symbol):
 
 
 MJT_KCS = MJT_KCS(*MJT_KCS._fields)
-"""
-    name: MJT-KCS
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHX_USDT(Symbol):
@@ -49700,17 +39195,6 @@ class SHX_USDT(Symbol):
 
 
 SHX_USDT = SHX_USDT(*SHX_USDT._fields)
-"""
-    name: SHX-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHX_BTC(Symbol):
@@ -49752,17 +39236,6 @@ class SHX_BTC(Symbol):
 
 
 SHX_BTC = SHX_BTC(*SHX_BTC._fields)
-"""
-    name: SHX-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STARLY_USDT(Symbol):
@@ -49804,17 +39277,6 @@ class STARLY_USDT(Symbol):
 
 
 STARLY_USDT = STARLY_USDT(*STARLY_USDT._fields)
-"""
-    name: STARLY-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ONSTON_USDT(Symbol):
@@ -49856,17 +39318,6 @@ class ONSTON_USDT(Symbol):
 
 
 ONSTON_USDT = ONSTON_USDT(*ONSTON_USDT._fields)
-"""
-    name: ONSTON-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RANKER_USDT(Symbol):
@@ -49908,17 +39359,6 @@ class RANKER_USDT(Symbol):
 
 
 RANKER_USDT = RANKER_USDT(*RANKER_USDT._fields)
-"""
-    name: RANKER-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WMT_USDT(Symbol):
@@ -49960,17 +39400,6 @@ class WMT_USDT(Symbol):
 
 
 WMT_USDT = WMT_USDT(*WMT_USDT._fields)
-"""
-    name: WMT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XNO_USDT(Symbol):
@@ -50012,17 +39441,6 @@ class XNO_USDT(Symbol):
 
 
 XNO_USDT = XNO_USDT(*XNO_USDT._fields)
-"""
-    name: XNO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XNO_BTC(Symbol):
@@ -50064,17 +39482,6 @@ class XNO_BTC(Symbol):
 
 
 XNO_BTC = XNO_BTC(*XNO_BTC._fields)
-"""
-    name: XNO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MARS4_USDT(Symbol):
@@ -50116,17 +39523,6 @@ class MARS4_USDT(Symbol):
 
 
 MARS4_USDT = MARS4_USDT(*MARS4_USDT._fields)
-"""
-    name: MARS4-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TFUEL_USDT(Symbol):
@@ -50168,17 +39564,6 @@ class TFUEL_USDT(Symbol):
 
 
 TFUEL_USDT = TFUEL_USDT(*TFUEL_USDT._fields)
-"""
-    name: TFUEL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TFUEL_BTC(Symbol):
@@ -50220,17 +39605,6 @@ class TFUEL_BTC(Symbol):
 
 
 TFUEL_BTC = TFUEL_BTC(*TFUEL_BTC._fields)
-"""
-    name: TFUEL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class METIS_USDT(Symbol):
@@ -50272,17 +39646,6 @@ class METIS_USDT(Symbol):
 
 
 METIS_USDT = METIS_USDT(*METIS_USDT._fields)
-"""
-    name: METIS-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LAVAX_USDT(Symbol):
@@ -50324,17 +39687,6 @@ class LAVAX_USDT(Symbol):
 
 
 LAVAX_USDT = LAVAX_USDT(*LAVAX_USDT._fields)
-"""
-    name: LAVAX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAL_USDT(Symbol):
@@ -50376,17 +39728,6 @@ class WAL_USDT(Symbol):
 
 
 WAL_USDT = WAL_USDT(*WAL_USDT._fields)
-"""
-    name: WAL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BULL_USDT(Symbol):
@@ -50428,17 +39769,6 @@ class BULL_USDT(Symbol):
 
 
 BULL_USDT = BULL_USDT(*BULL_USDT._fields)
-"""
-    name: BULL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SON_USDT(Symbol):
@@ -50480,17 +39810,6 @@ class SON_USDT(Symbol):
 
 
 SON_USDT = SON_USDT(*SON_USDT._fields)
-"""
-    name: SON-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MELOS_USDT(Symbol):
@@ -50532,17 +39851,6 @@ class MELOS_USDT(Symbol):
 
 
 MELOS_USDT = MELOS_USDT(*MELOS_USDT._fields)
-"""
-    name: MELOS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APE_USDT(Symbol):
@@ -50584,17 +39892,6 @@ class APE_USDT(Symbol):
 
 
 APE_USDT = APE_USDT(*APE_USDT._fields)
-"""
-    name: APE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class GMT_USDT(Symbol):
@@ -50636,17 +39933,6 @@ class GMT_USDT(Symbol):
 
 
 GMT_USDT = GMT_USDT(*GMT_USDT._fields)
-"""
-    name: GMT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BICO_USDT(Symbol):
@@ -50688,17 +39974,6 @@ class BICO_USDT(Symbol):
 
 
 BICO_USDT = BICO_USDT(*BICO_USDT._fields)
-"""
-    name: BICO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STG_USDT(Symbol):
@@ -50740,17 +40015,6 @@ class STG_USDT(Symbol):
 
 
 STG_USDT = STG_USDT(*STG_USDT._fields)
-"""
-    name: STG-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LMR_USDT(Symbol):
@@ -50792,17 +40056,6 @@ class LMR_USDT(Symbol):
 
 
 LMR_USDT = LMR_USDT(*LMR_USDT._fields)
-"""
-    name: LMR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LMR_BTC(Symbol):
@@ -50844,17 +40097,6 @@ class LMR_BTC(Symbol):
 
 
 LMR_BTC = LMR_BTC(*LMR_BTC._fields)
-"""
-    name: LMR-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LOKA_USDT(Symbol):
@@ -50896,17 +40138,6 @@ class LOKA_USDT(Symbol):
 
 
 LOKA_USDT = LOKA_USDT(*LOKA_USDT._fields)
-"""
-    name: LOKA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class URUS_USDT(Symbol):
@@ -50948,17 +40179,6 @@ class URUS_USDT(Symbol):
 
 
 URUS_USDT = URUS_USDT(*URUS_USDT._fields)
-"""
-    name: URUS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JAM_USDT(Symbol):
@@ -51000,17 +40220,6 @@ class JAM_USDT(Symbol):
 
 
 JAM_USDT = JAM_USDT(*JAM_USDT._fields)
-"""
-    name: JAM-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JAM_ETH(Symbol):
@@ -51052,17 +40261,6 @@ class JAM_ETH(Symbol):
 
 
 JAM_ETH = JAM_ETH(*JAM_ETH._fields)
-"""
-    name: JAM-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNC_USDT(Symbol):
@@ -51104,17 +40302,6 @@ class BNC_USDT(Symbol):
 
 
 BNC_USDT = BNC_USDT(*BNC_USDT._fields)
-"""
-    name: BNC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LBP_USDT(Symbol):
@@ -51156,17 +40343,6 @@ class LBP_USDT(Symbol):
 
 
 LBP_USDT = LBP_USDT(*LBP_USDT._fields)
-"""
-    name: LBP-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFX_USDT(Symbol):
@@ -51208,17 +40384,6 @@ class CFX_USDT(Symbol):
 
 
 CFX_USDT = CFX_USDT(*CFX_USDT._fields)
-"""
-    name: CFX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class LOOKS_USDT(Symbol):
@@ -51260,17 +40425,6 @@ class LOOKS_USDT(Symbol):
 
 
 LOOKS_USDT = LOOKS_USDT(*LOOKS_USDT._fields)
-"""
-    name: LOOKS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCN_USDT(Symbol):
@@ -51312,17 +40466,6 @@ class XCN_USDT(Symbol):
 
 
 XCN_USDT = XCN_USDT(*XCN_USDT._fields)
-"""
-    name: XCN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCN_BTC(Symbol):
@@ -51364,17 +40507,6 @@ class XCN_BTC(Symbol):
 
 
 XCN_BTC = XCN_BTC(*XCN_BTC._fields)
-"""
-    name: XCN-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TITAN_USDT(Symbol):
@@ -51416,17 +40548,6 @@ class TITAN_USDT(Symbol):
 
 
 TITAN_USDT = TITAN_USDT(*TITAN_USDT._fields)
-"""
-    name: TITAN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class UPO_USDT(Symbol):
@@ -51468,17 +40589,6 @@ class UPO_USDT(Symbol):
 
 
 UPO_USDT = UPO_USDT(*UPO_USDT._fields)
-"""
-    name: UPO-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SLCL_USDT(Symbol):
@@ -51520,17 +40630,6 @@ class SLCL_USDT(Symbol):
 
 
 SLCL_USDT = SLCL_USDT(*SLCL_USDT._fields)
-"""
-    name: SLCL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CEEK_USDT(Symbol):
@@ -51572,17 +40671,6 @@ class CEEK_USDT(Symbol):
 
 
 CEEK_USDT = CEEK_USDT(*CEEK_USDT._fields)
-"""
-    name: CEEK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NHCT_USDT(Symbol):
@@ -51624,17 +40712,6 @@ class NHCT_USDT(Symbol):
 
 
 NHCT_USDT = NHCT_USDT(*NHCT_USDT._fields)
-"""
-    name: NHCT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARNM_USDT(Symbol):
@@ -51676,17 +40753,6 @@ class ARNM_USDT(Symbol):
 
 
 ARNM_USDT = ARNM_USDT(*ARNM_USDT._fields)
-"""
-    name: ARNM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FRA_USDT(Symbol):
@@ -51728,17 +40794,6 @@ class FRA_USDT(Symbol):
 
 
 FRA_USDT = FRA_USDT(*FRA_USDT._fields)
-"""
-    name: FRA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VISION_USDT(Symbol):
@@ -51780,17 +40835,6 @@ class VISION_USDT(Symbol):
 
 
 VISION_USDT = VISION_USDT(*VISION_USDT._fields)
-"""
-    name: VISION-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COCOS_USDT(Symbol):
@@ -51832,17 +40876,6 @@ class COCOS_USDT(Symbol):
 
 
 COCOS_USDT = COCOS_USDT(*COCOS_USDT._fields)
-"""
-    name: COCOS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALPINE_USDT(Symbol):
@@ -51884,17 +40917,6 @@ class ALPINE_USDT(Symbol):
 
 
 ALPINE_USDT = ALPINE_USDT(*ALPINE_USDT._fields)
-"""
-    name: ALPINE-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZBC_USDT(Symbol):
@@ -51936,17 +40958,6 @@ class ZBC_USDT(Symbol):
 
 
 ZBC_USDT = ZBC_USDT(*ZBC_USDT._fields)
-"""
-    name: ZBC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WOOP_USDT(Symbol):
@@ -51988,17 +40999,6 @@ class WOOP_USDT(Symbol):
 
 
 WOOP_USDT = WOOP_USDT(*WOOP_USDT._fields)
-"""
-    name: WOOP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class T_USDT(Symbol):
@@ -52040,17 +41040,6 @@ class T_USDT(Symbol):
 
 
 T_USDT = T_USDT(*T_USDT._fields)
-"""
-    name: T-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NYM_USDT(Symbol):
@@ -52092,17 +41081,6 @@ class NYM_USDT(Symbol):
 
 
 NYM_USDT = NYM_USDT(*NYM_USDT._fields)
-"""
-    name: NYM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VOXEL_USDT(Symbol):
@@ -52144,17 +41122,6 @@ class VOXEL_USDT(Symbol):
 
 
 VOXEL_USDT = VOXEL_USDT(*VOXEL_USDT._fields)
-"""
-    name: VOXEL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VOXEL_ETH(Symbol):
@@ -52196,17 +41163,6 @@ class VOXEL_ETH(Symbol):
 
 
 VOXEL_ETH = VOXEL_ETH(*VOXEL_ETH._fields)
-"""
-    name: VOXEL-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PSTAKE_USDT(Symbol):
@@ -52248,17 +41204,6 @@ class PSTAKE_USDT(Symbol):
 
 
 PSTAKE_USDT = PSTAKE_USDT(*PSTAKE_USDT._fields)
-"""
-    name: PSTAKE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SPA_USDT(Symbol):
@@ -52300,17 +41245,6 @@ class SPA_USDT(Symbol):
 
 
 SPA_USDT = SPA_USDT(*SPA_USDT._fields)
-"""
-    name: SPA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SPA_ETH(Symbol):
@@ -52352,17 +41286,6 @@ class SPA_ETH(Symbol):
 
 
 SPA_ETH = SPA_ETH(*SPA_ETH._fields)
-"""
-    name: SPA-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SYNR_USDT(Symbol):
@@ -52404,17 +41327,6 @@ class SYNR_USDT(Symbol):
 
 
 SYNR_USDT = SYNR_USDT(*SYNR_USDT._fields)
-"""
-    name: SYNR-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DAR_USDT(Symbol):
@@ -52456,17 +41368,6 @@ class DAR_USDT(Symbol):
 
 
 DAR_USDT = DAR_USDT(*DAR_USDT._fields)
-"""
-    name: DAR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class DAR_BTC(Symbol):
@@ -52508,17 +41409,6 @@ class DAR_BTC(Symbol):
 
 
 DAR_BTC = DAR_BTC(*DAR_BTC._fields)
-"""
-    name: DAR-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MV_USDT(Symbol):
@@ -52560,17 +41450,6 @@ class MV_USDT(Symbol):
 
 
 MV_USDT = MV_USDT(*MV_USDT._fields)
-"""
-    name: MV-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XDEFI_USDT(Symbol):
@@ -52612,17 +41491,6 @@ class XDEFI_USDT(Symbol):
 
 
 XDEFI_USDT = XDEFI_USDT(*XDEFI_USDT._fields)
-"""
-    name: XDEFI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RACA_USDT(Symbol):
@@ -52664,17 +41532,6 @@ class RACA_USDT(Symbol):
 
 
 RACA_USDT = RACA_USDT(*RACA_USDT._fields)
-"""
-    name: RACA-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XWG_USDT(Symbol):
@@ -52716,17 +41573,6 @@ class XWG_USDT(Symbol):
 
 
 XWG_USDT = XWG_USDT(*XWG_USDT._fields)
-"""
-    name: XWG-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HAWK_USDT(Symbol):
@@ -52768,17 +41614,6 @@ class HAWK_USDT(Symbol):
 
 
 HAWK_USDT = HAWK_USDT(*HAWK_USDT._fields)
-"""
-    name: HAWK-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRVL_BTC(Symbol):
@@ -52820,17 +41655,6 @@ class TRVL_BTC(Symbol):
 
 
 TRVL_BTC = TRVL_BTC(*TRVL_BTC._fields)
-"""
-    name: TRVL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWFTC_USDT(Symbol):
@@ -52872,17 +41696,6 @@ class SWFTC_USDT(Symbol):
 
 
 SWFTC_USDT = SWFTC_USDT(*SWFTC_USDT._fields)
-"""
-    name: SWFTC-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BRWL_USDT(Symbol):
@@ -52924,17 +41737,6 @@ class BRWL_USDT(Symbol):
 
 
 BRWL_USDT = BRWL_USDT(*BRWL_USDT._fields)
-"""
-    name: BRWL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TAUM_USDT(Symbol):
@@ -52976,17 +41778,6 @@ class TAUM_USDT(Symbol):
 
 
 TAUM_USDT = TAUM_USDT(*TAUM_USDT._fields)
-"""
-    name: TAUM-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CELR_USDT(Symbol):
@@ -53028,17 +41819,6 @@ class CELR_USDT(Symbol):
 
 
 CELR_USDT = CELR_USDT(*CELR_USDT._fields)
-"""
-    name: CELR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AURORA_USDT(Symbol):
@@ -53080,17 +41860,6 @@ class AURORA_USDT(Symbol):
 
 
 AURORA_USDT = AURORA_USDT(*AURORA_USDT._fields)
-"""
-    name: AURORA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POSI_USDT(Symbol):
@@ -53132,17 +41901,6 @@ class POSI_USDT(Symbol):
 
 
 POSI_USDT = POSI_USDT(*POSI_USDT._fields)
-"""
-    name: POSI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class COOHA_USDT(Symbol):
@@ -53184,17 +41942,6 @@ class COOHA_USDT(Symbol):
 
 
 COOHA_USDT = COOHA_USDT(*COOHA_USDT._fields)
-"""
-    name: COOHA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KNC_USDT(Symbol):
@@ -53236,17 +41983,6 @@ class KNC_USDT(Symbol):
 
 
 KNC_USDT = KNC_USDT(*KNC_USDT._fields)
-"""
-    name: KNC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EPK_USDT(Symbol):
@@ -53288,17 +42024,6 @@ class EPK_USDT(Symbol):
 
 
 EPK_USDT = EPK_USDT(*EPK_USDT._fields)
-"""
-    name: EPK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PLD_USDT(Symbol):
@@ -53340,17 +42065,6 @@ class PLD_USDT(Symbol):
 
 
 PLD_USDT = PLD_USDT(*PLD_USDT._fields)
-"""
-    name: PLD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PSL_USDT(Symbol):
@@ -53392,17 +42106,6 @@ class PSL_USDT(Symbol):
 
 
 PSL_USDT = PSL_USDT(*PSL_USDT._fields)
-"""
-    name: PSL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PKF_USDT(Symbol):
@@ -53444,17 +42147,6 @@ class PKF_USDT(Symbol):
 
 
 PKF_USDT = PKF_USDT(*PKF_USDT._fields)
-"""
-    name: PKF-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OVR_USDT(Symbol):
@@ -53496,17 +42188,6 @@ class OVR_USDT(Symbol):
 
 
 OVR_USDT = OVR_USDT(*OVR_USDT._fields)
-"""
-    name: OVR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SYS_USDT(Symbol):
@@ -53548,17 +42229,6 @@ class SYS_USDT(Symbol):
 
 
 SYS_USDT = SYS_USDT(*SYS_USDT._fields)
-"""
-    name: SYS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SYS_BTC(Symbol):
@@ -53600,17 +42270,6 @@ class SYS_BTC(Symbol):
 
 
 SYS_BTC = SYS_BTC(*SYS_BTC._fields)
-"""
-    name: SYS-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BRISE_USDT(Symbol):
@@ -53652,17 +42311,6 @@ class BRISE_USDT(Symbol):
 
 
 BRISE_USDT = BRISE_USDT(*BRISE_USDT._fields)
-"""
-    name: BRISE-USDT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DG_USDT(Symbol):
@@ -53704,17 +42352,6 @@ class DG_USDT(Symbol):
 
 
 DG_USDT = DG_USDT(*DG_USDT._fields)
-"""
-    name: DG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EPX_USDT(Symbol):
@@ -53756,17 +42393,6 @@ class EPX_USDT(Symbol):
 
 
 EPX_USDT = EPX_USDT(*EPX_USDT._fields)
-"""
-    name: EPX-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GST_USDT(Symbol):
@@ -53808,17 +42434,6 @@ class GST_USDT(Symbol):
 
 
 GST_USDT = GST_USDT(*GST_USDT._fields)
-"""
-    name: GST-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PLY_USDT(Symbol):
@@ -53860,17 +42475,6 @@ class PLY_USDT(Symbol):
 
 
 PLY_USDT = PLY_USDT(*PLY_USDT._fields)
-"""
-    name: PLY-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GAL_USDT(Symbol):
@@ -53912,17 +42516,6 @@ class GAL_USDT(Symbol):
 
 
 GAL_USDT = GAL_USDT(*GAL_USDT._fields)
-"""
-    name: GAL-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BSW_USDT(Symbol):
@@ -53964,17 +42557,6 @@ class BSW_USDT(Symbol):
 
 
 BSW_USDT = BSW_USDT(*BSW_USDT._fields)
-"""
-    name: BSW-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FITFI_USDT(Symbol):
@@ -54016,17 +42598,6 @@ class FITFI_USDT(Symbol):
 
 
 FITFI_USDT = FITFI_USDT(*FITFI_USDT._fields)
-"""
-    name: FITFI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FSN_USDT(Symbol):
@@ -54068,17 +42639,6 @@ class FSN_USDT(Symbol):
 
 
 FSN_USDT = FSN_USDT(*FSN_USDT._fields)
-"""
-    name: FSN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class H2O_USDT(Symbol):
@@ -54120,17 +42680,6 @@ class H2O_USDT(Symbol):
 
 
 H2O_USDT = H2O_USDT(*H2O_USDT._fields)
-"""
-    name: H2O-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMM_USDT(Symbol):
@@ -54172,17 +42721,6 @@ class GMM_USDT(Symbol):
 
 
 GMM_USDT = GMM_USDT(*GMM_USDT._fields)
-"""
-    name: GMM-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AKT_USDT(Symbol):
@@ -54224,17 +42762,6 @@ class AKT_USDT(Symbol):
 
 
 AKT_USDT = AKT_USDT(*AKT_USDT._fields)
-"""
-    name: AKT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SIN_USDT(Symbol):
@@ -54276,17 +42803,6 @@ class SIN_USDT(Symbol):
 
 
 SIN_USDT = SIN_USDT(*SIN_USDT._fields)
-"""
-    name: SIN-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AUSD_USDT(Symbol):
@@ -54328,17 +42844,6 @@ class AUSD_USDT(Symbol):
 
 
 AUSD_USDT = AUSD_USDT(*AUSD_USDT._fields)
-"""
-    name: AUSD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BOBA_USDT(Symbol):
@@ -54380,17 +42885,6 @@ class BOBA_USDT(Symbol):
 
 
 BOBA_USDT = BOBA_USDT(*BOBA_USDT._fields)
-"""
-    name: BOBA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BFC_USDT(Symbol):
@@ -54432,17 +42926,6 @@ class BFC_USDT(Symbol):
 
 
 BFC_USDT = BFC_USDT(*BFC_USDT._fields)
-"""
-    name: BFC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BIFI_USDT(Symbol):
@@ -54484,17 +42967,6 @@ class BIFI_USDT(Symbol):
 
 
 BIFI_USDT = BIFI_USDT(*BIFI_USDT._fields)
-"""
-    name: BIFI-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DFA_USDT(Symbol):
@@ -54536,17 +43008,6 @@ class DFA_USDT(Symbol):
 
 
 DFA_USDT = DFA_USDT(*DFA_USDT._fields)
-"""
-    name: DFA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MBL_USDT(Symbol):
@@ -54588,17 +43049,6 @@ class MBL_USDT(Symbol):
 
 
 MBL_USDT = MBL_USDT(*MBL_USDT._fields)
-"""
-    name: MBL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DUSK_USDT(Symbol):
@@ -54640,17 +43090,6 @@ class DUSK_USDT(Symbol):
 
 
 DUSK_USDT = DUSK_USDT(*DUSK_USDT._fields)
-"""
-    name: DUSK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDD_USDT(Symbol):
@@ -54692,17 +43131,6 @@ class USDD_USDT(Symbol):
 
 
 USDD_USDT = USDD_USDT(*USDD_USDT._fields)
-"""
-    name: USDD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class USDD_USDC(Symbol):
@@ -54744,17 +43172,6 @@ class USDD_USDC(Symbol):
 
 
 USDD_USDC = USDD_USDC(*USDD_USDC._fields)
-"""
-    name: USDD-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FITFI_USDC(Symbol):
@@ -54796,17 +43213,6 @@ class FITFI_USDC(Symbol):
 
 
 FITFI_USDC = FITFI_USDC(*FITFI_USDC._fields)
-"""
-    name: FITFI-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APE_USDC(Symbol):
@@ -54848,17 +43254,6 @@ class APE_USDC(Symbol):
 
 
 APE_USDC = APE_USDC(*APE_USDC._fields)
-"""
-    name: APE-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AVAX_USDC(Symbol):
@@ -54900,17 +43295,6 @@ class AVAX_USDC(Symbol):
 
 
 AVAX_USDC = AVAX_USDC(*AVAX_USDC._fields)
-"""
-    name: AVAX-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SHIB_USDC(Symbol):
@@ -54952,17 +43336,6 @@ class SHIB_USDC(Symbol):
 
 
 SHIB_USDC = SHIB_USDC(*SHIB_USDC._fields)
-"""
-    name: SHIB-USDC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCN_USDC(Symbol):
@@ -55004,17 +43377,6 @@ class XCN_USDC(Symbol):
 
 
 XCN_USDC = XCN_USDC(*XCN_USDC._fields)
-"""
-    name: XCN-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRX_USDC(Symbol):
@@ -55056,17 +43418,6 @@ class TRX_USDC(Symbol):
 
 
 TRX_USDC = TRX_USDC(*TRX_USDC._fields)
-"""
-    name: TRX-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class NEAR_USDC(Symbol):
@@ -55108,17 +43459,6 @@ class NEAR_USDC(Symbol):
 
 
 NEAR_USDC = NEAR_USDC(*NEAR_USDC._fields)
-"""
-    name: NEAR-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MATIC_USDC(Symbol):
@@ -55160,17 +43500,6 @@ class MATIC_USDC(Symbol):
 
 
 MATIC_USDC = MATIC_USDC(*MATIC_USDC._fields)
-"""
-    name: MATIC-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class FTM_USDC(Symbol):
@@ -55212,17 +43541,6 @@ class FTM_USDC(Symbol):
 
 
 FTM_USDC = FTM_USDC(*FTM_USDC._fields)
-"""
-    name: FTM-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ZIL_USDC(Symbol):
@@ -55264,17 +43582,6 @@ class ZIL_USDC(Symbol):
 
 
 ZIL_USDC = ZIL_USDC(*ZIL_USDC._fields)
-"""
-    name: ZIL-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SOL_USDC(Symbol):
@@ -55316,17 +43623,6 @@ class SOL_USDC(Symbol):
 
 
 SOL_USDC = SOL_USDC(*SOL_USDC._fields)
-"""
-    name: SOL-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class MLS_USDT(Symbol):
@@ -55368,17 +43664,6 @@ class MLS_USDT(Symbol):
 
 
 MLS_USDT = MLS_USDT(*MLS_USDT._fields)
-"""
-    name: MLS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AFK_USDT(Symbol):
@@ -55420,17 +43705,6 @@ class AFK_USDT(Symbol):
 
 
 AFK_USDT = AFK_USDT(*AFK_USDT._fields)
-"""
-    name: AFK-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AFK_USDC(Symbol):
@@ -55472,17 +43746,6 @@ class AFK_USDC(Symbol):
 
 
 AFK_USDC = AFK_USDC(*AFK_USDC._fields)
-"""
-    name: AFK-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACH_USDT(Symbol):
@@ -55524,17 +43787,6 @@ class ACH_USDT(Symbol):
 
 
 ACH_USDT = ACH_USDT(*ACH_USDT._fields)
-"""
-    name: ACH-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SCRT_USDT(Symbol):
@@ -55576,17 +43828,6 @@ class SCRT_USDT(Symbol):
 
 
 SCRT_USDT = SCRT_USDT(*SCRT_USDT._fields)
-"""
-    name: SCRT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SCRT_BTC(Symbol):
@@ -55628,17 +43869,6 @@ class SCRT_BTC(Symbol):
 
 
 SCRT_BTC = SCRT_BTC(*SCRT_BTC._fields)
-"""
-    name: SCRT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APE3L_USDT(Symbol):
@@ -55680,17 +43910,6 @@ class APE3L_USDT(Symbol):
 
 
 APE3L_USDT = APE3L_USDT(*APE3L_USDT._fields)
-"""
-    name: APE3L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APE3S_USDT(Symbol):
@@ -55732,17 +43951,6 @@ class APE3S_USDT(Symbol):
 
 
 APE3S_USDT = APE3S_USDT(*APE3S_USDT._fields)
-"""
-    name: APE3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STORE_USDT(Symbol):
@@ -55784,17 +43992,6 @@ class STORE_USDT(Symbol):
 
 
 STORE_USDT = STORE_USDT(*STORE_USDT._fields)
-"""
-    name: STORE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STORE_ETH(Symbol):
@@ -55836,17 +44033,6 @@ class STORE_ETH(Symbol):
 
 
 STORE_ETH = STORE_ETH(*STORE_ETH._fields)
-"""
-    name: STORE-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMT3L_USDT(Symbol):
@@ -55888,17 +44074,6 @@ class GMT3L_USDT(Symbol):
 
 
 GMT3L_USDT = GMT3L_USDT(*GMT3L_USDT._fields)
-"""
-    name: GMT3L-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMT3S_USDT(Symbol):
@@ -55940,17 +44115,6 @@ class GMT3S_USDT(Symbol):
 
 
 GMT3S_USDT = GMT3S_USDT(*GMT3S_USDT._fields)
-"""
-    name: GMT3S-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CCD_USDT(Symbol):
@@ -55992,17 +44156,6 @@ class CCD_USDT(Symbol):
 
 
 CCD_USDT = CCD_USDT(*CCD_USDT._fields)
-"""
-    name: CCD-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOSE_USDC(Symbol):
@@ -56044,17 +44197,6 @@ class DOSE_USDC(Symbol):
 
 
 DOSE_USDC = DOSE_USDC(*DOSE_USDC._fields)
-"""
-    name: DOSE-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LUNC_USDT(Symbol):
@@ -56096,17 +44238,6 @@ class LUNC_USDT(Symbol):
 
 
 LUNC_USDT = LUNC_USDT(*LUNC_USDT._fields)
-"""
-    name: LUNC-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LUNC_USDC(Symbol):
@@ -56148,17 +44279,6 @@ class LUNC_USDC(Symbol):
 
 
 LUNC_USDC = LUNC_USDC(*LUNC_USDC._fields)
-"""
-    name: LUNC-USDC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USTC_USDT(Symbol):
@@ -56200,17 +44320,6 @@ class USTC_USDT(Symbol):
 
 
 USTC_USDT = USTC_USDT(*USTC_USDT._fields)
-"""
-    name: USTC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USTC_USDC(Symbol):
@@ -56252,17 +44361,6 @@ class USTC_USDC(Symbol):
 
 
 USTC_USDC = USTC_USDC(*USTC_USDC._fields)
-"""
-    name: USTC-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMT_USDC(Symbol):
@@ -56304,17 +44402,6 @@ class GMT_USDC(Symbol):
 
 
 GMT_USDC = GMT_USDC(*GMT_USDC._fields)
-"""
-    name: GMT-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VRA_USDC(Symbol):
@@ -56356,17 +44443,6 @@ class VRA_USDC(Symbol):
 
 
 VRA_USDC = VRA_USDC(*VRA_USDC._fields)
-"""
-    name: VRA-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DOT_USDC(Symbol):
@@ -56408,17 +44484,6 @@ class DOT_USDC(Symbol):
 
 
 DOT_USDC = DOT_USDC(*DOT_USDC._fields)
-"""
-    name: DOT-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class RUNE_USDC(Symbol):
@@ -56460,17 +44525,6 @@ class RUNE_USDC(Symbol):
 
 
 RUNE_USDC = RUNE_USDC(*RUNE_USDC._fields)
-"""
-    name: RUNE-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ATOM_USDC(Symbol):
@@ -56512,17 +44566,6 @@ class ATOM_USDC(Symbol):
 
 
 ATOM_USDC = ATOM_USDC(*ATOM_USDC._fields)
-"""
-    name: ATOM-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BNB_USDC(Symbol):
@@ -56564,17 +44607,6 @@ class BNB_USDC(Symbol):
 
 
 BNB_USDC = BNB_USDC(*BNB_USDC._fields)
-"""
-    name: BNB-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class JASMY_USDC(Symbol):
@@ -56616,17 +44648,6 @@ class JASMY_USDC(Symbol):
 
 
 JASMY_USDC = JASMY_USDC(*JASMY_USDC._fields)
-"""
-    name: JASMY-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KCS_USDC(Symbol):
@@ -56668,17 +44689,6 @@ class KCS_USDC(Symbol):
 
 
 KCS_USDC = KCS_USDC(*KCS_USDC._fields)
-"""
-    name: KCS-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class KDA_USDC(Symbol):
@@ -56720,17 +44730,6 @@ class KDA_USDC(Symbol):
 
 
 KDA_USDC = KDA_USDC(*KDA_USDC._fields)
-"""
-    name: KDA-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ALGO_USDC(Symbol):
@@ -56772,17 +44771,6 @@ class ALGO_USDC(Symbol):
 
 
 ALGO_USDC = ALGO_USDC(*ALGO_USDC._fields)
-"""
-    name: ALGO-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LUNA_USDC(Symbol):
@@ -56824,17 +44812,6 @@ class LUNA_USDC(Symbol):
 
 
 LUNA_USDC = LUNA_USDC(*LUNA_USDC._fields)
-"""
-    name: LUNA-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OP_USDT(Symbol):
@@ -56876,17 +44853,6 @@ class OP_USDT(Symbol):
 
 
 OP_USDT = OP_USDT(*OP_USDT._fields)
-"""
-    name: OP-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class OP_USDC(Symbol):
@@ -56928,17 +44894,6 @@ class OP_USDC(Symbol):
 
 
 OP_USDC = OP_USDC(*OP_USDC._fields)
-"""
-    name: OP-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class JASMY3L_USDT(Symbol):
@@ -56980,17 +44935,6 @@ class JASMY3L_USDT(Symbol):
 
 
 JASMY3L_USDT = JASMY3L_USDT(*JASMY3L_USDT._fields)
-"""
-    name: JASMY3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class JASMY3S_USDT(Symbol):
@@ -57032,17 +44976,6 @@ class JASMY3S_USDT(Symbol):
 
 
 JASMY3S_USDT = JASMY3S_USDT(*JASMY3S_USDT._fields)
-"""
-    name: JASMY3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 100000000000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EVER_USDT(Symbol):
@@ -57084,17 +45017,6 @@ class EVER_USDT(Symbol):
 
 
 EVER_USDT = EVER_USDT(*EVER_USDT._fields)
-"""
-    name: EVER-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MOOV_USDT(Symbol):
@@ -57136,17 +45058,6 @@ class MOOV_USDT(Symbol):
 
 
 MOOV_USDT = MOOV_USDT(*MOOV_USDT._fields)
-"""
-    name: MOOV-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IHC_USDT(Symbol):
@@ -57188,17 +45099,6 @@ class IHC_USDT(Symbol):
 
 
 IHC_USDT = IHC_USDT(*IHC_USDT._fields)
-"""
-    name: IHC-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ICX_USDT(Symbol):
@@ -57240,17 +45140,6 @@ class ICX_USDT(Symbol):
 
 
 ICX_USDT = ICX_USDT(*ICX_USDT._fields)
-"""
-    name: ICX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ICX_ETH(Symbol):
@@ -57292,17 +45181,6 @@ class ICX_ETH(Symbol):
 
 
 ICX_ETH = ICX_ETH(*ICX_ETH._fields)
-"""
-    name: ICX-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_BRL(Symbol):
@@ -57344,17 +45222,6 @@ class BTC_BRL(Symbol):
 
 
 BTC_BRL = BTC_BRL(*BTC_BRL._fields)
-"""
-    name: BTC-BRL
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_BRL(Symbol):
@@ -57396,17 +45263,6 @@ class ETH_BRL(Symbol):
 
 
 ETH_BRL = ETH_BRL(*ETH_BRL._fields)
-"""
-    name: ETH-BRL
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDT_BRL(Symbol):
@@ -57448,17 +45304,6 @@ class USDT_BRL(Symbol):
 
 
 USDT_BRL = USDT_BRL(*USDT_BRL._fields)
-"""
-    name: USDT-BRL
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WELL_USDT(Symbol):
@@ -57500,17 +45345,6 @@ class WELL_USDT(Symbol):
 
 
 WELL_USDT = WELL_USDT(*WELL_USDT._fields)
-"""
-    name: WELL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FORT_USDT(Symbol):
@@ -57552,17 +45386,6 @@ class FORT_USDT(Symbol):
 
 
 FORT_USDT = FORT_USDT(*FORT_USDT._fields)
-"""
-    name: FORT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDP_USDT(Symbol):
@@ -57604,17 +45427,6 @@ class USDP_USDT(Symbol):
 
 
 USDP_USDT = USDP_USDT(*USDP_USDT._fields)
-"""
-    name: USDP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDD_TRX(Symbol):
@@ -57656,17 +45468,6 @@ class USDD_TRX(Symbol):
 
 
 USDD_TRX = USDD_TRX(*USDD_TRX._fields)
-"""
-    name: USDD-TRX
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 10
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_EUR(Symbol):
@@ -57708,17 +45509,6 @@ class BTC_EUR(Symbol):
 
 
 BTC_EUR = BTC_EUR(*BTC_EUR._fields)
-"""
-    name: BTC-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_EUR(Symbol):
@@ -57760,17 +45550,6 @@ class ETH_EUR(Symbol):
 
 
 ETH_EUR = ETH_EUR(*ETH_EUR._fields)
-"""
-    name: ETH-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDT_EUR(Symbol):
@@ -57812,17 +45591,6 @@ class USDT_EUR(Symbol):
 
 
 USDT_EUR = USDT_EUR(*USDT_EUR._fields)
-"""
-    name: USDT-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CSPR_USDT(Symbol):
@@ -57864,17 +45632,6 @@ class CSPR_USDT(Symbol):
 
 
 CSPR_USDT = CSPR_USDT(*CSPR_USDT._fields)
-"""
-    name: CSPR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CSPR_ETH(Symbol):
@@ -57916,17 +45673,6 @@ class CSPR_ETH(Symbol):
 
 
 CSPR_ETH = CSPR_ETH(*CSPR_ETH._fields)
-"""
-    name: CSPR-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WEMIX_USDT(Symbol):
@@ -57968,17 +45714,6 @@ class WEMIX_USDT(Symbol):
 
 
 WEMIX_USDT = WEMIX_USDT(*WEMIX_USDT._fields)
-"""
-    name: WEMIX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class REV3L_USDT(Symbol):
@@ -58020,17 +45755,6 @@ class REV3L_USDT(Symbol):
 
 
 REV3L_USDT = REV3L_USDT(*REV3L_USDT._fields)
-"""
-    name: REV3L-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OLE_USDT(Symbol):
@@ -58072,17 +45796,6 @@ class OLE_USDT(Symbol):
 
 
 OLE_USDT = OLE_USDT(*OLE_USDT._fields)
-"""
-    name: OLE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LDO_USDT(Symbol):
@@ -58124,17 +45837,6 @@ class LDO_USDT(Symbol):
 
 
 LDO_USDT = LDO_USDT(*LDO_USDT._fields)
-"""
-    name: LDO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LDO_USDC(Symbol):
@@ -58176,17 +45878,6 @@ class LDO_USDC(Symbol):
 
 
 LDO_USDC = LDO_USDC(*LDO_USDC._fields)
-"""
-    name: LDO-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CULT_USDT(Symbol):
@@ -58228,17 +45919,6 @@ class CULT_USDT(Symbol):
 
 
 CULT_USDT = CULT_USDT(*CULT_USDT._fields)
-"""
-    name: CULT-USDT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWFTC_USDC(Symbol):
@@ -58280,17 +45960,6 @@ class SWFTC_USDC(Symbol):
 
 
 SWFTC_USDC = SWFTC_USDC(*SWFTC_USDC._fields)
-"""
-    name: SWFTC-USDC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FIDA_USDT(Symbol):
@@ -58332,17 +46001,6 @@ class FIDA_USDT(Symbol):
 
 
 FIDA_USDT = FIDA_USDT(*FIDA_USDT._fields)
-"""
-    name: FIDA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BUSD_USDT(Symbol):
@@ -58384,17 +46042,6 @@ class BUSD_USDT(Symbol):
 
 
 BUSD_USDT = BUSD_USDT(*BUSD_USDT._fields)
-"""
-    name: BUSD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RBP_USDT(Symbol):
@@ -58436,17 +46083,6 @@ class RBP_USDT(Symbol):
 
 
 RBP_USDT = RBP_USDT(*RBP_USDT._fields)
-"""
-    name: RBP-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SRBP_USDT(Symbol):
@@ -58488,17 +46124,6 @@ class SRBP_USDT(Symbol):
 
 
 SRBP_USDT = SRBP_USDT(*SRBP_USDT._fields)
-"""
-    name: SRBP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIBAYC_USDT(Symbol):
@@ -58540,17 +46165,6 @@ class HIBAYC_USDT(Symbol):
 
 
 HIBAYC_USDT = HIBAYC_USDT(*HIBAYC_USDT._fields)
-"""
-    name: HIBAYC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BUSD_USDC(Symbol):
@@ -58592,17 +46206,6 @@ class BUSD_USDC(Symbol):
 
 
 BUSD_USDC = BUSD_USDC(*BUSD_USDC._fields)
-"""
-    name: BUSD-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OGV_USDT(Symbol):
@@ -58644,17 +46247,6 @@ class OGV_USDT(Symbol):
 
 
 OGV_USDT = OGV_USDT(*OGV_USDT._fields)
-"""
-    name: OGV-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WOMBAT_USDT(Symbol):
@@ -58696,17 +46288,6 @@ class WOMBAT_USDT(Symbol):
 
 
 WOMBAT_USDT = WOMBAT_USDT(*WOMBAT_USDT._fields)
-"""
-    name: WOMBAT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIPUNKS_USDT(Symbol):
@@ -58748,17 +46329,6 @@ class HIPUNKS_USDT(Symbol):
 
 
 HIPUNKS_USDT = HIPUNKS_USDT(*HIPUNKS_USDT._fields)
-"""
-    name: HIPUNKS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FT_USDT(Symbol):
@@ -58800,17 +46370,6 @@ class FT_USDT(Symbol):
 
 
 FT_USDT = FT_USDT(*FT_USDT._fields)
-"""
-    name: FT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETC_USDC(Symbol):
@@ -58852,17 +46411,6 @@ class ETC_USDC(Symbol):
 
 
 ETC_USDC = ETC_USDC(*ETC_USDC._fields)
-"""
-    name: ETC-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIENS4_USDT(Symbol):
@@ -58904,17 +46452,6 @@ class HIENS4_USDT(Symbol):
 
 
 HIENS4_USDT = HIENS4_USDT(*HIENS4_USDT._fields)
-"""
-    name: HIENS4-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EGAME_USDT(Symbol):
@@ -58956,17 +46493,6 @@ class EGAME_USDT(Symbol):
 
 
 EGAME_USDT = EGAME_USDT(*EGAME_USDT._fields)
-"""
-    name: EGAME-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EGAME_BTC(Symbol):
@@ -59008,17 +46534,6 @@ class EGAME_BTC(Symbol):
 
 
 EGAME_BTC = EGAME_BTC(*EGAME_BTC._fields)
-"""
-    name: EGAME-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STEPWATCH_USDT(Symbol):
@@ -59060,17 +46575,6 @@ class STEPWATCH_USDT(Symbol):
 
 
 STEPWATCH_USDT = STEPWATCH_USDT(*STEPWATCH_USDT._fields)
-"""
-    name: STEPWATCH-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HISAND33_USDT(Symbol):
@@ -59112,17 +46616,6 @@ class HISAND33_USDT(Symbol):
 
 
 HISAND33_USDT = HISAND33_USDT(*HISAND33_USDT._fields)
-"""
-    name: HISAND33-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DC_USDT(Symbol):
@@ -59164,17 +46657,6 @@ class DC_USDT(Symbol):
 
 
 DC_USDT = DC_USDT(*DC_USDT._fields)
-"""
-    name: DC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NEER_USDT(Symbol):
@@ -59216,17 +46698,6 @@ class NEER_USDT(Symbol):
 
 
 NEER_USDT = NEER_USDT(*NEER_USDT._fields)
-"""
-    name: NEER-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RVN_USDT(Symbol):
@@ -59268,17 +46739,6 @@ class RVN_USDT(Symbol):
 
 
 RVN_USDT = RVN_USDT(*RVN_USDT._fields)
-"""
-    name: RVN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIENS3_USDT(Symbol):
@@ -59320,17 +46780,6 @@ class HIENS3_USDT(Symbol):
 
 
 HIENS3_USDT = HIENS3_USDT(*HIENS3_USDT._fields)
-"""
-    name: HIENS3-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MC_USDT(Symbol):
@@ -59372,17 +46821,6 @@ class MC_USDT(Symbol):
 
 
 MC_USDT = MC_USDT(*MC_USDT._fields)
-"""
-    name: MC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PEEL_USDT(Symbol):
@@ -59424,17 +46862,6 @@ class PEEL_USDT(Symbol):
 
 
 PEEL_USDT = PEEL_USDT(*PEEL_USDT._fields)
-"""
-    name: PEEL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PEEL_BTC(Symbol):
@@ -59476,17 +46903,6 @@ class PEEL_BTC(Symbol):
 
 
 PEEL_BTC = PEEL_BTC(*PEEL_BTC._fields)
-"""
-    name: PEEL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SDL_USDT(Symbol):
@@ -59528,17 +46944,6 @@ class SDL_USDT(Symbol):
 
 
 SDL_USDT = SDL_USDT(*SDL_USDT._fields)
-"""
-    name: SDL-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SDL_BTC(Symbol):
@@ -59580,17 +46985,6 @@ class SDL_BTC(Symbol):
 
 
 SDL_BTC = SDL_BTC(*SDL_BTC._fields)
-"""
-    name: SDL-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SWEAT_USDT(Symbol):
@@ -59632,17 +47026,6 @@ class SWEAT_USDT(Symbol):
 
 
 SWEAT_USDT = SWEAT_USDT(*SWEAT_USDT._fields)
-"""
-    name: SWEAT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIODBS_USDT(Symbol):
@@ -59684,17 +47067,6 @@ class HIODBS_USDT(Symbol):
 
 
 HIODBS_USDT = HIODBS_USDT(*HIODBS_USDT._fields)
-"""
-    name: HIODBS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CMP_USDT(Symbol):
@@ -59736,17 +47108,6 @@ class CMP_USDT(Symbol):
 
 
 CMP_USDT = CMP_USDT(*CMP_USDT._fields)
-"""
-    name: CMP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PIX_USDT(Symbol):
@@ -59788,17 +47149,6 @@ class PIX_USDT(Symbol):
 
 
 PIX_USDT = PIX_USDT(*PIX_USDT._fields)
-"""
-    name: PIX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MPLX_USDT(Symbol):
@@ -59840,17 +47190,6 @@ class MPLX_USDT(Symbol):
 
 
 MPLX_USDT = MPLX_USDT(*MPLX_USDT._fields)
-"""
-    name: MPLX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIDOODLES_USDT(Symbol):
@@ -59892,17 +47231,6 @@ class HIDOODLES_USDT(Symbol):
 
 
 HIDOODLES_USDT = HIDOODLES_USDT(*HIDOODLES_USDT._fields)
-"""
-    name: HIDOODLES-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETHW_USDT(Symbol):
@@ -59944,17 +47272,6 @@ class ETHW_USDT(Symbol):
 
 
 ETHW_USDT = ETHW_USDT(*ETHW_USDT._fields)
-"""
-    name: ETHW-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class QUARTZ_USDT(Symbol):
@@ -59996,17 +47313,6 @@ class QUARTZ_USDT(Symbol):
 
 
 QUARTZ_USDT = QUARTZ_USDT(*QUARTZ_USDT._fields)
-"""
-    name: QUARTZ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACQ_USDT(Symbol):
@@ -60048,17 +47354,6 @@ class ACQ_USDT(Symbol):
 
 
 ACQ_USDT = ACQ_USDT(*ACQ_USDT._fields)
-"""
-    name: ACQ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACQ_USDC(Symbol):
@@ -60100,17 +47395,6 @@ class ACQ_USDC(Symbol):
 
 
 ACQ_USDC = ACQ_USDC(*ACQ_USDC._fields)
-"""
-    name: ACQ-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AOG_USDT(Symbol):
@@ -60152,17 +47436,6 @@ class AOG_USDT(Symbol):
 
 
 AOG_USDT = AOG_USDT(*AOG_USDT._fields)
-"""
-    name: AOG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIMAYC_USDT(Symbol):
@@ -60204,17 +47477,6 @@ class HIMAYC_USDT(Symbol):
 
 
 HIMAYC_USDT = HIMAYC_USDT(*HIMAYC_USDT._fields)
-"""
-    name: HIMAYC-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRMX_USDT(Symbol):
@@ -60256,17 +47518,6 @@ class PRMX_USDT(Symbol):
 
 
 PRMX_USDT = PRMX_USDT(*PRMX_USDT._fields)
-"""
-    name: PRMX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RED_USDT(Symbol):
@@ -60308,17 +47559,6 @@ class RED_USDT(Symbol):
 
 
 RED_USDT = RED_USDT(*RED_USDT._fields)
-"""
-    name: RED-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PUMLX_USDT(Symbol):
@@ -60360,17 +47600,6 @@ class PUMLX_USDT(Symbol):
 
 
 PUMLX_USDT = PUMLX_USDT(*PUMLX_USDT._fields)
-"""
-    name: PUMLX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XETA_USDT(Symbol):
@@ -60412,17 +47641,6 @@ class XETA_USDT(Symbol):
 
 
 XETA_USDT = XETA_USDT(*XETA_USDT._fields)
-"""
-    name: XETA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GEM_USDT(Symbol):
@@ -60464,17 +47682,6 @@ class GEM_USDT(Symbol):
 
 
 GEM_USDT = GEM_USDT(*GEM_USDT._fields)
-"""
-    name: GEM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DERC_USDT(Symbol):
@@ -60516,17 +47723,6 @@ class DERC_USDT(Symbol):
 
 
 DERC_USDT = DERC_USDT(*DERC_USDT._fields)
-"""
-    name: DERC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class P00LS_USDT(Symbol):
@@ -60568,17 +47764,6 @@ class P00LS_USDT(Symbol):
 
 
 P00LS_USDT = P00LS_USDT(*P00LS_USDT._fields)
-"""
-    name: P00LS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class P00LS_USDC(Symbol):
@@ -60620,17 +47805,6 @@ class P00LS_USDC(Symbol):
 
 
 P00LS_USDC = P00LS_USDC(*P00LS_USDC._fields)
-"""
-    name: P00LS-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KICKS_USDT(Symbol):
@@ -60672,17 +47846,6 @@ class KICKS_USDT(Symbol):
 
 
 KICKS_USDT = KICKS_USDT(*KICKS_USDT._fields)
-"""
-    name: KICKS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRIBL_USDT(Symbol):
@@ -60724,17 +47887,6 @@ class TRIBL_USDT(Symbol):
 
 
 TRIBL_USDT = TRIBL_USDT(*TRIBL_USDT._fields)
-"""
-    name: TRIBL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GMX_USDT(Symbol):
@@ -60776,17 +47928,6 @@ class GMX_USDT(Symbol):
 
 
 GMX_USDT = GMX_USDT(*GMX_USDT._fields)
-"""
-    name: GMX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIOD_USDT(Symbol):
@@ -60828,17 +47969,6 @@ class HIOD_USDT(Symbol):
 
 
 HIOD_USDT = HIOD_USDT(*HIOD_USDT._fields)
-"""
-    name: HIOD-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class POKT_USDT(Symbol):
@@ -60880,17 +48010,6 @@ class POKT_USDT(Symbol):
 
 
 POKT_USDT = POKT_USDT(*POKT_USDT._fields)
-"""
-    name: POKT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EFI_USDT(Symbol):
@@ -60932,17 +48051,6 @@ class EFI_USDT(Symbol):
 
 
 EFI_USDT = EFI_USDT(*EFI_USDT._fields)
-"""
-    name: EFI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APT_USDT(Symbol):
@@ -60984,17 +48092,6 @@ class APT_USDT(Symbol):
 
 
 APT_USDT = APT_USDT(*APT_USDT._fields)
-"""
-    name: APT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class BBC_USDT(Symbol):
@@ -61036,17 +48133,6 @@ class BBC_USDT(Symbol):
 
 
 BBC_USDT = BBC_USDT(*BBC_USDT._fields)
-"""
-    name: BBC-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class EUL_USDT(Symbol):
@@ -61088,17 +48174,6 @@ class EUL_USDT(Symbol):
 
 
 EUL_USDT = EUL_USDT(*EUL_USDT._fields)
-"""
-    name: EUL-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TON_USDT(Symbol):
@@ -61140,17 +48215,6 @@ class TON_USDT(Symbol):
 
 
 TON_USDT = TON_USDT(*TON_USDT._fields)
-"""
-    name: TON-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PIAS_USDT(Symbol):
@@ -61192,17 +48256,6 @@ class PIAS_USDT(Symbol):
 
 
 PIAS_USDT = PIAS_USDT(*PIAS_USDT._fields)
-"""
-    name: PIAS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIMEEBITS_USDT(Symbol):
@@ -61244,17 +48297,6 @@ class HIMEEBITS_USDT(Symbol):
 
 
 HIMEEBITS_USDT = HIMEEBITS_USDT(*HIMEEBITS_USDT._fields)
-"""
-    name: HIMEEBITS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HISQUIGGLE_USDT(Symbol):
@@ -61296,17 +48338,6 @@ class HISQUIGGLE_USDT(Symbol):
 
 
 HISQUIGGLE_USDT = HISQUIGGLE_USDT(*HISQUIGGLE_USDT._fields)
-"""
-    name: HISQUIGGLE-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XCV_USDT(Symbol):
@@ -61348,17 +48379,6 @@ class XCV_USDT(Symbol):
 
 
 XCV_USDT = XCV_USDT(*XCV_USDT._fields)
-"""
-    name: XCV-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HFT_USDT(Symbol):
@@ -61400,17 +48420,6 @@ class HFT_USDT(Symbol):
 
 
 HFT_USDT = HFT_USDT(*HFT_USDT._fields)
-"""
-    name: HFT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HFT_USDC(Symbol):
@@ -61452,17 +48461,6 @@ class HFT_USDC(Symbol):
 
 
 HFT_USDC = HFT_USDC(*HFT_USDC._fields)
-"""
-    name: HFT-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ECOX_USDT(Symbol):
@@ -61504,17 +48502,6 @@ class ECOX_USDT(Symbol):
 
 
 ECOX_USDT = ECOX_USDT(*ECOX_USDT._fields)
-"""
-    name: ECOX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AMB_USDT(Symbol):
@@ -61556,17 +48543,6 @@ class AMB_USDT(Symbol):
 
 
 AMB_USDT = AMB_USDT(*AMB_USDT._fields)
-"""
-    name: AMB-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AZERO_USDT(Symbol):
@@ -61608,17 +48584,6 @@ class AZERO_USDT(Symbol):
 
 
 AZERO_USDT = AZERO_USDT(*AZERO_USDT._fields)
-"""
-    name: AZERO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIFIDENZA_USDT(Symbol):
@@ -61660,17 +48625,6 @@ class HIFIDENZA_USDT(Symbol):
 
 
 HIFIDENZA_USDT = HIFIDENZA_USDT(*HIFIDENZA_USDT._fields)
-"""
-    name: HIFIDENZA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BEAT_USDT(Symbol):
@@ -61712,17 +48666,6 @@ class BEAT_USDT(Symbol):
 
 
 BEAT_USDT = BEAT_USDT(*BEAT_USDT._fields)
-"""
-    name: BEAT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NRFB_USDT(Symbol):
@@ -61764,17 +48707,6 @@ class NRFB_USDT(Symbol):
 
 
 NRFB_USDT = NRFB_USDT(*NRFB_USDT._fields)
-"""
-    name: NRFB-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NRFB_BTC(Symbol):
@@ -61816,17 +48748,6 @@ class NRFB_BTC(Symbol):
 
 
 NRFB_BTC = NRFB_BTC(*NRFB_BTC._fields)
-"""
-    name: NRFB-BTC
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIGAZERS_USDT(Symbol):
@@ -61868,17 +48789,6 @@ class HIGAZERS_USDT(Symbol):
 
 
 HIGAZERS_USDT = HIGAZERS_USDT(*HIGAZERS_USDT._fields)
-"""
-    name: HIGAZERS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NAVI_USDT(Symbol):
@@ -61920,17 +48830,6 @@ class NAVI_USDT(Symbol):
 
 
 NAVI_USDT = NAVI_USDT(*NAVI_USDT._fields)
-"""
-    name: NAVI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CARE_USDT(Symbol):
@@ -61972,17 +48871,6 @@ class CARE_USDT(Symbol):
 
 
 CARE_USDT = CARE_USDT(*CARE_USDT._fields)
-"""
-    name: CARE-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CLUB_USDT(Symbol):
@@ -62024,17 +48912,6 @@ class CLUB_USDT(Symbol):
 
 
 CLUB_USDT = CLUB_USDT(*CLUB_USDT._fields)
-"""
-    name: CLUB-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIPENGUINS_USDT(Symbol):
@@ -62076,17 +48953,6 @@ class HIPENGUINS_USDT(Symbol):
 
 
 HIPENGUINS_USDT = HIPENGUINS_USDT(*HIPENGUINS_USDT._fields)
-"""
-    name: HIPENGUINS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ALT_USDT(Symbol):
@@ -62128,17 +48994,6 @@ class ALT_USDT(Symbol):
 
 
 ALT_USDT = ALT_USDT(*ALT_USDT._fields)
-"""
-    name: ALT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HICLONEX_USDT(Symbol):
@@ -62180,17 +49035,6 @@ class HICLONEX_USDT(Symbol):
 
 
 HICLONEX_USDT = HICLONEX_USDT(*HICLONEX_USDT._fields)
-"""
-    name: HICLONEX-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRIMAL_USDT(Symbol):
@@ -62232,17 +49076,6 @@ class PRIMAL_USDT(Symbol):
 
 
 PRIMAL_USDT = PRIMAL_USDT(*PRIMAL_USDT._fields)
-"""
-    name: PRIMAL-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PRIMAL_USDC(Symbol):
@@ -62284,17 +49117,6 @@ class PRIMAL_USDC(Symbol):
 
 
 PRIMAL_USDC = PRIMAL_USDC(*PRIMAL_USDC._fields)
-"""
-    name: PRIMAL-USDC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OAS_USDT(Symbol):
@@ -62336,17 +49158,6 @@ class OAS_USDT(Symbol):
 
 
 OAS_USDT = OAS_USDT(*OAS_USDT._fields)
-"""
-    name: OAS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class VEMP_USDC(Symbol):
@@ -62388,17 +49199,6 @@ class VEMP_USDC(Symbol):
 
 
 VEMP_USDC = VEMP_USDC(*VEMP_USDC._fields)
-"""
-    name: VEMP-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HICOOLCATS_USDT(Symbol):
@@ -62440,17 +49240,6 @@ class HICOOLCATS_USDT(Symbol):
 
 
 HICOOLCATS_USDT = HICOOLCATS_USDT(*HICOOLCATS_USDT._fields)
-"""
-    name: HICOOLCATS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIAZUKI_USDT(Symbol):
@@ -62492,17 +49281,6 @@ class HIAZUKI_USDT(Symbol):
 
 
 HIAZUKI_USDT = HIAZUKI_USDT(*HIAZUKI_USDT._fields)
-"""
-    name: HIAZUKI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TEM_USDT(Symbol):
@@ -62544,17 +49322,6 @@ class TEM_USDT(Symbol):
 
 
 TEM_USDT = TEM_USDT(*TEM_USDT._fields)
-"""
-    name: TEM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIFLUF_USDT(Symbol):
@@ -62596,17 +49363,6 @@ class HIFLUF_USDT(Symbol):
 
 
 HIFLUF_USDT = HIFLUF_USDT(*HIFLUF_USDT._fields)
-"""
-    name: HIFLUF-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIBIRDS_USDT(Symbol):
@@ -62648,17 +49404,6 @@ class HIBIRDS_USDT(Symbol):
 
 
 HIBIRDS_USDT = HIBIRDS_USDT(*HIBIRDS_USDT._fields)
-"""
-    name: HIBIRDS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BDX_USDT(Symbol):
@@ -62700,17 +49445,6 @@ class BDX_USDT(Symbol):
 
 
 BDX_USDT = BDX_USDT(*BDX_USDT._fields)
-"""
-    name: BDX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BDX_BTC(Symbol):
@@ -62752,17 +49486,6 @@ class BDX_BTC(Symbol):
 
 
 BDX_BTC = BDX_BTC(*BDX_BTC._fields)
-"""
-    name: BDX-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLR_USDT(Symbol):
@@ -62804,17 +49527,6 @@ class FLR_USDT(Symbol):
 
 
 FLR_USDT = FLR_USDT(*FLR_USDT._fields)
-"""
-    name: FLR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLR_USDC(Symbol):
@@ -62856,17 +49568,6 @@ class FLR_USDC(Symbol):
 
 
 FLR_USDC = FLR_USDC(*FLR_USDC._fields)
-"""
-    name: FLR-USDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIMFERS_USDT(Symbol):
@@ -62908,17 +49609,6 @@ class HIMFERS_USDT(Symbol):
 
 
 HIMFERS_USDT = HIMFERS_USDT(*HIMFERS_USDT._fields)
-"""
-    name: HIMFERS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OSMO_USDT(Symbol):
@@ -62960,17 +49650,6 @@ class OSMO_USDT(Symbol):
 
 
 OSMO_USDT = OSMO_USDT(*OSMO_USDT._fields)
-"""
-    name: OSMO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ASTRA_USDT(Symbol):
@@ -63012,17 +49691,6 @@ class ASTRA_USDT(Symbol):
 
 
 ASTRA_USDT = ASTRA_USDT(*ASTRA_USDT._fields)
-"""
-    name: ASTRA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MAGIC_USDT(Symbol):
@@ -63064,17 +49732,6 @@ class MAGIC_USDT(Symbol):
 
 
 MAGIC_USDT = MAGIC_USDT(*MAGIC_USDT._fields)
-"""
-    name: MAGIC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SQUAD_USDT(Symbol):
@@ -63116,17 +49773,6 @@ class SQUAD_USDT(Symbol):
 
 
 SQUAD_USDT = SQUAD_USDT(*SQUAD_USDT._fields)
-"""
-    name: SQUAD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SIMP_USDT(Symbol):
@@ -63168,17 +49814,6 @@ class SIMP_USDT(Symbol):
 
 
 SIMP_USDT = SIMP_USDT(*SIMP_USDT._fields)
-"""
-    name: SIMP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIVALHALLA_USDT(Symbol):
@@ -63220,17 +49855,6 @@ class HIVALHALLA_USDT(Symbol):
 
 
 HIVALHALLA_USDT = HIVALHALLA_USDT(*HIVALHALLA_USDT._fields)
-"""
-    name: HIVALHALLA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RPL_USDT(Symbol):
@@ -63272,17 +49896,6 @@ class RPL_USDT(Symbol):
 
 
 RPL_USDT = RPL_USDT(*RPL_USDT._fields)
-"""
-    name: RPL-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIRENGA_USDT(Symbol):
@@ -63324,17 +49937,6 @@ class HIRENGA_USDT(Symbol):
 
 
 HIRENGA_USDT = HIRENGA_USDT(*HIRENGA_USDT._fields)
-"""
-    name: HIRENGA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KING_USDT(Symbol):
@@ -63376,17 +49978,6 @@ class KING_USDT(Symbol):
 
 
 KING_USDT = KING_USDT(*KING_USDT._fields)
-"""
-    name: KING-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHIB2L_USDT(Symbol):
@@ -63428,17 +50019,6 @@ class SHIB2L_USDT(Symbol):
 
 
 SHIB2L_USDT = SHIB2L_USDT(*SHIB2L_USDT._fields)
-"""
-    name: SHIB2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SHIB2S_USDT(Symbol):
@@ -63480,17 +50060,6 @@ class SHIB2S_USDT(Symbol):
 
 
 SHIB2S_USDT = SHIB2S_USDT(*SHIB2S_USDT._fields)
-"""
-    name: SHIB2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OP2L_USDT(Symbol):
@@ -63532,17 +50101,6 @@ class OP2L_USDT(Symbol):
 
 
 OP2L_USDT = OP2L_USDT(*OP2L_USDT._fields)
-"""
-    name: OP2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OP2S_USDT(Symbol):
@@ -63584,17 +50142,6 @@ class OP2S_USDT(Symbol):
 
 
 OP2S_USDT = OP2S_USDT(*OP2S_USDT._fields)
-"""
-    name: OP2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIGH_USDT(Symbol):
@@ -63636,17 +50183,6 @@ class HIGH_USDT(Symbol):
 
 
 HIGH_USDT = HIGH_USDT(*HIGH_USDT._fields)
-"""
-    name: HIGH-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIGH_ETH(Symbol):
@@ -63688,17 +50224,6 @@ class HIGH_ETH(Symbol):
 
 
 HIGH_ETH = HIGH_ETH(*HIGH_ETH._fields)
-"""
-    name: HIGH-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIUNDEAD_USDT(Symbol):
@@ -63740,17 +50265,6 @@ class HIUNDEAD_USDT(Symbol):
 
 
 HIUNDEAD_USDT = HIUNDEAD_USDT(*HIUNDEAD_USDT._fields)
-"""
-    name: HIUNDEAD-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AGIX2L_USDT(Symbol):
@@ -63792,17 +50306,6 @@ class AGIX2L_USDT(Symbol):
 
 
 AGIX2L_USDT = AGIX2L_USDT(*AGIX2L_USDT._fields)
-"""
-    name: AGIX2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AGIX2S_USDT(Symbol):
@@ -63844,17 +50347,6 @@ class AGIX2S_USDT(Symbol):
 
 
 AGIX2S_USDT = AGIX2S_USDT(*AGIX2S_USDT._fields)
-"""
-    name: AGIX2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class TRAC_USDT(Symbol):
@@ -63896,17 +50388,6 @@ class TRAC_USDT(Symbol):
 
 
 TRAC_USDT = TRAC_USDT(*TRAC_USDT._fields)
-"""
-    name: TRAC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GRT2L_USDT(Symbol):
@@ -63948,17 +50429,6 @@ class GRT2L_USDT(Symbol):
 
 
 GRT2L_USDT = GRT2L_USDT(*GRT2L_USDT._fields)
-"""
-    name: GRT2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GRT2S_USDT(Symbol):
@@ -64000,17 +50470,6 @@ class GRT2S_USDT(Symbol):
 
 
 GRT2S_USDT = GRT2S_USDT(*GRT2S_USDT._fields)
-"""
-    name: GRT2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APT2L_USDT(Symbol):
@@ -64052,17 +50511,6 @@ class APT2L_USDT(Symbol):
 
 
 APT2L_USDT = APT2L_USDT(*APT2L_USDT._fields)
-"""
-    name: APT2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class APT2S_USDT(Symbol):
@@ -64104,17 +50552,6 @@ class APT2S_USDT(Symbol):
 
 
 APT2S_USDT = APT2S_USDT(*APT2S_USDT._fields)
-"""
-    name: APT2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GFT_USDT(Symbol):
@@ -64156,17 +50593,6 @@ class GFT_USDT(Symbol):
 
 
 GFT_USDT = GFT_USDT(*GFT_USDT._fields)
-"""
-    name: GFT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GFT_BTC(Symbol):
@@ -64208,17 +50634,6 @@ class GFT_BTC(Symbol):
 
 
 GFT_BTC = GFT_BTC(*GFT_BTC._fields)
-"""
-    name: GFT-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BLUR_USDT(Symbol):
@@ -64260,17 +50675,6 @@ class BLUR_USDT(Symbol):
 
 
 BLUR_USDT = BLUR_USDT(*BLUR_USDT._fields)
-"""
-    name: BLUR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class HIFRIENDS_USDT(Symbol):
@@ -64312,17 +50716,6 @@ class HIFRIENDS_USDT(Symbol):
 
 
 HIFRIENDS_USDT = HIFRIENDS_USDT(*HIFRIENDS_USDT._fields)
-"""
-    name: HIFRIENDS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class WAXL_USDT(Symbol):
@@ -64364,17 +50757,6 @@ class WAXL_USDT(Symbol):
 
 
 WAXL_USDT = WAXL_USDT(*WAXL_USDT._fields)
-"""
-    name: WAXL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLOKI_USDT(Symbol):
@@ -64416,17 +50798,6 @@ class FLOKI_USDT(Symbol):
 
 
 FLOKI_USDT = FLOKI_USDT(*FLOKI_USDT._fields)
-"""
-    name: FLOKI-USDT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SSV_USDT(Symbol):
@@ -64468,17 +50839,6 @@ class SSV_USDT(Symbol):
 
 
 SSV_USDT = SSV_USDT(*SSV_USDT._fields)
-"""
-    name: SSV-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FLOKI_USDC(Symbol):
@@ -64520,17 +50880,6 @@ class FLOKI_USDC(Symbol):
 
 
 FLOKI_USDC = FLOKI_USDC(*FLOKI_USDC._fields)
-"""
-    name: FLOKI-USDC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ACS_USDT(Symbol):
@@ -64572,17 +50921,6 @@ class ACS_USDT(Symbol):
 
 
 ACS_USDT = ACS_USDT(*ACS_USDT._fields)
-"""
-    name: ACS-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IGU_USDT(Symbol):
@@ -64624,17 +50962,6 @@ class IGU_USDT(Symbol):
 
 
 IGU_USDT = IGU_USDT(*IGU_USDT._fields)
-"""
-    name: IGU-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IGU_BTC(Symbol):
@@ -64676,17 +51003,6 @@ class IGU_BTC(Symbol):
 
 
 IGU_BTC = IGU_BTC(*IGU_BTC._fields)
-"""
-    name: IGU-BTC
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BLUR2L_USDT(Symbol):
@@ -64728,17 +51044,6 @@ class BLUR2L_USDT(Symbol):
 
 
 BLUR2L_USDT = BLUR2L_USDT(*BLUR2L_USDT._fields)
-"""
-    name: BLUR2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BLUR2S_USDT(Symbol):
@@ -64780,17 +51085,6 @@ class BLUR2S_USDT(Symbol):
 
 
 BLUR2S_USDT = BLUR2S_USDT(*BLUR2S_USDT._fields)
-"""
-    name: BLUR2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CSIX_USDT(Symbol):
@@ -64832,17 +51126,6 @@ class CSIX_USDT(Symbol):
 
 
 CSIX_USDT = CSIX_USDT(*CSIX_USDT._fields)
-"""
-    name: CSIX-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class FET_USDT(Symbol):
@@ -64884,17 +51167,6 @@ class FET_USDT(Symbol):
 
 
 FET_USDT = FET_USDT(*FET_USDT._fields)
-"""
-    name: FET-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CSIX_ETH(Symbol):
@@ -64936,17 +51208,6 @@ class CSIX_ETH(Symbol):
 
 
 CSIX_ETH = CSIX_ETH(*CSIX_ETH._fields)
-"""
-    name: CSIX-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFX2L_USDT(Symbol):
@@ -64988,17 +51249,6 @@ class CFX2L_USDT(Symbol):
 
 
 CFX2L_USDT = CFX2L_USDT(*CFX2L_USDT._fields)
-"""
-    name: CFX2L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFX2S_USDT(Symbol):
@@ -65040,17 +51290,6 @@ class CFX2S_USDT(Symbol):
 
 
 CFX2S_USDT = CFX2S_USDT(*CFX2S_USDT._fields)
-"""
-    name: CFX2S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HISEALS_USDT(Symbol):
@@ -65092,17 +51331,6 @@ class HISEALS_USDT(Symbol):
 
 
 HISEALS_USDT = HISEALS_USDT(*HISEALS_USDT._fields)
-"""
-    name: HISEALS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SIDUS_USDT(Symbol):
@@ -65144,17 +51372,6 @@ class SIDUS_USDT(Symbol):
 
 
 SIDUS_USDT = SIDUS_USDT(*SIDUS_USDT._fields)
-"""
-    name: SIDUS-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GOAL_USDT(Symbol):
@@ -65196,17 +51413,6 @@ class GOAL_USDT(Symbol):
 
 
 GOAL_USDT = GOAL_USDT(*GOAL_USDT._fields)
-"""
-    name: GOAL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class AIPAD_USDT(Symbol):
@@ -65248,17 +51454,6 @@ class AIPAD_USDT(Symbol):
 
 
 AIPAD_USDT = AIPAD_USDT(*AIPAD_USDT._fields)
-"""
-    name: AIPAD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RDNT_USDT(Symbol):
@@ -65300,17 +51495,6 @@ class RDNT_USDT(Symbol):
 
 
 RDNT_USDT = RDNT_USDT(*RDNT_USDT._fields)
-"""
-    name: RDNT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DPX_USDT(Symbol):
@@ -65352,17 +51536,6 @@ class DPX_USDT(Symbol):
 
 
 DPX_USDT = DPX_USDT(*DPX_USDT._fields)
-"""
-    name: DPX-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SYN_USDT(Symbol):
@@ -65404,17 +51577,6 @@ class SYN_USDT(Symbol):
 
 
 SYN_USDT = SYN_USDT(*SYN_USDT._fields)
-"""
-    name: SYN-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GNS_USDT(Symbol):
@@ -65456,17 +51618,6 @@ class GNS_USDT(Symbol):
 
 
 GNS_USDT = GNS_USDT(*GNS_USDT._fields)
-"""
-    name: GNS-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GRAIL_USDT(Symbol):
@@ -65508,17 +51659,6 @@ class GRAIL_USDT(Symbol):
 
 
 GRAIL_USDT = GRAIL_USDT(*GRAIL_USDT._fields)
-"""
-    name: GRAIL-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BLZ_USDT(Symbol):
@@ -65560,17 +51700,6 @@ class BLZ_USDT(Symbol):
 
 
 BLZ_USDT = BLZ_USDT(*BLZ_USDT._fields)
-"""
-    name: BLZ-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIBEANZ_USDT(Symbol):
@@ -65612,17 +51741,6 @@ class HIBEANZ_USDT(Symbol):
 
 
 HIBEANZ_USDT = HIBEANZ_USDT(*HIBEANZ_USDT._fields)
-"""
-    name: HIBEANZ-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTC_GBP(Symbol):
@@ -65664,17 +51782,6 @@ class BTC_GBP(Symbol):
 
 
 BTC_GBP = BTC_GBP(*BTC_GBP._fields)
-"""
-    name: BTC-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETH_GBP(Symbol):
@@ -65716,17 +51823,6 @@ class ETH_GBP(Symbol):
 
 
 ETH_GBP = ETH_GBP(*ETH_GBP._fields)
-"""
-    name: ETH-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class USDT_GBP(Symbol):
@@ -65768,17 +51864,6 @@ class USDT_GBP(Symbol):
 
 
 USDT_GBP = USDT_GBP(*USDT_GBP._fields)
-"""
-    name: USDT-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HALO_USDT(Symbol):
@@ -65820,17 +51905,6 @@ class HALO_USDT(Symbol):
 
 
 HALO_USDT = HALO_USDT(*HALO_USDT._fields)
-"""
-    name: HALO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NXRA_USDT(Symbol):
@@ -65872,17 +51946,6 @@ class NXRA_USDT(Symbol):
 
 
 NXRA_USDT = NXRA_USDT(*NXRA_USDT._fields)
-"""
-    name: NXRA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NXRA_ETH(Symbol):
@@ -65924,17 +51987,6 @@ class NXRA_ETH(Symbol):
 
 
 NXRA_ETH = NXRA_ETH(*NXRA_ETH._fields)
-"""
-    name: NXRA-ETH
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MINA_USDT(Symbol):
@@ -65976,17 +52028,6 @@ class MINA_USDT(Symbol):
 
 
 MINA_USDT = MINA_USDT(*MINA_USDT._fields)
-"""
-    name: MINA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class XRD_USDT(Symbol):
@@ -66028,17 +52069,6 @@ class XRD_USDT(Symbol):
 
 
 XRD_USDT = XRD_USDT(*XRD_USDT._fields)
-"""
-    name: XRD-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class NOM_USDT(Symbol):
@@ -66080,17 +52110,6 @@ class NOM_USDT(Symbol):
 
 
 NOM_USDT = NOM_USDT(*NOM_USDT._fields)
-"""
-    name: NOM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LQTY_USDT(Symbol):
@@ -66132,17 +52151,6 @@ class LQTY_USDT(Symbol):
 
 
 LQTY_USDT = LQTY_USDT(*LQTY_USDT._fields)
-"""
-    name: LQTY-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFX_BTC(Symbol):
@@ -66184,17 +52192,6 @@ class CFX_BTC(Symbol):
 
 
 CFX_BTC = CFX_BTC(*CFX_BTC._fields)
-"""
-    name: CFX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: 0.000001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CFX_ETH(Symbol):
@@ -66236,17 +52233,6 @@ class CFX_ETH(Symbol):
 
 
 CFX_ETH = CFX_ETH(*CFX_ETH._fields)
-"""
-    name: CFX-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: 0.00001
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ID_USDT(Symbol):
@@ -66288,17 +52274,6 @@ class ID_USDT(Symbol):
 
 
 ID_USDT = ID_USDT(*ID_USDT._fields)
-"""
-    name: ID-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARB_USDT(Symbol):
@@ -66340,17 +52315,6 @@ class ARB_USDT(Symbol):
 
 
 ARB_USDT = ARB_USDT(*ARB_USDT._fields)
-"""
-    name: ARB-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class ARB3S_USDT(Symbol):
@@ -66392,17 +52356,6 @@ class ARB3S_USDT(Symbol):
 
 
 ARB3S_USDT = ARB3S_USDT(*ARB3S_USDT._fields)
-"""
-    name: ARB3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ARB3L_USDT(Symbol):
@@ -66444,17 +52397,6 @@ class ARB3L_USDT(Symbol):
 
 
 ARB3L_USDT = ARB3L_USDT(*ARB3L_USDT._fields)
-"""
-    name: ARB3L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ID3L_USDT(Symbol):
@@ -66496,17 +52438,6 @@ class ID3L_USDT(Symbol):
 
 
 ID3L_USDT = ID3L_USDT(*ID3L_USDT._fields)
-"""
-    name: ID3L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ID3S_USDT(Symbol):
@@ -66548,17 +52479,6 @@ class ID3S_USDT(Symbol):
 
 
 ID3S_USDT = ID3S_USDT(*ID3S_USDT._fields)
-"""
-    name: ID3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HMND_USDT(Symbol):
@@ -66600,17 +52520,6 @@ class HMND_USDT(Symbol):
 
 
 HMND_USDT = HMND_USDT(*HMND_USDT._fields)
-"""
-    name: HMND-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTCUP_USDT(Symbol):
@@ -66652,17 +52561,6 @@ class BTCUP_USDT(Symbol):
 
 
 BTCUP_USDT = BTCUP_USDT(*BTCUP_USDT._fields)
-"""
-    name: BTCUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BTCDOWN_USDT(Symbol):
@@ -66704,17 +52602,6 @@ class BTCDOWN_USDT(Symbol):
 
 
 BTCDOWN_USDT = BTCDOWN_USDT(*BTCDOWN_USDT._fields)
-"""
-    name: BTCDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETHUP_USDT(Symbol):
@@ -66756,17 +52643,6 @@ class ETHUP_USDT(Symbol):
 
 
 ETHUP_USDT = ETHUP_USDT(*ETHUP_USDT._fields)
-"""
-    name: ETHUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETHDOWN_USDT(Symbol):
@@ -66808,17 +52684,6 @@ class ETHDOWN_USDT(Symbol):
 
 
 ETHDOWN_USDT = ETHDOWN_USDT(*ETHDOWN_USDT._fields)
-"""
-    name: ETHDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class HIFI_USDT(Symbol):
@@ -66860,17 +52725,6 @@ class HIFI_USDT(Symbol):
 
 
 HIFI_USDT = HIFI_USDT(*HIFI_USDT._fields)
-"""
-    name: HIFI-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MYRIA_USDT(Symbol):
@@ -66912,17 +52766,6 @@ class MYRIA_USDT(Symbol):
 
 
 MYRIA_USDT = MYRIA_USDT(*MYRIA_USDT._fields)
-"""
-    name: MYRIA-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SD_USDT(Symbol):
@@ -66964,17 +52807,6 @@ class SD_USDT(Symbol):
 
 
 SD_USDT = SD_USDT(*SD_USDT._fields)
-"""
-    name: SD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class CGPT_USDT(Symbol):
@@ -67016,17 +52848,6 @@ class CGPT_USDT(Symbol):
 
 
 CGPT_USDT = CGPT_USDT(*CGPT_USDT._fields)
-"""
-    name: CGPT-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STRAX_USDT(Symbol):
@@ -67068,17 +52889,6 @@ class STRAX_USDT(Symbol):
 
 
 STRAX_USDT = STRAX_USDT(*STRAX_USDT._fields)
-"""
-    name: STRAX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class KAGI_USDT(Symbol):
@@ -67120,17 +52930,6 @@ class KAGI_USDT(Symbol):
 
 
 KAGI_USDT = KAGI_USDT(*KAGI_USDT._fields)
-"""
-    name: KAGI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RLTM_USDT(Symbol):
@@ -67172,17 +52971,6 @@ class RLTM_USDT(Symbol):
 
 
 RLTM_USDT = RLTM_USDT(*RLTM_USDT._fields)
-"""
-    name: RLTM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DYDXUP_USDT(Symbol):
@@ -67224,17 +53012,6 @@ class DYDXUP_USDT(Symbol):
 
 
 DYDXUP_USDT = DYDXUP_USDT(*DYDXUP_USDT._fields)
-"""
-    name: DYDXUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class DYDXDOWN_USDT(Symbol):
@@ -67276,17 +53053,6 @@ class DYDXDOWN_USDT(Symbol):
 
 
 DYDXDOWN_USDT = DYDXDOWN_USDT(*DYDXDOWN_USDT._fields)
-"""
-    name: DYDXDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SXPUP_USDT(Symbol):
@@ -67328,17 +53094,6 @@ class SXPUP_USDT(Symbol):
 
 
 SXPUP_USDT = SXPUP_USDT(*SXPUP_USDT._fields)
-"""
-    name: SXPUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SXPDOWN_USDT(Symbol):
@@ -67380,17 +53135,6 @@ class SXPDOWN_USDT(Symbol):
 
 
 SXPDOWN_USDT = SXPDOWN_USDT(*SXPDOWN_USDT._fields)
-"""
-    name: SXPDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MASKUP_USDT(Symbol):
@@ -67432,17 +53176,6 @@ class MASKUP_USDT(Symbol):
 
 
 MASKUP_USDT = MASKUP_USDT(*MASKUP_USDT._fields)
-"""
-    name: MASKUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class MASKDOWN_USDT(Symbol):
@@ -67484,17 +53217,6 @@ class MASKDOWN_USDT(Symbol):
 
 
 MASKDOWN_USDT = MASKDOWN_USDT(*MASKDOWN_USDT._fields)
-"""
-    name: MASKDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class OTK_USDT(Symbol):
@@ -67536,17 +53258,6 @@ class OTK_USDT(Symbol):
 
 
 OTK_USDT = OTK_USDT(*OTK_USDT._fields)
-"""
-    name: OTK-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RNDRUP_USDT(Symbol):
@@ -67588,17 +53299,6 @@ class RNDRUP_USDT(Symbol):
 
 
 RNDRUP_USDT = RNDRUP_USDT(*RNDRUP_USDT._fields)
-"""
-    name: RNDRUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class RNDRDOWN_USDT(Symbol):
@@ -67640,17 +53340,6 @@ class RNDRDOWN_USDT(Symbol):
 
 
 RNDRDOWN_USDT = RNDRDOWN_USDT(*RNDRDOWN_USDT._fields)
-"""
-    name: RNDRDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STXUP_USDT(Symbol):
@@ -67692,17 +53381,6 @@ class STXUP_USDT(Symbol):
 
 
 STXUP_USDT = STXUP_USDT(*STXUP_USDT._fields)
-"""
-    name: STXUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class STXDOWN_USDT(Symbol):
@@ -67744,17 +53422,6 @@ class STXDOWN_USDT(Symbol):
 
 
 STXDOWN_USDT = STXDOWN_USDT(*STXDOWN_USDT._fields)
-"""
-    name: STXDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINAUP_USDT(Symbol):
@@ -67796,17 +53463,6 @@ class LINAUP_USDT(Symbol):
 
 
 LINAUP_USDT = LINAUP_USDT(*LINAUP_USDT._fields)
-"""
-    name: LINAUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LINADOWN_USDT(Symbol):
@@ -67848,17 +53504,6 @@ class LINADOWN_USDT(Symbol):
 
 
 LINADOWN_USDT = LINADOWN_USDT(*LINADOWN_USDT._fields)
-"""
-    name: LINADOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class GPT_USDT(Symbol):
@@ -67900,17 +53545,6 @@ class GPT_USDT(Symbol):
 
 
 GPT_USDT = GPT_USDT(*GPT_USDT._fields)
-"""
-    name: GPT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class BABYDOGE_USDT(Symbol):
@@ -67952,17 +53586,6 @@ class BABYDOGE_USDT(Symbol):
 
 
 BABYDOGE_USDT = BABYDOGE_USDT(*BABYDOGE_USDT._fields)
-"""
-    name: BABYDOGE-USDT
-    significant_digits: None
-    tick_size: 0.000000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100000000
-    max_order_size: 1000000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PZP_USDT(Symbol):
@@ -68004,17 +53627,6 @@ class PZP_USDT(Symbol):
 
 
 PZP_USDT = PZP_USDT(*PZP_USDT._fields)
-"""
-    name: PZP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class INJDOWN_USDT(Symbol):
@@ -68056,17 +53668,6 @@ class INJDOWN_USDT(Symbol):
 
 
 INJDOWN_USDT = INJDOWN_USDT(*INJDOWN_USDT._fields)
-"""
-    name: INJDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETCUP_USDT(Symbol):
@@ -68108,17 +53709,6 @@ class ETCUP_USDT(Symbol):
 
 
 ETCUP_USDT = ETCUP_USDT(*ETCUP_USDT._fields)
-"""
-    name: ETCUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ETCDOWN_USDT(Symbol):
@@ -68160,17 +53750,6 @@ class ETCDOWN_USDT(Symbol):
 
 
 ETCDOWN_USDT = ETCDOWN_USDT(*ETCDOWN_USDT._fields)
-"""
-    name: ETCDOWN-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class INJUP_USDT(Symbol):
@@ -68212,17 +53791,6 @@ class INJUP_USDT(Symbol):
 
 
 INJUP_USDT = INJUP_USDT(*INJUP_USDT._fields)
-"""
-    name: INJUP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 999999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class LOCUS_USDT(Symbol):
@@ -68264,17 +53832,6 @@ class LOCUS_USDT(Symbol):
 
 
 LOCUS_USDT = LOCUS_USDT(*LOCUS_USDT._fields)
-"""
-    name: LOCUS-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IRON_USDT(Symbol):
@@ -68316,17 +53873,6 @@ class IRON_USDT(Symbol):
 
 
 IRON_USDT = IRON_USDT(*IRON_USDT._fields)
-"""
-    name: IRON-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class ZPAY_USDT(Symbol):
@@ -68368,17 +53914,6 @@ class ZPAY_USDT(Symbol):
 
 
 ZPAY_USDT = ZPAY_USDT(*ZPAY_USDT._fields)
-"""
-    name: ZPAY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class IZI_USDT(Symbol):
@@ -68420,17 +53955,6 @@ class IZI_USDT(Symbol):
 
 
 IZI_USDT = IZI_USDT(*IZI_USDT._fields)
-"""
-    name: IZI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUI_USDT(Symbol):
@@ -68472,17 +53996,6 @@ class SUI_USDT(Symbol):
 
 
 SUI_USDT = SUI_USDT(*SUI_USDT._fields)
-"""
-    name: SUI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: 10000000000
-    has_margin: True
-    exchange: kucoin
-"""
 
 
 class SUI3S_USDT(Symbol):
@@ -68524,17 +54037,6 @@ class SUI3S_USDT(Symbol):
 
 
 SUI3S_USDT = SUI3S_USDT(*SUI3S_USDT._fields)
-"""
-    name: SUI3S-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 9999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class SUI3L_USDT(Symbol):
@@ -68576,17 +54078,6 @@ class SUI3L_USDT(Symbol):
 
 
 SUI3L_USDT = SUI3L_USDT(*SUI3L_USDT._fields)
-"""
-    name: SUI3L-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 0.1
-    max_order_size: 99999999999
-    has_margin: False
-    exchange: kucoin
-"""
 
 
 class PEPE_USDT(Symbol):
@@ -68628,14 +54119,1332 @@ class PEPE_USDT(Symbol):
 
 
 PEPE_USDT = PEPE_USDT(*PEPE_USDT._fields)
-"""
-    name: PEPE-USDT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: 0.1
-    initial_margin: None
-    min_order_size: 100000
-    max_order_size: 10000000000
-    has_margin: False
-    exchange: kucoin
-"""
+
+
+class Kucoin:
+
+    OXEN_BTC: Symbol = OXEN_BTC
+    OXEN_ETH: Symbol = OXEN_ETH
+    NRG_BTC: Symbol = NRG_BTC
+    AVA_USDT: Symbol = AVA_USDT
+    FET_BTC: Symbol = FET_BTC
+    FET_ETH: Symbol = FET_ETH
+    ANKR_BTC: Symbol = ANKR_BTC
+    XMR_BTC: Symbol = XMR_BTC
+    XMR_ETH: Symbol = XMR_ETH
+    MTV_BTC: Symbol = MTV_BTC
+    MTV_ETH: Symbol = MTV_ETH
+    CRO_BTC: Symbol = CRO_BTC
+    MTV_USDT: Symbol = MTV_USDT
+    KMD_BTC: Symbol = KMD_BTC
+    KMD_USDT: Symbol = KMD_USDT
+    RFOX_USDT: Symbol = RFOX_USDT
+    TEL_USDT: Symbol = TEL_USDT
+    TT_USDT: Symbol = TT_USDT
+    AERGO_USDT: Symbol = AERGO_USDT
+    XMR_USDT: Symbol = XMR_USDT
+    TRX_KCS: Symbol = TRX_KCS
+    ATOM_BTC: Symbol = ATOM_BTC
+    ATOM_ETH: Symbol = ATOM_ETH
+    ATOM_USDT: Symbol = ATOM_USDT
+    ATOM_KCS: Symbol = ATOM_KCS
+    ETN_USDT: Symbol = ETN_USDT
+    FTM_USDT: Symbol = FTM_USDT
+    VSYS_USDT: Symbol = VSYS_USDT
+    OCEAN_BTC: Symbol = OCEAN_BTC
+    OCEAN_ETH: Symbol = OCEAN_ETH
+    CHR_BTC: Symbol = CHR_BTC
+    CHR_USDT: Symbol = CHR_USDT
+    FX_BTC: Symbol = FX_BTC
+    FX_ETH: Symbol = FX_ETH
+    NIM_BTC: Symbol = NIM_BTC
+    NIM_ETH: Symbol = NIM_ETH
+    COTI_BTC: Symbol = COTI_BTC
+    COTI_USDT: Symbol = COTI_USDT
+    NRG_ETH: Symbol = NRG_ETH
+    BNB_BTC: Symbol = BNB_BTC
+    BNB_USDT: Symbol = BNB_USDT
+    JAR_BTC: Symbol = JAR_BTC
+    JAR_USDT: Symbol = JAR_USDT
+    ALGO_BTC: Symbol = ALGO_BTC
+    ALGO_ETH: Symbol = ALGO_ETH
+    ALGO_USDT: Symbol = ALGO_USDT
+    XEM_BTC: Symbol = XEM_BTC
+    XEM_USDT: Symbol = XEM_USDT
+    CIX100_USDT: Symbol = CIX100_USDT
+    XTZ_BTC: Symbol = XTZ_BTC
+    XTZ_USDT: Symbol = XTZ_USDT
+    ZEC_BTC: Symbol = ZEC_BTC
+    ZEC_USDT: Symbol = ZEC_USDT
+    ADA_BTC: Symbol = ADA_BTC
+    ADA_USDT: Symbol = ADA_USDT
+    REV_USDT: Symbol = REV_USDT
+    FORESTPLUS_BTC: Symbol = FORESTPLUS_BTC
+    FORESTPLUS_USDT: Symbol = FORESTPLUS_USDT
+    BOLT_BTC: Symbol = BOLT_BTC
+    BOLT_USDT: Symbol = BOLT_USDT
+    ARPA_USDT: Symbol = ARPA_USDT
+    CHZ_BTC: Symbol = CHZ_BTC
+    CHZ_USDT: Symbol = CHZ_USDT
+    DAPPT_BTC: Symbol = DAPPT_BTC
+    DAPPT_USDT: Symbol = DAPPT_USDT
+    NOIA_BTC: Symbol = NOIA_BTC
+    NOIA_USDT: Symbol = NOIA_USDT
+    WIN_BTC: Symbol = WIN_BTC
+    WIN_USDT: Symbol = WIN_USDT
+    DERO_BTC: Symbol = DERO_BTC
+    DERO_USDT: Symbol = DERO_USDT
+    BTT_USDT: Symbol = BTT_USDT
+    EOSC_USDT: Symbol = EOSC_USDT
+    ENQ_BTC: Symbol = ENQ_BTC
+    ENQ_USDT: Symbol = ENQ_USDT
+    ONE_BTC: Symbol = ONE_BTC
+    ONE_USDT: Symbol = ONE_USDT
+    TOKO_BTC: Symbol = TOKO_BTC
+    TOKO_USDT: Symbol = TOKO_USDT
+    VID_BTC: Symbol = VID_BTC
+    VID_USDT: Symbol = VID_USDT
+    LUNA_USDT: Symbol = LUNA_USDT
+    SXP_BTC: Symbol = SXP_BTC
+    SXP_USDT: Symbol = SXP_USDT
+    AKRO_BTC: Symbol = AKRO_BTC
+    AKRO_USDT: Symbol = AKRO_USDT
+    ROOBEE_BTC: Symbol = ROOBEE_BTC
+    WIN_TRX: Symbol = WIN_TRX
+    MAP_BTC: Symbol = MAP_BTC
+    MAP_USDT: Symbol = MAP_USDT
+    AMPL_BTC: Symbol = AMPL_BTC
+    AMPL_USDT: Symbol = AMPL_USDT
+    DAG_USDT: Symbol = DAG_USDT
+    POL_USDT: Symbol = POL_USDT
+    ARX_USDT: Symbol = ARX_USDT
+    NWC_BTC: Symbol = NWC_BTC
+    NWC_USDT: Symbol = NWC_USDT
+    BEPRO_BTC: Symbol = BEPRO_BTC
+    BEPRO_USDT: Symbol = BEPRO_USDT
+    VRA_BTC: Symbol = VRA_BTC
+    VRA_USDT: Symbol = VRA_USDT
+    KSM_BTC: Symbol = KSM_BTC
+    KSM_USDT: Symbol = KSM_USDT
+    DASH_USDT: Symbol = DASH_USDT
+    SUTER_USDT: Symbol = SUTER_USDT
+    ACOIN_USDT: Symbol = ACOIN_USDT
+    SUTER_BTC: Symbol = SUTER_BTC
+    SENSO_USDT: Symbol = SENSO_USDT
+    PRE_BTC: Symbol = PRE_BTC
+    XDB_USDT: Symbol = XDB_USDT
+    SYLO_USDT: Symbol = SYLO_USDT
+    WOM_USDT: Symbol = WOM_USDT
+    SENSO_BTC: Symbol = SENSO_BTC
+    DGB_USDT: Symbol = DGB_USDT
+    LYXE_USDT: Symbol = LYXE_USDT
+    LYXE_ETH: Symbol = LYXE_ETH
+    XDB_BTC: Symbol = XDB_BTC
+    STX_BTC: Symbol = STX_BTC
+    STX_USDT: Symbol = STX_USDT
+    COMP_USDT: Symbol = COMP_USDT
+    CRO_USDT: Symbol = CRO_USDT
+    KAI_USDT: Symbol = KAI_USDT
+    KAI_BTC: Symbol = KAI_BTC
+    WEST_BTC: Symbol = WEST_BTC
+    WEST_USDT: Symbol = WEST_USDT
+    EWT_BTC: Symbol = EWT_BTC
+    WAVES_USDT: Symbol = WAVES_USDT
+    WAVES_BTC: Symbol = WAVES_BTC
+    ORN_USDT: Symbol = ORN_USDT
+    AMPL_ETH: Symbol = AMPL_ETH
+    BNS_USDT: Symbol = BNS_USDT
+    BNS_BTC: Symbol = BNS_BTC
+    MKR_USDT: Symbol = MKR_USDT
+    SUKU_BTC: Symbol = SUKU_BTC
+    MLK_BTC: Symbol = MLK_BTC
+    MLK_USDT: Symbol = MLK_USDT
+    JST_USDT: Symbol = JST_USDT
+    KAI_ETH: Symbol = KAI_ETH
+    SUKU_USDT: Symbol = SUKU_USDT
+    DIA_USDT: Symbol = DIA_USDT
+    DIA_BTC: Symbol = DIA_BTC
+    LINK_BTC: Symbol = LINK_BTC
+    LINK_USDT: Symbol = LINK_USDT
+    DOT_USDT: Symbol = DOT_USDT
+    DOT_BTC: Symbol = DOT_BTC
+    SHA_BTC: Symbol = SHA_BTC
+    SHA_USDT: Symbol = SHA_USDT
+    EWT_USDT: Symbol = EWT_USDT
+    USDJ_USDT: Symbol = USDJ_USDT
+    EFX_BTC: Symbol = EFX_BTC
+    CKB_BTC: Symbol = CKB_BTC
+    CKB_USDT: Symbol = CKB_USDT
+    UMA_USDT: Symbol = UMA_USDT
+    ALEPH_USDT: Symbol = ALEPH_USDT
+    VELO_USDT: Symbol = VELO_USDT
+    SUN_USDT: Symbol = SUN_USDT
+    BUY_USDT: Symbol = BUY_USDT
+    YFI_USDT: Symbol = YFI_USDT
+    OXEN_USDT: Symbol = OXEN_USDT
+    UNI_USDT: Symbol = UNI_USDT
+    UOS_USDT: Symbol = UOS_USDT
+    UOS_BTC: Symbol = UOS_BTC
+    NIM_USDT: Symbol = NIM_USDT
+    DEGO_USDT: Symbol = DEGO_USDT
+    DEGO_ETH: Symbol = DEGO_ETH
+    RFUEL_USDT: Symbol = RFUEL_USDT
+    FIL_USDT: Symbol = FIL_USDT
+    UBX_ETH: Symbol = UBX_ETH
+    REAP_USDT: Symbol = REAP_USDT
+    AAVE_USDT: Symbol = AAVE_USDT
+    AAVE_BTC: Symbol = AAVE_BTC
+    TONE_BTC: Symbol = TONE_BTC
+    TONE_ETH: Symbol = TONE_ETH
+    ELF_ETH: Symbol = ELF_ETH
+    AERGO_BTC: Symbol = AERGO_BTC
+    IOST_ETH: Symbol = IOST_ETH
+    KCS_USDT: Symbol = KCS_USDT
+    SNX_ETH: Symbol = SNX_ETH
+    KCS_ETH: Symbol = KCS_ETH
+    WAN_ETH: Symbol = WAN_ETH
+    NULS_ETH: Symbol = NULS_ETH
+    QTUM_BTC: Symbol = QTUM_BTC
+    MANA_BTC: Symbol = MANA_BTC
+    TEL_BTC: Symbol = TEL_BTC
+    XYO_ETH: Symbol = XYO_ETH
+    ETN_BTC: Symbol = ETN_BTC
+    COV_ETH: Symbol = COV_ETH
+    VET_BTC: Symbol = VET_BTC
+    KCS_BTC: Symbol = KCS_BTC
+    CAPP_ETH: Symbol = CAPP_ETH
+    ONT_BTC: Symbol = ONT_BTC
+    DAG_ETH: Symbol = DAG_ETH
+    WAN_BTC: Symbol = WAN_BTC
+    KNC_ETH: Symbol = KNC_ETH
+    CRPT_ETH: Symbol = CRPT_ETH
+    LTC_USDT: Symbol = LTC_USDT
+    BAX_ETH: Symbol = BAX_ETH
+    BSV_USDT: Symbol = BSV_USDT
+    DENT_ETH: Symbol = DENT_ETH
+    LYM_ETH: Symbol = LYM_ETH
+    TRAC_ETH: Symbol = TRAC_ETH
+    ENJ_BTC: Symbol = ENJ_BTC
+    WAXP_BTC: Symbol = WAXP_BTC
+    DGB_BTC: Symbol = DGB_BTC
+    ELA_BTC: Symbol = ELA_BTC
+    ZIL_BTC: Symbol = ZIL_BTC
+    BSV_BTC: Symbol = BSV_BTC
+    XLM_USDT: Symbol = XLM_USDT
+    IOTX_ETH: Symbol = IOTX_ETH
+    SOUL_BTC: Symbol = SOUL_BTC
+    DOCK_BTC: Symbol = DOCK_BTC
+    AMB_ETH: Symbol = AMB_ETH
+    TRX_BTC: Symbol = TRX_BTC
+    XRP_TUSD: Symbol = XRP_TUSD
+    NULS_BTC: Symbol = NULS_BTC
+    ETH_DAI: Symbol = ETH_DAI
+    LSK_BTC: Symbol = LSK_BTC
+    GMB_ETH: Symbol = GMB_ETH
+    GMB_BTC: Symbol = GMB_BTC
+    NEO_ETH: Symbol = NEO_ETH
+    OMG_ETH: Symbol = OMG_ETH
+    BTC_TUSD: Symbol = BTC_TUSD
+    KAT_USDT: Symbol = KAT_USDT
+    KNC_BTC: Symbol = KNC_BTC
+    ELF_BTC: Symbol = ELF_BTC
+    MANA_ETH: Symbol = MANA_ETH
+    ETC_USDT: Symbol = ETC_USDT
+    ONT_ETH: Symbol = ONT_ETH
+    MKR_BTC: Symbol = MKR_BTC
+    KAT_BTC: Symbol = KAT_BTC
+    XRP_USDC: Symbol = XRP_USDC
+    XYO_BTC: Symbol = XYO_BTC
+    ZRX_BTC: Symbol = ZRX_BTC
+    LOOM_ETH: Symbol = LOOM_ETH
+    OLT_ETH: Symbol = OLT_ETH
+    OLT_BTC: Symbol = OLT_BTC
+    TRAC_BTC: Symbol = TRAC_BTC
+    XLM_ETH: Symbol = XLM_ETH
+    ETH_USDT: Symbol = ETH_USDT
+    BSV_ETH: Symbol = BSV_ETH
+    TRX_ETH: Symbol = TRX_ETH
+    ETN_ETH: Symbol = ETN_ETH
+    AOA_USDT: Symbol = AOA_USDT
+    DENT_BTC: Symbol = DENT_BTC
+    DOCK_ETH: Symbol = DOCK_ETH
+    KEY_BTC: Symbol = KEY_BTC
+    EOS_KCS: Symbol = EOS_KCS
+    XLM_BTC: Symbol = XLM_BTC
+    TIME_ETH: Symbol = TIME_ETH
+    CVC_BTC: Symbol = CVC_BTC
+    LSK_ETH: Symbol = LSK_ETH
+    QKC_BTC: Symbol = QKC_BTC
+    AMB_BTC: Symbol = AMB_BTC
+    USDT_TUSD: Symbol = USDT_TUSD
+    ETC_ETH: Symbol = ETC_ETH
+    XRP_BTC: Symbol = XRP_BTC
+    NEO_KCS: Symbol = NEO_KCS
+    SNX_USDT: Symbol = SNX_USDT
+    CRPT_BTC: Symbol = CRPT_BTC
+    IOTX_BTC: Symbol = IOTX_BTC
+    LTC_ETH: Symbol = LTC_ETH
+    XRP_KCS: Symbol = XRP_KCS
+    LTC_KCS: Symbol = LTC_KCS
+    TEL_ETH: Symbol = TEL_ETH
+    DCR_ETH: Symbol = DCR_ETH
+    LYM_USDT: Symbol = LYM_USDT
+    USDT_USDC: Symbol = USDT_USDC
+    ETH_USDC: Symbol = ETH_USDC
+    DAG_BTC: Symbol = DAG_BTC
+    AVA_BTC: Symbol = AVA_BTC
+    BTC_USDT: Symbol = BTC_USDT
+    WAXP_ETH: Symbol = WAXP_ETH
+    XRP_USDT: Symbol = XRP_USDT
+    KEY_ETH: Symbol = KEY_ETH
+    VET_ETH: Symbol = VET_ETH
+    FTM_BTC: Symbol = FTM_BTC
+    USDT_DAI: Symbol = USDT_DAI
+    QKC_ETH: Symbol = QKC_ETH
+    ETH_BTC: Symbol = ETH_BTC
+    MAN_BTC: Symbol = MAN_BTC
+    CPC_ETH: Symbol = CPC_ETH
+    TRX_USDT: Symbol = TRX_USDT
+    BTC_DAI: Symbol = BTC_DAI
+    ONT_USDT: Symbol = ONT_USDT
+    DASH_ETH: Symbol = DASH_ETH
+    BAX_BTC: Symbol = BAX_BTC
+    AVA_ETH: Symbol = AVA_ETH
+    LOOM_BTC: Symbol = LOOM_BTC
+    MKR_ETH: Symbol = MKR_ETH
+    COV_BTC: Symbol = COV_BTC
+    CPC_BTC: Symbol = CPC_BTC
+    REQ_ETH: Symbol = REQ_ETH
+    EOS_BTC: Symbol = EOS_BTC
+    LTC_BTC: Symbol = LTC_BTC
+    XRP_ETH: Symbol = XRP_ETH
+    CAPP_BTC: Symbol = CAPP_BTC
+    FTM_ETH: Symbol = FTM_ETH
+    ZRX_ETH: Symbol = ZRX_ETH
+    DGB_ETH: Symbol = DGB_ETH
+    VET_USDT: Symbol = VET_USDT
+    REQ_BTC: Symbol = REQ_BTC
+    UTK_BTC: Symbol = UTK_BTC
+    PLAY_BTC: Symbol = PLAY_BTC
+    UTK_ETH: Symbol = UTK_ETH
+    SNX_BTC: Symbol = SNX_BTC
+    NEO_BTC: Symbol = NEO_BTC
+    SOUL_ETH: Symbol = SOUL_ETH
+    NEO_USDT: Symbol = NEO_USDT
+    ELA_ETH: Symbol = ELA_ETH
+    OMG_BTC: Symbol = OMG_BTC
+    TIME_BTC: Symbol = TIME_BTC
+    AOA_BTC: Symbol = AOA_BTC
+    ETC_BTC: Symbol = ETC_BTC
+    DCR_BTC: Symbol = DCR_BTC
+    BTC_USDC: Symbol = BTC_USDC
+    ENJ_ETH: Symbol = ENJ_ETH
+    IOST_BTC: Symbol = IOST_BTC
+    DASH_BTC: Symbol = DASH_BTC
+    EOS_USDT: Symbol = EOS_USDT
+    EOS_ETH: Symbol = EOS_ETH
+    ZIL_ETH: Symbol = ZIL_ETH
+    ETH_TUSD: Symbol = ETH_TUSD
+    GAS_BTC: Symbol = GAS_BTC
+    LYM_BTC: Symbol = LYM_BTC
+    BCH_BTC: Symbol = BCH_BTC
+    VSYS_BTC: Symbol = VSYS_BTC
+    BCH_USDT: Symbol = BCH_USDT
+    MKR_DAI: Symbol = MKR_DAI
+    SOLVE_BTC: Symbol = SOLVE_BTC
+    UQC_BTC: Symbol = UQC_BTC
+    UQC_ETH: Symbol = UQC_ETH
+    OPCT_BTC: Symbol = OPCT_BTC
+    OPCT_ETH: Symbol = OPCT_ETH
+    PRE_USDT: Symbol = PRE_USDT
+    SHR_BTC: Symbol = SHR_BTC
+    SHR_USDT: Symbol = SHR_USDT
+    VIDT_USDT: Symbol = VIDT_USDT
+    ROSE_USDT: Symbol = ROSE_USDT
+    USDC_USDT: Symbol = USDC_USDT
+    CTI_USDT: Symbol = CTI_USDT
+    CTI_ETH: Symbol = CTI_ETH
+    ETH2_ETH: Symbol = ETH2_ETH
+    BUX_BTC: Symbol = BUX_BTC
+    XHV_USDT: Symbol = XHV_USDT
+    PLU_USDT: Symbol = PLU_USDT
+    GRT_USDT: Symbol = GRT_USDT
+    CAS_BTC: Symbol = CAS_BTC
+    CAS_USDT: Symbol = CAS_USDT
+    MSWAP_BTC: Symbol = MSWAP_BTC
+    MSWAP_USDT: Symbol = MSWAP_USDT
+    REVV_BTC: Symbol = REVV_BTC
+    REVV_USDT: Symbol = REVV_USDT
+    ONEINCH_USDT: Symbol = ONEINCH_USDT
+    LOC_USDT: Symbol = LOC_USDT
+    API3_USDT: Symbol = API3_USDT
+    UNFI_USDT: Symbol = UNFI_USDT
+    HTR_USDT: Symbol = HTR_USDT
+    FRONT_USDT: Symbol = FRONT_USDT
+    FRONT_BTC: Symbol = FRONT_BTC
+    WBTC_BTC: Symbol = WBTC_BTC
+    WBTC_ETH: Symbol = WBTC_ETH
+    MIR_USDT: Symbol = MIR_USDT
+    LTC_USDC: Symbol = LTC_USDC
+    BCH_USDC: Symbol = BCH_USDC
+    HYDRA_USDT: Symbol = HYDRA_USDT
+    DFI_USDT: Symbol = DFI_USDT
+    DFI_BTC: Symbol = DFI_BTC
+    CRV_USDT: Symbol = CRV_USDT
+    SUSHI_USDT: Symbol = SUSHI_USDT
+    FRM_USDT: Symbol = FRM_USDT
+    EOS_USDC: Symbol = EOS_USDC
+    BSV_USDC: Symbol = BSV_USDC
+    ZEN_USDT: Symbol = ZEN_USDT
+    CUDOS_USDT: Symbol = CUDOS_USDT
+    ADA_USDC: Symbol = ADA_USDC
+    REN_USDT: Symbol = REN_USDT
+    LRC_USDT: Symbol = LRC_USDT
+    LINK_USDC: Symbol = LINK_USDC
+    KLV_USDT: Symbol = KLV_USDT
+    KLV_BTC: Symbol = KLV_BTC
+    BOA_USDT: Symbol = BOA_USDT
+    THETA_USDT: Symbol = THETA_USDT
+    QNT_USDT: Symbol = QNT_USDT
+    BAT_USDT: Symbol = BAT_USDT
+    DOGE_USDT: Symbol = DOGE_USDT
+    DOGE_USDC: Symbol = DOGE_USDC
+    DAO_USDT: Symbol = DAO_USDT
+    STRONG_USDT: Symbol = STRONG_USDT
+    TRIAS_USDT: Symbol = TRIAS_USDT
+    TRIAS_BTC: Symbol = TRIAS_BTC
+    DOGE_BTC: Symbol = DOGE_BTC
+    MITX_BTC: Symbol = MITX_BTC
+    MITX_USDT: Symbol = MITX_USDT
+    CAKE_USDT: Symbol = CAKE_USDT
+    ORAI_USDT: Symbol = ORAI_USDT
+    ZEE_USDT: Symbol = ZEE_USDT
+    LTX_USDT: Symbol = LTX_USDT
+    LTX_BTC: Symbol = LTX_BTC
+    MASK_USDT: Symbol = MASK_USDT
+    KLV_TRX: Symbol = KLV_TRX
+    IDEA_USDT: Symbol = IDEA_USDT
+    PHA_USDT: Symbol = PHA_USDT
+    PHA_ETH: Symbol = PHA_ETH
+    BCH_KCS: Symbol = BCH_KCS
+    SRK_USDT: Symbol = SRK_USDT
+    SRK_BTC: Symbol = SRK_BTC
+    ADA_KCS: Symbol = ADA_KCS
+    HTR_BTC: Symbol = HTR_BTC
+    BSV_KCS: Symbol = BSV_KCS
+    DOT_KCS: Symbol = DOT_KCS
+    LINK_KCS: Symbol = LINK_KCS
+    MIR_KCS: Symbol = MIR_KCS
+    BNB_KCS: Symbol = BNB_KCS
+    XLM_KCS: Symbol = XLM_KCS
+    VET_KCS: Symbol = VET_KCS
+    SWINGBY_USDT: Symbol = SWINGBY_USDT
+    SWINGBY_BTC: Symbol = SWINGBY_BTC
+    XHV_BTC: Symbol = XHV_BTC
+    DASH_KCS: Symbol = DASH_KCS
+    UNI_KCS: Symbol = UNI_KCS
+    AAVE_KCS: Symbol = AAVE_KCS
+    DOGE_KCS: Symbol = DOGE_KCS
+    ZEC_KCS: Symbol = ZEC_KCS
+    XTZ_KCS: Symbol = XTZ_KCS
+    GRT_KCS: Symbol = GRT_KCS
+    ALGO_KCS: Symbol = ALGO_KCS
+    EWT_KCS: Symbol = EWT_KCS
+    GAS_USDT: Symbol = GAS_USDT
+    AVAX_USDT: Symbol = AVAX_USDT
+    AVAX_BTC: Symbol = AVAX_BTC
+    KRL_BTC: Symbol = KRL_BTC
+    KRL_USDT: Symbol = KRL_USDT
+    POLK_USDT: Symbol = POLK_USDT
+    POLK_BTC: Symbol = POLK_BTC
+    ENJ_USDT: Symbol = ENJ_USDT
+    MANA_USDT: Symbol = MANA_USDT
+    RNDR_USDT: Symbol = RNDR_USDT
+    RNDR_BTC: Symbol = RNDR_BTC
+    RLY_USDT: Symbol = RLY_USDT
+    ANC_USDT: Symbol = ANC_USDT
+    SKEY_USDT: Symbol = SKEY_USDT
+    LAYER_USDT: Symbol = LAYER_USDT
+    TARA_USDT: Symbol = TARA_USDT
+    TARA_ETH: Symbol = TARA_ETH
+    IOST_USDT: Symbol = IOST_USDT
+    DYP_USDT: Symbol = DYP_USDT
+    DYP_ETH: Symbol = DYP_ETH
+    XYM_USDT: Symbol = XYM_USDT
+    XYM_BTC: Symbol = XYM_BTC
+    PCX_USDT: Symbol = PCX_USDT
+    PCX_BTC: Symbol = PCX_BTC
+    ORBS_USDT: Symbol = ORBS_USDT
+    ORBS_BTC: Symbol = ORBS_BTC
+    BTC3L_USDT: Symbol = BTC3L_USDT
+    BTC3S_USDT: Symbol = BTC3S_USDT
+    ETH3L_USDT: Symbol = ETH3L_USDT
+    ETH3S_USDT: Symbol = ETH3S_USDT
+    ANKR_USDT: Symbol = ANKR_USDT
+    DSLA_USDT: Symbol = DSLA_USDT
+    DSLA_BTC: Symbol = DSLA_BTC
+    SAND_USDT: Symbol = SAND_USDT
+    VAI_USDT: Symbol = VAI_USDT
+    XCUR_USDT: Symbol = XCUR_USDT
+    XCUR_BTC: Symbol = XCUR_BTC
+    FLUX_USDT: Symbol = FLUX_USDT
+    OMG_USDT: Symbol = OMG_USDT
+    ZIL_USDT: Symbol = ZIL_USDT
+    DODO_USDT: Symbol = DODO_USDT
+    MAN_USDT: Symbol = MAN_USDT
+    BAX_USDT: Symbol = BAX_USDT
+    BOSON_USDT: Symbol = BOSON_USDT
+    BOSON_ETH: Symbol = BOSON_ETH
+    PUNDIX_USDT: Symbol = PUNDIX_USDT
+    PUNDIX_BTC: Symbol = PUNDIX_BTC
+    WAXP_USDT: Symbol = WAXP_USDT
+    HT_USDT: Symbol = HT_USDT
+    PDEX_USDT: Symbol = PDEX_USDT
+    LABS_USDT: Symbol = LABS_USDT
+    LABS_ETH: Symbol = LABS_ETH
+    GMB_USDT: Symbol = GMB_USDT
+    PHNX_USDT: Symbol = PHNX_USDT
+    PHNX_BTC: Symbol = PHNX_BTC
+    HAI_USDT: Symbol = HAI_USDT
+    EQZ_USDT: Symbol = EQZ_USDT
+    FORTH_USDT: Symbol = FORTH_USDT
+    CGG_USDT: Symbol = CGG_USDT
+    UBX_USDT: Symbol = UBX_USDT
+    GHX_USDT: Symbol = GHX_USDT
+    STND_USDT: Symbol = STND_USDT
+    STND_ETH: Symbol = STND_ETH
+    TOWER_USDT: Symbol = TOWER_USDT
+    TOWER_BTC: Symbol = TOWER_BTC
+    ACE_USDT: Symbol = ACE_USDT
+    LOCG_USDT: Symbol = LOCG_USDT
+    CARD_USDT: Symbol = CARD_USDT
+    FLY_USDT: Symbol = FLY_USDT
+    CWS_USDT: Symbol = CWS_USDT
+    XDC_USDT: Symbol = XDC_USDT
+    XDC_ETH: Symbol = XDC_ETH
+    STRK_BTC: Symbol = STRK_BTC
+    STRK_ETH: Symbol = STRK_ETH
+    SHIB_USDT: Symbol = SHIB_USDT
+    POLX_USDT: Symbol = POLX_USDT
+    KDA_USDT: Symbol = KDA_USDT
+    KDA_BTC: Symbol = KDA_BTC
+    ICP_USDT: Symbol = ICP_USDT
+    ICP_BTC: Symbol = ICP_BTC
+    STC_USDT: Symbol = STC_USDT
+    STC_BTC: Symbol = STC_BTC
+    GOVI_USDT: Symbol = GOVI_USDT
+    GOVI_BTC: Symbol = GOVI_BTC
+    FKX_USDT: Symbol = FKX_USDT
+    CELO_USDT: Symbol = CELO_USDT
+    CELO_BTC: Symbol = CELO_BTC
+    CUSD_USDT: Symbol = CUSD_USDT
+    CUSD_BTC: Symbol = CUSD_BTC
+    MATIC_USDT: Symbol = MATIC_USDT
+    MATIC_BTC: Symbol = MATIC_BTC
+    ELA_USDT: Symbol = ELA_USDT
+    CRPT_USDT: Symbol = CRPT_USDT
+    OPCT_USDT: Symbol = OPCT_USDT
+    OGN_USDT: Symbol = OGN_USDT
+    OGN_BTC: Symbol = OGN_BTC
+    OUSD_USDT: Symbol = OUSD_USDT
+    OUSD_BTC: Symbol = OUSD_BTC
+    TLOS_USDT: Symbol = TLOS_USDT
+    TLOS_BTC: Symbol = TLOS_BTC
+    GLQ_USDT: Symbol = GLQ_USDT
+    GLQ_BTC: Symbol = GLQ_BTC
+    MXC_USDT: Symbol = MXC_USDT
+    ERSDL_USDT: Symbol = ERSDL_USDT
+    HOTCROSS_USDT: Symbol = HOTCROSS_USDT
+    ADA3L_USDT: Symbol = ADA3L_USDT
+    ADA3S_USDT: Symbol = ADA3S_USDT
+    HYVE_USDT: Symbol = HYVE_USDT
+    HYVE_BTC: Symbol = HYVE_BTC
+    DAPPX_USDT: Symbol = DAPPX_USDT
+    KONO_USDT: Symbol = KONO_USDT
+    PRQ_USDT: Symbol = PRQ_USDT
+    MAHA_USDT: Symbol = MAHA_USDT
+    MAHA_BTC: Symbol = MAHA_BTC
+    FEAR_USDT: Symbol = FEAR_USDT
+    PYR_USDT: Symbol = PYR_USDT
+    PYR_BTC: Symbol = PYR_BTC
+    PROM_USDT: Symbol = PROM_USDT
+    PROM_BTC: Symbol = PROM_BTC
+    GLCH_USDT: Symbol = GLCH_USDT
+    UNO_USDT: Symbol = UNO_USDT
+    XCAD_USDT: Symbol = XCAD_USDT
+    EOS3L_USDT: Symbol = EOS3L_USDT
+    EOS3S_USDT: Symbol = EOS3S_USDT
+    BCH3L_USDT: Symbol = BCH3L_USDT
+    BCH3S_USDT: Symbol = BCH3S_USDT
+    ELON_USDT: Symbol = ELON_USDT
+    APL_USDT: Symbol = APL_USDT
+    VEED_USDT: Symbol = VEED_USDT
+    VEED_BTC: Symbol = VEED_BTC
+    DIVI_USDT: Symbol = DIVI_USDT
+    PDEX_BTC: Symbol = PDEX_BTC
+    POLS_USDT: Symbol = POLS_USDT
+    POLS_BTC: Symbol = POLS_BTC
+    LPOOL_USDT: Symbol = LPOOL_USDT
+    LPOOL_BTC: Symbol = LPOOL_BTC
+    LSS_USDT: Symbol = LSS_USDT
+    VET3L_USDT: Symbol = VET3L_USDT
+    VET3S_USDT: Symbol = VET3S_USDT
+    LTC3L_USDT: Symbol = LTC3L_USDT
+    LTC3S_USDT: Symbol = LTC3S_USDT
+    ABBC_USDT: Symbol = ABBC_USDT
+    ABBC_BTC: Symbol = ABBC_BTC
+    KOK_USDT: Symbol = KOK_USDT
+    ZCX_USDT: Symbol = ZCX_USDT
+    ZCX_BTC: Symbol = ZCX_BTC
+    NORD_USDT: Symbol = NORD_USDT
+    GMEE_USDT: Symbol = GMEE_USDT
+    SFUND_USDT: Symbol = SFUND_USDT
+    XAVA_USDT: Symbol = XAVA_USDT
+    AI_USDT: Symbol = AI_USDT
+    IOI_USDT: Symbol = IOI_USDT
+    NFT_USDT: Symbol = NFT_USDT
+    NFT_TRX: Symbol = NFT_TRX
+    MNST_USDT: Symbol = MNST_USDT
+    MEM_USDT: Symbol = MEM_USDT
+    AGIX_USDT: Symbol = AGIX_USDT
+    AGIX_BTC: Symbol = AGIX_BTC
+    AGIX_ETH: Symbol = AGIX_ETH
+    CQT_USDT: Symbol = CQT_USDT
+    AIOZ_USDT: Symbol = AIOZ_USDT
+    MARSH_USDT: Symbol = MARSH_USDT
+    HAPI_USDT: Symbol = HAPI_USDT
+    MODEFI_USDT: Symbol = MODEFI_USDT
+    MODEFI_BTC: Symbol = MODEFI_BTC
+    YFDAI_USDT: Symbol = YFDAI_USDT
+    YFDAI_BTC: Symbol = YFDAI_BTC
+    GENS_USDT: Symbol = GENS_USDT
+    FORM_USDT: Symbol = FORM_USDT
+    ARRR_USDT: Symbol = ARRR_USDT
+    ARRR_BTC: Symbol = ARRR_BTC
+    TOKO_KCS: Symbol = TOKO_KCS
+    LPT_USDT: Symbol = LPT_USDT
+    ASD_USDT: Symbol = ASD_USDT
+    BOND_USDT: Symbol = BOND_USDT
+    HAI_BTC: Symbol = HAI_BTC
+    SOUL_USDT: Symbol = SOUL_USDT
+    TWOCRZ_USDT: Symbol = TWOCRZ_USDT
+    NEAR_USDT: Symbol = NEAR_USDT
+    NEAR_BTC: Symbol = NEAR_BTC
+    DFYN_USDT: Symbol = DFYN_USDT
+    OOE_USDT: Symbol = OOE_USDT
+    CFG_USDT: Symbol = CFG_USDT
+    CFG_BTC: Symbol = CFG_BTC
+    AXS_USDT: Symbol = AXS_USDT
+    CLV_USDT: Symbol = CLV_USDT
+    ROUTE_USDT: Symbol = ROUTE_USDT
+    KAR_USDT: Symbol = KAR_USDT
+    EFX_USDT: Symbol = EFX_USDT
+    XDC_BTC: Symbol = XDC_BTC
+    PMON_USDT: Symbol = PMON_USDT
+    DPET_USDT: Symbol = DPET_USDT
+    ERG_USDT: Symbol = ERG_USDT
+    ERG_BTC: Symbol = ERG_BTC
+    SOL_USDT: Symbol = SOL_USDT
+    SLP_USDT: Symbol = SLP_USDT
+    LITH_USDT: Symbol = LITH_USDT
+    LITH_ETH: Symbol = LITH_ETH
+    XCH_USDT: Symbol = XCH_USDT
+    HAKA_USDT: Symbol = HAKA_USDT
+    LAYER_BTC: Symbol = LAYER_BTC
+    MTL_USDT: Symbol = MTL_USDT
+    MTL_BTC: Symbol = MTL_BTC
+    IOTX_USDT: Symbol = IOTX_USDT
+    GALA_USDT: Symbol = GALA_USDT
+    REQ_USDT: Symbol = REQ_USDT
+    TXA_USDT: Symbol = TXA_USDT
+    TXA_USDC: Symbol = TXA_USDC
+    CIRUS_USDT: Symbol = CIRUS_USDT
+    QI_USDT: Symbol = QI_USDT
+    QI_BTC: Symbol = QI_BTC
+    ODDZ_USDT: Symbol = ODDZ_USDT
+    PNT_USDT: Symbol = PNT_USDT
+    PNT_BTC: Symbol = PNT_BTC
+    XPR_USDT: Symbol = XPR_USDT
+    XPR_BTC: Symbol = XPR_BTC
+    TRIBE_USDT: Symbol = TRIBE_USDT
+    MOVR_USDT: Symbol = MOVR_USDT
+    MOVR_ETH: Symbol = MOVR_ETH
+    WOO_USDT: Symbol = WOO_USDT
+    WILD_USDT: Symbol = WILD_USDT
+    QRDO_USDT: Symbol = QRDO_USDT
+    QRDO_ETH: Symbol = QRDO_ETH
+    MAKI_USDT: Symbol = MAKI_USDT
+    MAKI_BTC: Symbol = MAKI_BTC
+    OXT_USDT: Symbol = OXT_USDT
+    OXT_BTC: Symbol = OXT_BTC
+    OXT_ETH: Symbol = OXT_ETH
+    BAL_USDT: Symbol = BAL_USDT
+    BAL_BTC: Symbol = BAL_BTC
+    BAL_ETH: Symbol = BAL_ETH
+    STORJ_USDT: Symbol = STORJ_USDT
+    STORJ_BTC: Symbol = STORJ_BTC
+    STORJ_ETH: Symbol = STORJ_ETH
+    YGG_USDT: Symbol = YGG_USDT
+    NDAU_USDT: Symbol = NDAU_USDT
+    SDAO_USDT: Symbol = SDAO_USDT
+    SDAO_ETH: Symbol = SDAO_ETH
+    XRP3L_USDT: Symbol = XRP3L_USDT
+    XRP3S_USDT: Symbol = XRP3S_USDT
+    SKL_USDT: Symbol = SKL_USDT
+    SKL_BTC: Symbol = SKL_BTC
+    NMR_USDT: Symbol = NMR_USDT
+    NMR_BTC: Symbol = NMR_BTC
+    IXS_USDT: Symbol = IXS_USDT
+    TRB_USDT: Symbol = TRB_USDT
+    TRB_BTC: Symbol = TRB_BTC
+    DYDX_USDT: Symbol = DYDX_USDT
+    XYO_USDT: Symbol = XYO_USDT
+    GTC_USDT: Symbol = GTC_USDT
+    GTC_BTC: Symbol = GTC_BTC
+    EQX_USDT: Symbol = EQX_USDT
+    EQX_BTC: Symbol = EQX_BTC
+    RLC_USDT: Symbol = RLC_USDT
+    RLC_BTC: Symbol = RLC_BTC
+    XPRT_USDT: Symbol = XPRT_USDT
+    EGLD_USDT: Symbol = EGLD_USDT
+    EGLD_BTC: Symbol = EGLD_BTC
+    HBAR_USDT: Symbol = HBAR_USDT
+    HBAR_BTC: Symbol = HBAR_BTC
+    DOGE3L_USDT: Symbol = DOGE3L_USDT
+    DOGE3S_USDT: Symbol = DOGE3S_USDT
+    FLOW_USDT: Symbol = FLOW_USDT
+    FLOW_BTC: Symbol = FLOW_BTC
+    NKN_USDT: Symbol = NKN_USDT
+    NKN_BTC: Symbol = NKN_BTC
+    PBX_USDT: Symbol = PBX_USDT
+    SOL3L_USDT: Symbol = SOL3L_USDT
+    SOL3S_USDT: Symbol = SOL3S_USDT
+    MLN_USDT: Symbol = MLN_USDT
+    MLN_BTC: Symbol = MLN_BTC
+    XNL_USDT: Symbol = XNL_USDT
+    SOLVE_USDT: Symbol = SOLVE_USDT
+    DMTR_USDT: Symbol = DMTR_USDT
+    LINK3L_USDT: Symbol = LINK3L_USDT
+    LINK3S_USDT: Symbol = LINK3S_USDT
+    DOT3L_USDT: Symbol = DOT3L_USDT
+    DOT3S_USDT: Symbol = DOT3S_USDT
+    CTSI_USDT: Symbol = CTSI_USDT
+    CTSI_BTC: Symbol = CTSI_BTC
+    ALICE_USDT: Symbol = ALICE_USDT
+    ALICE_BTC: Symbol = ALICE_BTC
+    ALICE_ETH: Symbol = ALICE_ETH
+    OPUL_USDT: Symbol = OPUL_USDT
+    ILV_USDT: Symbol = ILV_USDT
+    BAND_USDT: Symbol = BAND_USDT
+    BAND_BTC: Symbol = BAND_BTC
+    FTT_USDT: Symbol = FTT_USDT
+    FTT_BTC: Symbol = FTT_BTC
+    DVPN_USDT: Symbol = DVPN_USDT
+    SKU_USDT: Symbol = SKU_USDT
+    SKU_BTC: Symbol = SKU_BTC
+    SLIM_USDT: Symbol = SLIM_USDT
+    TLM_USDT: Symbol = TLM_USDT
+    TLM_BTC: Symbol = TLM_BTC
+    TLM_ETH: Symbol = TLM_ETH
+    DEXE_USDT: Symbol = DEXE_USDT
+    DEXE_BTC: Symbol = DEXE_BTC
+    DEXE_ETH: Symbol = DEXE_ETH
+    MATTER_USDT: Symbol = MATTER_USDT
+    CUDOS_BTC: Symbol = CUDOS_BTC
+    RUNE_USDT: Symbol = RUNE_USDT
+    RUNE_BTC: Symbol = RUNE_BTC
+    RMRK_USDT: Symbol = RMRK_USDT
+    C98_USDT: Symbol = C98_USDT
+    BLOK_USDT: Symbol = BLOK_USDT
+    SOLR_USDT: Symbol = SOLR_USDT
+    ATOM3L_USDT: Symbol = ATOM3L_USDT
+    ATOM3S_USDT: Symbol = ATOM3S_USDT
+    UNI3L_USDT: Symbol = UNI3L_USDT
+    UNI3S_USDT: Symbol = UNI3S_USDT
+    WSIENNA_USDT: Symbol = WSIENNA_USDT
+    PUSH_USDT: Symbol = PUSH_USDT
+    PUSH_BTC: Symbol = PUSH_BTC
+    FORM_ETH: Symbol = FORM_ETH
+    NTVRK_USDT: Symbol = NTVRK_USDT
+    NTVRK_USDC: Symbol = NTVRK_USDC
+    AXS3L_USDT: Symbol = AXS3L_USDT
+    AXS3S_USDT: Symbol = AXS3S_USDT
+    FTM3L_USDT: Symbol = FTM3L_USDT
+    FTM3S_USDT: Symbol = FTM3S_USDT
+    FLAME_USDT: Symbol = FLAME_USDT
+    AGLD_USDT: Symbol = AGLD_USDT
+    NAKA_USDT: Symbol = NAKA_USDT
+    YLD_USDT: Symbol = YLD_USDT
+    TONE_USDT: Symbol = TONE_USDT
+    REEF_USDT: Symbol = REEF_USDT
+    REEF_BTC: Symbol = REEF_BTC
+    TIDAL_USDT: Symbol = TIDAL_USDT
+    TVK_USDT: Symbol = TVK_USDT
+    TVK_BTC: Symbol = TVK_BTC
+    INJ_USDT: Symbol = INJ_USDT
+    INJ_BTC: Symbol = INJ_BTC
+    BNB3L_USDT: Symbol = BNB3L_USDT
+    BNB3S_USDT: Symbol = BNB3S_USDT
+    MATIC3L_USDT: Symbol = MATIC3L_USDT
+    MATIC3S_USDT: Symbol = MATIC3S_USDT
+    VEGA_USDT: Symbol = VEGA_USDT
+    VEGA_ETH: Symbol = VEGA_ETH
+    ALPHA_USDT: Symbol = ALPHA_USDT
+    ALPHA_BTC: Symbol = ALPHA_BTC
+    UNO_BTC: Symbol = UNO_BTC
+    ZKT_USDT: Symbol = ZKT_USDT
+    AR_USDT: Symbol = AR_USDT
+    AR_BTC: Symbol = AR_BTC
+    JASMY_USDT: Symbol = JASMY_USDT
+    PERP_USDT: Symbol = PERP_USDT
+    PERP_BTC: Symbol = PERP_BTC
+    SCLP_USDT: Symbol = SCLP_USDT
+    SCLP_BTC: Symbol = SCLP_BTC
+    SUPER_USDT: Symbol = SUPER_USDT
+    SUPER_BTC: Symbol = SUPER_BTC
+    CPOOL_USDT: Symbol = CPOOL_USDT
+    HERO_USDT: Symbol = HERO_USDT
+    BASIC_USDT: Symbol = BASIC_USDT
+    XED_USDT: Symbol = XED_USDT
+    XED_BTC: Symbol = XED_BTC
+    AURY_USDT: Symbol = AURY_USDT
+    SWASH_USDT: Symbol = SWASH_USDT
+    LTO_USDT: Symbol = LTO_USDT
+    LTO_BTC: Symbol = LTO_BTC
+    BUX_USDT: Symbol = BUX_USDT
+    MTRG_USDT: Symbol = MTRG_USDT
+    DREAMS_USDT: Symbol = DREAMS_USDT
+    SHIB_DOGE: Symbol = SHIB_DOGE
+    QUICK_USDT: Symbol = QUICK_USDT
+    QUICK_BTC: Symbol = QUICK_BTC
+    TRU_USDT: Symbol = TRU_USDT
+    TRU_BTC: Symbol = TRU_BTC
+    WRX_USDT: Symbol = WRX_USDT
+    WRX_BTC: Symbol = WRX_BTC
+    SUSHI3L_USDT: Symbol = SUSHI3L_USDT
+    SUSHI3S_USDT: Symbol = SUSHI3S_USDT
+    NEAR3L_USDT: Symbol = NEAR3L_USDT
+    NEAR3S_USDT: Symbol = NEAR3S_USDT
+    DATA_USDT: Symbol = DATA_USDT
+    DATA_BTC: Symbol = DATA_BTC
+    NORD_BTC: Symbol = NORD_BTC
+    ISP_USDT: Symbol = ISP_USDT
+    CERE_USDT: Symbol = CERE_USDT
+    SHILL_USDT: Symbol = SHILL_USDT
+    HEGIC_USDT: Symbol = HEGIC_USDT
+    HEGIC_BTC: Symbol = HEGIC_BTC
+    ERN_USDT: Symbol = ERN_USDT
+    ERN_BTC: Symbol = ERN_BTC
+    FTG_USDT: Symbol = FTG_USDT
+    PAXG_USDT: Symbol = PAXG_USDT
+    PAXG_BTC: Symbol = PAXG_BTC
+    AUDIO_USDT: Symbol = AUDIO_USDT
+    AUDIO_BTC: Symbol = AUDIO_BTC
+    ENS_USDT: Symbol = ENS_USDT
+    AAVE3L_USDT: Symbol = AAVE3L_USDT
+    AAVE3S_USDT: Symbol = AAVE3S_USDT
+    SAND3L_USDT: Symbol = SAND3L_USDT
+    SAND3S_USDT: Symbol = SAND3S_USDT
+    XTM_USDT: Symbol = XTM_USDT
+    MNW_USDT: Symbol = MNW_USDT
+    FXS_USDT: Symbol = FXS_USDT
+    FXS_BTC: Symbol = FXS_BTC
+    ATA_USDT: Symbol = ATA_USDT
+    ATA_BTC: Symbol = ATA_BTC
+    VXV_USDT: Symbol = VXV_USDT
+    LRC_BTC: Symbol = LRC_BTC
+    LRC_ETH: Symbol = LRC_ETH
+    DPR_USDT: Symbol = DPR_USDT
+    CWAR_USDT: Symbol = CWAR_USDT
+    CWAR_BTC: Symbol = CWAR_BTC
+    FLUX_BTC: Symbol = FLUX_BTC
+    PBR_USDT: Symbol = PBR_USDT
+    ANT_USDT: Symbol = ANT_USDT
+    ANT_BTC: Symbol = ANT_BTC
+    COV_USDT: Symbol = COV_USDT
+    SWP_USDT: Symbol = SWP_USDT
+    TWT_USDT: Symbol = TWT_USDT
+    TWT_BTC: Symbol = TWT_BTC
+    OM_USDT: Symbol = OM_USDT
+    OM_BTC: Symbol = OM_BTC
+    ADX_USDT: Symbol = ADX_USDT
+    AVAX3L_USDT: Symbol = AVAX3L_USDT
+    AVAX3S_USDT: Symbol = AVAX3S_USDT
+    MANA3L_USDT: Symbol = MANA3L_USDT
+    MANA3S_USDT: Symbol = MANA3S_USDT
+    GLM_USDT: Symbol = GLM_USDT
+    GLM_BTC: Symbol = GLM_BTC
+    NUM_USDT: Symbol = NUM_USDT
+    VLX_USDT: Symbol = VLX_USDT
+    VLX_BTC: Symbol = VLX_BTC
+    TRADE_USDT: Symbol = TRADE_USDT
+    TRADE_BTC: Symbol = TRADE_BTC
+    ONEEARTH_USDT: Symbol = ONEEARTH_USDT
+    MONI_USDT: Symbol = MONI_USDT
+    LIKE_USDT: Symbol = LIKE_USDT
+    LIT_USDT: Symbol = LIT_USDT
+    LIT_BTC: Symbol = LIT_BTC
+    KAVA_USDT: Symbol = KAVA_USDT
+    SFP_USDT: Symbol = SFP_USDT
+    SFP_BTC: Symbol = SFP_BTC
+    BURGER_USDT: Symbol = BURGER_USDT
+    BURGER_BTC: Symbol = BURGER_BTC
+    ILA_USDT: Symbol = ILA_USDT
+    CREAM_USDT: Symbol = CREAM_USDT
+    CREAM_BTC: Symbol = CREAM_BTC
+    RSR_USDT: Symbol = RSR_USDT
+    RSR_BTC: Symbol = RSR_BTC
+    BUY_BTC: Symbol = BUY_BTC
+    IMX_USDT: Symbol = IMX_USDT
+    GODS_USDT: Symbol = GODS_USDT
+    KMA_USDT: Symbol = KMA_USDT
+    SRM_USDT: Symbol = SRM_USDT
+    SRM_BTC: Symbol = SRM_BTC
+    POLC_USDT: Symbol = POLC_USDT
+    XTAG_USDT: Symbol = XTAG_USDT
+    MNET_USDT: Symbol = MNET_USDT
+    NGC_USDT: Symbol = NGC_USDT
+    HARD_USDT: Symbol = HARD_USDT
+    GALAX3L_USDT: Symbol = GALAX3L_USDT
+    GALAX3S_USDT: Symbol = GALAX3S_USDT
+    UNIC_USDT: Symbol = UNIC_USDT
+    POND_USDT: Symbol = POND_USDT
+    POND_BTC: Symbol = POND_BTC
+    VR_USDT: Symbol = VR_USDT
+    EPIK_USDT: Symbol = EPIK_USDT
+    NGL_USDT: Symbol = NGL_USDT
+    NGL_BTC: Symbol = NGL_BTC
+    KDON_USDT: Symbol = KDON_USDT
+    PEL_USDT: Symbol = PEL_USDT
+    CIRUS_ETH: Symbol = CIRUS_ETH
+    LINA_USDT: Symbol = LINA_USDT
+    LINA_BTC: Symbol = LINA_BTC
+    KLAY_USDT: Symbol = KLAY_USDT
+    KLAY_BTC: Symbol = KLAY_BTC
+    CREDI_USDT: Symbol = CREDI_USDT
+    TRVL_USDT: Symbol = TRVL_USDT
+    LACE_USDT: Symbol = LACE_USDT
+    LACE_ETH: Symbol = LACE_ETH
+    ARKER_USDT: Symbol = ARKER_USDT
+    BONDLY_USDT: Symbol = BONDLY_USDT
+    BONDLY_ETH: Symbol = BONDLY_ETH
+    XEC_USDT: Symbol = XEC_USDT
+    HEART_USDT: Symbol = HEART_USDT
+    HEART_BTC: Symbol = HEART_BTC
+    UNB_USDT: Symbol = UNB_USDT
+    GAFI_USDT: Symbol = GAFI_USDT
+    KOL_USDT: Symbol = KOL_USDT
+    KOL_ETH: Symbol = KOL_ETH
+    H3RO3S_USDT: Symbol = H3RO3S_USDT
+    FALCONS_USDT: Symbol = FALCONS_USDT
+    UFO_USDT: Symbol = UFO_USDT
+    CHMB_USDT: Symbol = CHMB_USDT
+    GEEQ_USDT: Symbol = GEEQ_USDT
+    ORC_USDT: Symbol = ORC_USDT
+    RACEFI_USDT: Symbol = RACEFI_USDT
+    PEOPLE_USDT: Symbol = PEOPLE_USDT
+    ADS_USDT: Symbol = ADS_USDT
+    ADS_BTC: Symbol = ADS_BTC
+    OCEAN_USDT: Symbol = OCEAN_USDT
+    SOS_USDT: Symbol = SOS_USDT
+    WHALE_USDT: Symbol = WHALE_USDT
+    TIME_USDT: Symbol = TIME_USDT
+    CWEB_USDT: Symbol = CWEB_USDT
+    IOTA_USDT: Symbol = IOTA_USDT
+    IOTA_BTC: Symbol = IOTA_BTC
+    HNT_USDT: Symbol = HNT_USDT
+    HNT_BTC: Symbol = HNT_BTC
+    GGG_USDT: Symbol = GGG_USDT
+    REVU_USDT: Symbol = REVU_USDT
+    CLH_USDT: Symbol = CLH_USDT
+    PLGR_USDT: Symbol = PLGR_USDT
+    GLMR_USDT: Symbol = GLMR_USDT
+    GLMR_BTC: Symbol = GLMR_BTC
+    CTC_USDT: Symbol = CTC_USDT
+    CTC_BTC: Symbol = CTC_BTC
+    GARI_USDT: Symbol = GARI_USDT
+    FRR_USDT: Symbol = FRR_USDT
+    ASTR_USDT: Symbol = ASTR_USDT
+    ASTR_BTC: Symbol = ASTR_BTC
+    ERTHA_USDT: Symbol = ERTHA_USDT
+    FCON_USDT: Symbol = FCON_USDT
+    ACA_USDT: Symbol = ACA_USDT
+    ACA_BTC: Symbol = ACA_BTC
+    MTS_USDT: Symbol = MTS_USDT
+    ROAR_USDT: Symbol = ROAR_USDT
+    HBB_USDT: Symbol = HBB_USDT
+    CVX_USDT: Symbol = CVX_USDT
+    AMP_USDT: Symbol = AMP_USDT
+    ACT_USDT: Symbol = ACT_USDT
+    MJT_USDT: Symbol = MJT_USDT
+    MJT_KCS: Symbol = MJT_KCS
+    SHX_USDT: Symbol = SHX_USDT
+    SHX_BTC: Symbol = SHX_BTC
+    STARLY_USDT: Symbol = STARLY_USDT
+    ONSTON_USDT: Symbol = ONSTON_USDT
+    RANKER_USDT: Symbol = RANKER_USDT
+    WMT_USDT: Symbol = WMT_USDT
+    XNO_USDT: Symbol = XNO_USDT
+    XNO_BTC: Symbol = XNO_BTC
+    MARS4_USDT: Symbol = MARS4_USDT
+    TFUEL_USDT: Symbol = TFUEL_USDT
+    TFUEL_BTC: Symbol = TFUEL_BTC
+    METIS_USDT: Symbol = METIS_USDT
+    LAVAX_USDT: Symbol = LAVAX_USDT
+    WAL_USDT: Symbol = WAL_USDT
+    BULL_USDT: Symbol = BULL_USDT
+    SON_USDT: Symbol = SON_USDT
+    MELOS_USDT: Symbol = MELOS_USDT
+    APE_USDT: Symbol = APE_USDT
+    GMT_USDT: Symbol = GMT_USDT
+    BICO_USDT: Symbol = BICO_USDT
+    STG_USDT: Symbol = STG_USDT
+    LMR_USDT: Symbol = LMR_USDT
+    LMR_BTC: Symbol = LMR_BTC
+    LOKA_USDT: Symbol = LOKA_USDT
+    URUS_USDT: Symbol = URUS_USDT
+    JAM_USDT: Symbol = JAM_USDT
+    JAM_ETH: Symbol = JAM_ETH
+    BNC_USDT: Symbol = BNC_USDT
+    LBP_USDT: Symbol = LBP_USDT
+    CFX_USDT: Symbol = CFX_USDT
+    LOOKS_USDT: Symbol = LOOKS_USDT
+    XCN_USDT: Symbol = XCN_USDT
+    XCN_BTC: Symbol = XCN_BTC
+    TITAN_USDT: Symbol = TITAN_USDT
+    UPO_USDT: Symbol = UPO_USDT
+    SLCL_USDT: Symbol = SLCL_USDT
+    CEEK_USDT: Symbol = CEEK_USDT
+    NHCT_USDT: Symbol = NHCT_USDT
+    ARNM_USDT: Symbol = ARNM_USDT
+    FRA_USDT: Symbol = FRA_USDT
+    VISION_USDT: Symbol = VISION_USDT
+    COCOS_USDT: Symbol = COCOS_USDT
+    ALPINE_USDT: Symbol = ALPINE_USDT
+    ZBC_USDT: Symbol = ZBC_USDT
+    WOOP_USDT: Symbol = WOOP_USDT
+    T_USDT: Symbol = T_USDT
+    NYM_USDT: Symbol = NYM_USDT
+    VOXEL_USDT: Symbol = VOXEL_USDT
+    VOXEL_ETH: Symbol = VOXEL_ETH
+    PSTAKE_USDT: Symbol = PSTAKE_USDT
+    SPA_USDT: Symbol = SPA_USDT
+    SPA_ETH: Symbol = SPA_ETH
+    SYNR_USDT: Symbol = SYNR_USDT
+    DAR_USDT: Symbol = DAR_USDT
+    DAR_BTC: Symbol = DAR_BTC
+    MV_USDT: Symbol = MV_USDT
+    XDEFI_USDT: Symbol = XDEFI_USDT
+    RACA_USDT: Symbol = RACA_USDT
+    XWG_USDT: Symbol = XWG_USDT
+    HAWK_USDT: Symbol = HAWK_USDT
+    TRVL_BTC: Symbol = TRVL_BTC
+    SWFTC_USDT: Symbol = SWFTC_USDT
+    BRWL_USDT: Symbol = BRWL_USDT
+    TAUM_USDT: Symbol = TAUM_USDT
+    CELR_USDT: Symbol = CELR_USDT
+    AURORA_USDT: Symbol = AURORA_USDT
+    POSI_USDT: Symbol = POSI_USDT
+    COOHA_USDT: Symbol = COOHA_USDT
+    KNC_USDT: Symbol = KNC_USDT
+    EPK_USDT: Symbol = EPK_USDT
+    PLD_USDT: Symbol = PLD_USDT
+    PSL_USDT: Symbol = PSL_USDT
+    PKF_USDT: Symbol = PKF_USDT
+    OVR_USDT: Symbol = OVR_USDT
+    SYS_USDT: Symbol = SYS_USDT
+    SYS_BTC: Symbol = SYS_BTC
+    BRISE_USDT: Symbol = BRISE_USDT
+    DG_USDT: Symbol = DG_USDT
+    EPX_USDT: Symbol = EPX_USDT
+    GST_USDT: Symbol = GST_USDT
+    PLY_USDT: Symbol = PLY_USDT
+    GAL_USDT: Symbol = GAL_USDT
+    BSW_USDT: Symbol = BSW_USDT
+    FITFI_USDT: Symbol = FITFI_USDT
+    FSN_USDT: Symbol = FSN_USDT
+    H2O_USDT: Symbol = H2O_USDT
+    GMM_USDT: Symbol = GMM_USDT
+    AKT_USDT: Symbol = AKT_USDT
+    SIN_USDT: Symbol = SIN_USDT
+    AUSD_USDT: Symbol = AUSD_USDT
+    BOBA_USDT: Symbol = BOBA_USDT
+    BFC_USDT: Symbol = BFC_USDT
+    BIFI_USDT: Symbol = BIFI_USDT
+    DFA_USDT: Symbol = DFA_USDT
+    MBL_USDT: Symbol = MBL_USDT
+    DUSK_USDT: Symbol = DUSK_USDT
+    USDD_USDT: Symbol = USDD_USDT
+    USDD_USDC: Symbol = USDD_USDC
+    FITFI_USDC: Symbol = FITFI_USDC
+    APE_USDC: Symbol = APE_USDC
+    AVAX_USDC: Symbol = AVAX_USDC
+    SHIB_USDC: Symbol = SHIB_USDC
+    XCN_USDC: Symbol = XCN_USDC
+    TRX_USDC: Symbol = TRX_USDC
+    NEAR_USDC: Symbol = NEAR_USDC
+    MATIC_USDC: Symbol = MATIC_USDC
+    FTM_USDC: Symbol = FTM_USDC
+    ZIL_USDC: Symbol = ZIL_USDC
+    SOL_USDC: Symbol = SOL_USDC
+    MLS_USDT: Symbol = MLS_USDT
+    AFK_USDT: Symbol = AFK_USDT
+    AFK_USDC: Symbol = AFK_USDC
+    ACH_USDT: Symbol = ACH_USDT
+    SCRT_USDT: Symbol = SCRT_USDT
+    SCRT_BTC: Symbol = SCRT_BTC
+    APE3L_USDT: Symbol = APE3L_USDT
+    APE3S_USDT: Symbol = APE3S_USDT
+    STORE_USDT: Symbol = STORE_USDT
+    STORE_ETH: Symbol = STORE_ETH
+    GMT3L_USDT: Symbol = GMT3L_USDT
+    GMT3S_USDT: Symbol = GMT3S_USDT
+    CCD_USDT: Symbol = CCD_USDT
+    DOSE_USDC: Symbol = DOSE_USDC
+    LUNC_USDT: Symbol = LUNC_USDT
+    LUNC_USDC: Symbol = LUNC_USDC
+    USTC_USDT: Symbol = USTC_USDT
+    USTC_USDC: Symbol = USTC_USDC
+    GMT_USDC: Symbol = GMT_USDC
+    VRA_USDC: Symbol = VRA_USDC
+    DOT_USDC: Symbol = DOT_USDC
+    RUNE_USDC: Symbol = RUNE_USDC
+    ATOM_USDC: Symbol = ATOM_USDC
+    BNB_USDC: Symbol = BNB_USDC
+    JASMY_USDC: Symbol = JASMY_USDC
+    KCS_USDC: Symbol = KCS_USDC
+    KDA_USDC: Symbol = KDA_USDC
+    ALGO_USDC: Symbol = ALGO_USDC
+    LUNA_USDC: Symbol = LUNA_USDC
+    OP_USDT: Symbol = OP_USDT
+    OP_USDC: Symbol = OP_USDC
+    JASMY3L_USDT: Symbol = JASMY3L_USDT
+    JASMY3S_USDT: Symbol = JASMY3S_USDT
+    EVER_USDT: Symbol = EVER_USDT
+    MOOV_USDT: Symbol = MOOV_USDT
+    IHC_USDT: Symbol = IHC_USDT
+    ICX_USDT: Symbol = ICX_USDT
+    ICX_ETH: Symbol = ICX_ETH
+    BTC_BRL: Symbol = BTC_BRL
+    ETH_BRL: Symbol = ETH_BRL
+    USDT_BRL: Symbol = USDT_BRL
+    WELL_USDT: Symbol = WELL_USDT
+    FORT_USDT: Symbol = FORT_USDT
+    USDP_USDT: Symbol = USDP_USDT
+    USDD_TRX: Symbol = USDD_TRX
+    BTC_EUR: Symbol = BTC_EUR
+    ETH_EUR: Symbol = ETH_EUR
+    USDT_EUR: Symbol = USDT_EUR
+    CSPR_USDT: Symbol = CSPR_USDT
+    CSPR_ETH: Symbol = CSPR_ETH
+    WEMIX_USDT: Symbol = WEMIX_USDT
+    REV3L_USDT: Symbol = REV3L_USDT
+    OLE_USDT: Symbol = OLE_USDT
+    LDO_USDT: Symbol = LDO_USDT
+    LDO_USDC: Symbol = LDO_USDC
+    CULT_USDT: Symbol = CULT_USDT
+    SWFTC_USDC: Symbol = SWFTC_USDC
+    FIDA_USDT: Symbol = FIDA_USDT
+    BUSD_USDT: Symbol = BUSD_USDT
+    RBP_USDT: Symbol = RBP_USDT
+    SRBP_USDT: Symbol = SRBP_USDT
+    HIBAYC_USDT: Symbol = HIBAYC_USDT
+    BUSD_USDC: Symbol = BUSD_USDC
+    OGV_USDT: Symbol = OGV_USDT
+    WOMBAT_USDT: Symbol = WOMBAT_USDT
+    HIPUNKS_USDT: Symbol = HIPUNKS_USDT
+    FT_USDT: Symbol = FT_USDT
+    ETC_USDC: Symbol = ETC_USDC
+    HIENS4_USDT: Symbol = HIENS4_USDT
+    EGAME_USDT: Symbol = EGAME_USDT
+    EGAME_BTC: Symbol = EGAME_BTC
+    STEPWATCH_USDT: Symbol = STEPWATCH_USDT
+    HISAND33_USDT: Symbol = HISAND33_USDT
+    DC_USDT: Symbol = DC_USDT
+    NEER_USDT: Symbol = NEER_USDT
+    RVN_USDT: Symbol = RVN_USDT
+    HIENS3_USDT: Symbol = HIENS3_USDT
+    MC_USDT: Symbol = MC_USDT
+    PEEL_USDT: Symbol = PEEL_USDT
+    PEEL_BTC: Symbol = PEEL_BTC
+    SDL_USDT: Symbol = SDL_USDT
+    SDL_BTC: Symbol = SDL_BTC
+    SWEAT_USDT: Symbol = SWEAT_USDT
+    HIODBS_USDT: Symbol = HIODBS_USDT
+    CMP_USDT: Symbol = CMP_USDT
+    PIX_USDT: Symbol = PIX_USDT
+    MPLX_USDT: Symbol = MPLX_USDT
+    HIDOODLES_USDT: Symbol = HIDOODLES_USDT
+    ETHW_USDT: Symbol = ETHW_USDT
+    QUARTZ_USDT: Symbol = QUARTZ_USDT
+    ACQ_USDT: Symbol = ACQ_USDT
+    ACQ_USDC: Symbol = ACQ_USDC
+    AOG_USDT: Symbol = AOG_USDT
+    HIMAYC_USDT: Symbol = HIMAYC_USDT
+    PRMX_USDT: Symbol = PRMX_USDT
+    RED_USDT: Symbol = RED_USDT
+    PUMLX_USDT: Symbol = PUMLX_USDT
+    XETA_USDT: Symbol = XETA_USDT
+    GEM_USDT: Symbol = GEM_USDT
+    DERC_USDT: Symbol = DERC_USDT
+    P00LS_USDT: Symbol = P00LS_USDT
+    P00LS_USDC: Symbol = P00LS_USDC
+    KICKS_USDT: Symbol = KICKS_USDT
+    TRIBL_USDT: Symbol = TRIBL_USDT
+    GMX_USDT: Symbol = GMX_USDT
+    HIOD_USDT: Symbol = HIOD_USDT
+    POKT_USDT: Symbol = POKT_USDT
+    EFI_USDT: Symbol = EFI_USDT
+    APT_USDT: Symbol = APT_USDT
+    BBC_USDT: Symbol = BBC_USDT
+    EUL_USDT: Symbol = EUL_USDT
+    TON_USDT: Symbol = TON_USDT
+    PIAS_USDT: Symbol = PIAS_USDT
+    HIMEEBITS_USDT: Symbol = HIMEEBITS_USDT
+    HISQUIGGLE_USDT: Symbol = HISQUIGGLE_USDT
+    XCV_USDT: Symbol = XCV_USDT
+    HFT_USDT: Symbol = HFT_USDT
+    HFT_USDC: Symbol = HFT_USDC
+    ECOX_USDT: Symbol = ECOX_USDT
+    AMB_USDT: Symbol = AMB_USDT
+    AZERO_USDT: Symbol = AZERO_USDT
+    HIFIDENZA_USDT: Symbol = HIFIDENZA_USDT
+    BEAT_USDT: Symbol = BEAT_USDT
+    NRFB_USDT: Symbol = NRFB_USDT
+    NRFB_BTC: Symbol = NRFB_BTC
+    HIGAZERS_USDT: Symbol = HIGAZERS_USDT
+    NAVI_USDT: Symbol = NAVI_USDT
+    CARE_USDT: Symbol = CARE_USDT
+    CLUB_USDT: Symbol = CLUB_USDT
+    HIPENGUINS_USDT: Symbol = HIPENGUINS_USDT
+    ALT_USDT: Symbol = ALT_USDT
+    HICLONEX_USDT: Symbol = HICLONEX_USDT
+    PRIMAL_USDT: Symbol = PRIMAL_USDT
+    PRIMAL_USDC: Symbol = PRIMAL_USDC
+    OAS_USDT: Symbol = OAS_USDT
+    VEMP_USDC: Symbol = VEMP_USDC
+    HICOOLCATS_USDT: Symbol = HICOOLCATS_USDT
+    HIAZUKI_USDT: Symbol = HIAZUKI_USDT
+    TEM_USDT: Symbol = TEM_USDT
+    HIFLUF_USDT: Symbol = HIFLUF_USDT
+    HIBIRDS_USDT: Symbol = HIBIRDS_USDT
+    BDX_USDT: Symbol = BDX_USDT
+    BDX_BTC: Symbol = BDX_BTC
+    FLR_USDT: Symbol = FLR_USDT
+    FLR_USDC: Symbol = FLR_USDC
+    HIMFERS_USDT: Symbol = HIMFERS_USDT
+    OSMO_USDT: Symbol = OSMO_USDT
+    ASTRA_USDT: Symbol = ASTRA_USDT
+    MAGIC_USDT: Symbol = MAGIC_USDT
+    SQUAD_USDT: Symbol = SQUAD_USDT
+    SIMP_USDT: Symbol = SIMP_USDT
+    HIVALHALLA_USDT: Symbol = HIVALHALLA_USDT
+    RPL_USDT: Symbol = RPL_USDT
+    HIRENGA_USDT: Symbol = HIRENGA_USDT
+    KING_USDT: Symbol = KING_USDT
+    SHIB2L_USDT: Symbol = SHIB2L_USDT
+    SHIB2S_USDT: Symbol = SHIB2S_USDT
+    OP2L_USDT: Symbol = OP2L_USDT
+    OP2S_USDT: Symbol = OP2S_USDT
+    HIGH_USDT: Symbol = HIGH_USDT
+    HIGH_ETH: Symbol = HIGH_ETH
+    HIUNDEAD_USDT: Symbol = HIUNDEAD_USDT
+    AGIX2L_USDT: Symbol = AGIX2L_USDT
+    AGIX2S_USDT: Symbol = AGIX2S_USDT
+    TRAC_USDT: Symbol = TRAC_USDT
+    GRT2L_USDT: Symbol = GRT2L_USDT
+    GRT2S_USDT: Symbol = GRT2S_USDT
+    APT2L_USDT: Symbol = APT2L_USDT
+    APT2S_USDT: Symbol = APT2S_USDT
+    GFT_USDT: Symbol = GFT_USDT
+    GFT_BTC: Symbol = GFT_BTC
+    BLUR_USDT: Symbol = BLUR_USDT
+    HIFRIENDS_USDT: Symbol = HIFRIENDS_USDT
+    WAXL_USDT: Symbol = WAXL_USDT
+    FLOKI_USDT: Symbol = FLOKI_USDT
+    SSV_USDT: Symbol = SSV_USDT
+    FLOKI_USDC: Symbol = FLOKI_USDC
+    ACS_USDT: Symbol = ACS_USDT
+    IGU_USDT: Symbol = IGU_USDT
+    IGU_BTC: Symbol = IGU_BTC
+    BLUR2L_USDT: Symbol = BLUR2L_USDT
+    BLUR2S_USDT: Symbol = BLUR2S_USDT
+    CSIX_USDT: Symbol = CSIX_USDT
+    FET_USDT: Symbol = FET_USDT
+    CSIX_ETH: Symbol = CSIX_ETH
+    CFX2L_USDT: Symbol = CFX2L_USDT
+    CFX2S_USDT: Symbol = CFX2S_USDT
+    HISEALS_USDT: Symbol = HISEALS_USDT
+    SIDUS_USDT: Symbol = SIDUS_USDT
+    GOAL_USDT: Symbol = GOAL_USDT
+    AIPAD_USDT: Symbol = AIPAD_USDT
+    RDNT_USDT: Symbol = RDNT_USDT
+    DPX_USDT: Symbol = DPX_USDT
+    SYN_USDT: Symbol = SYN_USDT
+    GNS_USDT: Symbol = GNS_USDT
+    GRAIL_USDT: Symbol = GRAIL_USDT
+    BLZ_USDT: Symbol = BLZ_USDT
+    HIBEANZ_USDT: Symbol = HIBEANZ_USDT
+    BTC_GBP: Symbol = BTC_GBP
+    ETH_GBP: Symbol = ETH_GBP
+    USDT_GBP: Symbol = USDT_GBP
+    HALO_USDT: Symbol = HALO_USDT
+    NXRA_USDT: Symbol = NXRA_USDT
+    NXRA_ETH: Symbol = NXRA_ETH
+    MINA_USDT: Symbol = MINA_USDT
+    XRD_USDT: Symbol = XRD_USDT
+    NOM_USDT: Symbol = NOM_USDT
+    LQTY_USDT: Symbol = LQTY_USDT
+    CFX_BTC: Symbol = CFX_BTC
+    CFX_ETH: Symbol = CFX_ETH
+    ID_USDT: Symbol = ID_USDT
+    ARB_USDT: Symbol = ARB_USDT
+    ARB3S_USDT: Symbol = ARB3S_USDT
+    ARB3L_USDT: Symbol = ARB3L_USDT
+    ID3L_USDT: Symbol = ID3L_USDT
+    ID3S_USDT: Symbol = ID3S_USDT
+    HMND_USDT: Symbol = HMND_USDT
+    BTCUP_USDT: Symbol = BTCUP_USDT
+    BTCDOWN_USDT: Symbol = BTCDOWN_USDT
+    ETHUP_USDT: Symbol = ETHUP_USDT
+    ETHDOWN_USDT: Symbol = ETHDOWN_USDT
+    HIFI_USDT: Symbol = HIFI_USDT
+    MYRIA_USDT: Symbol = MYRIA_USDT
+    SD_USDT: Symbol = SD_USDT
+    CGPT_USDT: Symbol = CGPT_USDT
+    STRAX_USDT: Symbol = STRAX_USDT
+    KAGI_USDT: Symbol = KAGI_USDT
+    RLTM_USDT: Symbol = RLTM_USDT
+    DYDXUP_USDT: Symbol = DYDXUP_USDT
+    DYDXDOWN_USDT: Symbol = DYDXDOWN_USDT
+    SXPUP_USDT: Symbol = SXPUP_USDT
+    SXPDOWN_USDT: Symbol = SXPDOWN_USDT
+    MASKUP_USDT: Symbol = MASKUP_USDT
+    MASKDOWN_USDT: Symbol = MASKDOWN_USDT
+    OTK_USDT: Symbol = OTK_USDT
+    RNDRUP_USDT: Symbol = RNDRUP_USDT
+    RNDRDOWN_USDT: Symbol = RNDRDOWN_USDT
+    STXUP_USDT: Symbol = STXUP_USDT
+    STXDOWN_USDT: Symbol = STXDOWN_USDT
+    LINAUP_USDT: Symbol = LINAUP_USDT
+    LINADOWN_USDT: Symbol = LINADOWN_USDT
+    GPT_USDT: Symbol = GPT_USDT
+    BABYDOGE_USDT: Symbol = BABYDOGE_USDT
+    PZP_USDT: Symbol = PZP_USDT
+    INJDOWN_USDT: Symbol = INJDOWN_USDT
+    ETCUP_USDT: Symbol = ETCUP_USDT
+    ETCDOWN_USDT: Symbol = ETCDOWN_USDT
+    INJUP_USDT: Symbol = INJUP_USDT
+    LOCUS_USDT: Symbol = LOCUS_USDT
+    IRON_USDT: Symbol = IRON_USDT
+    ZPAY_USDT: Symbol = ZPAY_USDT
+    IZI_USDT: Symbol = IZI_USDT
+    SUI_USDT: Symbol = SUI_USDT
+    SUI3S_USDT: Symbol = SUI3S_USDT
+    SUI3L_USDT: Symbol = SUI3L_USDT
+    PEPE_USDT: Symbol = PEPE_USDT
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([OXEN_BTC, OXEN_ETH, NRG_BTC, AVA_USDT, FET_BTC, FET_ETH, ANKR_BTC, XMR_BTC, XMR_ETH, MTV_BTC, MTV_ETH, CRO_BTC, MTV_USDT, KMD_BTC, KMD_USDT, RFOX_USDT, TEL_USDT, TT_USDT, AERGO_USDT, XMR_USDT, TRX_KCS, ATOM_BTC, ATOM_ETH, ATOM_USDT, ATOM_KCS, ETN_USDT, FTM_USDT, VSYS_USDT, OCEAN_BTC, OCEAN_ETH, CHR_BTC, CHR_USDT, FX_BTC, FX_ETH, NIM_BTC, NIM_ETH, COTI_BTC, COTI_USDT, NRG_ETH, BNB_BTC, BNB_USDT, JAR_BTC, JAR_USDT, ALGO_BTC, ALGO_ETH, ALGO_USDT, XEM_BTC, XEM_USDT, CIX100_USDT, XTZ_BTC, XTZ_USDT, ZEC_BTC, ZEC_USDT, ADA_BTC, ADA_USDT, REV_USDT, FORESTPLUS_BTC, FORESTPLUS_USDT, BOLT_BTC, BOLT_USDT, ARPA_USDT, CHZ_BTC, CHZ_USDT, DAPPT_BTC, DAPPT_USDT, NOIA_BTC, NOIA_USDT, WIN_BTC, WIN_USDT, DERO_BTC, DERO_USDT, BTT_USDT, EOSC_USDT, ENQ_BTC, ENQ_USDT, ONE_BTC, ONE_USDT, TOKO_BTC, TOKO_USDT, VID_BTC, VID_USDT, LUNA_USDT, SXP_BTC, SXP_USDT, AKRO_BTC, AKRO_USDT, ROOBEE_BTC, WIN_TRX, MAP_BTC, MAP_USDT, AMPL_BTC, AMPL_USDT, DAG_USDT, POL_USDT, ARX_USDT, NWC_BTC, NWC_USDT, BEPRO_BTC, BEPRO_USDT, VRA_BTC, VRA_USDT, KSM_BTC, KSM_USDT, DASH_USDT, SUTER_USDT, ACOIN_USDT, SUTER_BTC, SENSO_USDT, PRE_BTC, XDB_USDT, SYLO_USDT, WOM_USDT, SENSO_BTC, DGB_USDT, LYXE_USDT, LYXE_ETH, XDB_BTC, STX_BTC, STX_USDT, COMP_USDT, CRO_USDT, KAI_USDT, KAI_BTC, WEST_BTC, WEST_USDT, EWT_BTC, WAVES_USDT, WAVES_BTC, ORN_USDT, AMPL_ETH, BNS_USDT, BNS_BTC, MKR_USDT, SUKU_BTC, MLK_BTC, MLK_USDT, JST_USDT, KAI_ETH, SUKU_USDT, DIA_USDT, DIA_BTC, LINK_BTC, LINK_USDT, DOT_USDT, DOT_BTC, SHA_BTC, SHA_USDT, EWT_USDT, USDJ_USDT, EFX_BTC, CKB_BTC, CKB_USDT, UMA_USDT, ALEPH_USDT, VELO_USDT, SUN_USDT, BUY_USDT, YFI_USDT, OXEN_USDT, UNI_USDT, UOS_USDT, UOS_BTC, NIM_USDT, DEGO_USDT, DEGO_ETH, RFUEL_USDT, FIL_USDT, UBX_ETH, REAP_USDT, AAVE_USDT, AAVE_BTC, TONE_BTC, TONE_ETH, ELF_ETH, AERGO_BTC, IOST_ETH, KCS_USDT, SNX_ETH, KCS_ETH, WAN_ETH, NULS_ETH, QTUM_BTC, MANA_BTC, TEL_BTC, XYO_ETH, ETN_BTC, COV_ETH, VET_BTC, KCS_BTC, CAPP_ETH, ONT_BTC, DAG_ETH, WAN_BTC, KNC_ETH, CRPT_ETH, LTC_USDT, BAX_ETH, BSV_USDT, DENT_ETH, LYM_ETH, TRAC_ETH, ENJ_BTC, WAXP_BTC, DGB_BTC, ELA_BTC, ZIL_BTC, BSV_BTC, XLM_USDT, IOTX_ETH, SOUL_BTC, DOCK_BTC, AMB_ETH, TRX_BTC, XRP_TUSD, NULS_BTC, ETH_DAI, LSK_BTC, GMB_ETH, GMB_BTC, NEO_ETH, OMG_ETH, BTC_TUSD, KAT_USDT, KNC_BTC, ELF_BTC, MANA_ETH, ETC_USDT, ONT_ETH, MKR_BTC, KAT_BTC, XRP_USDC, XYO_BTC, ZRX_BTC, LOOM_ETH, OLT_ETH, OLT_BTC, TRAC_BTC, XLM_ETH, ETH_USDT, BSV_ETH, TRX_ETH, ETN_ETH, AOA_USDT, DENT_BTC, DOCK_ETH, KEY_BTC, EOS_KCS, XLM_BTC, TIME_ETH, CVC_BTC, LSK_ETH, QKC_BTC, AMB_BTC, USDT_TUSD, ETC_ETH, XRP_BTC, NEO_KCS, SNX_USDT, CRPT_BTC, IOTX_BTC, LTC_ETH, XRP_KCS, LTC_KCS, TEL_ETH, DCR_ETH, LYM_USDT, USDT_USDC, ETH_USDC, DAG_BTC, AVA_BTC, BTC_USDT, WAXP_ETH, XRP_USDT, KEY_ETH, VET_ETH, FTM_BTC, USDT_DAI, QKC_ETH, ETH_BTC, MAN_BTC, CPC_ETH, TRX_USDT, BTC_DAI, ONT_USDT, DASH_ETH, BAX_BTC, AVA_ETH, LOOM_BTC, MKR_ETH, COV_BTC, CPC_BTC, REQ_ETH, EOS_BTC, LTC_BTC, XRP_ETH, CAPP_BTC, FTM_ETH, ZRX_ETH, DGB_ETH, VET_USDT, REQ_BTC, UTK_BTC, PLAY_BTC, UTK_ETH, SNX_BTC, NEO_BTC, SOUL_ETH, NEO_USDT, ELA_ETH, OMG_BTC, TIME_BTC, AOA_BTC, ETC_BTC, DCR_BTC, BTC_USDC, ENJ_ETH, IOST_BTC, DASH_BTC, EOS_USDT, EOS_ETH, ZIL_ETH, ETH_TUSD, GAS_BTC, LYM_BTC, BCH_BTC, VSYS_BTC, BCH_USDT, MKR_DAI, SOLVE_BTC, UQC_BTC, UQC_ETH, OPCT_BTC, OPCT_ETH, PRE_USDT, SHR_BTC, SHR_USDT, VIDT_USDT, ROSE_USDT, USDC_USDT, CTI_USDT, CTI_ETH, ETH2_ETH, BUX_BTC, XHV_USDT, PLU_USDT, GRT_USDT, CAS_BTC, CAS_USDT, MSWAP_BTC, MSWAP_USDT, REVV_BTC, REVV_USDT, ONEINCH_USDT, LOC_USDT, API3_USDT, UNFI_USDT, HTR_USDT, FRONT_USDT, FRONT_BTC, WBTC_BTC, WBTC_ETH, MIR_USDT, LTC_USDC, BCH_USDC, HYDRA_USDT, DFI_USDT, DFI_BTC, CRV_USDT, SUSHI_USDT, FRM_USDT, EOS_USDC, BSV_USDC, ZEN_USDT, CUDOS_USDT, ADA_USDC, REN_USDT, LRC_USDT, LINK_USDC, KLV_USDT, KLV_BTC, BOA_USDT, THETA_USDT, QNT_USDT, BAT_USDT, DOGE_USDT, DOGE_USDC, DAO_USDT, STRONG_USDT, TRIAS_USDT, TRIAS_BTC, DOGE_BTC, MITX_BTC, MITX_USDT, CAKE_USDT, ORAI_USDT, ZEE_USDT, LTX_USDT, LTX_BTC, MASK_USDT, KLV_TRX, IDEA_USDT, PHA_USDT, PHA_ETH, BCH_KCS, SRK_USDT, SRK_BTC, ADA_KCS, HTR_BTC, BSV_KCS, DOT_KCS, LINK_KCS, MIR_KCS, BNB_KCS, XLM_KCS, VET_KCS, SWINGBY_USDT, SWINGBY_BTC, XHV_BTC, DASH_KCS, UNI_KCS, AAVE_KCS, DOGE_KCS, ZEC_KCS, XTZ_KCS, GRT_KCS, ALGO_KCS, EWT_KCS, GAS_USDT, AVAX_USDT, AVAX_BTC, KRL_BTC, KRL_USDT, POLK_USDT, POLK_BTC, ENJ_USDT, MANA_USDT, RNDR_USDT, RNDR_BTC, RLY_USDT, ANC_USDT, SKEY_USDT, LAYER_USDT, TARA_USDT, TARA_ETH, IOST_USDT, DYP_USDT, DYP_ETH, XYM_USDT, XYM_BTC, PCX_USDT, PCX_BTC, ORBS_USDT, ORBS_BTC, BTC3L_USDT, BTC3S_USDT, ETH3L_USDT, ETH3S_USDT, ANKR_USDT, DSLA_USDT, DSLA_BTC, SAND_USDT, VAI_USDT, XCUR_USDT, XCUR_BTC, FLUX_USDT, OMG_USDT, ZIL_USDT, DODO_USDT, MAN_USDT, BAX_USDT, BOSON_USDT, BOSON_ETH, PUNDIX_USDT, PUNDIX_BTC, WAXP_USDT, HT_USDT, PDEX_USDT, LABS_USDT, LABS_ETH, GMB_USDT, PHNX_USDT, PHNX_BTC, HAI_USDT, EQZ_USDT, FORTH_USDT, CGG_USDT, UBX_USDT, GHX_USDT, STND_USDT, STND_ETH, TOWER_USDT, TOWER_BTC, ACE_USDT, LOCG_USDT, CARD_USDT, FLY_USDT, CWS_USDT, XDC_USDT, XDC_ETH, STRK_BTC, STRK_ETH, SHIB_USDT, POLX_USDT, KDA_USDT, KDA_BTC, ICP_USDT, ICP_BTC, STC_USDT, STC_BTC, GOVI_USDT, GOVI_BTC, FKX_USDT, CELO_USDT, CELO_BTC, CUSD_USDT, CUSD_BTC, MATIC_USDT, MATIC_BTC, ELA_USDT, CRPT_USDT, OPCT_USDT, OGN_USDT, OGN_BTC, OUSD_USDT, OUSD_BTC, TLOS_USDT, TLOS_BTC, GLQ_USDT, GLQ_BTC, MXC_USDT, ERSDL_USDT, HOTCROSS_USDT, ADA3L_USDT, ADA3S_USDT, HYVE_USDT, HYVE_BTC, DAPPX_USDT, KONO_USDT, PRQ_USDT, MAHA_USDT, MAHA_BTC, FEAR_USDT, PYR_USDT, PYR_BTC, PROM_USDT, PROM_BTC, GLCH_USDT, UNO_USDT, XCAD_USDT, EOS3L_USDT, EOS3S_USDT, BCH3L_USDT, BCH3S_USDT, ELON_USDT, APL_USDT, VEED_USDT, VEED_BTC, DIVI_USDT, PDEX_BTC, POLS_USDT, POLS_BTC, LPOOL_USDT, LPOOL_BTC, LSS_USDT, VET3L_USDT, VET3S_USDT, LTC3L_USDT, LTC3S_USDT, ABBC_USDT, ABBC_BTC, KOK_USDT, ZCX_USDT, ZCX_BTC, NORD_USDT, GMEE_USDT, SFUND_USDT, XAVA_USDT, AI_USDT, IOI_USDT, NFT_USDT, NFT_TRX, MNST_USDT, MEM_USDT, AGIX_USDT, AGIX_BTC, AGIX_ETH, CQT_USDT, AIOZ_USDT, MARSH_USDT, HAPI_USDT, MODEFI_USDT, MODEFI_BTC, YFDAI_USDT, YFDAI_BTC, GENS_USDT, FORM_USDT, ARRR_USDT, ARRR_BTC, TOKO_KCS, LPT_USDT, ASD_USDT, BOND_USDT, HAI_BTC, SOUL_USDT, TWOCRZ_USDT, NEAR_USDT, NEAR_BTC, DFYN_USDT, OOE_USDT, CFG_USDT, CFG_BTC, AXS_USDT, CLV_USDT, ROUTE_USDT, KAR_USDT, EFX_USDT, XDC_BTC, PMON_USDT, DPET_USDT, ERG_USDT, ERG_BTC, SOL_USDT, SLP_USDT, LITH_USDT, LITH_ETH, XCH_USDT, HAKA_USDT, LAYER_BTC, MTL_USDT, MTL_BTC, IOTX_USDT, GALA_USDT, REQ_USDT, TXA_USDT, TXA_USDC, CIRUS_USDT, QI_USDT, QI_BTC, ODDZ_USDT, PNT_USDT, PNT_BTC, XPR_USDT, XPR_BTC, TRIBE_USDT, MOVR_USDT, MOVR_ETH, WOO_USDT, WILD_USDT, QRDO_USDT, QRDO_ETH, MAKI_USDT, MAKI_BTC, OXT_USDT, OXT_BTC, OXT_ETH, BAL_USDT, BAL_BTC, BAL_ETH, STORJ_USDT, STORJ_BTC, STORJ_ETH, YGG_USDT, NDAU_USDT, SDAO_USDT, SDAO_ETH, XRP3L_USDT, XRP3S_USDT, SKL_USDT, SKL_BTC, NMR_USDT, NMR_BTC, IXS_USDT, TRB_USDT, TRB_BTC, DYDX_USDT, XYO_USDT, GTC_USDT, GTC_BTC, EQX_USDT, EQX_BTC, RLC_USDT, RLC_BTC, XPRT_USDT, EGLD_USDT, EGLD_BTC, HBAR_USDT, HBAR_BTC, DOGE3L_USDT, DOGE3S_USDT, FLOW_USDT, FLOW_BTC, NKN_USDT, NKN_BTC, PBX_USDT, SOL3L_USDT, SOL3S_USDT, MLN_USDT, MLN_BTC, XNL_USDT, SOLVE_USDT, DMTR_USDT, LINK3L_USDT, LINK3S_USDT, DOT3L_USDT, DOT3S_USDT, CTSI_USDT, CTSI_BTC, ALICE_USDT, ALICE_BTC, ALICE_ETH, OPUL_USDT, ILV_USDT, BAND_USDT, BAND_BTC, FTT_USDT, FTT_BTC, DVPN_USDT, SKU_USDT, SKU_BTC, SLIM_USDT, TLM_USDT, TLM_BTC, TLM_ETH, DEXE_USDT, DEXE_BTC, DEXE_ETH, MATTER_USDT, CUDOS_BTC, RUNE_USDT, RUNE_BTC, RMRK_USDT, C98_USDT, BLOK_USDT, SOLR_USDT, ATOM3L_USDT, ATOM3S_USDT, UNI3L_USDT, UNI3S_USDT, WSIENNA_USDT, PUSH_USDT, PUSH_BTC, FORM_ETH, NTVRK_USDT, NTVRK_USDC, AXS3L_USDT, AXS3S_USDT, FTM3L_USDT, FTM3S_USDT, FLAME_USDT, AGLD_USDT, NAKA_USDT, YLD_USDT, TONE_USDT, REEF_USDT, REEF_BTC, TIDAL_USDT, TVK_USDT, TVK_BTC, INJ_USDT, INJ_BTC, BNB3L_USDT, BNB3S_USDT, MATIC3L_USDT, MATIC3S_USDT, VEGA_USDT, VEGA_ETH, ALPHA_USDT, ALPHA_BTC, UNO_BTC, ZKT_USDT, AR_USDT, AR_BTC, JASMY_USDT, PERP_USDT, PERP_BTC, SCLP_USDT, SCLP_BTC, SUPER_USDT, SUPER_BTC, CPOOL_USDT, HERO_USDT, BASIC_USDT, XED_USDT, XED_BTC, AURY_USDT, SWASH_USDT, LTO_USDT, LTO_BTC, BUX_USDT, MTRG_USDT, DREAMS_USDT, SHIB_DOGE, QUICK_USDT, QUICK_BTC, TRU_USDT, TRU_BTC, WRX_USDT, WRX_BTC, SUSHI3L_USDT, SUSHI3S_USDT, NEAR3L_USDT, NEAR3S_USDT, DATA_USDT, DATA_BTC, NORD_BTC, ISP_USDT, CERE_USDT, SHILL_USDT, HEGIC_USDT, HEGIC_BTC, ERN_USDT, ERN_BTC, FTG_USDT, PAXG_USDT, PAXG_BTC, AUDIO_USDT, AUDIO_BTC, ENS_USDT, AAVE3L_USDT, AAVE3S_USDT, SAND3L_USDT, SAND3S_USDT, XTM_USDT, MNW_USDT, FXS_USDT, FXS_BTC, ATA_USDT, ATA_BTC, VXV_USDT, LRC_BTC, LRC_ETH, DPR_USDT, CWAR_USDT, CWAR_BTC, FLUX_BTC, PBR_USDT, ANT_USDT, ANT_BTC, COV_USDT, SWP_USDT, TWT_USDT, TWT_BTC, OM_USDT, OM_BTC, ADX_USDT, AVAX3L_USDT, AVAX3S_USDT, MANA3L_USDT, MANA3S_USDT, GLM_USDT, GLM_BTC, NUM_USDT, VLX_USDT, VLX_BTC, TRADE_USDT, TRADE_BTC, ONEEARTH_USDT, MONI_USDT, LIKE_USDT, LIT_USDT, LIT_BTC, KAVA_USDT, SFP_USDT, SFP_BTC, BURGER_USDT, BURGER_BTC, ILA_USDT, CREAM_USDT, CREAM_BTC, RSR_USDT, RSR_BTC, BUY_BTC, IMX_USDT, GODS_USDT, KMA_USDT, SRM_USDT, SRM_BTC, POLC_USDT, XTAG_USDT, MNET_USDT, NGC_USDT, HARD_USDT, GALAX3L_USDT, GALAX3S_USDT, UNIC_USDT, POND_USDT, POND_BTC, VR_USDT, EPIK_USDT, NGL_USDT, NGL_BTC, KDON_USDT, PEL_USDT, CIRUS_ETH, LINA_USDT, LINA_BTC, KLAY_USDT, KLAY_BTC, CREDI_USDT, TRVL_USDT, LACE_USDT, LACE_ETH, ARKER_USDT, BONDLY_USDT, BONDLY_ETH, XEC_USDT, HEART_USDT, HEART_BTC, UNB_USDT, GAFI_USDT, KOL_USDT, KOL_ETH, H3RO3S_USDT, FALCONS_USDT, UFO_USDT, CHMB_USDT, GEEQ_USDT, ORC_USDT, RACEFI_USDT, PEOPLE_USDT, ADS_USDT, ADS_BTC, OCEAN_USDT, SOS_USDT, WHALE_USDT, TIME_USDT, CWEB_USDT, IOTA_USDT, IOTA_BTC, HNT_USDT, HNT_BTC, GGG_USDT, REVU_USDT, CLH_USDT, PLGR_USDT, GLMR_USDT, GLMR_BTC, CTC_USDT, CTC_BTC, GARI_USDT, FRR_USDT, ASTR_USDT, ASTR_BTC, ERTHA_USDT, FCON_USDT, ACA_USDT, ACA_BTC, MTS_USDT, ROAR_USDT, HBB_USDT, CVX_USDT, AMP_USDT, ACT_USDT, MJT_USDT, MJT_KCS, SHX_USDT, SHX_BTC, STARLY_USDT, ONSTON_USDT, RANKER_USDT, WMT_USDT, XNO_USDT, XNO_BTC, MARS4_USDT, TFUEL_USDT, TFUEL_BTC, METIS_USDT, LAVAX_USDT, WAL_USDT, BULL_USDT, SON_USDT, MELOS_USDT, APE_USDT, GMT_USDT, BICO_USDT, STG_USDT, LMR_USDT, LMR_BTC, LOKA_USDT, URUS_USDT, JAM_USDT, JAM_ETH, BNC_USDT, LBP_USDT, CFX_USDT, LOOKS_USDT, XCN_USDT, XCN_BTC, TITAN_USDT, UPO_USDT, SLCL_USDT, CEEK_USDT, NHCT_USDT, ARNM_USDT, FRA_USDT, VISION_USDT, COCOS_USDT, ALPINE_USDT, ZBC_USDT, WOOP_USDT, T_USDT, NYM_USDT, VOXEL_USDT, VOXEL_ETH, PSTAKE_USDT, SPA_USDT, SPA_ETH, SYNR_USDT, DAR_USDT, DAR_BTC, MV_USDT, XDEFI_USDT, RACA_USDT, XWG_USDT, HAWK_USDT, TRVL_BTC, SWFTC_USDT, BRWL_USDT, TAUM_USDT, CELR_USDT, AURORA_USDT, POSI_USDT, COOHA_USDT, KNC_USDT, EPK_USDT, PLD_USDT, PSL_USDT, PKF_USDT, OVR_USDT, SYS_USDT, SYS_BTC, BRISE_USDT, DG_USDT, EPX_USDT, GST_USDT, PLY_USDT, GAL_USDT, BSW_USDT, FITFI_USDT, FSN_USDT, H2O_USDT, GMM_USDT, AKT_USDT, SIN_USDT, AUSD_USDT, BOBA_USDT, BFC_USDT, BIFI_USDT, DFA_USDT, MBL_USDT, DUSK_USDT, USDD_USDT, USDD_USDC, FITFI_USDC, APE_USDC, AVAX_USDC, SHIB_USDC, XCN_USDC, TRX_USDC, NEAR_USDC, MATIC_USDC, FTM_USDC, ZIL_USDC, SOL_USDC, MLS_USDT, AFK_USDT, AFK_USDC, ACH_USDT, SCRT_USDT, SCRT_BTC, APE3L_USDT, APE3S_USDT, STORE_USDT, STORE_ETH, GMT3L_USDT, GMT3S_USDT, CCD_USDT, DOSE_USDC, LUNC_USDT, LUNC_USDC, USTC_USDT, USTC_USDC, GMT_USDC, VRA_USDC, DOT_USDC, RUNE_USDC, ATOM_USDC, BNB_USDC, JASMY_USDC, KCS_USDC, KDA_USDC, ALGO_USDC, LUNA_USDC, OP_USDT, OP_USDC, JASMY3L_USDT, JASMY3S_USDT, EVER_USDT, MOOV_USDT, IHC_USDT, ICX_USDT, ICX_ETH, BTC_BRL, ETH_BRL, USDT_BRL, WELL_USDT, FORT_USDT, USDP_USDT, USDD_TRX, BTC_EUR, ETH_EUR, USDT_EUR, CSPR_USDT, CSPR_ETH, WEMIX_USDT, REV3L_USDT, OLE_USDT, LDO_USDT, LDO_USDC, CULT_USDT, SWFTC_USDC, FIDA_USDT, BUSD_USDT, RBP_USDT, SRBP_USDT, HIBAYC_USDT, BUSD_USDC, OGV_USDT, WOMBAT_USDT, HIPUNKS_USDT, FT_USDT, ETC_USDC, HIENS4_USDT, EGAME_USDT, EGAME_BTC, STEPWATCH_USDT, HISAND33_USDT, DC_USDT, NEER_USDT, RVN_USDT, HIENS3_USDT, MC_USDT, PEEL_USDT, PEEL_BTC, SDL_USDT, SDL_BTC, SWEAT_USDT, HIODBS_USDT, CMP_USDT, PIX_USDT, MPLX_USDT, HIDOODLES_USDT, ETHW_USDT, QUARTZ_USDT, ACQ_USDT, ACQ_USDC, AOG_USDT, HIMAYC_USDT, PRMX_USDT, RED_USDT, PUMLX_USDT, XETA_USDT, GEM_USDT, DERC_USDT, P00LS_USDT, P00LS_USDC, KICKS_USDT, TRIBL_USDT, GMX_USDT, HIOD_USDT, POKT_USDT, EFI_USDT, APT_USDT, BBC_USDT, EUL_USDT, TON_USDT, PIAS_USDT, HIMEEBITS_USDT, HISQUIGGLE_USDT, XCV_USDT, HFT_USDT, HFT_USDC, ECOX_USDT, AMB_USDT, AZERO_USDT, HIFIDENZA_USDT, BEAT_USDT, NRFB_USDT, NRFB_BTC, HIGAZERS_USDT, NAVI_USDT, CARE_USDT, CLUB_USDT, HIPENGUINS_USDT, ALT_USDT, HICLONEX_USDT, PRIMAL_USDT, PRIMAL_USDC, OAS_USDT, VEMP_USDC, HICOOLCATS_USDT, HIAZUKI_USDT, TEM_USDT, HIFLUF_USDT, HIBIRDS_USDT, BDX_USDT, BDX_BTC, FLR_USDT, FLR_USDC, HIMFERS_USDT, OSMO_USDT, ASTRA_USDT, MAGIC_USDT, SQUAD_USDT, SIMP_USDT, HIVALHALLA_USDT, RPL_USDT, HIRENGA_USDT, KING_USDT, SHIB2L_USDT, SHIB2S_USDT, OP2L_USDT, OP2S_USDT, HIGH_USDT, HIGH_ETH, HIUNDEAD_USDT, AGIX2L_USDT, AGIX2S_USDT, TRAC_USDT, GRT2L_USDT, GRT2S_USDT, APT2L_USDT, APT2S_USDT, GFT_USDT, GFT_BTC, BLUR_USDT, HIFRIENDS_USDT, WAXL_USDT, FLOKI_USDT, SSV_USDT, FLOKI_USDC, ACS_USDT, IGU_USDT, IGU_BTC, BLUR2L_USDT, BLUR2S_USDT, CSIX_USDT, FET_USDT, CSIX_ETH, CFX2L_USDT, CFX2S_USDT, HISEALS_USDT, SIDUS_USDT, GOAL_USDT, AIPAD_USDT, RDNT_USDT, DPX_USDT, SYN_USDT, GNS_USDT, GRAIL_USDT, BLZ_USDT, HIBEANZ_USDT, BTC_GBP, ETH_GBP, USDT_GBP, HALO_USDT, NXRA_USDT, NXRA_ETH, MINA_USDT, XRD_USDT, NOM_USDT, LQTY_USDT, CFX_BTC, CFX_ETH, ID_USDT, ARB_USDT, ARB3S_USDT, ARB3L_USDT, ID3L_USDT, ID3S_USDT, HMND_USDT, BTCUP_USDT, BTCDOWN_USDT, ETHUP_USDT, ETHDOWN_USDT, HIFI_USDT, MYRIA_USDT, SD_USDT, CGPT_USDT, STRAX_USDT, KAGI_USDT, RLTM_USDT, DYDXUP_USDT, DYDXDOWN_USDT, SXPUP_USDT, SXPDOWN_USDT, MASKUP_USDT, MASKDOWN_USDT, OTK_USDT, RNDRUP_USDT, RNDRDOWN_USDT, STXUP_USDT, STXDOWN_USDT, LINAUP_USDT, LINADOWN_USDT, GPT_USDT, BABYDOGE_USDT, PZP_USDT, INJDOWN_USDT, ETCUP_USDT, ETCDOWN_USDT, INJUP_USDT, LOCUS_USDT, IRON_USDT, ZPAY_USDT, IZI_USDT, SUI_USDT, SUI3S_USDT, SUI3L_USDT, PEPE_USDT])
+
+kucoin = Kucoin()

@@ -1,7 +1,7 @@
 # Symbols  
 Cryptocurrency symbols catalog library  
 
- [![Release](https://img.shields.io/badge/release-v0.5.2--pre--alpha-orange.svg)](https://github.com/zatura/symbols)
+ [![Release](https://img.shields.io/badge/release-v0.6.0--pre--alpha-orange.svg)](https://github.com/zatura/symbols)
 [![Python](https://img.shields.io/badge/Python-3.6|3.7|3.8|3.9|3.10|3.11-blue.svg)](https://github.com/zatura/symbols)
 
   

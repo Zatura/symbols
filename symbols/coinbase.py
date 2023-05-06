@@ -40,17 +40,6 @@ class ZERO0_USD(Symbol):
 
 
 ZERO0_USD = ZERO0_USD(*ZERO0_USD._fields)
-"""
-    name: 00-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ONEINCH_BTC(Symbol):
@@ -92,17 +81,6 @@ class ONEINCH_BTC(Symbol):
 
 
 ONEINCH_BTC = ONEINCH_BTC(*ONEINCH_BTC._fields)
-"""
-    name: 1INCH-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ONEINCH_EUR(Symbol):
@@ -144,17 +122,6 @@ class ONEINCH_EUR(Symbol):
 
 
 ONEINCH_EUR = ONEINCH_EUR(*ONEINCH_EUR._fields)
-"""
-    name: 1INCH-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ONEINCH_GBP(Symbol):
@@ -196,17 +163,6 @@ class ONEINCH_GBP(Symbol):
 
 
 ONEINCH_GBP = ONEINCH_GBP(*ONEINCH_GBP._fields)
-"""
-    name: 1INCH-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ONEINCH_USD(Symbol):
@@ -248,17 +204,6 @@ class ONEINCH_USD(Symbol):
 
 
 ONEINCH_USD = ONEINCH_USD(*ONEINCH_USD._fields)
-"""
-    name: 1INCH-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AAVE_BTC(Symbol):
@@ -300,17 +245,6 @@ class AAVE_BTC(Symbol):
 
 
 AAVE_BTC = AAVE_BTC(*AAVE_BTC._fields)
-"""
-    name: AAVE-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AAVE_EUR(Symbol):
@@ -352,17 +286,6 @@ class AAVE_EUR(Symbol):
 
 
 AAVE_EUR = AAVE_EUR(*AAVE_EUR._fields)
-"""
-    name: AAVE-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AAVE_GBP(Symbol):
@@ -404,17 +327,6 @@ class AAVE_GBP(Symbol):
 
 
 AAVE_GBP = AAVE_GBP(*AAVE_GBP._fields)
-"""
-    name: AAVE-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AAVE_USD(Symbol):
@@ -456,17 +368,6 @@ class AAVE_USD(Symbol):
 
 
 AAVE_USD = AAVE_USD(*AAVE_USD._fields)
-"""
-    name: AAVE-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ABT_USD(Symbol):
@@ -508,17 +409,6 @@ class ABT_USD(Symbol):
 
 
 ABT_USD = ABT_USD(*ABT_USD._fields)
-"""
-    name: ABT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ACH_USD(Symbol):
@@ -560,17 +450,6 @@ class ACH_USD(Symbol):
 
 
 ACH_USD = ACH_USD(*ACH_USD._fields)
-"""
-    name: ACH-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ACH_USDT(Symbol):
@@ -612,17 +491,6 @@ class ACH_USDT(Symbol):
 
 
 ACH_USDT = ACH_USDT(*ACH_USDT._fields)
-"""
-    name: ACH-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ACS_USD(Symbol):
@@ -664,17 +532,6 @@ class ACS_USD(Symbol):
 
 
 ACS_USD = ACS_USD(*ACS_USD._fields)
-"""
-    name: ACS-USD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_BTC(Symbol):
@@ -716,17 +573,6 @@ class ADA_BTC(Symbol):
 
 
 ADA_BTC = ADA_BTC(*ADA_BTC._fields)
-"""
-    name: ADA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_ETH(Symbol):
@@ -768,17 +614,6 @@ class ADA_ETH(Symbol):
 
 
 ADA_ETH = ADA_ETH(*ADA_ETH._fields)
-"""
-    name: ADA-ETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_EUR(Symbol):
@@ -820,17 +655,6 @@ class ADA_EUR(Symbol):
 
 
 ADA_EUR = ADA_EUR(*ADA_EUR._fields)
-"""
-    name: ADA-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_GBP(Symbol):
@@ -872,17 +696,6 @@ class ADA_GBP(Symbol):
 
 
 ADA_GBP = ADA_GBP(*ADA_GBP._fields)
-"""
-    name: ADA-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_USD(Symbol):
@@ -924,17 +737,6 @@ class ADA_USD(Symbol):
 
 
 ADA_USD = ADA_USD(*ADA_USD._fields)
-"""
-    name: ADA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_USDC(Symbol):
@@ -976,17 +778,6 @@ class ADA_USDC(Symbol):
 
 
 ADA_USDC = ADA_USDC(*ADA_USDC._fields)
-"""
-    name: ADA-USDC
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ADA_USDT(Symbol):
@@ -1028,17 +819,6 @@ class ADA_USDT(Symbol):
 
 
 ADA_USDT = ADA_USDT(*ADA_USDT._fields)
-"""
-    name: ADA-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AERGO_USD(Symbol):
@@ -1080,17 +860,6 @@ class AERGO_USD(Symbol):
 
 
 AERGO_USD = AERGO_USD(*AERGO_USD._fields)
-"""
-    name: AERGO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AGLD_USD(Symbol):
@@ -1132,17 +901,6 @@ class AGLD_USD(Symbol):
 
 
 AGLD_USD = AGLD_USD(*AGLD_USD._fields)
-"""
-    name: AGLD-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AGLD_USDT(Symbol):
@@ -1184,17 +942,6 @@ class AGLD_USDT(Symbol):
 
 
 AGLD_USDT = AGLD_USDT(*AGLD_USDT._fields)
-"""
-    name: AGLD-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AIOZ_USD(Symbol):
@@ -1236,17 +983,6 @@ class AIOZ_USD(Symbol):
 
 
 AIOZ_USD = AIOZ_USD(*AIOZ_USD._fields)
-"""
-    name: AIOZ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AIOZ_USDT(Symbol):
@@ -1288,17 +1024,6 @@ class AIOZ_USDT(Symbol):
 
 
 AIOZ_USDT = AIOZ_USDT(*AIOZ_USDT._fields)
-"""
-    name: AIOZ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALCX_EUR(Symbol):
@@ -1340,17 +1065,6 @@ class ALCX_EUR(Symbol):
 
 
 ALCX_EUR = ALCX_EUR(*ALCX_EUR._fields)
-"""
-    name: ALCX-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALCX_USD(Symbol):
@@ -1392,17 +1106,6 @@ class ALCX_USD(Symbol):
 
 
 ALCX_USD = ALCX_USD(*ALCX_USD._fields)
-"""
-    name: ALCX-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALCX_USDT(Symbol):
@@ -1444,17 +1147,6 @@ class ALCX_USDT(Symbol):
 
 
 ALCX_USDT = ALCX_USDT(*ALCX_USDT._fields)
-"""
-    name: ALCX-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALEPH_USD(Symbol):
@@ -1496,17 +1188,6 @@ class ALEPH_USD(Symbol):
 
 
 ALEPH_USD = ALEPH_USD(*ALEPH_USD._fields)
-"""
-    name: ALEPH-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALGO_BTC(Symbol):
@@ -1548,17 +1229,6 @@ class ALGO_BTC(Symbol):
 
 
 ALGO_BTC = ALGO_BTC(*ALGO_BTC._fields)
-"""
-    name: ALGO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALGO_EUR(Symbol):
@@ -1600,17 +1270,6 @@ class ALGO_EUR(Symbol):
 
 
 ALGO_EUR = ALGO_EUR(*ALGO_EUR._fields)
-"""
-    name: ALGO-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALGO_GBP(Symbol):
@@ -1652,17 +1311,6 @@ class ALGO_GBP(Symbol):
 
 
 ALGO_GBP = ALGO_GBP(*ALGO_GBP._fields)
-"""
-    name: ALGO-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALGO_USD(Symbol):
@@ -1704,17 +1352,6 @@ class ALGO_USD(Symbol):
 
 
 ALGO_USD = ALGO_USD(*ALGO_USD._fields)
-"""
-    name: ALGO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ALICE_USD(Symbol):
@@ -1756,17 +1393,6 @@ class ALICE_USD(Symbol):
 
 
 ALICE_USD = ALICE_USD(*ALICE_USD._fields)
-"""
-    name: ALICE-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AMP_USD(Symbol):
@@ -1808,17 +1434,6 @@ class AMP_USD(Symbol):
 
 
 AMP_USD = AMP_USD(*AMP_USD._fields)
-"""
-    name: AMP-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ANKR_BTC(Symbol):
@@ -1860,17 +1475,6 @@ class ANKR_BTC(Symbol):
 
 
 ANKR_BTC = ANKR_BTC(*ANKR_BTC._fields)
-"""
-    name: ANKR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ANKR_EUR(Symbol):
@@ -1912,17 +1516,6 @@ class ANKR_EUR(Symbol):
 
 
 ANKR_EUR = ANKR_EUR(*ANKR_EUR._fields)
-"""
-    name: ANKR-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ANKR_GBP(Symbol):
@@ -1964,17 +1557,6 @@ class ANKR_GBP(Symbol):
 
 
 ANKR_GBP = ANKR_GBP(*ANKR_GBP._fields)
-"""
-    name: ANKR-GBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ANKR_USD(Symbol):
@@ -2016,17 +1598,6 @@ class ANKR_USD(Symbol):
 
 
 ANKR_USD = ANKR_USD(*ANKR_USD._fields)
-"""
-    name: ANKR-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ANT_USD(Symbol):
@@ -2068,17 +1639,6 @@ class ANT_USD(Symbol):
 
 
 ANT_USD = ANT_USD(*ANT_USD._fields)
-"""
-    name: ANT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5.0
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class APE_EUR(Symbol):
@@ -2120,17 +1680,6 @@ class APE_EUR(Symbol):
 
 
 APE_EUR = APE_EUR(*APE_EUR._fields)
-"""
-    name: APE-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class APE_USD(Symbol):
@@ -2172,17 +1721,6 @@ class APE_USD(Symbol):
 
 
 APE_USD = APE_USD(*APE_USD._fields)
-"""
-    name: APE-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class APE_USDT(Symbol):
@@ -2224,17 +1762,6 @@ class APE_USDT(Symbol):
 
 
 APE_USDT = APE_USDT(*APE_USDT._fields)
-"""
-    name: APE-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class API3_USD(Symbol):
@@ -2276,17 +1803,6 @@ class API3_USD(Symbol):
 
 
 API3_USD = API3_USD(*API3_USD._fields)
-"""
-    name: API3-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class API3_USDT(Symbol):
@@ -2328,17 +1844,6 @@ class API3_USDT(Symbol):
 
 
 API3_USDT = API3_USDT(*API3_USDT._fields)
-"""
-    name: API3-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class APT_USD(Symbol):
@@ -2380,17 +1885,6 @@ class APT_USD(Symbol):
 
 
 APT_USD = APT_USD(*APT_USD._fields)
-"""
-    name: APT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class APT_USDT(Symbol):
@@ -2432,17 +1926,6 @@ class APT_USDT(Symbol):
 
 
 APT_USDT = APT_USDT(*APT_USDT._fields)
-"""
-    name: APT-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ARB_USD(Symbol):
@@ -2484,17 +1967,6 @@ class ARB_USD(Symbol):
 
 
 ARB_USD = ARB_USD(*ARB_USD._fields)
-"""
-    name: ARB-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ARPA_EUR(Symbol):
@@ -2536,17 +2008,6 @@ class ARPA_EUR(Symbol):
 
 
 ARPA_EUR = ARPA_EUR(*ARPA_EUR._fields)
-"""
-    name: ARPA-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ARPA_USD(Symbol):
@@ -2588,17 +2049,6 @@ class ARPA_USD(Symbol):
 
 
 ARPA_USD = ARPA_USD(*ARPA_USD._fields)
-"""
-    name: ARPA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ARPA_USDT(Symbol):
@@ -2640,17 +2090,6 @@ class ARPA_USDT(Symbol):
 
 
 ARPA_USDT = ARPA_USDT(*ARPA_USDT._fields)
-"""
-    name: ARPA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ASM_USD(Symbol):
@@ -2692,17 +2131,6 @@ class ASM_USD(Symbol):
 
 
 ASM_USD = ASM_USD(*ASM_USD._fields)
-"""
-    name: ASM-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ASM_USDT(Symbol):
@@ -2744,17 +2172,6 @@ class ASM_USDT(Symbol):
 
 
 ASM_USDT = ASM_USDT(*ASM_USDT._fields)
-"""
-    name: ASM-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AST_USD(Symbol):
@@ -2796,17 +2213,6 @@ class AST_USD(Symbol):
 
 
 AST_USD = AST_USD(*AST_USD._fields)
-"""
-    name: AST-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATA_USD(Symbol):
@@ -2848,17 +2254,6 @@ class ATA_USD(Symbol):
 
 
 ATA_USD = ATA_USD(*ATA_USD._fields)
-"""
-    name: ATA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATA_USDT(Symbol):
@@ -2900,17 +2295,6 @@ class ATA_USDT(Symbol):
 
 
 ATA_USDT = ATA_USDT(*ATA_USDT._fields)
-"""
-    name: ATA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATOM_BTC(Symbol):
@@ -2952,17 +2336,6 @@ class ATOM_BTC(Symbol):
 
 
 ATOM_BTC = ATOM_BTC(*ATOM_BTC._fields)
-"""
-    name: ATOM-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATOM_EUR(Symbol):
@@ -3004,17 +2377,6 @@ class ATOM_EUR(Symbol):
 
 
 ATOM_EUR = ATOM_EUR(*ATOM_EUR._fields)
-"""
-    name: ATOM-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATOM_GBP(Symbol):
@@ -3056,17 +2418,6 @@ class ATOM_GBP(Symbol):
 
 
 ATOM_GBP = ATOM_GBP(*ATOM_GBP._fields)
-"""
-    name: ATOM-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATOM_USD(Symbol):
@@ -3108,17 +2459,6 @@ class ATOM_USD(Symbol):
 
 
 ATOM_USD = ATOM_USD(*ATOM_USD._fields)
-"""
-    name: ATOM-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ATOM_USDT(Symbol):
@@ -3160,17 +2500,6 @@ class ATOM_USDT(Symbol):
 
 
 ATOM_USDT = ATOM_USDT(*ATOM_USDT._fields)
-"""
-    name: ATOM-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AUCTION_EUR(Symbol):
@@ -3212,17 +2541,6 @@ class AUCTION_EUR(Symbol):
 
 
 AUCTION_EUR = AUCTION_EUR(*AUCTION_EUR._fields)
-"""
-    name: AUCTION-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AUCTION_USD(Symbol):
@@ -3264,17 +2582,6 @@ class AUCTION_USD(Symbol):
 
 
 AUCTION_USD = AUCTION_USD(*AUCTION_USD._fields)
-"""
-    name: AUCTION-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AUCTION_USDT(Symbol):
@@ -3316,17 +2623,6 @@ class AUCTION_USDT(Symbol):
 
 
 AUCTION_USDT = AUCTION_USDT(*AUCTION_USDT._fields)
-"""
-    name: AUCTION-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AUDIO_USD(Symbol):
@@ -3368,17 +2664,6 @@ class AUDIO_USD(Symbol):
 
 
 AUDIO_USD = AUDIO_USD(*AUDIO_USD._fields)
-"""
-    name: AUDIO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AURORA_USD(Symbol):
@@ -3420,17 +2705,6 @@ class AURORA_USD(Symbol):
 
 
 AURORA_USD = AURORA_USD(*AURORA_USD._fields)
-"""
-    name: AURORA-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AVAX_BTC(Symbol):
@@ -3472,17 +2746,6 @@ class AVAX_BTC(Symbol):
 
 
 AVAX_BTC = AVAX_BTC(*AVAX_BTC._fields)
-"""
-    name: AVAX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AVAX_EUR(Symbol):
@@ -3524,17 +2787,6 @@ class AVAX_EUR(Symbol):
 
 
 AVAX_EUR = AVAX_EUR(*AVAX_EUR._fields)
-"""
-    name: AVAX-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AVAX_USD(Symbol):
@@ -3576,17 +2828,6 @@ class AVAX_USD(Symbol):
 
 
 AVAX_USD = AVAX_USD(*AVAX_USD._fields)
-"""
-    name: AVAX-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AVAX_USDT(Symbol):
@@ -3628,17 +2869,6 @@ class AVAX_USDT(Symbol):
 
 
 AVAX_USDT = AVAX_USDT(*AVAX_USDT._fields)
-"""
-    name: AVAX-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AVT_USD(Symbol):
@@ -3680,17 +2910,6 @@ class AVT_USD(Symbol):
 
 
 AVT_USD = AVT_USD(*AVT_USD._fields)
-"""
-    name: AVT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AXL_USD(Symbol):
@@ -3732,17 +2951,6 @@ class AXL_USD(Symbol):
 
 
 AXL_USD = AXL_USD(*AXL_USD._fields)
-"""
-    name: AXL-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AXS_BTC(Symbol):
@@ -3784,17 +2992,6 @@ class AXS_BTC(Symbol):
 
 
 AXS_BTC = AXS_BTC(*AXS_BTC._fields)
-"""
-    name: AXS-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AXS_EUR(Symbol):
@@ -3836,17 +3033,6 @@ class AXS_EUR(Symbol):
 
 
 AXS_EUR = AXS_EUR(*AXS_EUR._fields)
-"""
-    name: AXS-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AXS_USD(Symbol):
@@ -3888,17 +3074,6 @@ class AXS_USD(Symbol):
 
 
 AXS_USD = AXS_USD(*AXS_USD._fields)
-"""
-    name: AXS-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class AXS_USDT(Symbol):
@@ -3940,17 +3115,6 @@ class AXS_USDT(Symbol):
 
 
 AXS_USDT = AXS_USDT(*AXS_USDT._fields)
-"""
-    name: AXS-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BADGER_EUR(Symbol):
@@ -3992,17 +3156,6 @@ class BADGER_EUR(Symbol):
 
 
 BADGER_EUR = BADGER_EUR(*BADGER_EUR._fields)
-"""
-    name: BADGER-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BADGER_USD(Symbol):
@@ -4044,17 +3197,6 @@ class BADGER_USD(Symbol):
 
 
 BADGER_USD = BADGER_USD(*BADGER_USD._fields)
-"""
-    name: BADGER-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BADGER_USDT(Symbol):
@@ -4096,17 +3238,6 @@ class BADGER_USDT(Symbol):
 
 
 BADGER_USDT = BADGER_USDT(*BADGER_USDT._fields)
-"""
-    name: BADGER-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAL_BTC(Symbol):
@@ -4148,17 +3279,6 @@ class BAL_BTC(Symbol):
 
 
 BAL_BTC = BAL_BTC(*BAL_BTC._fields)
-"""
-    name: BAL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAL_USD(Symbol):
@@ -4200,17 +3320,6 @@ class BAL_USD(Symbol):
 
 
 BAL_USD = BAL_USD(*BAL_USD._fields)
-"""
-    name: BAL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAND_BTC(Symbol):
@@ -4252,17 +3361,6 @@ class BAND_BTC(Symbol):
 
 
 BAND_BTC = BAND_BTC(*BAND_BTC._fields)
-"""
-    name: BAND-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAND_EUR(Symbol):
@@ -4304,17 +3402,6 @@ class BAND_EUR(Symbol):
 
 
 BAND_EUR = BAND_EUR(*BAND_EUR._fields)
-"""
-    name: BAND-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAND_GBP(Symbol):
@@ -4356,17 +3443,6 @@ class BAND_GBP(Symbol):
 
 
 BAND_GBP = BAND_GBP(*BAND_GBP._fields)
-"""
-    name: BAND-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAND_USD(Symbol):
@@ -4408,17 +3484,6 @@ class BAND_USD(Symbol):
 
 
 BAND_USD = BAND_USD(*BAND_USD._fields)
-"""
-    name: BAND-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAT_BTC(Symbol):
@@ -4460,17 +3525,6 @@ class BAT_BTC(Symbol):
 
 
 BAT_BTC = BAT_BTC(*BAT_BTC._fields)
-"""
-    name: BAT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAT_ETH(Symbol):
@@ -4512,17 +3566,6 @@ class BAT_ETH(Symbol):
 
 
 BAT_ETH = BAT_ETH(*BAT_ETH._fields)
-"""
-    name: BAT-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAT_EUR(Symbol):
@@ -4564,17 +3607,6 @@ class BAT_EUR(Symbol):
 
 
 BAT_EUR = BAT_EUR(*BAT_EUR._fields)
-"""
-    name: BAT-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAT_USD(Symbol):
@@ -4616,17 +3648,6 @@ class BAT_USD(Symbol):
 
 
 BAT_USD = BAT_USD(*BAT_USD._fields)
-"""
-    name: BAT-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BAT_USDC(Symbol):
@@ -4668,17 +3689,6 @@ class BAT_USDC(Symbol):
 
 
 BAT_USDC = BAT_USDC(*BAT_USDC._fields)
-"""
-    name: BAT-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BCH_BTC(Symbol):
@@ -4720,17 +3730,6 @@ class BCH_BTC(Symbol):
 
 
 BCH_BTC = BCH_BTC(*BCH_BTC._fields)
-"""
-    name: BCH-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BCH_EUR(Symbol):
@@ -4772,17 +3771,6 @@ class BCH_EUR(Symbol):
 
 
 BCH_EUR = BCH_EUR(*BCH_EUR._fields)
-"""
-    name: BCH-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BCH_GBP(Symbol):
@@ -4824,17 +3812,6 @@ class BCH_GBP(Symbol):
 
 
 BCH_GBP = BCH_GBP(*BCH_GBP._fields)
-"""
-    name: BCH-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BCH_USD(Symbol):
@@ -4876,17 +3853,6 @@ class BCH_USD(Symbol):
 
 
 BCH_USD = BCH_USD(*BCH_USD._fields)
-"""
-    name: BCH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BICO_EUR(Symbol):
@@ -4928,17 +3894,6 @@ class BICO_EUR(Symbol):
 
 
 BICO_EUR = BICO_EUR(*BICO_EUR._fields)
-"""
-    name: BICO-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BICO_USD(Symbol):
@@ -4980,17 +3935,6 @@ class BICO_USD(Symbol):
 
 
 BICO_USD = BICO_USD(*BICO_USD._fields)
-"""
-    name: BICO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BICO_USDT(Symbol):
@@ -5032,17 +3976,6 @@ class BICO_USDT(Symbol):
 
 
 BICO_USDT = BICO_USDT(*BICO_USDT._fields)
-"""
-    name: BICO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BIT_USD(Symbol):
@@ -5084,17 +4017,6 @@ class BIT_USD(Symbol):
 
 
 BIT_USD = BIT_USD(*BIT_USD._fields)
-"""
-    name: BIT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BIT_USDT(Symbol):
@@ -5136,17 +4058,6 @@ class BIT_USDT(Symbol):
 
 
 BIT_USDT = BIT_USDT(*BIT_USDT._fields)
-"""
-    name: BIT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BLUR_USD(Symbol):
@@ -5188,17 +4099,6 @@ class BLUR_USD(Symbol):
 
 
 BLUR_USD = BLUR_USD(*BLUR_USD._fields)
-"""
-    name: BLUR-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BLZ_USD(Symbol):
@@ -5240,17 +4140,6 @@ class BLZ_USD(Symbol):
 
 
 BLZ_USD = BLZ_USD(*BLZ_USD._fields)
-"""
-    name: BLZ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BNT_BTC(Symbol):
@@ -5292,17 +4181,6 @@ class BNT_BTC(Symbol):
 
 
 BNT_BTC = BNT_BTC(*BNT_BTC._fields)
-"""
-    name: BNT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BNT_EUR(Symbol):
@@ -5344,17 +4222,6 @@ class BNT_EUR(Symbol):
 
 
 BNT_EUR = BNT_EUR(*BNT_EUR._fields)
-"""
-    name: BNT-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BNT_GBP(Symbol):
@@ -5396,17 +4263,6 @@ class BNT_GBP(Symbol):
 
 
 BNT_GBP = BNT_GBP(*BNT_GBP._fields)
-"""
-    name: BNT-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BNT_USD(Symbol):
@@ -5448,17 +4304,6 @@ class BNT_USD(Symbol):
 
 
 BNT_USD = BNT_USD(*BNT_USD._fields)
-"""
-    name: BNT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BOBA_USD(Symbol):
@@ -5500,17 +4345,6 @@ class BOBA_USD(Symbol):
 
 
 BOBA_USD = BOBA_USD(*BOBA_USD._fields)
-"""
-    name: BOBA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BOBA_USDT(Symbol):
@@ -5552,17 +4386,6 @@ class BOBA_USDT(Symbol):
 
 
 BOBA_USDT = BOBA_USDT(*BOBA_USDT._fields)
-"""
-    name: BOBA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BOND_USD(Symbol):
@@ -5604,17 +4427,6 @@ class BOND_USD(Symbol):
 
 
 BOND_USD = BOND_USD(*BOND_USD._fields)
-"""
-    name: BOND-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BOND_USDT(Symbol):
@@ -5656,17 +4468,6 @@ class BOND_USDT(Symbol):
 
 
 BOND_USDT = BOND_USDT(*BOND_USDT._fields)
-"""
-    name: BOND-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTC_EUR(Symbol):
@@ -5708,17 +4509,6 @@ class BTC_EUR(Symbol):
 
 
 BTC_EUR = BTC_EUR(*BTC_EUR._fields)
-"""
-    name: BTC-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTC_GBP(Symbol):
@@ -5760,17 +4550,6 @@ class BTC_GBP(Symbol):
 
 
 BTC_GBP = BTC_GBP(*BTC_GBP._fields)
-"""
-    name: BTC-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTC_USD(Symbol):
@@ -5812,17 +4591,6 @@ class BTC_USD(Symbol):
 
 
 BTC_USD = BTC_USD(*BTC_USD._fields)
-"""
-    name: BTC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTC_USDC(Symbol):
@@ -5864,17 +4632,6 @@ class BTC_USDC(Symbol):
 
 
 BTC_USDC = BTC_USDC(*BTC_USDC._fields)
-"""
-    name: BTC-USDC
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTC_USDT(Symbol):
@@ -5916,17 +4673,6 @@ class BTC_USDT(Symbol):
 
 
 BTC_USDT = BTC_USDT(*BTC_USDT._fields)
-"""
-    name: BTC-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTRST_BTC(Symbol):
@@ -5968,17 +4714,6 @@ class BTRST_BTC(Symbol):
 
 
 BTRST_BTC = BTRST_BTC(*BTRST_BTC._fields)
-"""
-    name: BTRST-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTRST_EUR(Symbol):
@@ -6020,17 +4755,6 @@ class BTRST_EUR(Symbol):
 
 
 BTRST_EUR = BTRST_EUR(*BTRST_EUR._fields)
-"""
-    name: BTRST-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTRST_GBP(Symbol):
@@ -6072,17 +4796,6 @@ class BTRST_GBP(Symbol):
 
 
 BTRST_GBP = BTRST_GBP(*BTRST_GBP._fields)
-"""
-    name: BTRST-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTRST_USD(Symbol):
@@ -6124,17 +4837,6 @@ class BTRST_USD(Symbol):
 
 
 BTRST_USD = BTRST_USD(*BTRST_USD._fields)
-"""
-    name: BTRST-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BTRST_USDT(Symbol):
@@ -6176,17 +4878,6 @@ class BTRST_USDT(Symbol):
 
 
 BTRST_USDT = BTRST_USDT(*BTRST_USDT._fields)
-"""
-    name: BTRST-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class BUSD_USD(Symbol):
@@ -6228,17 +4919,6 @@ class BUSD_USD(Symbol):
 
 
 BUSD_USD = BUSD_USD(*BUSD_USD._fields)
-"""
-    name: BUSD-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class C98_USD(Symbol):
@@ -6280,17 +4960,6 @@ class C98_USD(Symbol):
 
 
 C98_USD = C98_USD(*C98_USD._fields)
-"""
-    name: C98-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class C98_USDT(Symbol):
@@ -6332,17 +5001,6 @@ class C98_USDT(Symbol):
 
 
 C98_USDT = C98_USDT(*C98_USDT._fields)
-"""
-    name: C98-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CBETH_ETH(Symbol):
@@ -6384,17 +5042,6 @@ class CBETH_ETH(Symbol):
 
 
 CBETH_ETH = CBETH_ETH(*CBETH_ETH._fields)
-"""
-    name: CBETH-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.002
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CBETH_USD(Symbol):
@@ -6436,17 +5083,6 @@ class CBETH_USD(Symbol):
 
 
 CBETH_USD = CBETH_USD(*CBETH_USD._fields)
-"""
-    name: CBETH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CELR_USD(Symbol):
@@ -6488,17 +5124,6 @@ class CELR_USD(Symbol):
 
 
 CELR_USD = CELR_USD(*CELR_USD._fields)
-"""
-    name: CELR-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CGLD_BTC(Symbol):
@@ -6540,17 +5165,6 @@ class CGLD_BTC(Symbol):
 
 
 CGLD_BTC = CGLD_BTC(*CGLD_BTC._fields)
-"""
-    name: CGLD-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CGLD_EUR(Symbol):
@@ -6592,17 +5206,6 @@ class CGLD_EUR(Symbol):
 
 
 CGLD_EUR = CGLD_EUR(*CGLD_EUR._fields)
-"""
-    name: CGLD-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CGLD_GBP(Symbol):
@@ -6644,17 +5247,6 @@ class CGLD_GBP(Symbol):
 
 
 CGLD_GBP = CGLD_GBP(*CGLD_GBP._fields)
-"""
-    name: CGLD-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CGLD_USD(Symbol):
@@ -6696,17 +5288,6 @@ class CGLD_USD(Symbol):
 
 
 CGLD_USD = CGLD_USD(*CGLD_USD._fields)
-"""
-    name: CGLD-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CHZ_EUR(Symbol):
@@ -6748,17 +5329,6 @@ class CHZ_EUR(Symbol):
 
 
 CHZ_EUR = CHZ_EUR(*CHZ_EUR._fields)
-"""
-    name: CHZ-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CHZ_GBP(Symbol):
@@ -6800,17 +5370,6 @@ class CHZ_GBP(Symbol):
 
 
 CHZ_GBP = CHZ_GBP(*CHZ_GBP._fields)
-"""
-    name: CHZ-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CHZ_USD(Symbol):
@@ -6852,17 +5411,6 @@ class CHZ_USD(Symbol):
 
 
 CHZ_USD = CHZ_USD(*CHZ_USD._fields)
-"""
-    name: CHZ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CHZ_USDT(Symbol):
@@ -6904,17 +5452,6 @@ class CHZ_USDT(Symbol):
 
 
 CHZ_USDT = CHZ_USDT(*CHZ_USDT._fields)
-"""
-    name: CHZ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CLV_EUR(Symbol):
@@ -6956,17 +5493,6 @@ class CLV_EUR(Symbol):
 
 
 CLV_EUR = CLV_EUR(*CLV_EUR._fields)
-"""
-    name: CLV-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CLV_GBP(Symbol):
@@ -7008,17 +5534,6 @@ class CLV_GBP(Symbol):
 
 
 CLV_GBP = CLV_GBP(*CLV_GBP._fields)
-"""
-    name: CLV-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CLV_USD(Symbol):
@@ -7060,17 +5575,6 @@ class CLV_USD(Symbol):
 
 
 CLV_USD = CLV_USD(*CLV_USD._fields)
-"""
-    name: CLV-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CLV_USDT(Symbol):
@@ -7112,17 +5616,6 @@ class CLV_USDT(Symbol):
 
 
 CLV_USDT = CLV_USDT(*CLV_USDT._fields)
-"""
-    name: CLV-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class COMP_BTC(Symbol):
@@ -7164,17 +5657,6 @@ class COMP_BTC(Symbol):
 
 
 COMP_BTC = COMP_BTC(*COMP_BTC._fields)
-"""
-    name: COMP-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class COMP_USD(Symbol):
@@ -7216,17 +5698,6 @@ class COMP_USD(Symbol):
 
 
 COMP_USD = COMP_USD(*COMP_USD._fields)
-"""
-    name: COMP-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class COTI_USD(Symbol):
@@ -7268,17 +5739,6 @@ class COTI_USD(Symbol):
 
 
 COTI_USD = COTI_USD(*COTI_USD._fields)
-"""
-    name: COTI-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class COVAL_USD(Symbol):
@@ -7320,17 +5780,6 @@ class COVAL_USD(Symbol):
 
 
 COVAL_USD = COVAL_USD(*COVAL_USD._fields)
-"""
-    name: COVAL-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class COVAL_USDT(Symbol):
@@ -7372,17 +5821,6 @@ class COVAL_USDT(Symbol):
 
 
 COVAL_USDT = COVAL_USDT(*COVAL_USDT._fields)
-"""
-    name: COVAL-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRO_EUR(Symbol):
@@ -7424,17 +5862,6 @@ class CRO_EUR(Symbol):
 
 
 CRO_EUR = CRO_EUR(*CRO_EUR._fields)
-"""
-    name: CRO-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRO_USD(Symbol):
@@ -7476,17 +5903,6 @@ class CRO_USD(Symbol):
 
 
 CRO_USD = CRO_USD(*CRO_USD._fields)
-"""
-    name: CRO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRO_USDT(Symbol):
@@ -7528,17 +5944,6 @@ class CRO_USDT(Symbol):
 
 
 CRO_USDT = CRO_USDT(*CRO_USDT._fields)
-"""
-    name: CRO-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRPT_USD(Symbol):
@@ -7580,17 +5985,6 @@ class CRPT_USD(Symbol):
 
 
 CRPT_USD = CRPT_USD(*CRPT_USD._fields)
-"""
-    name: CRPT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRV_BTC(Symbol):
@@ -7632,17 +6026,6 @@ class CRV_BTC(Symbol):
 
 
 CRV_BTC = CRV_BTC(*CRV_BTC._fields)
-"""
-    name: CRV-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRV_EUR(Symbol):
@@ -7684,17 +6067,6 @@ class CRV_EUR(Symbol):
 
 
 CRV_EUR = CRV_EUR(*CRV_EUR._fields)
-"""
-    name: CRV-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRV_GBP(Symbol):
@@ -7736,17 +6108,6 @@ class CRV_GBP(Symbol):
 
 
 CRV_GBP = CRV_GBP(*CRV_GBP._fields)
-"""
-    name: CRV-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CRV_USD(Symbol):
@@ -7788,17 +6149,6 @@ class CRV_USD(Symbol):
 
 
 CRV_USD = CRV_USD(*CRV_USD._fields)
-"""
-    name: CRV-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CTSI_BTC(Symbol):
@@ -7840,17 +6190,6 @@ class CTSI_BTC(Symbol):
 
 
 CTSI_BTC = CTSI_BTC(*CTSI_BTC._fields)
-"""
-    name: CTSI-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CTSI_USD(Symbol):
@@ -7892,17 +6231,6 @@ class CTSI_USD(Symbol):
 
 
 CTSI_USD = CTSI_USD(*CTSI_USD._fields)
-"""
-    name: CTSI-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CTX_EUR(Symbol):
@@ -7944,17 +6272,6 @@ class CTX_EUR(Symbol):
 
 
 CTX_EUR = CTX_EUR(*CTX_EUR._fields)
-"""
-    name: CTX-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CTX_USD(Symbol):
@@ -7996,17 +6313,6 @@ class CTX_USD(Symbol):
 
 
 CTX_USD = CTX_USD(*CTX_USD._fields)
-"""
-    name: CTX-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CTX_USDT(Symbol):
@@ -8048,17 +6354,6 @@ class CTX_USDT(Symbol):
 
 
 CTX_USDT = CTX_USDT(*CTX_USDT._fields)
-"""
-    name: CTX-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CVC_USD(Symbol):
@@ -8100,17 +6395,6 @@ class CVC_USD(Symbol):
 
 
 CVC_USD = CVC_USD(*CVC_USD._fields)
-"""
-    name: CVC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CVC_USDC(Symbol):
@@ -8152,17 +6436,6 @@ class CVC_USDC(Symbol):
 
 
 CVC_USDC = CVC_USDC(*CVC_USDC._fields)
-"""
-    name: CVC-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class CVX_USD(Symbol):
@@ -8204,17 +6477,6 @@ class CVX_USD(Symbol):
 
 
 CVX_USD = CVX_USD(*CVX_USD._fields)
-"""
-    name: CVX-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DAI_USD(Symbol):
@@ -8256,17 +6518,6 @@ class DAI_USD(Symbol):
 
 
 DAI_USD = DAI_USD(*DAI_USD._fields)
-"""
-    name: DAI-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DAI_USDC(Symbol):
@@ -8308,17 +6559,6 @@ class DAI_USDC(Symbol):
 
 
 DAI_USDC = DAI_USDC(*DAI_USDC._fields)
-"""
-    name: DAI-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DAR_USD(Symbol):
@@ -8360,17 +6600,6 @@ class DAR_USD(Symbol):
 
 
 DAR_USD = DAR_USD(*DAR_USD._fields)
-"""
-    name: DAR-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DASH_BTC(Symbol):
@@ -8412,17 +6641,6 @@ class DASH_BTC(Symbol):
 
 
 DASH_BTC = DASH_BTC(*DASH_BTC._fields)
-"""
-    name: DASH-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DASH_USD(Symbol):
@@ -8464,17 +6682,6 @@ class DASH_USD(Symbol):
 
 
 DASH_USD = DASH_USD(*DASH_USD._fields)
-"""
-    name: DASH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DDX_EUR(Symbol):
@@ -8516,17 +6723,6 @@ class DDX_EUR(Symbol):
 
 
 DDX_EUR = DDX_EUR(*DDX_EUR._fields)
-"""
-    name: DDX-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DDX_USD(Symbol):
@@ -8568,17 +6764,6 @@ class DDX_USD(Symbol):
 
 
 DDX_USD = DDX_USD(*DDX_USD._fields)
-"""
-    name: DDX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DDX_USDT(Symbol):
@@ -8620,17 +6805,6 @@ class DDX_USDT(Symbol):
 
 
 DDX_USDT = DDX_USDT(*DDX_USDT._fields)
-"""
-    name: DDX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DESO_EUR(Symbol):
@@ -8672,17 +6846,6 @@ class DESO_EUR(Symbol):
 
 
 DESO_EUR = DESO_EUR(*DESO_EUR._fields)
-"""
-    name: DESO-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DESO_USD(Symbol):
@@ -8724,17 +6887,6 @@ class DESO_USD(Symbol):
 
 
 DESO_USD = DESO_USD(*DESO_USD._fields)
-"""
-    name: DESO-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DESO_USDT(Symbol):
@@ -8776,17 +6928,6 @@ class DESO_USDT(Symbol):
 
 
 DESO_USDT = DESO_USDT(*DESO_USDT._fields)
-"""
-    name: DESO-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DEXT_USD(Symbol):
@@ -8828,17 +6969,6 @@ class DEXT_USD(Symbol):
 
 
 DEXT_USD = DEXT_USD(*DEXT_USD._fields)
-"""
-    name: DEXT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DIA_EUR(Symbol):
@@ -8880,17 +7010,6 @@ class DIA_EUR(Symbol):
 
 
 DIA_EUR = DIA_EUR(*DIA_EUR._fields)
-"""
-    name: DIA-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DIA_USD(Symbol):
@@ -8932,17 +7051,6 @@ class DIA_USD(Symbol):
 
 
 DIA_USD = DIA_USD(*DIA_USD._fields)
-"""
-    name: DIA-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DIA_USDT(Symbol):
@@ -8984,17 +7092,6 @@ class DIA_USDT(Symbol):
 
 
 DIA_USDT = DIA_USDT(*DIA_USDT._fields)
-"""
-    name: DIA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DIMO_USD(Symbol):
@@ -9036,17 +7133,6 @@ class DIMO_USD(Symbol):
 
 
 DIMO_USD = DIMO_USD(*DIMO_USD._fields)
-"""
-    name: DIMO-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DNT_USD(Symbol):
@@ -9088,17 +7174,6 @@ class DNT_USD(Symbol):
 
 
 DNT_USD = DNT_USD(*DNT_USD._fields)
-"""
-    name: DNT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DNT_USDC(Symbol):
@@ -9140,17 +7215,6 @@ class DNT_USDC(Symbol):
 
 
 DNT_USDC = DNT_USDC(*DNT_USDC._fields)
-"""
-    name: DNT-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOGE_BTC(Symbol):
@@ -9192,17 +7256,6 @@ class DOGE_BTC(Symbol):
 
 
 DOGE_BTC = DOGE_BTC(*DOGE_BTC._fields)
-"""
-    name: DOGE-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOGE_EUR(Symbol):
@@ -9244,17 +7297,6 @@ class DOGE_EUR(Symbol):
 
 
 DOGE_EUR = DOGE_EUR(*DOGE_EUR._fields)
-"""
-    name: DOGE-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOGE_GBP(Symbol):
@@ -9296,17 +7338,6 @@ class DOGE_GBP(Symbol):
 
 
 DOGE_GBP = DOGE_GBP(*DOGE_GBP._fields)
-"""
-    name: DOGE-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOGE_USD(Symbol):
@@ -9348,17 +7379,6 @@ class DOGE_USD(Symbol):
 
 
 DOGE_USD = DOGE_USD(*DOGE_USD._fields)
-"""
-    name: DOGE-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOGE_USDT(Symbol):
@@ -9400,17 +7420,6 @@ class DOGE_USDT(Symbol):
 
 
 DOGE_USDT = DOGE_USDT(*DOGE_USDT._fields)
-"""
-    name: DOGE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOT_BTC(Symbol):
@@ -9452,17 +7461,6 @@ class DOT_BTC(Symbol):
 
 
 DOT_BTC = DOT_BTC(*DOT_BTC._fields)
-"""
-    name: DOT-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOT_EUR(Symbol):
@@ -9504,17 +7502,6 @@ class DOT_EUR(Symbol):
 
 
 DOT_EUR = DOT_EUR(*DOT_EUR._fields)
-"""
-    name: DOT-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOT_GBP(Symbol):
@@ -9556,17 +7543,6 @@ class DOT_GBP(Symbol):
 
 
 DOT_GBP = DOT_GBP(*DOT_GBP._fields)
-"""
-    name: DOT-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOT_USD(Symbol):
@@ -9608,17 +7584,6 @@ class DOT_USD(Symbol):
 
 
 DOT_USD = DOT_USD(*DOT_USD._fields)
-"""
-    name: DOT-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DOT_USDT(Symbol):
@@ -9660,17 +7625,6 @@ class DOT_USDT(Symbol):
 
 
 DOT_USDT = DOT_USDT(*DOT_USDT._fields)
-"""
-    name: DOT-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DREP_USD(Symbol):
@@ -9712,17 +7666,6 @@ class DREP_USD(Symbol):
 
 
 DREP_USD = DREP_USD(*DREP_USD._fields)
-"""
-    name: DREP-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DREP_USDT(Symbol):
@@ -9764,17 +7707,6 @@ class DREP_USDT(Symbol):
 
 
 DREP_USDT = DREP_USDT(*DREP_USDT._fields)
-"""
-    name: DREP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DYP_USD(Symbol):
@@ -9816,17 +7748,6 @@ class DYP_USD(Symbol):
 
 
 DYP_USD = DYP_USD(*DYP_USD._fields)
-"""
-    name: DYP-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class DYP_USDT(Symbol):
@@ -9868,17 +7789,6 @@ class DYP_USDT(Symbol):
 
 
 DYP_USDT = DYP_USDT(*DYP_USDT._fields)
-"""
-    name: DYP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EGLD_USD(Symbol):
@@ -9920,17 +7830,6 @@ class EGLD_USD(Symbol):
 
 
 EGLD_USD = EGLD_USD(*EGLD_USD._fields)
-"""
-    name: EGLD-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ELA_USD(Symbol):
@@ -9972,17 +7871,6 @@ class ELA_USD(Symbol):
 
 
 ELA_USD = ELA_USD(*ELA_USD._fields)
-"""
-    name: ELA-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ELA_USDT(Symbol):
@@ -10024,17 +7912,6 @@ class ELA_USDT(Symbol):
 
 
 ELA_USDT = ELA_USDT(*ELA_USDT._fields)
-"""
-    name: ELA-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENJ_BTC(Symbol):
@@ -10076,17 +7953,6 @@ class ENJ_BTC(Symbol):
 
 
 ENJ_BTC = ENJ_BTC(*ENJ_BTC._fields)
-"""
-    name: ENJ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENJ_USD(Symbol):
@@ -10128,17 +7994,6 @@ class ENJ_USD(Symbol):
 
 
 ENJ_USD = ENJ_USD(*ENJ_USD._fields)
-"""
-    name: ENJ-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENJ_USDT(Symbol):
@@ -10180,17 +8035,6 @@ class ENJ_USDT(Symbol):
 
 
 ENJ_USDT = ENJ_USDT(*ENJ_USDT._fields)
-"""
-    name: ENJ-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENS_EUR(Symbol):
@@ -10232,17 +8076,6 @@ class ENS_EUR(Symbol):
 
 
 ENS_EUR = ENS_EUR(*ENS_EUR._fields)
-"""
-    name: ENS-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENS_USD(Symbol):
@@ -10284,17 +8117,6 @@ class ENS_USD(Symbol):
 
 
 ENS_USD = ENS_USD(*ENS_USD._fields)
-"""
-    name: ENS-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ENS_USDT(Symbol):
@@ -10336,17 +8158,6 @@ class ENS_USDT(Symbol):
 
 
 ENS_USDT = ENS_USDT(*ENS_USDT._fields)
-"""
-    name: ENS-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EOS_BTC(Symbol):
@@ -10388,17 +8199,6 @@ class EOS_BTC(Symbol):
 
 
 EOS_BTC = EOS_BTC(*EOS_BTC._fields)
-"""
-    name: EOS-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EOS_EUR(Symbol):
@@ -10440,17 +8240,6 @@ class EOS_EUR(Symbol):
 
 
 EOS_EUR = EOS_EUR(*EOS_EUR._fields)
-"""
-    name: EOS-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EOS_USD(Symbol):
@@ -10492,17 +8281,6 @@ class EOS_USD(Symbol):
 
 
 EOS_USD = EOS_USD(*EOS_USD._fields)
-"""
-    name: EOS-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ERN_EUR(Symbol):
@@ -10544,17 +8322,6 @@ class ERN_EUR(Symbol):
 
 
 ERN_EUR = ERN_EUR(*ERN_EUR._fields)
-"""
-    name: ERN-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ERN_USD(Symbol):
@@ -10596,17 +8363,6 @@ class ERN_USD(Symbol):
 
 
 ERN_USD = ERN_USD(*ERN_USD._fields)
-"""
-    name: ERN-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ERN_USDT(Symbol):
@@ -10648,17 +8404,6 @@ class ERN_USDT(Symbol):
 
 
 ERN_USDT = ERN_USDT(*ERN_USDT._fields)
-"""
-    name: ERN-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETC_BTC(Symbol):
@@ -10700,17 +8445,6 @@ class ETC_BTC(Symbol):
 
 
 ETC_BTC = ETC_BTC(*ETC_BTC._fields)
-"""
-    name: ETC-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETC_EUR(Symbol):
@@ -10752,17 +8486,6 @@ class ETC_EUR(Symbol):
 
 
 ETC_EUR = ETC_EUR(*ETC_EUR._fields)
-"""
-    name: ETC-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETC_GBP(Symbol):
@@ -10804,17 +8527,6 @@ class ETC_GBP(Symbol):
 
 
 ETC_GBP = ETC_GBP(*ETC_GBP._fields)
-"""
-    name: ETC-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETC_USD(Symbol):
@@ -10856,17 +8568,6 @@ class ETC_USD(Symbol):
 
 
 ETC_USD = ETC_USD(*ETC_USD._fields)
-"""
-    name: ETC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_BTC(Symbol):
@@ -10908,17 +8609,6 @@ class ETH_BTC(Symbol):
 
 
 ETH_BTC = ETH_BTC(*ETH_BTC._fields)
-"""
-    name: ETH-BTC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_DAI(Symbol):
@@ -10960,17 +8650,6 @@ class ETH_DAI(Symbol):
 
 
 ETH_DAI = ETH_DAI(*ETH_DAI._fields)
-"""
-    name: ETH-DAI
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_EUR(Symbol):
@@ -11012,17 +8691,6 @@ class ETH_EUR(Symbol):
 
 
 ETH_EUR = ETH_EUR(*ETH_EUR._fields)
-"""
-    name: ETH-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_GBP(Symbol):
@@ -11064,17 +8732,6 @@ class ETH_GBP(Symbol):
 
 
 ETH_GBP = ETH_GBP(*ETH_GBP._fields)
-"""
-    name: ETH-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_USD(Symbol):
@@ -11116,17 +8773,6 @@ class ETH_USD(Symbol):
 
 
 ETH_USD = ETH_USD(*ETH_USD._fields)
-"""
-    name: ETH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_USDC(Symbol):
@@ -11168,17 +8814,6 @@ class ETH_USDC(Symbol):
 
 
 ETH_USDC = ETH_USDC(*ETH_USDC._fields)
-"""
-    name: ETH-USDC
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ETH_USDT(Symbol):
@@ -11220,17 +8855,6 @@ class ETH_USDT(Symbol):
 
 
 ETH_USDT = ETH_USDT(*ETH_USDT._fields)
-"""
-    name: ETH-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EUROC_EUR(Symbol):
@@ -11272,17 +8896,6 @@ class EUROC_EUR(Symbol):
 
 
 EUROC_EUR = EUROC_EUR(*EUROC_EUR._fields)
-"""
-    name: EUROC-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class EUROC_USD(Symbol):
@@ -11324,17 +8937,6 @@ class EUROC_USD(Symbol):
 
 
 EUROC_USD = EUROC_USD(*EUROC_USD._fields)
-"""
-    name: EUROC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FARM_USD(Symbol):
@@ -11376,17 +8978,6 @@ class FARM_USD(Symbol):
 
 
 FARM_USD = FARM_USD(*FARM_USD._fields)
-"""
-    name: FARM-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FARM_USDT(Symbol):
@@ -11428,17 +9019,6 @@ class FARM_USDT(Symbol):
 
 
 FARM_USDT = FARM_USDT(*FARM_USDT._fields)
-"""
-    name: FARM-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FET_USD(Symbol):
@@ -11480,17 +9060,6 @@ class FET_USD(Symbol):
 
 
 FET_USD = FET_USD(*FET_USD._fields)
-"""
-    name: FET-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FET_USDT(Symbol):
@@ -11532,17 +9101,6 @@ class FET_USDT(Symbol):
 
 
 FET_USDT = FET_USDT(*FET_USDT._fields)
-"""
-    name: FET-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIDA_EUR(Symbol):
@@ -11584,17 +9142,6 @@ class FIDA_EUR(Symbol):
 
 
 FIDA_EUR = FIDA_EUR(*FIDA_EUR._fields)
-"""
-    name: FIDA-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIDA_USD(Symbol):
@@ -11636,17 +9183,6 @@ class FIDA_USD(Symbol):
 
 
 FIDA_USD = FIDA_USD(*FIDA_USD._fields)
-"""
-    name: FIDA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIDA_USDT(Symbol):
@@ -11688,17 +9224,6 @@ class FIDA_USDT(Symbol):
 
 
 FIDA_USDT = FIDA_USDT(*FIDA_USDT._fields)
-"""
-    name: FIDA-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIL_BTC(Symbol):
@@ -11740,17 +9265,6 @@ class FIL_BTC(Symbol):
 
 
 FIL_BTC = FIL_BTC(*FIL_BTC._fields)
-"""
-    name: FIL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIL_EUR(Symbol):
@@ -11792,17 +9306,6 @@ class FIL_EUR(Symbol):
 
 
 FIL_EUR = FIL_EUR(*FIL_EUR._fields)
-"""
-    name: FIL-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIL_GBP(Symbol):
@@ -11844,17 +9347,6 @@ class FIL_GBP(Symbol):
 
 
 FIL_GBP = FIL_GBP(*FIL_GBP._fields)
-"""
-    name: FIL-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIL_USD(Symbol):
@@ -11896,17 +9388,6 @@ class FIL_USD(Symbol):
 
 
 FIL_USD = FIL_USD(*FIL_USD._fields)
-"""
-    name: FIL-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIS_USD(Symbol):
@@ -11948,17 +9429,6 @@ class FIS_USD(Symbol):
 
 
 FIS_USD = FIS_USD(*FIS_USD._fields)
-"""
-    name: FIS-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FIS_USDT(Symbol):
@@ -12000,17 +9470,6 @@ class FIS_USDT(Symbol):
 
 
 FIS_USDT = FIS_USDT(*FIS_USDT._fields)
-"""
-    name: FIS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FLOW_USD(Symbol):
@@ -12052,17 +9511,6 @@ class FLOW_USD(Symbol):
 
 
 FLOW_USD = FLOW_USD(*FLOW_USD._fields)
-"""
-    name: FLOW-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FLOW_USDT(Symbol):
@@ -12104,17 +9552,6 @@ class FLOW_USDT(Symbol):
 
 
 FLOW_USDT = FLOW_USDT(*FLOW_USDT._fields)
-"""
-    name: FLOW-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FLR_USD(Symbol):
@@ -12156,17 +9593,6 @@ class FLR_USD(Symbol):
 
 
 FLR_USD = FLR_USD(*FLR_USD._fields)
-"""
-    name: FLR-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORT_USD(Symbol):
@@ -12208,17 +9634,6 @@ class FORT_USD(Symbol):
 
 
 FORT_USD = FORT_USD(*FORT_USD._fields)
-"""
-    name: FORT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORT_USDT(Symbol):
@@ -12260,17 +9675,6 @@ class FORT_USDT(Symbol):
 
 
 FORT_USDT = FORT_USDT(*FORT_USDT._fields)
-"""
-    name: FORT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORTH_BTC(Symbol):
@@ -12312,17 +9716,6 @@ class FORTH_BTC(Symbol):
 
 
 FORTH_BTC = FORTH_BTC(*FORTH_BTC._fields)
-"""
-    name: FORTH-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORTH_EUR(Symbol):
@@ -12364,17 +9757,6 @@ class FORTH_EUR(Symbol):
 
 
 FORTH_EUR = FORTH_EUR(*FORTH_EUR._fields)
-"""
-    name: FORTH-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORTH_GBP(Symbol):
@@ -12416,17 +9798,6 @@ class FORTH_GBP(Symbol):
 
 
 FORTH_GBP = FORTH_GBP(*FORTH_GBP._fields)
-"""
-    name: FORTH-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FORTH_USD(Symbol):
@@ -12468,17 +9839,6 @@ class FORTH_USD(Symbol):
 
 
 FORTH_USD = FORTH_USD(*FORTH_USD._fields)
-"""
-    name: FORTH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FOX_USD(Symbol):
@@ -12520,17 +9880,6 @@ class FOX_USD(Symbol):
 
 
 FOX_USD = FOX_USD(*FOX_USD._fields)
-"""
-    name: FOX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FOX_USDT(Symbol):
@@ -12572,17 +9921,6 @@ class FOX_USDT(Symbol):
 
 
 FOX_USDT = FOX_USDT(*FOX_USDT._fields)
-"""
-    name: FOX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class FX_USD(Symbol):
@@ -12624,17 +9962,6 @@ class FX_USD(Symbol):
 
 
 FX_USD = FX_USD(*FX_USD._fields)
-"""
-    name: FX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GAL_USD(Symbol):
@@ -12676,17 +10003,6 @@ class GAL_USD(Symbol):
 
 
 GAL_USD = GAL_USD(*GAL_USD._fields)
-"""
-    name: GAL-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GAL_USDT(Symbol):
@@ -12728,17 +10044,6 @@ class GAL_USDT(Symbol):
 
 
 GAL_USDT = GAL_USDT(*GAL_USDT._fields)
-"""
-    name: GAL-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GALA_EUR(Symbol):
@@ -12780,17 +10085,6 @@ class GALA_EUR(Symbol):
 
 
 GALA_EUR = GALA_EUR(*GALA_EUR._fields)
-"""
-    name: GALA-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GALA_USD(Symbol):
@@ -12832,17 +10126,6 @@ class GALA_USD(Symbol):
 
 
 GALA_USD = GALA_USD(*GALA_USD._fields)
-"""
-    name: GALA-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GALA_USDT(Symbol):
@@ -12884,17 +10167,6 @@ class GALA_USDT(Symbol):
 
 
 GALA_USDT = GALA_USDT(*GALA_USDT._fields)
-"""
-    name: GALA-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GFI_USD(Symbol):
@@ -12936,17 +10208,6 @@ class GFI_USD(Symbol):
 
 
 GFI_USD = GFI_USD(*GFI_USD._fields)
-"""
-    name: GFI-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GHST_USD(Symbol):
@@ -12988,17 +10249,6 @@ class GHST_USD(Symbol):
 
 
 GHST_USD = GHST_USD(*GHST_USD._fields)
-"""
-    name: GHST-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GLM_USD(Symbol):
@@ -13040,17 +10290,6 @@ class GLM_USD(Symbol):
 
 
 GLM_USD = GLM_USD(*GLM_USD._fields)
-"""
-    name: GLM-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GMT_USD(Symbol):
@@ -13092,17 +10331,6 @@ class GMT_USD(Symbol):
 
 
 GMT_USD = GMT_USD(*GMT_USD._fields)
-"""
-    name: GMT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GMT_USDT(Symbol):
@@ -13144,17 +10372,6 @@ class GMT_USDT(Symbol):
 
 
 GMT_USDT = GMT_USDT(*GMT_USDT._fields)
-"""
-    name: GMT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GNO_USD(Symbol):
@@ -13196,17 +10413,6 @@ class GNO_USD(Symbol):
 
 
 GNO_USD = GNO_USD(*GNO_USD._fields)
-"""
-    name: GNO-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GNO_USDT(Symbol):
@@ -13248,17 +10454,6 @@ class GNO_USDT(Symbol):
 
 
 GNO_USDT = GNO_USDT(*GNO_USDT._fields)
-"""
-    name: GNO-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GNT_USDC(Symbol):
@@ -13300,17 +10495,6 @@ class GNT_USDC(Symbol):
 
 
 GNT_USDC = GNT_USDC(*GNT_USDC._fields)
-"""
-    name: GNT-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GODS_USD(Symbol):
@@ -13352,17 +10536,6 @@ class GODS_USD(Symbol):
 
 
 GODS_USD = GODS_USD(*GODS_USD._fields)
-"""
-    name: GODS-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GRT_BTC(Symbol):
@@ -13404,17 +10577,6 @@ class GRT_BTC(Symbol):
 
 
 GRT_BTC = GRT_BTC(*GRT_BTC._fields)
-"""
-    name: GRT-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GRT_EUR(Symbol):
@@ -13456,17 +10618,6 @@ class GRT_EUR(Symbol):
 
 
 GRT_EUR = GRT_EUR(*GRT_EUR._fields)
-"""
-    name: GRT-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GRT_GBP(Symbol):
@@ -13508,17 +10659,6 @@ class GRT_GBP(Symbol):
 
 
 GRT_GBP = GRT_GBP(*GRT_GBP._fields)
-"""
-    name: GRT-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GRT_USD(Symbol):
@@ -13560,17 +10700,6 @@ class GRT_USD(Symbol):
 
 
 GRT_USD = GRT_USD(*GRT_USD._fields)
-"""
-    name: GRT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GST_USD(Symbol):
@@ -13612,17 +10741,6 @@ class GST_USD(Symbol):
 
 
 GST_USD = GST_USD(*GST_USD._fields)
-"""
-    name: GST-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GTC_USD(Symbol):
@@ -13664,17 +10782,6 @@ class GTC_USD(Symbol):
 
 
 GTC_USD = GTC_USD(*GTC_USD._fields)
-"""
-    name: GTC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GUSD_USD(Symbol):
@@ -13716,17 +10823,6 @@ class GUSD_USD(Symbol):
 
 
 GUSD_USD = GUSD_USD(*GUSD_USD._fields)
-"""
-    name: GUSD-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class GYEN_USD(Symbol):
@@ -13768,17 +10864,6 @@ class GYEN_USD(Symbol):
 
 
 GYEN_USD = GYEN_USD(*GYEN_USD._fields)
-"""
-    name: GYEN-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HBAR_USD(Symbol):
@@ -13820,17 +10905,6 @@ class HBAR_USD(Symbol):
 
 
 HBAR_USD = HBAR_USD(*HBAR_USD._fields)
-"""
-    name: HBAR-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HBAR_USDT(Symbol):
@@ -13872,17 +10946,6 @@ class HBAR_USDT(Symbol):
 
 
 HBAR_USDT = HBAR_USDT(*HBAR_USDT._fields)
-"""
-    name: HBAR-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HFT_USD(Symbol):
@@ -13924,17 +10987,6 @@ class HFT_USD(Symbol):
 
 
 HFT_USD = HFT_USD(*HFT_USD._fields)
-"""
-    name: HFT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HFT_USDT(Symbol):
@@ -13976,17 +11028,6 @@ class HFT_USDT(Symbol):
 
 
 HFT_USDT = HFT_USDT(*HFT_USDT._fields)
-"""
-    name: HFT-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HIGH_USD(Symbol):
@@ -14028,17 +11069,6 @@ class HIGH_USD(Symbol):
 
 
 HIGH_USD = HIGH_USD(*HIGH_USD._fields)
-"""
-    name: HIGH-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HOPR_USD(Symbol):
@@ -14080,17 +11110,6 @@ class HOPR_USD(Symbol):
 
 
 HOPR_USD = HOPR_USD(*HOPR_USD._fields)
-"""
-    name: HOPR-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class HOPR_USDT(Symbol):
@@ -14132,17 +11151,6 @@ class HOPR_USDT(Symbol):
 
 
 HOPR_USDT = HOPR_USDT(*HOPR_USDT._fields)
-"""
-    name: HOPR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ICP_BTC(Symbol):
@@ -14184,17 +11192,6 @@ class ICP_BTC(Symbol):
 
 
 ICP_BTC = ICP_BTC(*ICP_BTC._fields)
-"""
-    name: ICP-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ICP_EUR(Symbol):
@@ -14236,17 +11233,6 @@ class ICP_EUR(Symbol):
 
 
 ICP_EUR = ICP_EUR(*ICP_EUR._fields)
-"""
-    name: ICP-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ICP_GBP(Symbol):
@@ -14288,17 +11274,6 @@ class ICP_GBP(Symbol):
 
 
 ICP_GBP = ICP_GBP(*ICP_GBP._fields)
-"""
-    name: ICP-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ICP_USD(Symbol):
@@ -14340,17 +11315,6 @@ class ICP_USD(Symbol):
 
 
 ICP_USD = ICP_USD(*ICP_USD._fields)
-"""
-    name: ICP-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ICP_USDT(Symbol):
@@ -14392,17 +11356,6 @@ class ICP_USDT(Symbol):
 
 
 ICP_USDT = ICP_USDT(*ICP_USDT._fields)
-"""
-    name: ICP-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IDEX_USD(Symbol):
@@ -14444,17 +11397,6 @@ class IDEX_USD(Symbol):
 
 
 IDEX_USD = IDEX_USD(*IDEX_USD._fields)
-"""
-    name: IDEX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IDEX_USDT(Symbol):
@@ -14496,17 +11438,6 @@ class IDEX_USDT(Symbol):
 
 
 IDEX_USDT = IDEX_USDT(*IDEX_USDT._fields)
-"""
-    name: IDEX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ILV_USD(Symbol):
@@ -14548,17 +11479,6 @@ class ILV_USD(Symbol):
 
 
 ILV_USD = ILV_USD(*ILV_USD._fields)
-"""
-    name: ILV-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IMX_USD(Symbol):
@@ -14600,17 +11520,6 @@ class IMX_USD(Symbol):
 
 
 IMX_USD = IMX_USD(*IMX_USD._fields)
-"""
-    name: IMX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IMX_USDT(Symbol):
@@ -14652,17 +11561,6 @@ class IMX_USDT(Symbol):
 
 
 IMX_USDT = IMX_USDT(*IMX_USDT._fields)
-"""
-    name: IMX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class INDEX_USD(Symbol):
@@ -14704,17 +11602,6 @@ class INDEX_USD(Symbol):
 
 
 INDEX_USD = INDEX_USD(*INDEX_USD._fields)
-"""
-    name: INDEX-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class INDEX_USDT(Symbol):
@@ -14756,17 +11643,6 @@ class INDEX_USDT(Symbol):
 
 
 INDEX_USDT = INDEX_USDT(*INDEX_USDT._fields)
-"""
-    name: INDEX-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class INJ_USD(Symbol):
@@ -14808,17 +11684,6 @@ class INJ_USD(Symbol):
 
 
 INJ_USD = INJ_USD(*INJ_USD._fields)
-"""
-    name: INJ-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class INV_USD(Symbol):
@@ -14860,17 +11725,6 @@ class INV_USD(Symbol):
 
 
 INV_USD = INV_USD(*INV_USD._fields)
-"""
-    name: INV-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IOTX_EUR(Symbol):
@@ -14912,17 +11766,6 @@ class IOTX_EUR(Symbol):
 
 
 IOTX_EUR = IOTX_EUR(*IOTX_EUR._fields)
-"""
-    name: IOTX-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class IOTX_USD(Symbol):
@@ -14964,17 +11807,6 @@ class IOTX_USD(Symbol):
 
 
 IOTX_USD = IOTX_USD(*IOTX_USD._fields)
-"""
-    name: IOTX-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class JASMY_USD(Symbol):
@@ -15016,17 +11848,6 @@ class JASMY_USD(Symbol):
 
 
 JASMY_USD = JASMY_USD(*JASMY_USD._fields)
-"""
-    name: JASMY-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class JASMY_USDT(Symbol):
@@ -15068,17 +11889,6 @@ class JASMY_USDT(Symbol):
 
 
 JASMY_USDT = JASMY_USDT(*JASMY_USDT._fields)
-"""
-    name: JASMY-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class JUP_USD(Symbol):
@@ -15120,17 +11930,6 @@ class JUP_USD(Symbol):
 
 
 JUP_USD = JUP_USD(*JUP_USD._fields)
-"""
-    name: JUP-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KAVA_USD(Symbol):
@@ -15172,17 +11971,6 @@ class KAVA_USD(Symbol):
 
 
 KAVA_USD = KAVA_USD(*KAVA_USD._fields)
-"""
-    name: KAVA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KEEP_USD(Symbol):
@@ -15224,17 +12012,6 @@ class KEEP_USD(Symbol):
 
 
 KEEP_USD = KEEP_USD(*KEEP_USD._fields)
-"""
-    name: KEEP-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KNC_BTC(Symbol):
@@ -15276,17 +12053,6 @@ class KNC_BTC(Symbol):
 
 
 KNC_BTC = KNC_BTC(*KNC_BTC._fields)
-"""
-    name: KNC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KNC_USD(Symbol):
@@ -15328,17 +12094,6 @@ class KNC_USD(Symbol):
 
 
 KNC_USD = KNC_USD(*KNC_USD._fields)
-"""
-    name: KNC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KRL_EUR(Symbol):
@@ -15380,17 +12135,6 @@ class KRL_EUR(Symbol):
 
 
 KRL_EUR = KRL_EUR(*KRL_EUR._fields)
-"""
-    name: KRL-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KRL_USD(Symbol):
@@ -15432,17 +12176,6 @@ class KRL_USD(Symbol):
 
 
 KRL_USD = KRL_USD(*KRL_USD._fields)
-"""
-    name: KRL-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KRL_USDT(Symbol):
@@ -15484,17 +12217,6 @@ class KRL_USDT(Symbol):
 
 
 KRL_USDT = KRL_USDT(*KRL_USDT._fields)
-"""
-    name: KRL-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KSM_USD(Symbol):
@@ -15536,17 +12258,6 @@ class KSM_USD(Symbol):
 
 
 KSM_USD = KSM_USD(*KSM_USD._fields)
-"""
-    name: KSM-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class KSM_USDT(Symbol):
@@ -15588,17 +12299,6 @@ class KSM_USDT(Symbol):
 
 
 KSM_USDT = KSM_USDT(*KSM_USDT._fields)
-"""
-    name: KSM-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LCX_EUR(Symbol):
@@ -15640,17 +12340,6 @@ class LCX_EUR(Symbol):
 
 
 LCX_EUR = LCX_EUR(*LCX_EUR._fields)
-"""
-    name: LCX-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LCX_USD(Symbol):
@@ -15692,17 +12381,6 @@ class LCX_USD(Symbol):
 
 
 LCX_USD = LCX_USD(*LCX_USD._fields)
-"""
-    name: LCX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LCX_USDT(Symbol):
@@ -15744,17 +12422,6 @@ class LCX_USDT(Symbol):
 
 
 LCX_USDT = LCX_USDT(*LCX_USDT._fields)
-"""
-    name: LCX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LDO_USD(Symbol):
@@ -15796,17 +12463,6 @@ class LDO_USD(Symbol):
 
 
 LDO_USD = LDO_USD(*LDO_USD._fields)
-"""
-    name: LDO-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_BTC(Symbol):
@@ -15848,17 +12504,6 @@ class LINK_BTC(Symbol):
 
 
 LINK_BTC = LINK_BTC(*LINK_BTC._fields)
-"""
-    name: LINK-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_ETH(Symbol):
@@ -15900,17 +12545,6 @@ class LINK_ETH(Symbol):
 
 
 LINK_ETH = LINK_ETH(*LINK_ETH._fields)
-"""
-    name: LINK-ETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_EUR(Symbol):
@@ -15952,17 +12586,6 @@ class LINK_EUR(Symbol):
 
 
 LINK_EUR = LINK_EUR(*LINK_EUR._fields)
-"""
-    name: LINK-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_GBP(Symbol):
@@ -16004,17 +12627,6 @@ class LINK_GBP(Symbol):
 
 
 LINK_GBP = LINK_GBP(*LINK_GBP._fields)
-"""
-    name: LINK-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_USD(Symbol):
@@ -16056,17 +12668,6 @@ class LINK_USD(Symbol):
 
 
 LINK_USD = LINK_USD(*LINK_USD._fields)
-"""
-    name: LINK-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LINK_USDT(Symbol):
@@ -16108,17 +12709,6 @@ class LINK_USDT(Symbol):
 
 
 LINK_USDT = LINK_USDT(*LINK_USDT._fields)
-"""
-    name: LINK-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LIT_USD(Symbol):
@@ -16160,17 +12750,6 @@ class LIT_USD(Symbol):
 
 
 LIT_USD = LIT_USD(*LIT_USD._fields)
-"""
-    name: LIT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LOKA_USD(Symbol):
@@ -16212,17 +12791,6 @@ class LOKA_USD(Symbol):
 
 
 LOKA_USD = LOKA_USD(*LOKA_USD._fields)
-"""
-    name: LOKA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LOOM_USD(Symbol):
@@ -16264,17 +12832,6 @@ class LOOM_USD(Symbol):
 
 
 LOOM_USD = LOOM_USD(*LOOM_USD._fields)
-"""
-    name: LOOM-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LOOM_USDC(Symbol):
@@ -16316,17 +12873,6 @@ class LOOM_USDC(Symbol):
 
 
 LOOM_USDC = LOOM_USDC(*LOOM_USDC._fields)
-"""
-    name: LOOM-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LPT_USD(Symbol):
@@ -16368,17 +12914,6 @@ class LPT_USD(Symbol):
 
 
 LPT_USD = LPT_USD(*LPT_USD._fields)
-"""
-    name: LPT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LQTY_EUR(Symbol):
@@ -16420,17 +12955,6 @@ class LQTY_EUR(Symbol):
 
 
 LQTY_EUR = LQTY_EUR(*LQTY_EUR._fields)
-"""
-    name: LQTY-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LQTY_USD(Symbol):
@@ -16472,17 +12996,6 @@ class LQTY_USD(Symbol):
 
 
 LQTY_USD = LQTY_USD(*LQTY_USD._fields)
-"""
-    name: LQTY-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LQTY_USDT(Symbol):
@@ -16524,17 +13037,6 @@ class LQTY_USDT(Symbol):
 
 
 LQTY_USDT = LQTY_USDT(*LQTY_USDT._fields)
-"""
-    name: LQTY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LRC_BTC(Symbol):
@@ -16576,17 +13078,6 @@ class LRC_BTC(Symbol):
 
 
 LRC_BTC = LRC_BTC(*LRC_BTC._fields)
-"""
-    name: LRC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LRC_USD(Symbol):
@@ -16628,17 +13119,6 @@ class LRC_USD(Symbol):
 
 
 LRC_USD = LRC_USD(*LRC_USD._fields)
-"""
-    name: LRC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LRC_USDT(Symbol):
@@ -16680,17 +13160,6 @@ class LRC_USDT(Symbol):
 
 
 LRC_USDT = LRC_USDT(*LRC_USDT._fields)
-"""
-    name: LRC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LSETH_ETH(Symbol):
@@ -16732,17 +13201,6 @@ class LSETH_ETH(Symbol):
 
 
 LSETH_ETH = LSETH_ETH(*LSETH_ETH._fields)
-"""
-    name: LSETH-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.002
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LSETH_USD(Symbol):
@@ -16784,17 +13242,6 @@ class LSETH_USD(Symbol):
 
 
 LSETH_USD = LSETH_USD(*LSETH_USD._fields)
-"""
-    name: LSETH-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LTC_BTC(Symbol):
@@ -16836,17 +13283,6 @@ class LTC_BTC(Symbol):
 
 
 LTC_BTC = LTC_BTC(*LTC_BTC._fields)
-"""
-    name: LTC-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LTC_EUR(Symbol):
@@ -16888,17 +13324,6 @@ class LTC_EUR(Symbol):
 
 
 LTC_EUR = LTC_EUR(*LTC_EUR._fields)
-"""
-    name: LTC-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LTC_GBP(Symbol):
@@ -16940,17 +13365,6 @@ class LTC_GBP(Symbol):
 
 
 LTC_GBP = LTC_GBP(*LTC_GBP._fields)
-"""
-    name: LTC-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class LTC_USD(Symbol):
@@ -16992,17 +13406,6 @@ class LTC_USD(Symbol):
 
 
 LTC_USD = LTC_USD(*LTC_USD._fields)
-"""
-    name: LTC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MAGIC_USD(Symbol):
@@ -17044,17 +13447,6 @@ class MAGIC_USD(Symbol):
 
 
 MAGIC_USD = MAGIC_USD(*MAGIC_USD._fields)
-"""
-    name: MAGIC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MANA_BTC(Symbol):
@@ -17096,17 +13488,6 @@ class MANA_BTC(Symbol):
 
 
 MANA_BTC = MANA_BTC(*MANA_BTC._fields)
-"""
-    name: MANA-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MANA_ETH(Symbol):
@@ -17148,17 +13529,6 @@ class MANA_ETH(Symbol):
 
 
 MANA_ETH = MANA_ETH(*MANA_ETH._fields)
-"""
-    name: MANA-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MANA_EUR(Symbol):
@@ -17200,17 +13570,6 @@ class MANA_EUR(Symbol):
 
 
 MANA_EUR = MANA_EUR(*MANA_EUR._fields)
-"""
-    name: MANA-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MANA_USD(Symbol):
@@ -17252,17 +13611,6 @@ class MANA_USD(Symbol):
 
 
 MANA_USD = MANA_USD(*MANA_USD._fields)
-"""
-    name: MANA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MANA_USDC(Symbol):
@@ -17304,17 +13652,6 @@ class MANA_USDC(Symbol):
 
 
 MANA_USDC = MANA_USDC(*MANA_USDC._fields)
-"""
-    name: MANA-USDC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MASK_EUR(Symbol):
@@ -17356,17 +13693,6 @@ class MASK_EUR(Symbol):
 
 
 MASK_EUR = MASK_EUR(*MASK_EUR._fields)
-"""
-    name: MASK-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MASK_GBP(Symbol):
@@ -17408,17 +13734,6 @@ class MASK_GBP(Symbol):
 
 
 MASK_GBP = MASK_GBP(*MASK_GBP._fields)
-"""
-    name: MASK-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MASK_USD(Symbol):
@@ -17460,17 +13775,6 @@ class MASK_USD(Symbol):
 
 
 MASK_USD = MASK_USD(*MASK_USD._fields)
-"""
-    name: MASK-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MASK_USDT(Symbol):
@@ -17512,17 +13816,6 @@ class MASK_USDT(Symbol):
 
 
 MASK_USDT = MASK_USDT(*MASK_USDT._fields)
-"""
-    name: MASK-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATH_USD(Symbol):
@@ -17564,17 +13857,6 @@ class MATH_USD(Symbol):
 
 
 MATH_USD = MATH_USD(*MATH_USD._fields)
-"""
-    name: MATH-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATH_USDT(Symbol):
@@ -17616,17 +13898,6 @@ class MATH_USDT(Symbol):
 
 
 MATH_USDT = MATH_USDT(*MATH_USDT._fields)
-"""
-    name: MATH-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATIC_BTC(Symbol):
@@ -17668,17 +13939,6 @@ class MATIC_BTC(Symbol):
 
 
 MATIC_BTC = MATIC_BTC(*MATIC_BTC._fields)
-"""
-    name: MATIC-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATIC_EUR(Symbol):
@@ -17720,17 +13980,6 @@ class MATIC_EUR(Symbol):
 
 
 MATIC_EUR = MATIC_EUR(*MATIC_EUR._fields)
-"""
-    name: MATIC-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATIC_GBP(Symbol):
@@ -17772,17 +14021,6 @@ class MATIC_GBP(Symbol):
 
 
 MATIC_GBP = MATIC_GBP(*MATIC_GBP._fields)
-"""
-    name: MATIC-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATIC_USD(Symbol):
@@ -17824,17 +14062,6 @@ class MATIC_USD(Symbol):
 
 
 MATIC_USD = MATIC_USD(*MATIC_USD._fields)
-"""
-    name: MATIC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MATIC_USDT(Symbol):
@@ -17876,17 +14103,6 @@ class MATIC_USDT(Symbol):
 
 
 MATIC_USDT = MATIC_USDT(*MATIC_USDT._fields)
-"""
-    name: MATIC-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MCO2_USD(Symbol):
@@ -17928,17 +14144,6 @@ class MCO2_USD(Symbol):
 
 
 MCO2_USD = MCO2_USD(*MCO2_USD._fields)
-"""
-    name: MCO2-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MCO2_USDT(Symbol):
@@ -17980,17 +14185,6 @@ class MCO2_USDT(Symbol):
 
 
 MCO2_USDT = MCO2_USDT(*MCO2_USDT._fields)
-"""
-    name: MCO2-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MDT_USD(Symbol):
@@ -18032,17 +14226,6 @@ class MDT_USD(Symbol):
 
 
 MDT_USD = MDT_USD(*MDT_USD._fields)
-"""
-    name: MDT-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MDT_USDT(Symbol):
@@ -18084,17 +14267,6 @@ class MDT_USDT(Symbol):
 
 
 MDT_USDT = MDT_USDT(*MDT_USDT._fields)
-"""
-    name: MDT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MEDIA_USD(Symbol):
@@ -18136,17 +14308,6 @@ class MEDIA_USD(Symbol):
 
 
 MEDIA_USD = MEDIA_USD(*MEDIA_USD._fields)
-"""
-    name: MEDIA-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MEDIA_USDT(Symbol):
@@ -18188,17 +14349,6 @@ class MEDIA_USDT(Symbol):
 
 
 MEDIA_USDT = MEDIA_USDT(*MEDIA_USDT._fields)
-"""
-    name: MEDIA-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class METIS_USD(Symbol):
@@ -18240,17 +14390,6 @@ class METIS_USD(Symbol):
 
 
 METIS_USD = METIS_USD(*METIS_USD._fields)
-"""
-    name: METIS-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class METIS_USDT(Symbol):
@@ -18292,17 +14431,6 @@ class METIS_USDT(Symbol):
 
 
 METIS_USDT = METIS_USDT(*METIS_USDT._fields)
-"""
-    name: METIS-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MINA_EUR(Symbol):
@@ -18344,17 +14472,6 @@ class MINA_EUR(Symbol):
 
 
 MINA_EUR = MINA_EUR(*MINA_EUR._fields)
-"""
-    name: MINA-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MINA_USD(Symbol):
@@ -18396,17 +14513,6 @@ class MINA_USD(Symbol):
 
 
 MINA_USD = MINA_USD(*MINA_USD._fields)
-"""
-    name: MINA-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MINA_USDT(Symbol):
@@ -18448,17 +14554,6 @@ class MINA_USDT(Symbol):
 
 
 MINA_USDT = MINA_USDT(*MINA_USDT._fields)
-"""
-    name: MINA-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MIR_BTC(Symbol):
@@ -18500,17 +14595,6 @@ class MIR_BTC(Symbol):
 
 
 MIR_BTC = MIR_BTC(*MIR_BTC._fields)
-"""
-    name: MIR-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MIR_EUR(Symbol):
@@ -18552,17 +14636,6 @@ class MIR_EUR(Symbol):
 
 
 MIR_EUR = MIR_EUR(*MIR_EUR._fields)
-"""
-    name: MIR-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MIR_GBP(Symbol):
@@ -18604,17 +14677,6 @@ class MIR_GBP(Symbol):
 
 
 MIR_GBP = MIR_GBP(*MIR_GBP._fields)
-"""
-    name: MIR-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MIR_USD(Symbol):
@@ -18656,17 +14718,6 @@ class MIR_USD(Symbol):
 
 
 MIR_USD = MIR_USD(*MIR_USD._fields)
-"""
-    name: MIR-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MKR_BTC(Symbol):
@@ -18708,17 +14759,6 @@ class MKR_BTC(Symbol):
 
 
 MKR_BTC = MKR_BTC(*MKR_BTC._fields)
-"""
-    name: MKR-BTC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MKR_USD(Symbol):
@@ -18760,17 +14800,6 @@ class MKR_USD(Symbol):
 
 
 MKR_USD = MKR_USD(*MKR_USD._fields)
-"""
-    name: MKR-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MLN_USD(Symbol):
@@ -18812,17 +14841,6 @@ class MLN_USD(Symbol):
 
 
 MLN_USD = MLN_USD(*MLN_USD._fields)
-"""
-    name: MLN-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MNDE_USD(Symbol):
@@ -18864,17 +14882,6 @@ class MNDE_USD(Symbol):
 
 
 MNDE_USD = MNDE_USD(*MNDE_USD._fields)
-"""
-    name: MNDE-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MONA_USD(Symbol):
@@ -18916,17 +14923,6 @@ class MONA_USD(Symbol):
 
 
 MONA_USD = MONA_USD(*MONA_USD._fields)
-"""
-    name: MONA-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MPL_USD(Symbol):
@@ -18968,17 +14964,6 @@ class MPL_USD(Symbol):
 
 
 MPL_USD = MPL_USD(*MPL_USD._fields)
-"""
-    name: MPL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MSOL_USD(Symbol):
@@ -19020,17 +15005,6 @@ class MSOL_USD(Symbol):
 
 
 MSOL_USD = MSOL_USD(*MSOL_USD._fields)
-"""
-    name: MSOL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MTL_USD(Symbol):
@@ -19072,17 +15046,6 @@ class MTL_USD(Symbol):
 
 
 MTL_USD = MTL_USD(*MTL_USD._fields)
-"""
-    name: MTL-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MULTI_USD(Symbol):
@@ -19124,17 +15087,6 @@ class MULTI_USD(Symbol):
 
 
 MULTI_USD = MULTI_USD(*MULTI_USD._fields)
-"""
-    name: MULTI-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MUSD_USD(Symbol):
@@ -19176,17 +15128,6 @@ class MUSD_USD(Symbol):
 
 
 MUSD_USD = MUSD_USD(*MUSD_USD._fields)
-"""
-    name: MUSD-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MUSE_USD(Symbol):
@@ -19228,17 +15169,6 @@ class MUSE_USD(Symbol):
 
 
 MUSE_USD = MUSE_USD(*MUSE_USD._fields)
-"""
-    name: MUSE-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class MXC_USD(Symbol):
@@ -19280,17 +15210,6 @@ class MXC_USD(Symbol):
 
 
 MXC_USD = MXC_USD(*MXC_USD._fields)
-"""
-    name: MXC-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NCT_EUR(Symbol):
@@ -19332,17 +15251,6 @@ class NCT_EUR(Symbol):
 
 
 NCT_EUR = NCT_EUR(*NCT_EUR._fields)
-"""
-    name: NCT-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NCT_USD(Symbol):
@@ -19384,17 +15292,6 @@ class NCT_USD(Symbol):
 
 
 NCT_USD = NCT_USD(*NCT_USD._fields)
-"""
-    name: NCT-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NCT_USDT(Symbol):
@@ -19436,17 +15333,6 @@ class NCT_USDT(Symbol):
 
 
 NCT_USDT = NCT_USDT(*NCT_USDT._fields)
-"""
-    name: NCT-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NEAR_USD(Symbol):
@@ -19488,17 +15374,6 @@ class NEAR_USD(Symbol):
 
 
 NEAR_USD = NEAR_USD(*NEAR_USD._fields)
-"""
-    name: NEAR-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NEAR_USDT(Symbol):
@@ -19540,17 +15415,6 @@ class NEAR_USDT(Symbol):
 
 
 NEAR_USDT = NEAR_USDT(*NEAR_USDT._fields)
-"""
-    name: NEAR-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NEST_USD(Symbol):
@@ -19592,17 +15456,6 @@ class NEST_USD(Symbol):
 
 
 NEST_USD = NEST_USD(*NEST_USD._fields)
-"""
-    name: NEST-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NEST_USDT(Symbol):
@@ -19644,17 +15497,6 @@ class NEST_USDT(Symbol):
 
 
 NEST_USDT = NEST_USDT(*NEST_USDT._fields)
-"""
-    name: NEST-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NKN_BTC(Symbol):
@@ -19696,17 +15538,6 @@ class NKN_BTC(Symbol):
 
 
 NKN_BTC = NKN_BTC(*NKN_BTC._fields)
-"""
-    name: NKN-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NKN_EUR(Symbol):
@@ -19748,17 +15579,6 @@ class NKN_EUR(Symbol):
 
 
 NKN_EUR = NKN_EUR(*NKN_EUR._fields)
-"""
-    name: NKN-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NKN_GBP(Symbol):
@@ -19800,17 +15620,6 @@ class NKN_GBP(Symbol):
 
 
 NKN_GBP = NKN_GBP(*NKN_GBP._fields)
-"""
-    name: NKN-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NKN_USD(Symbol):
@@ -19852,17 +15661,6 @@ class NKN_USD(Symbol):
 
 
 NKN_USD = NKN_USD(*NKN_USD._fields)
-"""
-    name: NKN-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NMR_BTC(Symbol):
@@ -19904,17 +15702,6 @@ class NMR_BTC(Symbol):
 
 
 NMR_BTC = NMR_BTC(*NMR_BTC._fields)
-"""
-    name: NMR-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NMR_EUR(Symbol):
@@ -19956,17 +15743,6 @@ class NMR_EUR(Symbol):
 
 
 NMR_EUR = NMR_EUR(*NMR_EUR._fields)
-"""
-    name: NMR-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NMR_GBP(Symbol):
@@ -20008,17 +15784,6 @@ class NMR_GBP(Symbol):
 
 
 NMR_GBP = NMR_GBP(*NMR_GBP._fields)
-"""
-    name: NMR-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NMR_USD(Symbol):
@@ -20060,17 +15825,6 @@ class NMR_USD(Symbol):
 
 
 NMR_USD = NMR_USD(*NMR_USD._fields)
-"""
-    name: NMR-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NU_BTC(Symbol):
@@ -20112,17 +15866,6 @@ class NU_BTC(Symbol):
 
 
 NU_BTC = NU_BTC(*NU_BTC._fields)
-"""
-    name: NU-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NU_EUR(Symbol):
@@ -20164,17 +15907,6 @@ class NU_EUR(Symbol):
 
 
 NU_EUR = NU_EUR(*NU_EUR._fields)
-"""
-    name: NU-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NU_GBP(Symbol):
@@ -20216,17 +15948,6 @@ class NU_GBP(Symbol):
 
 
 NU_GBP = NU_GBP(*NU_GBP._fields)
-"""
-    name: NU-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class NU_USD(Symbol):
@@ -20268,17 +15989,6 @@ class NU_USD(Symbol):
 
 
 NU_USD = NU_USD(*NU_USD._fields)
-"""
-    name: NU-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OCEAN_USD(Symbol):
@@ -20320,17 +16030,6 @@ class OCEAN_USD(Symbol):
 
 
 OCEAN_USD = OCEAN_USD(*OCEAN_USD._fields)
-"""
-    name: OCEAN-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OGN_BTC(Symbol):
@@ -20372,17 +16071,6 @@ class OGN_BTC(Symbol):
 
 
 OGN_BTC = OGN_BTC(*OGN_BTC._fields)
-"""
-    name: OGN-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OGN_USD(Symbol):
@@ -20424,17 +16112,6 @@ class OGN_USD(Symbol):
 
 
 OGN_USD = OGN_USD(*OGN_USD._fields)
-"""
-    name: OGN-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OMG_BTC(Symbol):
@@ -20476,17 +16153,6 @@ class OMG_BTC(Symbol):
 
 
 OMG_BTC = OMG_BTC(*OMG_BTC._fields)
-"""
-    name: OMG-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OMG_EUR(Symbol):
@@ -20528,17 +16194,6 @@ class OMG_EUR(Symbol):
 
 
 OMG_EUR = OMG_EUR(*OMG_EUR._fields)
-"""
-    name: OMG-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OMG_GBP(Symbol):
@@ -20580,17 +16235,6 @@ class OMG_GBP(Symbol):
 
 
 OMG_GBP = OMG_GBP(*OMG_GBP._fields)
-"""
-    name: OMG-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OMG_USD(Symbol):
@@ -20632,17 +16276,6 @@ class OMG_USD(Symbol):
 
 
 OMG_USD = OMG_USD(*OMG_USD._fields)
-"""
-    name: OMG-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OOKI_USD(Symbol):
@@ -20684,17 +16317,6 @@ class OOKI_USD(Symbol):
 
 
 OOKI_USD = OOKI_USD(*OOKI_USD._fields)
-"""
-    name: OOKI-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OP_USD(Symbol):
@@ -20736,17 +16358,6 @@ class OP_USD(Symbol):
 
 
 OP_USD = OP_USD(*OP_USD._fields)
-"""
-    name: OP-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OP_USDT(Symbol):
@@ -20788,17 +16399,6 @@ class OP_USDT(Symbol):
 
 
 OP_USDT = OP_USDT(*OP_USDT._fields)
-"""
-    name: OP-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ORCA_USD(Symbol):
@@ -20840,17 +16440,6 @@ class ORCA_USD(Symbol):
 
 
 ORCA_USD = ORCA_USD(*ORCA_USD._fields)
-"""
-    name: ORCA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ORN_BTC(Symbol):
@@ -20892,17 +16481,6 @@ class ORN_BTC(Symbol):
 
 
 ORN_BTC = ORN_BTC(*ORN_BTC._fields)
-"""
-    name: ORN-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ORN_USD(Symbol):
@@ -20944,17 +16522,6 @@ class ORN_USD(Symbol):
 
 
 ORN_USD = ORN_USD(*ORN_USD._fields)
-"""
-    name: ORN-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ORN_USDT(Symbol):
@@ -20996,17 +16563,6 @@ class ORN_USDT(Symbol):
 
 
 ORN_USDT = ORN_USDT(*ORN_USDT._fields)
-"""
-    name: ORN-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class OXT_USD(Symbol):
@@ -21048,17 +16604,6 @@ class OXT_USD(Symbol):
 
 
 OXT_USD = OXT_USD(*OXT_USD._fields)
-"""
-    name: OXT-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PAX_USD(Symbol):
@@ -21100,17 +16645,6 @@ class PAX_USD(Symbol):
 
 
 PAX_USD = PAX_USD(*PAX_USD._fields)
-"""
-    name: PAX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PAX_USDT(Symbol):
@@ -21152,17 +16686,6 @@ class PAX_USDT(Symbol):
 
 
 PAX_USDT = PAX_USDT(*PAX_USDT._fields)
-"""
-    name: PAX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PERP_EUR(Symbol):
@@ -21204,17 +16727,6 @@ class PERP_EUR(Symbol):
 
 
 PERP_EUR = PERP_EUR(*PERP_EUR._fields)
-"""
-    name: PERP-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PERP_USD(Symbol):
@@ -21256,17 +16768,6 @@ class PERP_USD(Symbol):
 
 
 PERP_USD = PERP_USD(*PERP_USD._fields)
-"""
-    name: PERP-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PERP_USDT(Symbol):
@@ -21308,17 +16809,6 @@ class PERP_USDT(Symbol):
 
 
 PERP_USDT = PERP_USDT(*PERP_USDT._fields)
-"""
-    name: PERP-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PLA_USD(Symbol):
@@ -21360,17 +16850,6 @@ class PLA_USD(Symbol):
 
 
 PLA_USD = PLA_USD(*PLA_USD._fields)
-"""
-    name: PLA-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PLU_USD(Symbol):
@@ -21412,17 +16891,6 @@ class PLU_USD(Symbol):
 
 
 PLU_USD = PLU_USD(*PLU_USD._fields)
-"""
-    name: PLU-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PNG_USD(Symbol):
@@ -21464,17 +16932,6 @@ class PNG_USD(Symbol):
 
 
 PNG_USD = PNG_USD(*PNG_USD._fields)
-"""
-    name: PNG-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POLS_USD(Symbol):
@@ -21516,17 +16973,6 @@ class POLS_USD(Symbol):
 
 
 POLS_USD = POLS_USD(*POLS_USD._fields)
-"""
-    name: POLS-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POLS_USDT(Symbol):
@@ -21568,17 +17014,6 @@ class POLS_USDT(Symbol):
 
 
 POLS_USDT = POLS_USDT(*POLS_USDT._fields)
-"""
-    name: POLS-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POLY_USD(Symbol):
@@ -21620,17 +17055,6 @@ class POLY_USD(Symbol):
 
 
 POLY_USD = POLY_USD(*POLY_USD._fields)
-"""
-    name: POLY-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POLY_USDT(Symbol):
@@ -21672,17 +17096,6 @@ class POLY_USDT(Symbol):
 
 
 POLY_USDT = POLY_USDT(*POLY_USDT._fields)
-"""
-    name: POLY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POND_USD(Symbol):
@@ -21724,17 +17137,6 @@ class POND_USD(Symbol):
 
 
 POND_USD = POND_USD(*POND_USD._fields)
-"""
-    name: POND-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POND_USDT(Symbol):
@@ -21776,17 +17178,6 @@ class POND_USDT(Symbol):
 
 
 POND_USDT = POND_USDT(*POND_USDT._fields)
-"""
-    name: POND-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POWR_EUR(Symbol):
@@ -21828,17 +17219,6 @@ class POWR_EUR(Symbol):
 
 
 POWR_EUR = POWR_EUR(*POWR_EUR._fields)
-"""
-    name: POWR-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POWR_USD(Symbol):
@@ -21880,17 +17260,6 @@ class POWR_USD(Symbol):
 
 
 POWR_USD = POWR_USD(*POWR_USD._fields)
-"""
-    name: POWR-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class POWR_USDT(Symbol):
@@ -21932,17 +17301,6 @@ class POWR_USDT(Symbol):
 
 
 POWR_USDT = POWR_USDT(*POWR_USDT._fields)
-"""
-    name: POWR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PRIME_USD(Symbol):
@@ -21984,17 +17342,6 @@ class PRIME_USD(Symbol):
 
 
 PRIME_USD = PRIME_USD(*PRIME_USD._fields)
-"""
-    name: PRIME-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PRO_USD(Symbol):
@@ -22036,17 +17383,6 @@ class PRO_USD(Symbol):
 
 
 PRO_USD = PRO_USD(*PRO_USD._fields)
-"""
-    name: PRO-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PRQ_USD(Symbol):
@@ -22088,17 +17424,6 @@ class PRQ_USD(Symbol):
 
 
 PRQ_USD = PRQ_USD(*PRQ_USD._fields)
-"""
-    name: PRQ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PRQ_USDT(Symbol):
@@ -22140,17 +17465,6 @@ class PRQ_USDT(Symbol):
 
 
 PRQ_USDT = PRQ_USDT(*PRQ_USDT._fields)
-"""
-    name: PRQ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PUNDIX_USD(Symbol):
@@ -22192,17 +17506,6 @@ class PUNDIX_USD(Symbol):
 
 
 PUNDIX_USD = PUNDIX_USD(*PUNDIX_USD._fields)
-"""
-    name: PUNDIX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class PYR_USD(Symbol):
@@ -22244,17 +17547,6 @@ class PYR_USD(Symbol):
 
 
 PYR_USD = PYR_USD(*PYR_USD._fields)
-"""
-    name: PYR-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QI_USD(Symbol):
@@ -22296,17 +17588,6 @@ class QI_USD(Symbol):
 
 
 QI_USD = QI_USD(*QI_USD._fields)
-"""
-    name: QI-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QNT_USD(Symbol):
@@ -22348,17 +17629,6 @@ class QNT_USD(Symbol):
 
 
 QNT_USD = QNT_USD(*QNT_USD._fields)
-"""
-    name: QNT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QNT_USDT(Symbol):
@@ -22400,17 +17670,6 @@ class QNT_USDT(Symbol):
 
 
 QNT_USDT = QNT_USDT(*QNT_USDT._fields)
-"""
-    name: QNT-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QSP_USD(Symbol):
@@ -22452,17 +17711,6 @@ class QSP_USD(Symbol):
 
 
 QSP_USD = QSP_USD(*QSP_USD._fields)
-"""
-    name: QSP-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QSP_USDT(Symbol):
@@ -22504,17 +17752,6 @@ class QSP_USDT(Symbol):
 
 
 QSP_USDT = QSP_USDT(*QSP_USDT._fields)
-"""
-    name: QSP-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class QUICK_USD(Symbol):
@@ -22556,17 +17793,6 @@ class QUICK_USD(Symbol):
 
 
 QUICK_USD = QUICK_USD(*QUICK_USD._fields)
-"""
-    name: QUICK-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAD_BTC(Symbol):
@@ -22608,17 +17834,6 @@ class RAD_BTC(Symbol):
 
 
 RAD_BTC = RAD_BTC(*RAD_BTC._fields)
-"""
-    name: RAD-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAD_EUR(Symbol):
@@ -22660,17 +17875,6 @@ class RAD_EUR(Symbol):
 
 
 RAD_EUR = RAD_EUR(*RAD_EUR._fields)
-"""
-    name: RAD-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAD_GBP(Symbol):
@@ -22712,17 +17916,6 @@ class RAD_GBP(Symbol):
 
 
 RAD_GBP = RAD_GBP(*RAD_GBP._fields)
-"""
-    name: RAD-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAD_USD(Symbol):
@@ -22764,17 +17957,6 @@ class RAD_USD(Symbol):
 
 
 RAD_USD = RAD_USD(*RAD_USD._fields)
-"""
-    name: RAD-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAD_USDT(Symbol):
@@ -22816,17 +17998,6 @@ class RAD_USDT(Symbol):
 
 
 RAD_USDT = RAD_USDT(*RAD_USDT._fields)
-"""
-    name: RAD-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RAI_USD(Symbol):
@@ -22868,17 +18039,6 @@ class RAI_USD(Symbol):
 
 
 RAI_USD = RAI_USD(*RAI_USD._fields)
-"""
-    name: RAI-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RARE_USD(Symbol):
@@ -22920,17 +18080,6 @@ class RARE_USD(Symbol):
 
 
 RARE_USD = RARE_USD(*RARE_USD._fields)
-"""
-    name: RARE-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RARI_USD(Symbol):
@@ -22972,17 +18121,6 @@ class RARI_USD(Symbol):
 
 
 RARI_USD = RARI_USD(*RARI_USD._fields)
-"""
-    name: RARI-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RBN_USD(Symbol):
@@ -23024,17 +18162,6 @@ class RBN_USD(Symbol):
 
 
 RBN_USD = RBN_USD(*RBN_USD._fields)
-"""
-    name: RBN-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REN_BTC(Symbol):
@@ -23076,17 +18203,6 @@ class REN_BTC(Symbol):
 
 
 REN_BTC = REN_BTC(*REN_BTC._fields)
-"""
-    name: REN-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REN_USD(Symbol):
@@ -23128,17 +18244,6 @@ class REN_USD(Symbol):
 
 
 REN_USD = REN_USD(*REN_USD._fields)
-"""
-    name: REN-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REP_BTC(Symbol):
@@ -23180,17 +18285,6 @@ class REP_BTC(Symbol):
 
 
 REP_BTC = REP_BTC(*REP_BTC._fields)
-"""
-    name: REP-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REP_USD(Symbol):
@@ -23232,17 +18326,6 @@ class REP_USD(Symbol):
 
 
 REP_USD = REP_USD(*REP_USD._fields)
-"""
-    name: REP-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REQ_BTC(Symbol):
@@ -23284,17 +18367,6 @@ class REQ_BTC(Symbol):
 
 
 REQ_BTC = REQ_BTC(*REQ_BTC._fields)
-"""
-    name: REQ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REQ_EUR(Symbol):
@@ -23336,17 +18408,6 @@ class REQ_EUR(Symbol):
 
 
 REQ_EUR = REQ_EUR(*REQ_EUR._fields)
-"""
-    name: REQ-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REQ_GBP(Symbol):
@@ -23388,17 +18449,6 @@ class REQ_GBP(Symbol):
 
 
 REQ_GBP = REQ_GBP(*REQ_GBP._fields)
-"""
-    name: REQ-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REQ_USD(Symbol):
@@ -23440,17 +18490,6 @@ class REQ_USD(Symbol):
 
 
 REQ_USD = REQ_USD(*REQ_USD._fields)
-"""
-    name: REQ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class REQ_USDT(Symbol):
@@ -23492,17 +18531,6 @@ class REQ_USDT(Symbol):
 
 
 REQ_USDT = REQ_USDT(*REQ_USDT._fields)
-"""
-    name: REQ-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RGT_USD(Symbol):
@@ -23544,17 +18572,6 @@ class RGT_USD(Symbol):
 
 
 RGT_USD = RGT_USD(*RGT_USD._fields)
-"""
-    name: RGT-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLC_BTC(Symbol):
@@ -23596,17 +18613,6 @@ class RLC_BTC(Symbol):
 
 
 RLC_BTC = RLC_BTC(*RLC_BTC._fields)
-"""
-    name: RLC-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLC_USD(Symbol):
@@ -23648,17 +18654,6 @@ class RLC_USD(Symbol):
 
 
 RLC_USD = RLC_USD(*RLC_USD._fields)
-"""
-    name: RLC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLY_EUR(Symbol):
@@ -23700,17 +18695,6 @@ class RLY_EUR(Symbol):
 
 
 RLY_EUR = RLY_EUR(*RLY_EUR._fields)
-"""
-    name: RLY-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLY_GBP(Symbol):
@@ -23752,17 +18736,6 @@ class RLY_GBP(Symbol):
 
 
 RLY_GBP = RLY_GBP(*RLY_GBP._fields)
-"""
-    name: RLY-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLY_USD(Symbol):
@@ -23804,17 +18777,6 @@ class RLY_USD(Symbol):
 
 
 RLY_USD = RLY_USD(*RLY_USD._fields)
-"""
-    name: RLY-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RLY_USDT(Symbol):
@@ -23856,17 +18818,6 @@ class RLY_USDT(Symbol):
 
 
 RLY_USDT = RLY_USDT(*RLY_USDT._fields)
-"""
-    name: RLY-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RNDR_EUR(Symbol):
@@ -23908,17 +18859,6 @@ class RNDR_EUR(Symbol):
 
 
 RNDR_EUR = RNDR_EUR(*RNDR_EUR._fields)
-"""
-    name: RNDR-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RNDR_USD(Symbol):
@@ -23960,17 +18900,6 @@ class RNDR_USD(Symbol):
 
 
 RNDR_USD = RNDR_USD(*RNDR_USD._fields)
-"""
-    name: RNDR-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RNDR_USDT(Symbol):
@@ -24012,17 +18941,6 @@ class RNDR_USDT(Symbol):
 
 
 RNDR_USDT = RNDR_USDT(*RNDR_USDT._fields)
-"""
-    name: RNDR-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ROSE_USD(Symbol):
@@ -24064,17 +18982,6 @@ class ROSE_USD(Symbol):
 
 
 ROSE_USD = ROSE_USD(*ROSE_USD._fields)
-"""
-    name: ROSE-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ROSE_USDT(Symbol):
@@ -24116,17 +19023,6 @@ class ROSE_USDT(Symbol):
 
 
 ROSE_USDT = ROSE_USDT(*ROSE_USDT._fields)
-"""
-    name: ROSE-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class RPL_USD(Symbol):
@@ -24168,17 +19064,6 @@ class RPL_USD(Symbol):
 
 
 RPL_USD = RPL_USD(*RPL_USD._fields)
-"""
-    name: RPL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SAND_USD(Symbol):
@@ -24220,17 +19105,6 @@ class SAND_USD(Symbol):
 
 
 SAND_USD = SAND_USD(*SAND_USD._fields)
-"""
-    name: SAND-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SAND_USDT(Symbol):
@@ -24272,17 +19146,6 @@ class SAND_USDT(Symbol):
 
 
 SAND_USDT = SAND_USDT(*SAND_USDT._fields)
-"""
-    name: SAND-USDT
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHIB_EUR(Symbol):
@@ -24324,17 +19187,6 @@ class SHIB_EUR(Symbol):
 
 
 SHIB_EUR = SHIB_EUR(*SHIB_EUR._fields)
-"""
-    name: SHIB-EUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHIB_GBP(Symbol):
@@ -24376,17 +19228,6 @@ class SHIB_GBP(Symbol):
 
 
 SHIB_GBP = SHIB_GBP(*SHIB_GBP._fields)
-"""
-    name: SHIB-GBP
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHIB_USD(Symbol):
@@ -24428,17 +19269,6 @@ class SHIB_USD(Symbol):
 
 
 SHIB_USD = SHIB_USD(*SHIB_USD._fields)
-"""
-    name: SHIB-USD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHIB_USDT(Symbol):
@@ -24480,17 +19310,6 @@ class SHIB_USDT(Symbol):
 
 
 SHIB_USDT = SHIB_USDT(*SHIB_USDT._fields)
-"""
-    name: SHIB-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHPING_EUR(Symbol):
@@ -24532,17 +19351,6 @@ class SHPING_EUR(Symbol):
 
 
 SHPING_EUR = SHPING_EUR(*SHPING_EUR._fields)
-"""
-    name: SHPING-EUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHPING_USD(Symbol):
@@ -24584,17 +19392,6 @@ class SHPING_USD(Symbol):
 
 
 SHPING_USD = SHPING_USD(*SHPING_USD._fields)
-"""
-    name: SHPING-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SHPING_USDT(Symbol):
@@ -24636,17 +19433,6 @@ class SHPING_USDT(Symbol):
 
 
 SHPING_USDT = SHPING_USDT(*SHPING_USDT._fields)
-"""
-    name: SHPING-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SKL_BTC(Symbol):
@@ -24688,17 +19474,6 @@ class SKL_BTC(Symbol):
 
 
 SKL_BTC = SKL_BTC(*SKL_BTC._fields)
-"""
-    name: SKL-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SKL_EUR(Symbol):
@@ -24740,17 +19515,6 @@ class SKL_EUR(Symbol):
 
 
 SKL_EUR = SKL_EUR(*SKL_EUR._fields)
-"""
-    name: SKL-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SKL_GBP(Symbol):
@@ -24792,17 +19556,6 @@ class SKL_GBP(Symbol):
 
 
 SKL_GBP = SKL_GBP(*SKL_GBP._fields)
-"""
-    name: SKL-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SKL_USD(Symbol):
@@ -24844,17 +19597,6 @@ class SKL_USD(Symbol):
 
 
 SKL_USD = SKL_USD(*SKL_USD._fields)
-"""
-    name: SKL-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SNT_USD(Symbol):
@@ -24896,17 +19638,6 @@ class SNT_USD(Symbol):
 
 
 SNT_USD = SNT_USD(*SNT_USD._fields)
-"""
-    name: SNT-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SNX_BTC(Symbol):
@@ -24948,17 +19679,6 @@ class SNX_BTC(Symbol):
 
 
 SNX_BTC = SNX_BTC(*SNX_BTC._fields)
-"""
-    name: SNX-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SNX_EUR(Symbol):
@@ -25000,17 +19720,6 @@ class SNX_EUR(Symbol):
 
 
 SNX_EUR = SNX_EUR(*SNX_EUR._fields)
-"""
-    name: SNX-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SNX_GBP(Symbol):
@@ -25052,17 +19761,6 @@ class SNX_GBP(Symbol):
 
 
 SNX_GBP = SNX_GBP(*SNX_GBP._fields)
-"""
-    name: SNX-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SNX_USD(Symbol):
@@ -25104,17 +19802,6 @@ class SNX_USD(Symbol):
 
 
 SNX_USD = SNX_USD(*SNX_USD._fields)
-"""
-    name: SNX-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_BTC(Symbol):
@@ -25156,17 +19843,6 @@ class SOL_BTC(Symbol):
 
 
 SOL_BTC = SOL_BTC(*SOL_BTC._fields)
-"""
-    name: SOL-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_ETH(Symbol):
@@ -25208,17 +19884,6 @@ class SOL_ETH(Symbol):
 
 
 SOL_ETH = SOL_ETH(*SOL_ETH._fields)
-"""
-    name: SOL-ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_EUR(Symbol):
@@ -25260,17 +19925,6 @@ class SOL_EUR(Symbol):
 
 
 SOL_EUR = SOL_EUR(*SOL_EUR._fields)
-"""
-    name: SOL-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_GBP(Symbol):
@@ -25312,17 +19966,6 @@ class SOL_GBP(Symbol):
 
 
 SOL_GBP = SOL_GBP(*SOL_GBP._fields)
-"""
-    name: SOL-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_USD(Symbol):
@@ -25364,17 +20007,6 @@ class SOL_USD(Symbol):
 
 
 SOL_USD = SOL_USD(*SOL_USD._fields)
-"""
-    name: SOL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SOL_USDT(Symbol):
@@ -25416,17 +20048,6 @@ class SOL_USDT(Symbol):
 
 
 SOL_USDT = SOL_USDT(*SOL_USDT._fields)
-"""
-    name: SOL-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SPA_USD(Symbol):
@@ -25468,17 +20089,6 @@ class SPA_USD(Symbol):
 
 
 SPA_USD = SPA_USD(*SPA_USD._fields)
-"""
-    name: SPA-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SPELL_USD(Symbol):
@@ -25520,17 +20130,6 @@ class SPELL_USD(Symbol):
 
 
 SPELL_USD = SPELL_USD(*SPELL_USD._fields)
-"""
-    name: SPELL-USD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SPELL_USDT(Symbol):
@@ -25572,17 +20171,6 @@ class SPELL_USDT(Symbol):
 
 
 SPELL_USDT = SPELL_USDT(*SPELL_USDT._fields)
-"""
-    name: SPELL-USDT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STG_USD(Symbol):
@@ -25624,17 +20212,6 @@ class STG_USD(Symbol):
 
 
 STG_USD = STG_USD(*STG_USD._fields)
-"""
-    name: STG-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STG_USDT(Symbol):
@@ -25676,17 +20253,6 @@ class STG_USDT(Symbol):
 
 
 STG_USDT = STG_USDT(*STG_USDT._fields)
-"""
-    name: STG-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STORJ_BTC(Symbol):
@@ -25728,17 +20294,6 @@ class STORJ_BTC(Symbol):
 
 
 STORJ_BTC = STORJ_BTC(*STORJ_BTC._fields)
-"""
-    name: STORJ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STORJ_USD(Symbol):
@@ -25780,17 +20335,6 @@ class STORJ_USD(Symbol):
 
 
 STORJ_USD = STORJ_USD(*STORJ_USD._fields)
-"""
-    name: STORJ-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STX_USD(Symbol):
@@ -25832,17 +20376,6 @@ class STX_USD(Symbol):
 
 
 STX_USD = STX_USD(*STX_USD._fields)
-"""
-    name: STX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class STX_USDT(Symbol):
@@ -25884,17 +20417,6 @@ class STX_USDT(Symbol):
 
 
 STX_USDT = STX_USDT(*STX_USDT._fields)
-"""
-    name: STX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUKU_EUR(Symbol):
@@ -25936,17 +20458,6 @@ class SUKU_EUR(Symbol):
 
 
 SUKU_EUR = SUKU_EUR(*SUKU_EUR._fields)
-"""
-    name: SUKU-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUKU_USD(Symbol):
@@ -25988,17 +20499,6 @@ class SUKU_USD(Symbol):
 
 
 SUKU_USD = SUKU_USD(*SUKU_USD._fields)
-"""
-    name: SUKU-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUKU_USDT(Symbol):
@@ -26040,17 +20540,6 @@ class SUKU_USDT(Symbol):
 
 
 SUKU_USDT = SUKU_USDT(*SUKU_USDT._fields)
-"""
-    name: SUKU-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUPER_USD(Symbol):
@@ -26092,17 +20581,6 @@ class SUPER_USD(Symbol):
 
 
 SUPER_USD = SUPER_USD(*SUPER_USD._fields)
-"""
-    name: SUPER-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUPER_USDT(Symbol):
@@ -26144,17 +20622,6 @@ class SUPER_USDT(Symbol):
 
 
 SUPER_USDT = SUPER_USDT(*SUPER_USDT._fields)
-"""
-    name: SUPER-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUSHI_BTC(Symbol):
@@ -26196,17 +20663,6 @@ class SUSHI_BTC(Symbol):
 
 
 SUSHI_BTC = SUSHI_BTC(*SUSHI_BTC._fields)
-"""
-    name: SUSHI-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUSHI_ETH(Symbol):
@@ -26248,17 +20704,6 @@ class SUSHI_ETH(Symbol):
 
 
 SUSHI_ETH = SUSHI_ETH(*SUSHI_ETH._fields)
-"""
-    name: SUSHI-ETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00022
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUSHI_EUR(Symbol):
@@ -26300,17 +20745,6 @@ class SUSHI_EUR(Symbol):
 
 
 SUSHI_EUR = SUSHI_EUR(*SUSHI_EUR._fields)
-"""
-    name: SUSHI-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUSHI_GBP(Symbol):
@@ -26352,17 +20786,6 @@ class SUSHI_GBP(Symbol):
 
 
 SUSHI_GBP = SUSHI_GBP(*SUSHI_GBP._fields)
-"""
-    name: SUSHI-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SUSHI_USD(Symbol):
@@ -26404,17 +20827,6 @@ class SUSHI_USD(Symbol):
 
 
 SUSHI_USD = SUSHI_USD(*SUSHI_USD._fields)
-"""
-    name: SUSHI-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SWFTC_USD(Symbol):
@@ -26456,17 +20868,6 @@ class SWFTC_USD(Symbol):
 
 
 SWFTC_USD = SWFTC_USD(*SWFTC_USD._fields)
-"""
-    name: SWFTC-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SYLO_USD(Symbol):
@@ -26508,17 +20909,6 @@ class SYLO_USD(Symbol):
 
 
 SYLO_USD = SYLO_USD(*SYLO_USD._fields)
-"""
-    name: SYLO-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SYLO_USDT(Symbol):
@@ -26560,17 +20950,6 @@ class SYLO_USDT(Symbol):
 
 
 SYLO_USDT = SYLO_USDT(*SYLO_USDT._fields)
-"""
-    name: SYLO-USDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class SYN_USD(Symbol):
@@ -26612,17 +20991,6 @@ class SYN_USD(Symbol):
 
 
 SYN_USD = SYN_USD(*SYN_USD._fields)
-"""
-    name: SYN-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class T_USD(Symbol):
@@ -26664,17 +21032,6 @@ class T_USD(Symbol):
 
 
 T_USD = T_USD(*T_USD._fields)
-"""
-    name: T-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TIME_USD(Symbol):
@@ -26716,17 +21073,6 @@ class TIME_USD(Symbol):
 
 
 TIME_USD = TIME_USD(*TIME_USD._fields)
-"""
-    name: TIME-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TIME_USDT(Symbol):
@@ -26768,17 +21114,6 @@ class TIME_USDT(Symbol):
 
 
 TIME_USDT = TIME_USDT(*TIME_USDT._fields)
-"""
-    name: TIME-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TONE_USD(Symbol):
@@ -26820,17 +21155,6 @@ class TONE_USD(Symbol):
 
 
 TONE_USD = TONE_USD(*TONE_USD._fields)
-"""
-    name: TONE-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRAC_EUR(Symbol):
@@ -26872,17 +21196,6 @@ class TRAC_EUR(Symbol):
 
 
 TRAC_EUR = TRAC_EUR(*TRAC_EUR._fields)
-"""
-    name: TRAC-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRAC_USD(Symbol):
@@ -26924,17 +21237,6 @@ class TRAC_USD(Symbol):
 
 
 TRAC_USD = TRAC_USD(*TRAC_USD._fields)
-"""
-    name: TRAC-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRAC_USDT(Symbol):
@@ -26976,17 +21278,6 @@ class TRAC_USDT(Symbol):
 
 
 TRAC_USDT = TRAC_USDT(*TRAC_USDT._fields)
-"""
-    name: TRAC-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRB_BTC(Symbol):
@@ -27028,17 +21319,6 @@ class TRB_BTC(Symbol):
 
 
 TRB_BTC = TRB_BTC(*TRB_BTC._fields)
-"""
-    name: TRB-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRB_USD(Symbol):
@@ -27080,17 +21360,6 @@ class TRB_USD(Symbol):
 
 
 TRB_USD = TRB_USD(*TRB_USD._fields)
-"""
-    name: TRB-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRIBE_USD(Symbol):
@@ -27132,17 +21401,6 @@ class TRIBE_USD(Symbol):
 
 
 TRIBE_USD = TRIBE_USD(*TRIBE_USD._fields)
-"""
-    name: TRIBE-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRU_BTC(Symbol):
@@ -27184,17 +21442,6 @@ class TRU_BTC(Symbol):
 
 
 TRU_BTC = TRU_BTC(*TRU_BTC._fields)
-"""
-    name: TRU-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRU_EUR(Symbol):
@@ -27236,17 +21483,6 @@ class TRU_EUR(Symbol):
 
 
 TRU_EUR = TRU_EUR(*TRU_EUR._fields)
-"""
-    name: TRU-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRU_USD(Symbol):
@@ -27288,17 +21524,6 @@ class TRU_USD(Symbol):
 
 
 TRU_USD = TRU_USD(*TRU_USD._fields)
-"""
-    name: TRU-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TRU_USDT(Symbol):
@@ -27340,17 +21565,6 @@ class TRU_USDT(Symbol):
 
 
 TRU_USDT = TRU_USDT(*TRU_USDT._fields)
-"""
-    name: TRU-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class TVK_USD(Symbol):
@@ -27392,17 +21606,6 @@ class TVK_USD(Symbol):
 
 
 TVK_USD = TVK_USD(*TVK_USD._fields)
-"""
-    name: TVK-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UMA_BTC(Symbol):
@@ -27444,17 +21647,6 @@ class UMA_BTC(Symbol):
 
 
 UMA_BTC = UMA_BTC(*UMA_BTC._fields)
-"""
-    name: UMA-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UMA_EUR(Symbol):
@@ -27496,17 +21688,6 @@ class UMA_EUR(Symbol):
 
 
 UMA_EUR = UMA_EUR(*UMA_EUR._fields)
-"""
-    name: UMA-EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UMA_GBP(Symbol):
@@ -27548,17 +21729,6 @@ class UMA_GBP(Symbol):
 
 
 UMA_GBP = UMA_GBP(*UMA_GBP._fields)
-"""
-    name: UMA-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UMA_USD(Symbol):
@@ -27600,17 +21770,6 @@ class UMA_USD(Symbol):
 
 
 UMA_USD = UMA_USD(*UMA_USD._fields)
-"""
-    name: UMA-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UNFI_USD(Symbol):
@@ -27652,17 +21811,6 @@ class UNFI_USD(Symbol):
 
 
 UNFI_USD = UNFI_USD(*UNFI_USD._fields)
-"""
-    name: UNFI-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UNI_BTC(Symbol):
@@ -27704,17 +21852,6 @@ class UNI_BTC(Symbol):
 
 
 UNI_BTC = UNI_BTC(*UNI_BTC._fields)
-"""
-    name: UNI-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UNI_EUR(Symbol):
@@ -27756,17 +21893,6 @@ class UNI_EUR(Symbol):
 
 
 UNI_EUR = UNI_EUR(*UNI_EUR._fields)
-"""
-    name: UNI-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UNI_GBP(Symbol):
@@ -27808,17 +21934,6 @@ class UNI_GBP(Symbol):
 
 
 UNI_GBP = UNI_GBP(*UNI_GBP._fields)
-"""
-    name: UNI-GBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UNI_USD(Symbol):
@@ -27860,17 +21975,6 @@ class UNI_USD(Symbol):
 
 
 UNI_USD = UNI_USD(*UNI_USD._fields)
-"""
-    name: UNI-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UPI_USD(Symbol):
@@ -27912,17 +22016,6 @@ class UPI_USD(Symbol):
 
 
 UPI_USD = UPI_USD(*UPI_USD._fields)
-"""
-    name: UPI-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UPI_USDT(Symbol):
@@ -27964,17 +22057,6 @@ class UPI_USDT(Symbol):
 
 
 UPI_USDT = UPI_USDT(*UPI_USDT._fields)
-"""
-    name: UPI-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDC_EUR(Symbol):
@@ -28016,17 +22098,6 @@ class USDC_EUR(Symbol):
 
 
 USDC_EUR = USDC_EUR(*USDC_EUR._fields)
-"""
-    name: USDC-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDC_GBP(Symbol):
@@ -28068,17 +22139,6 @@ class USDC_GBP(Symbol):
 
 
 USDC_GBP = USDC_GBP(*USDC_GBP._fields)
-"""
-    name: USDC-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDT_EUR(Symbol):
@@ -28120,17 +22180,6 @@ class USDT_EUR(Symbol):
 
 
 USDT_EUR = USDT_EUR(*USDT_EUR._fields)
-"""
-    name: USDT-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDT_GBP(Symbol):
@@ -28172,17 +22221,6 @@ class USDT_GBP(Symbol):
 
 
 USDT_GBP = USDT_GBP(*USDT_GBP._fields)
-"""
-    name: USDT-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDT_USD(Symbol):
@@ -28224,17 +22262,6 @@ class USDT_USD(Symbol):
 
 
 USDT_USD = USDT_USD(*USDT_USD._fields)
-"""
-    name: USDT-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class USDT_USDC(Symbol):
@@ -28276,17 +22303,6 @@ class USDT_USDC(Symbol):
 
 
 USDT_USDC = USDT_USDC(*USDT_USDC._fields)
-"""
-    name: USDT-USDC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UST_EUR(Symbol):
@@ -28328,17 +22344,6 @@ class UST_EUR(Symbol):
 
 
 UST_EUR = UST_EUR(*UST_EUR._fields)
-"""
-    name: UST-EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UST_USD(Symbol):
@@ -28380,17 +22385,6 @@ class UST_USD(Symbol):
 
 
 UST_USD = UST_USD(*UST_USD._fields)
-"""
-    name: UST-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class UST_USDT(Symbol):
@@ -28432,17 +22426,6 @@ class UST_USDT(Symbol):
 
 
 UST_USDT = UST_USDT(*UST_USDT._fields)
-"""
-    name: UST-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class VGX_EUR(Symbol):
@@ -28484,17 +22467,6 @@ class VGX_EUR(Symbol):
 
 
 VGX_EUR = VGX_EUR(*VGX_EUR._fields)
-"""
-    name: VGX-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class VGX_USD(Symbol):
@@ -28536,17 +22508,6 @@ class VGX_USD(Symbol):
 
 
 VGX_USD = VGX_USD(*VGX_USD._fields)
-"""
-    name: VGX-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class VGX_USDT(Symbol):
@@ -28588,17 +22549,6 @@ class VGX_USDT(Symbol):
 
 
 VGX_USDT = VGX_USDT(*VGX_USDT._fields)
-"""
-    name: VGX-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class VOXEL_USD(Symbol):
@@ -28640,17 +22590,6 @@ class VOXEL_USD(Symbol):
 
 
 VOXEL_USD = VOXEL_USD(*VOXEL_USD._fields)
-"""
-    name: VOXEL-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WAMPL_USD(Symbol):
@@ -28692,17 +22631,6 @@ class WAMPL_USD(Symbol):
 
 
 WAMPL_USD = WAMPL_USD(*WAMPL_USD._fields)
-"""
-    name: WAMPL-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WAMPL_USDT(Symbol):
@@ -28744,17 +22672,6 @@ class WAMPL_USDT(Symbol):
 
 
 WAMPL_USDT = WAMPL_USDT(*WAMPL_USDT._fields)
-"""
-    name: WAMPL-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WAXL_USD(Symbol):
@@ -28796,17 +22713,6 @@ class WAXL_USD(Symbol):
 
 
 WAXL_USD = WAXL_USD(*WAXL_USD._fields)
-"""
-    name: WAXL-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WBTC_BTC(Symbol):
@@ -28848,17 +22754,6 @@ class WBTC_BTC(Symbol):
 
 
 WBTC_BTC = WBTC_BTC(*WBTC_BTC._fields)
-"""
-    name: WBTC-BTC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WBTC_USD(Symbol):
@@ -28900,17 +22795,6 @@ class WBTC_USD(Symbol):
 
 
 WBTC_USD = WBTC_USD(*WBTC_USD._fields)
-"""
-    name: WBTC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WCFG_BTC(Symbol):
@@ -28952,17 +22836,6 @@ class WCFG_BTC(Symbol):
 
 
 WCFG_BTC = WCFG_BTC(*WCFG_BTC._fields)
-"""
-    name: WCFG-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WCFG_EUR(Symbol):
@@ -29004,17 +22877,6 @@ class WCFG_EUR(Symbol):
 
 
 WCFG_EUR = WCFG_EUR(*WCFG_EUR._fields)
-"""
-    name: WCFG-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WCFG_USD(Symbol):
@@ -29056,17 +22918,6 @@ class WCFG_USD(Symbol):
 
 
 WCFG_USD = WCFG_USD(*WCFG_USD._fields)
-"""
-    name: WCFG-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WCFG_USDT(Symbol):
@@ -29108,17 +22959,6 @@ class WCFG_USDT(Symbol):
 
 
 WCFG_USDT = WCFG_USDT(*WCFG_USDT._fields)
-"""
-    name: WCFG-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WLUNA_EUR(Symbol):
@@ -29160,17 +23000,6 @@ class WLUNA_EUR(Symbol):
 
 
 WLUNA_EUR = WLUNA_EUR(*WLUNA_EUR._fields)
-"""
-    name: WLUNA-EUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WLUNA_GBP(Symbol):
@@ -29212,17 +23041,6 @@ class WLUNA_GBP(Symbol):
 
 
 WLUNA_GBP = WLUNA_GBP(*WLUNA_GBP._fields)
-"""
-    name: WLUNA-GBP
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WLUNA_USD(Symbol):
@@ -29264,17 +23082,6 @@ class WLUNA_USD(Symbol):
 
 
 WLUNA_USD = WLUNA_USD(*WLUNA_USD._fields)
-"""
-    name: WLUNA-USD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class WLUNA_USDT(Symbol):
@@ -29316,17 +23123,6 @@ class WLUNA_USDT(Symbol):
 
 
 WLUNA_USDT = WLUNA_USDT(*WLUNA_USDT._fields)
-"""
-    name: WLUNA-USDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XCN_USD(Symbol):
@@ -29368,17 +23164,6 @@ class XCN_USD(Symbol):
 
 
 XCN_USD = XCN_USD(*XCN_USD._fields)
-"""
-    name: XCN-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XCN_USDT(Symbol):
@@ -29420,17 +23205,6 @@ class XCN_USDT(Symbol):
 
 
 XCN_USDT = XCN_USDT(*XCN_USDT._fields)
-"""
-    name: XCN-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XLM_BTC(Symbol):
@@ -29472,17 +23246,6 @@ class XLM_BTC(Symbol):
 
 
 XLM_BTC = XLM_BTC(*XLM_BTC._fields)
-"""
-    name: XLM-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XLM_EUR(Symbol):
@@ -29524,17 +23287,6 @@ class XLM_EUR(Symbol):
 
 
 XLM_EUR = XLM_EUR(*XLM_EUR._fields)
-"""
-    name: XLM-EUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XLM_USD(Symbol):
@@ -29576,17 +23328,6 @@ class XLM_USD(Symbol):
 
 
 XLM_USD = XLM_USD(*XLM_USD._fields)
-"""
-    name: XLM-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XLM_USDT(Symbol):
@@ -29628,17 +23369,6 @@ class XLM_USDT(Symbol):
 
 
 XLM_USDT = XLM_USDT(*XLM_USDT._fields)
-"""
-    name: XLM-USDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XRP_BTC(Symbol):
@@ -29680,17 +23410,6 @@ class XRP_BTC(Symbol):
 
 
 XRP_BTC = XRP_BTC(*XRP_BTC._fields)
-"""
-    name: XRP-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XRP_EUR(Symbol):
@@ -29732,17 +23451,6 @@ class XRP_EUR(Symbol):
 
 
 XRP_EUR = XRP_EUR(*XRP_EUR._fields)
-"""
-    name: XRP-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XRP_GBP(Symbol):
@@ -29784,17 +23492,6 @@ class XRP_GBP(Symbol):
 
 
 XRP_GBP = XRP_GBP(*XRP_GBP._fields)
-"""
-    name: XRP-GBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XRP_USD(Symbol):
@@ -29836,17 +23533,6 @@ class XRP_USD(Symbol):
 
 
 XRP_USD = XRP_USD(*XRP_USD._fields)
-"""
-    name: XRP-USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XTZ_BTC(Symbol):
@@ -29888,17 +23574,6 @@ class XTZ_BTC(Symbol):
 
 
 XTZ_BTC = XTZ_BTC(*XTZ_BTC._fields)
-"""
-    name: XTZ-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XTZ_EUR(Symbol):
@@ -29940,17 +23615,6 @@ class XTZ_EUR(Symbol):
 
 
 XTZ_EUR = XTZ_EUR(*XTZ_EUR._fields)
-"""
-    name: XTZ-EUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XTZ_GBP(Symbol):
@@ -29992,17 +23656,6 @@ class XTZ_GBP(Symbol):
 
 
 XTZ_GBP = XTZ_GBP(*XTZ_GBP._fields)
-"""
-    name: XTZ-GBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.72
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XTZ_USD(Symbol):
@@ -30044,17 +23697,6 @@ class XTZ_USD(Symbol):
 
 
 XTZ_USD = XTZ_USD(*XTZ_USD._fields)
-"""
-    name: XTZ-USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XYO_BTC(Symbol):
@@ -30096,17 +23738,6 @@ class XYO_BTC(Symbol):
 
 
 XYO_BTC = XYO_BTC(*XYO_BTC._fields)
-"""
-    name: XYO-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XYO_EUR(Symbol):
@@ -30148,17 +23779,6 @@ class XYO_EUR(Symbol):
 
 
 XYO_EUR = XYO_EUR(*XYO_EUR._fields)
-"""
-    name: XYO-EUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XYO_USD(Symbol):
@@ -30200,17 +23820,6 @@ class XYO_USD(Symbol):
 
 
 XYO_USD = XYO_USD(*XYO_USD._fields)
-"""
-    name: XYO-USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class XYO_USDT(Symbol):
@@ -30252,17 +23861,6 @@ class XYO_USDT(Symbol):
 
 
 XYO_USDT = XYO_USDT(*XYO_USDT._fields)
-"""
-    name: XYO-USDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class YFI_BTC(Symbol):
@@ -30304,17 +23902,6 @@ class YFI_BTC(Symbol):
 
 
 YFI_BTC = YFI_BTC(*YFI_BTC._fields)
-"""
-    name: YFI-BTC
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00001
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class YFI_USD(Symbol):
@@ -30356,17 +23943,6 @@ class YFI_USD(Symbol):
 
 
 YFI_USD = YFI_USD(*YFI_USD._fields)
-"""
-    name: YFI-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class YFII_USD(Symbol):
@@ -30408,17 +23984,6 @@ class YFII_USD(Symbol):
 
 
 YFII_USD = YFII_USD(*YFII_USD._fields)
-"""
-    name: YFII-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEC_BTC(Symbol):
@@ -30460,17 +24025,6 @@ class ZEC_BTC(Symbol):
 
 
 ZEC_BTC = ZEC_BTC(*ZEC_BTC._fields)
-"""
-    name: ZEC-BTC
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEC_USD(Symbol):
@@ -30512,17 +24066,6 @@ class ZEC_USD(Symbol):
 
 
 ZEC_USD = ZEC_USD(*ZEC_USD._fields)
-"""
-    name: ZEC-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEC_USDC(Symbol):
@@ -30564,17 +24107,6 @@ class ZEC_USDC(Symbol):
 
 
 ZEC_USDC = ZEC_USDC(*ZEC_USDC._fields)
-"""
-    name: ZEC-USDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEN_BTC(Symbol):
@@ -30616,17 +24148,6 @@ class ZEN_BTC(Symbol):
 
 
 ZEN_BTC = ZEN_BTC(*ZEN_BTC._fields)
-"""
-    name: ZEN-BTC
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEN_USD(Symbol):
@@ -30668,17 +24189,6 @@ class ZEN_USD(Symbol):
 
 
 ZEN_USD = ZEN_USD(*ZEN_USD._fields)
-"""
-    name: ZEN-USD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZEN_USDT(Symbol):
@@ -30720,17 +24230,6 @@ class ZEN_USDT(Symbol):
 
 
 ZEN_USDT = ZEN_USDT(*ZEN_USDT._fields)
-"""
-    name: ZEN-USDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZRX_BTC(Symbol):
@@ -30772,17 +24271,6 @@ class ZRX_BTC(Symbol):
 
 
 ZRX_BTC = ZRX_BTC(*ZRX_BTC._fields)
-"""
-    name: ZRX-BTC
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.000016
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZRX_EUR(Symbol):
@@ -30824,17 +24312,6 @@ class ZRX_EUR(Symbol):
 
 
 ZRX_EUR = ZRX_EUR(*ZRX_EUR._fields)
-"""
-    name: ZRX-EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.84
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
 
 
 class ZRX_USD(Symbol):
@@ -30876,14 +24353,606 @@ class ZRX_USD(Symbol):
 
 
 ZRX_USD = ZRX_USD(*ZRX_USD._fields)
-"""
-    name: ZRX-USD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: coinbase
-"""
+
+
+class Coinbase:
+
+    ZERO0_USD: Symbol = ZERO0_USD
+    ONEINCH_BTC: Symbol = ONEINCH_BTC
+    ONEINCH_EUR: Symbol = ONEINCH_EUR
+    ONEINCH_GBP: Symbol = ONEINCH_GBP
+    ONEINCH_USD: Symbol = ONEINCH_USD
+    AAVE_BTC: Symbol = AAVE_BTC
+    AAVE_EUR: Symbol = AAVE_EUR
+    AAVE_GBP: Symbol = AAVE_GBP
+    AAVE_USD: Symbol = AAVE_USD
+    ABT_USD: Symbol = ABT_USD
+    ACH_USD: Symbol = ACH_USD
+    ACH_USDT: Symbol = ACH_USDT
+    ACS_USD: Symbol = ACS_USD
+    ADA_BTC: Symbol = ADA_BTC
+    ADA_ETH: Symbol = ADA_ETH
+    ADA_EUR: Symbol = ADA_EUR
+    ADA_GBP: Symbol = ADA_GBP
+    ADA_USD: Symbol = ADA_USD
+    ADA_USDC: Symbol = ADA_USDC
+    ADA_USDT: Symbol = ADA_USDT
+    AERGO_USD: Symbol = AERGO_USD
+    AGLD_USD: Symbol = AGLD_USD
+    AGLD_USDT: Symbol = AGLD_USDT
+    AIOZ_USD: Symbol = AIOZ_USD
+    AIOZ_USDT: Symbol = AIOZ_USDT
+    ALCX_EUR: Symbol = ALCX_EUR
+    ALCX_USD: Symbol = ALCX_USD
+    ALCX_USDT: Symbol = ALCX_USDT
+    ALEPH_USD: Symbol = ALEPH_USD
+    ALGO_BTC: Symbol = ALGO_BTC
+    ALGO_EUR: Symbol = ALGO_EUR
+    ALGO_GBP: Symbol = ALGO_GBP
+    ALGO_USD: Symbol = ALGO_USD
+    ALICE_USD: Symbol = ALICE_USD
+    AMP_USD: Symbol = AMP_USD
+    ANKR_BTC: Symbol = ANKR_BTC
+    ANKR_EUR: Symbol = ANKR_EUR
+    ANKR_GBP: Symbol = ANKR_GBP
+    ANKR_USD: Symbol = ANKR_USD
+    ANT_USD: Symbol = ANT_USD
+    APE_EUR: Symbol = APE_EUR
+    APE_USD: Symbol = APE_USD
+    APE_USDT: Symbol = APE_USDT
+    API3_USD: Symbol = API3_USD
+    API3_USDT: Symbol = API3_USDT
+    APT_USD: Symbol = APT_USD
+    APT_USDT: Symbol = APT_USDT
+    ARB_USD: Symbol = ARB_USD
+    ARPA_EUR: Symbol = ARPA_EUR
+    ARPA_USD: Symbol = ARPA_USD
+    ARPA_USDT: Symbol = ARPA_USDT
+    ASM_USD: Symbol = ASM_USD
+    ASM_USDT: Symbol = ASM_USDT
+    AST_USD: Symbol = AST_USD
+    ATA_USD: Symbol = ATA_USD
+    ATA_USDT: Symbol = ATA_USDT
+    ATOM_BTC: Symbol = ATOM_BTC
+    ATOM_EUR: Symbol = ATOM_EUR
+    ATOM_GBP: Symbol = ATOM_GBP
+    ATOM_USD: Symbol = ATOM_USD
+    ATOM_USDT: Symbol = ATOM_USDT
+    AUCTION_EUR: Symbol = AUCTION_EUR
+    AUCTION_USD: Symbol = AUCTION_USD
+    AUCTION_USDT: Symbol = AUCTION_USDT
+    AUDIO_USD: Symbol = AUDIO_USD
+    AURORA_USD: Symbol = AURORA_USD
+    AVAX_BTC: Symbol = AVAX_BTC
+    AVAX_EUR: Symbol = AVAX_EUR
+    AVAX_USD: Symbol = AVAX_USD
+    AVAX_USDT: Symbol = AVAX_USDT
+    AVT_USD: Symbol = AVT_USD
+    AXL_USD: Symbol = AXL_USD
+    AXS_BTC: Symbol = AXS_BTC
+    AXS_EUR: Symbol = AXS_EUR
+    AXS_USD: Symbol = AXS_USD
+    AXS_USDT: Symbol = AXS_USDT
+    BADGER_EUR: Symbol = BADGER_EUR
+    BADGER_USD: Symbol = BADGER_USD
+    BADGER_USDT: Symbol = BADGER_USDT
+    BAL_BTC: Symbol = BAL_BTC
+    BAL_USD: Symbol = BAL_USD
+    BAND_BTC: Symbol = BAND_BTC
+    BAND_EUR: Symbol = BAND_EUR
+    BAND_GBP: Symbol = BAND_GBP
+    BAND_USD: Symbol = BAND_USD
+    BAT_BTC: Symbol = BAT_BTC
+    BAT_ETH: Symbol = BAT_ETH
+    BAT_EUR: Symbol = BAT_EUR
+    BAT_USD: Symbol = BAT_USD
+    BAT_USDC: Symbol = BAT_USDC
+    BCH_BTC: Symbol = BCH_BTC
+    BCH_EUR: Symbol = BCH_EUR
+    BCH_GBP: Symbol = BCH_GBP
+    BCH_USD: Symbol = BCH_USD
+    BICO_EUR: Symbol = BICO_EUR
+    BICO_USD: Symbol = BICO_USD
+    BICO_USDT: Symbol = BICO_USDT
+    BIT_USD: Symbol = BIT_USD
+    BIT_USDT: Symbol = BIT_USDT
+    BLUR_USD: Symbol = BLUR_USD
+    BLZ_USD: Symbol = BLZ_USD
+    BNT_BTC: Symbol = BNT_BTC
+    BNT_EUR: Symbol = BNT_EUR
+    BNT_GBP: Symbol = BNT_GBP
+    BNT_USD: Symbol = BNT_USD
+    BOBA_USD: Symbol = BOBA_USD
+    BOBA_USDT: Symbol = BOBA_USDT
+    BOND_USD: Symbol = BOND_USD
+    BOND_USDT: Symbol = BOND_USDT
+    BTC_EUR: Symbol = BTC_EUR
+    BTC_GBP: Symbol = BTC_GBP
+    BTC_USD: Symbol = BTC_USD
+    BTC_USDC: Symbol = BTC_USDC
+    BTC_USDT: Symbol = BTC_USDT
+    BTRST_BTC: Symbol = BTRST_BTC
+    BTRST_EUR: Symbol = BTRST_EUR
+    BTRST_GBP: Symbol = BTRST_GBP
+    BTRST_USD: Symbol = BTRST_USD
+    BTRST_USDT: Symbol = BTRST_USDT
+    BUSD_USD: Symbol = BUSD_USD
+    C98_USD: Symbol = C98_USD
+    C98_USDT: Symbol = C98_USDT
+    CBETH_ETH: Symbol = CBETH_ETH
+    CBETH_USD: Symbol = CBETH_USD
+    CELR_USD: Symbol = CELR_USD
+    CGLD_BTC: Symbol = CGLD_BTC
+    CGLD_EUR: Symbol = CGLD_EUR
+    CGLD_GBP: Symbol = CGLD_GBP
+    CGLD_USD: Symbol = CGLD_USD
+    CHZ_EUR: Symbol = CHZ_EUR
+    CHZ_GBP: Symbol = CHZ_GBP
+    CHZ_USD: Symbol = CHZ_USD
+    CHZ_USDT: Symbol = CHZ_USDT
+    CLV_EUR: Symbol = CLV_EUR
+    CLV_GBP: Symbol = CLV_GBP
+    CLV_USD: Symbol = CLV_USD
+    CLV_USDT: Symbol = CLV_USDT
+    COMP_BTC: Symbol = COMP_BTC
+    COMP_USD: Symbol = COMP_USD
+    COTI_USD: Symbol = COTI_USD
+    COVAL_USD: Symbol = COVAL_USD
+    COVAL_USDT: Symbol = COVAL_USDT
+    CRO_EUR: Symbol = CRO_EUR
+    CRO_USD: Symbol = CRO_USD
+    CRO_USDT: Symbol = CRO_USDT
+    CRPT_USD: Symbol = CRPT_USD
+    CRV_BTC: Symbol = CRV_BTC
+    CRV_EUR: Symbol = CRV_EUR
+    CRV_GBP: Symbol = CRV_GBP
+    CRV_USD: Symbol = CRV_USD
+    CTSI_BTC: Symbol = CTSI_BTC
+    CTSI_USD: Symbol = CTSI_USD
+    CTX_EUR: Symbol = CTX_EUR
+    CTX_USD: Symbol = CTX_USD
+    CTX_USDT: Symbol = CTX_USDT
+    CVC_USD: Symbol = CVC_USD
+    CVC_USDC: Symbol = CVC_USDC
+    CVX_USD: Symbol = CVX_USD
+    DAI_USD: Symbol = DAI_USD
+    DAI_USDC: Symbol = DAI_USDC
+    DAR_USD: Symbol = DAR_USD
+    DASH_BTC: Symbol = DASH_BTC
+    DASH_USD: Symbol = DASH_USD
+    DDX_EUR: Symbol = DDX_EUR
+    DDX_USD: Symbol = DDX_USD
+    DDX_USDT: Symbol = DDX_USDT
+    DESO_EUR: Symbol = DESO_EUR
+    DESO_USD: Symbol = DESO_USD
+    DESO_USDT: Symbol = DESO_USDT
+    DEXT_USD: Symbol = DEXT_USD
+    DIA_EUR: Symbol = DIA_EUR
+    DIA_USD: Symbol = DIA_USD
+    DIA_USDT: Symbol = DIA_USDT
+    DIMO_USD: Symbol = DIMO_USD
+    DNT_USD: Symbol = DNT_USD
+    DNT_USDC: Symbol = DNT_USDC
+    DOGE_BTC: Symbol = DOGE_BTC
+    DOGE_EUR: Symbol = DOGE_EUR
+    DOGE_GBP: Symbol = DOGE_GBP
+    DOGE_USD: Symbol = DOGE_USD
+    DOGE_USDT: Symbol = DOGE_USDT
+    DOT_BTC: Symbol = DOT_BTC
+    DOT_EUR: Symbol = DOT_EUR
+    DOT_GBP: Symbol = DOT_GBP
+    DOT_USD: Symbol = DOT_USD
+    DOT_USDT: Symbol = DOT_USDT
+    DREP_USD: Symbol = DREP_USD
+    DREP_USDT: Symbol = DREP_USDT
+    DYP_USD: Symbol = DYP_USD
+    DYP_USDT: Symbol = DYP_USDT
+    EGLD_USD: Symbol = EGLD_USD
+    ELA_USD: Symbol = ELA_USD
+    ELA_USDT: Symbol = ELA_USDT
+    ENJ_BTC: Symbol = ENJ_BTC
+    ENJ_USD: Symbol = ENJ_USD
+    ENJ_USDT: Symbol = ENJ_USDT
+    ENS_EUR: Symbol = ENS_EUR
+    ENS_USD: Symbol = ENS_USD
+    ENS_USDT: Symbol = ENS_USDT
+    EOS_BTC: Symbol = EOS_BTC
+    EOS_EUR: Symbol = EOS_EUR
+    EOS_USD: Symbol = EOS_USD
+    ERN_EUR: Symbol = ERN_EUR
+    ERN_USD: Symbol = ERN_USD
+    ERN_USDT: Symbol = ERN_USDT
+    ETC_BTC: Symbol = ETC_BTC
+    ETC_EUR: Symbol = ETC_EUR
+    ETC_GBP: Symbol = ETC_GBP
+    ETC_USD: Symbol = ETC_USD
+    ETH_BTC: Symbol = ETH_BTC
+    ETH_DAI: Symbol = ETH_DAI
+    ETH_EUR: Symbol = ETH_EUR
+    ETH_GBP: Symbol = ETH_GBP
+    ETH_USD: Symbol = ETH_USD
+    ETH_USDC: Symbol = ETH_USDC
+    ETH_USDT: Symbol = ETH_USDT
+    EUROC_EUR: Symbol = EUROC_EUR
+    EUROC_USD: Symbol = EUROC_USD
+    FARM_USD: Symbol = FARM_USD
+    FARM_USDT: Symbol = FARM_USDT
+    FET_USD: Symbol = FET_USD
+    FET_USDT: Symbol = FET_USDT
+    FIDA_EUR: Symbol = FIDA_EUR
+    FIDA_USD: Symbol = FIDA_USD
+    FIDA_USDT: Symbol = FIDA_USDT
+    FIL_BTC: Symbol = FIL_BTC
+    FIL_EUR: Symbol = FIL_EUR
+    FIL_GBP: Symbol = FIL_GBP
+    FIL_USD: Symbol = FIL_USD
+    FIS_USD: Symbol = FIS_USD
+    FIS_USDT: Symbol = FIS_USDT
+    FLOW_USD: Symbol = FLOW_USD
+    FLOW_USDT: Symbol = FLOW_USDT
+    FLR_USD: Symbol = FLR_USD
+    FORT_USD: Symbol = FORT_USD
+    FORT_USDT: Symbol = FORT_USDT
+    FORTH_BTC: Symbol = FORTH_BTC
+    FORTH_EUR: Symbol = FORTH_EUR
+    FORTH_GBP: Symbol = FORTH_GBP
+    FORTH_USD: Symbol = FORTH_USD
+    FOX_USD: Symbol = FOX_USD
+    FOX_USDT: Symbol = FOX_USDT
+    FX_USD: Symbol = FX_USD
+    GAL_USD: Symbol = GAL_USD
+    GAL_USDT: Symbol = GAL_USDT
+    GALA_EUR: Symbol = GALA_EUR
+    GALA_USD: Symbol = GALA_USD
+    GALA_USDT: Symbol = GALA_USDT
+    GFI_USD: Symbol = GFI_USD
+    GHST_USD: Symbol = GHST_USD
+    GLM_USD: Symbol = GLM_USD
+    GMT_USD: Symbol = GMT_USD
+    GMT_USDT: Symbol = GMT_USDT
+    GNO_USD: Symbol = GNO_USD
+    GNO_USDT: Symbol = GNO_USDT
+    GNT_USDC: Symbol = GNT_USDC
+    GODS_USD: Symbol = GODS_USD
+    GRT_BTC: Symbol = GRT_BTC
+    GRT_EUR: Symbol = GRT_EUR
+    GRT_GBP: Symbol = GRT_GBP
+    GRT_USD: Symbol = GRT_USD
+    GST_USD: Symbol = GST_USD
+    GTC_USD: Symbol = GTC_USD
+    GUSD_USD: Symbol = GUSD_USD
+    GYEN_USD: Symbol = GYEN_USD
+    HBAR_USD: Symbol = HBAR_USD
+    HBAR_USDT: Symbol = HBAR_USDT
+    HFT_USD: Symbol = HFT_USD
+    HFT_USDT: Symbol = HFT_USDT
+    HIGH_USD: Symbol = HIGH_USD
+    HOPR_USD: Symbol = HOPR_USD
+    HOPR_USDT: Symbol = HOPR_USDT
+    ICP_BTC: Symbol = ICP_BTC
+    ICP_EUR: Symbol = ICP_EUR
+    ICP_GBP: Symbol = ICP_GBP
+    ICP_USD: Symbol = ICP_USD
+    ICP_USDT: Symbol = ICP_USDT
+    IDEX_USD: Symbol = IDEX_USD
+    IDEX_USDT: Symbol = IDEX_USDT
+    ILV_USD: Symbol = ILV_USD
+    IMX_USD: Symbol = IMX_USD
+    IMX_USDT: Symbol = IMX_USDT
+    INDEX_USD: Symbol = INDEX_USD
+    INDEX_USDT: Symbol = INDEX_USDT
+    INJ_USD: Symbol = INJ_USD
+    INV_USD: Symbol = INV_USD
+    IOTX_EUR: Symbol = IOTX_EUR
+    IOTX_USD: Symbol = IOTX_USD
+    JASMY_USD: Symbol = JASMY_USD
+    JASMY_USDT: Symbol = JASMY_USDT
+    JUP_USD: Symbol = JUP_USD
+    KAVA_USD: Symbol = KAVA_USD
+    KEEP_USD: Symbol = KEEP_USD
+    KNC_BTC: Symbol = KNC_BTC
+    KNC_USD: Symbol = KNC_USD
+    KRL_EUR: Symbol = KRL_EUR
+    KRL_USD: Symbol = KRL_USD
+    KRL_USDT: Symbol = KRL_USDT
+    KSM_USD: Symbol = KSM_USD
+    KSM_USDT: Symbol = KSM_USDT
+    LCX_EUR: Symbol = LCX_EUR
+    LCX_USD: Symbol = LCX_USD
+    LCX_USDT: Symbol = LCX_USDT
+    LDO_USD: Symbol = LDO_USD
+    LINK_BTC: Symbol = LINK_BTC
+    LINK_ETH: Symbol = LINK_ETH
+    LINK_EUR: Symbol = LINK_EUR
+    LINK_GBP: Symbol = LINK_GBP
+    LINK_USD: Symbol = LINK_USD
+    LINK_USDT: Symbol = LINK_USDT
+    LIT_USD: Symbol = LIT_USD
+    LOKA_USD: Symbol = LOKA_USD
+    LOOM_USD: Symbol = LOOM_USD
+    LOOM_USDC: Symbol = LOOM_USDC
+    LPT_USD: Symbol = LPT_USD
+    LQTY_EUR: Symbol = LQTY_EUR
+    LQTY_USD: Symbol = LQTY_USD
+    LQTY_USDT: Symbol = LQTY_USDT
+    LRC_BTC: Symbol = LRC_BTC
+    LRC_USD: Symbol = LRC_USD
+    LRC_USDT: Symbol = LRC_USDT
+    LSETH_ETH: Symbol = LSETH_ETH
+    LSETH_USD: Symbol = LSETH_USD
+    LTC_BTC: Symbol = LTC_BTC
+    LTC_EUR: Symbol = LTC_EUR
+    LTC_GBP: Symbol = LTC_GBP
+    LTC_USD: Symbol = LTC_USD
+    MAGIC_USD: Symbol = MAGIC_USD
+    MANA_BTC: Symbol = MANA_BTC
+    MANA_ETH: Symbol = MANA_ETH
+    MANA_EUR: Symbol = MANA_EUR
+    MANA_USD: Symbol = MANA_USD
+    MANA_USDC: Symbol = MANA_USDC
+    MASK_EUR: Symbol = MASK_EUR
+    MASK_GBP: Symbol = MASK_GBP
+    MASK_USD: Symbol = MASK_USD
+    MASK_USDT: Symbol = MASK_USDT
+    MATH_USD: Symbol = MATH_USD
+    MATH_USDT: Symbol = MATH_USDT
+    MATIC_BTC: Symbol = MATIC_BTC
+    MATIC_EUR: Symbol = MATIC_EUR
+    MATIC_GBP: Symbol = MATIC_GBP
+    MATIC_USD: Symbol = MATIC_USD
+    MATIC_USDT: Symbol = MATIC_USDT
+    MCO2_USD: Symbol = MCO2_USD
+    MCO2_USDT: Symbol = MCO2_USDT
+    MDT_USD: Symbol = MDT_USD
+    MDT_USDT: Symbol = MDT_USDT
+    MEDIA_USD: Symbol = MEDIA_USD
+    MEDIA_USDT: Symbol = MEDIA_USDT
+    METIS_USD: Symbol = METIS_USD
+    METIS_USDT: Symbol = METIS_USDT
+    MINA_EUR: Symbol = MINA_EUR
+    MINA_USD: Symbol = MINA_USD
+    MINA_USDT: Symbol = MINA_USDT
+    MIR_BTC: Symbol = MIR_BTC
+    MIR_EUR: Symbol = MIR_EUR
+    MIR_GBP: Symbol = MIR_GBP
+    MIR_USD: Symbol = MIR_USD
+    MKR_BTC: Symbol = MKR_BTC
+    MKR_USD: Symbol = MKR_USD
+    MLN_USD: Symbol = MLN_USD
+    MNDE_USD: Symbol = MNDE_USD
+    MONA_USD: Symbol = MONA_USD
+    MPL_USD: Symbol = MPL_USD
+    MSOL_USD: Symbol = MSOL_USD
+    MTL_USD: Symbol = MTL_USD
+    MULTI_USD: Symbol = MULTI_USD
+    MUSD_USD: Symbol = MUSD_USD
+    MUSE_USD: Symbol = MUSE_USD
+    MXC_USD: Symbol = MXC_USD
+    NCT_EUR: Symbol = NCT_EUR
+    NCT_USD: Symbol = NCT_USD
+    NCT_USDT: Symbol = NCT_USDT
+    NEAR_USD: Symbol = NEAR_USD
+    NEAR_USDT: Symbol = NEAR_USDT
+    NEST_USD: Symbol = NEST_USD
+    NEST_USDT: Symbol = NEST_USDT
+    NKN_BTC: Symbol = NKN_BTC
+    NKN_EUR: Symbol = NKN_EUR
+    NKN_GBP: Symbol = NKN_GBP
+    NKN_USD: Symbol = NKN_USD
+    NMR_BTC: Symbol = NMR_BTC
+    NMR_EUR: Symbol = NMR_EUR
+    NMR_GBP: Symbol = NMR_GBP
+    NMR_USD: Symbol = NMR_USD
+    NU_BTC: Symbol = NU_BTC
+    NU_EUR: Symbol = NU_EUR
+    NU_GBP: Symbol = NU_GBP
+    NU_USD: Symbol = NU_USD
+    OCEAN_USD: Symbol = OCEAN_USD
+    OGN_BTC: Symbol = OGN_BTC
+    OGN_USD: Symbol = OGN_USD
+    OMG_BTC: Symbol = OMG_BTC
+    OMG_EUR: Symbol = OMG_EUR
+    OMG_GBP: Symbol = OMG_GBP
+    OMG_USD: Symbol = OMG_USD
+    OOKI_USD: Symbol = OOKI_USD
+    OP_USD: Symbol = OP_USD
+    OP_USDT: Symbol = OP_USDT
+    ORCA_USD: Symbol = ORCA_USD
+    ORN_BTC: Symbol = ORN_BTC
+    ORN_USD: Symbol = ORN_USD
+    ORN_USDT: Symbol = ORN_USDT
+    OXT_USD: Symbol = OXT_USD
+    PAX_USD: Symbol = PAX_USD
+    PAX_USDT: Symbol = PAX_USDT
+    PERP_EUR: Symbol = PERP_EUR
+    PERP_USD: Symbol = PERP_USD
+    PERP_USDT: Symbol = PERP_USDT
+    PLA_USD: Symbol = PLA_USD
+    PLU_USD: Symbol = PLU_USD
+    PNG_USD: Symbol = PNG_USD
+    POLS_USD: Symbol = POLS_USD
+    POLS_USDT: Symbol = POLS_USDT
+    POLY_USD: Symbol = POLY_USD
+    POLY_USDT: Symbol = POLY_USDT
+    POND_USD: Symbol = POND_USD
+    POND_USDT: Symbol = POND_USDT
+    POWR_EUR: Symbol = POWR_EUR
+    POWR_USD: Symbol = POWR_USD
+    POWR_USDT: Symbol = POWR_USDT
+    PRIME_USD: Symbol = PRIME_USD
+    PRO_USD: Symbol = PRO_USD
+    PRQ_USD: Symbol = PRQ_USD
+    PRQ_USDT: Symbol = PRQ_USDT
+    PUNDIX_USD: Symbol = PUNDIX_USD
+    PYR_USD: Symbol = PYR_USD
+    QI_USD: Symbol = QI_USD
+    QNT_USD: Symbol = QNT_USD
+    QNT_USDT: Symbol = QNT_USDT
+    QSP_USD: Symbol = QSP_USD
+    QSP_USDT: Symbol = QSP_USDT
+    QUICK_USD: Symbol = QUICK_USD
+    RAD_BTC: Symbol = RAD_BTC
+    RAD_EUR: Symbol = RAD_EUR
+    RAD_GBP: Symbol = RAD_GBP
+    RAD_USD: Symbol = RAD_USD
+    RAD_USDT: Symbol = RAD_USDT
+    RAI_USD: Symbol = RAI_USD
+    RARE_USD: Symbol = RARE_USD
+    RARI_USD: Symbol = RARI_USD
+    RBN_USD: Symbol = RBN_USD
+    REN_BTC: Symbol = REN_BTC
+    REN_USD: Symbol = REN_USD
+    REP_BTC: Symbol = REP_BTC
+    REP_USD: Symbol = REP_USD
+    REQ_BTC: Symbol = REQ_BTC
+    REQ_EUR: Symbol = REQ_EUR
+    REQ_GBP: Symbol = REQ_GBP
+    REQ_USD: Symbol = REQ_USD
+    REQ_USDT: Symbol = REQ_USDT
+    RGT_USD: Symbol = RGT_USD
+    RLC_BTC: Symbol = RLC_BTC
+    RLC_USD: Symbol = RLC_USD
+    RLY_EUR: Symbol = RLY_EUR
+    RLY_GBP: Symbol = RLY_GBP
+    RLY_USD: Symbol = RLY_USD
+    RLY_USDT: Symbol = RLY_USDT
+    RNDR_EUR: Symbol = RNDR_EUR
+    RNDR_USD: Symbol = RNDR_USD
+    RNDR_USDT: Symbol = RNDR_USDT
+    ROSE_USD: Symbol = ROSE_USD
+    ROSE_USDT: Symbol = ROSE_USDT
+    RPL_USD: Symbol = RPL_USD
+    SAND_USD: Symbol = SAND_USD
+    SAND_USDT: Symbol = SAND_USDT
+    SHIB_EUR: Symbol = SHIB_EUR
+    SHIB_GBP: Symbol = SHIB_GBP
+    SHIB_USD: Symbol = SHIB_USD
+    SHIB_USDT: Symbol = SHIB_USDT
+    SHPING_EUR: Symbol = SHPING_EUR
+    SHPING_USD: Symbol = SHPING_USD
+    SHPING_USDT: Symbol = SHPING_USDT
+    SKL_BTC: Symbol = SKL_BTC
+    SKL_EUR: Symbol = SKL_EUR
+    SKL_GBP: Symbol = SKL_GBP
+    SKL_USD: Symbol = SKL_USD
+    SNT_USD: Symbol = SNT_USD
+    SNX_BTC: Symbol = SNX_BTC
+    SNX_EUR: Symbol = SNX_EUR
+    SNX_GBP: Symbol = SNX_GBP
+    SNX_USD: Symbol = SNX_USD
+    SOL_BTC: Symbol = SOL_BTC
+    SOL_ETH: Symbol = SOL_ETH
+    SOL_EUR: Symbol = SOL_EUR
+    SOL_GBP: Symbol = SOL_GBP
+    SOL_USD: Symbol = SOL_USD
+    SOL_USDT: Symbol = SOL_USDT
+    SPA_USD: Symbol = SPA_USD
+    SPELL_USD: Symbol = SPELL_USD
+    SPELL_USDT: Symbol = SPELL_USDT
+    STG_USD: Symbol = STG_USD
+    STG_USDT: Symbol = STG_USDT
+    STORJ_BTC: Symbol = STORJ_BTC
+    STORJ_USD: Symbol = STORJ_USD
+    STX_USD: Symbol = STX_USD
+    STX_USDT: Symbol = STX_USDT
+    SUKU_EUR: Symbol = SUKU_EUR
+    SUKU_USD: Symbol = SUKU_USD
+    SUKU_USDT: Symbol = SUKU_USDT
+    SUPER_USD: Symbol = SUPER_USD
+    SUPER_USDT: Symbol = SUPER_USDT
+    SUSHI_BTC: Symbol = SUSHI_BTC
+    SUSHI_ETH: Symbol = SUSHI_ETH
+    SUSHI_EUR: Symbol = SUSHI_EUR
+    SUSHI_GBP: Symbol = SUSHI_GBP
+    SUSHI_USD: Symbol = SUSHI_USD
+    SWFTC_USD: Symbol = SWFTC_USD
+    SYLO_USD: Symbol = SYLO_USD
+    SYLO_USDT: Symbol = SYLO_USDT
+    SYN_USD: Symbol = SYN_USD
+    T_USD: Symbol = T_USD
+    TIME_USD: Symbol = TIME_USD
+    TIME_USDT: Symbol = TIME_USDT
+    TONE_USD: Symbol = TONE_USD
+    TRAC_EUR: Symbol = TRAC_EUR
+    TRAC_USD: Symbol = TRAC_USD
+    TRAC_USDT: Symbol = TRAC_USDT
+    TRB_BTC: Symbol = TRB_BTC
+    TRB_USD: Symbol = TRB_USD
+    TRIBE_USD: Symbol = TRIBE_USD
+    TRU_BTC: Symbol = TRU_BTC
+    TRU_EUR: Symbol = TRU_EUR
+    TRU_USD: Symbol = TRU_USD
+    TRU_USDT: Symbol = TRU_USDT
+    TVK_USD: Symbol = TVK_USD
+    UMA_BTC: Symbol = UMA_BTC
+    UMA_EUR: Symbol = UMA_EUR
+    UMA_GBP: Symbol = UMA_GBP
+    UMA_USD: Symbol = UMA_USD
+    UNFI_USD: Symbol = UNFI_USD
+    UNI_BTC: Symbol = UNI_BTC
+    UNI_EUR: Symbol = UNI_EUR
+    UNI_GBP: Symbol = UNI_GBP
+    UNI_USD: Symbol = UNI_USD
+    UPI_USD: Symbol = UPI_USD
+    UPI_USDT: Symbol = UPI_USDT
+    USDC_EUR: Symbol = USDC_EUR
+    USDC_GBP: Symbol = USDC_GBP
+    USDT_EUR: Symbol = USDT_EUR
+    USDT_GBP: Symbol = USDT_GBP
+    USDT_USD: Symbol = USDT_USD
+    USDT_USDC: Symbol = USDT_USDC
+    UST_EUR: Symbol = UST_EUR
+    UST_USD: Symbol = UST_USD
+    UST_USDT: Symbol = UST_USDT
+    VGX_EUR: Symbol = VGX_EUR
+    VGX_USD: Symbol = VGX_USD
+    VGX_USDT: Symbol = VGX_USDT
+    VOXEL_USD: Symbol = VOXEL_USD
+    WAMPL_USD: Symbol = WAMPL_USD
+    WAMPL_USDT: Symbol = WAMPL_USDT
+    WAXL_USD: Symbol = WAXL_USD
+    WBTC_BTC: Symbol = WBTC_BTC
+    WBTC_USD: Symbol = WBTC_USD
+    WCFG_BTC: Symbol = WCFG_BTC
+    WCFG_EUR: Symbol = WCFG_EUR
+    WCFG_USD: Symbol = WCFG_USD
+    WCFG_USDT: Symbol = WCFG_USDT
+    WLUNA_EUR: Symbol = WLUNA_EUR
+    WLUNA_GBP: Symbol = WLUNA_GBP
+    WLUNA_USD: Symbol = WLUNA_USD
+    WLUNA_USDT: Symbol = WLUNA_USDT
+    XCN_USD: Symbol = XCN_USD
+    XCN_USDT: Symbol = XCN_USDT
+    XLM_BTC: Symbol = XLM_BTC
+    XLM_EUR: Symbol = XLM_EUR
+    XLM_USD: Symbol = XLM_USD
+    XLM_USDT: Symbol = XLM_USDT
+    XRP_BTC: Symbol = XRP_BTC
+    XRP_EUR: Symbol = XRP_EUR
+    XRP_GBP: Symbol = XRP_GBP
+    XRP_USD: Symbol = XRP_USD
+    XTZ_BTC: Symbol = XTZ_BTC
+    XTZ_EUR: Symbol = XTZ_EUR
+    XTZ_GBP: Symbol = XTZ_GBP
+    XTZ_USD: Symbol = XTZ_USD
+    XYO_BTC: Symbol = XYO_BTC
+    XYO_EUR: Symbol = XYO_EUR
+    XYO_USD: Symbol = XYO_USD
+    XYO_USDT: Symbol = XYO_USDT
+    YFI_BTC: Symbol = YFI_BTC
+    YFI_USD: Symbol = YFI_USD
+    YFII_USD: Symbol = YFII_USD
+    ZEC_BTC: Symbol = ZEC_BTC
+    ZEC_USD: Symbol = ZEC_USD
+    ZEC_USDC: Symbol = ZEC_USDC
+    ZEN_BTC: Symbol = ZEN_BTC
+    ZEN_USD: Symbol = ZEN_USD
+    ZEN_USDT: Symbol = ZEN_USDT
+    ZRX_BTC: Symbol = ZRX_BTC
+    ZRX_EUR: Symbol = ZRX_EUR
+    ZRX_USD: Symbol = ZRX_USD
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([ZERO0_USD, ONEINCH_BTC, ONEINCH_EUR, ONEINCH_GBP, ONEINCH_USD, AAVE_BTC, AAVE_EUR, AAVE_GBP, AAVE_USD, ABT_USD, ACH_USD, ACH_USDT, ACS_USD, ADA_BTC, ADA_ETH, ADA_EUR, ADA_GBP, ADA_USD, ADA_USDC, ADA_USDT, AERGO_USD, AGLD_USD, AGLD_USDT, AIOZ_USD, AIOZ_USDT, ALCX_EUR, ALCX_USD, ALCX_USDT, ALEPH_USD, ALGO_BTC, ALGO_EUR, ALGO_GBP, ALGO_USD, ALICE_USD, AMP_USD, ANKR_BTC, ANKR_EUR, ANKR_GBP, ANKR_USD, ANT_USD, APE_EUR, APE_USD, APE_USDT, API3_USD, API3_USDT, APT_USD, APT_USDT, ARB_USD, ARPA_EUR, ARPA_USD, ARPA_USDT, ASM_USD, ASM_USDT, AST_USD, ATA_USD, ATA_USDT, ATOM_BTC, ATOM_EUR, ATOM_GBP, ATOM_USD, ATOM_USDT, AUCTION_EUR, AUCTION_USD, AUCTION_USDT, AUDIO_USD, AURORA_USD, AVAX_BTC, AVAX_EUR, AVAX_USD, AVAX_USDT, AVT_USD, AXL_USD, AXS_BTC, AXS_EUR, AXS_USD, AXS_USDT, BADGER_EUR, BADGER_USD, BADGER_USDT, BAL_BTC, BAL_USD, BAND_BTC, BAND_EUR, BAND_GBP, BAND_USD, BAT_BTC, BAT_ETH, BAT_EUR, BAT_USD, BAT_USDC, BCH_BTC, BCH_EUR, BCH_GBP, BCH_USD, BICO_EUR, BICO_USD, BICO_USDT, BIT_USD, BIT_USDT, BLUR_USD, BLZ_USD, BNT_BTC, BNT_EUR, BNT_GBP, BNT_USD, BOBA_USD, BOBA_USDT, BOND_USD, BOND_USDT, BTC_EUR, BTC_GBP, BTC_USD, BTC_USDC, BTC_USDT, BTRST_BTC, BTRST_EUR, BTRST_GBP, BTRST_USD, BTRST_USDT, BUSD_USD, C98_USD, C98_USDT, CBETH_ETH, CBETH_USD, CELR_USD, CGLD_BTC, CGLD_EUR, CGLD_GBP, CGLD_USD, CHZ_EUR, CHZ_GBP, CHZ_USD, CHZ_USDT, CLV_EUR, CLV_GBP, CLV_USD, CLV_USDT, COMP_BTC, COMP_USD, COTI_USD, COVAL_USD, COVAL_USDT, CRO_EUR, CRO_USD, CRO_USDT, CRPT_USD, CRV_BTC, CRV_EUR, CRV_GBP, CRV_USD, CTSI_BTC, CTSI_USD, CTX_EUR, CTX_USD, CTX_USDT, CVC_USD, CVC_USDC, CVX_USD, DAI_USD, DAI_USDC, DAR_USD, DASH_BTC, DASH_USD, DDX_EUR, DDX_USD, DDX_USDT, DESO_EUR, DESO_USD, DESO_USDT, DEXT_USD, DIA_EUR, DIA_USD, DIA_USDT, DIMO_USD, DNT_USD, DNT_USDC, DOGE_BTC, DOGE_EUR, DOGE_GBP, DOGE_USD, DOGE_USDT, DOT_BTC, DOT_EUR, DOT_GBP, DOT_USD, DOT_USDT, DREP_USD, DREP_USDT, DYP_USD, DYP_USDT, EGLD_USD, ELA_USD, ELA_USDT, ENJ_BTC, ENJ_USD, ENJ_USDT, ENS_EUR, ENS_USD, ENS_USDT, EOS_BTC, EOS_EUR, EOS_USD, ERN_EUR, ERN_USD, ERN_USDT, ETC_BTC, ETC_EUR, ETC_GBP, ETC_USD, ETH_BTC, ETH_DAI, ETH_EUR, ETH_GBP, ETH_USD, ETH_USDC, ETH_USDT, EUROC_EUR, EUROC_USD, FARM_USD, FARM_USDT, FET_USD, FET_USDT, FIDA_EUR, FIDA_USD, FIDA_USDT, FIL_BTC, FIL_EUR, FIL_GBP, FIL_USD, FIS_USD, FIS_USDT, FLOW_USD, FLOW_USDT, FLR_USD, FORT_USD, FORT_USDT, FORTH_BTC, FORTH_EUR, FORTH_GBP, FORTH_USD, FOX_USD, FOX_USDT, FX_USD, GAL_USD, GAL_USDT, GALA_EUR, GALA_USD, GALA_USDT, GFI_USD, GHST_USD, GLM_USD, GMT_USD, GMT_USDT, GNO_USD, GNO_USDT, GNT_USDC, GODS_USD, GRT_BTC, GRT_EUR, GRT_GBP, GRT_USD, GST_USD, GTC_USD, GUSD_USD, GYEN_USD, HBAR_USD, HBAR_USDT, HFT_USD, HFT_USDT, HIGH_USD, HOPR_USD, HOPR_USDT, ICP_BTC, ICP_EUR, ICP_GBP, ICP_USD, ICP_USDT, IDEX_USD, IDEX_USDT, ILV_USD, IMX_USD, IMX_USDT, INDEX_USD, INDEX_USDT, INJ_USD, INV_USD, IOTX_EUR, IOTX_USD, JASMY_USD, JASMY_USDT, JUP_USD, KAVA_USD, KEEP_USD, KNC_BTC, KNC_USD, KRL_EUR, KRL_USD, KRL_USDT, KSM_USD, KSM_USDT, LCX_EUR, LCX_USD, LCX_USDT, LDO_USD, LINK_BTC, LINK_ETH, LINK_EUR, LINK_GBP, LINK_USD, LINK_USDT, LIT_USD, LOKA_USD, LOOM_USD, LOOM_USDC, LPT_USD, LQTY_EUR, LQTY_USD, LQTY_USDT, LRC_BTC, LRC_USD, LRC_USDT, LSETH_ETH, LSETH_USD, LTC_BTC, LTC_EUR, LTC_GBP, LTC_USD, MAGIC_USD, MANA_BTC, MANA_ETH, MANA_EUR, MANA_USD, MANA_USDC, MASK_EUR, MASK_GBP, MASK_USD, MASK_USDT, MATH_USD, MATH_USDT, MATIC_BTC, MATIC_EUR, MATIC_GBP, MATIC_USD, MATIC_USDT, MCO2_USD, MCO2_USDT, MDT_USD, MDT_USDT, MEDIA_USD, MEDIA_USDT, METIS_USD, METIS_USDT, MINA_EUR, MINA_USD, MINA_USDT, MIR_BTC, MIR_EUR, MIR_GBP, MIR_USD, MKR_BTC, MKR_USD, MLN_USD, MNDE_USD, MONA_USD, MPL_USD, MSOL_USD, MTL_USD, MULTI_USD, MUSD_USD, MUSE_USD, MXC_USD, NCT_EUR, NCT_USD, NCT_USDT, NEAR_USD, NEAR_USDT, NEST_USD, NEST_USDT, NKN_BTC, NKN_EUR, NKN_GBP, NKN_USD, NMR_BTC, NMR_EUR, NMR_GBP, NMR_USD, NU_BTC, NU_EUR, NU_GBP, NU_USD, OCEAN_USD, OGN_BTC, OGN_USD, OMG_BTC, OMG_EUR, OMG_GBP, OMG_USD, OOKI_USD, OP_USD, OP_USDT, ORCA_USD, ORN_BTC, ORN_USD, ORN_USDT, OXT_USD, PAX_USD, PAX_USDT, PERP_EUR, PERP_USD, PERP_USDT, PLA_USD, PLU_USD, PNG_USD, POLS_USD, POLS_USDT, POLY_USD, POLY_USDT, POND_USD, POND_USDT, POWR_EUR, POWR_USD, POWR_USDT, PRIME_USD, PRO_USD, PRQ_USD, PRQ_USDT, PUNDIX_USD, PYR_USD, QI_USD, QNT_USD, QNT_USDT, QSP_USD, QSP_USDT, QUICK_USD, RAD_BTC, RAD_EUR, RAD_GBP, RAD_USD, RAD_USDT, RAI_USD, RARE_USD, RARI_USD, RBN_USD, REN_BTC, REN_USD, REP_BTC, REP_USD, REQ_BTC, REQ_EUR, REQ_GBP, REQ_USD, REQ_USDT, RGT_USD, RLC_BTC, RLC_USD, RLY_EUR, RLY_GBP, RLY_USD, RLY_USDT, RNDR_EUR, RNDR_USD, RNDR_USDT, ROSE_USD, ROSE_USDT, RPL_USD, SAND_USD, SAND_USDT, SHIB_EUR, SHIB_GBP, SHIB_USD, SHIB_USDT, SHPING_EUR, SHPING_USD, SHPING_USDT, SKL_BTC, SKL_EUR, SKL_GBP, SKL_USD, SNT_USD, SNX_BTC, SNX_EUR, SNX_GBP, SNX_USD, SOL_BTC, SOL_ETH, SOL_EUR, SOL_GBP, SOL_USD, SOL_USDT, SPA_USD, SPELL_USD, SPELL_USDT, STG_USD, STG_USDT, STORJ_BTC, STORJ_USD, STX_USD, STX_USDT, SUKU_EUR, SUKU_USD, SUKU_USDT, SUPER_USD, SUPER_USDT, SUSHI_BTC, SUSHI_ETH, SUSHI_EUR, SUSHI_GBP, SUSHI_USD, SWFTC_USD, SYLO_USD, SYLO_USDT, SYN_USD, T_USD, TIME_USD, TIME_USDT, TONE_USD, TRAC_EUR, TRAC_USD, TRAC_USDT, TRB_BTC, TRB_USD, TRIBE_USD, TRU_BTC, TRU_EUR, TRU_USD, TRU_USDT, TVK_USD, UMA_BTC, UMA_EUR, UMA_GBP, UMA_USD, UNFI_USD, UNI_BTC, UNI_EUR, UNI_GBP, UNI_USD, UPI_USD, UPI_USDT, USDC_EUR, USDC_GBP, USDT_EUR, USDT_GBP, USDT_USD, USDT_USDC, UST_EUR, UST_USD, UST_USDT, VGX_EUR, VGX_USD, VGX_USDT, VOXEL_USD, WAMPL_USD, WAMPL_USDT, WAXL_USD, WBTC_BTC, WBTC_USD, WCFG_BTC, WCFG_EUR, WCFG_USD, WCFG_USDT, WLUNA_EUR, WLUNA_GBP, WLUNA_USD, WLUNA_USDT, XCN_USD, XCN_USDT, XLM_BTC, XLM_EUR, XLM_USD, XLM_USDT, XRP_BTC, XRP_EUR, XRP_GBP, XRP_USD, XTZ_BTC, XTZ_EUR, XTZ_GBP, XTZ_USD, XYO_BTC, XYO_EUR, XYO_USD, XYO_USDT, YFI_BTC, YFI_USD, YFII_USD, ZEC_BTC, ZEC_USD, ZEC_USDC, ZEN_BTC, ZEN_USD, ZEN_USDT, ZRX_BTC, ZRX_EUR, ZRX_USD])
+
+coinbase = Coinbase()

@@ -40,17 +40,6 @@ class ONEINCHEUR(Symbol):
 
 
 ONEINCHEUR = ONEINCHEUR(*ONEINCHEUR._fields)
-"""
-    name: 1INCHEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ONEINCHUSD(Symbol):
@@ -92,17 +81,6 @@ class ONEINCHUSD(Symbol):
 
 
 ONEINCHUSD = ONEINCHUSD(*ONEINCHUSD._fields)
-"""
-    name: 1INCHUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AAVEETH(Symbol):
@@ -144,17 +122,6 @@ class AAVEETH(Symbol):
 
 
 AAVEETH = AAVEETH(*AAVEETH._fields)
-"""
-    name: AAVEETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AAVEEUR(Symbol):
@@ -196,17 +163,6 @@ class AAVEEUR(Symbol):
 
 
 AAVEEUR = AAVEEUR(*AAVEEUR._fields)
-"""
-    name: AAVEEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AAVEGBP(Symbol):
@@ -248,17 +204,6 @@ class AAVEGBP(Symbol):
 
 
 AAVEGBP = AAVEGBP(*AAVEGBP._fields)
-"""
-    name: AAVEGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AAVEUSD(Symbol):
@@ -300,17 +245,6 @@ class AAVEUSD(Symbol):
 
 
 AAVEUSD = AAVEUSD(*AAVEUSD._fields)
-"""
-    name: AAVEUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AAVEXBT(Symbol):
@@ -352,17 +286,6 @@ class AAVEXBT(Symbol):
 
 
 AAVEXBT = AAVEXBT(*AAVEXBT._fields)
-"""
-    name: AAVEXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ACAEUR(Symbol):
@@ -404,17 +327,6 @@ class ACAEUR(Symbol):
 
 
 ACAEUR = ACAEUR(*ACAEUR._fields)
-"""
-    name: ACAEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ACAUSD(Symbol):
@@ -456,17 +368,6 @@ class ACAUSD(Symbol):
 
 
 ACAUSD = ACAUSD(*ACAUSD._fields)
-"""
-    name: ACAUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ACHEUR(Symbol):
@@ -508,17 +409,6 @@ class ACHEUR(Symbol):
 
 
 ACHEUR = ACHEUR(*ACHEUR._fields)
-"""
-    name: ACHEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 325
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ACHUSD(Symbol):
@@ -560,17 +450,6 @@ class ACHUSD(Symbol):
 
 
 ACHUSD = ACHUSD(*ACHUSD._fields)
-"""
-    name: ACHUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 325
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ADAAUD(Symbol):
@@ -612,17 +491,6 @@ class ADAAUD(Symbol):
 
 
 ADAAUD = ADAAUD(*ADAAUD._fields)
-"""
-    name: ADAAUD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ADAETH(Symbol):
@@ -664,17 +532,6 @@ class ADAETH(Symbol):
 
 
 ADAETH = ADAETH(*ADAETH._fields)
-"""
-    name: ADAETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ADAEUR(Symbol):
@@ -716,17 +573,6 @@ class ADAEUR(Symbol):
 
 
 ADAEUR = ADAEUR(*ADAEUR._fields)
-"""
-    name: ADAEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ADAGBP(Symbol):
@@ -768,17 +614,6 @@ class ADAGBP(Symbol):
 
 
 ADAGBP = ADAGBP(*ADAGBP._fields)
-"""
-    name: ADAGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ADAUSD(Symbol):
@@ -820,17 +655,6 @@ class ADAUSD(Symbol):
 
 
 ADAUSD = ADAUSD(*ADAUSD._fields)
-"""
-    name: ADAUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ADAUSDT(Symbol):
@@ -872,17 +696,6 @@ class ADAUSDT(Symbol):
 
 
 ADAUSDT = ADAUSDT(*ADAUSDT._fields)
-"""
-    name: ADAUSDT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ADAXBT(Symbol):
@@ -924,17 +737,6 @@ class ADAXBT(Symbol):
 
 
 ADAXBT = ADAXBT(*ADAXBT._fields)
-"""
-    name: ADAXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ADXEUR(Symbol):
@@ -976,17 +778,6 @@ class ADXEUR(Symbol):
 
 
 ADXEUR = ADXEUR(*ADXEUR._fields)
-"""
-    name: ADXEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ADXUSD(Symbol):
@@ -1028,17 +819,6 @@ class ADXUSD(Symbol):
 
 
 ADXUSD = ADXUSD(*ADXUSD._fields)
-"""
-    name: ADXUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AGLDEUR(Symbol):
@@ -1080,17 +860,6 @@ class AGLDEUR(Symbol):
 
 
 AGLDEUR = AGLDEUR(*AGLDEUR._fields)
-"""
-    name: AGLDEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 11
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AGLDUSD(Symbol):
@@ -1132,17 +901,6 @@ class AGLDUSD(Symbol):
 
 
 AGLDUSD = AGLDUSD(*AGLDUSD._fields)
-"""
-    name: AGLDUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 11
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AIREUR(Symbol):
@@ -1184,17 +942,6 @@ class AIREUR(Symbol):
 
 
 AIREUR = AIREUR(*AIREUR._fields)
-"""
-    name: AIREUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AIRUSD(Symbol):
@@ -1236,17 +983,6 @@ class AIRUSD(Symbol):
 
 
 AIRUSD = AIRUSD(*AIRUSD._fields)
-"""
-    name: AIRUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AKTEUR(Symbol):
@@ -1288,17 +1024,6 @@ class AKTEUR(Symbol):
 
 
 AKTEUR = AKTEUR(*AKTEUR._fields)
-"""
-    name: AKTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AKTUSD(Symbol):
@@ -1340,17 +1065,6 @@ class AKTUSD(Symbol):
 
 
 AKTUSD = AKTUSD(*AKTUSD._fields)
-"""
-    name: AKTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALCXEUR(Symbol):
@@ -1392,17 +1106,6 @@ class ALCXEUR(Symbol):
 
 
 ALCXEUR = ALCXEUR(*ALCXEUR._fields)
-"""
-    name: ALCXEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALCXUSD(Symbol):
@@ -1444,17 +1147,6 @@ class ALCXUSD(Symbol):
 
 
 ALCXUSD = ALCXUSD(*ALCXUSD._fields)
-"""
-    name: ALCXUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALGOETH(Symbol):
@@ -1496,17 +1188,6 @@ class ALGOETH(Symbol):
 
 
 ALGOETH = ALGOETH(*ALGOETH._fields)
-"""
-    name: ALGOETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALGOEUR(Symbol):
@@ -1548,17 +1229,6 @@ class ALGOEUR(Symbol):
 
 
 ALGOEUR = ALGOEUR(*ALGOEUR._fields)
-"""
-    name: ALGOEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ALGOGBP(Symbol):
@@ -1600,17 +1270,6 @@ class ALGOGBP(Symbol):
 
 
 ALGOGBP = ALGOGBP(*ALGOGBP._fields)
-"""
-    name: ALGOGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALGOUSD(Symbol):
@@ -1652,17 +1311,6 @@ class ALGOUSD(Symbol):
 
 
 ALGOUSD = ALGOUSD(*ALGOUSD._fields)
-"""
-    name: ALGOUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ALGOUSDT(Symbol):
@@ -1704,17 +1352,6 @@ class ALGOUSDT(Symbol):
 
 
 ALGOUSDT = ALGOUSDT(*ALGOUSDT._fields)
-"""
-    name: ALGOUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALGOXBT(Symbol):
@@ -1756,17 +1393,6 @@ class ALGOXBT(Symbol):
 
 
 ALGOXBT = ALGOXBT(*ALGOXBT._fields)
-"""
-    name: ALGOXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ALICEEUR(Symbol):
@@ -1808,17 +1434,6 @@ class ALICEEUR(Symbol):
 
 
 ALICEEUR = ALICEEUR(*ALICEEUR._fields)
-"""
-    name: ALICEEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALICEUSD(Symbol):
@@ -1860,17 +1475,6 @@ class ALICEUSD(Symbol):
 
 
 ALICEUSD = ALICEUSD(*ALICEUSD._fields)
-"""
-    name: ALICEUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALPHAEUR(Symbol):
@@ -1912,17 +1516,6 @@ class ALPHAEUR(Symbol):
 
 
 ALPHAEUR = ALPHAEUR(*ALPHAEUR._fields)
-"""
-    name: ALPHAEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ALPHAUSD(Symbol):
@@ -1964,17 +1557,6 @@ class ALPHAUSD(Symbol):
 
 
 ALPHAUSD = ALPHAUSD(*ALPHAUSD._fields)
-"""
-    name: ALPHAUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANKREUR(Symbol):
@@ -2016,17 +1598,6 @@ class ANKREUR(Symbol):
 
 
 ANKREUR = ANKREUR(*ANKREUR._fields)
-"""
-    name: ANKREUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANKRUSD(Symbol):
@@ -2068,17 +1639,6 @@ class ANKRUSD(Symbol):
 
 
 ANKRUSD = ANKRUSD(*ANKRUSD._fields)
-"""
-    name: ANKRUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANKRXBT(Symbol):
@@ -2120,17 +1680,6 @@ class ANKRXBT(Symbol):
 
 
 ANKRXBT = ANKRXBT(*ANKRXBT._fields)
-"""
-    name: ANKRXBT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANTETH(Symbol):
@@ -2172,17 +1721,6 @@ class ANTETH(Symbol):
 
 
 ANTETH = ANTETH(*ANTETH._fields)
-"""
-    name: ANTETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANTEUR(Symbol):
@@ -2224,17 +1762,6 @@ class ANTEUR(Symbol):
 
 
 ANTEUR = ANTEUR(*ANTEUR._fields)
-"""
-    name: ANTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANTUSD(Symbol):
@@ -2276,17 +1803,6 @@ class ANTUSD(Symbol):
 
 
 ANTUSD = ANTUSD(*ANTUSD._fields)
-"""
-    name: ANTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ANTXBT(Symbol):
@@ -2328,17 +1844,6 @@ class ANTXBT(Symbol):
 
 
 ANTXBT = ANTXBT(*ANTXBT._fields)
-"""
-    name: ANTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class APEEUR(Symbol):
@@ -2380,17 +1885,6 @@ class APEEUR(Symbol):
 
 
 APEEUR = APEEUR(*APEEUR._fields)
-"""
-    name: APEEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class APEUSD(Symbol):
@@ -2432,17 +1926,6 @@ class APEUSD(Symbol):
 
 
 APEUSD = APEUSD(*APEUSD._fields)
-"""
-    name: APEUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class APEUSDT(Symbol):
@@ -2484,17 +1967,6 @@ class APEUSDT(Symbol):
 
 
 APEUSDT = APEUSDT(*APEUSDT._fields)
-"""
-    name: APEUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class API3EUR(Symbol):
@@ -2536,17 +2008,6 @@ class API3EUR(Symbol):
 
 
 API3EUR = API3EUR(*API3EUR._fields)
-"""
-    name: API3EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class API3USD(Symbol):
@@ -2588,17 +2049,6 @@ class API3USD(Symbol):
 
 
 API3USD = API3USD(*API3USD._fields)
-"""
-    name: API3USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class APTEUR(Symbol):
@@ -2640,17 +2090,6 @@ class APTEUR(Symbol):
 
 
 APTEUR = APTEUR(*APTEUR._fields)
-"""
-    name: APTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.35
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class APTUSD(Symbol):
@@ -2692,17 +2131,6 @@ class APTUSD(Symbol):
 
 
 APTUSD = APTUSD(*APTUSD._fields)
-"""
-    name: APTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.35
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ARBEUR(Symbol):
@@ -2744,17 +2172,6 @@ class ARBEUR(Symbol):
 
 
 ARBEUR = ARBEUR(*ARBEUR._fields)
-"""
-    name: ARBEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ARBUSD(Symbol):
@@ -2796,17 +2213,6 @@ class ARBUSD(Symbol):
 
 
 ARBUSD = ARBUSD(*ARBUSD._fields)
-"""
-    name: ARBUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ARPAEUR(Symbol):
@@ -2848,17 +2254,6 @@ class ARPAEUR(Symbol):
 
 
 ARPAEUR = ARPAEUR(*ARPAEUR._fields)
-"""
-    name: ARPAEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ARPAUSD(Symbol):
@@ -2900,17 +2295,6 @@ class ARPAUSD(Symbol):
 
 
 ARPAUSD = ARPAUSD(*ARPAUSD._fields)
-"""
-    name: ARPAUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ASTREUR(Symbol):
@@ -2952,17 +2336,6 @@ class ASTREUR(Symbol):
 
 
 ASTREUR = ASTREUR(*ASTREUR._fields)
-"""
-    name: ASTREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ASTRUSD(Symbol):
@@ -3004,17 +2377,6 @@ class ASTRUSD(Symbol):
 
 
 ASTRUSD = ASTRUSD(*ASTRUSD._fields)
-"""
-    name: ASTRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATLASEUR(Symbol):
@@ -3056,17 +2418,6 @@ class ATLASEUR(Symbol):
 
 
 ATLASEUR = ATLASEUR(*ATLASEUR._fields)
-"""
-    name: ATLASEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1350
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATLASUSD(Symbol):
@@ -3108,17 +2459,6 @@ class ATLASUSD(Symbol):
 
 
 ATLASUSD = ATLASUSD(*ATLASUSD._fields)
-"""
-    name: ATLASUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1350
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATOMETH(Symbol):
@@ -3160,17 +2500,6 @@ class ATOMETH(Symbol):
 
 
 ATOMETH = ATOMETH(*ATOMETH._fields)
-"""
-    name: ATOMETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATOMEUR(Symbol):
@@ -3212,17 +2541,6 @@ class ATOMEUR(Symbol):
 
 
 ATOMEUR = ATOMEUR(*ATOMEUR._fields)
-"""
-    name: ATOMEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ATOMGBP(Symbol):
@@ -3264,17 +2582,6 @@ class ATOMGBP(Symbol):
 
 
 ATOMGBP = ATOMGBP(*ATOMGBP._fields)
-"""
-    name: ATOMGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATOMUSD(Symbol):
@@ -3316,17 +2623,6 @@ class ATOMUSD(Symbol):
 
 
 ATOMUSD = ATOMUSD(*ATOMUSD._fields)
-"""
-    name: ATOMUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ATOMUSDT(Symbol):
@@ -3368,17 +2664,6 @@ class ATOMUSDT(Symbol):
 
 
 ATOMUSDT = ATOMUSDT(*ATOMUSDT._fields)
-"""
-    name: ATOMUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ATOMXBT(Symbol):
@@ -3420,17 +2705,6 @@ class ATOMXBT(Symbol):
 
 
 ATOMXBT = ATOMXBT(*ATOMXBT._fields)
-"""
-    name: ATOMXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AUDIOEUR(Symbol):
@@ -3472,17 +2746,6 @@ class AUDIOEUR(Symbol):
 
 
 AUDIOEUR = AUDIOEUR(*AUDIOEUR._fields)
-"""
-    name: AUDIOEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AUDIOUSD(Symbol):
@@ -3524,17 +2787,6 @@ class AUDIOUSD(Symbol):
 
 
 AUDIOUSD = AUDIOUSD(*AUDIOUSD._fields)
-"""
-    name: AUDIOUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AUDJPY(Symbol):
@@ -3576,17 +2828,6 @@ class AUDJPY(Symbol):
 
 
 AUDJPY = AUDJPY(*AUDJPY._fields)
-"""
-    name: AUDJPY
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AUDUSD(Symbol):
@@ -3628,17 +2869,6 @@ class AUDUSD(Symbol):
 
 
 AUDUSD = AUDUSD(*AUDUSD._fields)
-"""
-    name: AUDUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AVAXEUR(Symbol):
@@ -3680,17 +2910,6 @@ class AVAXEUR(Symbol):
 
 
 AVAXEUR = AVAXEUR(*AVAXEUR._fields)
-"""
-    name: AVAXEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.3
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AVAXUSD(Symbol):
@@ -3732,17 +2951,6 @@ class AVAXUSD(Symbol):
 
 
 AVAXUSD = AVAXUSD(*AVAXUSD._fields)
-"""
-    name: AVAXUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.3
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AVAXUSDT(Symbol):
@@ -3784,17 +2992,6 @@ class AVAXUSDT(Symbol):
 
 
 AVAXUSDT = AVAXUSDT(*AVAXUSDT._fields)
-"""
-    name: AVAXUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class AXSEUR(Symbol):
@@ -3836,17 +3033,6 @@ class AXSEUR(Symbol):
 
 
 AXSEUR = AXSEUR(*AXSEUR._fields)
-"""
-    name: AXSEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class AXSUSD(Symbol):
@@ -3888,17 +3074,6 @@ class AXSUSD(Symbol):
 
 
 AXSUSD = AXSUSD(*AXSUSD._fields)
-"""
-    name: AXSUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BADGEREUR(Symbol):
@@ -3940,17 +3115,6 @@ class BADGEREUR(Symbol):
 
 
 BADGEREUR = BADGEREUR(*BADGEREUR._fields)
-"""
-    name: BADGEREUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BADGERUSD(Symbol):
@@ -3992,17 +3156,6 @@ class BADGERUSD(Symbol):
 
 
 BADGERUSD = BADGERUSD(*BADGERUSD._fields)
-"""
-    name: BADGERUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BALEUR(Symbol):
@@ -4044,17 +3197,6 @@ class BALEUR(Symbol):
 
 
 BALEUR = BALEUR(*BALEUR._fields)
-"""
-    name: BALEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BALUSD(Symbol):
@@ -4096,17 +3238,6 @@ class BALUSD(Symbol):
 
 
 BALUSD = BALUSD(*BALUSD._fields)
-"""
-    name: BALUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BALXBT(Symbol):
@@ -4148,17 +3279,6 @@ class BALXBT(Symbol):
 
 
 BALXBT = BALXBT(*BALXBT._fields)
-"""
-    name: BALXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BANDEUR(Symbol):
@@ -4200,17 +3320,6 @@ class BANDEUR(Symbol):
 
 
 BANDEUR = BANDEUR(*BANDEUR._fields)
-"""
-    name: BANDEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BANDUSD(Symbol):
@@ -4252,17 +3361,6 @@ class BANDUSD(Symbol):
 
 
 BANDUSD = BANDUSD(*BANDUSD._fields)
-"""
-    name: BANDUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BATETH(Symbol):
@@ -4304,17 +3402,6 @@ class BATETH(Symbol):
 
 
 BATETH = BATETH(*BATETH._fields)
-"""
-    name: BATETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BATEUR(Symbol):
@@ -4356,17 +3443,6 @@ class BATEUR(Symbol):
 
 
 BATEUR = BATEUR(*BATEUR._fields)
-"""
-    name: BATEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BATJPY(Symbol):
@@ -4408,17 +3484,6 @@ class BATJPY(Symbol):
 
 
 BATJPY = BATJPY(*BATJPY._fields)
-"""
-    name: BATJPY
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BATUSD(Symbol):
@@ -4460,17 +3525,6 @@ class BATUSD(Symbol):
 
 
 BATUSD = BATUSD(*BATUSD._fields)
-"""
-    name: BATUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BATXBT(Symbol):
@@ -4512,17 +3566,6 @@ class BATXBT(Symbol):
 
 
 BATXBT = BATXBT(*BATXBT._fields)
-"""
-    name: BATXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHAUD(Symbol):
@@ -4564,17 +3607,6 @@ class BCHAUD(Symbol):
 
 
 BCHAUD = BCHAUD(*BCHAUD._fields)
-"""
-    name: BCHAUD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHETH(Symbol):
@@ -4616,17 +3648,6 @@ class BCHETH(Symbol):
 
 
 BCHETH = BCHETH(*BCHETH._fields)
-"""
-    name: BCHETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHEUR(Symbol):
@@ -4668,17 +3689,6 @@ class BCHEUR(Symbol):
 
 
 BCHEUR = BCHEUR(*BCHEUR._fields)
-"""
-    name: BCHEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BCHGBP(Symbol):
@@ -4720,17 +3730,6 @@ class BCHGBP(Symbol):
 
 
 BCHGBP = BCHGBP(*BCHGBP._fields)
-"""
-    name: BCHGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHJPY(Symbol):
@@ -4772,17 +3771,6 @@ class BCHJPY(Symbol):
 
 
 BCHJPY = BCHJPY(*BCHJPY._fields)
-"""
-    name: BCHJPY
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHUSD(Symbol):
@@ -4824,17 +3812,6 @@ class BCHUSD(Symbol):
 
 
 BCHUSD = BCHUSD(*BCHUSD._fields)
-"""
-    name: BCHUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BCHUSDT(Symbol):
@@ -4876,17 +3853,6 @@ class BCHUSDT(Symbol):
 
 
 BCHUSDT = BCHUSDT(*BCHUSDT._fields)
-"""
-    name: BCHUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BCHXBT(Symbol):
@@ -4928,17 +3894,6 @@ class BCHXBT(Symbol):
 
 
 BCHXBT = BCHXBT(*BCHXBT._fields)
-"""
-    name: BCHXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BICOEUR(Symbol):
@@ -4980,17 +3935,6 @@ class BICOEUR(Symbol):
 
 
 BICOEUR = BICOEUR(*BICOEUR._fields)
-"""
-    name: BICOEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BICOUSD(Symbol):
@@ -5032,17 +3976,6 @@ class BICOUSD(Symbol):
 
 
 BICOUSD = BICOUSD(*BICOUSD._fields)
-"""
-    name: BICOUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BITEUR(Symbol):
@@ -5084,17 +4017,6 @@ class BITEUR(Symbol):
 
 
 BITEUR = BITEUR(*BITEUR._fields)
-"""
-    name: BITEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BITUSD(Symbol):
@@ -5136,17 +4058,6 @@ class BITUSD(Symbol):
 
 
 BITUSD = BITUSD(*BITUSD._fields)
-"""
-    name: BITUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BLUREUR(Symbol):
@@ -5188,17 +4099,6 @@ class BLUREUR(Symbol):
 
 
 BLUREUR = BLUREUR(*BLUREUR._fields)
-"""
-    name: BLUREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BLURUSD(Symbol):
@@ -5240,17 +4140,6 @@ class BLURUSD(Symbol):
 
 
 BLURUSD = BLURUSD(*BLURUSD._fields)
-"""
-    name: BLURUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class BLZEUR(Symbol):
@@ -5292,17 +4181,6 @@ class BLZEUR(Symbol):
 
 
 BLZEUR = BLZEUR(*BLZEUR._fields)
-"""
-    name: BLZEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 55
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BLZUSD(Symbol):
@@ -5344,17 +4222,6 @@ class BLZUSD(Symbol):
 
 
 BLZUSD = BLZUSD(*BLZUSD._fields)
-"""
-    name: BLZUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 55
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BNCEUR(Symbol):
@@ -5396,17 +4263,6 @@ class BNCEUR(Symbol):
 
 
 BNCEUR = BNCEUR(*BNCEUR._fields)
-"""
-    name: BNCEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BNCUSD(Symbol):
@@ -5448,17 +4304,6 @@ class BNCUSD(Symbol):
 
 
 BNCUSD = BNCUSD(*BNCUSD._fields)
-"""
-    name: BNCUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BNTEUR(Symbol):
@@ -5500,17 +4345,6 @@ class BNTEUR(Symbol):
 
 
 BNTEUR = BNTEUR(*BNTEUR._fields)
-"""
-    name: BNTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BNTUSD(Symbol):
@@ -5552,17 +4386,6 @@ class BNTUSD(Symbol):
 
 
 BNTUSD = BNTUSD(*BNTUSD._fields)
-"""
-    name: BNTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BNTXBT(Symbol):
@@ -5604,17 +4427,6 @@ class BNTXBT(Symbol):
 
 
 BNTXBT = BNTXBT(*BNTXBT._fields)
-"""
-    name: BNTXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BOBAEUR(Symbol):
@@ -5656,17 +4468,6 @@ class BOBAEUR(Symbol):
 
 
 BOBAEUR = BOBAEUR(*BOBAEUR._fields)
-"""
-    name: BOBAEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BOBAUSD(Symbol):
@@ -5708,17 +4509,6 @@ class BOBAUSD(Symbol):
 
 
 BOBAUSD = BOBAUSD(*BOBAUSD._fields)
-"""
-    name: BOBAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BONDEUR(Symbol):
@@ -5760,17 +4550,6 @@ class BONDEUR(Symbol):
 
 
 BONDEUR = BONDEUR(*BONDEUR._fields)
-"""
-    name: BONDEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BONDUSD(Symbol):
@@ -5812,17 +4591,6 @@ class BONDUSD(Symbol):
 
 
 BONDUSD = BONDUSD(*BONDUSD._fields)
-"""
-    name: BONDUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BSXEUR(Symbol):
@@ -5864,17 +4632,6 @@ class BSXEUR(Symbol):
 
 
 BSXEUR = BSXEUR(*BSXEUR._fields)
-"""
-    name: BSXEUR
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BSXUSD(Symbol):
@@ -5916,17 +4673,6 @@ class BSXUSD(Symbol):
 
 
 BSXUSD = BSXUSD(*BSXUSD._fields)
-"""
-    name: BSXUSD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BTTEUR(Symbol):
@@ -5968,17 +4714,6 @@ class BTTEUR(Symbol):
 
 
 BTTEUR = BTTEUR(*BTTEUR._fields)
-"""
-    name: BTTEUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7500000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class BTTUSD(Symbol):
@@ -6020,17 +4755,6 @@ class BTTUSD(Symbol):
 
 
 BTTUSD = BTTUSD(*BTTUSD._fields)
-"""
-    name: BTTUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7500000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class C98EUR(Symbol):
@@ -6072,17 +4796,6 @@ class C98EUR(Symbol):
 
 
 C98EUR = C98EUR(*C98EUR._fields)
-"""
-    name: C98EUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class C98USD(Symbol):
@@ -6124,17 +4837,6 @@ class C98USD(Symbol):
 
 
 C98USD = C98USD(*C98USD._fields)
-"""
-    name: C98USD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CELREUR(Symbol):
@@ -6176,17 +4878,6 @@ class CELREUR(Symbol):
 
 
 CELREUR = CELREUR(*CELREUR._fields)
-"""
-    name: CELREUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CELRUSD(Symbol):
@@ -6228,17 +4919,6 @@ class CELRUSD(Symbol):
 
 
 CELRUSD = CELRUSD(*CELRUSD._fields)
-"""
-    name: CELRUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CFGEUR(Symbol):
@@ -6280,17 +4960,6 @@ class CFGEUR(Symbol):
 
 
 CFGEUR = CFGEUR(*CFGEUR._fields)
-"""
-    name: CFGEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CFGUSD(Symbol):
@@ -6332,17 +5001,6 @@ class CFGUSD(Symbol):
 
 
 CFGUSD = CFGUSD(*CFGUSD._fields)
-"""
-    name: CFGUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CHREUR(Symbol):
@@ -6384,17 +5042,6 @@ class CHREUR(Symbol):
 
 
 CHREUR = CHREUR(*CHREUR._fields)
-"""
-    name: CHREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 28
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CHRUSD(Symbol):
@@ -6436,17 +5083,6 @@ class CHRUSD(Symbol):
 
 
 CHRUSD = CHRUSD(*CHRUSD._fields)
-"""
-    name: CHRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 28
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CHZEUR(Symbol):
@@ -6488,17 +5124,6 @@ class CHZEUR(Symbol):
 
 
 CHZEUR = CHZEUR(*CHZEUR._fields)
-"""
-    name: CHZEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CHZUSD(Symbol):
@@ -6540,17 +5165,6 @@ class CHZUSD(Symbol):
 
 
 CHZUSD = CHZUSD(*CHZUSD._fields)
-"""
-    name: CHZUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class COMPEUR(Symbol):
@@ -6592,17 +5206,6 @@ class COMPEUR(Symbol):
 
 
 COMPEUR = COMPEUR(*COMPEUR._fields)
-"""
-    name: COMPEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.11
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class COMPUSD(Symbol):
@@ -6644,17 +5247,6 @@ class COMPUSD(Symbol):
 
 
 COMPUSD = COMPUSD(*COMPUSD._fields)
-"""
-    name: COMPUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.11
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class COMPXBT(Symbol):
@@ -6696,17 +5288,6 @@ class COMPXBT(Symbol):
 
 
 COMPXBT = COMPXBT(*COMPXBT._fields)
-"""
-    name: COMPXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.11
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class COTIEUR(Symbol):
@@ -6748,17 +5329,6 @@ class COTIEUR(Symbol):
 
 
 COTIEUR = COTIEUR(*COTIEUR._fields)
-"""
-    name: COTIEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class COTIUSD(Symbol):
@@ -6800,17 +5370,6 @@ class COTIUSD(Symbol):
 
 
 COTIUSD = COTIUSD(*COTIUSD._fields)
-"""
-    name: COTIUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CQTEUR(Symbol):
@@ -6852,17 +5411,6 @@ class CQTEUR(Symbol):
 
 
 CQTEUR = CQTEUR(*CQTEUR._fields)
-"""
-    name: CQTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CQTUSD(Symbol):
@@ -6904,17 +5452,6 @@ class CQTUSD(Symbol):
 
 
 CQTUSD = CQTUSD(*CQTUSD._fields)
-"""
-    name: CQTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CRVETH(Symbol):
@@ -6956,17 +5493,6 @@ class CRVETH(Symbol):
 
 
 CRVETH = CRVETH(*CRVETH._fields)
-"""
-    name: CRVETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CRVEUR(Symbol):
@@ -7008,17 +5534,6 @@ class CRVEUR(Symbol):
 
 
 CRVEUR = CRVEUR(*CRVEUR._fields)
-"""
-    name: CRVEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class CRVUSD(Symbol):
@@ -7060,17 +5575,6 @@ class CRVUSD(Symbol):
 
 
 CRVUSD = CRVUSD(*CRVUSD._fields)
-"""
-    name: CRVUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class CRVXBT(Symbol):
@@ -7112,17 +5616,6 @@ class CRVXBT(Symbol):
 
 
 CRVXBT = CRVXBT(*CRVXBT._fields)
-"""
-    name: CRVXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CSMEUR(Symbol):
@@ -7164,17 +5657,6 @@ class CSMEUR(Symbol):
 
 
 CSMEUR = CSMEUR(*CSMEUR._fields)
-"""
-    name: CSMEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CSMUSD(Symbol):
@@ -7216,17 +5698,6 @@ class CSMUSD(Symbol):
 
 
 CSMUSD = CSMUSD(*CSMUSD._fields)
-"""
-    name: CSMUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CTSIEUR(Symbol):
@@ -7268,17 +5739,6 @@ class CTSIEUR(Symbol):
 
 
 CTSIEUR = CTSIEUR(*CTSIEUR._fields)
-"""
-    name: CTSIEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 33
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CTSIUSD(Symbol):
@@ -7320,17 +5780,6 @@ class CTSIUSD(Symbol):
 
 
 CTSIUSD = CTSIUSD(*CTSIUSD._fields)
-"""
-    name: CTSIUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 33
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CVCEUR(Symbol):
@@ -7372,17 +5821,6 @@ class CVCEUR(Symbol):
 
 
 CVCEUR = CVCEUR(*CVCEUR._fields)
-"""
-    name: CVCEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CVCUSD(Symbol):
@@ -7424,17 +5862,6 @@ class CVCUSD(Symbol):
 
 
 CVCUSD = CVCUSD(*CVCUSD._fields)
-"""
-    name: CVCUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CVXEUR(Symbol):
@@ -7476,17 +5903,6 @@ class CVXEUR(Symbol):
 
 
 CVXEUR = CVXEUR(*CVXEUR._fields)
-"""
-    name: CVXEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class CVXUSD(Symbol):
@@ -7528,17 +5944,6 @@ class CVXUSD(Symbol):
 
 
 CVXUSD = CVXUSD(*CVXUSD._fields)
-"""
-    name: CVXUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DAIEUR(Symbol):
@@ -7580,17 +5985,6 @@ class DAIEUR(Symbol):
 
 
 DAIEUR = DAIEUR(*DAIEUR._fields)
-"""
-    name: DAIEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DAIUSD(Symbol):
@@ -7632,17 +6026,6 @@ class DAIUSD(Symbol):
 
 
 DAIUSD = DAIUSD(*DAIUSD._fields)
-"""
-    name: DAIUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DAIUSDT(Symbol):
@@ -7684,17 +6067,6 @@ class DAIUSDT(Symbol):
 
 
 DAIUSDT = DAIUSDT(*DAIUSDT._fields)
-"""
-    name: DAIUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DASHEUR(Symbol):
@@ -7736,17 +6108,6 @@ class DASHEUR(Symbol):
 
 
 DASHEUR = DASHEUR(*DASHEUR._fields)
-"""
-    name: DASHEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.075
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DASHUSD(Symbol):
@@ -7788,17 +6149,6 @@ class DASHUSD(Symbol):
 
 
 DASHUSD = DASHUSD(*DASHUSD._fields)
-"""
-    name: DASHUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.075
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DASHXBT(Symbol):
@@ -7840,17 +6190,6 @@ class DASHXBT(Symbol):
 
 
 DASHXBT = DASHXBT(*DASHXBT._fields)
-"""
-    name: DASHXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.075
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DENTEUR(Symbol):
@@ -7892,17 +6231,6 @@ class DENTEUR(Symbol):
 
 
 DENTEUR = DENTEUR(*DENTEUR._fields)
-"""
-    name: DENTEUR
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DENTUSD(Symbol):
@@ -7944,17 +6272,6 @@ class DENTUSD(Symbol):
 
 
 DENTUSD = DENTUSD(*DENTUSD._fields)
-"""
-    name: DENTUSD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DOTETH(Symbol):
@@ -7996,17 +6313,6 @@ class DOTETH(Symbol):
 
 
 DOTETH = DOTETH(*DOTETH._fields)
-"""
-    name: DOTETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DOTEUR(Symbol):
@@ -8048,17 +6354,6 @@ class DOTEUR(Symbol):
 
 
 DOTEUR = DOTEUR(*DOTEUR._fields)
-"""
-    name: DOTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DOTGBP(Symbol):
@@ -8100,17 +6395,6 @@ class DOTGBP(Symbol):
 
 
 DOTGBP = DOTGBP(*DOTGBP._fields)
-"""
-    name: DOTGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DOTJPY(Symbol):
@@ -8152,17 +6436,6 @@ class DOTJPY(Symbol):
 
 
 DOTJPY = DOTJPY(*DOTJPY._fields)
-"""
-    name: DOTJPY
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DOTUSD(Symbol):
@@ -8204,17 +6477,6 @@ class DOTUSD(Symbol):
 
 
 DOTUSD = DOTUSD(*DOTUSD._fields)
-"""
-    name: DOTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DOTUSDT(Symbol):
@@ -8256,17 +6518,6 @@ class DOTUSDT(Symbol):
 
 
 DOTUSDT = DOTUSDT(*DOTUSDT._fields)
-"""
-    name: DOTUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DOTXBT(Symbol):
@@ -8308,17 +6559,6 @@ class DOTXBT(Symbol):
 
 
 DOTXBT = DOTXBT(*DOTXBT._fields)
-"""
-    name: DOTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class DYDXEUR(Symbol):
@@ -8360,17 +6600,6 @@ class DYDXEUR(Symbol):
 
 
 DYDXEUR = DYDXEUR(*DYDXEUR._fields)
-"""
-    name: DYDXEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class DYDXUSD(Symbol):
@@ -8412,17 +6641,6 @@ class DYDXUSD(Symbol):
 
 
 DYDXUSD = DYDXUSD(*DYDXUSD._fields)
-"""
-    name: DYDXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EGLDEUR(Symbol):
@@ -8464,17 +6682,6 @@ class EGLDEUR(Symbol):
 
 
 EGLDEUR = EGLDEUR(*EGLDEUR._fields)
-"""
-    name: EGLDEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EGLDUSD(Symbol):
@@ -8516,17 +6723,6 @@ class EGLDUSD(Symbol):
 
 
 EGLDUSD = EGLDUSD(*EGLDUSD._fields)
-"""
-    name: EGLDUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENJEUR(Symbol):
@@ -8568,17 +6764,6 @@ class ENJEUR(Symbol):
 
 
 ENJEUR = ENJEUR(*ENJEUR._fields)
-"""
-    name: ENJEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENJGBP(Symbol):
@@ -8620,17 +6805,6 @@ class ENJGBP(Symbol):
 
 
 ENJGBP = ENJGBP(*ENJGBP._fields)
-"""
-    name: ENJGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENJJPY(Symbol):
@@ -8672,17 +6846,6 @@ class ENJJPY(Symbol):
 
 
 ENJJPY = ENJJPY(*ENJJPY._fields)
-"""
-    name: ENJJPY
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENJUSD(Symbol):
@@ -8724,17 +6887,6 @@ class ENJUSD(Symbol):
 
 
 ENJUSD = ENJUSD(*ENJUSD._fields)
-"""
-    name: ENJUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENJXBT(Symbol):
@@ -8776,17 +6928,6 @@ class ENJXBT(Symbol):
 
 
 ENJXBT = ENJXBT(*ENJXBT._fields)
-"""
-    name: ENJXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENSEUR(Symbol):
@@ -8828,17 +6969,6 @@ class ENSEUR(Symbol):
 
 
 ENSEUR = ENSEUR(*ENSEUR._fields)
-"""
-    name: ENSEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ENSUSD(Symbol):
@@ -8880,17 +7010,6 @@ class ENSUSD(Symbol):
 
 
 ENSUSD = ENSUSD(*ENSUSD._fields)
-"""
-    name: ENSUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EOSETH(Symbol):
@@ -8932,17 +7051,6 @@ class EOSETH(Symbol):
 
 
 EOSETH = EOSETH(*EOSETH._fields)
-"""
-    name: EOSETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class EOSEUR(Symbol):
@@ -8984,17 +7092,6 @@ class EOSEUR(Symbol):
 
 
 EOSEUR = EOSEUR(*EOSEUR._fields)
-"""
-    name: EOSEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class EOSUSD(Symbol):
@@ -9036,17 +7133,6 @@ class EOSUSD(Symbol):
 
 
 EOSUSD = EOSUSD(*EOSUSD._fields)
-"""
-    name: EOSUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class EOSUSDT(Symbol):
@@ -9088,17 +7174,6 @@ class EOSUSDT(Symbol):
 
 
 EOSUSDT = EOSUSDT(*EOSUSDT._fields)
-"""
-    name: EOSUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EOSXBT(Symbol):
@@ -9140,17 +7215,6 @@ class EOSXBT(Symbol):
 
 
 EOSXBT = EOSXBT(*EOSXBT._fields)
-"""
-    name: EOSXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ETH2_SETH(Symbol):
@@ -9192,17 +7256,6 @@ class ETH2_SETH(Symbol):
 
 
 ETH2_SETH = ETH2_SETH(*ETH2_SETH._fields)
-"""
-    name: ETH2.SETH
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.001
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHAED(Symbol):
@@ -9244,17 +7297,6 @@ class ETHAED(Symbol):
 
 
 ETHAED = ETHAED(*ETHAED._fields)
-"""
-    name: ETHAED
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHAUD(Symbol):
@@ -9296,17 +7338,6 @@ class ETHAUD(Symbol):
 
 
 ETHAUD = ETHAUD(*ETHAUD._fields)
-"""
-    name: ETHAUD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ETHCHF(Symbol):
@@ -9348,17 +7379,6 @@ class ETHCHF(Symbol):
 
 
 ETHCHF = ETHCHF(*ETHCHF._fields)
-"""
-    name: ETHCHF
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHDAI(Symbol):
@@ -9400,17 +7420,6 @@ class ETHDAI(Symbol):
 
 
 ETHDAI = ETHDAI(*ETHDAI._fields)
-"""
-    name: ETHDAI
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHUSDC(Symbol):
@@ -9452,17 +7461,6 @@ class ETHUSDC(Symbol):
 
 
 ETHUSDC = ETHUSDC(*ETHUSDC._fields)
-"""
-    name: ETHUSDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ETHUSDT(Symbol):
@@ -9504,17 +7502,6 @@ class ETHUSDT(Symbol):
 
 
 ETHUSDT = ETHUSDT(*ETHUSDT._fields)
-"""
-    name: ETHUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ETHWETH(Symbol):
@@ -9556,17 +7543,6 @@ class ETHWETH(Symbol):
 
 
 ETHWETH = ETHWETH(*ETHWETH._fields)
-"""
-    name: ETHWETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHWEUR(Symbol):
@@ -9608,17 +7584,6 @@ class ETHWEUR(Symbol):
 
 
 ETHWEUR = ETHWEUR(*ETHWEUR._fields)
-"""
-    name: ETHWEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ETHWUSD(Symbol):
@@ -9660,17 +7625,6 @@ class ETHWUSD(Symbol):
 
 
 ETHWUSD = ETHWUSD(*ETHWUSD._fields)
-"""
-    name: ETHWUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EULEUR(Symbol):
@@ -9712,17 +7666,6 @@ class EULEUR(Symbol):
 
 
 EULEUR = EULEUR(*EULEUR._fields)
-"""
-    name: EULEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EULUSD(Symbol):
@@ -9764,17 +7707,6 @@ class EULUSD(Symbol):
 
 
 EULUSD = EULUSD(*EULUSD._fields)
-"""
-    name: EULUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURAUD(Symbol):
@@ -9816,17 +7748,6 @@ class EURAUD(Symbol):
 
 
 EURAUD = EURAUD(*EURAUD._fields)
-"""
-    name: EURAUD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURCAD(Symbol):
@@ -9868,17 +7789,6 @@ class EURCAD(Symbol):
 
 
 EURCAD = EURCAD(*EURCAD._fields)
-"""
-    name: EURCAD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURCHF(Symbol):
@@ -9920,17 +7830,6 @@ class EURCHF(Symbol):
 
 
 EURCHF = EURCHF(*EURCHF._fields)
-"""
-    name: EURCHF
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURGBP(Symbol):
@@ -9972,17 +7871,6 @@ class EURGBP(Symbol):
 
 
 EURGBP = EURGBP(*EURGBP._fields)
-"""
-    name: EURGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURJPY(Symbol):
@@ -10024,17 +7912,6 @@ class EURJPY(Symbol):
 
 
 EURJPY = EURJPY(*EURJPY._fields)
-"""
-    name: EURJPY
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURTEUR(Symbol):
@@ -10076,17 +7953,6 @@ class EURTEUR(Symbol):
 
 
 EURTEUR = EURTEUR(*EURTEUR._fields)
-"""
-    name: EURTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURTUSD(Symbol):
@@ -10128,17 +7994,6 @@ class EURTUSD(Symbol):
 
 
 EURTUSD = EURTUSD(*EURTUSD._fields)
-"""
-    name: EURTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EURTUSDT(Symbol):
@@ -10180,17 +8035,6 @@ class EURTUSDT(Symbol):
 
 
 EURTUSDT = EURTUSDT(*EURTUSDT._fields)
-"""
-    name: EURTUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EWTEUR(Symbol):
@@ -10232,17 +8076,6 @@ class EWTEUR(Symbol):
 
 
 EWTEUR = EWTEUR(*EWTEUR._fields)
-"""
-    name: EWTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EWTGBP(Symbol):
@@ -10284,17 +8117,6 @@ class EWTGBP(Symbol):
 
 
 EWTGBP = EWTGBP(*EWTGBP._fields)
-"""
-    name: EWTGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EWTUSD(Symbol):
@@ -10336,17 +8158,6 @@ class EWTUSD(Symbol):
 
 
 EWTUSD = EWTUSD(*EWTUSD._fields)
-"""
-    name: EWTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class EWTXBT(Symbol):
@@ -10388,17 +8199,6 @@ class EWTXBT(Symbol):
 
 
 EWTXBT = EWTXBT(*EWTXBT._fields)
-"""
-    name: EWTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FARMEUR(Symbol):
@@ -10440,17 +8240,6 @@ class FARMEUR(Symbol):
 
 
 FARMEUR = FARMEUR(*FARMEUR._fields)
-"""
-    name: FARMEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FARMUSD(Symbol):
@@ -10492,17 +8281,6 @@ class FARMUSD(Symbol):
 
 
 FARMUSD = FARMUSD(*FARMUSD._fields)
-"""
-    name: FARMUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FETEUR(Symbol):
@@ -10544,17 +8322,6 @@ class FETEUR(Symbol):
 
 
 FETEUR = FETEUR(*FETEUR._fields)
-"""
-    name: FETEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FETUSD(Symbol):
@@ -10596,17 +8363,6 @@ class FETUSD(Symbol):
 
 
 FETUSD = FETUSD(*FETUSD._fields)
-"""
-    name: FETUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FIDAEUR(Symbol):
@@ -10648,17 +8404,6 @@ class FIDAEUR(Symbol):
 
 
 FIDAEUR = FIDAEUR(*FIDAEUR._fields)
-"""
-    name: FIDAEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FIDAUSD(Symbol):
@@ -10700,17 +8445,6 @@ class FIDAUSD(Symbol):
 
 
 FIDAUSD = FIDAUSD(*FIDAUSD._fields)
-"""
-    name: FIDAUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FILETH(Symbol):
@@ -10752,17 +8486,6 @@ class FILETH(Symbol):
 
 
 FILETH = FILETH(*FILETH._fields)
-"""
-    name: FILETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FILEUR(Symbol):
@@ -10804,17 +8527,6 @@ class FILEUR(Symbol):
 
 
 FILEUR = FILEUR(*FILEUR._fields)
-"""
-    name: FILEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FILGBP(Symbol):
@@ -10856,17 +8568,6 @@ class FILGBP(Symbol):
 
 
 FILGBP = FILGBP(*FILGBP._fields)
-"""
-    name: FILGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FILUSD(Symbol):
@@ -10908,17 +8609,6 @@ class FILUSD(Symbol):
 
 
 FILUSD = FILUSD(*FILUSD._fields)
-"""
-    name: FILUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FILXBT(Symbol):
@@ -10960,17 +8650,6 @@ class FILXBT(Symbol):
 
 
 FILXBT = FILXBT(*FILXBT._fields)
-"""
-    name: FILXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FISEUR(Symbol):
@@ -11012,17 +8691,6 @@ class FISEUR(Symbol):
 
 
 FISEUR = FISEUR(*FISEUR._fields)
-"""
-    name: FISEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FISUSD(Symbol):
@@ -11064,17 +8732,6 @@ class FISUSD(Symbol):
 
 
 FISUSD = FISUSD(*FISUSD._fields)
-"""
-    name: FISUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FLOWETH(Symbol):
@@ -11116,17 +8773,6 @@ class FLOWETH(Symbol):
 
 
 FLOWETH = FLOWETH(*FLOWETH._fields)
-"""
-    name: FLOWETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FLOWEUR(Symbol):
@@ -11168,17 +8814,6 @@ class FLOWEUR(Symbol):
 
 
 FLOWEUR = FLOWEUR(*FLOWEUR._fields)
-"""
-    name: FLOWEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FLOWGBP(Symbol):
@@ -11220,17 +8855,6 @@ class FLOWGBP(Symbol):
 
 
 FLOWGBP = FLOWGBP(*FLOWGBP._fields)
-"""
-    name: FLOWGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FLOWUSD(Symbol):
@@ -11272,17 +8896,6 @@ class FLOWUSD(Symbol):
 
 
 FLOWUSD = FLOWUSD(*FLOWUSD._fields)
-"""
-    name: FLOWUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FLOWXBT(Symbol):
@@ -11324,17 +8937,6 @@ class FLOWXBT(Symbol):
 
 
 FLOWXBT = FLOWXBT(*FLOWXBT._fields)
-"""
-    name: FLOWXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FLREUR(Symbol):
@@ -11376,17 +8978,6 @@ class FLREUR(Symbol):
 
 
 FLREUR = FLREUR(*FLREUR._fields)
-"""
-    name: FLREUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FLRUSD(Symbol):
@@ -11428,17 +9019,6 @@ class FLRUSD(Symbol):
 
 
 FLRUSD = FLRUSD(*FLRUSD._fields)
-"""
-    name: FLRUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FORTHEUR(Symbol):
@@ -11480,17 +9060,6 @@ class FORTHEUR(Symbol):
 
 
 FORTHEUR = FORTHEUR(*FORTHEUR._fields)
-"""
-    name: FORTHEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FORTHUSD(Symbol):
@@ -11532,17 +9101,6 @@ class FORTHUSD(Symbol):
 
 
 FORTHUSD = FORTHUSD(*FORTHUSD._fields)
-"""
-    name: FORTHUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FTMEUR(Symbol):
@@ -11584,17 +9142,6 @@ class FTMEUR(Symbol):
 
 
 FTMEUR = FTMEUR(*FTMEUR._fields)
-"""
-    name: FTMEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FTMUSD(Symbol):
@@ -11636,17 +9183,6 @@ class FTMUSD(Symbol):
 
 
 FTMUSD = FTMUSD(*FTMUSD._fields)
-"""
-    name: FTMUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class FXSEUR(Symbol):
@@ -11688,17 +9224,6 @@ class FXSEUR(Symbol):
 
 
 FXSEUR = FXSEUR(*FXSEUR._fields)
-"""
-    name: FXSEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class FXSUSD(Symbol):
@@ -11740,17 +9265,6 @@ class FXSUSD(Symbol):
 
 
 FXSUSD = FXSUSD(*FXSUSD._fields)
-"""
-    name: FXSUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GALAEUR(Symbol):
@@ -11792,17 +9306,6 @@ class GALAEUR(Symbol):
 
 
 GALAEUR = GALAEUR(*GALAEUR._fields)
-"""
-    name: GALAEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 120
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GALAUSD(Symbol):
@@ -11844,17 +9347,6 @@ class GALAUSD(Symbol):
 
 
 GALAUSD = GALAUSD(*GALAUSD._fields)
-"""
-    name: GALAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 120
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GALEUR(Symbol):
@@ -11896,17 +9388,6 @@ class GALEUR(Symbol):
 
 
 GALEUR = GALEUR(*GALEUR._fields)
-"""
-    name: GALEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GALUSD(Symbol):
@@ -11948,17 +9429,6 @@ class GALUSD(Symbol):
 
 
 GALUSD = GALUSD(*GALUSD._fields)
-"""
-    name: GALUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GARIEUR(Symbol):
@@ -12000,17 +9470,6 @@ class GARIEUR(Symbol):
 
 
 GARIEUR = GARIEUR(*GARIEUR._fields)
-"""
-    name: GARIEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 85
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GARIUSD(Symbol):
@@ -12052,17 +9511,6 @@ class GARIUSD(Symbol):
 
 
 GARIUSD = GARIUSD(*GARIUSD._fields)
-"""
-    name: GARIUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 85
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GHSTEUR(Symbol):
@@ -12104,17 +9552,6 @@ class GHSTEUR(Symbol):
 
 
 GHSTEUR = GHSTEUR(*GHSTEUR._fields)
-"""
-    name: GHSTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GHSTUSD(Symbol):
@@ -12156,17 +9593,6 @@ class GHSTUSD(Symbol):
 
 
 GHSTUSD = GHSTUSD(*GHSTUSD._fields)
-"""
-    name: GHSTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GHSTXBT(Symbol):
@@ -12208,17 +9634,6 @@ class GHSTXBT(Symbol):
 
 
 GHSTXBT = GHSTXBT(*GHSTXBT._fields)
-"""
-    name: GHSTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GLMREUR(Symbol):
@@ -12260,17 +9675,6 @@ class GLMREUR(Symbol):
 
 
 GLMREUR = GLMREUR(*GLMREUR._fields)
-"""
-    name: GLMREUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GLMRUSD(Symbol):
@@ -12312,17 +9716,6 @@ class GLMRUSD(Symbol):
 
 
 GLMRUSD = GLMRUSD(*GLMRUSD._fields)
-"""
-    name: GLMRUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GMTEUR(Symbol):
@@ -12364,17 +9757,6 @@ class GMTEUR(Symbol):
 
 
 GMTEUR = GMTEUR(*GMTEUR._fields)
-"""
-    name: GMTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GMTUSD(Symbol):
@@ -12416,17 +9798,6 @@ class GMTUSD(Symbol):
 
 
 GMTUSD = GMTUSD(*GMTUSD._fields)
-"""
-    name: GMTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GMXEUR(Symbol):
@@ -12468,17 +9839,6 @@ class GMXEUR(Symbol):
 
 
 GMXEUR = GMXEUR(*GMXEUR._fields)
-"""
-    name: GMXEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GMXUSD(Symbol):
@@ -12520,17 +9880,6 @@ class GMXUSD(Symbol):
 
 
 GMXUSD = GMXUSD(*GMXUSD._fields)
-"""
-    name: GMXUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GNOEUR(Symbol):
@@ -12572,17 +9921,6 @@ class GNOEUR(Symbol):
 
 
 GNOEUR = GNOEUR(*GNOEUR._fields)
-"""
-    name: GNOEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GNOUSD(Symbol):
@@ -12624,17 +9962,6 @@ class GNOUSD(Symbol):
 
 
 GNOUSD = GNOUSD(*GNOUSD._fields)
-"""
-    name: GNOUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GNOXBT(Symbol):
@@ -12676,17 +10003,6 @@ class GNOXBT(Symbol):
 
 
 GNOXBT = GNOXBT(*GNOXBT._fields)
-"""
-    name: GNOXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GRTEUR(Symbol):
@@ -12728,17 +10044,6 @@ class GRTEUR(Symbol):
 
 
 GRTEUR = GRTEUR(*GRTEUR._fields)
-"""
-    name: GRTEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class GRTGBP(Symbol):
@@ -12780,17 +10085,6 @@ class GRTGBP(Symbol):
 
 
 GRTGBP = GRTGBP(*GRTGBP._fields)
-"""
-    name: GRTGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GRTUSD(Symbol):
@@ -12832,17 +10126,6 @@ class GRTUSD(Symbol):
 
 
 GRTUSD = GRTUSD(*GRTUSD._fields)
-"""
-    name: GRTUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class GRTXBT(Symbol):
@@ -12884,17 +10167,6 @@ class GRTXBT(Symbol):
 
 
 GRTXBT = GRTXBT(*GRTXBT._fields)
-"""
-    name: GRTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GSTEUR(Symbol):
@@ -12936,17 +10208,6 @@ class GSTEUR(Symbol):
 
 
 GSTEUR = GSTEUR(*GSTEUR._fields)
-"""
-    name: GSTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GSTUSD(Symbol):
@@ -12988,17 +10249,6 @@ class GSTUSD(Symbol):
 
 
 GSTUSD = GSTUSD(*GSTUSD._fields)
-"""
-    name: GSTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GTCEUR(Symbol):
@@ -13040,17 +10290,6 @@ class GTCEUR(Symbol):
 
 
 GTCEUR = GTCEUR(*GTCEUR._fields)
-"""
-    name: GTCEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class GTCUSD(Symbol):
@@ -13092,17 +10331,6 @@ class GTCUSD(Symbol):
 
 
 GTCUSD = GTCUSD(*GTCUSD._fields)
-"""
-    name: GTCUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class HDXEUR(Symbol):
@@ -13144,17 +10372,6 @@ class HDXEUR(Symbol):
 
 
 HDXEUR = HDXEUR(*HDXEUR._fields)
-"""
-    name: HDXEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 700
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class HDXUSD(Symbol):
@@ -13196,17 +10413,6 @@ class HDXUSD(Symbol):
 
 
 HDXUSD = HDXUSD(*HDXUSD._fields)
-"""
-    name: HDXUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 700
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class HFTEUR(Symbol):
@@ -13248,17 +10454,6 @@ class HFTEUR(Symbol):
 
 
 HFTEUR = HFTEUR(*HFTEUR._fields)
-"""
-    name: HFTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class HFTUSD(Symbol):
@@ -13300,17 +10495,6 @@ class HFTUSD(Symbol):
 
 
 HFTUSD = HFTUSD(*HFTUSD._fields)
-"""
-    name: HFTUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICPEUR(Symbol):
@@ -13352,17 +10536,6 @@ class ICPEUR(Symbol):
 
 
 ICPEUR = ICPEUR(*ICPEUR._fields)
-"""
-    name: ICPEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICPUSD(Symbol):
@@ -13404,17 +10577,6 @@ class ICPUSD(Symbol):
 
 
 ICPUSD = ICPUSD(*ICPUSD._fields)
-"""
-    name: ICPUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICXETH(Symbol):
@@ -13456,17 +10618,6 @@ class ICXETH(Symbol):
 
 
 ICXETH = ICXETH(*ICXETH._fields)
-"""
-    name: ICXETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICXEUR(Symbol):
@@ -13508,17 +10659,6 @@ class ICXEUR(Symbol):
 
 
 ICXEUR = ICXEUR(*ICXEUR._fields)
-"""
-    name: ICXEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICXUSD(Symbol):
@@ -13560,17 +10700,6 @@ class ICXUSD(Symbol):
 
 
 ICXUSD = ICXUSD(*ICXUSD._fields)
-"""
-    name: ICXUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ICXXBT(Symbol):
@@ -13612,17 +10741,6 @@ class ICXXBT(Symbol):
 
 
 ICXXBT = ICXXBT(*ICXXBT._fields)
-"""
-    name: ICXXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class IDEXEUR(Symbol):
@@ -13664,17 +10782,6 @@ class IDEXEUR(Symbol):
 
 
 IDEXEUR = IDEXEUR(*IDEXEUR._fields)
-"""
-    name: IDEXEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class IDEXUSD(Symbol):
@@ -13716,17 +10823,6 @@ class IDEXUSD(Symbol):
 
 
 IDEXUSD = IDEXUSD(*IDEXUSD._fields)
-"""
-    name: IDEXUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class IMXEUR(Symbol):
@@ -13768,17 +10864,6 @@ class IMXEUR(Symbol):
 
 
 IMXEUR = IMXEUR(*IMXEUR._fields)
-"""
-    name: IMXEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class IMXUSD(Symbol):
@@ -13820,17 +10905,6 @@ class IMXUSD(Symbol):
 
 
 IMXUSD = IMXUSD(*IMXUSD._fields)
-"""
-    name: IMXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class INJEUR(Symbol):
@@ -13872,17 +10946,6 @@ class INJEUR(Symbol):
 
 
 INJEUR = INJEUR(*INJEUR._fields)
-"""
-    name: INJEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class INJUSD(Symbol):
@@ -13924,17 +10987,6 @@ class INJUSD(Symbol):
 
 
 INJUSD = INJUSD(*INJUSD._fields)
-"""
-    name: INJUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class INTREUR(Symbol):
@@ -13976,17 +11028,6 @@ class INTREUR(Symbol):
 
 
 INTREUR = INTREUR(*INTREUR._fields)
-"""
-    name: INTREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class INTRUSD(Symbol):
@@ -14028,17 +11069,6 @@ class INTRUSD(Symbol):
 
 
 INTRUSD = INTRUSD(*INTRUSD._fields)
-"""
-    name: INTRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class JASMYEUR(Symbol):
@@ -14080,17 +11110,6 @@ class JASMYEUR(Symbol):
 
 
 JASMYEUR = JASMYEUR(*JASMYEUR._fields)
-"""
-    name: JASMYEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 800
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class JASMYUSD(Symbol):
@@ -14132,17 +11151,6 @@ class JASMYUSD(Symbol):
 
 
 JASMYUSD = JASMYUSD(*JASMYUSD._fields)
-"""
-    name: JASMYUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 800
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class JUNOEUR(Symbol):
@@ -14184,17 +11192,6 @@ class JUNOEUR(Symbol):
 
 
 JUNOEUR = JUNOEUR(*JUNOEUR._fields)
-"""
-    name: JUNOEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class JUNOUSD(Symbol):
@@ -14236,17 +11233,6 @@ class JUNOUSD(Symbol):
 
 
 JUNOUSD = JUNOUSD(*JUNOUSD._fields)
-"""
-    name: JUNOUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KAREUR(Symbol):
@@ -14288,17 +11274,6 @@ class KAREUR(Symbol):
 
 
 KAREUR = KAREUR(*KAREUR._fields)
-"""
-    name: KAREUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KARUSD(Symbol):
@@ -14340,17 +11315,6 @@ class KARUSD(Symbol):
 
 
 KARUSD = KARUSD(*KARUSD._fields)
-"""
-    name: KARUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KAVAETH(Symbol):
@@ -14392,17 +11356,6 @@ class KAVAETH(Symbol):
 
 
 KAVAETH = KAVAETH(*KAVAETH._fields)
-"""
-    name: KAVAETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KAVAEUR(Symbol):
@@ -14444,17 +11397,6 @@ class KAVAEUR(Symbol):
 
 
 KAVAEUR = KAVAEUR(*KAVAEUR._fields)
-"""
-    name: KAVAEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KAVAUSD(Symbol):
@@ -14496,17 +11438,6 @@ class KAVAUSD(Symbol):
 
 
 KAVAUSD = KAVAUSD(*KAVAUSD._fields)
-"""
-    name: KAVAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KAVAXBT(Symbol):
@@ -14548,17 +11479,6 @@ class KAVAXBT(Symbol):
 
 
 KAVAXBT = KAVAXBT(*KAVAXBT._fields)
-"""
-    name: KAVAXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KEEPEUR(Symbol):
@@ -14600,17 +11520,6 @@ class KEEPEUR(Symbol):
 
 
 KEEPEUR = KEEPEUR(*KEEPEUR._fields)
-"""
-    name: KEEPEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KEEPUSD(Symbol):
@@ -14652,17 +11561,6 @@ class KEEPUSD(Symbol):
 
 
 KEEPUSD = KEEPUSD(*KEEPUSD._fields)
-"""
-    name: KEEPUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KEEPXBT(Symbol):
@@ -14704,17 +11602,6 @@ class KEEPXBT(Symbol):
 
 
 KEEPXBT = KEEPXBT(*KEEPXBT._fields)
-"""
-    name: KEEPXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KEYEUR(Symbol):
@@ -14756,17 +11643,6 @@ class KEYEUR(Symbol):
 
 
 KEYEUR = KEYEUR(*KEYEUR._fields)
-"""
-    name: KEYEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KEYUSD(Symbol):
@@ -14808,17 +11684,6 @@ class KEYUSD(Symbol):
 
 
 KEYUSD = KEYUSD(*KEYUSD._fields)
-"""
-    name: KEYUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KILTEUR(Symbol):
@@ -14860,17 +11725,6 @@ class KILTEUR(Symbol):
 
 
 KILTEUR = KILTEUR(*KILTEUR._fields)
-"""
-    name: KILTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KILTUSD(Symbol):
@@ -14912,17 +11766,6 @@ class KILTUSD(Symbol):
 
 
 KILTUSD = KILTUSD(*KILTUSD._fields)
-"""
-    name: KILTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KINEUR(Symbol):
@@ -14964,17 +11807,6 @@ class KINEUR(Symbol):
 
 
 KINEUR = KINEUR(*KINEUR._fields)
-"""
-    name: KINEUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1200000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KINTEUR(Symbol):
@@ -15016,17 +11848,6 @@ class KINTEUR(Symbol):
 
 
 KINTEUR = KINTEUR(*KINTEUR._fields)
-"""
-    name: KINTEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KINTUSD(Symbol):
@@ -15068,17 +11889,6 @@ class KINTUSD(Symbol):
 
 
 KINTUSD = KINTUSD(*KINTUSD._fields)
-"""
-    name: KINTUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KINUSD(Symbol):
@@ -15120,17 +11930,6 @@ class KINUSD(Symbol):
 
 
 KINUSD = KINUSD(*KINUSD._fields)
-"""
-    name: KINUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1200000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KNCETH(Symbol):
@@ -15172,17 +11971,6 @@ class KNCETH(Symbol):
 
 
 KNCETH = KNCETH(*KNCETH._fields)
-"""
-    name: KNCETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KNCEUR(Symbol):
@@ -15224,17 +12012,6 @@ class KNCEUR(Symbol):
 
 
 KNCEUR = KNCEUR(*KNCEUR._fields)
-"""
-    name: KNCEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KNCUSD(Symbol):
@@ -15276,17 +12053,6 @@ class KNCUSD(Symbol):
 
 
 KNCUSD = KNCUSD(*KNCUSD._fields)
-"""
-    name: KNCUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KNCXBT(Symbol):
@@ -15328,17 +12094,6 @@ class KNCXBT(Symbol):
 
 
 KNCXBT = KNCXBT(*KNCXBT._fields)
-"""
-    name: KNCXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KP3REUR(Symbol):
@@ -15380,17 +12135,6 @@ class KP3REUR(Symbol):
 
 
 KP3REUR = KP3REUR(*KP3REUR._fields)
-"""
-    name: KP3REUR
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KP3RUSD(Symbol):
@@ -15432,17 +12176,6 @@ class KP3RUSD(Symbol):
 
 
 KP3RUSD = KP3RUSD(*KP3RUSD._fields)
-"""
-    name: KP3RUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.07
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KSMDOT(Symbol):
@@ -15484,17 +12217,6 @@ class KSMDOT(Symbol):
 
 
 KSMDOT = KSMDOT(*KSMDOT._fields)
-"""
-    name: KSMDOT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KSMETH(Symbol):
@@ -15536,17 +12258,6 @@ class KSMETH(Symbol):
 
 
 KSMETH = KSMETH(*KSMETH._fields)
-"""
-    name: KSMETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KSMEUR(Symbol):
@@ -15588,17 +12299,6 @@ class KSMEUR(Symbol):
 
 
 KSMEUR = KSMEUR(*KSMEUR._fields)
-"""
-    name: KSMEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KSMGBP(Symbol):
@@ -15640,17 +12340,6 @@ class KSMGBP(Symbol):
 
 
 KSMGBP = KSMGBP(*KSMGBP._fields)
-"""
-    name: KSMGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class KSMUSD(Symbol):
@@ -15692,17 +12381,6 @@ class KSMUSD(Symbol):
 
 
 KSMUSD = KSMUSD(*KSMUSD._fields)
-"""
-    name: KSMUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class KSMXBT(Symbol):
@@ -15744,17 +12422,6 @@ class KSMXBT(Symbol):
 
 
 KSMXBT = KSMXBT(*KSMXBT._fields)
-"""
-    name: KSMXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LCXEUR(Symbol):
@@ -15796,17 +12463,6 @@ class LCXEUR(Symbol):
 
 
 LCXEUR = LCXEUR(*LCXEUR._fields)
-"""
-    name: LCXEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 45
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LCXUSD(Symbol):
@@ -15848,17 +12504,6 @@ class LCXUSD(Symbol):
 
 
 LCXUSD = LCXUSD(*LCXUSD._fields)
-"""
-    name: LCXUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 45
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LDOEUR(Symbol):
@@ -15900,17 +12545,6 @@ class LDOEUR(Symbol):
 
 
 LDOEUR = LDOEUR(*LDOEUR._fields)
-"""
-    name: LDOEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LDOUSD(Symbol):
@@ -15952,17 +12586,6 @@ class LDOUSD(Symbol):
 
 
 LDOUSD = LDOUSD(*LDOUSD._fields)
-"""
-    name: LDOUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LINKAUD(Symbol):
@@ -16004,17 +12627,6 @@ class LINKAUD(Symbol):
 
 
 LINKAUD = LINKAUD(*LINKAUD._fields)
-"""
-    name: LINKAUD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LINKETH(Symbol):
@@ -16056,17 +12668,6 @@ class LINKETH(Symbol):
 
 
 LINKETH = LINKETH(*LINKETH._fields)
-"""
-    name: LINKETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LINKEUR(Symbol):
@@ -16108,17 +12709,6 @@ class LINKEUR(Symbol):
 
 
 LINKEUR = LINKEUR(*LINKEUR._fields)
-"""
-    name: LINKEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LINKGBP(Symbol):
@@ -16160,17 +12750,6 @@ class LINKGBP(Symbol):
 
 
 LINKGBP = LINKGBP(*LINKGBP._fields)
-"""
-    name: LINKGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LINKJPY(Symbol):
@@ -16212,17 +12791,6 @@ class LINKJPY(Symbol):
 
 
 LINKJPY = LINKJPY(*LINKJPY._fields)
-"""
-    name: LINKJPY
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LINKUSD(Symbol):
@@ -16264,17 +12832,6 @@ class LINKUSD(Symbol):
 
 
 LINKUSD = LINKUSD(*LINKUSD._fields)
-"""
-    name: LINKUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LINKUSDT(Symbol):
@@ -16316,17 +12873,6 @@ class LINKUSDT(Symbol):
 
 
 LINKUSDT = LINKUSDT(*LINKUSDT._fields)
-"""
-    name: LINKUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LINKXBT(Symbol):
@@ -16368,17 +12914,6 @@ class LINKXBT(Symbol):
 
 
 LINKXBT = LINKXBT(*LINKXBT._fields)
-"""
-    name: LINKXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LPTEUR(Symbol):
@@ -16420,17 +12955,6 @@ class LPTEUR(Symbol):
 
 
 LPTEUR = LPTEUR(*LPTEUR._fields)
-"""
-    name: LPTEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LPTGBP(Symbol):
@@ -16472,17 +12996,6 @@ class LPTGBP(Symbol):
 
 
 LPTGBP = LPTGBP(*LPTGBP._fields)
-"""
-    name: LPTGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LPTUSD(Symbol):
@@ -16524,17 +13037,6 @@ class LPTUSD(Symbol):
 
 
 LPTUSD = LPTUSD(*LPTUSD._fields)
-"""
-    name: LPTUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LPTXBT(Symbol):
@@ -16576,17 +13078,6 @@ class LPTXBT(Symbol):
 
 
 LPTXBT = LPTXBT(*LPTXBT._fields)
-"""
-    name: LPTXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LRCEUR(Symbol):
@@ -16628,17 +13119,6 @@ class LRCEUR(Symbol):
 
 
 LRCEUR = LRCEUR(*LRCEUR._fields)
-"""
-    name: LRCEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 13
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LRCUSD(Symbol):
@@ -16680,17 +13160,6 @@ class LRCUSD(Symbol):
 
 
 LRCUSD = LRCUSD(*LRCUSD._fields)
-"""
-    name: LRCUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 13
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class LSKETH(Symbol):
@@ -16732,17 +13201,6 @@ class LSKETH(Symbol):
 
 
 LSKETH = LSKETH(*LSKETH._fields)
-"""
-    name: LSKETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LSKEUR(Symbol):
@@ -16784,17 +13242,6 @@ class LSKEUR(Symbol):
 
 
 LSKEUR = LSKEUR(*LSKEUR._fields)
-"""
-    name: LSKEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LSKUSD(Symbol):
@@ -16836,17 +13283,6 @@ class LSKUSD(Symbol):
 
 
 LSKUSD = LSKUSD(*LSKUSD._fields)
-"""
-    name: LSKUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LSKXBT(Symbol):
@@ -16888,17 +13324,6 @@ class LSKXBT(Symbol):
 
 
 LSKXBT = LSKXBT(*LSKXBT._fields)
-"""
-    name: LSKXBT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LTCAUD(Symbol):
@@ -16940,17 +13365,6 @@ class LTCAUD(Symbol):
 
 
 LTCAUD = LTCAUD(*LTCAUD._fields)
-"""
-    name: LTCAUD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LTCETH(Symbol):
@@ -16992,17 +13406,6 @@ class LTCETH(Symbol):
 
 
 LTCETH = LTCETH(*LTCETH._fields)
-"""
-    name: LTCETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LTCGBP(Symbol):
@@ -17044,17 +13447,6 @@ class LTCGBP(Symbol):
 
 
 LTCGBP = LTCGBP(*LTCGBP._fields)
-"""
-    name: LTCGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LTCUSDT(Symbol):
@@ -17096,17 +13488,6 @@ class LTCUSDT(Symbol):
 
 
 LTCUSDT = LTCUSDT(*LTCUSDT._fields)
-"""
-    name: LTCUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LUNA2EUR(Symbol):
@@ -17148,17 +13529,6 @@ class LUNA2EUR(Symbol):
 
 
 LUNA2EUR = LUNA2EUR(*LUNA2EUR._fields)
-"""
-    name: LUNA2EUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LUNA2USD(Symbol):
@@ -17200,17 +13570,6 @@ class LUNA2USD(Symbol):
 
 
 LUNA2USD = LUNA2USD(*LUNA2USD._fields)
-"""
-    name: LUNA2USD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LUNAEUR(Symbol):
@@ -17252,17 +13611,6 @@ class LUNAEUR(Symbol):
 
 
 LUNAEUR = LUNAEUR(*LUNAEUR._fields)
-"""
-    name: LUNAEUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class LUNAUSD(Symbol):
@@ -17304,17 +13652,6 @@ class LUNAUSD(Symbol):
 
 
 LUNAUSD = LUNAUSD(*LUNAUSD._fields)
-"""
-    name: LUNAUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MANAETH(Symbol):
@@ -17356,17 +13693,6 @@ class MANAETH(Symbol):
 
 
 MANAETH = MANAETH(*MANAETH._fields)
-"""
-    name: MANAETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MANAEUR(Symbol):
@@ -17408,17 +13734,6 @@ class MANAEUR(Symbol):
 
 
 MANAEUR = MANAEUR(*MANAEUR._fields)
-"""
-    name: MANAEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MANAUSD(Symbol):
@@ -17460,17 +13775,6 @@ class MANAUSD(Symbol):
 
 
 MANAUSD = MANAUSD(*MANAUSD._fields)
-"""
-    name: MANAUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MANAUSDT(Symbol):
@@ -17512,17 +13816,6 @@ class MANAUSDT(Symbol):
 
 
 MANAUSDT = MANAUSDT(*MANAUSDT._fields)
-"""
-    name: MANAUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MANAXBT(Symbol):
@@ -17564,17 +13857,6 @@ class MANAXBT(Symbol):
 
 
 MANAXBT = MANAXBT(*MANAXBT._fields)
-"""
-    name: MANAXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MASKEUR(Symbol):
@@ -17616,17 +13898,6 @@ class MASKEUR(Symbol):
 
 
 MASKEUR = MASKEUR(*MASKEUR._fields)
-"""
-    name: MASKEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MASKUSD(Symbol):
@@ -17668,17 +13939,6 @@ class MASKUSD(Symbol):
 
 
 MASKUSD = MASKUSD(*MASKUSD._fields)
-"""
-    name: MASKUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MATICEUR(Symbol):
@@ -17720,17 +13980,6 @@ class MATICEUR(Symbol):
 
 
 MATICEUR = MATICEUR(*MATICEUR._fields)
-"""
-    name: MATICEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MATICGBP(Symbol):
@@ -17772,17 +14021,6 @@ class MATICGBP(Symbol):
 
 
 MATICGBP = MATICGBP(*MATICGBP._fields)
-"""
-    name: MATICGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MATICUSD(Symbol):
@@ -17824,17 +14062,6 @@ class MATICUSD(Symbol):
 
 
 MATICUSD = MATICUSD(*MATICUSD._fields)
-"""
-    name: MATICUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MATICUSDT(Symbol):
@@ -17876,17 +14103,6 @@ class MATICUSDT(Symbol):
 
 
 MATICUSDT = MATICUSDT(*MATICUSDT._fields)
-"""
-    name: MATICUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MATICXBT(Symbol):
@@ -17928,17 +14144,6 @@ class MATICXBT(Symbol):
 
 
 MATICXBT = MATICXBT(*MATICXBT._fields)
-"""
-    name: MATICXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 4
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MCEUR(Symbol):
@@ -17980,17 +14185,6 @@ class MCEUR(Symbol):
 
 
 MCEUR = MCEUR(*MCEUR._fields)
-"""
-    name: MCEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MCUSD(Symbol):
@@ -18032,17 +14226,6 @@ class MCUSD(Symbol):
 
 
 MCUSD = MCUSD(*MCUSD._fields)
-"""
-    name: MCUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MINAEUR(Symbol):
@@ -18084,17 +14267,6 @@ class MINAEUR(Symbol):
 
 
 MINAEUR = MINAEUR(*MINAEUR._fields)
-"""
-    name: MINAEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MINAGBP(Symbol):
@@ -18136,17 +14308,6 @@ class MINAGBP(Symbol):
 
 
 MINAGBP = MINAGBP(*MINAGBP._fields)
-"""
-    name: MINAGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MINAUSD(Symbol):
@@ -18188,17 +14349,6 @@ class MINAUSD(Symbol):
 
 
 MINAUSD = MINAUSD(*MINAUSD._fields)
-"""
-    name: MINAUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class MINAXBT(Symbol):
@@ -18240,17 +14390,6 @@ class MINAXBT(Symbol):
 
 
 MINAXBT = MINAXBT(*MINAXBT._fields)
-"""
-    name: MINAXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MIREUR(Symbol):
@@ -18292,17 +14431,6 @@ class MIREUR(Symbol):
 
 
 MIREUR = MIREUR(*MIREUR._fields)
-"""
-    name: MIREUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MIRUSD(Symbol):
@@ -18344,17 +14472,6 @@ class MIRUSD(Symbol):
 
 
 MIRUSD = MIRUSD(*MIRUSD._fields)
-"""
-    name: MIRUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MKREUR(Symbol):
@@ -18396,17 +14513,6 @@ class MKREUR(Symbol):
 
 
 MKREUR = MKREUR(*MKREUR._fields)
-"""
-    name: MKREUR
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0075
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MKRUSD(Symbol):
@@ -18448,17 +14554,6 @@ class MKRUSD(Symbol):
 
 
 MKRUSD = MKRUSD(*MKRUSD._fields)
-"""
-    name: MKRUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0075
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MKRXBT(Symbol):
@@ -18500,17 +14595,6 @@ class MKRXBT(Symbol):
 
 
 MKRXBT = MKRXBT(*MKRXBT._fields)
-"""
-    name: MKRXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0075
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MNGOEUR(Symbol):
@@ -18552,17 +14636,6 @@ class MNGOEUR(Symbol):
 
 
 MNGOEUR = MNGOEUR(*MNGOEUR._fields)
-"""
-    name: MNGOEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 275
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MNGOUSD(Symbol):
@@ -18604,17 +14677,6 @@ class MNGOUSD(Symbol):
 
 
 MNGOUSD = MNGOUSD(*MNGOUSD._fields)
-"""
-    name: MNGOUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 275
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MOVREUR(Symbol):
@@ -18656,17 +14718,6 @@ class MOVREUR(Symbol):
 
 
 MOVREUR = MOVREUR(*MOVREUR._fields)
-"""
-    name: MOVREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MOVRUSD(Symbol):
@@ -18708,17 +14759,6 @@ class MOVRUSD(Symbol):
 
 
 MOVRUSD = MOVRUSD(*MOVRUSD._fields)
-"""
-    name: MOVRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.65
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MSOLEUR(Symbol):
@@ -18760,17 +14800,6 @@ class MSOLEUR(Symbol):
 
 
 MSOLEUR = MSOLEUR(*MSOLEUR._fields)
-"""
-    name: MSOLEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.225
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MSOLUSD(Symbol):
@@ -18812,17 +14841,6 @@ class MSOLUSD(Symbol):
 
 
 MSOLUSD = MSOLUSD(*MSOLUSD._fields)
-"""
-    name: MSOLUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.225
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MULTIEUR(Symbol):
@@ -18864,17 +14882,6 @@ class MULTIEUR(Symbol):
 
 
 MULTIEUR = MULTIEUR(*MULTIEUR._fields)
-"""
-    name: MULTIEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MULTIUSD(Symbol):
@@ -18916,17 +14923,6 @@ class MULTIUSD(Symbol):
 
 
 MULTIUSD = MULTIUSD(*MULTIUSD._fields)
-"""
-    name: MULTIUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MVEUR(Symbol):
@@ -18968,17 +14964,6 @@ class MVEUR(Symbol):
 
 
 MVEUR = MVEUR(*MVEUR._fields)
-"""
-    name: MVEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MVUSD(Symbol):
@@ -19020,17 +15005,6 @@ class MVUSD(Symbol):
 
 
 MVUSD = MVUSD(*MVUSD._fields)
-"""
-    name: MVUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MXCEUR(Symbol):
@@ -19072,17 +15046,6 @@ class MXCEUR(Symbol):
 
 
 MXCEUR = MXCEUR(*MXCEUR._fields)
-"""
-    name: MXCEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class MXCUSD(Symbol):
@@ -19124,17 +15087,6 @@ class MXCUSD(Symbol):
 
 
 MXCUSD = MXCUSD(*MXCUSD._fields)
-"""
-    name: MXCUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NANOETH(Symbol):
@@ -19176,17 +15128,6 @@ class NANOETH(Symbol):
 
 
 NANOETH = NANOETH(*NANOETH._fields)
-"""
-    name: NANOETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NANOEUR(Symbol):
@@ -19228,17 +15169,6 @@ class NANOEUR(Symbol):
 
 
 NANOEUR = NANOEUR(*NANOEUR._fields)
-"""
-    name: NANOEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class NANOUSD(Symbol):
@@ -19280,17 +15210,6 @@ class NANOUSD(Symbol):
 
 
 NANOUSD = NANOUSD(*NANOUSD._fields)
-"""
-    name: NANOUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class NANOXBT(Symbol):
@@ -19332,17 +15251,6 @@ class NANOXBT(Symbol):
 
 
 NANOXBT = NANOXBT(*NANOXBT._fields)
-"""
-    name: NANOXBT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NEAREUR(Symbol):
@@ -19384,17 +15292,6 @@ class NEAREUR(Symbol):
 
 
 NEAREUR = NEAREUR(*NEAREUR._fields)
-"""
-    name: NEAREUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NEARUSD(Symbol):
@@ -19436,17 +15333,6 @@ class NEARUSD(Symbol):
 
 
 NEARUSD = NEARUSD(*NEARUSD._fields)
-"""
-    name: NEARUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NMREUR(Symbol):
@@ -19488,17 +15374,6 @@ class NMREUR(Symbol):
 
 
 NMREUR = NMREUR(*NMREUR._fields)
-"""
-    name: NMREUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NMRUSD(Symbol):
@@ -19540,17 +15415,6 @@ class NMRUSD(Symbol):
 
 
 NMRUSD = NMRUSD(*NMRUSD._fields)
-"""
-    name: NMRUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NODLEUR(Symbol):
@@ -19592,17 +15456,6 @@ class NODLEUR(Symbol):
 
 
 NODLEUR = NODLEUR(*NODLEUR._fields)
-"""
-    name: NODLEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NODLUSD(Symbol):
@@ -19644,17 +15497,6 @@ class NODLUSD(Symbol):
 
 
 NODLUSD = NODLUSD(*NODLUSD._fields)
-"""
-    name: NODLUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NYMEUR(Symbol):
@@ -19696,17 +15538,6 @@ class NYMEUR(Symbol):
 
 
 NYMEUR = NYMEUR(*NYMEUR._fields)
-"""
-    name: NYMEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NYMUSD(Symbol):
@@ -19748,17 +15579,6 @@ class NYMUSD(Symbol):
 
 
 NYMUSD = NYMUSD(*NYMUSD._fields)
-"""
-    name: NYMUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class NYMXBT(Symbol):
@@ -19800,17 +15620,6 @@ class NYMXBT(Symbol):
 
 
 NYMXBT = NYMXBT(*NYMXBT._fields)
-"""
-    name: NYMXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OCEANEUR(Symbol):
@@ -19852,17 +15661,6 @@ class OCEANEUR(Symbol):
 
 
 OCEANEUR = OCEANEUR(*OCEANEUR._fields)
-"""
-    name: OCEANEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class OCEANGBP(Symbol):
@@ -19904,17 +15702,6 @@ class OCEANGBP(Symbol):
 
 
 OCEANGBP = OCEANGBP(*OCEANGBP._fields)
-"""
-    name: OCEANGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OCEANUSD(Symbol):
@@ -19956,17 +15743,6 @@ class OCEANUSD(Symbol):
 
 
 OCEANUSD = OCEANUSD(*OCEANUSD._fields)
-"""
-    name: OCEANUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class OCEANXBT(Symbol):
@@ -20008,17 +15784,6 @@ class OCEANXBT(Symbol):
 
 
 OCEANXBT = OCEANXBT(*OCEANXBT._fields)
-"""
-    name: OCEANXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OGNEUR(Symbol):
@@ -20060,17 +15825,6 @@ class OGNEUR(Symbol):
 
 
 OGNEUR = OGNEUR(*OGNEUR._fields)
-"""
-    name: OGNEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OGNUSD(Symbol):
@@ -20112,17 +15866,6 @@ class OGNUSD(Symbol):
 
 
 OGNUSD = OGNUSD(*OGNUSD._fields)
-"""
-    name: OGNUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OMGETH(Symbol):
@@ -20164,17 +15907,6 @@ class OMGETH(Symbol):
 
 
 OMGETH = OMGETH(*OMGETH._fields)
-"""
-    name: OMGETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OMGEUR(Symbol):
@@ -20216,17 +15948,6 @@ class OMGEUR(Symbol):
 
 
 OMGEUR = OMGEUR(*OMGEUR._fields)
-"""
-    name: OMGEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class OMGJPY(Symbol):
@@ -20268,17 +15989,6 @@ class OMGJPY(Symbol):
 
 
 OMGJPY = OMGJPY(*OMGJPY._fields)
-"""
-    name: OMGJPY
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OMGUSD(Symbol):
@@ -20320,17 +16030,6 @@ class OMGUSD(Symbol):
 
 
 OMGUSD = OMGUSD(*OMGUSD._fields)
-"""
-    name: OMGUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class OMGXBT(Symbol):
@@ -20372,17 +16071,6 @@ class OMGXBT(Symbol):
 
 
 OMGXBT = OMGXBT(*OMGXBT._fields)
-"""
-    name: OMGXBT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class ORCAEUR(Symbol):
@@ -20424,17 +16112,6 @@ class ORCAEUR(Symbol):
 
 
 ORCAEUR = ORCAEUR(*ORCAEUR._fields)
-"""
-    name: ORCAEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ORCAUSD(Symbol):
@@ -20476,17 +16153,6 @@ class ORCAUSD(Symbol):
 
 
 ORCAUSD = ORCAUSD(*ORCAUSD._fields)
-"""
-    name: ORCAUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OXTEUR(Symbol):
@@ -20528,17 +16194,6 @@ class OXTEUR(Symbol):
 
 
 OXTEUR = OXTEUR(*OXTEUR._fields)
-"""
-    name: OXTEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 55
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OXTUSD(Symbol):
@@ -20580,17 +16235,6 @@ class OXTUSD(Symbol):
 
 
 OXTUSD = OXTUSD(*OXTUSD._fields)
-"""
-    name: OXTUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 55
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OXTXBT(Symbol):
@@ -20632,17 +16276,6 @@ class OXTXBT(Symbol):
 
 
 OXTXBT = OXTXBT(*OXTXBT._fields)
-"""
-    name: OXTXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 55
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OXYEUR(Symbol):
@@ -20684,17 +16317,6 @@ class OXYEUR(Symbol):
 
 
 OXYEUR = OXYEUR(*OXYEUR._fields)
-"""
-    name: OXYEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class OXYUSD(Symbol):
@@ -20736,17 +16358,6 @@ class OXYUSD(Symbol):
 
 
 OXYUSD = OXYUSD(*OXYUSD._fields)
-"""
-    name: OXYUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PARAEUR(Symbol):
@@ -20788,17 +16399,6 @@ class PARAEUR(Symbol):
 
 
 PARAEUR = PARAEUR(*PARAEUR._fields)
-"""
-    name: PARAEUR
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PARAUSD(Symbol):
@@ -20840,17 +16440,6 @@ class PARAUSD(Symbol):
 
 
 PARAUSD = PARAUSD(*PARAUSD._fields)
-"""
-    name: PARAUSD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PAXGETH(Symbol):
@@ -20892,17 +16481,6 @@ class PAXGETH(Symbol):
 
 
 PAXGETH = PAXGETH(*PAXGETH._fields)
-"""
-    name: PAXGETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.003
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PAXGEUR(Symbol):
@@ -20944,17 +16522,6 @@ class PAXGEUR(Symbol):
 
 
 PAXGEUR = PAXGEUR(*PAXGEUR._fields)
-"""
-    name: PAXGEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.003
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class PAXGUSD(Symbol):
@@ -20996,17 +16563,6 @@ class PAXGUSD(Symbol):
 
 
 PAXGUSD = PAXGUSD(*PAXGUSD._fields)
-"""
-    name: PAXGUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.003
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class PAXGXBT(Symbol):
@@ -21048,17 +16604,6 @@ class PAXGXBT(Symbol):
 
 
 PAXGXBT = PAXGXBT(*PAXGXBT._fields)
-"""
-    name: PAXGXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.003
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class PERPEUR(Symbol):
@@ -21100,17 +16645,6 @@ class PERPEUR(Symbol):
 
 
 PERPEUR = PERPEUR(*PERPEUR._fields)
-"""
-    name: PERPEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PERPUSD(Symbol):
@@ -21152,17 +16686,6 @@ class PERPUSD(Symbol):
 
 
 PERPUSD = PERPUSD(*PERPUSD._fields)
-"""
-    name: PERPUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 9
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PHAEUR(Symbol):
@@ -21204,17 +16727,6 @@ class PHAEUR(Symbol):
 
 
 PHAEUR = PHAEUR(*PHAEUR._fields)
-"""
-    name: PHAEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PHAUSD(Symbol):
@@ -21256,17 +16768,6 @@ class PHAUSD(Symbol):
 
 
 PHAUSD = PHAUSD(*PHAUSD._fields)
-"""
-    name: PHAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PLAEUR(Symbol):
@@ -21308,17 +16809,6 @@ class PLAEUR(Symbol):
 
 
 PLAEUR = PLAEUR(*PLAEUR._fields)
-"""
-    name: PLAEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PLAUSD(Symbol):
@@ -21360,17 +16850,6 @@ class PLAUSD(Symbol):
 
 
 PLAUSD = PLAUSD(*PLAUSD._fields)
-"""
-    name: PLAUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POLISEUR(Symbol):
@@ -21412,17 +16891,6 @@ class POLISEUR(Symbol):
 
 
 POLISEUR = POLISEUR(*POLISEUR._fields)
-"""
-    name: POLISEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POLISUSD(Symbol):
@@ -21464,17 +16932,6 @@ class POLISUSD(Symbol):
 
 
 POLISUSD = POLISUSD(*POLISUSD._fields)
-"""
-    name: POLISUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POLSEUR(Symbol):
@@ -21516,17 +16973,6 @@ class POLSEUR(Symbol):
 
 
 POLSEUR = POLSEUR(*POLSEUR._fields)
-"""
-    name: POLSEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POLSUSD(Symbol):
@@ -21568,17 +17014,6 @@ class POLSUSD(Symbol):
 
 
 POLSUSD = POLSUSD(*POLSUSD._fields)
-"""
-    name: POLSUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PONDEUR(Symbol):
@@ -21620,17 +17055,6 @@ class PONDEUR(Symbol):
 
 
 PONDEUR = PONDEUR(*PONDEUR._fields)
-"""
-    name: PONDEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 600
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PONDUSD(Symbol):
@@ -21672,17 +17096,6 @@ class PONDUSD(Symbol):
 
 
 PONDUSD = PONDUSD(*PONDUSD._fields)
-"""
-    name: PONDUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 600
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POWREUR(Symbol):
@@ -21724,17 +17137,6 @@ class POWREUR(Symbol):
 
 
 POWREUR = POWREUR(*POWREUR._fields)
-"""
-    name: POWREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class POWRUSD(Symbol):
@@ -21776,17 +17178,6 @@ class POWRUSD(Symbol):
 
 
 POWRUSD = POWRUSD(*POWRUSD._fields)
-"""
-    name: POWRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 30
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PSTAKEEUR(Symbol):
@@ -21828,17 +17219,6 @@ class PSTAKEEUR(Symbol):
 
 
 PSTAKEEUR = PSTAKEEUR(*PSTAKEEUR._fields)
-"""
-    name: PSTAKEEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class PSTAKEUSD(Symbol):
@@ -21880,17 +17260,6 @@ class PSTAKEUSD(Symbol):
 
 
 PSTAKEUSD = PSTAKEUSD(*PSTAKEUSD._fields)
-"""
-    name: PSTAKEUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 40
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QNTEUR(Symbol):
@@ -21932,17 +17301,6 @@ class QNTEUR(Symbol):
 
 
 QNTEUR = QNTEUR(*QNTEUR._fields)
-"""
-    name: QNTEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QNTUSD(Symbol):
@@ -21984,17 +17342,6 @@ class QNTUSD(Symbol):
 
 
 QNTUSD = QNTUSD(*QNTUSD._fields)
-"""
-    name: QNTUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.05
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QTUMETH(Symbol):
@@ -22036,17 +17383,6 @@ class QTUMETH(Symbol):
 
 
 QTUMETH = QTUMETH(*QTUMETH._fields)
-"""
-    name: QTUMETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QTUMEUR(Symbol):
@@ -22088,17 +17424,6 @@ class QTUMEUR(Symbol):
 
 
 QTUMEUR = QTUMEUR(*QTUMEUR._fields)
-"""
-    name: QTUMEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QTUMUSD(Symbol):
@@ -22140,17 +17465,6 @@ class QTUMUSD(Symbol):
 
 
 QTUMUSD = QTUMUSD(*QTUMUSD._fields)
-"""
-    name: QTUMUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class QTUMXBT(Symbol):
@@ -22192,17 +17506,6 @@ class QTUMXBT(Symbol):
 
 
 QTUMXBT = QTUMXBT(*QTUMXBT._fields)
-"""
-    name: QTUMXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RADEUR(Symbol):
@@ -22244,17 +17547,6 @@ class RADEUR(Symbol):
 
 
 RADEUR = RADEUR(*RADEUR._fields)
-"""
-    name: RADEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RADUSD(Symbol):
@@ -22296,17 +17588,6 @@ class RADUSD(Symbol):
 
 
 RADUSD = RADUSD(*RADUSD._fields)
-"""
-    name: RADUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RAREEUR(Symbol):
@@ -22348,17 +17629,6 @@ class RAREEUR(Symbol):
 
 
 RAREEUR = RAREEUR(*RAREEUR._fields)
-"""
-    name: RAREEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RAREUSD(Symbol):
@@ -22400,17 +17670,6 @@ class RAREUSD(Symbol):
 
 
 RAREUSD = RAREUSD(*RAREUSD._fields)
-"""
-    name: RAREUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RARIEUR(Symbol):
@@ -22452,17 +17711,6 @@ class RARIEUR(Symbol):
 
 
 RARIEUR = RARIEUR(*RARIEUR._fields)
-"""
-    name: RARIEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RARIUSD(Symbol):
@@ -22504,17 +17752,6 @@ class RARIUSD(Symbol):
 
 
 RARIUSD = RARIUSD(*RARIUSD._fields)
-"""
-    name: RARIUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RARIXBT(Symbol):
@@ -22556,17 +17793,6 @@ class RARIXBT(Symbol):
 
 
 RARIXBT = RARIXBT(*RARIXBT._fields)
-"""
-    name: RARIXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RAYEUR(Symbol):
@@ -22608,17 +17834,6 @@ class RAYEUR(Symbol):
 
 
 RAYEUR = RAYEUR(*RAYEUR._fields)
-"""
-    name: RAYEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 18
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RAYUSD(Symbol):
@@ -22660,17 +17875,6 @@ class RAYUSD(Symbol):
 
 
 RAYUSD = RAYUSD(*RAYUSD._fields)
-"""
-    name: RAYUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 18
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RBCEUR(Symbol):
@@ -22712,17 +17916,6 @@ class RBCEUR(Symbol):
 
 
 RBCEUR = RBCEUR(*RBCEUR._fields)
-"""
-    name: RBCEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RBCUSD(Symbol):
@@ -22764,17 +17957,6 @@ class RBCUSD(Symbol):
 
 
 RBCUSD = RBCUSD(*RBCUSD._fields)
-"""
-    name: RBCUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RENEUR(Symbol):
@@ -22816,17 +17998,6 @@ class RENEUR(Symbol):
 
 
 RENEUR = RENEUR(*RENEUR._fields)
-"""
-    name: RENEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RENUSD(Symbol):
@@ -22868,17 +18039,6 @@ class RENUSD(Symbol):
 
 
 RENUSD = RENUSD(*RENUSD._fields)
-"""
-    name: RENUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RENXBT(Symbol):
@@ -22920,17 +18080,6 @@ class RENXBT(Symbol):
 
 
 RENXBT = RENXBT(*RENXBT._fields)
-"""
-    name: RENXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REPV2ETH(Symbol):
@@ -22972,17 +18121,6 @@ class REPV2ETH(Symbol):
 
 
 REPV2ETH = REPV2ETH(*REPV2ETH._fields)
-"""
-    name: REPV2ETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REPV2EUR(Symbol):
@@ -23024,17 +18162,6 @@ class REPV2EUR(Symbol):
 
 
 REPV2EUR = REPV2EUR(*REPV2EUR._fields)
-"""
-    name: REPV2EUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REPV2USD(Symbol):
@@ -23076,17 +18203,6 @@ class REPV2USD(Symbol):
 
 
 REPV2USD = REPV2USD(*REPV2USD._fields)
-"""
-    name: REPV2USD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REPV2XBT(Symbol):
@@ -23128,17 +18244,6 @@ class REPV2XBT(Symbol):
 
 
 REPV2XBT = REPV2XBT(*REPV2XBT._fields)
-"""
-    name: REPV2XBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REQEUR(Symbol):
@@ -23180,17 +18285,6 @@ class REQEUR(Symbol):
 
 
 REQEUR = REQEUR(*REQEUR._fields)
-"""
-    name: REQEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class REQUSD(Symbol):
@@ -23232,17 +18326,6 @@ class REQUSD(Symbol):
 
 
 REQUSD = REQUSD(*REQUSD._fields)
-"""
-    name: REQUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RLCEUR(Symbol):
@@ -23284,17 +18367,6 @@ class RLCEUR(Symbol):
 
 
 RLCEUR = RLCEUR(*RLCEUR._fields)
-"""
-    name: RLCEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RLCUSD(Symbol):
@@ -23336,17 +18408,6 @@ class RLCUSD(Symbol):
 
 
 RLCUSD = RLCUSD(*RLCUSD._fields)
-"""
-    name: RLCUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RNDREUR(Symbol):
@@ -23388,17 +18449,6 @@ class RNDREUR(Symbol):
 
 
 RNDREUR = RNDREUR(*RNDREUR._fields)
-"""
-    name: RNDREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RNDRUSD(Symbol):
@@ -23440,17 +18490,6 @@ class RNDRUSD(Symbol):
 
 
 RNDRUSD = RNDRUSD(*RNDRUSD._fields)
-"""
-    name: RNDRUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ROOKEUR(Symbol):
@@ -23492,17 +18531,6 @@ class ROOKEUR(Symbol):
 
 
 ROOKEUR = ROOKEUR(*ROOKEUR._fields)
-"""
-    name: ROOKEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ROOKUSD(Symbol):
@@ -23544,17 +18572,6 @@ class ROOKUSD(Symbol):
 
 
 ROOKUSD = ROOKUSD(*ROOKUSD._fields)
-"""
-    name: ROOKUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.35
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RPLEUR(Symbol):
@@ -23596,17 +18613,6 @@ class RPLEUR(Symbol):
 
 
 RPLEUR = RPLEUR(*RPLEUR._fields)
-"""
-    name: RPLEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RPLUSD(Symbol):
@@ -23648,17 +18654,6 @@ class RPLUSD(Symbol):
 
 
 RPLUSD = RPLUSD(*RPLUSD._fields)
-"""
-    name: RPLUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RUNEEUR(Symbol):
@@ -23700,17 +18695,6 @@ class RUNEEUR(Symbol):
 
 
 RUNEEUR = RUNEEUR(*RUNEEUR._fields)
-"""
-    name: RUNEEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class RUNEUSD(Symbol):
@@ -23752,17 +18736,6 @@ class RUNEUSD(Symbol):
 
 
 RUNEUSD = RUNEUSD(*RUNEUSD._fields)
-"""
-    name: RUNEUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SAMOEUR(Symbol):
@@ -23804,17 +18777,6 @@ class SAMOEUR(Symbol):
 
 
 SAMOEUR = SAMOEUR(*SAMOEUR._fields)
-"""
-    name: SAMOEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SAMOUSD(Symbol):
@@ -23856,17 +18818,6 @@ class SAMOUSD(Symbol):
 
 
 SAMOUSD = SAMOUSD(*SAMOUSD._fields)
-"""
-    name: SAMOUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SANDEUR(Symbol):
@@ -23908,17 +18859,6 @@ class SANDEUR(Symbol):
 
 
 SANDEUR = SANDEUR(*SANDEUR._fields)
-"""
-    name: SANDEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SANDGBP(Symbol):
@@ -23960,17 +18900,6 @@ class SANDGBP(Symbol):
 
 
 SANDGBP = SANDGBP(*SANDGBP._fields)
-"""
-    name: SANDGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SANDUSD(Symbol):
@@ -24012,17 +18941,6 @@ class SANDUSD(Symbol):
 
 
 SANDUSD = SANDUSD(*SANDUSD._fields)
-"""
-    name: SANDUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SANDXBT(Symbol):
@@ -24064,17 +18982,6 @@ class SANDXBT(Symbol):
 
 
 SANDXBT = SANDXBT(*SANDXBT._fields)
-"""
-    name: SANDXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 8.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SBREUR(Symbol):
@@ -24116,17 +19023,6 @@ class SBREUR(Symbol):
 
 
 SBREUR = SBREUR(*SBREUR._fields)
-"""
-    name: SBREUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SBRUSD(Symbol):
@@ -24168,17 +19064,6 @@ class SBRUSD(Symbol):
 
 
 SBRUSD = SBRUSD(*SBRUSD._fields)
-"""
-    name: SBRUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SCETH(Symbol):
@@ -24220,17 +19105,6 @@ class SCETH(Symbol):
 
 
 SCETH = SCETH(*SCETH._fields)
-"""
-    name: SCETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SCEUR(Symbol):
@@ -24272,17 +19146,6 @@ class SCEUR(Symbol):
 
 
 SCEUR = SCEUR(*SCEUR._fields)
-"""
-    name: SCEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1300
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SCRTEUR(Symbol):
@@ -24324,17 +19187,6 @@ class SCRTEUR(Symbol):
 
 
 SCRTEUR = SCRTEUR(*SCRTEUR._fields)
-"""
-    name: SCRTEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SCRTUSD(Symbol):
@@ -24376,17 +19228,6 @@ class SCRTUSD(Symbol):
 
 
 SCRTUSD = SCRTUSD(*SCRTUSD._fields)
-"""
-    name: SCRTUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SCUSD(Symbol):
@@ -24428,17 +19269,6 @@ class SCUSD(Symbol):
 
 
 SCUSD = SCUSD(*SCUSD._fields)
-"""
-    name: SCUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1300
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SCXBT(Symbol):
@@ -24480,17 +19310,6 @@ class SCXBT(Symbol):
 
 
 SCXBT = SCXBT(*SCXBT._fields)
-"""
-    name: SCXBT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SDNEUR(Symbol):
@@ -24532,17 +19351,6 @@ class SDNEUR(Symbol):
 
 
 SDNEUR = SDNEUR(*SDNEUR._fields)
-"""
-    name: SDNEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SDNUSD(Symbol):
@@ -24584,17 +19392,6 @@ class SDNUSD(Symbol):
 
 
 SDNUSD = SDNUSD(*SDNUSD._fields)
-"""
-    name: SDNUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SGBEUR(Symbol):
@@ -24636,17 +19433,6 @@ class SGBEUR(Symbol):
 
 
 SGBEUR = SGBEUR(*SGBEUR._fields)
-"""
-    name: SGBEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SGBUSD(Symbol):
@@ -24688,17 +19474,6 @@ class SGBUSD(Symbol):
 
 
 SGBUSD = SGBUSD(*SGBUSD._fields)
-"""
-    name: SGBUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SHIBEUR(Symbol):
@@ -24740,17 +19515,6 @@ class SHIBEUR(Symbol):
 
 
 SHIBEUR = SHIBEUR(*SHIBEUR._fields)
-"""
-    name: SHIBEUR
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SHIBUSD(Symbol):
@@ -24792,17 +19556,6 @@ class SHIBUSD(Symbol):
 
 
 SHIBUSD = SHIBUSD(*SHIBUSD._fields)
-"""
-    name: SHIBUSD
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SHIBUSDT(Symbol):
@@ -24844,17 +19597,6 @@ class SHIBUSDT(Symbol):
 
 
 SHIBUSDT = SHIBUSDT(*SHIBUSDT._fields)
-"""
-    name: SHIBUSDT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 500000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SNXETH(Symbol):
@@ -24896,17 +19638,6 @@ class SNXETH(Symbol):
 
 
 SNXETH = SNXETH(*SNXETH._fields)
-"""
-    name: SNXETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SNXEUR(Symbol):
@@ -24948,17 +19679,6 @@ class SNXEUR(Symbol):
 
 
 SNXEUR = SNXEUR(*SNXEUR._fields)
-"""
-    name: SNXEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SNXUSD(Symbol):
@@ -25000,17 +19720,6 @@ class SNXUSD(Symbol):
 
 
 SNXUSD = SNXUSD(*SNXUSD._fields)
-"""
-    name: SNXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SNXXBT(Symbol):
@@ -25052,17 +19761,6 @@ class SNXXBT(Symbol):
 
 
 SNXXBT = SNXXBT(*SNXXBT._fields)
-"""
-    name: SNXXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SOLEUR(Symbol):
@@ -25104,17 +19802,6 @@ class SOLEUR(Symbol):
 
 
 SOLEUR = SOLEUR(*SOLEUR._fields)
-"""
-    name: SOLEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SOLGBP(Symbol):
@@ -25156,17 +19843,6 @@ class SOLGBP(Symbol):
 
 
 SOLGBP = SOLGBP(*SOLGBP._fields)
-"""
-    name: SOLGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SOLUSD(Symbol):
@@ -25208,17 +19884,6 @@ class SOLUSD(Symbol):
 
 
 SOLUSD = SOLUSD(*SOLUSD._fields)
-"""
-    name: SOLUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SOLUSDT(Symbol):
@@ -25260,17 +19925,6 @@ class SOLUSDT(Symbol):
 
 
 SOLUSDT = SOLUSDT(*SOLUSDT._fields)
-"""
-    name: SOLUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SOLXBT(Symbol):
@@ -25312,17 +19966,6 @@ class SOLXBT(Symbol):
 
 
 SOLXBT = SOLXBT(*SOLXBT._fields)
-"""
-    name: SOLXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class SPELLEUR(Symbol):
@@ -25364,17 +20007,6 @@ class SPELLEUR(Symbol):
 
 
 SPELLEUR = SPELLEUR(*SPELLEUR._fields)
-"""
-    name: SPELLEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SPELLUSD(Symbol):
@@ -25416,17 +20048,6 @@ class SPELLUSD(Symbol):
 
 
 SPELLUSD = SPELLUSD(*SPELLUSD._fields)
-"""
-    name: SPELLUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7500
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SRMEUR(Symbol):
@@ -25468,17 +20089,6 @@ class SRMEUR(Symbol):
 
 
 SRMEUR = SRMEUR(*SRMEUR._fields)
-"""
-    name: SRMEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SRMUSD(Symbol):
@@ -25520,17 +20130,6 @@ class SRMUSD(Symbol):
 
 
 SRMUSD = SRMUSD(*SRMUSD._fields)
-"""
-    name: SRMUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SRMXBT(Symbol):
@@ -25572,17 +20171,6 @@ class SRMXBT(Symbol):
 
 
 SRMXBT = SRMXBT(*SRMXBT._fields)
-"""
-    name: SRMXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STEPEUR(Symbol):
@@ -25624,17 +20212,6 @@ class STEPEUR(Symbol):
 
 
 STEPEUR = STEPEUR(*STEPEUR._fields)
-"""
-    name: STEPEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 325
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STEPUSD(Symbol):
@@ -25676,17 +20253,6 @@ class STEPUSD(Symbol):
 
 
 STEPUSD = STEPUSD(*STEPUSD._fields)
-"""
-    name: STEPUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 325
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STGEUR(Symbol):
@@ -25728,17 +20294,6 @@ class STGEUR(Symbol):
 
 
 STGEUR = STGEUR(*STGEUR._fields)
-"""
-    name: STGEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STGUSD(Symbol):
@@ -25780,17 +20335,6 @@ class STGUSD(Symbol):
 
 
 STGUSD = STGUSD(*STGUSD._fields)
-"""
-    name: STGUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 6
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STORJEUR(Symbol):
@@ -25832,17 +20376,6 @@ class STORJEUR(Symbol):
 
 
 STORJEUR = STORJEUR(*STORJEUR._fields)
-"""
-    name: STORJEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STORJUSD(Symbol):
@@ -25884,17 +20417,6 @@ class STORJUSD(Symbol):
 
 
 STORJUSD = STORJUSD(*STORJUSD._fields)
-"""
-    name: STORJUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STORJXBT(Symbol):
@@ -25936,17 +20458,6 @@ class STORJXBT(Symbol):
 
 
 STORJXBT = STORJXBT(*STORJXBT._fields)
-"""
-    name: STORJXBT
-    significant_digits: None
-    tick_size: 0.000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STXEUR(Symbol):
@@ -25988,17 +20499,6 @@ class STXEUR(Symbol):
 
 
 STXEUR = STXEUR(*STXEUR._fields)
-"""
-    name: STXEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class STXUSD(Symbol):
@@ -26040,17 +20540,6 @@ class STXUSD(Symbol):
 
 
 STXUSD = STXUSD(*STXUSD._fields)
-"""
-    name: STXUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUIEUR(Symbol):
@@ -26092,17 +20581,6 @@ class SUIEUR(Symbol):
 
 
 SUIEUR = SUIEUR(*SUIEUR._fields)
-"""
-    name: SUIEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.005
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUIUSD(Symbol):
@@ -26144,17 +20622,6 @@ class SUIUSD(Symbol):
 
 
 SUIUSD = SUIUSD(*SUIUSD._fields)
-"""
-    name: SUIUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.005
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUPEREUR(Symbol):
@@ -26196,17 +20663,6 @@ class SUPEREUR(Symbol):
 
 
 SUPEREUR = SUPEREUR(*SUPEREUR._fields)
-"""
-    name: SUPEREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUPERUSD(Symbol):
@@ -26248,17 +20704,6 @@ class SUPERUSD(Symbol):
 
 
 SUPERUSD = SUPERUSD(*SUPERUSD._fields)
-"""
-    name: SUPERUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 50
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUSHIEUR(Symbol):
@@ -26300,17 +20745,6 @@ class SUSHIEUR(Symbol):
 
 
 SUSHIEUR = SUSHIEUR(*SUSHIEUR._fields)
-"""
-    name: SUSHIEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUSHIGBP(Symbol):
@@ -26352,17 +20786,6 @@ class SUSHIGBP(Symbol):
 
 
 SUSHIGBP = SUSHIGBP(*SUSHIGBP._fields)
-"""
-    name: SUSHIGBP
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUSHIUSD(Symbol):
@@ -26404,17 +20827,6 @@ class SUSHIUSD(Symbol):
 
 
 SUSHIUSD = SUSHIUSD(*SUSHIUSD._fields)
-"""
-    name: SUSHIUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SUSHIXBT(Symbol):
@@ -26456,17 +20868,6 @@ class SUSHIXBT(Symbol):
 
 
 SUSHIXBT = SUSHIXBT(*SUSHIXBT._fields)
-"""
-    name: SUSHIXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SYNEUR(Symbol):
@@ -26508,17 +20909,6 @@ class SYNEUR(Symbol):
 
 
 SYNEUR = SYNEUR(*SYNEUR._fields)
-"""
-    name: SYNEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class SYNUSD(Symbol):
@@ -26560,17 +20950,6 @@ class SYNUSD(Symbol):
 
 
 SYNUSD = SYNUSD(*SYNUSD._fields)
-"""
-    name: SYNUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TBTCEUR(Symbol):
@@ -26612,17 +20991,6 @@ class TBTCEUR(Symbol):
 
 
 TBTCEUR = TBTCEUR(*TBTCEUR._fields)
-"""
-    name: TBTCEUR
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TBTCUSD(Symbol):
@@ -26664,17 +21032,6 @@ class TBTCUSD(Symbol):
 
 
 TBTCUSD = TBTCUSD(*TBTCUSD._fields)
-"""
-    name: TBTCUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TBTCXBT(Symbol):
@@ -26716,17 +21073,6 @@ class TBTCXBT(Symbol):
 
 
 TBTCXBT = TBTCXBT(*TBTCXBT._fields)
-"""
-    name: TBTCXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TEEREUR(Symbol):
@@ -26768,17 +21114,6 @@ class TEEREUR(Symbol):
 
 
 TEEREUR = TEEREUR(*TEEREUR._fields)
-"""
-    name: TEEREUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TEERUSD(Symbol):
@@ -26820,17 +21155,6 @@ class TEERUSD(Symbol):
 
 
 TEERUSD = TEERUSD(*TEERUSD._fields)
-"""
-    name: TEERUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TEUR(Symbol):
@@ -26872,17 +21196,6 @@ class TEUR(Symbol):
 
 
 TEUR = TEUR(*TEUR._fields)
-"""
-    name: TEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 130
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TLMEUR(Symbol):
@@ -26924,17 +21237,6 @@ class TLMEUR(Symbol):
 
 
 TLMEUR = TLMEUR(*TLMEUR._fields)
-"""
-    name: TLMEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TLMUSD(Symbol):
@@ -26976,17 +21278,6 @@ class TLMUSD(Symbol):
 
 
 TLMUSD = TLMUSD(*TLMUSD._fields)
-"""
-    name: TLMUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 250
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TOKEEUR(Symbol):
@@ -27028,17 +21319,6 @@ class TOKEEUR(Symbol):
 
 
 TOKEEUR = TOKEEUR(*TOKEEUR._fields)
-"""
-    name: TOKEEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TOKEUSD(Symbol):
@@ -27080,17 +21360,6 @@ class TOKEUSD(Symbol):
 
 
 TOKEUSD = TOKEUSD(*TOKEUSD._fields)
-"""
-    name: TOKEUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TRIBEEUR(Symbol):
@@ -27132,17 +21401,6 @@ class TRIBEEUR(Symbol):
 
 
 TRIBEEUR = TRIBEEUR(*TRIBEEUR._fields)
-"""
-    name: TRIBEEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TRIBEUSD(Symbol):
@@ -27184,17 +21442,6 @@ class TRIBEUSD(Symbol):
 
 
 TRIBEUSD = TRIBEUSD(*TRIBEUSD._fields)
-"""
-    name: TRIBEUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TRUEUR(Symbol):
@@ -27236,17 +21483,6 @@ class TRUEUR(Symbol):
 
 
 TRUEUR = TRUEUR(*TRUEUR._fields)
-"""
-    name: TRUEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TRUUSD(Symbol):
@@ -27288,17 +21524,6 @@ class TRUUSD(Symbol):
 
 
 TRUUSD = TRUUSD(*TRUUSD._fields)
-"""
-    name: TRUUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 125
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TRXETH(Symbol):
@@ -27340,17 +21565,6 @@ class TRXETH(Symbol):
 
 
 TRXETH = TRXETH(*TRXETH._fields)
-"""
-    name: TRXETH
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class TRXEUR(Symbol):
@@ -27392,17 +21606,6 @@ class TRXEUR(Symbol):
 
 
 TRXEUR = TRXEUR(*TRXEUR._fields)
-"""
-    name: TRXEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class TRXUSD(Symbol):
@@ -27444,17 +21647,6 @@ class TRXUSD(Symbol):
 
 
 TRXUSD = TRXUSD(*TRXUSD._fields)
-"""
-    name: TRXUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class TRXXBT(Symbol):
@@ -27496,17 +21688,6 @@ class TRXXBT(Symbol):
 
 
 TRXXBT = TRXXBT(*TRXXBT._fields)
-"""
-    name: TRXXBT
-    significant_digits: None
-    tick_size: 0.0000000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 100
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class TUSD(Symbol):
@@ -27548,17 +21729,6 @@ class TUSD(Symbol):
 
 
 TUSD = TUSD(*TUSD._fields)
-"""
-    name: TUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 130
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TVKEUR(Symbol):
@@ -27600,17 +21770,6 @@ class TVKEUR(Symbol):
 
 
 TVKEUR = TVKEUR(*TVKEUR._fields)
-"""
-    name: TVKEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 110
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class TVKUSD(Symbol):
@@ -27652,17 +21811,6 @@ class TVKUSD(Symbol):
 
 
 TVKUSD = TVKUSD(*TVKUSD._fields)
-"""
-    name: TVKUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 110
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UMAEUR(Symbol):
@@ -27704,17 +21852,6 @@ class UMAEUR(Symbol):
 
 
 UMAEUR = UMAEUR(*UMAEUR._fields)
-"""
-    name: UMAEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UMAUSD(Symbol):
@@ -27756,17 +21893,6 @@ class UMAUSD(Symbol):
 
 
 UMAUSD = UMAUSD(*UMAUSD._fields)
-"""
-    name: UMAUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UNFIEUR(Symbol):
@@ -27808,17 +21934,6 @@ class UNFIEUR(Symbol):
 
 
 UNFIEUR = UNFIEUR(*UNFIEUR._fields)
-"""
-    name: UNFIEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UNFIUSD(Symbol):
@@ -27860,17 +21975,6 @@ class UNFIUSD(Symbol):
 
 
 UNFIUSD = UNFIUSD(*UNFIUSD._fields)
-"""
-    name: UNFIUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UNIETH(Symbol):
@@ -27912,17 +22016,6 @@ class UNIETH(Symbol):
 
 
 UNIETH = UNIETH(*UNIETH._fields)
-"""
-    name: UNIETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class UNIEUR(Symbol):
@@ -27964,17 +22057,6 @@ class UNIEUR(Symbol):
 
 
 UNIEUR = UNIEUR(*UNIEUR._fields)
-"""
-    name: UNIEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class UNIUSD(Symbol):
@@ -28016,17 +22098,6 @@ class UNIUSD(Symbol):
 
 
 UNIUSD = UNIUSD(*UNIUSD._fields)
-"""
-    name: UNIUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class UNIXBT(Symbol):
@@ -28068,17 +22139,6 @@ class UNIXBT(Symbol):
 
 
 UNIXBT = UNIXBT(*UNIXBT._fields)
-"""
-    name: UNIXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USDAED(Symbol):
@@ -28120,17 +22180,6 @@ class USDAED(Symbol):
 
 
 USDAED = USDAED(*USDAED._fields)
-"""
-    name: USDAED
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USDCAUD(Symbol):
@@ -28172,17 +22221,6 @@ class USDCAUD(Symbol):
 
 
 USDCAUD = USDCAUD(*USDCAUD._fields)
-"""
-    name: USDCAUD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDCCAD(Symbol):
@@ -28224,17 +22262,6 @@ class USDCCAD(Symbol):
 
 
 USDCCAD = USDCCAD(*USDCCAD._fields)
-"""
-    name: USDCCAD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USDCCHF(Symbol):
@@ -28276,17 +22303,6 @@ class USDCCHF(Symbol):
 
 
 USDCCHF = USDCCHF(*USDCCHF._fields)
-"""
-    name: USDCCHF
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USDCEUR(Symbol):
@@ -28328,17 +22344,6 @@ class USDCEUR(Symbol):
 
 
 USDCEUR = USDCEUR(*USDCEUR._fields)
-"""
-    name: USDCEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDCGBP(Symbol):
@@ -28380,17 +22385,6 @@ class USDCGBP(Symbol):
 
 
 USDCGBP = USDCGBP(*USDCGBP._fields)
-"""
-    name: USDCGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDCHF(Symbol):
@@ -28432,17 +22426,6 @@ class USDCHF(Symbol):
 
 
 USDCHF = USDCHF(*USDCHF._fields)
-"""
-    name: USDCHF
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USDCUSD(Symbol):
@@ -28484,17 +22467,6 @@ class USDCUSD(Symbol):
 
 
 USDCUSD = USDCUSD(*USDCUSD._fields)
-"""
-    name: USDCUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDCUSDT(Symbol):
@@ -28536,17 +22508,6 @@ class USDCUSDT(Symbol):
 
 
 USDCUSDT = USDCUSDT(*USDCUSDT._fields)
-"""
-    name: USDCUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTAUD(Symbol):
@@ -28588,17 +22549,6 @@ class USDTAUD(Symbol):
 
 
 USDTAUD = USDTAUD(*USDTAUD._fields)
-"""
-    name: USDTAUD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTCAD(Symbol):
@@ -28640,17 +22590,6 @@ class USDTCAD(Symbol):
 
 
 USDTCAD = USDTCAD(*USDTCAD._fields)
-"""
-    name: USDTCAD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTCHF(Symbol):
@@ -28692,17 +22631,6 @@ class USDTCHF(Symbol):
 
 
 USDTCHF = USDTCHF(*USDTCHF._fields)
-"""
-    name: USDTCHF
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTEUR(Symbol):
@@ -28744,17 +22672,6 @@ class USDTEUR(Symbol):
 
 
 USDTEUR = USDTEUR(*USDTEUR._fields)
-"""
-    name: USDTEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTGBP(Symbol):
@@ -28796,17 +22713,6 @@ class USDTGBP(Symbol):
 
 
 USDTGBP = USDTGBP(*USDTGBP._fields)
-"""
-    name: USDTGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTJPY(Symbol):
@@ -28848,17 +22754,6 @@ class USDTJPY(Symbol):
 
 
 USDTJPY = USDTJPY(*USDTJPY._fields)
-"""
-    name: USDTJPY
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USDTZUSD(Symbol):
@@ -28900,17 +22795,6 @@ class USDTZUSD(Symbol):
 
 
 USDTZUSD = USDTZUSD(*USDTZUSD._fields)
-"""
-    name: USDTUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class USTEUR(Symbol):
@@ -28952,17 +22836,6 @@ class USTEUR(Symbol):
 
 
 USTEUR = USTEUR(*USTEUR._fields)
-"""
-    name: USTEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 175
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USTUSD(Symbol):
@@ -29004,17 +22877,6 @@ class USTUSD(Symbol):
 
 
 USTUSD = USTUSD(*USTUSD._fields)
-"""
-    name: USTUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 175
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USTUSDC(Symbol):
@@ -29056,17 +22918,6 @@ class USTUSDC(Symbol):
 
 
 USTUSDC = USTUSDC(*USTUSDC._fields)
-"""
-    name: USTUSDC
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 175
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class USTUSDT(Symbol):
@@ -29108,17 +22959,6 @@ class USTUSDT(Symbol):
 
 
 USTUSDT = USTUSDT(*USTUSDT._fields)
-"""
-    name: USTUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 175
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WAVESETH(Symbol):
@@ -29160,17 +23000,6 @@ class WAVESETH(Symbol):
 
 
 WAVESETH = WAVESETH(*WAVESETH._fields)
-"""
-    name: WAVESETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WAVESEUR(Symbol):
@@ -29212,17 +23041,6 @@ class WAVESEUR(Symbol):
 
 
 WAVESEUR = WAVESEUR(*WAVESEUR._fields)
-"""
-    name: WAVESEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class WAVESUSD(Symbol):
@@ -29264,17 +23082,6 @@ class WAVESUSD(Symbol):
 
 
 WAVESUSD = WAVESUSD(*WAVESUSD._fields)
-"""
-    name: WAVESUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class WAVESXBT(Symbol):
@@ -29316,17 +23123,6 @@ class WAVESXBT(Symbol):
 
 
 WAVESXBT = WAVESXBT(*WAVESXBT._fields)
-"""
-    name: WAVESXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WAXLEUR(Symbol):
@@ -29368,17 +23164,6 @@ class WAXLEUR(Symbol):
 
 
 WAXLEUR = WAXLEUR(*WAXLEUR._fields)
-"""
-    name: WAXLEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WAXLUSD(Symbol):
@@ -29420,17 +23205,6 @@ class WAXLUSD(Symbol):
 
 
 WAXLUSD = WAXLUSD(*WAXLUSD._fields)
-"""
-    name: WAXLUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 7
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WBTCEUR(Symbol):
@@ -29472,17 +23246,6 @@ class WBTCEUR(Symbol):
 
 
 WBTCEUR = WBTCEUR(*WBTCEUR._fields)
-"""
-    name: WBTCEUR
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WBTCUSD(Symbol):
@@ -29524,17 +23287,6 @@ class WBTCUSD(Symbol):
 
 
 WBTCUSD = WBTCUSD(*WBTCUSD._fields)
-"""
-    name: WBTCUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WBTCXBT(Symbol):
@@ -29576,17 +23328,6 @@ class WBTCXBT(Symbol):
 
 
 WBTCXBT = WBTCXBT(*WBTCXBT._fields)
-"""
-    name: WBTCXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.00025
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WOOEUR(Symbol):
@@ -29628,17 +23369,6 @@ class WOOEUR(Symbol):
 
 
 WOOEUR = WOOEUR(*WOOEUR._fields)
-"""
-    name: WOOEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class WOOUSD(Symbol):
@@ -29680,17 +23410,6 @@ class WOOUSD(Symbol):
 
 
 WOOUSD = WOOUSD(*WOOUSD._fields)
-"""
-    name: WOOUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XBTAED(Symbol):
@@ -29732,17 +23451,6 @@ class XBTAED(Symbol):
 
 
 XBTAED = XBTAED(*XBTAED._fields)
-"""
-    name: XBTAED
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XBTAUD(Symbol):
@@ -29784,17 +23492,6 @@ class XBTAUD(Symbol):
 
 
 XBTAUD = XBTAUD(*XBTAUD._fields)
-"""
-    name: XBTAUD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XBTCHF(Symbol):
@@ -29836,17 +23533,6 @@ class XBTCHF(Symbol):
 
 
 XBTCHF = XBTCHF(*XBTCHF._fields)
-"""
-    name: XBTCHF
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XBTDAI(Symbol):
@@ -29888,17 +23574,6 @@ class XBTDAI(Symbol):
 
 
 XBTDAI = XBTDAI(*XBTDAI._fields)
-"""
-    name: XBTDAI
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XBTUSDC(Symbol):
@@ -29940,17 +23615,6 @@ class XBTUSDC(Symbol):
 
 
 XBTUSDC = XBTUSDC(*XBTUSDC._fields)
-"""
-    name: XBTUSDC
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XBTUSDT(Symbol):
@@ -29992,17 +23656,6 @@ class XBTUSDT(Symbol):
 
 
 XBTUSDT = XBTUSDT(*XBTUSDT._fields)
-"""
-    name: XBTUSDT
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XCNEUR(Symbol):
@@ -30044,17 +23697,6 @@ class XCNEUR(Symbol):
 
 
 XCNEUR = XCNEUR(*XCNEUR._fields)
-"""
-    name: XCNEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XCNUSD(Symbol):
@@ -30096,17 +23738,6 @@ class XCNUSD(Symbol):
 
 
 XCNUSD = XCNUSD(*XCNUSD._fields)
-"""
-    name: XCNUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 300
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XDGEUR(Symbol):
@@ -30148,17 +23779,6 @@ class XDGEUR(Symbol):
 
 
 XDGEUR = XDGEUR(*XDGEUR._fields)
-"""
-    name: XDGEUR
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XDGUSD(Symbol):
@@ -30200,17 +23820,6 @@ class XDGUSD(Symbol):
 
 
 XDGUSD = XDGUSD(*XDGUSD._fields)
-"""
-    name: XDGUSD
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XDGUSDT(Symbol):
@@ -30252,17 +23861,6 @@ class XDGUSDT(Symbol):
 
 
 XDGUSDT = XDGUSDT(*XDGUSDT._fields)
-"""
-    name: XDGUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XETCXETH(Symbol):
@@ -30304,17 +23902,6 @@ class XETCXETH(Symbol):
 
 
 XETCXETH = XETCXETH(*XETCXETH._fields)
-"""
-    name: ETCETH
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETCXXBT(Symbol):
@@ -30356,17 +23943,6 @@ class XETCXXBT(Symbol):
 
 
 XETCXXBT = XETCXXBT(*XETCXXBT._fields)
-"""
-    name: ETCXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETCZEUR(Symbol):
@@ -30408,17 +23984,6 @@ class XETCZEUR(Symbol):
 
 
 XETCZEUR = XETCZEUR(*XETCZEUR._fields)
-"""
-    name: ETCEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETCZUSD(Symbol):
@@ -30460,17 +24025,6 @@ class XETCZUSD(Symbol):
 
 
 XETCZUSD = XETCZUSD(*XETCZUSD._fields)
-"""
-    name: ETCUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETHXXBT(Symbol):
@@ -30512,17 +24066,6 @@ class XETHXXBT(Symbol):
 
 
 XETHXXBT = XETHXXBT(*XETHXXBT._fields)
-"""
-    name: ETHXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETHZCAD(Symbol):
@@ -30564,17 +24107,6 @@ class XETHZCAD(Symbol):
 
 
 XETHZCAD = XETHZCAD(*XETHZCAD._fields)
-"""
-    name: ETHCAD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XETHZEUR(Symbol):
@@ -30616,17 +24148,6 @@ class XETHZEUR(Symbol):
 
 
 XETHZEUR = XETHZEUR(*XETHZEUR._fields)
-"""
-    name: ETHEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETHZGBP(Symbol):
@@ -30668,17 +24189,6 @@ class XETHZGBP(Symbol):
 
 
 XETHZGBP = XETHZGBP(*XETHZGBP._fields)
-"""
-    name: ETHGBP
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XETHZJPY(Symbol):
@@ -30720,17 +24230,6 @@ class XETHZJPY(Symbol):
 
 
 XETHZJPY = XETHZJPY(*XETHZJPY._fields)
-"""
-    name: ETHJPY
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XETHZUSD(Symbol):
@@ -30772,17 +24271,6 @@ class XETHZUSD(Symbol):
 
 
 XETHZUSD = XETHZUSD(*XETHZUSD._fields)
-"""
-    name: ETHUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.01
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XLTCXXBT(Symbol):
@@ -30824,17 +24312,6 @@ class XLTCXXBT(Symbol):
 
 
 XLTCXXBT = XLTCXXBT(*XLTCXXBT._fields)
-"""
-    name: LTCXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XLTCZEUR(Symbol):
@@ -30876,17 +24353,6 @@ class XLTCZEUR(Symbol):
 
 
 XLTCZEUR = XLTCZEUR(*XLTCZEUR._fields)
-"""
-    name: LTCEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XLTCZJPY(Symbol):
@@ -30928,17 +24394,6 @@ class XLTCZJPY(Symbol):
 
 
 XLTCZJPY = XLTCZJPY(*XLTCZJPY._fields)
-"""
-    name: LTCJPY
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XLTCZUSD(Symbol):
@@ -30980,17 +24435,6 @@ class XLTCZUSD(Symbol):
 
 
 XLTCZUSD = XLTCZUSD(*XLTCZUSD._fields)
-"""
-    name: LTCUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.06
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XMLNXETH(Symbol):
@@ -31032,17 +24476,6 @@ class XMLNXETH(Symbol):
 
 
 XMLNXETH = XMLNXETH(*XMLNXETH._fields)
-"""
-    name: MLNETH
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XMLNXXBT(Symbol):
@@ -31084,17 +24517,6 @@ class XMLNXXBT(Symbol):
 
 
 XMLNXXBT = XMLNXXBT(*XMLNXXBT._fields)
-"""
-    name: MLNXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XMLNZEUR(Symbol):
@@ -31136,17 +24558,6 @@ class XMLNZEUR(Symbol):
 
 
 XMLNZEUR = XMLNZEUR(*XMLNZEUR._fields)
-"""
-    name: MLNEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XMLNZUSD(Symbol):
@@ -31188,17 +24599,6 @@ class XMLNZUSD(Symbol):
 
 
 XMLNZUSD = XMLNZUSD(*XMLNZUSD._fields)
-"""
-    name: MLNUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XMRUSDT(Symbol):
@@ -31240,17 +24640,6 @@ class XMRUSDT(Symbol):
 
 
 XMRUSDT = XMRUSDT(*XMRUSDT._fields)
-"""
-    name: XMRUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.035
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XREPXXBT(Symbol):
@@ -31292,17 +24681,6 @@ class XREPXXBT(Symbol):
 
 
 XREPXXBT = XREPXXBT(*XREPXXBT._fields)
-"""
-    name: REPXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XREPZEUR(Symbol):
@@ -31344,17 +24722,6 @@ class XREPZEUR(Symbol):
 
 
 XREPZEUR = XREPZEUR(*XREPZEUR._fields)
-"""
-    name: REPEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XREPZUSD(Symbol):
@@ -31396,17 +24763,6 @@ class XREPZUSD(Symbol):
 
 
 XREPZUSD = XREPZUSD(*XREPZUSD._fields)
-"""
-    name: REPUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XRPAUD(Symbol):
@@ -31448,17 +24804,6 @@ class XRPAUD(Symbol):
 
 
 XRPAUD = XRPAUD(*XRPAUD._fields)
-"""
-    name: XRPAUD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XRPETH(Symbol):
@@ -31500,17 +24845,6 @@ class XRPETH(Symbol):
 
 
 XRPETH = XRPETH(*XRPETH._fields)
-"""
-    name: XRPETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XRPGBP(Symbol):
@@ -31552,17 +24886,6 @@ class XRPGBP(Symbol):
 
 
 XRPGBP = XRPGBP(*XRPGBP._fields)
-"""
-    name: XRPGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XRPUSDT(Symbol):
@@ -31604,17 +24927,6 @@ class XRPUSDT(Symbol):
 
 
 XRPUSDT = XRPUSDT(*XRPUSDT._fields)
-"""
-    name: XRPUSDT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XRTEUR(Symbol):
@@ -31656,17 +24968,6 @@ class XRTEUR(Symbol):
 
 
 XRTEUR = XRTEUR(*XRTEUR._fields)
-"""
-    name: XRTEUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XRTUSD(Symbol):
@@ -31708,17 +25009,6 @@ class XRTUSD(Symbol):
 
 
 XRTUSD = XRTUSD(*XRTUSD._fields)
-"""
-    name: XRTUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XTZAUD(Symbol):
@@ -31760,17 +25050,6 @@ class XTZAUD(Symbol):
 
 
 XTZAUD = XTZAUD(*XTZAUD._fields)
-"""
-    name: XTZAUD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XTZETH(Symbol):
@@ -31812,17 +25091,6 @@ class XTZETH(Symbol):
 
 
 XTZETH = XTZETH(*XTZETH._fields)
-"""
-    name: XTZETH
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XTZEUR(Symbol):
@@ -31864,17 +25132,6 @@ class XTZEUR(Symbol):
 
 
 XTZEUR = XTZEUR(*XTZEUR._fields)
-"""
-    name: XTZEUR
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XTZGBP(Symbol):
@@ -31916,17 +25173,6 @@ class XTZGBP(Symbol):
 
 
 XTZGBP = XTZGBP(*XTZGBP._fields)
-"""
-    name: XTZGBP
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XTZUSD(Symbol):
@@ -31968,17 +25214,6 @@ class XTZUSD(Symbol):
 
 
 XTZUSD = XTZUSD(*XTZUSD._fields)
-"""
-    name: XTZUSD
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XTZUSDT(Symbol):
@@ -32020,17 +25255,6 @@ class XTZUSDT(Symbol):
 
 
 XTZUSDT = XTZUSDT(*XTZUSDT._fields)
-"""
-    name: XTZUSDT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XTZXBT(Symbol):
@@ -32072,17 +25296,6 @@ class XTZXBT(Symbol):
 
 
 XTZXBT = XTZXBT(*XTZXBT._fields)
-"""
-    name: XTZXBT
-    significant_digits: None
-    tick_size: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXBTZCAD(Symbol):
@@ -32124,17 +25337,6 @@ class XXBTZCAD(Symbol):
 
 
 XXBTZCAD = XXBTZCAD(*XXBTZCAD._fields)
-"""
-    name: XBTCAD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXBTZEUR(Symbol):
@@ -32176,17 +25378,6 @@ class XXBTZEUR(Symbol):
 
 
 XXBTZEUR = XXBTZEUR(*XXBTZEUR._fields)
-"""
-    name: XBTEUR
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXBTZGBP(Symbol):
@@ -32228,17 +25419,6 @@ class XXBTZGBP(Symbol):
 
 
 XXBTZGBP = XXBTZGBP(*XXBTZGBP._fields)
-"""
-    name: XBTGBP
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXBTZJPY(Symbol):
@@ -32280,17 +25460,6 @@ class XXBTZJPY(Symbol):
 
 
 XXBTZJPY = XXBTZJPY(*XXBTZJPY._fields)
-"""
-    name: XBTJPY
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XXBTZUSD(Symbol):
@@ -32332,17 +25501,6 @@ class XXBTZUSD(Symbol):
 
 
 XXBTZUSD = XXBTZUSD(*XXBTZUSD._fields)
-"""
-    name: XBTUSD
-    significant_digits: None
-    tick_size: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXDGXXBT(Symbol):
@@ -32384,17 +25542,6 @@ class XXDGXXBT(Symbol):
 
 
 XXDGXXBT = XXDGXXBT(*XXDGXXBT._fields)
-"""
-    name: XDGXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXLMXXBT(Symbol):
@@ -32436,17 +25583,6 @@ class XXLMXXBT(Symbol):
 
 
 XXLMXXBT = XXLMXXBT(*XXLMXXBT._fields)
-"""
-    name: XLMXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXLMZEUR(Symbol):
@@ -32488,17 +25624,6 @@ class XXLMZEUR(Symbol):
 
 
 XXLMZEUR = XXLMZEUR(*XXLMZEUR._fields)
-"""
-    name: XLMEUR
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXLMZGBP(Symbol):
@@ -32540,17 +25665,6 @@ class XXLMZGBP(Symbol):
 
 
 XXLMZGBP = XXLMZGBP(*XXLMZGBP._fields)
-"""
-    name: XLMGBP
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XXLMZUSD(Symbol):
@@ -32592,17 +25706,6 @@ class XXLMZUSD(Symbol):
 
 
 XXLMZUSD = XXLMZUSD(*XXLMZUSD._fields)
-"""
-    name: XLMUSD
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXMRXXBT(Symbol):
@@ -32644,17 +25747,6 @@ class XXMRXXBT(Symbol):
 
 
 XXMRXXBT = XXMRXXBT(*XXMRXXBT._fields)
-"""
-    name: XMRXBT
-    significant_digits: None
-    tick_size: 0.000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.035
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXMRZEUR(Symbol):
@@ -32696,17 +25788,6 @@ class XXMRZEUR(Symbol):
 
 
 XXMRZEUR = XXMRZEUR(*XXMRZEUR._fields)
-"""
-    name: XMREUR
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.035
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXMRZUSD(Symbol):
@@ -32748,17 +25829,6 @@ class XXMRZUSD(Symbol):
 
 
 XXMRZUSD = XXMRZUSD(*XXMRZUSD._fields)
-"""
-    name: XMRUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.035
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXRPXXBT(Symbol):
@@ -32800,17 +25870,6 @@ class XXRPXXBT(Symbol):
 
 
 XXRPXXBT = XXRPXXBT(*XXRPXXBT._fields)
-"""
-    name: XRPXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXRPZCAD(Symbol):
@@ -32852,17 +25911,6 @@ class XXRPZCAD(Symbol):
 
 
 XXRPZCAD = XXRPZCAD(*XXRPZCAD._fields)
-"""
-    name: XRPCAD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XXRPZEUR(Symbol):
@@ -32904,17 +25952,6 @@ class XXRPZEUR(Symbol):
 
 
 XXRPZEUR = XXRPZEUR(*XXRPZEUR._fields)
-"""
-    name: XRPEUR
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XXRPZJPY(Symbol):
@@ -32956,17 +25993,6 @@ class XXRPZJPY(Symbol):
 
 
 XXRPZJPY = XXRPZJPY(*XXRPZJPY._fields)
-"""
-    name: XRPJPY
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class XXRPZUSD(Symbol):
@@ -33008,17 +26034,6 @@ class XXRPZUSD(Symbol):
 
 
 XXRPZUSD = XXRPZUSD(*XXRPZUSD._fields)
-"""
-    name: XRPUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XZECXXBT(Symbol):
@@ -33060,17 +26075,6 @@ class XZECXXBT(Symbol):
 
 
 XZECXXBT = XZECXXBT(*XZECXXBT._fields)
-"""
-    name: ZECXBT
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XZECZEUR(Symbol):
@@ -33112,17 +26116,6 @@ class XZECZEUR(Symbol):
 
 
 XZECZEUR = XZECZEUR(*XZECZEUR._fields)
-"""
-    name: ZECEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class XZECZUSD(Symbol):
@@ -33164,17 +26157,6 @@ class XZECZUSD(Symbol):
 
 
 XZECZUSD = XZECZUSD(*XZECZUSD._fields)
-"""
-    name: ZECUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: True
-    exchange: kraken
-"""
 
 
 class YFIEUR(Symbol):
@@ -33216,17 +26198,6 @@ class YFIEUR(Symbol):
 
 
 YFIEUR = YFIEUR(*YFIEUR._fields)
-"""
-    name: YFIEUR
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0007
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class YFIUSD(Symbol):
@@ -33268,17 +26239,6 @@ class YFIUSD(Symbol):
 
 
 YFIUSD = YFIUSD(*YFIUSD._fields)
-"""
-    name: YFIUSD
-    significant_digits: None
-    tick_size: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0007
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class YFIXBT(Symbol):
@@ -33320,17 +26280,6 @@ class YFIXBT(Symbol):
 
 
 YFIXBT = YFIXBT(*YFIXBT._fields)
-"""
-    name: YFIXBT
-    significant_digits: None
-    tick_size: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0007
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class YGGEUR(Symbol):
@@ -33372,17 +26321,6 @@ class YGGEUR(Symbol):
 
 
 YGGEUR = YGGEUR(*YGGEUR._fields)
-"""
-    name: YGGEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class YGGUSD(Symbol):
@@ -33424,17 +26362,6 @@ class YGGUSD(Symbol):
 
 
 YGGUSD = YGGUSD(*YGGUSD._fields)
-"""
-    name: YGGUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 17.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZEURZUSD(Symbol):
@@ -33476,17 +26403,6 @@ class ZEURZUSD(Symbol):
 
 
 ZEURZUSD = ZEURZUSD(*ZEURZUSD._fields)
-"""
-    name: EURUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZGBPZUSD(Symbol):
@@ -33528,17 +26444,6 @@ class ZGBPZUSD(Symbol):
 
 
 ZGBPZUSD = ZGBPZUSD(*ZGBPZUSD._fields)
-"""
-    name: GBPUSD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZRXEUR(Symbol):
@@ -33580,17 +26485,6 @@ class ZRXEUR(Symbol):
 
 
 ZRXEUR = ZRXEUR(*ZRXEUR._fields)
-"""
-    name: ZRXEUR
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZRXUSD(Symbol):
@@ -33632,17 +26526,6 @@ class ZRXUSD(Symbol):
 
 
 ZRXUSD = ZRXUSD(*ZRXUSD._fields)
-"""
-    name: ZRXUSD
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZRXXBT(Symbol):
@@ -33684,17 +26567,6 @@ class ZRXXBT(Symbol):
 
 
 ZRXXBT = ZRXXBT(*ZRXXBT._fields)
-"""
-    name: ZRXXBT
-    significant_digits: None
-    tick_size: 0.00000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZUSDZCAD(Symbol):
@@ -33736,17 +26608,6 @@ class ZUSDZCAD(Symbol):
 
 
 ZUSDZCAD = ZUSDZCAD(*ZUSDZCAD._fields)
-"""
-    name: USDCAD
-    significant_digits: None
-    tick_size: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
 
 
 class ZUSDZJPY(Symbol):
@@ -33788,14 +26649,662 @@ class ZUSDZJPY(Symbol):
 
 
 ZUSDZJPY = ZUSDZJPY(*ZUSDZJPY._fields)
-"""
-    name: USDJPY
-    significant_digits: None
-    tick_size: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
+
+
+class Kraken:
+
+    ONEINCHEUR: Symbol = ONEINCHEUR
+    ONEINCHUSD: Symbol = ONEINCHUSD
+    AAVEETH: Symbol = AAVEETH
+    AAVEEUR: Symbol = AAVEEUR
+    AAVEGBP: Symbol = AAVEGBP
+    AAVEUSD: Symbol = AAVEUSD
+    AAVEXBT: Symbol = AAVEXBT
+    ACAEUR: Symbol = ACAEUR
+    ACAUSD: Symbol = ACAUSD
+    ACHEUR: Symbol = ACHEUR
+    ACHUSD: Symbol = ACHUSD
+    ADAAUD: Symbol = ADAAUD
+    ADAETH: Symbol = ADAETH
+    ADAEUR: Symbol = ADAEUR
+    ADAGBP: Symbol = ADAGBP
+    ADAUSD: Symbol = ADAUSD
+    ADAUSDT: Symbol = ADAUSDT
+    ADAXBT: Symbol = ADAXBT
+    ADXEUR: Symbol = ADXEUR
+    ADXUSD: Symbol = ADXUSD
+    AGLDEUR: Symbol = AGLDEUR
+    AGLDUSD: Symbol = AGLDUSD
+    AIREUR: Symbol = AIREUR
+    AIRUSD: Symbol = AIRUSD
+    AKTEUR: Symbol = AKTEUR
+    AKTUSD: Symbol = AKTUSD
+    ALCXEUR: Symbol = ALCXEUR
+    ALCXUSD: Symbol = ALCXUSD
+    ALGOETH: Symbol = ALGOETH
+    ALGOEUR: Symbol = ALGOEUR
+    ALGOGBP: Symbol = ALGOGBP
+    ALGOUSD: Symbol = ALGOUSD
+    ALGOUSDT: Symbol = ALGOUSDT
+    ALGOXBT: Symbol = ALGOXBT
+    ALICEEUR: Symbol = ALICEEUR
+    ALICEUSD: Symbol = ALICEUSD
+    ALPHAEUR: Symbol = ALPHAEUR
+    ALPHAUSD: Symbol = ALPHAUSD
+    ANKREUR: Symbol = ANKREUR
+    ANKRUSD: Symbol = ANKRUSD
+    ANKRXBT: Symbol = ANKRXBT
+    ANTETH: Symbol = ANTETH
+    ANTEUR: Symbol = ANTEUR
+    ANTUSD: Symbol = ANTUSD
+    ANTXBT: Symbol = ANTXBT
+    APEEUR: Symbol = APEEUR
+    APEUSD: Symbol = APEUSD
+    APEUSDT: Symbol = APEUSDT
+    API3EUR: Symbol = API3EUR
+    API3USD: Symbol = API3USD
+    APTEUR: Symbol = APTEUR
+    APTUSD: Symbol = APTUSD
+    ARBEUR: Symbol = ARBEUR
+    ARBUSD: Symbol = ARBUSD
+    ARPAEUR: Symbol = ARPAEUR
+    ARPAUSD: Symbol = ARPAUSD
+    ASTREUR: Symbol = ASTREUR
+    ASTRUSD: Symbol = ASTRUSD
+    ATLASEUR: Symbol = ATLASEUR
+    ATLASUSD: Symbol = ATLASUSD
+    ATOMETH: Symbol = ATOMETH
+    ATOMEUR: Symbol = ATOMEUR
+    ATOMGBP: Symbol = ATOMGBP
+    ATOMUSD: Symbol = ATOMUSD
+    ATOMUSDT: Symbol = ATOMUSDT
+    ATOMXBT: Symbol = ATOMXBT
+    AUDIOEUR: Symbol = AUDIOEUR
+    AUDIOUSD: Symbol = AUDIOUSD
+    AUDJPY: Symbol = AUDJPY
+    AUDUSD: Symbol = AUDUSD
+    AVAXEUR: Symbol = AVAXEUR
+    AVAXUSD: Symbol = AVAXUSD
+    AVAXUSDT: Symbol = AVAXUSDT
+    AXSEUR: Symbol = AXSEUR
+    AXSUSD: Symbol = AXSUSD
+    BADGEREUR: Symbol = BADGEREUR
+    BADGERUSD: Symbol = BADGERUSD
+    BALEUR: Symbol = BALEUR
+    BALUSD: Symbol = BALUSD
+    BALXBT: Symbol = BALXBT
+    BANDEUR: Symbol = BANDEUR
+    BANDUSD: Symbol = BANDUSD
+    BATETH: Symbol = BATETH
+    BATEUR: Symbol = BATEUR
+    BATJPY: Symbol = BATJPY
+    BATUSD: Symbol = BATUSD
+    BATXBT: Symbol = BATXBT
+    BCHAUD: Symbol = BCHAUD
+    BCHETH: Symbol = BCHETH
+    BCHEUR: Symbol = BCHEUR
+    BCHGBP: Symbol = BCHGBP
+    BCHJPY: Symbol = BCHJPY
+    BCHUSD: Symbol = BCHUSD
+    BCHUSDT: Symbol = BCHUSDT
+    BCHXBT: Symbol = BCHXBT
+    BICOEUR: Symbol = BICOEUR
+    BICOUSD: Symbol = BICOUSD
+    BITEUR: Symbol = BITEUR
+    BITUSD: Symbol = BITUSD
+    BLUREUR: Symbol = BLUREUR
+    BLURUSD: Symbol = BLURUSD
+    BLZEUR: Symbol = BLZEUR
+    BLZUSD: Symbol = BLZUSD
+    BNCEUR: Symbol = BNCEUR
+    BNCUSD: Symbol = BNCUSD
+    BNTEUR: Symbol = BNTEUR
+    BNTUSD: Symbol = BNTUSD
+    BNTXBT: Symbol = BNTXBT
+    BOBAEUR: Symbol = BOBAEUR
+    BOBAUSD: Symbol = BOBAUSD
+    BONDEUR: Symbol = BONDEUR
+    BONDUSD: Symbol = BONDUSD
+    BSXEUR: Symbol = BSXEUR
+    BSXUSD: Symbol = BSXUSD
+    BTTEUR: Symbol = BTTEUR
+    BTTUSD: Symbol = BTTUSD
+    C98EUR: Symbol = C98EUR
+    C98USD: Symbol = C98USD
+    CELREUR: Symbol = CELREUR
+    CELRUSD: Symbol = CELRUSD
+    CFGEUR: Symbol = CFGEUR
+    CFGUSD: Symbol = CFGUSD
+    CHREUR: Symbol = CHREUR
+    CHRUSD: Symbol = CHRUSD
+    CHZEUR: Symbol = CHZEUR
+    CHZUSD: Symbol = CHZUSD
+    COMPEUR: Symbol = COMPEUR
+    COMPUSD: Symbol = COMPUSD
+    COMPXBT: Symbol = COMPXBT
+    COTIEUR: Symbol = COTIEUR
+    COTIUSD: Symbol = COTIUSD
+    CQTEUR: Symbol = CQTEUR
+    CQTUSD: Symbol = CQTUSD
+    CRVETH: Symbol = CRVETH
+    CRVEUR: Symbol = CRVEUR
+    CRVUSD: Symbol = CRVUSD
+    CRVXBT: Symbol = CRVXBT
+    CSMEUR: Symbol = CSMEUR
+    CSMUSD: Symbol = CSMUSD
+    CTSIEUR: Symbol = CTSIEUR
+    CTSIUSD: Symbol = CTSIUSD
+    CVCEUR: Symbol = CVCEUR
+    CVCUSD: Symbol = CVCUSD
+    CVXEUR: Symbol = CVXEUR
+    CVXUSD: Symbol = CVXUSD
+    DAIEUR: Symbol = DAIEUR
+    DAIUSD: Symbol = DAIUSD
+    DAIUSDT: Symbol = DAIUSDT
+    DASHEUR: Symbol = DASHEUR
+    DASHUSD: Symbol = DASHUSD
+    DASHXBT: Symbol = DASHXBT
+    DENTEUR: Symbol = DENTEUR
+    DENTUSD: Symbol = DENTUSD
+    DOTETH: Symbol = DOTETH
+    DOTEUR: Symbol = DOTEUR
+    DOTGBP: Symbol = DOTGBP
+    DOTJPY: Symbol = DOTJPY
+    DOTUSD: Symbol = DOTUSD
+    DOTUSDT: Symbol = DOTUSDT
+    DOTXBT: Symbol = DOTXBT
+    DYDXEUR: Symbol = DYDXEUR
+    DYDXUSD: Symbol = DYDXUSD
+    EGLDEUR: Symbol = EGLDEUR
+    EGLDUSD: Symbol = EGLDUSD
+    ENJEUR: Symbol = ENJEUR
+    ENJGBP: Symbol = ENJGBP
+    ENJJPY: Symbol = ENJJPY
+    ENJUSD: Symbol = ENJUSD
+    ENJXBT: Symbol = ENJXBT
+    ENSEUR: Symbol = ENSEUR
+    ENSUSD: Symbol = ENSUSD
+    EOSETH: Symbol = EOSETH
+    EOSEUR: Symbol = EOSEUR
+    EOSUSD: Symbol = EOSUSD
+    EOSUSDT: Symbol = EOSUSDT
+    EOSXBT: Symbol = EOSXBT
+    ETH2_SETH: Symbol = ETH2_SETH
+    ETHAED: Symbol = ETHAED
+    ETHAUD: Symbol = ETHAUD
+    ETHCHF: Symbol = ETHCHF
+    ETHDAI: Symbol = ETHDAI
+    ETHUSDC: Symbol = ETHUSDC
+    ETHUSDT: Symbol = ETHUSDT
+    ETHWETH: Symbol = ETHWETH
+    ETHWEUR: Symbol = ETHWEUR
+    ETHWUSD: Symbol = ETHWUSD
+    EULEUR: Symbol = EULEUR
+    EULUSD: Symbol = EULUSD
+    EURAUD: Symbol = EURAUD
+    EURCAD: Symbol = EURCAD
+    EURCHF: Symbol = EURCHF
+    EURGBP: Symbol = EURGBP
+    EURJPY: Symbol = EURJPY
+    EURTEUR: Symbol = EURTEUR
+    EURTUSD: Symbol = EURTUSD
+    EURTUSDT: Symbol = EURTUSDT
+    EWTEUR: Symbol = EWTEUR
+    EWTGBP: Symbol = EWTGBP
+    EWTUSD: Symbol = EWTUSD
+    EWTXBT: Symbol = EWTXBT
+    FARMEUR: Symbol = FARMEUR
+    FARMUSD: Symbol = FARMUSD
+    FETEUR: Symbol = FETEUR
+    FETUSD: Symbol = FETUSD
+    FIDAEUR: Symbol = FIDAEUR
+    FIDAUSD: Symbol = FIDAUSD
+    FILETH: Symbol = FILETH
+    FILEUR: Symbol = FILEUR
+    FILGBP: Symbol = FILGBP
+    FILUSD: Symbol = FILUSD
+    FILXBT: Symbol = FILXBT
+    FISEUR: Symbol = FISEUR
+    FISUSD: Symbol = FISUSD
+    FLOWETH: Symbol = FLOWETH
+    FLOWEUR: Symbol = FLOWEUR
+    FLOWGBP: Symbol = FLOWGBP
+    FLOWUSD: Symbol = FLOWUSD
+    FLOWXBT: Symbol = FLOWXBT
+    FLREUR: Symbol = FLREUR
+    FLRUSD: Symbol = FLRUSD
+    FORTHEUR: Symbol = FORTHEUR
+    FORTHUSD: Symbol = FORTHUSD
+    FTMEUR: Symbol = FTMEUR
+    FTMUSD: Symbol = FTMUSD
+    FXSEUR: Symbol = FXSEUR
+    FXSUSD: Symbol = FXSUSD
+    GALAEUR: Symbol = GALAEUR
+    GALAUSD: Symbol = GALAUSD
+    GALEUR: Symbol = GALEUR
+    GALUSD: Symbol = GALUSD
+    GARIEUR: Symbol = GARIEUR
+    GARIUSD: Symbol = GARIUSD
+    GHSTEUR: Symbol = GHSTEUR
+    GHSTUSD: Symbol = GHSTUSD
+    GHSTXBT: Symbol = GHSTXBT
+    GLMREUR: Symbol = GLMREUR
+    GLMRUSD: Symbol = GLMRUSD
+    GMTEUR: Symbol = GMTEUR
+    GMTUSD: Symbol = GMTUSD
+    GMXEUR: Symbol = GMXEUR
+    GMXUSD: Symbol = GMXUSD
+    GNOEUR: Symbol = GNOEUR
+    GNOUSD: Symbol = GNOUSD
+    GNOXBT: Symbol = GNOXBT
+    GRTEUR: Symbol = GRTEUR
+    GRTGBP: Symbol = GRTGBP
+    GRTUSD: Symbol = GRTUSD
+    GRTXBT: Symbol = GRTXBT
+    GSTEUR: Symbol = GSTEUR
+    GSTUSD: Symbol = GSTUSD
+    GTCEUR: Symbol = GTCEUR
+    GTCUSD: Symbol = GTCUSD
+    HDXEUR: Symbol = HDXEUR
+    HDXUSD: Symbol = HDXUSD
+    HFTEUR: Symbol = HFTEUR
+    HFTUSD: Symbol = HFTUSD
+    ICPEUR: Symbol = ICPEUR
+    ICPUSD: Symbol = ICPUSD
+    ICXETH: Symbol = ICXETH
+    ICXEUR: Symbol = ICXEUR
+    ICXUSD: Symbol = ICXUSD
+    ICXXBT: Symbol = ICXXBT
+    IDEXEUR: Symbol = IDEXEUR
+    IDEXUSD: Symbol = IDEXUSD
+    IMXEUR: Symbol = IMXEUR
+    IMXUSD: Symbol = IMXUSD
+    INJEUR: Symbol = INJEUR
+    INJUSD: Symbol = INJUSD
+    INTREUR: Symbol = INTREUR
+    INTRUSD: Symbol = INTRUSD
+    JASMYEUR: Symbol = JASMYEUR
+    JASMYUSD: Symbol = JASMYUSD
+    JUNOEUR: Symbol = JUNOEUR
+    JUNOUSD: Symbol = JUNOUSD
+    KAREUR: Symbol = KAREUR
+    KARUSD: Symbol = KARUSD
+    KAVAETH: Symbol = KAVAETH
+    KAVAEUR: Symbol = KAVAEUR
+    KAVAUSD: Symbol = KAVAUSD
+    KAVAXBT: Symbol = KAVAXBT
+    KEEPEUR: Symbol = KEEPEUR
+    KEEPUSD: Symbol = KEEPUSD
+    KEEPXBT: Symbol = KEEPXBT
+    KEYEUR: Symbol = KEYEUR
+    KEYUSD: Symbol = KEYUSD
+    KILTEUR: Symbol = KILTEUR
+    KILTUSD: Symbol = KILTUSD
+    KINEUR: Symbol = KINEUR
+    KINTEUR: Symbol = KINTEUR
+    KINTUSD: Symbol = KINTUSD
+    KINUSD: Symbol = KINUSD
+    KNCETH: Symbol = KNCETH
+    KNCEUR: Symbol = KNCEUR
+    KNCUSD: Symbol = KNCUSD
+    KNCXBT: Symbol = KNCXBT
+    KP3REUR: Symbol = KP3REUR
+    KP3RUSD: Symbol = KP3RUSD
+    KSMDOT: Symbol = KSMDOT
+    KSMETH: Symbol = KSMETH
+    KSMEUR: Symbol = KSMEUR
+    KSMGBP: Symbol = KSMGBP
+    KSMUSD: Symbol = KSMUSD
+    KSMXBT: Symbol = KSMXBT
+    LCXEUR: Symbol = LCXEUR
+    LCXUSD: Symbol = LCXUSD
+    LDOEUR: Symbol = LDOEUR
+    LDOUSD: Symbol = LDOUSD
+    LINKAUD: Symbol = LINKAUD
+    LINKETH: Symbol = LINKETH
+    LINKEUR: Symbol = LINKEUR
+    LINKGBP: Symbol = LINKGBP
+    LINKJPY: Symbol = LINKJPY
+    LINKUSD: Symbol = LINKUSD
+    LINKUSDT: Symbol = LINKUSDT
+    LINKXBT: Symbol = LINKXBT
+    LPTEUR: Symbol = LPTEUR
+    LPTGBP: Symbol = LPTGBP
+    LPTUSD: Symbol = LPTUSD
+    LPTXBT: Symbol = LPTXBT
+    LRCEUR: Symbol = LRCEUR
+    LRCUSD: Symbol = LRCUSD
+    LSKETH: Symbol = LSKETH
+    LSKEUR: Symbol = LSKEUR
+    LSKUSD: Symbol = LSKUSD
+    LSKXBT: Symbol = LSKXBT
+    LTCAUD: Symbol = LTCAUD
+    LTCETH: Symbol = LTCETH
+    LTCGBP: Symbol = LTCGBP
+    LTCUSDT: Symbol = LTCUSDT
+    LUNA2EUR: Symbol = LUNA2EUR
+    LUNA2USD: Symbol = LUNA2USD
+    LUNAEUR: Symbol = LUNAEUR
+    LUNAUSD: Symbol = LUNAUSD
+    MANAETH: Symbol = MANAETH
+    MANAEUR: Symbol = MANAEUR
+    MANAUSD: Symbol = MANAUSD
+    MANAUSDT: Symbol = MANAUSDT
+    MANAXBT: Symbol = MANAXBT
+    MASKEUR: Symbol = MASKEUR
+    MASKUSD: Symbol = MASKUSD
+    MATICEUR: Symbol = MATICEUR
+    MATICGBP: Symbol = MATICGBP
+    MATICUSD: Symbol = MATICUSD
+    MATICUSDT: Symbol = MATICUSDT
+    MATICXBT: Symbol = MATICXBT
+    MCEUR: Symbol = MCEUR
+    MCUSD: Symbol = MCUSD
+    MINAEUR: Symbol = MINAEUR
+    MINAGBP: Symbol = MINAGBP
+    MINAUSD: Symbol = MINAUSD
+    MINAXBT: Symbol = MINAXBT
+    MIREUR: Symbol = MIREUR
+    MIRUSD: Symbol = MIRUSD
+    MKREUR: Symbol = MKREUR
+    MKRUSD: Symbol = MKRUSD
+    MKRXBT: Symbol = MKRXBT
+    MNGOEUR: Symbol = MNGOEUR
+    MNGOUSD: Symbol = MNGOUSD
+    MOVREUR: Symbol = MOVREUR
+    MOVRUSD: Symbol = MOVRUSD
+    MSOLEUR: Symbol = MSOLEUR
+    MSOLUSD: Symbol = MSOLUSD
+    MULTIEUR: Symbol = MULTIEUR
+    MULTIUSD: Symbol = MULTIUSD
+    MVEUR: Symbol = MVEUR
+    MVUSD: Symbol = MVUSD
+    MXCEUR: Symbol = MXCEUR
+    MXCUSD: Symbol = MXCUSD
+    NANOETH: Symbol = NANOETH
+    NANOEUR: Symbol = NANOEUR
+    NANOUSD: Symbol = NANOUSD
+    NANOXBT: Symbol = NANOXBT
+    NEAREUR: Symbol = NEAREUR
+    NEARUSD: Symbol = NEARUSD
+    NMREUR: Symbol = NMREUR
+    NMRUSD: Symbol = NMRUSD
+    NODLEUR: Symbol = NODLEUR
+    NODLUSD: Symbol = NODLUSD
+    NYMEUR: Symbol = NYMEUR
+    NYMUSD: Symbol = NYMUSD
+    NYMXBT: Symbol = NYMXBT
+    OCEANEUR: Symbol = OCEANEUR
+    OCEANGBP: Symbol = OCEANGBP
+    OCEANUSD: Symbol = OCEANUSD
+    OCEANXBT: Symbol = OCEANXBT
+    OGNEUR: Symbol = OGNEUR
+    OGNUSD: Symbol = OGNUSD
+    OMGETH: Symbol = OMGETH
+    OMGEUR: Symbol = OMGEUR
+    OMGJPY: Symbol = OMGJPY
+    OMGUSD: Symbol = OMGUSD
+    OMGXBT: Symbol = OMGXBT
+    ORCAEUR: Symbol = ORCAEUR
+    ORCAUSD: Symbol = ORCAUSD
+    OXTEUR: Symbol = OXTEUR
+    OXTUSD: Symbol = OXTUSD
+    OXTXBT: Symbol = OXTXBT
+    OXYEUR: Symbol = OXYEUR
+    OXYUSD: Symbol = OXYUSD
+    PARAEUR: Symbol = PARAEUR
+    PARAUSD: Symbol = PARAUSD
+    PAXGETH: Symbol = PAXGETH
+    PAXGEUR: Symbol = PAXGEUR
+    PAXGUSD: Symbol = PAXGUSD
+    PAXGXBT: Symbol = PAXGXBT
+    PERPEUR: Symbol = PERPEUR
+    PERPUSD: Symbol = PERPUSD
+    PHAEUR: Symbol = PHAEUR
+    PHAUSD: Symbol = PHAUSD
+    PLAEUR: Symbol = PLAEUR
+    PLAUSD: Symbol = PLAUSD
+    POLISEUR: Symbol = POLISEUR
+    POLISUSD: Symbol = POLISUSD
+    POLSEUR: Symbol = POLSEUR
+    POLSUSD: Symbol = POLSUSD
+    PONDEUR: Symbol = PONDEUR
+    PONDUSD: Symbol = PONDUSD
+    POWREUR: Symbol = POWREUR
+    POWRUSD: Symbol = POWRUSD
+    PSTAKEEUR: Symbol = PSTAKEEUR
+    PSTAKEUSD: Symbol = PSTAKEUSD
+    QNTEUR: Symbol = QNTEUR
+    QNTUSD: Symbol = QNTUSD
+    QTUMETH: Symbol = QTUMETH
+    QTUMEUR: Symbol = QTUMEUR
+    QTUMUSD: Symbol = QTUMUSD
+    QTUMXBT: Symbol = QTUMXBT
+    RADEUR: Symbol = RADEUR
+    RADUSD: Symbol = RADUSD
+    RAREEUR: Symbol = RAREEUR
+    RAREUSD: Symbol = RAREUSD
+    RARIEUR: Symbol = RARIEUR
+    RARIUSD: Symbol = RARIUSD
+    RARIXBT: Symbol = RARIXBT
+    RAYEUR: Symbol = RAYEUR
+    RAYUSD: Symbol = RAYUSD
+    RBCEUR: Symbol = RBCEUR
+    RBCUSD: Symbol = RBCUSD
+    RENEUR: Symbol = RENEUR
+    RENUSD: Symbol = RENUSD
+    RENXBT: Symbol = RENXBT
+    REPV2ETH: Symbol = REPV2ETH
+    REPV2EUR: Symbol = REPV2EUR
+    REPV2USD: Symbol = REPV2USD
+    REPV2XBT: Symbol = REPV2XBT
+    REQEUR: Symbol = REQEUR
+    REQUSD: Symbol = REQUSD
+    RLCEUR: Symbol = RLCEUR
+    RLCUSD: Symbol = RLCUSD
+    RNDREUR: Symbol = RNDREUR
+    RNDRUSD: Symbol = RNDRUSD
+    ROOKEUR: Symbol = ROOKEUR
+    ROOKUSD: Symbol = ROOKUSD
+    RPLEUR: Symbol = RPLEUR
+    RPLUSD: Symbol = RPLUSD
+    RUNEEUR: Symbol = RUNEEUR
+    RUNEUSD: Symbol = RUNEUSD
+    SAMOEUR: Symbol = SAMOEUR
+    SAMOUSD: Symbol = SAMOUSD
+    SANDEUR: Symbol = SANDEUR
+    SANDGBP: Symbol = SANDGBP
+    SANDUSD: Symbol = SANDUSD
+    SANDXBT: Symbol = SANDXBT
+    SBREUR: Symbol = SBREUR
+    SBRUSD: Symbol = SBRUSD
+    SCETH: Symbol = SCETH
+    SCEUR: Symbol = SCEUR
+    SCRTEUR: Symbol = SCRTEUR
+    SCRTUSD: Symbol = SCRTUSD
+    SCUSD: Symbol = SCUSD
+    SCXBT: Symbol = SCXBT
+    SDNEUR: Symbol = SDNEUR
+    SDNUSD: Symbol = SDNUSD
+    SGBEUR: Symbol = SGBEUR
+    SGBUSD: Symbol = SGBUSD
+    SHIBEUR: Symbol = SHIBEUR
+    SHIBUSD: Symbol = SHIBUSD
+    SHIBUSDT: Symbol = SHIBUSDT
+    SNXETH: Symbol = SNXETH
+    SNXEUR: Symbol = SNXEUR
+    SNXUSD: Symbol = SNXUSD
+    SNXXBT: Symbol = SNXXBT
+    SOLEUR: Symbol = SOLEUR
+    SOLGBP: Symbol = SOLGBP
+    SOLUSD: Symbol = SOLUSD
+    SOLUSDT: Symbol = SOLUSDT
+    SOLXBT: Symbol = SOLXBT
+    SPELLEUR: Symbol = SPELLEUR
+    SPELLUSD: Symbol = SPELLUSD
+    SRMEUR: Symbol = SRMEUR
+    SRMUSD: Symbol = SRMUSD
+    SRMXBT: Symbol = SRMXBT
+    STEPEUR: Symbol = STEPEUR
+    STEPUSD: Symbol = STEPUSD
+    STGEUR: Symbol = STGEUR
+    STGUSD: Symbol = STGUSD
+    STORJEUR: Symbol = STORJEUR
+    STORJUSD: Symbol = STORJUSD
+    STORJXBT: Symbol = STORJXBT
+    STXEUR: Symbol = STXEUR
+    STXUSD: Symbol = STXUSD
+    SUIEUR: Symbol = SUIEUR
+    SUIUSD: Symbol = SUIUSD
+    SUPEREUR: Symbol = SUPEREUR
+    SUPERUSD: Symbol = SUPERUSD
+    SUSHIEUR: Symbol = SUSHIEUR
+    SUSHIGBP: Symbol = SUSHIGBP
+    SUSHIUSD: Symbol = SUSHIUSD
+    SUSHIXBT: Symbol = SUSHIXBT
+    SYNEUR: Symbol = SYNEUR
+    SYNUSD: Symbol = SYNUSD
+    TBTCEUR: Symbol = TBTCEUR
+    TBTCUSD: Symbol = TBTCUSD
+    TBTCXBT: Symbol = TBTCXBT
+    TEEREUR: Symbol = TEEREUR
+    TEERUSD: Symbol = TEERUSD
+    TEUR: Symbol = TEUR
+    TLMEUR: Symbol = TLMEUR
+    TLMUSD: Symbol = TLMUSD
+    TOKEEUR: Symbol = TOKEEUR
+    TOKEUSD: Symbol = TOKEUSD
+    TRIBEEUR: Symbol = TRIBEEUR
+    TRIBEUSD: Symbol = TRIBEUSD
+    TRUEUR: Symbol = TRUEUR
+    TRUUSD: Symbol = TRUUSD
+    TRXETH: Symbol = TRXETH
+    TRXEUR: Symbol = TRXEUR
+    TRXUSD: Symbol = TRXUSD
+    TRXXBT: Symbol = TRXXBT
+    TUSD: Symbol = TUSD
+    TVKEUR: Symbol = TVKEUR
+    TVKUSD: Symbol = TVKUSD
+    UMAEUR: Symbol = UMAEUR
+    UMAUSD: Symbol = UMAUSD
+    UNFIEUR: Symbol = UNFIEUR
+    UNFIUSD: Symbol = UNFIUSD
+    UNIETH: Symbol = UNIETH
+    UNIEUR: Symbol = UNIEUR
+    UNIUSD: Symbol = UNIUSD
+    UNIXBT: Symbol = UNIXBT
+    USDAED: Symbol = USDAED
+    USDCAUD: Symbol = USDCAUD
+    USDCCAD: Symbol = USDCCAD
+    USDCCHF: Symbol = USDCCHF
+    USDCEUR: Symbol = USDCEUR
+    USDCGBP: Symbol = USDCGBP
+    USDCHF: Symbol = USDCHF
+    USDCUSD: Symbol = USDCUSD
+    USDCUSDT: Symbol = USDCUSDT
+    USDTAUD: Symbol = USDTAUD
+    USDTCAD: Symbol = USDTCAD
+    USDTCHF: Symbol = USDTCHF
+    USDTEUR: Symbol = USDTEUR
+    USDTGBP: Symbol = USDTGBP
+    USDTJPY: Symbol = USDTJPY
+    USDTZUSD: Symbol = USDTZUSD
+    USTEUR: Symbol = USTEUR
+    USTUSD: Symbol = USTUSD
+    USTUSDC: Symbol = USTUSDC
+    USTUSDT: Symbol = USTUSDT
+    WAVESETH: Symbol = WAVESETH
+    WAVESEUR: Symbol = WAVESEUR
+    WAVESUSD: Symbol = WAVESUSD
+    WAVESXBT: Symbol = WAVESXBT
+    WAXLEUR: Symbol = WAXLEUR
+    WAXLUSD: Symbol = WAXLUSD
+    WBTCEUR: Symbol = WBTCEUR
+    WBTCUSD: Symbol = WBTCUSD
+    WBTCXBT: Symbol = WBTCXBT
+    WOOEUR: Symbol = WOOEUR
+    WOOUSD: Symbol = WOOUSD
+    XBTAED: Symbol = XBTAED
+    XBTAUD: Symbol = XBTAUD
+    XBTCHF: Symbol = XBTCHF
+    XBTDAI: Symbol = XBTDAI
+    XBTUSDC: Symbol = XBTUSDC
+    XBTUSDT: Symbol = XBTUSDT
+    XCNEUR: Symbol = XCNEUR
+    XCNUSD: Symbol = XCNUSD
+    XDGEUR: Symbol = XDGEUR
+    XDGUSD: Symbol = XDGUSD
+    XDGUSDT: Symbol = XDGUSDT
+    XETCXETH: Symbol = XETCXETH
+    XETCXXBT: Symbol = XETCXXBT
+    XETCZEUR: Symbol = XETCZEUR
+    XETCZUSD: Symbol = XETCZUSD
+    XETHXXBT: Symbol = XETHXXBT
+    XETHZCAD: Symbol = XETHZCAD
+    XETHZEUR: Symbol = XETHZEUR
+    XETHZGBP: Symbol = XETHZGBP
+    XETHZJPY: Symbol = XETHZJPY
+    XETHZUSD: Symbol = XETHZUSD
+    XLTCXXBT: Symbol = XLTCXXBT
+    XLTCZEUR: Symbol = XLTCZEUR
+    XLTCZJPY: Symbol = XLTCZJPY
+    XLTCZUSD: Symbol = XLTCZUSD
+    XMLNXETH: Symbol = XMLNXETH
+    XMLNXXBT: Symbol = XMLNXXBT
+    XMLNZEUR: Symbol = XMLNZEUR
+    XMLNZUSD: Symbol = XMLNZUSD
+    XMRUSDT: Symbol = XMRUSDT
+    XREPXXBT: Symbol = XREPXXBT
+    XREPZEUR: Symbol = XREPZEUR
+    XREPZUSD: Symbol = XREPZUSD
+    XRPAUD: Symbol = XRPAUD
+    XRPETH: Symbol = XRPETH
+    XRPGBP: Symbol = XRPGBP
+    XRPUSDT: Symbol = XRPUSDT
+    XRTEUR: Symbol = XRTEUR
+    XRTUSD: Symbol = XRTUSD
+    XTZAUD: Symbol = XTZAUD
+    XTZETH: Symbol = XTZETH
+    XTZEUR: Symbol = XTZEUR
+    XTZGBP: Symbol = XTZGBP
+    XTZUSD: Symbol = XTZUSD
+    XTZUSDT: Symbol = XTZUSDT
+    XTZXBT: Symbol = XTZXBT
+    XXBTZCAD: Symbol = XXBTZCAD
+    XXBTZEUR: Symbol = XXBTZEUR
+    XXBTZGBP: Symbol = XXBTZGBP
+    XXBTZJPY: Symbol = XXBTZJPY
+    XXBTZUSD: Symbol = XXBTZUSD
+    XXDGXXBT: Symbol = XXDGXXBT
+    XXLMXXBT: Symbol = XXLMXXBT
+    XXLMZEUR: Symbol = XXLMZEUR
+    XXLMZGBP: Symbol = XXLMZGBP
+    XXLMZUSD: Symbol = XXLMZUSD
+    XXMRXXBT: Symbol = XXMRXXBT
+    XXMRZEUR: Symbol = XXMRZEUR
+    XXMRZUSD: Symbol = XXMRZUSD
+    XXRPXXBT: Symbol = XXRPXXBT
+    XXRPZCAD: Symbol = XXRPZCAD
+    XXRPZEUR: Symbol = XXRPZEUR
+    XXRPZJPY: Symbol = XXRPZJPY
+    XXRPZUSD: Symbol = XXRPZUSD
+    XZECXXBT: Symbol = XZECXXBT
+    XZECZEUR: Symbol = XZECZEUR
+    XZECZUSD: Symbol = XZECZUSD
+    YFIEUR: Symbol = YFIEUR
+    YFIUSD: Symbol = YFIUSD
+    YFIXBT: Symbol = YFIXBT
+    YGGEUR: Symbol = YGGEUR
+    YGGUSD: Symbol = YGGUSD
+    ZEURZUSD: Symbol = ZEURZUSD
+    ZGBPZUSD: Symbol = ZGBPZUSD
+    ZRXEUR: Symbol = ZRXEUR
+    ZRXUSD: Symbol = ZRXUSD
+    ZRXXBT: Symbol = ZRXXBT
+    ZUSDZCAD: Symbol = ZUSDZCAD
+    ZUSDZJPY: Symbol = ZUSDZJPY
+
+    def __iter__(self) -> list[Symbol]:
+        return iter([ONEINCHEUR, ONEINCHUSD, AAVEETH, AAVEEUR, AAVEGBP, AAVEUSD, AAVEXBT, ACAEUR, ACAUSD, ACHEUR, ACHUSD, ADAAUD, ADAETH, ADAEUR, ADAGBP, ADAUSD, ADAUSDT, ADAXBT, ADXEUR, ADXUSD, AGLDEUR, AGLDUSD, AIREUR, AIRUSD, AKTEUR, AKTUSD, ALCXEUR, ALCXUSD, ALGOETH, ALGOEUR, ALGOGBP, ALGOUSD, ALGOUSDT, ALGOXBT, ALICEEUR, ALICEUSD, ALPHAEUR, ALPHAUSD, ANKREUR, ANKRUSD, ANKRXBT, ANTETH, ANTEUR, ANTUSD, ANTXBT, APEEUR, APEUSD, APEUSDT, API3EUR, API3USD, APTEUR, APTUSD, ARBEUR, ARBUSD, ARPAEUR, ARPAUSD, ASTREUR, ASTRUSD, ATLASEUR, ATLASUSD, ATOMETH, ATOMEUR, ATOMGBP, ATOMUSD, ATOMUSDT, ATOMXBT, AUDIOEUR, AUDIOUSD, AUDJPY, AUDUSD, AVAXEUR, AVAXUSD, AVAXUSDT, AXSEUR, AXSUSD, BADGEREUR, BADGERUSD, BALEUR, BALUSD, BALXBT, BANDEUR, BANDUSD, BATETH, BATEUR, BATJPY, BATUSD, BATXBT, BCHAUD, BCHETH, BCHEUR, BCHGBP, BCHJPY, BCHUSD, BCHUSDT, BCHXBT, BICOEUR, BICOUSD, BITEUR, BITUSD, BLUREUR, BLURUSD, BLZEUR, BLZUSD, BNCEUR, BNCUSD, BNTEUR, BNTUSD, BNTXBT, BOBAEUR, BOBAUSD, BONDEUR, BONDUSD, BSXEUR, BSXUSD, BTTEUR, BTTUSD, C98EUR, C98USD, CELREUR, CELRUSD, CFGEUR, CFGUSD, CHREUR, CHRUSD, CHZEUR, CHZUSD, COMPEUR, COMPUSD, COMPXBT, COTIEUR, COTIUSD, CQTEUR, CQTUSD, CRVETH, CRVEUR, CRVUSD, CRVXBT, CSMEUR, CSMUSD, CTSIEUR, CTSIUSD, CVCEUR, CVCUSD, CVXEUR, CVXUSD, DAIEUR, DAIUSD, DAIUSDT, DASHEUR, DASHUSD, DASHXBT, DENTEUR, DENTUSD, DOTETH, DOTEUR, DOTGBP, DOTJPY, DOTUSD, DOTUSDT, DOTXBT, DYDXEUR, DYDXUSD, EGLDEUR, EGLDUSD, ENJEUR, ENJGBP, ENJJPY, ENJUSD, ENJXBT, ENSEUR, ENSUSD, EOSETH, EOSEUR, EOSUSD, EOSUSDT, EOSXBT, ETH2_SETH, ETHAED, ETHAUD, ETHCHF, ETHDAI, ETHUSDC, ETHUSDT, ETHWETH, ETHWEUR, ETHWUSD, EULEUR, EULUSD, EURAUD, EURCAD, EURCHF, EURGBP, EURJPY, EURTEUR, EURTUSD, EURTUSDT, EWTEUR, EWTGBP, EWTUSD, EWTXBT, FARMEUR, FARMUSD, FETEUR, FETUSD, FIDAEUR, FIDAUSD, FILETH, FILEUR, FILGBP, FILUSD, FILXBT, FISEUR, FISUSD, FLOWETH, FLOWEUR, FLOWGBP, FLOWUSD, FLOWXBT, FLREUR, FLRUSD, FORTHEUR, FORTHUSD, FTMEUR, FTMUSD, FXSEUR, FXSUSD, GALAEUR, GALAUSD, GALEUR, GALUSD, GARIEUR, GARIUSD, GHSTEUR, GHSTUSD, GHSTXBT, GLMREUR, GLMRUSD, GMTEUR, GMTUSD, GMXEUR, GMXUSD, GNOEUR, GNOUSD, GNOXBT, GRTEUR, GRTGBP, GRTUSD, GRTXBT, GSTEUR, GSTUSD, GTCEUR, GTCUSD, HDXEUR, HDXUSD, HFTEUR, HFTUSD, ICPEUR, ICPUSD, ICXETH, ICXEUR, ICXUSD, ICXXBT, IDEXEUR, IDEXUSD, IMXEUR, IMXUSD, INJEUR, INJUSD, INTREUR, INTRUSD, JASMYEUR, JASMYUSD, JUNOEUR, JUNOUSD, KAREUR, KARUSD, KAVAETH, KAVAEUR, KAVAUSD, KAVAXBT, KEEPEUR, KEEPUSD, KEEPXBT, KEYEUR, KEYUSD, KILTEUR, KILTUSD, KINEUR, KINTEUR, KINTUSD, KINUSD, KNCETH, KNCEUR, KNCUSD, KNCXBT, KP3REUR, KP3RUSD, KSMDOT, KSMETH, KSMEUR, KSMGBP, KSMUSD, KSMXBT, LCXEUR, LCXUSD, LDOEUR, LDOUSD, LINKAUD, LINKETH, LINKEUR, LINKGBP, LINKJPY, LINKUSD, LINKUSDT, LINKXBT, LPTEUR, LPTGBP, LPTUSD, LPTXBT, LRCEUR, LRCUSD, LSKETH, LSKEUR, LSKUSD, LSKXBT, LTCAUD, LTCETH, LTCGBP, LTCUSDT, LUNA2EUR, LUNA2USD, LUNAEUR, LUNAUSD, MANAETH, MANAEUR, MANAUSD, MANAUSDT, MANAXBT, MASKEUR, MASKUSD, MATICEUR, MATICGBP, MATICUSD, MATICUSDT, MATICXBT, MCEUR, MCUSD, MINAEUR, MINAGBP, MINAUSD, MINAXBT, MIREUR, MIRUSD, MKREUR, MKRUSD, MKRXBT, MNGOEUR, MNGOUSD, MOVREUR, MOVRUSD, MSOLEUR, MSOLUSD, MULTIEUR, MULTIUSD, MVEUR, MVUSD, MXCEUR, MXCUSD, NANOETH, NANOEUR, NANOUSD, NANOXBT, NEAREUR, NEARUSD, NMREUR, NMRUSD, NODLEUR, NODLUSD, NYMEUR, NYMUSD, NYMXBT, OCEANEUR, OCEANGBP, OCEANUSD, OCEANXBT, OGNEUR, OGNUSD, OMGETH, OMGEUR, OMGJPY, OMGUSD, OMGXBT, ORCAEUR, ORCAUSD, OXTEUR, OXTUSD, OXTXBT, OXYEUR, OXYUSD, PARAEUR, PARAUSD, PAXGETH, PAXGEUR, PAXGUSD, PAXGXBT, PERPEUR, PERPUSD, PHAEUR, PHAUSD, PLAEUR, PLAUSD, POLISEUR, POLISUSD, POLSEUR, POLSUSD, PONDEUR, PONDUSD, POWREUR, POWRUSD, PSTAKEEUR, PSTAKEUSD, QNTEUR, QNTUSD, QTUMETH, QTUMEUR, QTUMUSD, QTUMXBT, RADEUR, RADUSD, RAREEUR, RAREUSD, RARIEUR, RARIUSD, RARIXBT, RAYEUR, RAYUSD, RBCEUR, RBCUSD, RENEUR, RENUSD, RENXBT, REPV2ETH, REPV2EUR, REPV2USD, REPV2XBT, REQEUR, REQUSD, RLCEUR, RLCUSD, RNDREUR, RNDRUSD, ROOKEUR, ROOKUSD, RPLEUR, RPLUSD, RUNEEUR, RUNEUSD, SAMOEUR, SAMOUSD, SANDEUR, SANDGBP, SANDUSD, SANDXBT, SBREUR, SBRUSD, SCETH, SCEUR, SCRTEUR, SCRTUSD, SCUSD, SCXBT, SDNEUR, SDNUSD, SGBEUR, SGBUSD, SHIBEUR, SHIBUSD, SHIBUSDT, SNXETH, SNXEUR, SNXUSD, SNXXBT, SOLEUR, SOLGBP, SOLUSD, SOLUSDT, SOLXBT, SPELLEUR, SPELLUSD, SRMEUR, SRMUSD, SRMXBT, STEPEUR, STEPUSD, STGEUR, STGUSD, STORJEUR, STORJUSD, STORJXBT, STXEUR, STXUSD, SUIEUR, SUIUSD, SUPEREUR, SUPERUSD, SUSHIEUR, SUSHIGBP, SUSHIUSD, SUSHIXBT, SYNEUR, SYNUSD, TBTCEUR, TBTCUSD, TBTCXBT, TEEREUR, TEERUSD, TEUR, TLMEUR, TLMUSD, TOKEEUR, TOKEUSD, TRIBEEUR, TRIBEUSD, TRUEUR, TRUUSD, TRXETH, TRXEUR, TRXUSD, TRXXBT, TUSD, TVKEUR, TVKUSD, UMAEUR, UMAUSD, UNFIEUR, UNFIUSD, UNIETH, UNIEUR, UNIUSD, UNIXBT, USDAED, USDCAUD, USDCCAD, USDCCHF, USDCEUR, USDCGBP, USDCHF, USDCUSD, USDCUSDT, USDTAUD, USDTCAD, USDTCHF, USDTEUR, USDTGBP, USDTJPY, USDTZUSD, USTEUR, USTUSD, USTUSDC, USTUSDT, WAVESETH, WAVESEUR, WAVESUSD, WAVESXBT, WAXLEUR, WAXLUSD, WBTCEUR, WBTCUSD, WBTCXBT, WOOEUR, WOOUSD, XBTAED, XBTAUD, XBTCHF, XBTDAI, XBTUSDC, XBTUSDT, XCNEUR, XCNUSD, XDGEUR, XDGUSD, XDGUSDT, XETCXETH, XETCXXBT, XETCZEUR, XETCZUSD, XETHXXBT, XETHZCAD, XETHZEUR, XETHZGBP, XETHZJPY, XETHZUSD, XLTCXXBT, XLTCZEUR, XLTCZJPY, XLTCZUSD, XMLNXETH, XMLNXXBT, XMLNZEUR, XMLNZUSD, XMRUSDT, XREPXXBT, XREPZEUR, XREPZUSD, XRPAUD, XRPETH, XRPGBP, XRPUSDT, XRTEUR, XRTUSD, XTZAUD, XTZETH, XTZEUR, XTZGBP, XTZUSD, XTZUSDT, XTZXBT, XXBTZCAD, XXBTZEUR, XXBTZGBP, XXBTZJPY, XXBTZUSD, XXDGXXBT, XXLMXXBT, XXLMZEUR, XXLMZGBP, XXLMZUSD, XXMRXXBT, XXMRZEUR, XXMRZUSD, XXRPXXBT, XXRPZCAD, XXRPZEUR, XXRPZJPY, XXRPZUSD, XZECXXBT, XZECZEUR, XZECZUSD, YFIEUR, YFIUSD, YFIXBT, YGGEUR, YGGUSD, ZEURZUSD, ZGBPZUSD, ZRXEUR, ZRXUSD, ZRXXBT, ZUSDZCAD, ZUSDZJPY])
+
+kraken = Kraken()
